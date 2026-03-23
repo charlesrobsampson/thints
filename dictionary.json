@@ -1,0 +1,7464 @@
+{
+  "i:0001": {
+    "word": "𐑩𐑯𐑑",
+    "definition": "Actively existing and functioning; alive and operational.",
+    "group": "Existence, State & Absence",
+    "rank": 1,
+    "translations": [
+      "alive",
+      "active",
+      "live",
+      "existing",
+      "functioning",
+      "on"
+    ],
+    "vowel": "𐑩",
+    "suffix": "𐑯𐑑"
+  },
+  "sv:𐑧": {
+    "word": "𐑧",
+    "definition": "And / add / join — additive; connects elements, joins sets, performs addition. As verb: to add, combine, or join. As noun: addition, union. As modifier: additive.",
+    "group": "Single-Vowel Reserved Words",
+    "rank": 2,
+    "translations": [
+      "and",
+      "plus",
+      "also",
+      "addition"
+    ],
+    "vowel": "𐑧",
+    "suffix": ""
+  },
+  "i:0002": {
+    "word": "𐑩𐑙",
+    "definition": "General reference to an unspecified individual or entity; the concept of 'someone' or 'something'.",
+    "group": "Person, Self & Reference",
+    "rank": 3,
+    "translations": [
+      "someone",
+      "something",
+      "one",
+      "a person",
+      "anybody"
+    ],
+    "vowel": "𐑩",
+    "suffix": "𐑙"
+  },
+  "sv:𐑰": {
+    "word": "𐑰",
+    "definition": "I / me — first person pronoun; subject of a clause. Object/reflexive handled by prefix system.",
+    "group": "Single-Vowel Reserved Words",
+    "rank": 4,
+    "translations": [
+      "I",
+      "me",
+      "myself",
+      "my"
+    ],
+    "vowel": "𐑰",
+    "suffix": ""
+  },
+  "sv:𐑱": {
+    "word": "𐑱",
+    "definition": "It / they / them — third person pronoun; gender-neutral, any animacy. Number (singular/plural) handled by prefix system.",
+    "group": "Single-Vowel Reserved Words",
+    "rank": 5,
+    "translations": [
+      "it",
+      "they",
+      "them",
+      "their",
+      "he",
+      "she"
+    ],
+    "vowel": "𐑱",
+    "suffix": ""
+  },
+  "sv:𐑴": {
+    "word": "𐑴",
+    "definition": "You — second person pronoun.",
+    "group": "Single-Vowel Reserved Words",
+    "rank": 6,
+    "translations": [
+      "you",
+      "your"
+    ],
+    "vowel": "𐑴",
+    "suffix": ""
+  },
+  "sv:𐑲": {
+    "word": "𐑲",
+    "definition": "But / contrast / except — contrastive; introduces opposition or exception. As verb: to contrast or oppose. As noun: exception, contrast. As modifier: contrasting, exceptional.",
+    "group": "Single-Vowel Reserved Words",
+    "rank": 7,
+    "translations": [
+      "but",
+      "except",
+      "however",
+      "contrast"
+    ],
+    "vowel": "𐑲",
+    "suffix": ""
+  },
+  "i:0004": {
+    "word": "𐑦𐑙",
+    "definition": "Anaphora — a pronoun or referential word that substitutes for a noun or noun phrase already mentioned, pointing to a prior entity in the discourse. Covers 'it', 'this', 'that', 'the aforementioned'. Operates at the level of noun replacement. Distinct from 𐑻 which navigates to a named alias or defined concept.",
+    "group": "Person, Self & Reference",
+    "rank": 8,
+    "translations": [
+      "it",
+      "this",
+      "that",
+      "the one",
+      "the aforementioned",
+      "said",
+      "such"
+    ],
+    "vowel": "𐑦",
+    "suffix": "𐑙"
+  },
+  "sv:𐑩": {
+    "word": "𐑩",
+    "definition": "To / at / toward — directional; marks destination or location. As verb: to go toward, to arrive. As noun: destination, goal. As modifier: directed toward.",
+    "group": "Single-Vowel Reserved Words",
+    "rank": 9,
+    "translations": [
+      "to",
+      "toward",
+      "at",
+      "destination"
+    ],
+    "vowel": "𐑩",
+    "suffix": ""
+  },
+  "sv:𐑦": {
+    "word": "𐑦",
+    "definition": "If / condition / require — conditional; introduces conditional clauses. As verb: to condition, to require. As noun: condition, requirement. As modifier: conditional, contingent.",
+    "group": "Single-Vowel Reserved Words",
+    "rank": 10,
+    "translations": [
+      "if",
+      "condition",
+      "require",
+      "when"
+    ],
+    "vowel": "𐑦",
+    "suffix": ""
+  },
+  "i:0005": {
+    "word": "𐑩𐑯𐑟",
+    "definition": "A relationship linking two elements; setting one as condition or context for the other.",
+    "group": "Logic & Connectives",
+    "rank": 11,
+    "translations": [
+      "of",
+      "between",
+      "relating",
+      "concerning",
+      "linking",
+      "to"
+    ],
+    "vowel": "𐑩",
+    "suffix": "𐑯𐑟"
+  },
+  "i:0006": {
+    "word": "𐑩𐑯𐑛",
+    "definition": "A temporal marker indicating when something occurs.",
+    "group": "Time — Abstract & Sequence",
+    "rank": 12,
+    "translations": [
+      "when",
+      "at the time",
+      "timing",
+      "temporal",
+      "at",
+      "schedule"
+    ],
+    "vowel": "𐑩",
+    "suffix": "𐑯𐑛"
+  },
+  "sv:𐑨": {
+    "word": "𐑨",
+    "definition": "Or / choose / option — disjunctive; introduces alternatives. As verb: to choose, alternate. As noun: option, alternative. As modifier: optional, alternative.",
+    "group": "Single-Vowel Reserved Words",
+    "rank": 13,
+    "translations": [
+      "or",
+      "either",
+      "option",
+      "choose"
+    ],
+    "vowel": "𐑨",
+    "suffix": ""
+  },
+  "i:0007": {
+    "word": "𐑦𐑯𐑛",
+    "definition": "A point or period after the present; upcoming.",
+    "group": "Time — Abstract & Sequence",
+    "rank": 14,
+    "translations": [
+      "future",
+      "next",
+      "soon",
+      "later",
+      "upcoming",
+      "after"
+    ],
+    "vowel": "𐑦",
+    "suffix": "𐑯𐑛"
+  },
+  "sv:𐑫": {
+    "word": "𐑫",
+    "definition": "In / enter / contain — locative; marks interior position or entry. As verb: to enter, to contain. As noun: interior, content. As modifier: inner, internal.",
+    "group": "Single-Vowel Reserved Words",
+    "rank": 15,
+    "translations": [
+      "in",
+      "inside",
+      "enter",
+      "within"
+    ],
+    "vowel": "𐑫",
+    "suffix": ""
+  },
+  "i:0008": {
+    "word": "𐑩𐑒𐑕",
+    "definition": "The extent, magnitude, or intensity of something; how much.",
+    "group": "Quantity & Degree",
+    "rank": 16,
+    "translations": [
+      "amount",
+      "degree",
+      "extent",
+      "magnitude",
+      "level",
+      "how much"
+    ],
+    "vowel": "𐑩",
+    "suffix": "𐑒𐑕"
+  },
+  "i:0009": {
+    "word": "𐑩𐑯𐑕",
+    "definition": "Relating to interior position, internal composition, or close proximity.",
+    "group": "Negative & Contractive",
+    "rank": 17,
+    "translations": [
+      "in",
+      "inside",
+      "internal",
+      "within",
+      "inner",
+      "close"
+    ],
+    "vowel": "𐑩",
+    "suffix": "𐑯𐑕"
+  },
+  "sv:𐑵": {
+    "word": "𐑵",
+    "definition": "We / us — first person plural inclusive (speaker + addressee + others).",
+    "group": "Single-Vowel Reserved Words",
+    "rank": 18,
+    "translations": [
+      "we",
+      "us",
+      "our"
+    ],
+    "vowel": "𐑵",
+    "suffix": ""
+  },
+  "i:0010": {
+    "word": "𐑦𐑯𐑑",
+    "definition": "The living, vital state of conscious existence.",
+    "group": "Existence, State & Absence",
+    "rank": 19,
+    "translations": [
+      "life",
+      "alive",
+      "living",
+      "vital",
+      "exist",
+      "being"
+    ],
+    "vowel": "𐑦",
+    "suffix": "𐑯𐑑"
+  },
+  "i:0011": {
+    "word": "𐑦𐑯𐑟",
+    "definition": "A concessive connective indicating persistence despite opposition.",
+    "group": "Logic & Connectives",
+    "rank": 20,
+    "translations": [
+      "yet",
+      "still",
+      "nevertheless",
+      "however",
+      "even so",
+      "but still"
+    ],
+    "vowel": "𐑦",
+    "suffix": "𐑯𐑟"
+  },
+  "sv:𐑷": {
+    "word": "𐑷",
+    "definition": "On / upon / active — locative; marks surface contact or active state. As verb: to place on, to activate. As noun: surface, support. As modifier: upon, active, enabled.",
+    "group": "Single-Vowel Reserved Words",
+    "rank": 21,
+    "translations": [
+      "on",
+      "upon",
+      "active",
+      "surface"
+    ],
+    "vowel": "𐑷",
+    "suffix": ""
+  },
+  "i:0013": {
+    "word": "𐑧𐑯𐑟",
+    "definition": "Negation; reversing or inverting the meaning of what follows.",
+    "group": "Logic & Connectives",
+    "rank": 22,
+    "translations": [
+      "not",
+      "no",
+      "negate"
+    ],
+    "vowel": "𐑧",
+    "suffix": "𐑯𐑟"
+  },
+  "i:0014": {
+    "word": "𐑩𐑒𐑑",
+    "definition": "The state of knowing, recognizing, or understanding; awareness of a fact or situation.",
+    "group": "Knowledge & Mind",
+    "rank": 23,
+    "translations": [
+      "know",
+      "understand",
+      "recognize",
+      "realize",
+      "awareness",
+      "knowledge"
+    ],
+    "vowel": "𐑩",
+    "suffix": "𐑒𐑑"
+  },
+  "sv:𐑪": {
+    "word": "𐑪",
+    "definition": "From / origin / source — ablative; marks starting point or origin. As verb: to originate, to depart. As noun: source, origin. As modifier: original, derived from.",
+    "group": "Single-Vowel Reserved Words",
+    "rank": 24,
+    "translations": [
+      "from",
+      "origin",
+      "source",
+      "since"
+    ],
+    "vowel": "𐑪",
+    "suffix": ""
+  },
+  "i:0015": {
+    "word": "𐑩𐑐𐑕",
+    "definition": "The mental act of wanting, intending, or planning; directed desire toward an outcome.",
+    "group": "Desire, Will & Intention",
+    "rank": 25,
+    "translations": [
+      "want",
+      "wish",
+      "intend",
+      "plan",
+      "desire",
+      "will"
+    ],
+    "vowel": "𐑩",
+    "suffix": "𐑐𐑕"
+  },
+  "i:0016": {
+    "word": "𐑧𐑯𐑛",
+    "definition": "A point in time relative to another; before, at, or after.",
+    "group": "Time — Abstract & Sequence",
+    "rank": 26,
+    "translations": [
+      "relative time",
+      "before",
+      "after",
+      "during",
+      "when",
+      "temporal"
+    ],
+    "vowel": "𐑧",
+    "suffix": "𐑯𐑛"
+  },
+  "sv:𐑶": {
+    "word": "𐑶",
+    "definition": "Up / raise / increase — upward; marks +Z direction, multiplication by 10 per step, or increase. As verb: to raise, increase, shift up. As noun: rise, increase. As modifier: upward, more.",
+    "group": "Single-Vowel Reserved Words",
+    "rank": 27,
+    "translations": [
+      "up",
+      "raise",
+      "increase",
+      "×10"
+    ],
+    "vowel": "𐑶",
+    "suffix": ""
+  },
+  "sv:𐑬": {
+    "word": "𐑬",
+    "definition": "Down / lower / decrease — downward; marks −Z direction, division by 10 per step, or decrease. As verb: to lower, decrease, shift down. As noun: fall, decrease. As modifier: downward, less.",
+    "group": "Single-Vowel Reserved Words",
+    "rank": 28,
+    "translations": [
+      "down",
+      "lower",
+      "decrease",
+      "÷10"
+    ],
+    "vowel": "𐑬",
+    "suffix": ""
+  },
+  "i:0018": {
+    "word": "𐑩𐑑𐑕",
+    "definition": "Adequate and generally approved; meeting minimum expectations.",
+    "group": "Evaluation, Quality & Morality",
+    "rank": 29,
+    "translations": [
+      "ok",
+      "acceptable",
+      "fine",
+      "good enough",
+      "adequate",
+      "alright"
+    ],
+    "vowel": "𐑩",
+    "suffix": "𐑑𐑕"
+  },
+  "i:0020": {
+    "word": "𐑨𐑯𐑟",
+    "definition": "A condition or requirement that must be met for a result to occur.",
+    "group": "Logic & Connectives",
+    "rank": 30,
+    "translations": [
+      "condition",
+      "requirement",
+      "must",
+      "need",
+      "necessary",
+      "prerequisite"
+    ],
+    "vowel": "𐑨",
+    "suffix": "𐑯𐑟"
+  },
+  "i:0022": {
+    "word": "𐑩𐑯𐑑𐑕",
+    "definition": "Expressing and elaborating on the essential characteristics of a concept; to describe or characterize what something is. Covers definition as semantic elaboration of meaning. Distinct from assigning an alias or label to content.",
+    "group": "Language & Expression",
+    "rank": 31,
+    "translations": [
+      "describe",
+      "characterize",
+      "explain",
+      "define",
+      "elaborate",
+      "express"
+    ],
+    "vowel": "𐑩",
+    "suffix": "𐑯𐑑𐑕"
+  },
+  "i:0023": {
+    "word": "𐑩𐑥𐑟",
+    "definition": "Beyond limits; existing or acting without external constraints.",
+    "group": "Positive & Expansive",
+    "rank": 32,
+    "translations": [
+      "out",
+      "beyond",
+      "outside",
+      "exceed",
+      "over",
+      "past"
+    ],
+    "vowel": "𐑩",
+    "suffix": "𐑥𐑟"
+  },
+  "i:0024": {
+    "word": "𐑦𐑑𐑕",
+    "definition": "A positive indication of agreement or approval; yes.",
+    "group": "Evaluation, Quality & Morality",
+    "rank": 33,
+    "translations": [
+      "yes",
+      "ok",
+      "agree",
+      "approved",
+      "positive",
+      "affirmative"
+    ],
+    "vowel": "𐑦",
+    "suffix": "𐑑𐑕"
+  },
+  "i:0026": {
+    "word": "𐑨𐑯𐑛",
+    "definition": "A span of time; duration or temporal extent.",
+    "group": "Time — Abstract & Sequence",
+    "rank": 34,
+    "translations": [
+      "duration",
+      "period",
+      "span",
+      "time",
+      "length",
+      "stretch"
+    ],
+    "vowel": "𐑨",
+    "suffix": "𐑯𐑛"
+  },
+  "i:0027": {
+    "word": "𐑦𐑥𐑟",
+    "definition": "Exceptional in size, quality, or impact; great.",
+    "group": "Positive & Expansive",
+    "rank": 35,
+    "translations": [
+      "great",
+      "big",
+      "large",
+      "excellent",
+      "outstanding",
+      "major"
+    ],
+    "vowel": "𐑦",
+    "suffix": "𐑥𐑟"
+  },
+  "i:0028": {
+    "word": "𐑩𐑥𐑐",
+    "definition": "A relational link indicating possession, origin, causation, or association.",
+    "group": "Relation & Causation",
+    "rank": 36,
+    "translations": [
+      "of",
+      "belonging to",
+      "caused by",
+      "from",
+      "related to",
+      "by"
+    ],
+    "vowel": "𐑩",
+    "suffix": "𐑥𐑐"
+  },
+  "i:0029": {
+    "word": "𐑩𐑙𐑟",
+    "definition": "The process of developing and applying skills and knowledge.",
+    "group": "Learning & Education",
+    "rank": 37,
+    "translations": [
+      "learn",
+      "study",
+      "develop",
+      "train",
+      "practice",
+      "education"
+    ],
+    "vowel": "𐑩",
+    "suffix": "𐑙𐑟"
+  },
+  "i:0031": {
+    "word": "𐑦𐑒𐑑",
+    "definition": "Practical comprehension; grasping how something works in real-world application.",
+    "group": "Knowledge & Mind",
+    "rank": 38,
+    "translations": [
+      "understand",
+      "grasp",
+      "comprehend",
+      "get it",
+      "practical knowledge"
+    ],
+    "vowel": "𐑦",
+    "suffix": "𐑒𐑑"
+  },
+  "i:0030": {
+    "word": "𐑩𐑐𐑑",
+    "definition": "The current spatial reference point; the place being indicated.",
+    "group": "Axes, Dimensions & Reference",
+    "rank": 39,
+    "translations": [
+      "here",
+      "this place",
+      "present location"
+    ],
+    "vowel": "𐑩",
+    "suffix": "𐑐𐑑"
+  },
+  "i:0032": {
+    "word": "𐑦𐑯𐑕",
+    "definition": "Near or adjacent; close in space, time, or relation.",
+    "group": "Negative & Contractive",
+    "rank": 40,
+    "translations": [
+      "near",
+      "close",
+      "adjacent",
+      "next to",
+      "nearby",
+      "proximate"
+    ],
+    "vowel": "𐑦",
+    "suffix": "𐑯𐑕"
+  },
+  "i:0033": {
+    "word": "𐑦𐑥𐑐",
+    "definition": "Having shared qualities; comparable or analogous to another.",
+    "group": "Relation & Causation",
+    "rank": 41,
+    "translations": [
+      "similar",
+      "like",
+      "comparable",
+      "analogous",
+      "alike",
+      "same kind"
+    ],
+    "vowel": "𐑦",
+    "suffix": "𐑥𐑐"
+  },
+  "i:0034": {
+    "word": "𐑱𐑯𐑛",
+    "definition": "A distinct span marking a stage of development.",
+    "group": "Time — Abstract & Sequence",
+    "rank": 42,
+    "translations": [
+      "period",
+      "era",
+      "stage",
+      "phase",
+      "episode",
+      "age"
+    ],
+    "vowel": "𐑱",
+    "suffix": "𐑯𐑛"
+  },
+  "i:0036": {
+    "word": "𐑩𐑯𐑕𐑑",
+    "definition": "Completely accurate and true; an exact reflection of reality.",
+    "group": "Truth & Certainty",
+    "rank": 43,
+    "translations": [
+      "true",
+      "accurate",
+      "exact",
+      "correct",
+      "real",
+      "factual"
+    ],
+    "vowel": "𐑩",
+    "suffix": "𐑯𐑕𐑑"
+  },
+  "i:0040": {
+    "word": "𐑦𐑯𐑑𐑕",
+    "definition": "The conveyance of meaning through spoken words; speech.",
+    "group": "Language & Expression",
+    "rank": 44,
+    "translations": [
+      "speak",
+      "say",
+      "talk",
+      "speech",
+      "language",
+      "verbal"
+    ],
+    "vowel": "𐑦",
+    "suffix": "𐑯𐑑𐑕"
+  },
+  "i:0041": {
+    "word": "𐑦𐑐𐑑",
+    "definition": "Orientation or alignment; facing toward a shared direction or purpose.",
+    "group": "Axes, Dimensions & Reference",
+    "rank": 45,
+    "translations": [
+      "toward",
+      "facing",
+      "oriented",
+      "aligned"
+    ],
+    "vowel": "𐑦",
+    "suffix": "𐑐𐑑"
+  },
+  "i:0042": {
+    "word": "𐑲𐑯𐑛",
+    "definition": "Occurring immediately after; quickly and urgently.",
+    "group": "Time — Abstract & Sequence",
+    "rank": 46,
+    "translations": [
+      "soon",
+      "immediately",
+      "shortly",
+      "quickly",
+      "right away",
+      "at once"
+    ],
+    "vowel": "𐑲",
+    "suffix": "𐑯𐑛"
+  },
+  "fw:𐑹": {
+    "word": "𐑹",
+    "definition": "Discourse marker: introduces a concrete example, specific instance, or illustration of the prior statement. The content following 𐑹 is a particular case of what was just said in the abstract or general. Takes a prefix indicating the grammatical role of the example. Does not open an alias span — it simply signals 'for instance'.",
+    "group": "Function Words",
+    "rank": 47,
+    "translations": [
+      "for example",
+      "for instance",
+      "such as",
+      "specifically",
+      "e.g.",
+      "namely"
+    ],
+    "vowel": "𐑹",
+    "suffix": ""
+  },
+  "i:0044": {
+    "word": "𐑩𐑜𐑟",
+    "definition": "Mastery of knowledge and skill; expertise that enables effective action.",
+    "group": "Work, Effort & Outcome",
+    "rank": 48,
+    "translations": [
+      "skill",
+      "expertise",
+      "mastery",
+      "ability",
+      "competence",
+      "talent"
+    ],
+    "vowel": "𐑩",
+    "suffix": "𐑜𐑟"
+  },
+  "i:0047": {
+    "word": "𐑩𐑛𐑟",
+    "definition": "Enthusiastic delight or admiration; an exclamation of pleasure or surprise.",
+    "group": "Positive Emotions",
+    "rank": 49,
+    "translations": [
+      "wow",
+      "amazing",
+      "delight",
+      "excitement",
+      "enthusiasm",
+      "thrill"
+    ],
+    "vowel": "𐑩",
+    "suffix": "𐑛𐑟"
+  },
+  "i:0051": {
+    "word": "𐑦𐑛𐑟",
+    "definition": "Joyful amusement and contentment; the state of laughing, smiling, and feeling satisfied.",
+    "group": "Positive Emotions",
+    "rank": 50,
+    "translations": [
+      "happy",
+      "joy",
+      "fun",
+      "amusement",
+      "laughter",
+      "contentment"
+    ],
+    "vowel": "𐑦",
+    "suffix": "𐑛𐑟"
+  },
+  "fw:𐑸": {
+    "word": "𐑸",
+    "definition": "Discourse marker: opens a span of native or mixed content being assigned to an alias. The content following 𐑸 — which may be one word or many, borrowed or native — is bound to the alias root that closes the span. That alias root then stands in for the entire spanned content for the rest of the conversation. Distinct from naming or describing (i:0301, i:0022).",
+    "group": "Function Words",
+    "rank": 51,
+    "translations": [
+      "alias follows",
+      "define as",
+      "call this",
+      "phrase marker"
+    ],
+    "vowel": "𐑸",
+    "suffix": ""
+  },
+  "i:0052": {
+    "word": "𐑧𐑯𐑕",
+    "definition": "Very small or minimal; barely perceptible.",
+    "group": "Negative & Contractive",
+    "rank": 52,
+    "translations": [
+      "small",
+      "little",
+      "tiny",
+      "minimal",
+      "slight",
+      "negligible"
+    ],
+    "vowel": "𐑧",
+    "suffix": "𐑯𐑕"
+  },
+  "i:0053": {
+    "word": "𐑩𐑯𐑛𐑟",
+    "definition": "The point at which something concludes and ceases.",
+    "group": "Beginning & Ending",
+    "rank": 53,
+    "translations": [
+      "end",
+      "finish",
+      "stop",
+      "conclude",
+      "terminate",
+      "final"
+    ],
+    "vowel": "𐑩",
+    "suffix": "𐑯𐑛𐑟"
+  },
+  "i:0054": {
+    "word": "𐑧𐑯𐑑",
+    "definition": "The current moment; existing or happening now.",
+    "group": "Existence, State & Absence",
+    "rank": 54,
+    "translations": [
+      "now",
+      "current",
+      "present",
+      "today",
+      "at this moment"
+    ],
+    "vowel": "𐑧",
+    "suffix": "𐑯𐑑"
+  },
+  "i:0055": {
+    "word": "𐑧𐑛𐑟",
+    "definition": "Deep affection and romantic attachment; the feeling of loving or being loved.",
+    "group": "Positive Emotions",
+    "rank": 55,
+    "translations": [
+      "love",
+      "affection",
+      "romance",
+      "attachment",
+      "adore",
+      "fondness"
+    ],
+    "vowel": "𐑧",
+    "suffix": "𐑛𐑟"
+  },
+  "i:0058": {
+    "word": "𐑩𐑯𐑡",
+    "definition": "A facial expression signaling interpersonal interest, emotion, or playful intent.",
+    "group": "Social Interaction",
+    "rank": 56,
+    "translations": [
+      "smile",
+      "wink",
+      "expression",
+      "grin",
+      "gesture",
+      "signal"
+    ],
+    "vowel": "𐑩",
+    "suffix": "𐑯𐑡"
+  },
+  "i:0057": {
+    "word": "𐑧𐑥𐑐",
+    "definition": "A means, resource, or approach that achieves a desired end.",
+    "group": "Relation & Causation",
+    "rank": 57,
+    "translations": [
+      "solution",
+      "means",
+      "way",
+      "method",
+      "answer",
+      "approach"
+    ],
+    "vowel": "𐑧",
+    "suffix": "𐑥𐑐"
+  },
+  "i:0059": {
+    "word": "𐑧𐑒𐑑",
+    "definition": "A foundational belief, principle, or concept accepted as true and used as a basis for reasoning.",
+    "group": "Knowledge & Mind",
+    "rank": 58,
+    "translations": [
+      "concept",
+      "idea",
+      "belief",
+      "principle",
+      "notion",
+      "assumption"
+    ],
+    "vowel": "𐑧",
+    "suffix": "𐑒𐑑"
+  },
+  "fw:𐑻": {
+    "word": "𐑻",
+    "definition": "Discourse marker: points backward to something already established in the conversation — a prior alias, a defined concept, or a previously named thing. Used to re-invoke content without repeating it in full. Takes a prefix for grammatical role. Operates at the discourse navigation level. Distinct from anaphoric pronouns (i:0004) which substitute at the noun level.",
+    "group": "Function Words",
+    "rank": 59,
+    "translations": [
+      "as established",
+      "referring back to",
+      "the previously defined",
+      "as mentioned"
+    ],
+    "vowel": "𐑻",
+    "suffix": ""
+  },
+  "i:0060": {
+    "word": "𐑧𐑯𐑑𐑕",
+    "definition": "The outward manifestation of an intention, desire, or creative act.",
+    "group": "Language & Expression",
+    "rank": 60,
+    "translations": [
+      "express",
+      "show",
+      "convey",
+      "communicate",
+      "voice",
+      "manifest"
+    ],
+    "vowel": "𐑧",
+    "suffix": "𐑯𐑑𐑕"
+  },
+  "i:0062": {
+    "word": "𐑱𐑯𐑟",
+    "definition": "Total absence, denial, or refusal; complete negation.",
+    "group": "Logic & Connectives",
+    "rank": 61,
+    "translations": [
+      "none",
+      "nothing",
+      "zero",
+      "never"
+    ],
+    "vowel": "𐑱",
+    "suffix": "𐑯𐑟"
+  },
+  "i:0065": {
+    "word": "𐑦𐑒𐑕",
+    "definition": "A vague, imprecise amount; some but not a specified quantity.",
+    "group": "Quantity & Degree",
+    "rank": 62,
+    "translations": [
+      "some",
+      "a bit",
+      "somewhat",
+      "a little",
+      "vague amount",
+      "roughly"
+    ],
+    "vowel": "𐑦",
+    "suffix": "𐑒𐑕"
+  },
+  "i:0067": {
+    "word": "𐑦𐑯𐑡",
+    "definition": "A committed relationship or bond that establishes mutual obligations.",
+    "group": "Social Interaction",
+    "rank": 63,
+    "translations": [
+      "bond",
+      "relationship",
+      "tie",
+      "connection",
+      "commitment",
+      "link"
+    ],
+    "vowel": "𐑦",
+    "suffix": "𐑯𐑡"
+  },
+  "fw:𐑽": {
+    "word": "𐑽",
+    "definition": "Discourse marker: introduces foreign, untranslated, or coined content. What follows is spoken in the source language or as-coined until an alias root closes the span. The prefix on 𐑽 indicates the grammatical role the borrowed content will play in the sentence. The closing alias root simultaneously ends the span and becomes the reusable handle for that content. Distinct from economic borrowing/renting (i:0944).",
+    "group": "Function Words",
+    "rank": 64,
+    "translations": [
+      "borrow [a word]",
+      "loanword marker",
+      "foreign word follows",
+      "code-switch"
+    ],
+    "vowel": "𐑽",
+    "suffix": ""
+  },
+  "i:0073": {
+    "word": "𐑦𐑜𐑟",
+    "definition": "A systematic method or practice; procedure applied to achieve results.",
+    "group": "Work, Effort & Outcome",
+    "rank": 65,
+    "translations": [
+      "method",
+      "technique",
+      "practice",
+      "exercise",
+      "process",
+      "procedure"
+    ],
+    "vowel": "𐑦",
+    "suffix": "𐑜𐑟"
+  },
+  "i:0072": {
+    "word": "𐑧𐑒𐑕",
+    "definition": "Applying to each element individually; every single one.",
+    "group": "Quantity & Degree",
+    "rank": 66,
+    "translations": [
+      "each",
+      "every",
+      "per",
+      "individually",
+      "one by one"
+    ],
+    "vowel": "𐑧",
+    "suffix": "𐑒𐑕"
+  },
+  "i:0074": {
+    "word": "𐑧𐑥𐑟",
+    "definition": "Including every member; complete coverage of a group.",
+    "group": "Positive & Expansive",
+    "rank": 67,
+    "translations": [
+      "all",
+      "every",
+      "whole",
+      "entire",
+      "complete",
+      "total"
+    ],
+    "vowel": "𐑧",
+    "suffix": "𐑥𐑟"
+  },
+  "i:0075": {
+    "word": "𐑩𐑣'",
+    "definition": "An internal space within a larger structure; a room or enclosed area.",
+    "group": "Place & Dwelling",
+    "rank": 68,
+    "translations": [
+      "room",
+      "space",
+      "chamber",
+      "interior",
+      "area",
+      "cavity"
+    ],
+    "vowel": "𐑩",
+    "suffix": "𐑣'"
+  },
+  "fw:𐑺": {
+    "word": "𐑺",
+    "definition": "Discourse marker: signals exact, verbatim reproduction of something said or written. What follows is quoted speech or text, reproduced as originally expressed. May be closed by an alias root (assigning the quote a handle) or self-closes at the end of the quoted material when the speaker returns to prefixed native words. Distinct from the semantic quality of being literal (i:0208).",
+    "group": "Function Words",
+    "rank": 69,
+    "translations": [
+      "quote",
+      "quoting",
+      "in their words",
+      "verbatim follows",
+      "said"
+    ],
+    "vowel": "𐑺",
+    "suffix": ""
+  },
+  "i:0078": {
+    "word": "𐑧𐑑𐑕",
+    "definition": "Outstanding quality; widely admired and excellent.",
+    "group": "Evaluation, Quality & Morality",
+    "rank": 70,
+    "translations": [
+      "great",
+      "excellent",
+      "outstanding",
+      "superb",
+      "remarkable",
+      "impressive"
+    ],
+    "vowel": "𐑧",
+    "suffix": "𐑑𐑕"
+  },
+  "i:0080": {
+    "word": "𐑨𐑛𐑟",
+    "definition": "Inner satisfaction and readiness; the feeling of being content and capable.",
+    "group": "Positive Emotions",
+    "rank": 71,
+    "translations": [
+      "satisfied",
+      "content",
+      "pleased",
+      "glad",
+      "happy",
+      "at ease"
+    ],
+    "vowel": "𐑨",
+    "suffix": "𐑛𐑟"
+  },
+  "i:0081": {
+    "word": "𐑧𐑯𐑡",
+    "definition": "A group of people united around shared interests or experiences.",
+    "group": "Social Interaction",
+    "rank": 72,
+    "translations": [
+      "group",
+      "community",
+      "club",
+      "team",
+      "gathering",
+      "collective"
+    ],
+    "vowel": "𐑧",
+    "suffix": "𐑯𐑡"
+  },
+  "i:0082": {
+    "word": "𐑩𐑟𐑛",
+    "definition": "A means of conveying or moving something; a carrier or channel.",
+    "group": "Containment & Connection",
+    "rank": 73,
+    "translations": [
+      "carry",
+      "convey",
+      "channel",
+      "vehicle",
+      "means",
+      "medium"
+    ],
+    "vowel": "𐑩",
+    "suffix": "𐑟𐑛"
+  },
+  "i:0083": {
+    "word": "𐑨𐑯𐑑",
+    "definition": "The absence of any quantity; zero.",
+    "group": "Existence, State & Absence",
+    "rank": 74,
+    "translations": [
+      "zero",
+      "none",
+      "nothing",
+      "null",
+      "absence",
+      "void"
+    ],
+    "vowel": "𐑨",
+    "suffix": "𐑯𐑑"
+  },
+  "i:0084": {
+    "word": "𐑧𐑐𐑑",
+    "definition": "The lateral spatial dimension; the line along which left and right move.",
+    "group": "Axes, Dimensions & Reference",
+    "rank": 75,
+    "translations": [
+      "X axis",
+      "lateral",
+      "left-right",
+      "width dimension"
+    ],
+    "vowel": "𐑧",
+    "suffix": "𐑐𐑑"
+  },
+  "i:0085": {
+    "word": "𐑩𐑙𐑒",
+    "definition": "The foundation or basis from which something arises or is supported.",
+    "group": "Structure & Order",
+    "rank": 76,
+    "translations": [
+      "foundation",
+      "base",
+      "basis",
+      "root",
+      "origin",
+      "ground"
+    ],
+    "vowel": "𐑩",
+    "suffix": "𐑙𐑒"
+  },
+  "i:0086": {
+    "word": "𐑩𐑝𐑟",
+    "definition": "Remorse or regret; the feeling arising from acknowledging an error or causing harm.",
+    "group": "Negative Emotions",
+    "rank": 77,
+    "translations": [
+      "sorry",
+      "regret",
+      "remorse",
+      "guilt",
+      "apology",
+      "shame"
+    ],
+    "vowel": "𐑩",
+    "suffix": "𐑝𐑟"
+  },
+  "i:0087": {
+    "word": "𐑧𐑙",
+    "definition": "The concept of a named or identifiable entity; a person, thing, or idea that can be pointed to.",
+    "group": "Person, Self & Reference",
+    "rank": 78,
+    "translations": [
+      "person",
+      "individual",
+      "entity",
+      "someone",
+      "identity"
+    ],
+    "vowel": "𐑧",
+    "suffix": "𐑙"
+  },
+  "i:0088": {
+    "word": "𐑦𐑣'",
+    "definition": "A designated area organized for gathering, habitation, or a specific purpose.",
+    "group": "Place & Dwelling",
+    "rank": 79,
+    "translations": [
+      "place",
+      "location",
+      "room",
+      "spot",
+      "venue",
+      "site"
+    ],
+    "vowel": "𐑦",
+    "suffix": "𐑣'"
+  },
+  "i:0090": {
+    "word": "𐑩𐑯𐑗",
+    "definition": "The degree or intensity of change; how much something changes.",
+    "group": "Change & Process",
+    "rank": 80,
+    "translations": [
+      "change",
+      "shift",
+      "degree",
+      "intensity",
+      "abrupt",
+      "sudden"
+    ],
+    "vowel": "𐑩",
+    "suffix": "𐑯𐑗"
+  },
+  "i:0091": {
+    "word": "𐑧𐑜𐑟",
+    "definition": "Active engagement combining care and authority; managing and doing.",
+    "group": "Work, Effort & Outcome",
+    "rank": 81,
+    "translations": [
+      "manage",
+      "do",
+      "act",
+      "engage",
+      "work",
+      "operate"
+    ],
+    "vowel": "𐑧",
+    "suffix": "𐑜𐑟"
+  },
+  "alias:1": {
+    "word": "𐑩𐑕𐑒𐑑",
+    "definition": "Alias root 1. A reusable conversational handle assigned by a borrow (𐑽) or phrase-alias (𐑸) span. Closes the open span and simultaneously becomes the word that represents that borrowed or aliased content for the rest of the conversation. Takes any prefix for grammatical role. Can be reassigned.",
+    "group": "Alias Roots",
+    "rank": 82,
+    "translations": [
+      "[alias 1]",
+      "A1"
+    ],
+    "vowel": "𐑩",
+    "suffix": "𐑕𐑒𐑑"
+  },
+  "alias:2": {
+    "word": "𐑦𐑯𐑡𐑛",
+    "definition": "Alias root 2. A reusable conversational handle assigned by a borrow (𐑽) or phrase-alias (𐑸) span. Closes the open span and simultaneously becomes the word that represents that borrowed or aliased content for the rest of the conversation. Takes any prefix for grammatical role. Can be reassigned.",
+    "group": "Alias Roots",
+    "rank": 83,
+    "translations": [
+      "[alias 2]",
+      "A2"
+    ],
+    "vowel": "𐑦",
+    "suffix": "𐑯𐑡𐑛"
+  },
+  "alias:3": {
+    "word": "𐑧𐑓𐑑𐑕",
+    "definition": "Alias root 3. A reusable conversational handle assigned by a borrow (𐑽) or phrase-alias (𐑸) span. Closes the open span and simultaneously becomes the word that represents that borrowed or aliased content for the rest of the conversation. Takes any prefix for grammatical role. Can be reassigned.",
+    "group": "Alias Roots",
+    "rank": 84,
+    "translations": [
+      "[alias 3]",
+      "A3"
+    ],
+    "vowel": "𐑧",
+    "suffix": "𐑓𐑑𐑕"
+  },
+  "alias:4": {
+    "word": "𐑨𐑛𐑔",
+    "definition": "Alias root 4. A reusable conversational handle assigned by a borrow (𐑽) or phrase-alias (𐑸) span. Closes the open span and simultaneously becomes the word that represents that borrowed or aliased content for the rest of the conversation. Takes any prefix for grammatical role. Can be reassigned.",
+    "group": "Alias Roots",
+    "rank": 85,
+    "translations": [
+      "[alias 4]",
+      "A4"
+    ],
+    "vowel": "𐑨",
+    "suffix": "𐑛𐑔"
+  },
+  "alias:5": {
+    "word": "𐑱𐑞𐑟",
+    "definition": "Alias root 5. A reusable conversational handle assigned by a borrow (𐑽) or phrase-alias (𐑸) span. Closes the open span and simultaneously becomes the word that represents that borrowed or aliased content for the rest of the conversation. Takes any prefix for grammatical role. Can be reassigned.",
+    "group": "Alias Roots",
+    "rank": 86,
+    "translations": [
+      "[alias 5]",
+      "A5"
+    ],
+    "vowel": "𐑱",
+    "suffix": "𐑞𐑟"
+  },
+  "i:0092": {
+    "word": "𐑩𐑓𐑑",
+    "definition": "An activity involving engagement, cooperation, and interaction; a game.",
+    "group": "Play & Competition",
+    "rank": 87,
+    "translations": [
+      "game",
+      "play",
+      "activity",
+      "sport",
+      "engage",
+      "participate"
+    ],
+    "vowel": "𐑩",
+    "suffix": "𐑓𐑑"
+  },
+  "i:0094": {
+    "word": "𐑨𐑥𐑐",
+    "definition": "A means or method by which something is accomplished; the instrument.",
+    "group": "Relation & Causation",
+    "rank": 88,
+    "translations": [
+      "by",
+      "via",
+      "through",
+      "by means of",
+      "using",
+      "instrumental"
+    ],
+    "vowel": "𐑨",
+    "suffix": "𐑥𐑐"
+  },
+  "i:0095": {
+    "word": "𐑨𐑙",
+    "definition": "Specificity; identifying or singling out a particular individual or group.",
+    "group": "Person, Self & Reference",
+    "rank": 89,
+    "translations": [
+      "specific",
+      "particular",
+      "certain",
+      "designated",
+      "the one in question"
+    ],
+    "vowel": "𐑨",
+    "suffix": "𐑙"
+  },
+  "i:0096": {
+    "word": "𐑱𐑙",
+    "definition": "Broad, unspecified collection or group; referring to items in general without specifying which.",
+    "group": "Person, Self & Reference",
+    "rank": 90,
+    "translations": [
+      "general",
+      "various",
+      "some",
+      "a range of",
+      "unspecified"
+    ],
+    "vowel": "𐑱",
+    "suffix": "𐑙"
+  },
+  "i:0097": {
+    "word": "𐑨𐑯𐑕",
+    "definition": "Less far; at a smaller distance from a reference point.",
+    "group": "Negative & Contractive",
+    "rank": 91,
+    "translations": [
+      "closer",
+      "nearer",
+      "less far",
+      "shorter distance"
+    ],
+    "vowel": "𐑨",
+    "suffix": "𐑯𐑕"
+  },
+  "i:0098": {
+    "word": "𐑦𐑙𐑒",
+    "definition": "The relative rank or level of something within a hierarchy or system.",
+    "group": "Structure & Order",
+    "rank": 92,
+    "translations": [
+      "level",
+      "rank",
+      "grade",
+      "tier",
+      "stage",
+      "position"
+    ],
+    "vowel": "𐑦",
+    "suffix": "𐑙𐑒"
+  },
+  "i:0100": {
+    "word": "𐑱𐑯𐑕",
+    "definition": "On the opposite side; spanning from one limit to another.",
+    "group": "Negative & Contractive",
+    "rank": 93,
+    "translations": [
+      "opposite",
+      "across",
+      "other side",
+      "reverse",
+      "contrary",
+      "over"
+    ],
+    "vowel": "𐑱",
+    "suffix": "𐑯𐑕"
+  },
+  "i:0103": {
+    "word": "𐑱𐑥𐑐",
+    "definition": "Possibility or uncertainty; something that may or may not occur.",
+    "group": "Relation & Causation",
+    "rank": 94,
+    "translations": [
+      "maybe",
+      "possibly",
+      "might",
+      "could",
+      "perhaps",
+      "probability"
+    ],
+    "vowel": "𐑱",
+    "suffix": "𐑥𐑐"
+  },
+  "i:0105": {
+    "word": "𐑩𐑒𐑑𐑕",
+    "definition": "The visual perception of something; being seen or noticed.",
+    "group": "Perception & Senses",
+    "rank": 95,
+    "translations": [
+      "see",
+      "look",
+      "observe",
+      "sight",
+      "visual",
+      "notice"
+    ],
+    "vowel": "𐑩",
+    "suffix": "𐑒𐑑𐑕"
+  },
+  "i:0104": {
+    "word": "𐑨𐑐𐑑",
+    "definition": "Positional equality; being at the same level or extent.",
+    "group": "Axes, Dimensions & Reference",
+    "rank": 96,
+    "translations": [
+      "at",
+      "level with",
+      "equal position",
+      "same as"
+    ],
+    "vowel": "𐑨",
+    "suffix": "𐑐𐑑"
+  },
+  "i:0107": {
+    "word": "𐑩𐑓𐑕",
+    "definition": "An organized authority that regulates, controls, and maintains order.",
+    "group": "Power & Authority",
+    "rank": 97,
+    "translations": [
+      "government",
+      "authority",
+      "state",
+      "institution",
+      "administration",
+      "rule"
+    ],
+    "vowel": "𐑩",
+    "suffix": "𐑓𐑕"
+  },
+  "i:0106": {
+    "word": "𐑨𐑯𐑑𐑕",
+    "definition": "A direct address or interjection used to get someone's attention.",
+    "group": "Language & Expression",
+    "rank": 98,
+    "translations": [
+      "hey",
+      "hi",
+      "call out",
+      "address",
+      "hail",
+      "yo"
+    ],
+    "vowel": "𐑨",
+    "suffix": "𐑯𐑑𐑕"
+  },
+  "i:0108": {
+    "word": "𐑲𐑙",
+    "definition": "The male gender modifier; indicating masculine biological sex. Applies to any concept to specify the male instance.",
+    "group": "Person, Self & Reference",
+    "rank": 99,
+    "translations": [
+      "male",
+      "man",
+      "masculine"
+    ],
+    "vowel": "𐑲",
+    "suffix": "𐑙"
+  },
+  "i:0109": {
+    "word": "𐑩𐑖𐑑",
+    "definition": "The act of changing position or state; movement of any kind.",
+    "group": "Motion & Movement",
+    "rank": 100,
+    "translations": [
+      "move",
+      "motion",
+      "movement",
+      "shift",
+      "go",
+      "travel"
+    ],
+    "vowel": "𐑩",
+    "suffix": "𐑖𐑑"
+  },
+  "i:0110": {
+    "word": "𐑩𐑗𐑑",
+    "definition": "A parent; any person who contributes to the creation or raising of offspring.",
+    "group": "Family & Kinship",
+    "rank": 101,
+    "translations": [
+      "parent",
+      "caregiver",
+      "guardian",
+      "raise",
+      "parenting"
+    ],
+    "vowel": "𐑩",
+    "suffix": "𐑗𐑑"
+  },
+  "i:0111": {
+    "word": "𐑲𐑯𐑟",
+    "definition": "The reason or cause behind an event; expressing purpose or causation.",
+    "group": "Logic & Connectives",
+    "rank": 102,
+    "translations": [
+      "because",
+      "since",
+      "for",
+      "due to"
+    ],
+    "vowel": "𐑲",
+    "suffix": "𐑯𐑟"
+  },
+  "i:0115": {
+    "word": "𐑨𐑥𐑟",
+    "definition": "An additional or surplus element; more than before.",
+    "group": "Positive & Expansive",
+    "rank": 103,
+    "translations": [
+      "more",
+      "extra",
+      "additional",
+      "surplus",
+      "plus",
+      "added"
+    ],
+    "vowel": "𐑨",
+    "suffix": "𐑥𐑟"
+  },
+  "i:0116": {
+    "word": "𐑨𐑒𐑕",
+    "definition": "A relational or proportional connection between terms.",
+    "group": "Quantity & Degree",
+    "rank": 104,
+    "translations": [
+      "ratio",
+      "proportion",
+      "relation",
+      "per",
+      "rate",
+      "comparative"
+    ],
+    "vowel": "𐑨",
+    "suffix": "𐑒𐑕"
+  },
+  "i:0118": {
+    "word": "𐑩𐑒𐑕𐑑",
+    "definition": "Economic activity; the exchange of goods and services and the flow of value.",
+    "group": "Commerce & Money",
+    "rank": 105,
+    "translations": [
+      "economy",
+      "commerce",
+      "business",
+      "market",
+      "trade",
+      "economic"
+    ],
+    "vowel": "𐑩",
+    "suffix": "𐑒𐑕𐑑"
+  },
+  "i:0119": {
+    "word": "𐑦𐑯𐑛𐑟",
+    "definition": "The state of being first or earliest; the beginning.",
+    "group": "Beginning & Ending",
+    "rank": 106,
+    "translations": [
+      "first",
+      "begin",
+      "start",
+      "initial",
+      "earliest",
+      "opening"
+    ],
+    "vowel": "𐑦",
+    "suffix": "𐑯𐑛𐑟"
+  },
+  "i:0121": {
+    "word": "𐑲𐑯𐑕",
+    "definition": "A gap, opening, or space of separation.",
+    "group": "Negative & Contractive",
+    "rank": 107,
+    "translations": [
+      "gap",
+      "space",
+      "opening",
+      "absence",
+      "interval",
+      "separation"
+    ],
+    "vowel": "𐑲",
+    "suffix": "𐑯𐑕"
+  },
+  "i:0122": {
+    "word": "𐑲𐑥𐑐",
+    "definition": "A comparison of extent, degree, or manner between entities.",
+    "group": "Relation & Causation",
+    "rank": 108,
+    "translations": [
+      "as",
+      "like",
+      "compared to",
+      "in the same way",
+      "to the degree"
+    ],
+    "vowel": "𐑲",
+    "suffix": "𐑥𐑐"
+  },
+  "i:0123": {
+    "word": "𐑪𐑯𐑛",
+    "definition": "Lasting or enduring; persisting over time.",
+    "group": "Time — Abstract & Sequence",
+    "rank": 109,
+    "translations": [
+      "lasting",
+      "enduring",
+      "long",
+      "persistent",
+      "sustained",
+      "permanent"
+    ],
+    "vowel": "𐑪",
+    "suffix": "𐑯𐑛"
+  },
+  "i:0125": {
+    "word": "𐑱𐑛𐑟",
+    "definition": "Charm and appealing attractiveness; the quality of being delightful or pretty.",
+    "group": "Positive Emotions",
+    "rank": 110,
+    "translations": [
+      "cute",
+      "charming",
+      "lovely",
+      "sweet",
+      "pretty",
+      "appealing"
+    ],
+    "vowel": "𐑱",
+    "suffix": "𐑛𐑟"
+  },
+  "i:0127": {
+    "word": "𐑨𐑑𐑕",
+    "definition": "A standard of worth or quality; an assessment of value.",
+    "group": "Evaluation, Quality & Morality",
+    "rank": 111,
+    "translations": [
+      "quality",
+      "standard",
+      "grade",
+      "value",
+      "measure",
+      "assessment"
+    ],
+    "vowel": "𐑨",
+    "suffix": "𐑑𐑕"
+  },
+  "i:0129": {
+    "word": "𐑱𐑯𐑑𐑕",
+    "definition": "An informal friendly acknowledgment of another's presence.",
+    "group": "Language & Expression",
+    "rank": 112,
+    "translations": [
+      "hello",
+      "hi",
+      "hey",
+      "greet",
+      "acknowledge"
+    ],
+    "vowel": "𐑱",
+    "suffix": "𐑯𐑑𐑕"
+  },
+  "i:0131": {
+    "word": "𐑦𐑟𐑛",
+    "definition": "The state of being completely full or saturated.",
+    "group": "Containment & Connection",
+    "rank": 113,
+    "translations": [
+      "full",
+      "filled",
+      "saturated",
+      "packed",
+      "complete",
+      "capacity"
+    ],
+    "vowel": "𐑦",
+    "suffix": "𐑟𐑛"
+  },
+  "i:0130": {
+    "word": "𐑧𐑟𐑛",
+    "definition": "A component occupying a specific position within a larger whole.",
+    "group": "Containment & Connection",
+    "rank": 114,
+    "translations": [
+      "part",
+      "piece",
+      "component",
+      "element",
+      "section",
+      "slot"
+    ],
+    "vowel": "𐑧",
+    "suffix": "𐑟𐑛"
+  },
+  "i:0132": {
+    "word": "𐑦𐑝𐑟",
+    "definition": "Psychological unease, fear, or anxiety; a state of inner disturbance.",
+    "group": "Negative Emotions",
+    "rank": 115,
+    "translations": [
+      "fear",
+      "anxiety",
+      "worry",
+      "dread",
+      "distress",
+      "unease"
+    ],
+    "vowel": "𐑦",
+    "suffix": "𐑝𐑟"
+  },
+  "i:0136": {
+    "word": "𐑩𐑡𐑛",
+    "definition": "A seed-bearing product of a flowering plant; the result of plant reproduction.",
+    "group": "Living Things",
+    "rank": 116,
+    "translations": [
+      "fruit",
+      "produce",
+      "yield",
+      "harvest",
+      "result"
+    ],
+    "vowel": "𐑩",
+    "suffix": "𐑡𐑛"
+  },
+  "i:0138": {
+    "word": "𐑧𐑙𐑒",
+    "definition": "A systematic plan or framework organizing things into a purposeful structure.",
+    "group": "Structure & Order",
+    "rank": 117,
+    "translations": [
+      "system",
+      "plan",
+      "framework",
+      "structure",
+      "organization",
+      "design"
+    ],
+    "vowel": "𐑧",
+    "suffix": "𐑙𐑒"
+  },
+  "i:0139": {
+    "word": "𐑪𐑙",
+    "definition": "The female gender modifier; indicating feminine biological sex. Applies to any concept to specify the female instance.",
+    "group": "Person, Self & Reference",
+    "rank": 118,
+    "translations": [
+      "female",
+      "woman",
+      "feminine"
+    ],
+    "vowel": "𐑪",
+    "suffix": "𐑙"
+  },
+  "i:0140": {
+    "word": "𐑦𐑯𐑕𐑑",
+    "definition": "Exactness and precision; faithfully reflecting reality without ambiguity.",
+    "group": "Truth & Certainty",
+    "rank": 119,
+    "translations": [
+      "precise",
+      "exact",
+      "accurate",
+      "correct",
+      "faithful",
+      "rigorous"
+    ],
+    "vowel": "𐑦",
+    "suffix": "𐑯𐑕𐑑"
+  },
+  "i:0141": {
+    "word": "𐑦𐑙𐑟",
+    "definition": "The state of newly discovering or perceiving something.",
+    "group": "Learning & Education",
+    "rank": 120,
+    "translations": [
+      "discover",
+      "find out",
+      "new",
+      "experience",
+      "perceive",
+      "encounter"
+    ],
+    "vowel": "𐑦",
+    "suffix": "𐑙𐑟"
+  },
+  "i:0142": {
+    "word": "𐑦𐑒𐑑𐑕",
+    "definition": "Becoming aware through external contact or communication.",
+    "group": "Perception & Senses",
+    "rank": 121,
+    "translations": [
+      "aware",
+      "notice",
+      "perceive",
+      "sense",
+      "learn of",
+      "detect"
+    ],
+    "vowel": "𐑦",
+    "suffix": "𐑒𐑑𐑕"
+  },
+  "i:0144": {
+    "word": "𐑱𐑒𐑕",
+    "definition": "A measured or perceived quantity; relating to number.",
+    "group": "Quantity & Degree",
+    "rank": 122,
+    "translations": [
+      "number",
+      "quantity",
+      "count",
+      "amount",
+      "figure",
+      "numeric"
+    ],
+    "vowel": "𐑱",
+    "suffix": "𐑒𐑕"
+  },
+  "i:0145": {
+    "word": "𐑩𐑝𐑛",
+    "definition": "The source, record, or explanation of an event or condition.",
+    "group": "Narrative, Story & Creativity",
+    "rank": 123,
+    "translations": [
+      "account",
+      "record",
+      "source",
+      "explanation",
+      "report",
+      "history"
+    ],
+    "vowel": "𐑩",
+    "suffix": "𐑝𐑛"
+  },
+  "i:0146": {
+    "word": "𐑪𐑥𐑐",
+    "definition": "The state of being distinct or uniquely individual; separateness.",
+    "group": "Relation & Causation",
+    "rank": 124,
+    "translations": [
+      "different",
+      "distinct",
+      "separate",
+      "unique",
+      "other",
+      "apart"
+    ],
+    "vowel": "𐑪",
+    "suffix": "𐑥𐑐"
+  },
+  "i:0149": {
+    "word": "𐑱𐑯𐑑",
+    "definition": "Persistent existence within a larger context; membership in something ongoing.",
+    "group": "Existence, State & Absence",
+    "rank": 125,
+    "translations": [
+      "belong",
+      "part of",
+      "within",
+      "member",
+      "included",
+      "inside"
+    ],
+    "vowel": "𐑱",
+    "suffix": "𐑯𐑑"
+  },
+  "i:0150": {
+    "word": "𐑧𐑯𐑕𐑑",
+    "definition": "An objectively verifiable element of reality; a fact.",
+    "group": "Truth & Certainty",
+    "rank": 126,
+    "translations": [
+      "fact",
+      "truth",
+      "reality",
+      "data",
+      "information",
+      "evidence"
+    ],
+    "vowel": "𐑧",
+    "suffix": "𐑯𐑕𐑑"
+  },
+  "i:0152": {
+    "word": "𐑨𐑒𐑑",
+    "definition": "The mind and its faculties; mental perception, thought, feeling, and will.",
+    "group": "Knowledge & Mind",
+    "rank": 127,
+    "translations": [
+      "mind",
+      "mental",
+      "psychological",
+      "cognitive",
+      "psychic"
+    ],
+    "vowel": "𐑨",
+    "suffix": "𐑒𐑑"
+  },
+  "i:0154": {
+    "word": "𐑦𐑯𐑗",
+    "definition": "A sudden disruption causing cessation or termination.",
+    "group": "Change & Process",
+    "rank": 128,
+    "translations": [
+      "break",
+      "stop",
+      "disrupt",
+      "halt",
+      "interrupt",
+      "sudden end"
+    ],
+    "vowel": "𐑦",
+    "suffix": "𐑯𐑗"
+  },
+  "i:0153": {
+    "word": "𐑨𐑟𐑛",
+    "definition": "Simultaneously present and collaborating; together.",
+    "group": "Containment & Connection",
+    "rank": 129,
+    "translations": [
+      "together",
+      "joint",
+      "combined",
+      "collaborative",
+      "unified",
+      "co-"
+    ],
+    "vowel": "𐑨",
+    "suffix": "𐑟𐑛"
+  },
+  "i:0156": {
+    "word": "𐑧𐑝𐑟",
+    "definition": "A flaw, deficiency, or weakness that causes failure or harm.",
+    "group": "Negative Emotions",
+    "rank": 130,
+    "translations": [
+      "flaw",
+      "fault",
+      "weakness",
+      "defect",
+      "failure",
+      "shortcoming"
+    ],
+    "vowel": "𐑧",
+    "suffix": "𐑝𐑟"
+  },
+  "i:0158": {
+    "word": "𐑧𐑯𐑛𐑟",
+    "definition": "That which comes before in time or order; preceding.",
+    "group": "Beginning & Ending",
+    "rank": 131,
+    "translations": [
+      "before",
+      "prior",
+      "previous",
+      "earlier",
+      "preceding",
+      "former"
+    ],
+    "vowel": "𐑧",
+    "suffix": "𐑯𐑛𐑟"
+  },
+  "i:0160": {
+    "word": "𐑰𐑯𐑛",
+    "definition": "A transient moment of arrival or proximity in a sequence.",
+    "group": "Time — Abstract & Sequence",
+    "rank": 132,
+    "translations": [
+      "moment",
+      "instant",
+      "point",
+      "brief",
+      "transient",
+      "fleeting"
+    ],
+    "vowel": "𐑰",
+    "suffix": "𐑯𐑛"
+  },
+  "i:0162": {
+    "word": "𐑨𐑯𐑡",
+    "definition": "Direct personal interaction; friendship, romance, or collaboration with another.",
+    "group": "Social Interaction",
+    "rank": 133,
+    "translations": [
+      "friend",
+      "relationship",
+      "connection",
+      "interact",
+      "engage",
+      "bond"
+    ],
+    "vowel": "𐑨",
+    "suffix": "𐑯𐑡"
+  },
+  "i:0164": {
+    "word": "𐑲𐑒𐑕",
+    "definition": "A complete whole formed by combining all constituent parts.",
+    "group": "Quantity & Degree",
+    "rank": 134,
+    "translations": [
+      "total",
+      "whole",
+      "all",
+      "sum",
+      "entire",
+      "complete count"
+    ],
+    "vowel": "𐑲",
+    "suffix": "𐑒𐑕"
+  },
+  "i:0166": {
+    "word": "𐑱𐑑𐑕",
+    "definition": "Reciprocal support and fairness; what is mutually just and balanced.",
+    "group": "Evaluation, Quality & Morality",
+    "rank": 135,
+    "translations": [
+      "fair",
+      "equal",
+      "just",
+      "balanced",
+      "equity",
+      "mutual"
+    ],
+    "vowel": "𐑱",
+    "suffix": "𐑑𐑕"
+  },
+  "i:0168": {
+    "word": "𐑰𐑯𐑟",
+    "definition": "A marker introducing comparison, contrast, or the next element in a sequence.",
+    "group": "Logic & Connectives",
+    "rank": 136,
+    "translations": [
+      "then",
+      "next",
+      "but",
+      "rather",
+      "alternatively",
+      "instead"
+    ],
+    "vowel": "𐑰",
+    "suffix": "𐑯𐑟"
+  },
+  "i:0169": {
+    "word": "𐑨𐑙𐑒",
+    "definition": "The foremost, highest-ranking, or most significant element in a context.",
+    "group": "Structure & Order",
+    "rank": 137,
+    "translations": [
+      "top",
+      "main",
+      "chief",
+      "primary",
+      "first",
+      "leading"
+    ],
+    "vowel": "𐑨",
+    "suffix": "𐑙𐑒"
+  },
+  "i:0171": {
+    "word": "𐑦𐑖𐑑",
+    "definition": "A sudden forceful downward transition; falling or dropping abruptly.",
+    "group": "Motion & Movement",
+    "rank": 138,
+    "translations": [
+      "fall",
+      "drop",
+      "crash",
+      "collapse",
+      "plunge",
+      "tumble"
+    ],
+    "vowel": "𐑦",
+    "suffix": "𐑖𐑑"
+  },
+  "i:0172": {
+    "word": "𐑩𐑥𐑐𐑑",
+    "definition": "Powerful energy that ignites, illuminates, or destroys; fire.",
+    "group": "Nature & Elements",
+    "rank": 139,
+    "translations": [
+      "fire",
+      "flame",
+      "heat",
+      "burn",
+      "light",
+      "energy"
+    ],
+    "vowel": "𐑩",
+    "suffix": "𐑥𐑐𐑑"
+  },
+  "i:0173": {
+    "word": "𐑧𐑥𐑐𐑑",
+    "definition": "The earth's fundamental terrestrial substance; the natural ground.",
+    "group": "Nature & Elements",
+    "rank": 140,
+    "translations": [
+      "earth",
+      "ground",
+      "land",
+      "soil",
+      "nature",
+      "terrain"
+    ],
+    "vowel": "𐑧",
+    "suffix": "𐑥𐑐𐑑"
+  },
+  "i:0175": {
+    "word": "𐑨𐑜𐑟",
+    "definition": "Achieving or bringing into existence a goal through effort.",
+    "group": "Work, Effort & Outcome",
+    "rank": 141,
+    "translations": [
+      "achieve",
+      "accomplish",
+      "succeed",
+      "realize",
+      "complete",
+      "attain"
+    ],
+    "vowel": "𐑨",
+    "suffix": "𐑜𐑟"
+  },
+  "i:0176": {
+    "word": "𐑩𐑚𐑟",
+    "definition": "Requesting or seeking approval, consent, or something desired.",
+    "group": "Giving & Taking",
+    "rank": 142,
+    "translations": [
+      "ask",
+      "request",
+      "seek",
+      "inquire",
+      "petition",
+      "solicit"
+    ],
+    "vowel": "𐑩",
+    "suffix": "𐑚𐑟"
+  },
+  "i:0177": {
+    "word": "𐑧𐑙𐑟",
+    "definition": "An educational institution providing structured teaching.",
+    "group": "Learning & Education",
+    "rank": 143,
+    "translations": [
+      "school",
+      "institution",
+      "academy",
+      "educational",
+      "campus"
+    ],
+    "vowel": "𐑧",
+    "suffix": "𐑙𐑟"
+  },
+  "i:0178": {
+    "word": "𐑦𐑚𐑟",
+    "definition": "Accepting or releasing; letting something go or taking it in.",
+    "group": "Giving & Taking",
+    "rank": 144,
+    "translations": [
+      "accept",
+      "receive",
+      "release",
+      "let go",
+      "surrender",
+      "yield"
+    ],
+    "vowel": "𐑦",
+    "suffix": "𐑚𐑟"
+  },
+  "i:0180": {
+    "word": "𐑨𐑯𐑕𐑑",
+    "definition": "Steadfast and reliable; free from doubt or wavering.",
+    "group": "Truth & Certainty",
+    "rank": 145,
+    "translations": [
+      "certain",
+      "sure",
+      "reliable",
+      "stable",
+      "confident",
+      "definite"
+    ],
+    "vowel": "𐑨",
+    "suffix": "𐑯𐑕𐑑"
+  },
+  "i:0183": {
+    "word": "𐑲𐑛𐑟",
+    "definition": "Friendly warmth and sociable good humor; the quality of being easy and pleasant to be with.",
+    "group": "Positive Emotions",
+    "rank": 146,
+    "translations": [
+      "friendly",
+      "warm",
+      "sociable",
+      "affable",
+      "good-natured",
+      "pleasant"
+    ],
+    "vowel": "𐑲",
+    "suffix": "𐑛𐑟"
+  },
+  "i:0181": {
+    "word": "𐑱𐑜𐑟",
+    "definition": "Loss, failure, or deprivation; the experience of not achieving a goal.",
+    "group": "Work, Effort & Outcome",
+    "rank": 147,
+    "translations": [
+      "lose",
+      "loss",
+      "fail",
+      "failure",
+      "defeat",
+      "deprivation"
+    ],
+    "vowel": "𐑱",
+    "suffix": "𐑜𐑟"
+  },
+  "i:0182": {
+    "word": "𐑰𐑥𐑐",
+    "definition": "An additional or alternative element; something else or a different option.",
+    "group": "Relation & Causation",
+    "rank": 148,
+    "translations": [
+      "other",
+      "another",
+      "else",
+      "alternative",
+      "different",
+      "additional"
+    ],
+    "vowel": "𐑰",
+    "suffix": "𐑥𐑐"
+  },
+  "i:0188": {
+    "word": "𐑱𐑒𐑑",
+    "definition": "The faculty of retaining and recalling past experience; the stored record of what has been experienced.",
+    "group": "Knowledge & Mind",
+    "rank": 149,
+    "translations": [
+      "memory",
+      "remember",
+      "recall",
+      "recollection",
+      "remembrance"
+    ],
+    "vowel": "𐑱",
+    "suffix": "𐑒𐑑"
+  },
+  "i:0186": {
+    "word": "𐑪𐑯𐑕",
+    "definition": "The negative Y direction; toward and behind the observer.",
+    "group": "Negative & Contractive",
+    "rank": 150,
+    "translations": [
+      "backward",
+      "behind",
+      "back",
+      "-Y"
+    ],
+    "vowel": "𐑪",
+    "suffix": "𐑯𐑕"
+  },
+  "i:0193": {
+    "word": "𐑦𐑗𐑑",
+    "definition": "The male biological parent; the one who provided the fertilizing gamete.",
+    "group": "Family & Kinship",
+    "rank": 151,
+    "translations": [
+      "father",
+      "dad",
+      "biological father"
+    ],
+    "vowel": "𐑦",
+    "suffix": "𐑗𐑑"
+  },
+  "i:0192": {
+    "word": "𐑦𐑒𐑕𐑑",
+    "definition": "Money; a medium of exchange used to store and transfer value.",
+    "group": "Commerce & Money",
+    "rank": 152,
+    "translations": [
+      "money",
+      "cash",
+      "currency",
+      "funds",
+      "capital",
+      "coin"
+    ],
+    "vowel": "𐑦",
+    "suffix": "𐑒𐑕𐑑"
+  },
+  "i:0191": {
+    "word": "𐑩𐑙𐑒𐑕",
+    "definition": "A solemn promise or vow; a binding declaration of intent or truth.",
+    "group": "Belief, Spirit & Meaning",
+    "rank": 153,
+    "translations": [
+      "promise",
+      "vow",
+      "oath",
+      "pledge",
+      "swear",
+      "commitment"
+    ],
+    "vowel": "𐑩",
+    "suffix": "𐑙𐑒𐑕"
+  },
+  "i:0190": {
+    "word": "𐑪𐑯𐑑",
+    "definition": "Having stopped or departed; no longer continuing or present.",
+    "group": "Existence, State & Absence",
+    "rank": 154,
+    "translations": [
+      "gone",
+      "left",
+      "departed",
+      "finished",
+      "stopped",
+      "over"
+    ],
+    "vowel": "𐑪",
+    "suffix": "𐑯𐑑"
+  },
+  "i:0195": {
+    "word": "𐑦𐑐𐑕",
+    "definition": "Careful attention and vigilance; watchful oversight to prevent harm or error.",
+    "group": "Desire, Will & Intention",
+    "rank": 155,
+    "translations": [
+      "care",
+      "caution",
+      "vigilance",
+      "attention",
+      "watchfulness",
+      "mindfulness"
+    ],
+    "vowel": "𐑦",
+    "suffix": "𐑐𐑕"
+  },
+  "i:0199": {
+    "word": "𐑨𐑙𐑟",
+    "definition": "The deliberate conveyance of knowledge or guidance.",
+    "group": "Learning & Education",
+    "rank": 156,
+    "translations": [
+      "teach",
+      "instruct",
+      "guide",
+      "train",
+      "educate",
+      "direct"
+    ],
+    "vowel": "𐑨",
+    "suffix": "𐑙𐑟"
+  },
+  "i:0203": {
+    "word": "𐑲𐑑𐑕",
+    "definition": "Appropriate and fitting within a given context.",
+    "group": "Evaluation, Quality & Morality",
+    "rank": 157,
+    "translations": [
+      "appropriate",
+      "fitting",
+      "suitable",
+      "right",
+      "proper",
+      "relevant"
+    ],
+    "vowel": "𐑲",
+    "suffix": "𐑑𐑕"
+  },
+  "i:0204": {
+    "word": "𐑱𐑙𐑟",
+    "definition": "An exceptional innate capacity for adapting and thinking effectively.",
+    "group": "Learning & Education",
+    "rank": 158,
+    "translations": [
+      "talent",
+      "intelligence",
+      "gifted",
+      "smart",
+      "ability",
+      "apt"
+    ],
+    "vowel": "𐑱",
+    "suffix": "𐑙𐑟"
+  },
+  "i:0208": {
+    "word": "𐑱𐑯𐑕𐑑",
+    "definition": "The semantic quality of being literal — meaning exactly what is stated, without figurative, metaphorical, or embellished interpretation. Describes how an expression should be understood. Distinct from the discourse act of quoting someone verbatim.",
+    "group": "Truth & Certainty",
+    "rank": 159,
+    "translations": [
+      "literal",
+      "non-figurative",
+      "direct",
+      "plain meaning",
+      "exact sense",
+      "strict"
+    ],
+    "vowel": "𐑱",
+    "suffix": "𐑯𐑕𐑑"
+  },
+  "i:0206": {
+    "word": "𐑩𐑥𐑛",
+    "definition": "A state of poor health or physical distress; illness.",
+    "group": "Health & Medicine",
+    "rank": 160,
+    "translations": [
+      "sick",
+      "ill",
+      "unwell",
+      "disease",
+      "nausea",
+      "ailment"
+    ],
+    "vowel": "𐑩",
+    "suffix": "𐑥𐑛"
+  },
+  "i:0209": {
+    "word": "𐑦𐑙𐑒𐑕",
+    "definition": "The totality of all existence; everything that is.",
+    "group": "Belief, Spirit & Meaning",
+    "rank": 161,
+    "translations": [
+      "everything",
+      "all",
+      "universe",
+      "totality",
+      "existence",
+      "whole"
+    ],
+    "vowel": "𐑦",
+    "suffix": "𐑙𐑒𐑕"
+  },
+  "i:0211": {
+    "word": "𐑪𐑑𐑕",
+    "definition": "Unacceptable, offensive, or disagreeable; not satisfactory.",
+    "group": "Evaluation, Quality & Morality",
+    "rank": 162,
+    "translations": [
+      "bad",
+      "wrong",
+      "unacceptable",
+      "offensive",
+      "poor",
+      "disagreeable"
+    ],
+    "vowel": "𐑪",
+    "suffix": "𐑑𐑕"
+  },
+  "i:0215": {
+    "word": "𐑧𐑒𐑕𐑑",
+    "definition": "A transaction; a mutually agreed exchange of goods, services, or value.",
+    "group": "Commerce & Money",
+    "rank": 163,
+    "translations": [
+      "deal",
+      "transaction",
+      "sale",
+      "purchase",
+      "trade",
+      "exchange"
+    ],
+    "vowel": "𐑧",
+    "suffix": "𐑒𐑕𐑑"
+  },
+  "i:0217": {
+    "word": "𐑧𐑯𐑗",
+    "definition": "A transition from one state to another; change or exchange.",
+    "group": "Change & Process",
+    "rank": 164,
+    "translations": [
+      "change",
+      "shift",
+      "transition",
+      "transform",
+      "switch",
+      "alter"
+    ],
+    "vowel": "𐑧",
+    "suffix": "𐑯𐑗"
+  },
+  "i:0219": {
+    "word": "𐑨𐑯𐑛𐑟",
+    "definition": "Final and complete; the ultimate resolution.",
+    "group": "Beginning & Ending",
+    "rank": 165,
+    "translations": [
+      "final",
+      "last",
+      "complete",
+      "definitive",
+      "ultimate",
+      "finished"
+    ],
+    "vowel": "𐑨",
+    "suffix": "𐑯𐑛𐑟"
+  },
+  "i:0222": {
+    "word": "𐑰𐑑𐑕",
+    "definition": "Of great monetary worth; valuable for purchase or trade.",
+    "group": "Evaluation, Quality & Morality",
+    "rank": 166,
+    "translations": [
+      "valuable",
+      "expensive",
+      "precious",
+      "worth",
+      "costly",
+      "prized"
+    ],
+    "vowel": "𐑰",
+    "suffix": "𐑑𐑕"
+  },
+  "i:d0": {
+    "word": "𐑬𐑯𐑑",
+    "definition": "The digit zero; the numeric value 0. Used in counting, scales, and numeric expressions.",
+    "group": "Existence, State & Absence",
+    "rank": 167,
+    "translations": [
+      "0",
+      "zero",
+      "null",
+      "none",
+      "off"
+    ],
+    "vowel": "𐑬",
+    "suffix": "𐑯𐑑"
+  },
+  "i:0218": {
+    "word": "𐑲𐑯𐑑𐑕",
+    "definition": "A written representation of information; text.",
+    "group": "Language & Expression",
+    "rank": 168,
+    "translations": [
+      "write",
+      "written",
+      "text",
+      "document",
+      "letter",
+      "script"
+    ],
+    "vowel": "𐑲",
+    "suffix": "𐑯𐑑𐑕"
+  },
+  "i:0226": {
+    "word": "𐑱𐑯𐑡",
+    "definition": "A positive, respectful attitude conveying goodwill and admiration.",
+    "group": "Social Interaction",
+    "rank": 169,
+    "translations": [
+      "respect",
+      "admire",
+      "esteem",
+      "goodwill",
+      "regard",
+      "honor"
+    ],
+    "vowel": "𐑱",
+    "suffix": "𐑯𐑡"
+  },
+  "i:0228": {
+    "word": "𐑨𐑒𐑕𐑑",
+    "definition": "Payment for work or services; wages or compensation.",
+    "group": "Commerce & Money",
+    "rank": 170,
+    "translations": [
+      "pay",
+      "wage",
+      "salary",
+      "payment",
+      "fee",
+      "compensation"
+    ],
+    "vowel": "𐑨",
+    "suffix": "𐑒𐑕𐑑"
+  },
+  "i:0229": {
+    "word": "𐑲𐑜𐑟",
+    "definition": "An occupation and its associated tools and effort.",
+    "group": "Work, Effort & Outcome",
+    "rank": 171,
+    "translations": [
+      "job",
+      "work",
+      "occupation",
+      "task",
+      "tool",
+      "effort"
+    ],
+    "vowel": "𐑲",
+    "suffix": "𐑜𐑟"
+  },
+  "i:0231": {
+    "word": "𐑧𐑐𐑕",
+    "definition": "A firm decision or commitment; resolving definitively on a course of action.",
+    "group": "Desire, Will & Intention",
+    "rank": 172,
+    "translations": [
+      "decide",
+      "commit",
+      "resolve",
+      "determination",
+      "decision"
+    ],
+    "vowel": "𐑧",
+    "suffix": "𐑐𐑕"
+  },
+  "i:0233": {
+    "word": "𐑧𐑣'",
+    "definition": "A self-propelled vehicle; a mode of motorized transport.",
+    "group": "Place & Dwelling",
+    "rank": 173,
+    "translations": [
+      "car",
+      "vehicle",
+      "automobile",
+      "transport",
+      "motor"
+    ],
+    "vowel": "𐑧",
+    "suffix": "𐑣'"
+  },
+  "i:0237": {
+    "word": "𐑧𐑚𐑟",
+    "definition": "The absence of something needed or desired; lack.",
+    "group": "Giving & Taking",
+    "rank": 174,
+    "translations": [
+      "lack",
+      "without",
+      "absence",
+      "missing",
+      "deprived",
+      "devoid"
+    ],
+    "vowel": "𐑧",
+    "suffix": "𐑚𐑟"
+  },
+  "i:0242": {
+    "word": "𐑩𐑥𐑓",
+    "definition": "An uncertain opportunity with possible reward; odds-based risk.",
+    "group": "Danger & Protection",
+    "rank": 175,
+    "translations": [
+      "risk",
+      "chance",
+      "bet",
+      "gamble",
+      "odds",
+      "wager"
+    ],
+    "vowel": "𐑩",
+    "suffix": "𐑥𐑓"
+  },
+  "i:0241": {
+    "word": "𐑰𐑯𐑑",
+    "definition": "Complete stillness or dormancy; rest or cessation of activity.",
+    "group": "Existence, State & Absence",
+    "rank": 176,
+    "translations": [
+      "still",
+      "rest",
+      "dormant",
+      "static",
+      "dead",
+      "inactive"
+    ],
+    "vowel": "𐑰",
+    "suffix": "𐑯𐑑"
+  },
+  "i:0244": {
+    "word": "𐑲𐑯𐑡",
+    "definition": "A communicative gesture acknowledging someone's presence; a greeting.",
+    "group": "Social Interaction",
+    "rank": 177,
+    "translations": [
+      "greet",
+      "hello",
+      "acknowledge",
+      "welcome",
+      "salute",
+      "wave"
+    ],
+    "vowel": "𐑲",
+    "suffix": "𐑯𐑡"
+  },
+  "i:0245": {
+    "word": "𐑦𐑓𐑑",
+    "definition": "Lighthearted, imaginative activity for fun or competition.",
+    "group": "Play & Competition",
+    "rank": 178,
+    "translations": [
+      "play",
+      "game",
+      "fun",
+      "recreation",
+      "sport",
+      "frolic"
+    ],
+    "vowel": "𐑦",
+    "suffix": "𐑓𐑑"
+  },
+  "i:0248": {
+    "word": "𐑦𐑥𐑛",
+    "definition": "Overall unpleasantness or distress; pain or suffering.",
+    "group": "Health & Medicine",
+    "rank": 179,
+    "translations": [
+      "pain",
+      "hurt",
+      "suffer",
+      "discomfort",
+      "distress",
+      "ache"
+    ],
+    "vowel": "𐑦",
+    "suffix": "𐑥𐑛"
+  },
+  "i:0249": {
+    "word": "𐑪𐑯𐑑𐑕",
+    "definition": "An attention-drawing signal in conversation.",
+    "group": "Language & Expression",
+    "rank": 180,
+    "translations": [
+      "listen",
+      "attention",
+      "hey",
+      "signal",
+      "cue",
+      "note"
+    ],
+    "vowel": "𐑪",
+    "suffix": "𐑯𐑑𐑕"
+  },
+  "i:0250": {
+    "word": "𐑱𐑥𐑟",
+    "definition": "Open and available to all; unrestricted.",
+    "group": "Positive & Expansive",
+    "rank": 181,
+    "translations": [
+      "open",
+      "free",
+      "available",
+      "accessible",
+      "unrestricted",
+      "public"
+    ],
+    "vowel": "𐑱",
+    "suffix": "𐑥𐑟"
+  },
+  "i:0256": {
+    "word": "𐑧𐑗𐑑",
+    "definition": "The bond of kinship; connection through ancestry, birth, marriage, or adoption.",
+    "group": "Family & Kinship",
+    "rank": 182,
+    "translations": [
+      "family",
+      "relative",
+      "kin",
+      "relation",
+      "ancestry"
+    ],
+    "vowel": "𐑧",
+    "suffix": "𐑗𐑑"
+  },
+  "i:0254": {
+    "word": "𐑬𐑯𐑟",
+    "definition": "The state or condition that follows from an occurrence; a consequence.",
+    "group": "Logic & Connectives",
+    "rank": 183,
+    "translations": [
+      "therefore",
+      "so",
+      "then",
+      "consequence"
+    ],
+    "vowel": "𐑬",
+    "suffix": "𐑯𐑟"
+  },
+  "i:0255": {
+    "word": "𐑦𐑝𐑛",
+    "definition": "A structured narrative recounting past events with purpose.",
+    "group": "Narrative, Story & Creativity",
+    "rank": 184,
+    "translations": [
+      "story",
+      "tale",
+      "narrative",
+      "account",
+      "anecdote",
+      "chronicle"
+    ],
+    "vowel": "𐑦",
+    "suffix": "𐑝𐑛"
+  },
+  "i:0261": {
+    "word": "𐑨𐑚𐑟",
+    "definition": "The act of giving or granting; offering something to another.",
+    "group": "Giving & Taking",
+    "rank": 185,
+    "translations": [
+      "give",
+      "grant",
+      "offer",
+      "gift",
+      "donate",
+      "provide"
+    ],
+    "vowel": "𐑨",
+    "suffix": "𐑚𐑟"
+  },
+  "i:0266": {
+    "word": "𐑲𐑒𐑑",
+    "definition": "Careful evaluation of facts leading to a conclusion; reasoned judgment.",
+    "group": "Knowledge & Mind",
+    "rank": 186,
+    "translations": [
+      "judge",
+      "assess",
+      "evaluate",
+      "conclude",
+      "reasoning",
+      "judgment"
+    ],
+    "vowel": "𐑲",
+    "suffix": "𐑒𐑑"
+  },
+  "i:0267": {
+    "word": "𐑦𐑓𐑕",
+    "definition": "The highest position or title within an organization or context.",
+    "group": "Power & Authority",
+    "rank": 187,
+    "translations": [
+      "title",
+      "rank",
+      "position",
+      "role",
+      "leadership",
+      "heading"
+    ],
+    "vowel": "𐑦",
+    "suffix": "𐑓𐑕"
+  },
+  "i:0264": {
+    "word": "𐑧𐑓𐑑",
+    "definition": "A competitive encounter; rivalry between opposing parties.",
+    "group": "Play & Competition",
+    "rank": 188,
+    "translations": [
+      "compete",
+      "contest",
+      "match",
+      "rivalry",
+      "challenge",
+      "versus"
+    ],
+    "vowel": "𐑧",
+    "suffix": "𐑓𐑑"
+  },
+  "i:0263": {
+    "word": "𐑴𐑯𐑑",
+    "definition": "Persisting over time; remaining after others are gone.",
+    "group": "Existence, State & Absence",
+    "rank": 189,
+    "translations": [
+      "persist",
+      "remain",
+      "last",
+      "endure",
+      "stay",
+      "continue"
+    ],
+    "vowel": "𐑴",
+    "suffix": "𐑯𐑑"
+  },
+  "i:0268": {
+    "word": "𐑩𐑥𐑐𐑕",
+    "definition": "Producing satisfaction or nourishment; fulfilling.",
+    "group": "Food & Eating",
+    "rank": 190,
+    "translations": [
+      "satisfy",
+      "fulfilling",
+      "nourishing",
+      "filling",
+      "gratifying"
+    ],
+    "vowel": "𐑩",
+    "suffix": "𐑥𐑐𐑕"
+  },
+  "i:0270": {
+    "word": "𐑪𐑛𐑟",
+    "definition": "Inspiring affection or admiration; evoking endearment.",
+    "group": "Positive Emotions",
+    "rank": 191,
+    "translations": [
+      "adorable",
+      "lovable",
+      "endearing",
+      "dear",
+      "sweet",
+      "cherished"
+    ],
+    "vowel": "𐑪",
+    "suffix": "𐑛𐑟"
+  },
+  "i:0269": {
+    "word": "𐑧𐑝𐑛",
+    "definition": "Dance; rhythmic movement as artistic expression.",
+    "group": "Narrative, Story & Creativity",
+    "rank": 192,
+    "translations": [
+      "dance",
+      "dancing",
+      "choreography",
+      "rhythm",
+      "movement"
+    ],
+    "vowel": "𐑧",
+    "suffix": "𐑝𐑛"
+  },
+  "i:0274": {
+    "word": "𐑧𐑓𐑕",
+    "definition": "Assertive and duty-bound; strong in stance and imposing in obligation.",
+    "group": "Power & Authority",
+    "rank": 193,
+    "translations": [
+      "assertive",
+      "strong",
+      "authoritative",
+      "commanding",
+      "duty",
+      "obligation"
+    ],
+    "vowel": "𐑧",
+    "suffix": "𐑓𐑕"
+  },
+  "i:0272": {
+    "word": "𐑪𐑜𐑟",
+    "definition": "A supporting or auxiliary element that enables a larger whole.",
+    "group": "Work, Effort & Outcome",
+    "rank": 194,
+    "translations": [
+      "helper",
+      "support",
+      "assistant",
+      "aid",
+      "backup",
+      "enabler"
+    ],
+    "vowel": "𐑪",
+    "suffix": "𐑜𐑟"
+  },
+  "i:0273": {
+    "word": "𐑱𐑙𐑒",
+    "definition": "A unified whole formed systematically from a predefined plan.",
+    "group": "Structure & Order",
+    "rank": 195,
+    "translations": [
+      "unified",
+      "integrated",
+      "systematic",
+      "organized",
+      "whole",
+      "complete"
+    ],
+    "vowel": "𐑱",
+    "suffix": "𐑙𐑒"
+  },
+  "i:0276": {
+    "word": "𐑴𐑑𐑕",
+    "definition": "The status of being selected as the best; chosen.",
+    "group": "Evaluation, Quality & Morality",
+    "rank": 196,
+    "translations": [
+      "chosen",
+      "selected",
+      "preferred",
+      "elected",
+      "pick",
+      "best"
+    ],
+    "vowel": "𐑴",
+    "suffix": "𐑑𐑕"
+  },
+  "i:0279": {
+    "word": "𐑱𐑒𐑑𐑕",
+    "definition": "Color — hue value on a 0–9 scale mapping to specific positions on the color wheel: 0=Red, 1=Orange, 2=Yellow, 3=Green, 4=Teal, 5=Cyan, 6=Blue, 7=Indigo, 8=Violet, 9=Magenta. Decimals specify blends (e.g. 0.5=Red-Orange, 2.5=Yellow-Green). Optionally followed by lightness (0–4, default 2) and saturation (5–9, default 9). Example: color[6] = blue, color[6·0·9] = navy, color[6·4·6] = baby blue.",
+    "group": "Perception & Senses",
+    "rank": 197,
+    "translations": [
+      "color",
+      "hue",
+      "tint",
+      "shade",
+      "pigment",
+      "chroma"
+    ],
+    "vowel": "𐑱",
+    "suffix": "𐑒𐑑𐑕"
+  },
+  "i:0283": {
+    "word": "𐑵𐑯𐑑",
+    "definition": "A state of being held, supported, or in a particular position.",
+    "group": "Existence, State & Absence",
+    "rank": 198,
+    "translations": [
+      "hold",
+      "position",
+      "status",
+      "stance",
+      "state",
+      "condition"
+    ],
+    "vowel": "𐑵",
+    "suffix": "𐑯𐑑"
+  },
+  "i:0285": {
+    "word": "𐑨𐑣'",
+    "definition": "A location used for habitation; a home or dwelling place.",
+    "group": "Place & Dwelling",
+    "rank": 199,
+    "translations": [
+      "home",
+      "dwelling",
+      "residence",
+      "house",
+      "habitat",
+      "abode"
+    ],
+    "vowel": "𐑨",
+    "suffix": "𐑣'"
+  },
+  "i:0288": {
+    "word": "𐑰𐑛𐑟",
+    "definition": "Pleasing sweetness; a quality that evokes enjoyment, affection, and contentment.",
+    "group": "Positive Emotions",
+    "rank": 200,
+    "translations": [
+      "sweet",
+      "pleasant",
+      "delightful",
+      "nice",
+      "agreeable"
+    ],
+    "vowel": "𐑰",
+    "suffix": "𐑛𐑟"
+  },
+  "i:0291": {
+    "word": "𐑪𐑐𐑑𐑕",
+    "definition": "Quantity of matter in an object. Base unit: gram.",
+    "group": "Measurement — Physical Dimensions",
+    "rank": 201,
+    "translations": [
+      "mass",
+      "weight",
+      "gram",
+      "kilogram"
+    ],
+    "vowel": "𐑪",
+    "suffix": "𐑐𐑑𐑕"
+  },
+  "i:0295": {
+    "word": "𐑴𐑛𐑟",
+    "definition": "Intense pleasurable stimulation; a heightened state of feeling.",
+    "group": "Positive Emotions",
+    "rank": 202,
+    "translations": [
+      "thrill",
+      "excitement",
+      "pleasure",
+      "stimulation",
+      "rush",
+      "high"
+    ],
+    "vowel": "𐑴",
+    "suffix": "𐑛𐑟"
+  },
+  "i:0294": {
+    "word": "𐑱𐑟𐑛",
+    "definition": "A linear series of connections constraining freedom of movement.",
+    "group": "Containment & Connection",
+    "rank": 203,
+    "translations": [
+      "chain",
+      "link",
+      "connect",
+      "series",
+      "sequence",
+      "bind"
+    ],
+    "vowel": "𐑱",
+    "suffix": "𐑟𐑛"
+  },
+  "i:0299": {
+    "word": "𐑲𐑥𐑟",
+    "definition": "The positive Y direction; ahead, toward the front.",
+    "group": "Positive & Expansive",
+    "rank": 204,
+    "translations": [
+      "forward",
+      "ahead",
+      "front",
+      "+Y"
+    ],
+    "vowel": "𐑲",
+    "suffix": "𐑥𐑟"
+  },
+  "i:0302": {
+    "word": "𐑨𐑐𐑕",
+    "definition": "Inner strength and resolve in the face of difficulty; the capacity to persist through hardship.",
+    "group": "Desire, Will & Intention",
+    "rank": 205,
+    "translations": [
+      "courage",
+      "strength",
+      "resolve",
+      "willpower",
+      "resilience",
+      "fortitude"
+    ],
+    "vowel": "𐑨",
+    "suffix": "𐑐𐑕"
+  },
+  "i:0303": {
+    "word": "𐑨𐑓𐑑",
+    "definition": "Victorious; the state of having won or achieved superiority.",
+    "group": "Play & Competition",
+    "rank": 206,
+    "translations": [
+      "win",
+      "victory",
+      "champion",
+      "triumph",
+      "succeed",
+      "beat"
+    ],
+    "vowel": "𐑨",
+    "suffix": "𐑓𐑑"
+  },
+  "i:0301": {
+    "word": "𐑨𐑝𐑛",
+    "definition": "A proper name, title, or formal identifier assigned to a person, place, or thing to mark its identity or status. Covers naming as a semantic act — what something is called in the world. Distinct from the discourse operation of aliasing a phrase.",
+    "group": "Narrative, Story & Creativity",
+    "rank": 207,
+    "translations": [
+      "name",
+      "title",
+      "proper name",
+      "designation",
+      "label",
+      "identity"
+    ],
+    "vowel": "𐑨",
+    "suffix": "𐑝𐑛"
+  },
+  "i:0304": {
+    "word": "𐑱𐑚𐑟",
+    "definition": "Support, defense, or backing for something; acting on behalf of.",
+    "group": "Giving & Taking",
+    "rank": 208,
+    "translations": [
+      "support",
+      "defend",
+      "back",
+      "advocate",
+      "represent",
+      "for"
+    ],
+    "vowel": "𐑱",
+    "suffix": "𐑚𐑟"
+  },
+  "i:0307": {
+    "word": "𐑵𐑑𐑕",
+    "definition": "Having recognized worth or status; important and esteemed.",
+    "group": "Evaluation, Quality & Morality",
+    "rank": 209,
+    "translations": [
+      "important",
+      "valued",
+      "significant",
+      "esteemed",
+      "worthy",
+      "honored"
+    ],
+    "vowel": "𐑵",
+    "suffix": "𐑑𐑕"
+  },
+  "i:d1": {
+    "word": "𐑰𐑙",
+    "definition": "The digit one; the numeric value 1. A single unit.",
+    "group": "Person, Self & Reference",
+    "rank": 210,
+    "translations": [
+      "1",
+      "one",
+      "single",
+      "unit"
+    ],
+    "vowel": "𐑰",
+    "suffix": "𐑙"
+  },
+  "i:0309": {
+    "word": "𐑩𐑕𐑒𐑕",
+    "definition": "Prohibited; contrary to established rules or standards.",
+    "group": "Law & Justice",
+    "rank": 211,
+    "translations": [
+      "illegal",
+      "forbidden",
+      "prohibited",
+      "unlawful",
+      "banned",
+      "foul"
+    ],
+    "vowel": "𐑩",
+    "suffix": "𐑕𐑒𐑕"
+  },
+  "i:0311": {
+    "word": "𐑧𐑯𐑔",
+    "definition": "A unit of time equal to one-sixtieth of a minute; a very brief moment.",
+    "group": "Time — Measurement & Cycles",
+    "rank": 212,
+    "translations": [
+      "second",
+      "sec"
+    ],
+    "vowel": "𐑧",
+    "suffix": "𐑯𐑔"
+  },
+  "i:0314": {
+    "word": "𐑪𐑒𐑑",
+    "definition": "The act of assuming something as a starting point; reasoned presumption within logical bounds.",
+    "group": "Knowledge & Mind",
+    "rank": 213,
+    "translations": [
+      "assume",
+      "presume",
+      "suppose",
+      "take for granted",
+      "assumption"
+    ],
+    "vowel": "𐑪",
+    "suffix": "𐑒𐑑"
+  },
+  "i:0313": {
+    "word": "𐑰𐑜𐑟",
+    "definition": "Skilled coordination of resources toward a desired outcome.",
+    "group": "Work, Effort & Outcome",
+    "rank": 214,
+    "translations": [
+      "manage",
+      "coordinate",
+      "plan",
+      "orchestrate",
+      "execute",
+      "organize"
+    ],
+    "vowel": "𐑰",
+    "suffix": "𐑜𐑟"
+  },
+  "i:0315": {
+    "word": "𐑲𐑙𐑟",
+    "definition": "Ongoing supportive influence encouraging growth and development.",
+    "group": "Learning & Education",
+    "rank": 215,
+    "translations": [
+      "mentor",
+      "coach",
+      "guide",
+      "nurture",
+      "develop",
+      "cultivate"
+    ],
+    "vowel": "𐑲",
+    "suffix": "𐑙𐑟"
+  },
+  "i:0317": {
+    "word": "𐑧𐑖𐑑",
+    "definition": "Walking; traveling on foot.",
+    "group": "Motion & Movement",
+    "rank": 216,
+    "translations": [
+      "walk",
+      "go on foot",
+      "stroll",
+      "hike",
+      "step",
+      "tread"
+    ],
+    "vowel": "𐑧",
+    "suffix": "𐑖𐑑"
+  },
+  "i:0318": {
+    "word": "𐑧𐑥𐑛",
+    "definition": "A trained medical practitioner.",
+    "group": "Health & Medicine",
+    "rank": 217,
+    "translations": [
+      "doctor",
+      "physician",
+      "medic",
+      "surgeon",
+      "clinician"
+    ],
+    "vowel": "𐑧",
+    "suffix": "𐑥𐑛"
+  },
+  "i:0321": {
+    "word": "𐑨𐑓𐑕",
+    "definition": "The capacity for strength, influence, or control; the ability to act or cause change.",
+    "group": "Power & Authority",
+    "rank": 218,
+    "translations": [
+      "power",
+      "strength",
+      "force",
+      "influence",
+      "capacity",
+      "ability"
+    ],
+    "vowel": "𐑨",
+    "suffix": "𐑓𐑕"
+  },
+  "i:0325": {
+    "word": "𐑨𐑯𐑔",
+    "definition": "The period of darkness from sunset to sunrise.",
+    "group": "Time — Measurement & Cycles",
+    "rank": 219,
+    "translations": [
+      "night",
+      "nighttime"
+    ],
+    "vowel": "𐑨",
+    "suffix": "𐑯𐑔"
+  },
+  "i:0328": {
+    "word": "𐑱𐑣'",
+    "definition": "A passage or gateway enabling movement between spaces.",
+    "group": "Place & Dwelling",
+    "rank": 220,
+    "translations": [
+      "door",
+      "gate",
+      "entrance",
+      "opening",
+      "portal",
+      "access"
+    ],
+    "vowel": "𐑱",
+    "suffix": "𐑣'"
+  },
+  "i:0326": {
+    "word": "𐑱𐑥𐑐𐑑",
+    "definition": "The quality of floating or fluid movement above or through a medium.",
+    "group": "Nature & Elements",
+    "rank": 221,
+    "translations": [
+      "float",
+      "fluid",
+      "water",
+      "flow",
+      "liquid",
+      "buoyant"
+    ],
+    "vowel": "𐑱",
+    "suffix": "𐑥𐑐𐑑"
+  },
+  "i:0334": {
+    "word": "𐑪𐑯𐑡",
+    "definition": "The concept of two; a pair or dual quantity.",
+    "group": "Social Interaction",
+    "rank": 222,
+    "translations": [
+      "two",
+      "pair",
+      "dual",
+      "both",
+      "couple",
+      "twice"
+    ],
+    "vowel": "𐑪",
+    "suffix": "𐑯𐑡"
+  },
+  "i:0335": {
+    "word": "𐑱𐑓𐑑",
+    "definition": "Timely advantage; favorable circumstances for action.",
+    "group": "Play & Competition",
+    "rank": 223,
+    "translations": [
+      "opportunity",
+      "chance",
+      "timing",
+      "advantage",
+      "opening",
+      "lucky break"
+    ],
+    "vowel": "𐑱",
+    "suffix": "𐑓𐑑"
+  },
+  "i:0333": {
+    "word": "𐑫𐑯𐑟",
+    "definition": "Any single item chosen from a set of alternatives.",
+    "group": "Logic & Connectives",
+    "rank": 224,
+    "translations": [
+      "either",
+      "any one",
+      "whichever",
+      "one of",
+      "a choice"
+    ],
+    "vowel": "𐑫",
+    "suffix": "𐑯𐑟"
+  },
+  "i:0336": {
+    "word": "𐑱𐑝𐑛",
+    "definition": "Creative imagination and skill in devising and executing ideas.",
+    "group": "Narrative, Story & Creativity",
+    "rank": 225,
+    "translations": [
+      "creativity",
+      "imagination",
+      "creativity",
+      "craft",
+      "invention",
+      "artistry"
+    ],
+    "vowel": "𐑱",
+    "suffix": "𐑝𐑛"
+  },
+  "i:0332": {
+    "word": "𐑦𐑥𐑐𐑕",
+    "definition": "A social gathering centered on shared eating.",
+    "group": "Food & Eating",
+    "rank": 226,
+    "translations": [
+      "meal",
+      "lunch",
+      "dinner",
+      "feast",
+      "gathering",
+      "eat together"
+    ],
+    "vowel": "𐑦",
+    "suffix": "𐑥𐑐𐑕"
+  },
+  "i:0339": {
+    "word": "𐑨𐑝𐑟",
+    "definition": "Failure to retain or recall; the state of having forgotten something.",
+    "group": "Negative Emotions",
+    "rank": 227,
+    "translations": [
+      "forget",
+      "forgetting",
+      "forgetfulness",
+      "memory lapse",
+      "neglect"
+    ],
+    "vowel": "𐑨",
+    "suffix": "𐑝𐑟"
+  },
+  "i:0347": {
+    "word": "𐑱𐑒𐑕𐑑",
+    "definition": "Relating to commercial or industrial activity.",
+    "group": "Commerce & Money",
+    "rank": 228,
+    "translations": [
+      "business",
+      "commercial",
+      "industrial",
+      "trade",
+      "enterprise"
+    ],
+    "vowel": "𐑱",
+    "suffix": "𐑒𐑕𐑑"
+  },
+  "i:0343": {
+    "word": "𐑲𐑯𐑕𐑑",
+    "definition": "Clearly evident and precisely defined; leaving no doubt.",
+    "group": "Truth & Certainty",
+    "rank": 229,
+    "translations": [
+      "clear",
+      "obvious",
+      "evident",
+      "plain",
+      "explicit",
+      "definite"
+    ],
+    "vowel": "𐑲",
+    "suffix": "𐑯𐑕𐑑"
+  },
+  "i:0338": {
+    "word": "𐑱𐑯𐑔",
+    "definition": "The period of daylight from sunrise to sunset; a full 24-hour cycle.",
+    "group": "Time — Measurement & Cycles",
+    "rank": 230,
+    "translations": [
+      "day",
+      "daytime"
+    ],
+    "vowel": "𐑱",
+    "suffix": "𐑯𐑔"
+  },
+  "i:0345": {
+    "word": "𐑨𐑯𐑗",
+    "definition": "Relating to transformation; the alteration of form or appearance.",
+    "group": "Change & Process",
+    "rank": 231,
+    "translations": [
+      "transform",
+      "change",
+      "alter",
+      "modify",
+      "reshape",
+      "metamorphose"
+    ],
+    "vowel": "𐑨",
+    "suffix": "𐑯𐑗"
+  },
+  "i:0337": {
+    "word": "𐑲𐑣'",
+    "definition": "A defined area or bounded region with specific characteristics.",
+    "group": "Place & Dwelling",
+    "rank": 232,
+    "translations": [
+      "area",
+      "zone",
+      "region",
+      "territory",
+      "boundary",
+      "space"
+    ],
+    "vowel": "𐑲",
+    "suffix": "𐑣'"
+  },
+  "i:0346": {
+    "word": "𐑪𐑥𐑟",
+    "definition": "At the greatest distance from center; extreme.",
+    "group": "Positive & Expansive",
+    "rank": 233,
+    "translations": [
+      "extreme",
+      "far",
+      "maximum",
+      "utmost",
+      "outermost",
+      "edge"
+    ],
+    "vowel": "𐑪",
+    "suffix": "𐑥𐑟"
+  },
+  "i:0357": {
+    "word": "𐑲𐑙𐑒",
+    "definition": "An abstract standard or reference point defining a level or category.",
+    "group": "Structure & Order",
+    "rank": 234,
+    "translations": [
+      "standard",
+      "level",
+      "category",
+      "benchmark",
+      "criterion",
+      "grade"
+    ],
+    "vowel": "𐑲",
+    "suffix": "𐑙𐑒"
+  },
+  "i:0356": {
+    "word": "𐑱𐑡𐑛",
+    "definition": "A domesticated canine; the dog.",
+    "group": "Living Things",
+    "rank": 235,
+    "translations": [
+      "dog",
+      "canine",
+      "hound",
+      "pup",
+      "pet"
+    ],
+    "vowel": "𐑱",
+    "suffix": "𐑡𐑛"
+  },
+  "i:0367": {
+    "word": "𐑱𐑝𐑟",
+    "definition": "Disappointment and loss of hope; the feeling when expectations are not met.",
+    "group": "Negative Emotions",
+    "rank": 236,
+    "translations": [
+      "disappointed",
+      "let down",
+      "discouraged",
+      "dejected",
+      "disheartened"
+    ],
+    "vowel": "𐑱",
+    "suffix": "𐑝𐑟"
+  },
+  "i:0360": {
+    "word": "𐑰𐑯𐑡",
+    "definition": "An informal, egalitarian address used between people on equal footing.",
+    "group": "Social Interaction",
+    "rank": 237,
+    "translations": [
+      "hey",
+      "mate",
+      "buddy",
+      "pal",
+      "dude",
+      "informal address"
+    ],
+    "vowel": "𐑰",
+    "suffix": "𐑯𐑡"
+  },
+  "i:0358": {
+    "word": "𐑦𐑕𐑒𐑕",
+    "definition": "Fairness, entitlement, and adherence to accepted principles; what is just and right.",
+    "group": "Law & Justice",
+    "rank": 238,
+    "translations": [
+      "fair",
+      "just",
+      "right",
+      "justified",
+      "equity",
+      "fairness"
+    ],
+    "vowel": "𐑦",
+    "suffix": "𐑕𐑒𐑕"
+  },
+  "i:0362": {
+    "word": "𐑪𐑙𐑟",
+    "definition": "A person who teaches in an academic setting.",
+    "group": "Learning & Education",
+    "rank": 239,
+    "translations": [
+      "teacher",
+      "professor",
+      "instructor",
+      "educator",
+      "lecturer"
+    ],
+    "vowel": "𐑪",
+    "suffix": "𐑙𐑟"
+  },
+  "i:0363": {
+    "word": "𐑲𐑟𐑛",
+    "definition": "Packing or filling a space to capacity; stuffing.",
+    "group": "Containment & Connection",
+    "rank": 240,
+    "translations": [
+      "stuff",
+      "fill",
+      "pack",
+      "load",
+      "cram",
+      "dense"
+    ],
+    "vowel": "𐑲",
+    "suffix": "𐑟𐑛"
+  },
+  "i:0361": {
+    "word": "𐑴𐑯𐑕",
+    "definition": "Lacking firmness or support; weak or flaccid.",
+    "group": "Negative & Contractive",
+    "rank": 241,
+    "translations": [
+      "weak",
+      "soft",
+      "flaccid",
+      "limp",
+      "feeble",
+      "fragile"
+    ],
+    "vowel": "𐑴",
+    "suffix": "𐑯𐑕"
+  },
+  "i:0368": {
+    "word": "𐑨𐑗𐑑",
+    "definition": "A young or immature person; a child or youth who is a descendant.",
+    "group": "Family & Kinship",
+    "rank": 242,
+    "translations": [
+      "child",
+      "kid",
+      "youth",
+      "young",
+      "offspring",
+      "juvenile"
+    ],
+    "vowel": "𐑨",
+    "suffix": "𐑗𐑑"
+  },
+  "i:0371": {
+    "word": "𐑨𐑖𐑑",
+    "definition": "Waking up; transitioning from sleep to an alert, active state.",
+    "group": "Motion & Movement",
+    "rank": 243,
+    "translations": [
+      "wake",
+      "wake up",
+      "arise",
+      "rouse",
+      "get up",
+      "awaken"
+    ],
+    "vowel": "𐑨",
+    "suffix": "𐑖𐑑"
+  },
+  "i:0373": {
+    "word": "𐑲𐑓𐑑",
+    "definition": "Resulting in the attainment of objectives; successful.",
+    "group": "Play & Competition",
+    "rank": 244,
+    "translations": [
+      "succeed",
+      "achieve",
+      "accomplish",
+      "win",
+      "effective",
+      "successful"
+    ],
+    "vowel": "𐑲",
+    "suffix": "𐑓𐑑"
+  },
+  "i:0374": {
+    "word": "𐑪𐑙𐑒",
+    "definition": "An organized set of units in sequence or grouping; a list or series.",
+    "group": "Structure & Order",
+    "rank": 245,
+    "translations": [
+      "list",
+      "series",
+      "sequence",
+      "set",
+      "order",
+      "arrangement"
+    ],
+    "vowel": "𐑪",
+    "suffix": "𐑙𐑒"
+  },
+  "i:0369": {
+    "word": "𐑱𐑯𐑗",
+    "definition": "The capacity to adjust and endure across varied contexts.",
+    "group": "Change & Process",
+    "rank": 246,
+    "translations": [
+      "adapt",
+      "flexible",
+      "resilient",
+      "adjust",
+      "endure",
+      "cope"
+    ],
+    "vowel": "𐑱",
+    "suffix": "𐑯𐑗"
+  },
+  "i:0372": {
+    "word": "𐑲𐑝𐑛",
+    "definition": "Deliberate, expressive manipulation of sensory elements in the arts.",
+    "group": "Narrative, Story & Creativity",
+    "rank": 247,
+    "translations": [
+      "art",
+      "craft",
+      "skill",
+      "create",
+      "artistic",
+      "make"
+    ],
+    "vowel": "𐑲",
+    "suffix": "𐑝𐑛"
+  },
+  "i:0376": {
+    "word": "𐑴𐑯𐑡",
+    "definition": "Shared participation by a group in an activity or endeavor.",
+    "group": "Social Interaction",
+    "rank": 248,
+    "translations": [
+      "participate",
+      "join in",
+      "together",
+      "collective",
+      "shared",
+      "group activity"
+    ],
+    "vowel": "𐑴",
+    "suffix": "𐑯𐑡"
+  },
+  "i:0382": {
+    "word": "𐑱𐑖𐑑",
+    "definition": "A forceful throw or ejection; projecting something with force.",
+    "group": "Motion & Movement",
+    "rank": 249,
+    "translations": [
+      "throw",
+      "launch",
+      "shoot",
+      "fling",
+      "project",
+      "eject"
+    ],
+    "vowel": "𐑱",
+    "suffix": "𐑖𐑑"
+  },
+  "i:0381": {
+    "word": "𐑲𐑯𐑗",
+    "definition": "Becoming better; the process of improvement.",
+    "group": "Change & Process",
+    "rank": 250,
+    "translations": [
+      "improve",
+      "better",
+      "progress",
+      "advance",
+      "upgrade",
+      "refine"
+    ],
+    "vowel": "𐑲",
+    "suffix": "𐑯𐑗"
+  },
+  "i:0384": {
+    "word": "𐑪𐑝𐑛",
+    "definition": "A medium that records images using light; photography or film.",
+    "group": "Narrative, Story & Creativity",
+    "rank": 251,
+    "translations": [
+      "photo",
+      "photograph",
+      "film",
+      "image",
+      "picture",
+      "camera"
+    ],
+    "vowel": "𐑪",
+    "suffix": "𐑝𐑛"
+  },
+  "i:0387": {
+    "word": "𐑪𐑟𐑛",
+    "definition": "The concept of holding items together for transport or display.",
+    "group": "Containment & Connection",
+    "rank": 252,
+    "translations": [
+      "carry",
+      "hold together",
+      "bag",
+      "bundle",
+      "contain",
+      "support"
+    ],
+    "vowel": "𐑪",
+    "suffix": "𐑟𐑛"
+  },
+  "i:0398": {
+    "word": "𐑵𐑛𐑟",
+    "definition": "Producing strong emotional excitement; thrilling and electrifying.",
+    "group": "Positive Emotions",
+    "rank": 253,
+    "translations": [
+      "exciting",
+      "thrilling",
+      "electrifying",
+      "intense",
+      "exhilarating"
+    ],
+    "vowel": "𐑵",
+    "suffix": "𐑛𐑟"
+  },
+  "i:0400": {
+    "word": "𐑪𐑓𐑑",
+    "definition": "Favorable outcome; resulting from luck or good circumstances.",
+    "group": "Play & Competition",
+    "rank": 254,
+    "translations": [
+      "lucky",
+      "fortunate",
+      "successful",
+      "good outcome",
+      "fortunate result"
+    ],
+    "vowel": "𐑪",
+    "suffix": "𐑓𐑑"
+  },
+  "i:0394": {
+    "word": "𐑲𐑥𐑐𐑑",
+    "definition": "Cold, bleak, and dry; harsh and lacking warmth.",
+    "group": "Nature & Elements",
+    "rank": 255,
+    "translations": [
+      "cold",
+      "harsh",
+      "bleak",
+      "dry",
+      "frigid",
+      "icy"
+    ],
+    "vowel": "𐑲",
+    "suffix": "𐑥𐑐𐑑"
+  },
+  "i:0399": {
+    "word": "𐑨𐑥𐑛",
+    "definition": "Treatment aimed at restoring health and relieving symptoms.",
+    "group": "Health & Medicine",
+    "rank": 256,
+    "translations": [
+      "treat",
+      "cure",
+      "heal",
+      "therapy",
+      "treatment",
+      "remedy"
+    ],
+    "vowel": "𐑨",
+    "suffix": "𐑥𐑛"
+  },
+  "i:0396": {
+    "word": "𐑧𐑥𐑐𐑕",
+    "definition": "A small portion of food; a snack or appetizer.",
+    "group": "Food & Eating",
+    "rank": 257,
+    "translations": [
+      "snack",
+      "bite",
+      "appetizer",
+      "nibble",
+      "tidbit"
+    ],
+    "vowel": "𐑧",
+    "suffix": "𐑥𐑐𐑕"
+  },
+  "i:0389": {
+    "word": "𐑵𐑯𐑕",
+    "definition": "Divided into parts; the per-unit or fractional concept.",
+    "group": "Negative & Contractive",
+    "rank": 258,
+    "translations": [
+      "per",
+      "divided",
+      "fractional",
+      "ratio",
+      "each",
+      "split"
+    ],
+    "vowel": "𐑵",
+    "suffix": "𐑯𐑕"
+  },
+  "i:0393": {
+    "word": "𐑷𐑯𐑕",
+    "definition": "At or forming the extreme boundary separating two areas.",
+    "group": "Negative & Contractive",
+    "rank": 259,
+    "translations": [
+      "edge",
+      "border",
+      "boundary",
+      "limit",
+      "margin",
+      "rim"
+    ],
+    "vowel": "𐑷",
+    "suffix": "𐑯𐑕"
+  },
+  "i:0409": {
+    "word": "𐑦𐑥𐑓",
+    "definition": "A protective barrier or assurance against harm or uncertainty.",
+    "group": "Danger & Protection",
+    "rank": 260,
+    "translations": [
+      "protect",
+      "safety",
+      "guard",
+      "barrier",
+      "secure",
+      "shield"
+    ],
+    "vowel": "𐑦",
+    "suffix": "𐑥𐑓"
+  },
+  "i:0405": {
+    "word": "𐑲𐑚𐑟",
+    "definition": "Moving something from one place to another; sending or delivering.",
+    "group": "Giving & Taking",
+    "rank": 261,
+    "translations": [
+      "send",
+      "deliver",
+      "transfer",
+      "ship",
+      "transmit",
+      "dispatch"
+    ],
+    "vowel": "𐑲",
+    "suffix": "𐑚𐑟"
+  },
+  "i:0410": {
+    "word": "𐑨𐑥𐑐𐑕",
+    "definition": "Cultivated plant matter for consumption; produce.",
+    "group": "Food & Eating",
+    "rank": 262,
+    "translations": [
+      "produce",
+      "vegetable",
+      "fruit",
+      "crop",
+      "harvest",
+      "food"
+    ],
+    "vowel": "𐑨",
+    "suffix": "𐑥𐑐𐑕"
+  },
+  "i:0424": {
+    "word": "𐑲𐑒𐑕𐑑",
+    "definition": "The availability of goods or services for purchase; the marketplace.",
+    "group": "Commerce & Money",
+    "rank": 263,
+    "translations": [
+      "market",
+      "sell",
+      "available",
+      "for sale",
+      "commerce",
+      "retail"
+    ],
+    "vowel": "𐑲",
+    "suffix": "𐑒𐑕𐑑"
+  },
+  "i:0418": {
+    "word": "𐑰𐑙𐑒",
+    "definition": "A collective grouping united around shared purposes or goals.",
+    "group": "Structure & Order",
+    "rank": 264,
+    "translations": [
+      "organization",
+      "group",
+      "team",
+      "institution",
+      "association",
+      "body"
+    ],
+    "vowel": "𐑰",
+    "suffix": "𐑙𐑒"
+  },
+  "i:0413": {
+    "word": "𐑱𐑯𐑛𐑟",
+    "definition": "The moment or point of creation or origin.",
+    "group": "Beginning & Ending",
+    "rank": 265,
+    "translations": [
+      "origin",
+      "birth",
+      "creation",
+      "beginning",
+      "founding",
+      "start point"
+    ],
+    "vowel": "𐑱",
+    "suffix": "𐑯𐑛𐑟"
+  },
+  "i:0426": {
+    "word": "𐑱𐑥𐑛",
+    "definition": "Relating to the body in accordance with medical principles.",
+    "group": "Health & Medicine",
+    "rank": 266,
+    "translations": [
+      "medical",
+      "clinical",
+      "bodily",
+      "physical",
+      "anatomical"
+    ],
+    "vowel": "𐑱",
+    "suffix": "𐑥𐑛"
+  },
+  "i:0432": {
+    "word": "𐑪𐑯𐑕𐑑",
+    "definition": "A false statement; deception or lying.",
+    "group": "Truth & Certainty",
+    "rank": 267,
+    "translations": [
+      "lie",
+      "false",
+      "deceive",
+      "untruth",
+      "deception",
+      "dishonest"
+    ],
+    "vowel": "𐑪",
+    "suffix": "𐑯𐑕𐑑"
+  },
+  "i:0430": {
+    "word": "𐑰𐑝𐑛",
+    "definition": "A visual depiction created through lines, paint, or other means.",
+    "group": "Narrative, Story & Creativity",
+    "rank": 268,
+    "translations": [
+      "drawing",
+      "painting",
+      "picture",
+      "illustration",
+      "artwork",
+      "image"
+    ],
+    "vowel": "𐑰",
+    "suffix": "𐑝𐑛"
+  },
+  "i:0431": {
+    "word": "𐑰𐑙𐑟",
+    "definition": "Persistent inquiry aimed at uncovering truth through examination.",
+    "group": "Learning & Education",
+    "rank": 269,
+    "translations": [
+      "research",
+      "investigate",
+      "study",
+      "inquiry",
+      "explore",
+      "examine"
+    ],
+    "vowel": "𐑰",
+    "suffix": "𐑙𐑟"
+  },
+  "i:0440": {
+    "word": "𐑲𐑯𐑛𐑟",
+    "definition": "An unspecified single point in time; once.",
+    "group": "Beginning & Ending",
+    "rank": 270,
+    "translations": [
+      "once",
+      "sometime",
+      "at some point",
+      "one time",
+      "a moment"
+    ],
+    "vowel": "𐑲",
+    "suffix": "𐑯𐑛𐑟"
+  },
+  "i:0442": {
+    "word": "𐑲𐑥𐑛",
+    "definition": "Assistance that promotes personal or social well-being.",
+    "group": "Health & Medicine",
+    "rank": 271,
+    "translations": [
+      "care",
+      "welfare",
+      "support",
+      "wellbeing",
+      "health",
+      "aid"
+    ],
+    "vowel": "𐑲",
+    "suffix": "𐑥𐑛"
+  },
+  "i:0450": {
+    "word": "𐑴𐑜𐑟",
+    "definition": "Consistent hard or manual labor, often under another's direction.",
+    "group": "Work, Effort & Outcome",
+    "rank": 272,
+    "translations": [
+      "work hard",
+      "labor",
+      "toil",
+      "slave",
+      "serve",
+      "grind"
+    ],
+    "vowel": "𐑴",
+    "suffix": "𐑜𐑟"
+  },
+  "i:0448": {
+    "word": "𐑰𐑓𐑑",
+    "definition": "A sustained record of victories; continuous success.",
+    "group": "Play & Competition",
+    "rank": 273,
+    "translations": [
+      "winning streak",
+      "dominance",
+      "champion",
+      "consistent winner"
+    ],
+    "vowel": "𐑰",
+    "suffix": "𐑓𐑑"
+  },
+  "i:0447": {
+    "word": "𐑧𐑥𐑓",
+    "definition": "Providing safety or protection through containment or locking.",
+    "group": "Danger & Protection",
+    "rank": 274,
+    "translations": [
+      "safe",
+      "secure",
+      "protected",
+      "lock",
+      "fortify",
+      "guard"
+    ],
+    "vowel": "𐑧",
+    "suffix": "𐑥𐑓"
+  },
+  "i:0449": {
+    "word": "𐑴𐑝𐑛",
+    "definition": "An internal mental image or concept; visualization.",
+    "group": "Narrative, Story & Creativity",
+    "rank": 275,
+    "translations": [
+      "image",
+      "vision",
+      "picture",
+      "concept",
+      "idea",
+      "mental image"
+    ],
+    "vowel": "𐑴",
+    "suffix": "𐑝𐑛"
+  },
+  "i:0452": {
+    "word": "𐑰𐑐𐑑𐑕",
+    "definition": "Force applied per unit area. Base unit: pascal.",
+    "group": "Measurement — Physical Dimensions",
+    "rank": 276,
+    "translations": [
+      "pressure",
+      "force per area",
+      "pascal"
+    ],
+    "vowel": "𐑰",
+    "suffix": "𐑐𐑑𐑕"
+  },
+  "i:0463": {
+    "word": "𐑲𐑝𐑟",
+    "definition": "Persistent irritation or frustration caused by something unpleasant.",
+    "group": "Negative Emotions",
+    "rank": 277,
+    "translations": [
+      "annoying",
+      "frustrating",
+      "irritating",
+      "bothersome",
+      "aggravating"
+    ],
+    "vowel": "𐑲",
+    "suffix": "𐑝𐑟"
+  },
+  "i:0464": {
+    "word": "𐑱𐑓𐑕",
+    "definition": "The highest-ranking individual who leads and directs an organization.",
+    "group": "Power & Authority",
+    "rank": 278,
+    "translations": [
+      "leader",
+      "chief",
+      "boss",
+      "head",
+      "director",
+      "commander"
+    ],
+    "vowel": "𐑱",
+    "suffix": "𐑓𐑕"
+  },
+  "i:0453": {
+    "word": "𐑪𐑯𐑗",
+    "definition": "A relative degree or proportion between states; a ratio or rate.",
+    "group": "Change & Process",
+    "rank": 279,
+    "translations": [
+      "rate",
+      "ratio",
+      "proportion",
+      "degree",
+      "per",
+      "relative"
+    ],
+    "vowel": "𐑪",
+    "suffix": "𐑯𐑗"
+  },
+  "i:0461": {
+    "word": "𐑲𐑡𐑛",
+    "definition": "An area dominated by trees and shrubs; a forest or woodland.",
+    "group": "Living Things",
+    "rank": 280,
+    "translations": [
+      "forest",
+      "woods",
+      "woodland",
+      "trees",
+      "jungle"
+    ],
+    "vowel": "𐑲",
+    "suffix": "𐑡𐑛"
+  },
+  "i:0456": {
+    "word": "𐑰𐑟𐑛",
+    "definition": "Able to be grasped by hand or arm.",
+    "group": "Containment & Connection",
+    "rank": 281,
+    "translations": [
+      "hold",
+      "grip",
+      "grasp",
+      "handle",
+      "embrace",
+      "tangible"
+    ],
+    "vowel": "𐑰",
+    "suffix": "𐑟𐑛"
+  },
+  "i:0458": {
+    "word": "𐑧𐑔𐑕",
+    "definition": "The muscular organ pumping blood through the body.",
+    "group": "Body — Internal, Organs & Reproduction",
+    "rank": 282,
+    "translations": [
+      "heart",
+      "cardiac",
+      "pulse",
+      "core"
+    ],
+    "vowel": "𐑧",
+    "suffix": "𐑔𐑕"
+  },
+  "i:0480": {
+    "word": "𐑱𐑐𐑕",
+    "definition": "Steadfast loyalty or faithfulness; unwavering allegiance and dedication to a person, cause, or principle.",
+    "group": "Desire, Will & Intention",
+    "rank": 283,
+    "translations": [
+      "loyal",
+      "faithful",
+      "devoted",
+      "allegiant",
+      "steadfast",
+      "committed"
+    ],
+    "vowel": "𐑱",
+    "suffix": "𐑐𐑕"
+  },
+  "i:0466": {
+    "word": "𐑷𐑛𐑟",
+    "definition": "Lively, animating vitality; an energizing quality that sustains presence.",
+    "group": "Positive Emotions",
+    "rank": 284,
+    "translations": [
+      "lively",
+      "vibrant",
+      "alive",
+      "energetic",
+      "vivid",
+      "animated"
+    ],
+    "vowel": "𐑷",
+    "suffix": "𐑛𐑟"
+  },
+  "i:0483": {
+    "word": "𐑧𐑕𐑒𐑕",
+    "definition": "A period of legally mandated confinement; imprisonment.",
+    "group": "Law & Justice",
+    "rank": 285,
+    "translations": [
+      "prison",
+      "jail",
+      "imprisonment",
+      "sentence",
+      "confinement",
+      "custody"
+    ],
+    "vowel": "𐑧",
+    "suffix": "𐑕𐑒𐑕"
+  },
+  "i:0473": {
+    "word": "𐑷𐑑𐑕",
+    "definition": "Smooth, gentle, and uncomplicated; the earliest or simplest form.",
+    "group": "Evaluation, Quality & Morality",
+    "rank": 286,
+    "translations": [
+      "smooth",
+      "gentle",
+      "simple",
+      "easy",
+      "basic",
+      "soft"
+    ],
+    "vowel": "𐑷",
+    "suffix": "𐑑𐑕"
+  },
+  "i:0472": {
+    "word": "𐑷𐑜𐑛",
+    "definition": "The terminal part of the arm used for grasping and manipulation.",
+    "group": "Body — Basic Parts",
+    "rank": 287,
+    "translations": [
+      "hand",
+      "palm",
+      "grasp"
+    ],
+    "vowel": "𐑷",
+    "suffix": "𐑜𐑛"
+  },
+  "i:0471": {
+    "word": "𐑱𐑥𐑐𐑕",
+    "definition": "The primary daily eating occasion; a main meal.",
+    "group": "Food & Eating",
+    "rank": 288,
+    "translations": [
+      "meal",
+      "dinner",
+      "lunch",
+      "main meal",
+      "eat",
+      "dine"
+    ],
+    "vowel": "𐑱",
+    "suffix": "𐑥𐑐𐑕"
+  },
+  "i:0493": {
+    "word": "𐑧𐑙𐑒𐑕",
+    "definition": "Profound devotion and reverence; deeply pious and morally earnest.",
+    "group": "Belief, Spirit & Meaning",
+    "rank": 289,
+    "translations": [
+      "devout",
+      "pious",
+      "faithful",
+      "reverent",
+      "holy",
+      "zealous"
+    ],
+    "vowel": "𐑧",
+    "suffix": "𐑙𐑒𐑕"
+  },
+  "i:0489": {
+    "word": "𐑨𐑥𐑓",
+    "definition": "A blockage preventing movement, flow, or access.",
+    "group": "Danger & Protection",
+    "rank": 290,
+    "translations": [
+      "block",
+      "stuck",
+      "obstruct",
+      "jam",
+      "prevent",
+      "clog"
+    ],
+    "vowel": "𐑨",
+    "suffix": "𐑥𐑓"
+  },
+  "i:0494": {
+    "word": "𐑱𐑥𐑓",
+    "definition": "Evading responsibility or compliance through cleverness.",
+    "group": "Danger & Protection",
+    "rank": 291,
+    "translations": [
+      "evade",
+      "avoid",
+      "dodge",
+      "circumvent",
+      "escape",
+      "cheat"
+    ],
+    "vowel": "𐑱",
+    "suffix": "𐑥𐑓"
+  },
+  "i:0495": {
+    "word": "𐑪𐑥𐑐𐑑",
+    "definition": "The atmospheric conditions at a specific time and place; weather.",
+    "group": "Nature & Elements",
+    "rank": 292,
+    "translations": [
+      "weather",
+      "climate",
+      "atmosphere",
+      "conditions",
+      "forecast"
+    ],
+    "vowel": "𐑪",
+    "suffix": "𐑥𐑐𐑑"
+  },
+  "i:0491": {
+    "word": "𐑬𐑜𐑛",
+    "definition": "Filamentous growth on mammalian skin; hair.",
+    "group": "Body — Basic Parts",
+    "rank": 293,
+    "translations": [
+      "hair",
+      "fur",
+      "coat",
+      "filament"
+    ],
+    "vowel": "𐑬",
+    "suffix": "𐑜𐑛"
+  },
+  "i:d2": {
+    "word": "𐑫𐑯𐑡",
+    "definition": "The digit two; the numeric value 2.",
+    "group": "Social Interaction",
+    "rank": 294,
+    "translations": [
+      "2",
+      "two",
+      "pair",
+      "double",
+      "both"
+    ],
+    "vowel": "𐑫",
+    "suffix": "𐑯𐑡"
+  },
+  "i:0492": {
+    "word": "𐑲𐑥𐑐𐑕",
+    "definition": "A bodily yearning for food; hunger.",
+    "group": "Food & Eating",
+    "rank": 295,
+    "translations": [
+      "hungry",
+      "hunger",
+      "appetite",
+      "starving",
+      "famished"
+    ],
+    "vowel": "𐑲",
+    "suffix": "𐑥𐑐𐑕"
+  },
+  "i:0507": {
+    "word": "𐑰𐑒𐑑",
+    "definition": "A mental construct; an idea or image formed in the mind, real or imagined.",
+    "group": "Knowledge & Mind",
+    "rank": 296,
+    "translations": [
+      "idea",
+      "concept",
+      "imagination",
+      "image",
+      "thought",
+      "fantasy"
+    ],
+    "vowel": "𐑰",
+    "suffix": "𐑒𐑑"
+  },
+  "i:0510": {
+    "word": "𐑪𐑥𐑐𐑕",
+    "definition": "Acquiring and supplying everyday food and household items.",
+    "group": "Food & Eating",
+    "rank": 297,
+    "translations": [
+      "groceries",
+      "shopping",
+      "provisions",
+      "supply",
+      "household"
+    ],
+    "vowel": "𐑪",
+    "suffix": "𐑥𐑐𐑕"
+  },
+  "i:0499": {
+    "word": "𐑰𐑐𐑑",
+    "definition": "A position between extremes; a midpoint or average.",
+    "group": "Axes, Dimensions & Reference",
+    "rank": 298,
+    "translations": [
+      "middle",
+      "average",
+      "midpoint",
+      "medium"
+    ],
+    "vowel": "𐑰",
+    "suffix": "𐑐𐑑"
+  },
+  "i:0522": {
+    "word": "𐑲𐑐𐑕",
+    "definition": "An intense longing or craving; strong desire for something not yet had.",
+    "group": "Desire, Will & Intention",
+    "rank": 299,
+    "translations": [
+      "crave",
+      "yearn",
+      "long for",
+      "desire",
+      "hunger",
+      "urge"
+    ],
+    "vowel": "𐑲",
+    "suffix": "𐑐𐑕"
+  },
+  "i:0517": {
+    "word": "𐑵𐑯𐑡",
+    "definition": "Social; relating to interaction and conduct between individuals.",
+    "group": "Social Interaction",
+    "rank": 300,
+    "translations": [
+      "social",
+      "interpersonal",
+      "communal",
+      "public",
+      "societal"
+    ],
+    "vowel": "𐑵",
+    "suffix": "𐑯𐑡"
+  },
+  "i:0514": {
+    "word": "𐑷𐑯𐑑",
+    "definition": "Being placed or held in a specific location or posture.",
+    "group": "Existence, State & Absence",
+    "rank": 301,
+    "translations": [
+      "positioned",
+      "placed",
+      "situated",
+      "located",
+      "set",
+      "fixed"
+    ],
+    "vowel": "𐑷",
+    "suffix": "𐑯𐑑"
+  },
+  "i:0521": {
+    "word": "𐑰𐑥𐑐𐑑",
+    "definition": "The state of lacking moisture; dry.",
+    "group": "Nature & Elements",
+    "rank": 302,
+    "translations": [
+      "dry",
+      "arid",
+      "parched",
+      "moisture-free",
+      "desiccated"
+    ],
+    "vowel": "𐑰",
+    "suffix": "𐑥𐑐𐑑"
+  },
+  "i:0516": {
+    "word": "𐑰𐑯𐑑𐑕",
+    "definition": "A written unit representing sound or meaning; a word or letter.",
+    "group": "Language & Expression",
+    "rank": 303,
+    "translations": [
+      "word",
+      "letter",
+      "symbol",
+      "character",
+      "token",
+      "sign"
+    ],
+    "vowel": "𐑰",
+    "suffix": "𐑯𐑑𐑕"
+  },
+  "i:0515": {
+    "word": "𐑴𐑙𐑟",
+    "definition": "A person formally enrolled in an educational institution.",
+    "group": "Learning & Education",
+    "rank": 304,
+    "translations": [
+      "student",
+      "pupil",
+      "learner",
+      "enrolled",
+      "scholar"
+    ],
+    "vowel": "𐑴",
+    "suffix": "𐑙𐑟"
+  },
+  "i:0524": {
+    "word": "𐑲𐑒𐑑𐑕",
+    "definition": "Conveying facts or details to another; informing.",
+    "group": "Perception & Senses",
+    "rank": 305,
+    "translations": [
+      "inform",
+      "tell",
+      "report",
+      "convey",
+      "share",
+      "communicate"
+    ],
+    "vowel": "𐑲",
+    "suffix": "𐑒𐑑𐑕"
+  },
+  "i:0532": {
+    "word": "𐑪𐑒𐑕𐑑",
+    "definition": "An entity that offers goods or services; a business or customer.",
+    "group": "Commerce & Money",
+    "rank": 306,
+    "translations": [
+      "business",
+      "company",
+      "customer",
+      "client",
+      "vendor",
+      "shop"
+    ],
+    "vowel": "𐑪",
+    "suffix": "𐑒𐑕𐑑"
+  },
+  "i:0525": {
+    "word": "𐑲𐑥𐑓",
+    "definition": "A sudden, intense disturbance or shock; an overwhelming disruption.",
+    "group": "Danger & Protection",
+    "rank": 307,
+    "translations": [
+      "storm",
+      "shock",
+      "disruption",
+      "overwhelm",
+      "crisis",
+      "tumult"
+    ],
+    "vowel": "𐑲",
+    "suffix": "𐑥𐑓"
+  },
+  "i:0527": {
+    "word": "𐑪𐑣'",
+    "definition": "A defined geographic area with a concentration of people; a town or city.",
+    "group": "Place & Dwelling",
+    "rank": 308,
+    "translations": [
+      "town",
+      "city",
+      "area",
+      "district",
+      "settlement",
+      "locality"
+    ],
+    "vowel": "𐑪",
+    "suffix": "𐑣'"
+  },
+  "i:0539": {
+    "word": "𐑪𐑡𐑛",
+    "definition": "A small domesticated feline; the cat.",
+    "group": "Living Things",
+    "rank": 309,
+    "translations": [
+      "cat",
+      "feline",
+      "kitten",
+      "kitty",
+      "pet"
+    ],
+    "vowel": "𐑪",
+    "suffix": "𐑡𐑛"
+  },
+  "i:0536": {
+    "word": "𐑫𐑜𐑛",
+    "definition": "The upper limb from shoulder to wrist.",
+    "group": "Body — Basic Parts",
+    "rank": 310,
+    "translations": [
+      "arm",
+      "limb",
+      "forearm",
+      "upper limb"
+    ],
+    "vowel": "𐑫",
+    "suffix": "𐑜𐑛"
+  },
+  "i:0544": {
+    "word": "𐑪𐑥𐑛",
+    "definition": "The cessation of life.",
+    "group": "Health & Medicine",
+    "rank": 311,
+    "translations": [
+      "death",
+      "die",
+      "deceased",
+      "mortality",
+      "end of life"
+    ],
+    "vowel": "𐑪",
+    "suffix": "𐑥𐑛"
+  },
+  "i:0562": {
+    "word": "𐑬𐑛𐑟",
+    "definition": "Gratitude; the feeling of thankfulness and appreciation toward someone or something.",
+    "group": "Positive Emotions",
+    "rank": 312,
+    "translations": [
+      "grateful",
+      "thankful",
+      "gratitude",
+      "appreciate",
+      "thanks",
+      "appreciation"
+    ],
+    "vowel": "𐑬",
+    "suffix": "𐑛𐑟"
+  },
+  "i:0560": {
+    "word": "𐑪𐑝𐑟",
+    "definition": "Humiliation and embarrassment; intense self-conscious distress at having been shamed.",
+    "group": "Negative Emotions",
+    "rank": 313,
+    "translations": [
+      "embarrass",
+      "humiliate",
+      "shame",
+      "mortify",
+      "awkward"
+    ],
+    "vowel": "𐑪",
+    "suffix": "𐑝𐑟"
+  },
+  "i:0561": {
+    "word": "𐑰𐑝𐑟",
+    "definition": "Jealousy and ill will toward another's success or possessions; resentful envy.",
+    "group": "Negative Emotions",
+    "rank": 314,
+    "translations": [
+      "jealous",
+      "envious",
+      "resentful",
+      "covetous",
+      "grudging"
+    ],
+    "vowel": "𐑰",
+    "suffix": "𐑝𐑟"
+  },
+  "i:0564": {
+    "word": "𐑷𐑯𐑡",
+    "definition": "A disposition toward interaction and association with others.",
+    "group": "Social Interaction",
+    "rank": 315,
+    "translations": [
+      "sociable",
+      "social",
+      "outgoing",
+      "community",
+      "association"
+    ],
+    "vowel": "𐑷",
+    "suffix": "𐑯𐑡"
+  },
+  "i:0549": {
+    "word": "𐑰𐑥𐑐𐑕",
+    "definition": "A substance absorbed by the body; food, drink, or drug.",
+    "group": "Food & Eating",
+    "rank": 316,
+    "translations": [
+      "consume",
+      "ingest",
+      "eat",
+      "drink",
+      "substance",
+      "intake"
+    ],
+    "vowel": "𐑰",
+    "suffix": "𐑥𐑐𐑕"
+  },
+  "i:0550": {
+    "word": "𐑴𐑥𐑐𐑕",
+    "definition": "A liquid intended for drinking.",
+    "group": "Food & Eating",
+    "rank": 317,
+    "translations": [
+      "drink",
+      "beverage",
+      "liquid",
+      "fluid",
+      "potion"
+    ],
+    "vowel": "𐑴",
+    "suffix": "𐑥𐑐𐑕"
+  },
+  "i:0572": {
+    "word": "𐑱𐑗𐑑",
+    "definition": "A sibling or person of shared lineage; a non-hierarchical family relationship.",
+    "group": "Family & Kinship",
+    "rank": 318,
+    "translations": [
+      "sibling",
+      "brother",
+      "sister",
+      "related",
+      "kinship"
+    ],
+    "vowel": "𐑱",
+    "suffix": "𐑗𐑑"
+  },
+  "i:0585": {
+    "word": "𐑰𐑒𐑕𐑑",
+    "definition": "The net positive result after all costs; profit or surplus.",
+    "group": "Commerce & Money",
+    "rank": 319,
+    "translations": [
+      "profit",
+      "surplus",
+      "net",
+      "gain",
+      "benefit",
+      "return"
+    ],
+    "vowel": "𐑰",
+    "suffix": "𐑒𐑕𐑑"
+  },
+  "i:0573": {
+    "word": "𐑨𐑙𐑒𐑕",
+    "definition": "The supreme moral or divine principle; ultimate good opposing evil.",
+    "group": "Belief, Spirit & Meaning",
+    "rank": 320,
+    "translations": [
+      "good",
+      "divine",
+      "righteous",
+      "holy",
+      "sacred",
+      "god"
+    ],
+    "vowel": "𐑨",
+    "suffix": "𐑙𐑒𐑕"
+  },
+  "i:0575": {
+    "word": "𐑵𐑜𐑟",
+    "definition": "Accountability for fulfilling obligations; being responsible for a task.",
+    "group": "Work, Effort & Outcome",
+    "rank": 321,
+    "translations": [
+      "responsible",
+      "accountable",
+      "duty",
+      "obligation",
+      "liable",
+      "own"
+    ],
+    "vowel": "𐑵",
+    "suffix": "𐑜𐑟"
+  },
+  "i:0577": {
+    "word": "𐑲𐑯𐑔",
+    "definition": "A unit of time equal to sixty minutes.",
+    "group": "Time — Measurement & Cycles",
+    "rank": 322,
+    "translations": [
+      "hour",
+      "hr"
+    ],
+    "vowel": "𐑲",
+    "suffix": "𐑯𐑔"
+  },
+  "i:0574": {
+    "word": "𐑰𐑯𐑗",
+    "definition": "A recurring or renewed process; repetition and return.",
+    "group": "Change & Process",
+    "rank": 323,
+    "translations": [
+      "repeat",
+      "cycle",
+      "recur",
+      "again",
+      "return",
+      "renewal"
+    ],
+    "vowel": "𐑰",
+    "suffix": "𐑯𐑗"
+  },
+  "i:0587": {
+    "word": "𐑴𐑥𐑐𐑑",
+    "definition": "Relating to the sun; solar.",
+    "group": "Nature & Elements",
+    "rank": 324,
+    "translations": [
+      "sun",
+      "solar",
+      "sunshine",
+      "sunlight",
+      "star"
+    ],
+    "vowel": "𐑴",
+    "suffix": "𐑥𐑐𐑑"
+  },
+  "i:0590": {
+    "word": "𐑴𐑯𐑑𐑕",
+    "definition": "A vocal expression through spoken or sung words; a name or song.",
+    "group": "Language & Expression",
+    "rank": 325,
+    "translations": [
+      "name",
+      "call",
+      "sing",
+      "voice",
+      "word",
+      "song"
+    ],
+    "vowel": "𐑴",
+    "suffix": "𐑯𐑑𐑕"
+  },
+  "i:0583": {
+    "word": "𐑵𐑥𐑐𐑕",
+    "definition": "A naturally occurring fluid essential for life; water.",
+    "group": "Food & Eating",
+    "rank": 326,
+    "translations": [
+      "water",
+      "liquid",
+      "fluid",
+      "H2O",
+      "hydrate"
+    ],
+    "vowel": "𐑵",
+    "suffix": "𐑥𐑐𐑕"
+  },
+  "i:0602": {
+    "word": "𐑪𐑒𐑑𐑕",
+    "definition": "An audible vibration conveying linguistic or tonal content; sound or voice.",
+    "group": "Perception & Senses",
+    "rank": 327,
+    "translations": [
+      "sound",
+      "voice",
+      "tone",
+      "vibration",
+      "audio",
+      "hear"
+    ],
+    "vowel": "𐑪",
+    "suffix": "𐑒𐑑𐑕"
+  },
+  "i:0593": {
+    "word": "𐑴𐑐𐑑",
+    "definition": "Grayscale — achromatic brightness on a 0–9 scale independent of hue: 0=black, 9=white, 4–5=mid gray. Used when no hue is present. Distinct from the lightness modifier used within a hue expression.",
+    "group": "Axes, Dimensions & Reference",
+    "rank": 328,
+    "translations": [
+      "gray",
+      "grayscale",
+      "black",
+      "white",
+      "brightness",
+      "neutral"
+    ],
+    "vowel": "𐑴",
+    "suffix": "𐑐𐑑"
+  },
+  "i:0609": {
+    "word": "𐑲𐑗𐑑",
+    "definition": "A spouse; one who shares a recognized partnership or marital union.",
+    "group": "Family & Kinship",
+    "rank": 329,
+    "translations": [
+      "spouse",
+      "partner",
+      "husband",
+      "wife",
+      "married"
+    ],
+    "vowel": "𐑲",
+    "suffix": "𐑗𐑑"
+  },
+  "i:0619": {
+    "word": "𐑨𐑕𐑒𐑕",
+    "definition": "Accountability for one's actions; moral and legal responsibility.",
+    "group": "Law & Justice",
+    "rank": 330,
+    "translations": [
+      "responsible",
+      "accountable",
+      "liable",
+      "culpable",
+      "duty",
+      "obligation"
+    ],
+    "vowel": "𐑨",
+    "suffix": "𐑕𐑒𐑕"
+  },
+  "i:0625": {
+    "word": "𐑱𐑕𐑒𐑕",
+    "definition": "The formal process of adjudicating disputes and determining rights.",
+    "group": "Law & Justice",
+    "rank": 331,
+    "translations": [
+      "court",
+      "trial",
+      "legal",
+      "adjudicate",
+      "justice",
+      "judicial"
+    ],
+    "vowel": "𐑱",
+    "suffix": "𐑕𐑒𐑕"
+  },
+  "i:0621": {
+    "word": "𐑴𐑙𐑒",
+    "definition": "An organized system for storing and arranging items.",
+    "group": "Structure & Order",
+    "rank": 332,
+    "translations": [
+      "storage",
+      "archive",
+      "organize",
+      "file",
+      "catalog",
+      "index"
+    ],
+    "vowel": "𐑴",
+    "suffix": "𐑙𐑒"
+  },
+  "i:0628": {
+    "word": "𐑰𐑣'",
+    "definition": "Applying force to move rapidly; driving a vehicle.",
+    "group": "Place & Dwelling",
+    "rank": 333,
+    "translations": [
+      "drive",
+      "drive fast",
+      "speed",
+      "accelerate",
+      "motor"
+    ],
+    "vowel": "𐑰",
+    "suffix": "𐑣'"
+  },
+  "i:0626": {
+    "word": "𐑵𐑥𐑐𐑑",
+    "definition": "A gaseous chemical substance; relating to gas.",
+    "group": "Nature & Elements",
+    "rank": 334,
+    "translations": [
+      "gas",
+      "gaseous",
+      "vapor",
+      "fumes",
+      "air"
+    ],
+    "vowel": "𐑵",
+    "suffix": "𐑥𐑐𐑑"
+  },
+  "i:0604": {
+    "word": "𐑰𐑒𐑑𐑕",
+    "definition": "The faculty of perceiving and distinguishing differences; discrimination.",
+    "group": "Perception & Senses",
+    "rank": 335,
+    "translations": [
+      "sense",
+      "perceive",
+      "feel",
+      "distinguish",
+      "taste",
+      "detect"
+    ],
+    "vowel": "𐑰",
+    "suffix": "𐑒𐑑𐑕"
+  },
+  "i:0614": {
+    "word": "𐑴𐑒𐑑𐑕",
+    "definition": "The sense of smell; perception of airborne chemical stimuli.",
+    "group": "Perception & Senses",
+    "rank": 336,
+    "translations": [
+      "smell",
+      "scent",
+      "aroma",
+      "odor",
+      "sniff",
+      "nose"
+    ],
+    "vowel": "𐑴",
+    "suffix": "𐑒𐑑𐑕"
+  },
+  "i:0606": {
+    "word": "𐑴𐑯𐑛",
+    "definition": "Later or late; occurring after the expected or usual time.",
+    "group": "Time — Abstract & Sequence",
+    "rank": 337,
+    "translations": [
+      "late",
+      "later",
+      "delayed",
+      "overdue",
+      "past time",
+      "slow"
+    ],
+    "vowel": "𐑴",
+    "suffix": "𐑯𐑛"
+  },
+  "i:0655": {
+    "word": "𐑪𐑐𐑕",
+    "definition": "A desired outcome or completed work; the target of intention or creative effort.",
+    "group": "Desire, Will & Intention",
+    "rank": 338,
+    "translations": [
+      "goal",
+      "aim",
+      "purpose",
+      "objective",
+      "result",
+      "achievement"
+    ],
+    "vowel": "𐑪",
+    "suffix": "𐑐𐑕"
+  },
+  "i:0635": {
+    "word": "𐑴𐑝𐑟",
+    "definition": "Strong dislike or aversion; a powerful negative feeling toward someone or something.",
+    "group": "Negative Emotions",
+    "rank": 339,
+    "translations": [
+      "hate",
+      "dislike",
+      "loathe",
+      "detest",
+      "aversion",
+      "hostility"
+    ],
+    "vowel": "𐑴",
+    "suffix": "𐑝𐑟"
+  },
+  "i:0631": {
+    "word": "𐑪𐑥𐑓",
+    "definition": "Vigilant and watchful; alert and ready to respond.",
+    "group": "Danger & Protection",
+    "rank": 340,
+    "translations": [
+      "alert",
+      "vigilant",
+      "watchful",
+      "on guard",
+      "aware",
+      "attentive"
+    ],
+    "vowel": "𐑪",
+    "suffix": "𐑥𐑓"
+  },
+  "i:0637": {
+    "word": "𐑰𐑥𐑓",
+    "definition": "Vulnerable; open to being taken or captured.",
+    "group": "Danger & Protection",
+    "rank": 341,
+    "translations": [
+      "vulnerable",
+      "exposed",
+      "open",
+      "susceptible",
+      "capturable",
+      "at risk"
+    ],
+    "vowel": "𐑰",
+    "suffix": "𐑥𐑓"
+  },
+  "i:0630": {
+    "word": "𐑪𐑚𐑟",
+    "definition": "Distributing or assigning things to be used or measured.",
+    "group": "Giving & Taking",
+    "rank": 342,
+    "translations": [
+      "distribute",
+      "allocate",
+      "assign",
+      "share out",
+      "divide",
+      "portion"
+    ],
+    "vowel": "𐑪",
+    "suffix": "𐑚𐑟"
+  },
+  "i:0648": {
+    "word": "𐑰𐑚𐑟",
+    "definition": "Denial or rejection; refusing or declining.",
+    "group": "Giving & Taking",
+    "rank": 343,
+    "translations": [
+      "refuse",
+      "reject",
+      "deny",
+      "decline",
+      "say no",
+      "turn down"
+    ],
+    "vowel": "𐑰",
+    "suffix": "𐑚𐑟"
+  },
+  "i:0645": {
+    "word": "𐑵𐑝𐑛",
+    "definition": "The ability to retain and recall information; memory storage.",
+    "group": "Narrative, Story & Creativity",
+    "rank": 344,
+    "translations": [
+      "memory",
+      "remember",
+      "recall",
+      "store",
+      "retain",
+      "record"
+    ],
+    "vowel": "𐑵",
+    "suffix": "𐑝𐑛"
+  },
+  "i:0632": {
+    "word": "𐑰𐑥𐑛",
+    "definition": "A state of injury, loss, or impairment.",
+    "group": "Health & Medicine",
+    "rank": 345,
+    "translations": [
+      "injury",
+      "harm",
+      "damage",
+      "wound",
+      "hurt",
+      "impairment"
+    ],
+    "vowel": "𐑰",
+    "suffix": "𐑥𐑛"
+  },
+  "i:0667": {
+    "word": "𐑴𐑥𐑛",
+    "definition": "Relief and comfort from suffering.",
+    "group": "Health & Medicine",
+    "rank": 346,
+    "translations": [
+      "relief",
+      "comfort",
+      "ease",
+      "soothe",
+      "alleviate",
+      "better"
+    ],
+    "vowel": "𐑴",
+    "suffix": "𐑥𐑛"
+  },
+  "i:0703": {
+    "word": "𐑰𐑐𐑕",
+    "definition": "An expression of goodwill and hope for another's flourishing.",
+    "group": "Desire, Will & Intention",
+    "rank": 347,
+    "translations": [
+      "wish",
+      "hope",
+      "bless",
+      "goodwill",
+      "blessing"
+    ],
+    "vowel": "𐑰",
+    "suffix": "𐑐𐑕"
+  },
+  "i:0704": {
+    "word": "𐑪𐑗𐑑",
+    "definition": "A generational link in a family; the continuity between one generation and the next.",
+    "group": "Family & Kinship",
+    "rank": 348,
+    "translations": [
+      "generation",
+      "lineage",
+      "heritage",
+      "ancestry",
+      "legacy"
+    ],
+    "vowel": "𐑪",
+    "suffix": "𐑗𐑑"
+  },
+  "i:0692": {
+    "word": "𐑲𐑓𐑕",
+    "definition": "Supreme authorization; the ultimate endorsement or approval.",
+    "group": "Power & Authority",
+    "rank": 349,
+    "translations": [
+      "authority",
+      "permission",
+      "sanction",
+      "approval",
+      "authorization"
+    ],
+    "vowel": "𐑲",
+    "suffix": "𐑓𐑕"
+  },
+  "i:0696": {
+    "word": "𐑲𐑕𐑒𐑕",
+    "definition": "Having committed wrongdoing; the state of being culpable.",
+    "group": "Law & Justice",
+    "rank": 350,
+    "translations": [
+      "guilty",
+      "culpable",
+      "at fault",
+      "responsible",
+      "convicted"
+    ],
+    "vowel": "𐑲",
+    "suffix": "𐑕𐑒𐑕"
+  },
+  "i:0694": {
+    "word": "𐑱𐑙𐑒𐑕",
+    "definition": "A fundamental moral principle; the ultimate standard of right conduct.",
+    "group": "Belief, Spirit & Meaning",
+    "rank": 351,
+    "translations": [
+      "morality",
+      "ethics",
+      "principle",
+      "virtue",
+      "righteousness"
+    ],
+    "vowel": "𐑱",
+    "suffix": "𐑙𐑒𐑕"
+  },
+  "i:0693": {
+    "word": "𐑲𐑖𐑑",
+    "definition": "Departure; leaving a place or condition.",
+    "group": "Motion & Movement",
+    "rank": 352,
+    "translations": [
+      "leave",
+      "depart",
+      "go away",
+      "exit",
+      "set off",
+      "departure"
+    ],
+    "vowel": "𐑲",
+    "suffix": "𐑖𐑑"
+  },
+  "i:0691": {
+    "word": "𐑴𐑥𐑓",
+    "definition": "Intense alarm or apprehension arising from threat.",
+    "group": "Danger & Protection",
+    "rank": 353,
+    "translations": [
+      "alarm",
+      "panic",
+      "fright",
+      "shock",
+      "terror",
+      "dread"
+    ],
+    "vowel": "𐑴",
+    "suffix": "𐑥𐑓"
+  },
+  "i:d5": {
+    "word": "𐑶𐑒𐑑𐑕",
+    "definition": "The digit five; the numeric value 5. Also the midpoint of any 0–9 scale.",
+    "group": "Perception & Senses",
+    "rank": 354,
+    "translations": [
+      "5",
+      "five",
+      "mid",
+      "midpoint"
+    ],
+    "vowel": "𐑶",
+    "suffix": "𐑒𐑑𐑕"
+  },
+  "i:0700": {
+    "word": "𐑶𐑯𐑟",
+    "definition": "A connective introducing an indirect question or alternative possibility.",
+    "group": "Logic & Connectives",
+    "rank": 355,
+    "translations": [
+      "whether",
+      "or not"
+    ],
+    "vowel": "𐑶",
+    "suffix": "𐑯𐑟"
+  },
+  "i:0718": {
+    "word": "𐑵𐑙𐑟",
+    "definition": "Formal acknowledgment of having completed educational requirements.",
+    "group": "Learning & Education",
+    "rank": 356,
+    "translations": [
+      "graduate",
+      "degree",
+      "diploma",
+      "qualify",
+      "credential",
+      "certify"
+    ],
+    "vowel": "𐑵",
+    "suffix": "𐑙𐑟"
+  },
+  "i:0717": {
+    "word": "𐑷𐑥𐑐𐑕",
+    "definition": "Cultivated plant parts grown for eating; vegetables.",
+    "group": "Food & Eating",
+    "rank": 357,
+    "translations": [
+      "vegetable",
+      "plant food",
+      "produce",
+      "crop",
+      "greens"
+    ],
+    "vowel": "𐑷",
+    "suffix": "𐑥𐑐𐑕"
+  },
+  "i:0687": {
+    "word": "𐑰𐑥𐑟",
+    "definition": "A broad expanse; wide coverage of space.",
+    "group": "Positive & Expansive",
+    "rank": 358,
+    "translations": [
+      "wide",
+      "broad",
+      "large",
+      "expansive",
+      "spanning",
+      "spread"
+    ],
+    "vowel": "𐑰",
+    "suffix": "𐑥𐑟"
+  },
+  "i:0744": {
+    "word": "𐑴𐑒𐑕𐑑",
+    "definition": "Costly; requiring significant sacrifice or payment to achieve.",
+    "group": "Commerce & Money",
+    "rank": 359,
+    "translations": [
+      "expensive",
+      "costly",
+      "dear",
+      "price",
+      "cost"
+    ],
+    "vowel": "𐑴",
+    "suffix": "𐑒𐑕𐑑"
+  },
+  "i:0733": {
+    "word": "𐑷𐑥𐑐𐑑",
+    "definition": "A solidified form produced by cooling; ice or crystal.",
+    "group": "Nature & Elements",
+    "rank": 360,
+    "translations": [
+      "ice",
+      "crystal",
+      "frozen",
+      "solid",
+      "frost",
+      "glacier"
+    ],
+    "vowel": "𐑷",
+    "suffix": "𐑥𐑐𐑑"
+  },
+  "i:0770": {
+    "word": "𐑵𐑐𐑑",
+    "definition": "Relating to magnitude or proportion across a dimension.",
+    "group": "Axes, Dimensions & Reference",
+    "rank": 361,
+    "translations": [
+      "magnitude",
+      "proportion",
+      "scale",
+      "extent"
+    ],
+    "vowel": "𐑵",
+    "suffix": "𐑐𐑑"
+  },
+  "i:0846": {
+    "word": "𐑵𐑝𐑟",
+    "definition": "Deep sorrow from loss or misfortune; pervasive grief.",
+    "group": "Negative Emotions",
+    "rank": 362,
+    "translations": [
+      "grief",
+      "sorrow",
+      "sadness",
+      "mourning",
+      "heartbreak",
+      "woe"
+    ],
+    "vowel": "𐑵",
+    "suffix": "𐑝𐑟"
+  },
+  "i:0821": {
+    "word": "𐑪𐑖𐑑",
+    "definition": "Moving through water; swimming.",
+    "group": "Motion & Movement",
+    "rank": 363,
+    "translations": [
+      "swim",
+      "swimming",
+      "float",
+      "aquatic movement",
+      "stroke"
+    ],
+    "vowel": "𐑪",
+    "suffix": "𐑖𐑑"
+  },
+  "i:0848": {
+    "word": "𐑰𐑖𐑑",
+    "definition": "Approaching a target; reducing the distance to a destination.",
+    "group": "Motion & Movement",
+    "rank": 364,
+    "translations": [
+      "approach",
+      "near",
+      "close in",
+      "arrive",
+      "reach",
+      "come"
+    ],
+    "vowel": "𐑰",
+    "suffix": "𐑖𐑑"
+  },
+  "i:0827": {
+    "word": "𐑷𐑜𐑟",
+    "definition": "A worker; one who performs labor for the benefit of others.",
+    "group": "Work, Effort & Outcome",
+    "rank": 365,
+    "translations": [
+      "worker",
+      "employee",
+      "laborer",
+      "staff",
+      "operative"
+    ],
+    "vowel": "𐑷",
+    "suffix": "𐑜𐑟"
+  },
+  "i:0838": {
+    "word": "𐑴𐑓𐑑",
+    "definition": "Personal enjoyment pursued in one's spare time.",
+    "group": "Play & Competition",
+    "rank": 366,
+    "translations": [
+      "hobby",
+      "leisure",
+      "pastime",
+      "recreation",
+      "free time"
+    ],
+    "vowel": "𐑴",
+    "suffix": "𐑓𐑑"
+  },
+  "i:0815": {
+    "word": "𐑴𐑚𐑟",
+    "definition": "Taking another's property without consent.",
+    "group": "Giving & Taking",
+    "rank": 367,
+    "translations": [
+      "steal",
+      "theft",
+      "take",
+      "rob",
+      "swipe",
+      "pilfer"
+    ],
+    "vowel": "𐑴",
+    "suffix": "𐑚𐑟"
+  },
+  "i:0828": {
+    "word": "𐑰𐑡𐑛",
+    "definition": "A young animal before reaching full maturity.",
+    "group": "Living Things",
+    "rank": 368,
+    "translations": [
+      "young",
+      "juvenile",
+      "baby animal",
+      "cub",
+      "pup",
+      "foal"
+    ],
+    "vowel": "𐑰",
+    "suffix": "𐑡𐑛"
+  },
+  "i:0789": {
+    "word": "𐑴𐑟𐑛",
+    "definition": "Retaining or storing information, materials, or goods for future use.",
+    "group": "Containment & Connection",
+    "rank": 369,
+    "translations": [
+      "store",
+      "retain",
+      "hold",
+      "contain",
+      "keep",
+      "preserve"
+    ],
+    "vowel": "𐑴",
+    "suffix": "𐑟𐑛"
+  },
+  "i:0807": {
+    "word": "𐑵𐑒𐑑𐑕",
+    "definition": "A flower; the reproductive structure of a flowering plant.",
+    "group": "Perception & Senses",
+    "rank": 370,
+    "translations": [
+      "flower",
+      "blossom",
+      "bloom",
+      "petal",
+      "floral"
+    ],
+    "vowel": "𐑵",
+    "suffix": "𐑒𐑑𐑕"
+  },
+  "i:0779": {
+    "word": "𐑴𐑔𐑕",
+    "definition": "Sexual attraction and connection between people.",
+    "group": "Body — Internal, Organs & Reproduction",
+    "rank": 371,
+    "translations": [
+      "sexuality",
+      "attraction",
+      "desire",
+      "sexual",
+      "intimacy",
+      "orientation"
+    ],
+    "vowel": "𐑴",
+    "suffix": "𐑔𐑕"
+  },
+  "i:0812": {
+    "word": "𐑴𐑐𐑑𐑕",
+    "definition": "Extent in one dimension. Base unit: meter.",
+    "group": "Measurement — Physical Dimensions",
+    "rank": 372,
+    "translations": [
+      "length",
+      "distance",
+      "height",
+      "width",
+      "meter"
+    ],
+    "vowel": "𐑴",
+    "suffix": "𐑐𐑑𐑕"
+  },
+  "i:0871": {
+    "word": "𐑪𐑕𐑒𐑕",
+    "definition": "The unlawful, intentional killing of a person.",
+    "group": "Law & Justice",
+    "rank": 373,
+    "translations": [
+      "murder",
+      "kill",
+      "homicide",
+      "slay",
+      "assassination"
+    ],
+    "vowel": "𐑪",
+    "suffix": "𐑕𐑒𐑕"
+  },
+  "i:0883": {
+    "word": "𐑲𐑙𐑒𐑕",
+    "definition": "A religious gathering and the place where it is held; a church service.",
+    "group": "Belief, Spirit & Meaning",
+    "rank": 374,
+    "translations": [
+      "church",
+      "worship",
+      "service",
+      "congregation",
+      "mass",
+      "prayer"
+    ],
+    "vowel": "𐑲",
+    "suffix": "𐑙𐑒𐑕"
+  },
+  "i:0910": {
+    "word": "𐑪𐑙𐑒𐑕",
+    "definition": "A spiritual worldview involving belief in divine entities and associated rituals.",
+    "group": "Belief, Spirit & Meaning",
+    "rank": 375,
+    "translations": [
+      "religion",
+      "faith",
+      "spiritual",
+      "belief",
+      "worship",
+      "creed"
+    ],
+    "vowel": "𐑪",
+    "suffix": "𐑙𐑒𐑕"
+  },
+  "i:0927": {
+    "word": "𐑰𐑙𐑒𐑕",
+    "definition": "Inspiring profound awe and reverence; eliciting deep wonder.",
+    "group": "Belief, Spirit & Meaning",
+    "rank": 376,
+    "translations": [
+      "awesome",
+      "awe-inspiring",
+      "sacred",
+      "wondrous",
+      "sublime",
+      "magnificent"
+    ],
+    "vowel": "𐑰",
+    "suffix": "𐑙𐑒𐑕"
+  },
+  "i:0896": {
+    "word": "𐑵𐑥𐑓",
+    "definition": "Indicating danger or risk before it occurs; a warning signal.",
+    "group": "Danger & Protection",
+    "rank": 377,
+    "translations": [
+      "warn",
+      "warning",
+      "signal",
+      "alert",
+      "caution",
+      "red flag"
+    ],
+    "vowel": "𐑵",
+    "suffix": "𐑥𐑓"
+  },
+  "i:0891": {
+    "word": "𐑴𐑥𐑐",
+    "definition": "The result or outcome of an action or process.",
+    "group": "Relation & Causation",
+    "rank": 378,
+    "translations": [
+      "result",
+      "outcome",
+      "consequence",
+      "effect",
+      "product",
+      "conclusion"
+    ],
+    "vowel": "𐑴",
+    "suffix": "𐑥𐑐"
+  },
+  "i:0877": {
+    "word": "𐑰𐑯𐑕𐑑",
+    "definition": "Verifiable truth; something proven by evidence.",
+    "group": "Truth & Certainty",
+    "rank": 379,
+    "translations": [
+      "proven",
+      "verified",
+      "valid",
+      "evidenced",
+      "confirmed",
+      "demonstrated"
+    ],
+    "vowel": "𐑰",
+    "suffix": "𐑯𐑕𐑑"
+  },
+  "i:d3": {
+    "word": "𐑪𐑒𐑕",
+    "definition": "The digit three; the numeric value 3.",
+    "group": "Quantity & Degree",
+    "rank": 380,
+    "translations": [
+      "3",
+      "three",
+      "triple",
+      "trio"
+    ],
+    "vowel": "𐑪",
+    "suffix": "𐑒𐑕"
+  },
+  "i:0915": {
+    "word": "𐑴𐑯𐑗",
+    "definition": "Capable of being changed to fit new uses; adaptable.",
+    "group": "Change & Process",
+    "rank": 381,
+    "translations": [
+      "flexible",
+      "adaptable",
+      "versatile",
+      "adjustable",
+      "variable"
+    ],
+    "vowel": "𐑴",
+    "suffix": "𐑯𐑗"
+  },
+  "i:0904": {
+    "word": "𐑵𐑟𐑛",
+    "definition": "A portable bag for carrying personal items.",
+    "group": "Containment & Connection",
+    "rank": 382,
+    "translations": [
+      "bag",
+      "pack",
+      "sack",
+      "carry",
+      "tote",
+      "luggage"
+    ],
+    "vowel": "𐑵",
+    "suffix": "𐑟𐑛"
+  },
+  "i:0875": {
+    "word": "𐑷𐑒𐑑𐑕",
+    "definition": "Touching or probing with a finger; tactile exploration.",
+    "group": "Perception & Senses",
+    "rank": 383,
+    "translations": [
+      "touch",
+      "finger",
+      "probe",
+      "point",
+      "feel",
+      "tap"
+    ],
+    "vowel": "𐑷",
+    "suffix": "𐑒𐑑𐑕"
+  },
+  "i:0932": {
+    "word": "𐑵𐑐𐑑𐑕",
+    "definition": "Rate of repetition per unit time. Base unit: hertz.",
+    "group": "Measurement — Physical Dimensions",
+    "rank": 384,
+    "translations": [
+      "frequency",
+      "rate",
+      "cycles",
+      "hertz"
+    ],
+    "vowel": "𐑵",
+    "suffix": "𐑐𐑑𐑕"
+  },
+  "i:0967": {
+    "word": "𐑬𐑯𐑡",
+    "definition": "Establishing a boundary or limit while acknowledging the other party; a parting.",
+    "group": "Social Interaction",
+    "rank": 385,
+    "translations": [
+      "goodbye",
+      "farewell",
+      "boundary",
+      "limit",
+      "bye",
+      "parting"
+    ],
+    "vowel": "𐑬",
+    "suffix": "𐑯𐑡"
+  },
+  "i:0944": {
+    "word": "𐑵𐑒𐑕𐑑",
+    "definition": "Temporary economic use in exchange for regular payment; to rent or lease. Covers the financial arrangement of paying for temporary access to something. Distinct from linguistic borrowing of foreign words.",
+    "group": "Commerce & Money",
+    "rank": 386,
+    "translations": [
+      "rent",
+      "lease",
+      "hire",
+      "temporary use",
+      "rental"
+    ],
+    "vowel": "𐑵",
+    "suffix": "𐑒𐑕𐑑"
+  },
+  "i:1047": {
+    "word": "𐑴𐑙𐑒𐑕",
+    "definition": "Derived from a non-material or spiritual source; relating to worship.",
+    "group": "Belief, Spirit & Meaning",
+    "rank": 387,
+    "translations": [
+      "spiritual",
+      "sacred",
+      "divine",
+      "transcendent",
+      "religious",
+      "holy"
+    ],
+    "vowel": "𐑴",
+    "suffix": "𐑙𐑒𐑕"
+  },
+  "i:0977": {
+    "word": "𐑵𐑓𐑑",
+    "definition": "Playful or whimsical engagement; a toy or playful thing.",
+    "group": "Play & Competition",
+    "rank": 388,
+    "translations": [
+      "toy",
+      "playful",
+      "whimsical",
+      "fun",
+      "game",
+      "novelty"
+    ],
+    "vowel": "𐑵",
+    "suffix": "𐑓𐑑"
+  },
+  "i:d4": {
+    "word": "𐑵𐑯𐑔",
+    "definition": "The digit four; the numeric value 4.",
+    "group": "Time — Measurement & Cycles",
+    "rank": 389,
+    "translations": [
+      "4",
+      "four",
+      "quartet"
+    ],
+    "vowel": "𐑵",
+    "suffix": "𐑯𐑔"
+  },
+  "i:1036": {
+    "word": "𐑷𐑓𐑑",
+    "definition": "A person who participates in competitive physical fighting.",
+    "group": "Play & Competition",
+    "rank": 390,
+    "translations": [
+      "fighter",
+      "athlete",
+      "competitor",
+      "martial artist",
+      "player"
+    ],
+    "vowel": "𐑷",
+    "suffix": "𐑓𐑑"
+  },
+  "i:1020": {
+    "word": "𐑷𐑥𐑓",
+    "definition": "A vulnerability combining the likelihood and severity of possible harm.",
+    "group": "Danger & Protection",
+    "rank": 391,
+    "translations": [
+      "risk",
+      "hazard",
+      "threat",
+      "danger",
+      "vulnerability",
+      "exposure"
+    ],
+    "vowel": "𐑷",
+    "suffix": "𐑥𐑓"
+  },
+  "i:1037": {
+    "word": "𐑵𐑙𐑒",
+    "definition": "The fundamental composition and unity of a whole; underlying structure.",
+    "group": "Structure & Order",
+    "rank": 392,
+    "translations": [
+      "structure",
+      "composition",
+      "makeup",
+      "fabric",
+      "constitution",
+      "framework"
+    ],
+    "vowel": "𐑵",
+    "suffix": "𐑙𐑒"
+  },
+  "i:0983": {
+    "word": "𐑪𐑯𐑛𐑟",
+    "definition": "A point or boundary marking the beginning or end of something.",
+    "group": "Beginning & Ending",
+    "rank": 393,
+    "translations": [
+      "limit",
+      "boundary",
+      "threshold",
+      "point",
+      "edge",
+      "onset"
+    ],
+    "vowel": "𐑪",
+    "suffix": "𐑯𐑛𐑟"
+  },
+  "i:1033": {
+    "word": "𐑷𐑝𐑛",
+    "definition": "The combination of one's background and past deeds; personal history.",
+    "group": "Narrative, Story & Creativity",
+    "rank": 394,
+    "translations": [
+      "background",
+      "history",
+      "past",
+      "record",
+      "reputation",
+      "context"
+    ],
+    "vowel": "𐑷",
+    "suffix": "𐑝𐑛"
+  },
+  "i:1013": {
+    "word": "𐑵𐑔𐑕",
+    "definition": "The chest region; the upper front of the torso.",
+    "group": "Body — Internal, Organs & Reproduction",
+    "rank": 395,
+    "translations": [
+      "chest",
+      "thorax",
+      "torso",
+      "breast",
+      "front"
+    ],
+    "vowel": "𐑵",
+    "suffix": "𐑔𐑕"
+  },
+  "i:0980": {
+    "word": "𐑷𐑐𐑑𐑕",
+    "definition": "Three-dimensional space occupied. Base unit: liter.",
+    "group": "Measurement — Physical Dimensions",
+    "rank": 396,
+    "translations": [
+      "volume",
+      "capacity",
+      "liter"
+    ],
+    "vowel": "𐑷",
+    "suffix": "𐑐𐑑𐑕"
+  },
+  "i:1059": {
+    "word": "𐑪𐑓𐑕",
+    "definition": "Strength and capacity to maintain control, stability, and authority.",
+    "group": "Power & Authority",
+    "rank": 397,
+    "translations": [
+      "strength",
+      "power",
+      "control",
+      "authority",
+      "influence",
+      "dominance"
+    ],
+    "vowel": "𐑪",
+    "suffix": "𐑓𐑕"
+  },
+  "i:1068": {
+    "word": "𐑰𐑕𐑒𐑕",
+    "definition": "Relating to punishment imposed for unlawful conduct.",
+    "group": "Law & Justice",
+    "rank": 398,
+    "translations": [
+      "punishment",
+      "penalty",
+      "punitive",
+      "sanction",
+      "consequence"
+    ],
+    "vowel": "𐑰",
+    "suffix": "𐑕𐑒𐑕"
+  },
+  "i:1113": {
+    "word": "𐑵𐑙𐑒𐑕",
+    "definition": "A transcendent realm where the righteous dwell after death; paradise.",
+    "group": "Belief, Spirit & Meaning",
+    "rank": 399,
+    "translations": [
+      "heaven",
+      "paradise",
+      "afterlife",
+      "eternal life",
+      "bliss"
+    ],
+    "vowel": "𐑵",
+    "suffix": "𐑙𐑒𐑕"
+  },
+  "i:1137": {
+    "word": "𐑷𐑙𐑒𐑕",
+    "definition": "Sacred; consecrated or honored as holy.",
+    "group": "Belief, Spirit & Meaning",
+    "rank": 400,
+    "translations": [
+      "holy",
+      "sacred",
+      "blessed",
+      "consecrated",
+      "divine",
+      "hallowed"
+    ],
+    "vowel": "𐑷",
+    "suffix": "𐑙𐑒𐑕"
+  },
+  "i:1191": {
+    "word": "𐑬𐑙𐑒𐑕",
+    "definition": "A disciplined practice cultivating spiritual insight through mind-body control.",
+    "group": "Belief, Spirit & Meaning",
+    "rank": 401,
+    "translations": [
+      "meditation",
+      "yoga",
+      "mindfulness",
+      "practice",
+      "contemplation"
+    ],
+    "vowel": "𐑬",
+    "suffix": "𐑙𐑒𐑕"
+  },
+  "i:1146": {
+    "word": "𐑬𐑓𐑑",
+    "definition": "An organized sporting event or competition.",
+    "group": "Play & Competition",
+    "rank": 402,
+    "translations": [
+      "tournament",
+      "competition",
+      "event",
+      "match",
+      "contest",
+      "championship"
+    ],
+    "vowel": "𐑬",
+    "suffix": "𐑓𐑑"
+  },
+  "i:1188": {
+    "word": "𐑫𐑓𐑑",
+    "definition": "Entertainment based on chance; gambling or luck-based games.",
+    "group": "Play & Competition",
+    "rank": 403,
+    "translations": [
+      "gamble",
+      "luck",
+      "chance",
+      "lottery",
+      "game of chance",
+      "bet"
+    ],
+    "vowel": "𐑫",
+    "suffix": "𐑓𐑑"
+  },
+  "i:1176": {
+    "word": "𐑬𐑥𐑐𐑑",
+    "definition": "A large ocean wave; a ground swell.",
+    "group": "Nature & Elements",
+    "rank": 404,
+    "translations": [
+      "wave",
+      "swell",
+      "ocean wave",
+      "surf",
+      "breaker"
+    ],
+    "vowel": "𐑬",
+    "suffix": "𐑥𐑐𐑑"
+  },
+  "i:1158": {
+    "word": "𐑴𐑡𐑛",
+    "definition": "A cartilaginous marine predatory fish; a shark.",
+    "group": "Living Things",
+    "rank": 405,
+    "translations": [
+      "shark",
+      "fish",
+      "predator",
+      "marine animal"
+    ],
+    "vowel": "𐑴",
+    "suffix": "𐑡𐑛"
+  },
+  "i:1149": {
+    "word": "𐑬𐑒𐑑𐑕",
+    "definition": "The capacity to detect incoming signals; receptiveness.",
+    "group": "Perception & Senses",
+    "rank": 406,
+    "translations": [
+      "receptive",
+      "detect",
+      "receive",
+      "sensitive",
+      "open",
+      "responsive"
+    ],
+    "vowel": "𐑬",
+    "suffix": "𐑒𐑑𐑕"
+  },
+  "i:d9": {
+    "word": "𐑵𐑥𐑟",
+    "definition": "The digit nine; the numeric value 9. Also the maximum on any 0–9 scale.",
+    "group": "Positive & Expansive",
+    "rank": 407,
+    "translations": [
+      "9",
+      "nine",
+      "maximum",
+      "full scale"
+    ],
+    "vowel": "𐑵",
+    "suffix": "𐑥𐑟"
+  },
+  "i:1074": {
+    "word": "𐑷𐑔𐑕",
+    "definition": "The paired respiratory organs exchanging oxygen and carbon dioxide.",
+    "group": "Body — Internal, Organs & Reproduction",
+    "rank": 408,
+    "translations": [
+      "lung",
+      "lungs",
+      "breathe",
+      "respiratory",
+      "pulmonary"
+    ],
+    "vowel": "𐑷",
+    "suffix": "𐑔𐑕"
+  },
+  "i:1277": {
+    "word": "𐑵𐑚𐑟",
+    "definition": "Abandonment; severing a connection or leaving something behind.",
+    "group": "Giving & Taking",
+    "rank": 409,
+    "translations": [
+      "abandon",
+      "leave behind",
+      "desert",
+      "reject",
+      "discard",
+      "forsake"
+    ],
+    "vowel": "𐑵",
+    "suffix": "𐑚𐑟"
+  },
+  "i:1222": {
+    "word": "𐑵𐑥𐑐",
+    "definition": "A link where one circumstance follows or responds to another.",
+    "group": "Relation & Causation",
+    "rank": 410,
+    "translations": [
+      "follow",
+      "respond to",
+      "consequence of",
+      "sequel",
+      "result from"
+    ],
+    "vowel": "𐑵",
+    "suffix": "𐑥𐑐"
+  },
+  "i:1358": {
+    "word": "𐑫𐑥𐑐𐑑",
+    "definition": "A natural watercourse flowing from higher to lower elevation.",
+    "group": "Nature & Elements",
+    "rank": 411,
+    "translations": [
+      "river",
+      "stream",
+      "watercourse",
+      "creek",
+      "flow"
+    ],
+    "vowel": "𐑫",
+    "suffix": "𐑥𐑐𐑑"
+  },
+  "i:1267": {
+    "word": "𐑵𐑡𐑛",
+    "definition": "Large hoofed herbivorous mammals; cattle or bovines.",
+    "group": "Living Things",
+    "rank": 412,
+    "translations": [
+      "cow",
+      "cattle",
+      "bull",
+      "bovine",
+      "livestock"
+    ],
+    "vowel": "𐑵",
+    "suffix": "𐑡𐑛"
+  },
+  "i:1347": {
+    "word": "𐑷𐑡𐑛",
+    "definition": "Large felines; lions, tigers, and big cats.",
+    "group": "Living Things",
+    "rank": 413,
+    "translations": [
+      "lion",
+      "tiger",
+      "big cat",
+      "predator",
+      "feline"
+    ],
+    "vowel": "𐑷",
+    "suffix": "𐑡𐑛"
+  },
+  "i:1377": {
+    "word": "𐑬𐑡𐑛",
+    "definition": "A living entity classifiable as human or animal.",
+    "group": "Living Things",
+    "rank": 414,
+    "translations": [
+      "creature",
+      "being",
+      "animal",
+      "organism",
+      "living thing"
+    ],
+    "vowel": "𐑬",
+    "suffix": "𐑡𐑛"
+  },
+  "i:1352": {
+    "word": "𐑷𐑙𐑟",
+    "definition": "A foundational stage of education for early learners.",
+    "group": "Learning & Education",
+    "rank": 415,
+    "translations": [
+      "elementary",
+      "primary school",
+      "early education",
+      "kindergarten"
+    ],
+    "vowel": "𐑷",
+    "suffix": "𐑙𐑟"
+  },
+  "i:1246": {
+    "word": "𐑶𐑜𐑛",
+    "definition": "The oral opening used for eating, speaking, and breathing.",
+    "group": "Body — Basic Parts",
+    "rank": 416,
+    "translations": [
+      "mouth",
+      "oral",
+      "opening",
+      "lips"
+    ],
+    "vowel": "𐑶",
+    "suffix": "𐑜𐑛"
+  },
+  "i:1343": {
+    "word": "𐑫𐑒𐑑𐑕",
+    "definition": "A fresh, crisp quality; the sensation of freshness and clean aroma.",
+    "group": "Perception & Senses",
+    "rank": 417,
+    "translations": [
+      "fresh",
+      "crisp",
+      "clean",
+      "mint",
+      "invigorating",
+      "light"
+    ],
+    "vowel": "𐑫",
+    "suffix": "𐑒𐑑𐑕"
+  },
+  "i:1398": {
+    "word": "𐑵𐑯𐑛",
+    "definition": "The transitional period between day and night; dawn or dusk.",
+    "group": "Time — Abstract & Sequence",
+    "rank": 418,
+    "translations": [
+      "dawn",
+      "dusk",
+      "twilight",
+      "sunrise",
+      "sunset"
+    ],
+    "vowel": "𐑵",
+    "suffix": "𐑯𐑛"
+  },
+  "i:1370": {
+    "word": "𐑷𐑯𐑛",
+    "definition": "Occurring or repeating each day; daily.",
+    "group": "Time — Abstract & Sequence",
+    "rank": 419,
+    "translations": [
+      "daily",
+      "each day",
+      "everyday"
+    ],
+    "vowel": "𐑷",
+    "suffix": "𐑯𐑛"
+  },
+  "i:1329": {
+    "word": "𐑬𐑔𐑕",
+    "definition": "The throat; the anterior neck region containing the airway.",
+    "group": "Body — Internal, Organs & Reproduction",
+    "rank": 420,
+    "translations": [
+      "throat",
+      "neck",
+      "airway",
+      "swallow",
+      "gullet"
+    ],
+    "vowel": "𐑬",
+    "suffix": "𐑔𐑕"
+  },
+  "i:1312": {
+    "word": "𐑷𐑐𐑑",
+    "definition": "Cardinal direction — absolute geographic orientation independent of the observer. Specified as cardinal[0–3]: 0=north, 1=east, 2=south, 3=west. Decimals give intermediate headings: cardinal[0.5]=northeast, cardinal[1.5]=southeast.",
+    "group": "Axes, Dimensions & Reference",
+    "rank": 421,
+    "translations": [
+      "north",
+      "south",
+      "east",
+      "west",
+      "cardinal direction"
+    ],
+    "vowel": "𐑷",
+    "suffix": "𐑐𐑑"
+  },
+  "i:1374": {
+    "word": "𐑬𐑐𐑑",
+    "definition": "The orientation or heading an entity faces; a directional vector.",
+    "group": "Axes, Dimensions & Reference",
+    "rank": 422,
+    "translations": [
+      "direction",
+      "heading",
+      "facing",
+      "vector"
+    ],
+    "vowel": "𐑬",
+    "suffix": "𐑐𐑑"
+  },
+  "i:1298": {
+    "word": "𐑫𐑐𐑑",
+    "definition": "A departure from a straight line; curvature.",
+    "group": "Axes, Dimensions & Reference",
+    "rank": 423,
+    "translations": [
+      "curve",
+      "curved",
+      "bent",
+      "arc"
+    ],
+    "vowel": "𐑫",
+    "suffix": "𐑐𐑑"
+  },
+  "i:d6": {
+    "word": "𐑬𐑑𐑕",
+    "definition": "The digit six; the numeric value 6.",
+    "group": "Evaluation, Quality & Morality",
+    "rank": 424,
+    "translations": [
+      "6",
+      "six"
+    ],
+    "vowel": "𐑬",
+    "suffix": "𐑑𐑕"
+  },
+  "i:1547": {
+    "word": "𐑴𐑒𐑑",
+    "definition": "Obscurity; reduced clarity or visibility; concealment; the quality of being hidden or unclear.",
+    "group": "Knowledge & Mind",
+    "rank": 425,
+    "translations": [
+      "obscure",
+      "hidden",
+      "unclear",
+      "vague",
+      "concealed",
+      "murky"
+    ],
+    "vowel": "𐑴",
+    "suffix": "𐑒𐑑"
+  },
+  "i:1468": {
+    "word": "𐑰𐑗𐑑",
+    "definition": "The female biological parent; the one who gestated and birthed the offspring.",
+    "group": "Family & Kinship",
+    "rank": 426,
+    "translations": [
+      "mother",
+      "mom",
+      "biological mother"
+    ],
+    "vowel": "𐑰",
+    "suffix": "𐑗𐑑"
+  },
+  "i:1531": {
+    "word": "𐑰𐑓𐑕",
+    "definition": "A regulatory body that enforces rules and maintains societal order.",
+    "group": "Power & Authority",
+    "rank": 427,
+    "translations": [
+      "police",
+      "law enforcement",
+      "regulator",
+      "authority",
+      "enforcement"
+    ],
+    "vowel": "𐑰",
+    "suffix": "𐑓𐑕"
+  },
+  "i:1550": {
+    "word": "𐑴𐑓𐑕",
+    "definition": "A senior administrative or executive title within a hierarchy.",
+    "group": "Power & Authority",
+    "rank": 428,
+    "translations": [
+      "official",
+      "minister",
+      "officer",
+      "executive",
+      "administrator"
+    ],
+    "vowel": "𐑴",
+    "suffix": "𐑓𐑕"
+  },
+  "i:1603": {
+    "word": "𐑴𐑕𐑒𐑕",
+    "definition": "The collective body of rules and authorities governing conduct in a community.",
+    "group": "Law & Justice",
+    "rank": 429,
+    "translations": [
+      "law",
+      "legal system",
+      "rule of law",
+      "legislation",
+      "order"
+    ],
+    "vowel": "𐑴",
+    "suffix": "𐑕𐑒𐑕"
+  },
+  "i:1683": {
+    "word": "𐑫𐑙𐑒𐑕",
+    "definition": "A sacred and esoteric phenomenon beyond ordinary human understanding.",
+    "group": "Belief, Spirit & Meaning",
+    "rank": 430,
+    "translations": [
+      "mystery",
+      "mystical",
+      "esoteric",
+      "sacred",
+      "supernatural",
+      "occult"
+    ],
+    "vowel": "𐑫",
+    "suffix": "𐑙𐑒𐑕"
+  },
+  "i:1617": {
+    "word": "𐑴𐑖𐑑",
+    "definition": "Airborne movement; moving through the air by aerodynamic means.",
+    "group": "Motion & Movement",
+    "rank": 431,
+    "translations": [
+      "fly",
+      "flight",
+      "airborne",
+      "aviation",
+      "glide",
+      "soar"
+    ],
+    "vowel": "𐑴",
+    "suffix": "𐑖𐑑"
+  },
+  "i:1664": {
+    "word": "𐑬𐑥𐑓",
+    "definition": "Tools or methods used for protection, offense, or influence.",
+    "group": "Danger & Protection",
+    "rank": 432,
+    "translations": [
+      "weapon",
+      "tool",
+      "instrument",
+      "arms",
+      "defense",
+      "means"
+    ],
+    "vowel": "𐑬",
+    "suffix": "𐑥𐑓"
+  },
+  "i:1726": {
+    "word": "𐑫𐑥𐑓",
+    "definition": "The quality of metal; hard, strong material associated with tools and weapons.",
+    "group": "Danger & Protection",
+    "rank": 433,
+    "translations": [
+      "metal",
+      "metallic",
+      "steel",
+      "iron",
+      "hard",
+      "weapon"
+    ],
+    "vowel": "𐑫",
+    "suffix": "𐑥𐑓"
+  },
+  "i:d7": {
+    "word": "𐑶𐑙𐑒𐑕",
+    "definition": "The digit seven; the numeric value 7.",
+    "group": "Belief, Spirit & Meaning",
+    "rank": 434,
+    "translations": [
+      "7",
+      "seven"
+    ],
+    "vowel": "𐑶",
+    "suffix": "𐑙𐑒𐑕"
+  },
+  "i:1471": {
+    "word": "𐑪𐑯𐑔",
+    "definition": "The natural recurring state of rest and reduced consciousness.",
+    "group": "Time — Measurement & Cycles",
+    "rank": 435,
+    "translations": [
+      "sleep",
+      "rest",
+      "slumber"
+    ],
+    "vowel": "𐑪",
+    "suffix": "𐑯𐑔"
+  },
+  "i:1855": {
+    "word": "𐑰𐑯𐑔",
+    "definition": "A period of seven consecutive days.",
+    "group": "Time — Measurement & Cycles",
+    "rank": 436,
+    "translations": [
+      "week",
+      "weekly"
+    ],
+    "vowel": "𐑰",
+    "suffix": "𐑯𐑔"
+  },
+  "i:1431": {
+    "word": "𐑴𐑯𐑔",
+    "definition": "A complete cycle of approximately 365 days.",
+    "group": "Time — Measurement & Cycles",
+    "rank": 437,
+    "translations": [
+      "year",
+      "annual"
+    ],
+    "vowel": "𐑴",
+    "suffix": "𐑯𐑔"
+  },
+  "i:1481": {
+    "word": "𐑴𐑣'",
+    "definition": "A principal hub of human settlement and activity in a region.",
+    "group": "Place & Dwelling",
+    "rank": 438,
+    "translations": [
+      "city",
+      "capital",
+      "metropolis",
+      "center",
+      "hub",
+      "main city"
+    ],
+    "vowel": "𐑴",
+    "suffix": "𐑣'"
+  },
+  "i:1843": {
+    "word": "𐑫𐑔𐑕",
+    "definition": "The digestive organ receiving and processing food.",
+    "group": "Body — Internal, Organs & Reproduction",
+    "rank": 439,
+    "translations": [
+      "stomach",
+      "belly",
+      "gut",
+      "abdomen",
+      "digestive"
+    ],
+    "vowel": "𐑫",
+    "suffix": "𐑔𐑕"
+  },
+  "i:1755": {
+    "word": "𐑶𐑔𐑕",
+    "definition": "Blood; the fluid circulating through the body.",
+    "group": "Body — Internal, Organs & Reproduction",
+    "rank": 440,
+    "translations": [
+      "blood",
+      "bleed",
+      "sanguine",
+      "plasma",
+      "gore"
+    ],
+    "vowel": "𐑶",
+    "suffix": "𐑔𐑕"
+  },
+  "i:1438": {
+    "word": "𐑴𐑥𐑟",
+    "definition": "The +X direction; toward the observer's right.",
+    "group": "Positive & Expansive",
+    "rank": 441,
+    "translations": [
+      "right",
+      "rightward",
+      "+X"
+    ],
+    "vowel": "𐑴",
+    "suffix": "𐑥𐑟"
+  },
+  "i:1784": {
+    "word": "𐑶𐑐𐑑",
+    "definition": "The difference or displacement between two spatial positions.",
+    "group": "Axes, Dimensions & Reference",
+    "rank": 442,
+    "translations": [
+      "offset",
+      "delta",
+      "displacement",
+      "coordinate difference"
+    ],
+    "vowel": "𐑶",
+    "suffix": "𐑐𐑑"
+  },
+  "i:d8": {
+    "word": "𐑵𐑯𐑗",
+    "definition": "The digit eight; the numeric value 8.",
+    "group": "Change & Process",
+    "rank": 443,
+    "translations": [
+      "8",
+      "eight"
+    ],
+    "vowel": "𐑵",
+    "suffix": "𐑯𐑗"
+  },
+  "i:1919": {
+    "word": "𐑪𐑯𐑟",
+    "definition": "In the company of; accompanied by; having.",
+    "group": "Logic & Connectives",
+    "rank": 444,
+    "translations": [
+      "with",
+      "together with",
+      "alongside"
+    ],
+    "vowel": "𐑪",
+    "suffix": "𐑯𐑟"
+  },
+  "i:1921": {
+    "word": "𐑵𐑯𐑟",
+    "definition": "Continuing up to but not beyond a point; the temporal or conditional limit.",
+    "group": "Logic & Connectives",
+    "rank": 445,
+    "translations": [
+      "until",
+      "up to",
+      "till"
+    ],
+    "vowel": "𐑵",
+    "suffix": "𐑯𐑟"
+  },
+  "i:1927": {
+    "word": "𐑴𐑯𐑟",
+    "definition": "At the same time as; during the same period.",
+    "group": "Logic & Connectives",
+    "rank": 446,
+    "translations": [
+      "while",
+      "during",
+      "simultaneously"
+    ],
+    "vowel": "𐑴",
+    "suffix": "𐑯𐑟"
+  },
+  "i:1933": {
+    "word": "𐑷𐑯𐑟",
+    "definition": "Clause opener — marks the beginning of a subordinate clause; that/which/who as a relativizer. All parts of the clause must follow this marker and stay grouped together.",
+    "group": "Logic & Connectives",
+    "rank": 447,
+    "translations": [
+      "that",
+      "which",
+      "who",
+      "whom",
+      "whereby",
+      "clause marker",
+      "subordinate"
+    ],
+    "vowel": "𐑷",
+    "suffix": "𐑯𐑟"
+  },
+  "i:1897": {
+    "word": "𐑩𐑯𐑔",
+    "definition": "A unit of time equal to sixty seconds.",
+    "group": "Time — Measurement & Cycles",
+    "rank": 448,
+    "translations": [
+      "minute",
+      "min"
+    ],
+    "vowel": "𐑩",
+    "suffix": "𐑯𐑔"
+  },
+  "i:1907": {
+    "word": "𐑦𐑯𐑔",
+    "definition": "A unit of time approximately one-twelfth of a year; roughly 30 days.",
+    "group": "Time — Measurement & Cycles",
+    "rank": 449,
+    "translations": [
+      "month",
+      "monthly"
+    ],
+    "vowel": "𐑦",
+    "suffix": "𐑯𐑔"
+  },
+  "i:1929": {
+    "word": "𐑲𐑯𐑑",
+    "definition": "To be; the copula linking a subject to a predicate or state. Pure existence or identity: X is Y, to exist as, to be in a state. Covers 'is', 'are', 'was', 'am' in their linking rather than actional sense.",
+    "group": "Existence, State & Absence",
+    "rank": 450,
+    "translations": [
+      "be",
+      "is",
+      "are",
+      "am",
+      "was"
+    ],
+    "vowel": "𐑲",
+    "suffix": "𐑯𐑑"
+  },
+  "i:1883": {
+    "word": "𐑦𐑥𐑐𐑑",
+    "definition": "The Earth's natural satellite visible at night.",
+    "group": "Nature & Elements",
+    "rank": 451,
+    "translations": [
+      "moon",
+      "lunar",
+      "satellite"
+    ],
+    "vowel": "𐑦",
+    "suffix": "𐑥𐑐𐑑"
+  },
+  "i:1886": {
+    "word": "𐑨𐑥𐑐𐑑",
+    "definition": "The tough outer layer of a tree's trunk and branches.",
+    "group": "Nature & Elements",
+    "rank": 452,
+    "translations": [
+      "bark",
+      "tree bark",
+      "rind",
+      "outer layer"
+    ],
+    "vowel": "𐑨",
+    "suffix": "𐑥𐑐𐑑"
+  },
+  "i:1884": {
+    "word": "𐑧𐑡𐑛",
+    "definition": "A feathered winged vertebrate capable of flight.",
+    "group": "Living Things",
+    "rank": 453,
+    "translations": [
+      "bird",
+      "avian",
+      "fowl",
+      "feathered animal"
+    ],
+    "vowel": "𐑧",
+    "suffix": "𐑡𐑛"
+  },
+  "i:1887": {
+    "word": "𐑨𐑡𐑛",
+    "definition": "A small limbless soil invertebrate.",
+    "group": "Living Things",
+    "rank": 454,
+    "translations": [
+      "worm",
+      "earthworm",
+      "invertebrate"
+    ],
+    "vowel": "𐑨",
+    "suffix": "𐑡𐑛"
+  },
+  "i:1930": {
+    "word": "𐑦𐑡𐑛",
+    "definition": "Life stage — position in the arc of a life on a 0–9 scale: 0=newborn/beginning of life, 1–2=infant/toddler, 3–4=child/youth, 5=adult, 6–7=middle age, 8=elderly, 9=end of life. Decimals allow fine gradation. Applies to any living thing. Example: life[0]=newborn, life[3]=young, life[5]=adult, life[8]=old.",
+    "group": "Living Things",
+    "rank": 455,
+    "translations": [
+      "age",
+      "young",
+      "old",
+      "life stage",
+      "youth",
+      "elderly"
+    ],
+    "vowel": "𐑦",
+    "suffix": "𐑡𐑛"
+  },
+  "i:1888": {
+    "word": "𐑩𐑜𐑛",
+    "definition": "The uppermost body part containing the brain and major sense organs.",
+    "group": "Body — Basic Parts",
+    "rank": 456,
+    "translations": [
+      "head",
+      "skull",
+      "cranium"
+    ],
+    "vowel": "𐑩",
+    "suffix": "𐑜𐑛"
+  },
+  "i:1889": {
+    "word": "𐑦𐑜𐑛",
+    "definition": "The organ of vision.",
+    "group": "Body — Basic Parts",
+    "rank": 457,
+    "translations": [
+      "eye",
+      "vision",
+      "see",
+      "sight"
+    ],
+    "vowel": "𐑦",
+    "suffix": "𐑜𐑛"
+  },
+  "i:1890": {
+    "word": "𐑧𐑜𐑛",
+    "definition": "The organ of hearing.",
+    "group": "Body — Basic Parts",
+    "rank": 458,
+    "translations": [
+      "ear",
+      "hearing",
+      "listen",
+      "auditory"
+    ],
+    "vowel": "𐑧",
+    "suffix": "𐑜𐑛"
+  },
+  "i:1891": {
+    "word": "𐑨𐑜𐑛",
+    "definition": "The organ of smell and nasal breathing.",
+    "group": "Body — Basic Parts",
+    "rank": 459,
+    "translations": [
+      "nose",
+      "smell",
+      "nasal",
+      "sniff"
+    ],
+    "vowel": "𐑨",
+    "suffix": "𐑜𐑛"
+  },
+  "i:1885": {
+    "word": "𐑱𐑜𐑛",
+    "definition": "The muscular organ in the mouth for taste and speech.",
+    "group": "Body — Basic Parts",
+    "rank": 460,
+    "translations": [
+      "tongue",
+      "taste",
+      "lingual"
+    ],
+    "vowel": "𐑱",
+    "suffix": "𐑜𐑛"
+  },
+  "i:1893": {
+    "word": "𐑲𐑜𐑛",
+    "definition": "The limb used for standing, walking, and locomotion.",
+    "group": "Body — Basic Parts",
+    "rank": 461,
+    "translations": [
+      "leg",
+      "limb",
+      "lower limb",
+      "stride"
+    ],
+    "vowel": "𐑲",
+    "suffix": "𐑜𐑛"
+  },
+  "i:1892": {
+    "word": "𐑪𐑜𐑛",
+    "definition": "The terminal part of the leg used for standing and walking.",
+    "group": "Body — Basic Parts",
+    "rank": 462,
+    "translations": [
+      "foot",
+      "feet",
+      "step",
+      "sole"
+    ],
+    "vowel": "𐑪",
+    "suffix": "𐑜𐑛"
+  },
+  "i:1895": {
+    "word": "𐑰𐑜𐑛",
+    "definition": "The posterior surface of the body from shoulders to hips.",
+    "group": "Body — Basic Parts",
+    "rank": 463,
+    "translations": [
+      "back",
+      "spine",
+      "posterior",
+      "rear"
+    ],
+    "vowel": "𐑰",
+    "suffix": "𐑜𐑛"
+  },
+  "i:1904": {
+    "word": "𐑴𐑜𐑛",
+    "definition": "The outer body covering; the largest organ.",
+    "group": "Body — Basic Parts",
+    "rank": 464,
+    "translations": [
+      "skin",
+      "surface",
+      "covering",
+      "hide",
+      "epidermis"
+    ],
+    "vowel": "𐑴",
+    "suffix": "𐑜𐑛"
+  },
+  "i:1882": {
+    "word": "𐑵𐑜𐑛",
+    "definition": "Dense connective tissue forming the skeleton.",
+    "group": "Body — Basic Parts",
+    "rank": 465,
+    "translations": [
+      "bone",
+      "skeletal",
+      "skeleton",
+      "rigid"
+    ],
+    "vowel": "𐑵",
+    "suffix": "𐑜𐑛"
+  },
+  "i:1931": {
+    "word": "𐑧𐑒𐑑𐑕",
+    "definition": "Color lightness — the brightness dimension within a hue expression, on a 0–4 scale: 0=very dark, 1=dark, 2=mid (default), 3=light, 4=very light. The second parameter in color[hue·lightness·saturation].",
+    "group": "Perception & Senses",
+    "rank": 466,
+    "translations": [
+      "lightness",
+      "brightness",
+      "dark",
+      "light",
+      "shade",
+      "tone"
+    ],
+    "vowel": "𐑧",
+    "suffix": "𐑒𐑑𐑕"
+  },
+  "i:1932": {
+    "word": "𐑨𐑒𐑑𐑕",
+    "definition": "Color saturation — the vividness or purity dimension within a hue expression, on a 5–9 scale: 5=near gray/desaturated, 6=dull, 7=moderate, 8=vivid, 9=pure/fully saturated (default). The third parameter in color[hue·lightness·saturation].",
+    "group": "Perception & Senses",
+    "rank": 467,
+    "translations": [
+      "saturation",
+      "vivid",
+      "muted",
+      "pure",
+      "dull",
+      "chroma",
+      "intensity"
+    ],
+    "vowel": "𐑨",
+    "suffix": "𐑒𐑑𐑕"
+  },
+  "i:1894": {
+    "word": "𐑩𐑔𐑕",
+    "definition": "The organ of thought and nervous system control.",
+    "group": "Body — Internal, Organs & Reproduction",
+    "rank": 468,
+    "translations": [
+      "brain",
+      "mind",
+      "cognitive",
+      "neural",
+      "cerebral"
+    ],
+    "vowel": "𐑩",
+    "suffix": "𐑔𐑕"
+  },
+  "i:1900": {
+    "word": "𐑱𐑔𐑕",
+    "definition": "The biological process of producing offspring.",
+    "group": "Body — Internal, Organs & Reproduction",
+    "rank": 469,
+    "translations": [
+      "reproduce",
+      "reproduction",
+      "procreate",
+      "breed",
+      "propagate"
+    ],
+    "vowel": "𐑱",
+    "suffix": "𐑔𐑕"
+  },
+  "i:1901": {
+    "word": "𐑲𐑔𐑕",
+    "definition": "The uterus; the organ where offspring develop before birth.",
+    "group": "Body — Internal, Organs & Reproduction",
+    "rank": 470,
+    "translations": [
+      "womb",
+      "uterus",
+      "uterine"
+    ],
+    "vowel": "𐑲",
+    "suffix": "𐑔𐑕"
+  },
+  "i:1902": {
+    "word": "𐑪𐑔𐑕",
+    "definition": "The external male reproductive organs.",
+    "group": "Body — Internal, Organs & Reproduction",
+    "rank": 471,
+    "translations": [
+      "penis",
+      "male genitalia",
+      "phallus"
+    ],
+    "vowel": "𐑪",
+    "suffix": "𐑔𐑕"
+  },
+  "i:1903": {
+    "word": "𐑰𐑔𐑕",
+    "definition": "The external female reproductive organs.",
+    "group": "Body — Internal, Organs & Reproduction",
+    "rank": 472,
+    "translations": [
+      "vagina",
+      "vulva",
+      "female genitalia"
+    ],
+    "vowel": "𐑰",
+    "suffix": "𐑔𐑕"
+  },
+  "i:1898": {
+    "word": "𐑦𐑔𐑕",
+    "definition": "Carrying developing offspring in the womb.",
+    "group": "Body — Internal, Organs & Reproduction",
+    "rank": 473,
+    "translations": [
+      "pregnant",
+      "pregnancy",
+      "gestation",
+      "expecting",
+      "with child"
+    ],
+    "vowel": "𐑦",
+    "suffix": "𐑔𐑕"
+  },
+  "i:1899": {
+    "word": "𐑨𐑔𐑕",
+    "definition": "The emergence of offspring from the body.",
+    "group": "Body — Internal, Organs & Reproduction",
+    "rank": 474,
+    "translations": [
+      "birth",
+      "born",
+      "deliver",
+      "childbirth",
+      "nativity"
+    ],
+    "vowel": "𐑨",
+    "suffix": "𐑔𐑕"
+  },
+  "i:1908": {
+    "word": "𐑦𐑐𐑑𐑕",
+    "definition": "Two-dimensional extent or surface. Base unit: square meter.",
+    "group": "Measurement — Physical Dimensions",
+    "rank": 475,
+    "translations": [
+      "area",
+      "surface area",
+      "square meter"
+    ],
+    "vowel": "𐑦",
+    "suffix": "𐑐𐑑𐑕"
+  },
+  "i:1909": {
+    "word": "𐑧𐑐𐑑𐑕",
+    "definition": "Distance traveled per unit time. Base unit: meter per second.",
+    "group": "Measurement — Physical Dimensions",
+    "rank": 476,
+    "translations": [
+      "speed",
+      "velocity",
+      "pace",
+      "meter per second"
+    ],
+    "vowel": "𐑧",
+    "suffix": "𐑐𐑑𐑕"
+  },
+  "i:1910": {
+    "word": "𐑨𐑐𐑑𐑕",
+    "definition": "Push or pull between objects. Base unit: newton.",
+    "group": "Measurement — Physical Dimensions",
+    "rank": 477,
+    "translations": [
+      "force",
+      "push",
+      "pull",
+      "newton"
+    ],
+    "vowel": "𐑨",
+    "suffix": "𐑐𐑑𐑕"
+  },
+  "i:1911": {
+    "word": "𐑱𐑐𐑑𐑕",
+    "definition": "Capacity to do work or cause change. Base unit: joule.",
+    "group": "Measurement — Physical Dimensions",
+    "rank": 478,
+    "translations": [
+      "energy",
+      "power",
+      "joule"
+    ],
+    "vowel": "𐑱",
+    "suffix": "𐑐𐑑𐑕"
+  },
+  "i:1912": {
+    "word": "𐑲𐑐𐑑𐑕",
+    "definition": "Rotational extent between two lines. Base unit: degree.",
+    "group": "Measurement — Physical Dimensions",
+    "rank": 479,
+    "translations": [
+      "angle",
+      "degree",
+      "rotation",
+      "radian"
+    ],
+    "vowel": "𐑲",
+    "suffix": "𐑐𐑑𐑕"
+  },
+  "i:1913": {
+    "word": "𐑩𐑐𐑑𐑕",
+    "definition": "Thermal energy or heat intensity. Base unit: degree Celsius.",
+    "group": "Measurement — Physical Dimensions",
+    "rank": 480,
+    "translations": [
+      "temperature",
+      "heat",
+      "cold",
+      "Celsius"
+    ],
+    "vowel": "𐑩",
+    "suffix": "𐑐𐑑𐑕"
+  },
+  "i:1917": {
+    "word": "𐑰𐑯𐑕",
+    "definition": "The −X direction; toward the observer's left.",
+    "group": "Negative & Contractive",
+    "rank": 481,
+    "translations": [
+      "left",
+      "leftward",
+      "-X"
+    ],
+    "vowel": "𐑰",
+    "suffix": "𐑯𐑕"
+  },
+  "i:0797": {
+    "word": "𐑱𐑐𐑑",
+    "definition": "The depth spatial dimension; the Y axis going forward and backward.",
+    "group": "Axes, Dimensions & Reference",
+    "rank": 482,
+    "translations": [
+      "Y axis",
+      "depth",
+      "forward-back",
+      "into/away"
+    ],
+    "vowel": "𐑱",
+    "suffix": "𐑐𐑑"
+  },
+  "i:1918": {
+    "word": "𐑲𐑐𐑑",
+    "definition": "The vertical spatial dimension; the Z axis along which up and down move.",
+    "group": "Axes, Dimensions & Reference",
+    "rank": 483,
+    "translations": [
+      "Z axis",
+      "vertical",
+      "height axis",
+      "up-down"
+    ],
+    "vowel": "𐑲",
+    "suffix": "𐑐𐑑"
+  },
+  "i:1915": {
+    "word": "𐑪𐑐𐑑",
+    "definition": "Whether spatial terms are egocentric (default) or absolute/cardinal.",
+    "group": "Axes, Dimensions & Reference",
+    "rank": 484,
+    "translations": [
+      "reference frame",
+      "perspective",
+      "egocentric",
+      "global"
+    ],
+    "vowel": "𐑪",
+    "suffix": "𐑐𐑑"
+  },
+  "i:1922": {
+    "word": "𐑩𐑚𐑛",
+    "definition": "At the time that; a temporal relative marker and question word.",
+    "group": "Particles & Markers",
+    "rank": 485,
+    "translations": [
+      "when",
+      "at what time",
+      "whenever"
+    ],
+    "vowel": "𐑩",
+    "suffix": "𐑚𐑛"
+  },
+  "i:1923": {
+    "word": "𐑦𐑚𐑛",
+    "definition": "At the place that; a locative relative marker and question word.",
+    "group": "Particles & Markers",
+    "rank": 486,
+    "translations": [
+      "where",
+      "at what place",
+      "wherever"
+    ],
+    "vowel": "𐑦",
+    "suffix": "𐑚𐑛"
+  },
+  "i:1924": {
+    "word": "𐑧𐑚𐑛",
+    "definition": "In what way or by what means; a manner marker and question word.",
+    "group": "Particles & Markers",
+    "rank": 487,
+    "translations": [
+      "how",
+      "in what way",
+      "by what means"
+    ],
+    "vowel": "𐑧",
+    "suffix": "𐑚𐑛"
+  },
+  "i:1920": {
+    "word": "𐑨𐑚𐑛",
+    "definition": "Concerning or regarding; marking the topic of discourse.",
+    "group": "Particles & Markers",
+    "rank": 488,
+    "translations": [
+      "about",
+      "regarding",
+      "concerning"
+    ],
+    "vowel": "𐑨",
+    "suffix": "𐑚𐑛"
+  },
+  "i:1925": {
+    "word": "𐑱𐑚𐑛",
+    "definition": "Introduces the second element of a comparison.",
+    "group": "Particles & Markers",
+    "rank": 489,
+    "translations": [
+      "than",
+      "compared to",
+      "versus"
+    ],
+    "vowel": "𐑱",
+    "suffix": "𐑚𐑛"
+  },
+  "i:1926": {
+    "word": "𐑲𐑚𐑛",
+    "definition": "Limiting to a single case; exclusivity.",
+    "group": "Particles & Markers",
+    "rank": 490,
+    "translations": [
+      "only",
+      "just",
+      "merely",
+      "solely"
+    ],
+    "vowel": "𐑲",
+    "suffix": "𐑚𐑛"
+  }
+}

@@ -1,0 +1,717 @@
+{
+  "meta": {
+    "version": 1,
+    "description": "Prefix system for the conlang. Every root word is POS-neutral — the prefix determines grammatical role, part of speech, tense, aspect, and number.",
+    "stacking_order": ["negation", "base", "plural"],
+    "operators": {
+      "𐑕": { "role": "negation",    "label": "not",     "stacks_on": ["noun", "verb"], "note": "Comes first in stack" },
+      "𐑮": { "role": "plural",      "label": "plural",   "stacks_on": ["noun"],         "note": "Comes last in stack. Repurposed as negation on future verb 𐑛𐑮 — context disambiguates." },
+      "𐑢": { "role": "prohibition", "label": "do not",   "stacks_on": ["conditional"],  "note": "Standalone = command not to. Also stacks onto 𐑜 for conditional prohibition." }
+    },
+    "ticked_note": "Ticked sounds (marked with ') are new consonants not present in English. They are difficult to produce and relatively rare, but fully part of the language. The tick indicates a distinct consonant — not a modified version of the base letter.",
+    "borrow_note": "Borrowed words take the generic noun prefix 𐑔 by default unless a more specific grammatical role applies."
+  },
+
+  "groups": [
+    {
+      "id": "noun",
+      "label": "Noun",
+      "description": "A person, place, thing, or concept",
+      "phonetic_class": "plosive",
+      "mnemonic": "All noun prefixes use plosive stop sounds — 𐑐 𐑑 𐑒 𐑔. Mishearing one plosive for another still signals noun — the grammatical role may be uncertain but the part of speech is clear.",
+      "lesson_order": 2,
+      "builder_prompt": "What role does this noun play in the sentence?",
+      "ticked": false,
+
+      "families": [
+        {
+          "id": "noun-subject",
+          "label": "Subject",
+          "description": "Who or what performs the action",
+          "lesson_order": 1,
+          "ticked": false,
+          "forms": [
+            {
+              "symbol": "𐑐",
+              "label": "Subject",
+              "example": "the dog runs",
+              "negated": false,
+              "plural": false,
+              "valid_count": 763
+            },
+            {
+              "symbol": "𐑐𐑮",
+              "label": "Subject (plural)",
+              "example": "the dogs run",
+              "negated": false,
+              "plural": true,
+              "valid_count": 261
+            },
+            {
+              "symbol": "𐑕𐑐",
+              "label": "Subject (negated)",
+              "example": "not the dog — something else runs",
+              "negated": true,
+              "plural": false,
+              "valid_count": 119
+            },
+            {
+              "symbol": "𐑕𐑐𐑮",
+              "label": "Subject (negated + plural)",
+              "example": "not the dogs",
+              "negated": true,
+              "plural": true,
+              "valid_count": 9
+            }
+          ]
+        },
+
+        {
+          "id": "noun-object",
+          "label": "Object",
+          "description": "Who or what receives the action",
+          "lesson_order": 2,
+          "ticked": false,
+          "forms": [
+            {
+              "symbol": "𐑑",
+              "label": "Object",
+              "example": "I see the dog",
+              "negated": false,
+              "plural": false,
+              "valid_count": 1329
+            },
+            {
+              "symbol": "𐑑𐑮",
+              "label": "Object (plural)",
+              "example": "I see the dogs",
+              "negated": false,
+              "plural": true,
+              "valid_count": 160
+            },
+            {
+              "symbol": "𐑕𐑑",
+              "label": "Object (negated)",
+              "example": "I see not-the-dog — something else",
+              "negated": true,
+              "plural": false,
+              "valid_count": 435
+            },
+            {
+              "symbol": "𐑕𐑑𐑮",
+              "label": "Object (negated + plural)",
+              "example": "not the dogs as object",
+              "negated": true,
+              "plural": true,
+              "valid_count": 75
+            }
+          ]
+        },
+
+        {
+          "id": "noun-indirect",
+          "label": "Indirect object",
+          "description": "Who or what benefits from or receives the result of the action",
+          "lesson_order": 3,
+          "ticked": false,
+          "forms": [
+            {
+              "symbol": "𐑒",
+              "label": "Indirect object",
+              "example": "I gave the dog a bone",
+              "negated": false,
+              "plural": false,
+              "valid_count": 1302
+            },
+            {
+              "symbol": "𐑒𐑮",
+              "label": "Indirect object (plural)",
+              "example": "I gave the dogs bones",
+              "negated": false,
+              "plural": true,
+              "valid_count": 94
+            },
+            {
+              "symbol": "𐑕𐑒",
+              "label": "Indirect object (negated)",
+              "example": "not for the dog — for something else",
+              "negated": true,
+              "plural": false,
+              "valid_count": 81
+            },
+            {
+              "symbol": "𐑕𐑒𐑮",
+              "label": "Indirect object (negated + plural)",
+              "example": "not for the dogs",
+              "negated": true,
+              "plural": true,
+              "valid_count": 22
+            }
+          ]
+        },
+
+        {
+          "id": "noun-generic",
+          "label": "Generic noun",
+          "description": "Standalone noun with no specific grammatical role — used for titles, list items, labels, and borrowed words",
+          "lesson_order": 4,
+          "ticked": false,
+          "builder_note": "This is the default prefix for borrowed words that don't have a clear grammatical role yet.",
+          "forms": [
+            {
+              "symbol": "𐑔",
+              "label": "Generic noun",
+              "example": "dictionary entry, list item, title, borrowed word",
+              "negated": false,
+              "plural": false,
+              "valid_count": 108
+            },
+            {
+              "symbol": "𐑔𐑮",
+              "label": "Generic noun (plural)",
+              "example": "plural standalone noun",
+              "negated": false,
+              "plural": true,
+              "valid_count": 20
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "verb",
+      "label": "Verb",
+      "description": "An action, event, or state",
+      "phonetic_class": "nasal-continuant",
+      "mnemonic": "Tense verbs use voiced nasals and continuants — 𐑥 𐑯 𐑛. These are acoustically similar enough that mishearing one still signals verb in some tense.",
+      "lesson_order": 3,
+      "builder_prompt": "When does this action happen?",
+      "ticked": false,
+
+      "families": [
+        {
+          "id": "verb-tense",
+          "label": "Simple tense",
+          "description": "When the action occurs — present, past, or future",
+          "lesson_order": 1,
+          "ticked": false,
+          "forms": [
+            {
+              "symbol": "𐑥",
+              "label": "Present",
+              "example": "I eat",
+              "tense": "present",
+              "aspect": null,
+              "negated": false,
+              "valid_count": 1100
+            },
+            {
+              "symbol": "𐑕𐑥",
+              "label": "Present (negated)",
+              "example": "I do not eat",
+              "tense": "present",
+              "aspect": null,
+              "negated": true,
+              "valid_count": 18
+            },
+            {
+              "symbol": "𐑯",
+              "label": "Past",
+              "example": "I ate",
+              "tense": "past",
+              "aspect": null,
+              "negated": false,
+              "valid_count": 1621
+            },
+            {
+              "symbol": "𐑕𐑯",
+              "label": "Past (negated)",
+              "example": "I did not eat",
+              "tense": "past",
+              "aspect": null,
+              "negated": true,
+              "valid_count": 6
+            },
+            {
+              "symbol": "𐑛",
+              "label": "Future",
+              "example": "I will eat",
+              "tense": "future",
+              "aspect": null,
+              "negated": false,
+              "valid_count": 1210
+            },
+            {
+              "symbol": "𐑛𐑮",
+              "label": "Future (negated)",
+              "example": "I will not eat",
+              "tense": "future",
+              "aspect": null,
+              "negated": true,
+              "valid_count": 56,
+              "note": "𐑮 is repurposed as negation here rather than plural — verb position in the sentence disambiguates."
+            }
+          ]
+        },
+
+        {
+          "id": "verb-progressive",
+          "label": "Progressive",
+          "description": "Ongoing or continuous action. 𐑚 alone covers present progressive — the ticked forms add past and future progressive.",
+          "lesson_order": 2,
+          "ticked": false,
+          "forms": [
+            {
+              "symbol": "𐑚",
+              "label": "Ongoing (present)",
+              "example": "I am eating",
+              "tense": "present",
+              "aspect": "progressive",
+              "negated": false,
+              "valid_count": 597
+            },
+            {
+              "symbol": "𐑚𐑮",
+              "label": "Ongoing (present, negated)",
+              "example": "I am not eating",
+              "tense": "present",
+              "aspect": "progressive",
+              "negated": true,
+              "valid_count": 107
+            },
+            {
+              "symbol": "𐑚𐑤",
+              "label": "Ongoing + number context",
+              "example": "progressive with numeric reference",
+              "tense": "present",
+              "aspect": "progressive",
+              "negated": false,
+              "valid_count": 66
+            }
+          ]
+        },
+
+        {
+          "id": "verb-progressive-ticked",
+          "label": "Progressive (ticked — past & future)",
+          "description": "Ticked sounds extend the progressive to past and future, and add an emphatic present. If the tick is missed, the 𐑚 context remains readable as present progressive.",
+          "lesson_order": 3,
+          "ticked": true,
+          "forms": [
+            {
+              "symbol": "𐑮'",
+              "label": "Ongoing past",
+              "example": "I was eating",
+              "tense": "past",
+              "aspect": "progressive",
+              "negated": false,
+              "valid_count": null,
+              "fallback": "𐑚 — readable as present progressive if tick is missed"
+            },
+            {
+              "symbol": "𐑑'",
+              "label": "Ongoing future",
+              "example": "I will be eating",
+              "tense": "future",
+              "aspect": "progressive",
+              "negated": false,
+              "valid_count": null,
+              "fallback": "𐑚 — same fallback"
+            },
+            {
+              "symbol": "𐑕'",
+              "label": "Ongoing present (emphatic)",
+              "example": "I am eating right now — stressed",
+              "tense": "present",
+              "aspect": "progressive",
+              "negated": false,
+              "valid_count": null,
+              "note": "𐑚 covers most present progressive cases. Use 𐑕' only when the immediacy or stress matters.",
+              "fallback": "𐑚 — use when precision isn't critical"
+            }
+          ]
+        },
+
+        {
+          "id": "verb-clause",
+          "label": "Clause verb",
+          "description": "Verb inside a subordinate clause, following a clause opener word",
+          "lesson_order": 4,
+          "ticked": false,
+          "forms": [
+            {
+              "symbol": "𐑓",
+              "label": "Clause verb",
+              "example": "I know that she eats",
+              "negated": false,
+              "valid_count": 567
+            },
+            {
+              "symbol": "𐑓𐑮",
+              "label": "Clause verb (negated)",
+              "example": "I know that she does not eat",
+              "negated": true,
+              "valid_count": 54
+            },
+            {
+              "symbol": "𐑓𐑤",
+              "label": "Clause verb + number context",
+              "example": "clause verb with numeric reference",
+              "negated": false,
+              "valid_count": 49
+            }
+          ]
+        },
+
+        {
+          "id": "verb-command",
+          "label": "Command",
+          "description": "Imperative — telling someone to do or not do something. Phonetically distinct from all tense verbs — immediately recognizable.",
+          "lesson_order": 5,
+          "ticked": false,
+          "forms": [
+            {
+              "symbol": "𐑗",
+              "label": "Do!",
+              "example": "Eat!",
+              "negated": false,
+              "valid_count": 201
+            },
+            {
+              "symbol": "𐑢",
+              "label": "Do not!",
+              "example": "Do not eat!",
+              "negated": true,
+              "valid_count": 292
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "modal",
+      "label": "Modal",
+      "description": "Ability, obligation, or conditionality",
+      "phonetic_class": "voiced-obstruent",
+      "mnemonic": "Modals use voiced obstruents — 𐑟 𐑡 𐑜. Acoustically verb-adjacent but clearly distinct from tense verbs. Mishearing a modal still sounds verb-like.",
+      "lesson_order": 4,
+      "builder_prompt": "What kind of modal?",
+      "builder_note": "Negation of ability (𐑟) and obligation (𐑡) uses a negative modifier word before the modal — not a stacked prefix. Only conditional (𐑜) takes a stacked negation.",
+      "ticked": false,
+
+      "families": [
+        {
+          "id": "modal-forms",
+          "label": "Modal forms",
+          "description": "Can, should, would",
+          "lesson_order": 1,
+          "ticked": false,
+          "forms": [
+            {
+              "symbol": "𐑟",
+              "label": "Can / could",
+              "example": "I can eat",
+              "modal": "ability",
+              "negated": false,
+              "negate_with": "modifier",
+              "note": "Negate with a negative modifier word before the modal, not a prefix stack.",
+              "valid_count": 665
+            },
+            {
+              "symbol": "𐑡",
+              "label": "Should / must",
+              "example": "I should eat",
+              "modal": "obligation",
+              "negated": false,
+              "negate_with": "modifier",
+              "note": "Same negation rule as ability — modifier word, not stacked prefix.",
+              "valid_count": 369
+            },
+            {
+              "symbol": "𐑜",
+              "label": "Would / conditional",
+              "example": "I would eat if…",
+              "modal": "conditional",
+              "negated": false,
+              "valid_count": 240
+            },
+            {
+              "symbol": "𐑜𐑮",
+              "label": "Would not",
+              "example": "I would not eat",
+              "modal": "conditional",
+              "negated": true,
+              "valid_count": 113
+            },
+            {
+              "symbol": "𐑜𐑤",
+              "label": "Conditional + number context",
+              "example": "conditional with numeric reference",
+              "modal": "conditional",
+              "negated": false,
+              "valid_count": 15
+            },
+            {
+              "symbol": "𐑜𐑢",
+              "label": "Conditional prohibition",
+              "example": "must not — conditionally",
+              "modal": "conditional",
+              "negated": true,
+              "valid_count": 3
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "modifier",
+      "label": "Modifier",
+      "description": "Adjective or adverb. Position before the modified word determines which reading applies.",
+      "phonetic_class": "fricative",
+      "mnemonic": "𐑖 and 𐑠 are fricatives — distinct from all noun and verb prefix families. 𐑠 is the dedicated negated-modifier sound, not 𐑕 stacked onto 𐑖.",
+      "lesson_order": 5,
+      "builder_prompt": "Affirming or negating?",
+      "builder_note": "Modifiers must be placed directly next to the word they modify. The sentence builder will enforce adjacency.",
+      "ticked": false,
+
+      "families": [
+        {
+          "id": "modifier-forms",
+          "label": "Modifier forms",
+          "description": "Adjective or adverb — same prefix, position determines reading",
+          "lesson_order": 1,
+          "ticked": false,
+          "forms": [
+            {
+              "symbol": "𐑖",
+              "label": "Modifier",
+              "example": "big dog / runs quickly / very happy",
+              "negated": false,
+              "valid_count": 561
+            },
+            {
+              "symbol": "𐑠",
+              "label": "Modifier (negated)",
+              "example": "not big / unhappy / careless",
+              "negated": true,
+              "note": "𐑠 is its own sound — not 𐑕 + 𐑖. The fricative family handles its own negation.",
+              "valid_count": 58
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "quantity",
+      "label": "Quantity / Possession",
+      "description": "How many of something, or to whom something belongs",
+      "phonetic_class": "glottal",
+      "mnemonic": "𐑣 and 𐑞 use glottal sounds — distinct from all other prefix families. Used on numbers for quantity, on pronouns for possession.",
+      "lesson_order": 6,
+      "builder_prompt": "Quantity or possession?",
+      "ticked": false,
+
+      "families": [
+        {
+          "id": "quantity-forms",
+          "label": "Quantity / possession forms",
+          "description": "Amount or ownership. Place before a number for quantity, before a pronoun or noun for possession.",
+          "lesson_order": 1,
+          "ticked": false,
+          "forms": [
+            {
+              "symbol": "𐑣",
+              "label": "Quantity / possession",
+              "example": "𐑣3 dog = 3 dogs  /  𐑣𐑰 dog = my dog",
+              "negated": false,
+              "valid_count": 303
+            },
+            {
+              "symbol": "𐑞",
+              "label": "Quantity / possession (negated)",
+              "example": "lack of / not belonging to",
+              "negated": true,
+              "valid_count": 53
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "number",
+      "label": "Number",
+      "description": "Numeric notation — integers, decimals, fractions, and scalar expressions. Most digits carry no prefix; prefixes only mark sequence boundaries and special roles.",
+      "phonetic_class": "lateral-approximant",
+      "mnemonic": "Number prefixes mark where a number starts, ends, or changes register. Bare digits need no prefix — only the boundary digits get marked.",
+      "lesson_order": 7,
+      "builder_prompt": "What kind of number expression?",
+      "ticked": false,
+
+      "families": [
+        {
+          "id": "number-sequence",
+          "label": "Sequence boundary markers",
+          "description": "Mark the end of an integer, the start of a decimal, or both simultaneously",
+          "lesson_order": 1,
+          "ticked": false,
+          "forms": [
+            {
+              "symbol": "𐑤",
+              "label": "End of integer",
+              "example": "1 0 𐑤3 = 103  /  1 𐑤0 = 10",
+              "valid_count": 1553
+            },
+            {
+              "symbol": "𐑘",
+              "label": "Decimal point",
+              "example": "𐑘2 2 𐑤5 = .225",
+              "valid_count": 93
+            },
+            {
+              "symbol": "𐑕𐑤",
+              "label": "Integer end + decimal follows",
+              "example": "1 𐑕𐑤5 = 1.5 — integer closes and decimal begins simultaneously",
+              "valid_count": 30
+            }
+          ]
+        },
+
+        {
+          "id": "number-fraction",
+          "label": "Fraction marker",
+          "description": "Divides the following noun by the specified integer denominator. Precedes the noun it applies to.",
+          "lesson_order": 2,
+          "ticked": false,
+          "forms": [
+            {
+              "symbol": "𐑝",
+              "label": "Fraction",
+              "example": "𐑝2 dog = half a dog  /  𐑝4 pie = a quarter of a pie",
+              "note": "Use for clean integer denominators. Use decimal notation for specific decimal values.",
+              "valid_count": 541
+            }
+          ]
+        },
+
+        {
+          "id": "number-scale",
+          "label": "Scale operators",
+          "description": "Shift a quantity up or down by powers of ten — used for measurement, scientific notation, and large scalar expressions",
+          "lesson_order": 3,
+          "ticked": false,
+          "forms": [
+            {
+              "symbol": "𐑶",
+              "label": "Scale up",
+              "example": "length 𐑶 𐑤3 = length × 10³ = kilometers",
+              "valid_count": null
+            },
+            {
+              "symbol": "𐑬",
+              "label": "Scale down",
+              "example": "length 𐑬 𐑤3 = length ÷ 10³ = millimeters",
+              "note": "Not the same as fraction — 𐑝5 dog = one fifth of a dog, dog 𐑬 𐑤5 = dog × 10⁻⁵.",
+              "valid_count": null
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "evidential",
+      "label": "Evidential",
+      "description": "Marks the source of the speaker's knowledge — whether they witnessed the event directly or are reporting it secondhand",
+      "phonetic_class": "ticked",
+      "mnemonic": "The evidential is a ticked sound — rare and deliberate. Speakers reach for it when the distinction genuinely matters, not in every sentence.",
+      "lesson_order": 8,
+      "builder_prompt": "Did you witness this directly?",
+      "builder_note": "Without 𐑯' the statement is firsthand. With 𐑯' the speaker signals the information is reported, inferred, or unverified.",
+      "ticked": true,
+
+      "families": [
+        {
+          "id": "evidential-forms",
+          "label": "Evidential forms",
+          "description": "Firsthand assertion vs reported / inferred speech",
+          "lesson_order": 1,
+          "ticked": true,
+          "forms": [
+            {
+              "symbol": "𐑯'",
+              "label": "Reportative / evidential",
+              "example": "𐑯'[rain] = apparently it rained — I didn't see it  /  𐑯'[safe][bridge] = I heard the bridge is safe",
+              "ticked": true,
+              "negated": false,
+              "valid_count": null,
+              "note": "Covers reported speech, inference from evidence, and hearsay. Absence of 𐑯' asserts direct knowledge."
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "ticked-progressive",
+      "label": "Ticked progressive",
+      "description": "Past and future progressive, plus emphatic present — ticked consonants that extend the 𐑚 progressive family to other tenses",
+      "phonetic_class": "ticked",
+      "mnemonic": "These are harder to produce than 𐑚 but more precise. If the tick is missed, the 𐑚 context still communicates progressive — the tense may be lost but the aspect survives.",
+      "lesson_order": 9,
+      "builder_prompt": "Which ticked progressive form?",
+      "builder_note": "If precision about tense isn't critical, 𐑚 covers most progressive situations. Use these when past or future progressive must be unambiguous.",
+      "ticked": true,
+
+      "families": [
+        {
+          "id": "ticked-progressive-forms",
+          "label": "Ticked progressive forms",
+          "description": "Ongoing past, ongoing future, emphatic present",
+          "lesson_order": 1,
+          "ticked": true,
+          "forms": [
+            {
+              "symbol": "𐑮'",
+              "label": "Ongoing past",
+              "example": "I was eating",
+              "tense": "past",
+              "aspect": "progressive",
+              "ticked": true,
+              "negated": false,
+              "valid_count": null,
+              "fallback": "𐑚 — readable as present progressive if the tick is not produced"
+            },
+            {
+              "symbol": "𐑑'",
+              "label": "Ongoing future",
+              "example": "I will be eating",
+              "tense": "future",
+              "aspect": "progressive",
+              "ticked": true,
+              "negated": false,
+              "valid_count": null,
+              "fallback": "𐑚 — same fallback as 𐑮'"
+            },
+            {
+              "symbol": "𐑕'",
+              "label": "Ongoing present (emphatic)",
+              "example": "I am eating right now — stressed immediacy",
+              "tense": "present",
+              "aspect": "progressive",
+              "ticked": true,
+              "negated": false,
+              "valid_count": null,
+              "note": "Use when the immediacy or stress is communicatively important. 𐑚 is the default for most present progressive.",
+              "fallback": "𐑚 — use when emphasis is not critical"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
