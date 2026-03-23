@@ -1,0 +1,6776 @@
+{
+  "person_reference": {
+    "label": "Person, Self & Reference",
+    "count": 8,
+    "ideas": [
+      {
+        "id": "i:0002",
+        "frequency": 5078,
+        "definition": "General reference to an unspecified individual or entity; the concept of 'someone' or 'something'.",
+        "translations": [
+          "someone",
+          "something",
+          "one",
+          "a person",
+          "anybody"
+        ],
+        "vowel": "𐑩"
+      },
+      {
+        "id": "i:0004",
+        "frequency": 3452,
+        "definition": "Anaphora — a pronoun or referential word that substitutes for a noun or noun phrase already mentioned, pointing to a prior entity in the discourse. Covers 'it', 'this', 'that', 'the aforementioned'. Operates at the level of noun replacement. Distinct from 𐑻 which navigates to a named alias or defined concept.",
+        "translations": [
+          "it",
+          "this",
+          "that",
+          "the one",
+          "the aforementioned",
+          "said",
+          "such"
+        ],
+        "vowel": "𐑦"
+      },
+      {
+        "id": "i:0095",
+        "frequency": 183,
+        "definition": "Specificity; identifying or singling out a particular individual or group.",
+        "translations": [
+          "specific",
+          "particular",
+          "certain",
+          "designated",
+          "the one in question"
+        ],
+        "vowel": "𐑨"
+      },
+      {
+        "id": "i:0096",
+        "frequency": 182,
+        "definition": "Broad, unspecified collection or group; referring to items in general without specifying which.",
+        "translations": [
+          "general",
+          "various",
+          "some",
+          "a range of",
+          "unspecified"
+        ],
+        "vowel": "𐑱"
+      },
+      {
+        "id": "i:0087",
+        "frequency": 213,
+        "definition": "The concept of a named or identifiable entity; a person, thing, or idea that can be pointed to.",
+        "translations": [
+          "person",
+          "individual",
+          "entity",
+          "someone",
+          "identity"
+        ],
+        "vowel": "𐑧"
+      },
+      {
+        "id": "i:0108",
+        "frequency": 163,
+        "definition": "The male gender modifier; indicating masculine biological sex. Applies to any concept to specify the male instance.",
+        "translations": [
+          "male",
+          "man",
+          "masculine"
+        ],
+        "vowel": "𐑲"
+      },
+      {
+        "id": "i:0139",
+        "frequency": 128,
+        "definition": "The female gender modifier; indicating feminine biological sex. Applies to any concept to specify the female instance.",
+        "translations": [
+          "female",
+          "woman",
+          "feminine"
+        ],
+        "vowel": "𐑪"
+      },
+      {
+        "id": "i:d1",
+        "frequency": 0,
+        "definition": "The digit one; the numeric value 1. A single unit.",
+        "translations": [
+          "1",
+          "one",
+          "single",
+          "unit"
+        ],
+        "vowel": "𐑰"
+      }
+    ],
+    "sound": "𐑙"
+  },
+  "knowledge_mind": {
+    "label": "Knowledge & Mind",
+    "count": 9,
+    "ideas": [
+      {
+        "id": "i:0014",
+        "frequency": 1520,
+        "definition": "The state of knowing, recognizing, or understanding; awareness of a fact or situation.",
+        "translations": [
+          "know",
+          "understand",
+          "recognize",
+          "realize",
+          "awareness",
+          "knowledge"
+        ],
+        "vowel": "𐑩"
+      },
+      {
+        "id": "i:0031",
+        "frequency": 669,
+        "definition": "Practical comprehension; grasping how something works in real-world application.",
+        "translations": [
+          "understand",
+          "grasp",
+          "comprehend",
+          "get it",
+          "practical knowledge"
+        ],
+        "vowel": "𐑦"
+      },
+      {
+        "id": "i:0059",
+        "frequency": 350,
+        "definition": "A foundational belief, principle, or concept accepted as true and used as a basis for reasoning.",
+        "translations": [
+          "concept",
+          "idea",
+          "belief",
+          "principle",
+          "notion",
+          "assumption"
+        ],
+        "vowel": "𐑧"
+      },
+      {
+        "id": "i:0152",
+        "frequency": 110,
+        "definition": "The mind and its faculties; mental perception, thought, feeling, and will.",
+        "translations": [
+          "mind",
+          "mental",
+          "psychological",
+          "cognitive",
+          "psychic"
+        ],
+        "vowel": "𐑨"
+      },
+      {
+        "id": "i:0188",
+        "frequency": 78,
+        "definition": "The faculty of retaining and recalling past experience; the stored record of what has been experienced.",
+        "translations": [
+          "memory",
+          "remember",
+          "recall",
+          "recollection",
+          "remembrance"
+        ],
+        "vowel": "𐑱"
+      },
+      {
+        "id": "i:0266",
+        "frequency": 45,
+        "definition": "Careful evaluation of facts leading to a conclusion; reasoned judgment.",
+        "translations": [
+          "judge",
+          "assess",
+          "evaluate",
+          "conclude",
+          "reasoning",
+          "judgment"
+        ],
+        "vowel": "𐑲"
+      },
+      {
+        "id": "i:0314",
+        "frequency": 33,
+        "definition": "The act of assuming something as a starting point; reasoned presumption within logical bounds.",
+        "translations": [
+          "assume",
+          "presume",
+          "suppose",
+          "take for granted",
+          "assumption"
+        ],
+        "vowel": "𐑪"
+      },
+      {
+        "id": "i:0507",
+        "frequency": 15,
+        "definition": "A mental construct; an idea or image formed in the mind, real or imagined.",
+        "translations": [
+          "idea",
+          "concept",
+          "imagination",
+          "image",
+          "thought",
+          "fantasy"
+        ],
+        "vowel": "𐑰"
+      },
+      {
+        "id": "i:1547",
+        "frequency": 1,
+        "definition": "Obscurity; reduced clarity or visibility; concealment; the quality of being hidden or unclear.",
+        "translations": [
+          "obscure",
+          "hidden",
+          "unclear",
+          "vague",
+          "concealed",
+          "murky"
+        ],
+        "vowel": "𐑴"
+      }
+    ],
+    "sound": "𐑒𐑑"
+  },
+  "desire_intention": {
+    "label": "Desire, Will & Intention",
+    "count": 8,
+    "ideas": [
+      {
+        "id": "i:0015",
+        "frequency": 1495,
+        "definition": "The mental act of wanting, intending, or planning; directed desire toward an outcome.",
+        "translations": [
+          "want",
+          "wish",
+          "intend",
+          "plan",
+          "desire",
+          "will"
+        ],
+        "vowel": "𐑩"
+      },
+      {
+        "id": "i:0195",
+        "frequency": 74,
+        "definition": "Careful attention and vigilance; watchful oversight to prevent harm or error.",
+        "translations": [
+          "care",
+          "caution",
+          "vigilance",
+          "attention",
+          "watchfulness",
+          "mindfulness"
+        ],
+        "vowel": "𐑦"
+      },
+      {
+        "id": "i:0231",
+        "frequency": 56,
+        "definition": "A firm decision or commitment; resolving definitively on a course of action.",
+        "translations": [
+          "decide",
+          "commit",
+          "resolve",
+          "determination",
+          "decision"
+        ],
+        "vowel": "𐑧"
+      },
+      {
+        "id": "i:0302",
+        "frequency": 36,
+        "definition": "Inner strength and resolve in the face of difficulty; the capacity to persist through hardship.",
+        "translations": [
+          "courage",
+          "strength",
+          "resolve",
+          "willpower",
+          "resilience",
+          "fortitude"
+        ],
+        "vowel": "𐑨"
+      },
+      {
+        "id": "i:0522",
+        "frequency": 14,
+        "definition": "An intense longing or craving; strong desire for something not yet had.",
+        "translations": [
+          "crave",
+          "yearn",
+          "long for",
+          "desire",
+          "hunger",
+          "urge"
+        ],
+        "vowel": "𐑲"
+      },
+      {
+        "id": "i:0655",
+        "frequency": 9,
+        "definition": "A desired outcome or completed work; the target of intention or creative effort.",
+        "translations": [
+          "goal",
+          "aim",
+          "purpose",
+          "objective",
+          "result",
+          "achievement"
+        ],
+        "vowel": "𐑪"
+      },
+      {
+        "id": "i:0703",
+        "frequency": 8,
+        "definition": "An expression of goodwill and hope for another's flourishing.",
+        "translations": [
+          "wish",
+          "hope",
+          "bless",
+          "goodwill",
+          "blessing"
+        ],
+        "vowel": "𐑰"
+      },
+      {
+        "id": "i:0480",
+        "frequency": 17,
+        "definition": "Steadfast loyalty or faithfulness; unwavering allegiance and dedication to a person, cause, or principle.",
+        "translations": [
+          "loyal",
+          "faithful",
+          "devoted",
+          "allegiant",
+          "steadfast",
+          "committed"
+        ],
+        "vowel": "𐑱"
+      }
+    ],
+    "sound": "𐑐𐑕"
+  },
+  "emotion_positive": {
+    "label": "Positive Emotions",
+    "count": 12,
+    "ideas": [
+      {
+        "id": "i:0047",
+        "frequency": 464,
+        "definition": "Enthusiastic delight or admiration; an exclamation of pleasure or surprise.",
+        "translations": [
+          "wow",
+          "amazing",
+          "delight",
+          "excitement",
+          "enthusiasm",
+          "thrill"
+        ],
+        "vowel": "𐑩"
+      },
+      {
+        "id": "i:0051",
+        "frequency": 401,
+        "definition": "Joyful amusement and contentment; the state of laughing, smiling, and feeling satisfied.",
+        "translations": [
+          "happy",
+          "joy",
+          "fun",
+          "amusement",
+          "laughter",
+          "contentment"
+        ],
+        "vowel": "𐑦"
+      },
+      {
+        "id": "i:0055",
+        "frequency": 366,
+        "definition": "Deep affection and romantic attachment; the feeling of loving or being loved.",
+        "translations": [
+          "love",
+          "affection",
+          "romance",
+          "attachment",
+          "adore",
+          "fondness"
+        ],
+        "vowel": "𐑧"
+      },
+      {
+        "id": "i:0080",
+        "frequency": 245,
+        "definition": "Inner satisfaction and readiness; the feeling of being content and capable.",
+        "translations": [
+          "satisfied",
+          "content",
+          "pleased",
+          "glad",
+          "happy",
+          "at ease"
+        ],
+        "vowel": "𐑨"
+      },
+      {
+        "id": "i:0125",
+        "frequency": 138,
+        "definition": "Charm and appealing attractiveness; the quality of being delightful or pretty.",
+        "translations": [
+          "cute",
+          "charming",
+          "lovely",
+          "sweet",
+          "pretty",
+          "appealing"
+        ],
+        "vowel": "𐑱"
+      },
+      {
+        "id": "i:0183",
+        "frequency": 83,
+        "definition": "Friendly warmth and sociable good humor; the quality of being easy and pleasant to be with.",
+        "translations": [
+          "friendly",
+          "warm",
+          "sociable",
+          "affable",
+          "good-natured",
+          "pleasant"
+        ],
+        "vowel": "𐑲"
+      },
+      {
+        "id": "i:0270",
+        "frequency": 44,
+        "definition": "Inspiring affection or admiration; evoking endearment.",
+        "translations": [
+          "adorable",
+          "lovable",
+          "endearing",
+          "dear",
+          "sweet",
+          "cherished"
+        ],
+        "vowel": "𐑪"
+      },
+      {
+        "id": "i:0288",
+        "frequency": 38,
+        "definition": "Pleasing sweetness; a quality that evokes enjoyment, affection, and contentment.",
+        "translations": [
+          "sweet",
+          "pleasant",
+          "delightful",
+          "nice",
+          "agreeable"
+        ],
+        "vowel": "𐑰"
+      },
+      {
+        "id": "i:0295",
+        "frequency": 37,
+        "definition": "Intense pleasurable stimulation; a heightened state of feeling.",
+        "translations": [
+          "thrill",
+          "excitement",
+          "pleasure",
+          "stimulation",
+          "rush",
+          "high"
+        ],
+        "vowel": "𐑴"
+      },
+      {
+        "id": "i:0398",
+        "frequency": 24,
+        "definition": "Producing strong emotional excitement; thrilling and electrifying.",
+        "translations": [
+          "exciting",
+          "thrilling",
+          "electrifying",
+          "intense",
+          "exhilarating"
+        ],
+        "vowel": "𐑵"
+      },
+      {
+        "id": "i:0466",
+        "frequency": 17,
+        "definition": "Lively, animating vitality; an energizing quality that sustains presence.",
+        "translations": [
+          "lively",
+          "vibrant",
+          "alive",
+          "energetic",
+          "vivid",
+          "animated"
+        ],
+        "vowel": "𐑷"
+      },
+      {
+        "id": "i:0562",
+        "frequency": 12,
+        "definition": "Gratitude; the feeling of thankfulness and appreciation toward someone or something.",
+        "translations": [
+          "grateful",
+          "thankful",
+          "gratitude",
+          "appreciate",
+          "thanks",
+          "appreciation"
+        ],
+        "vowel": "𐑬"
+      }
+    ],
+    "sound": "𐑛𐑟"
+  },
+  "emotion_negative": {
+    "label": "Negative Emotions",
+    "count": 10,
+    "ideas": [
+      {
+        "id": "i:0086",
+        "frequency": 218,
+        "definition": "Remorse or regret; the feeling arising from acknowledging an error or causing harm.",
+        "translations": [
+          "sorry",
+          "regret",
+          "remorse",
+          "guilt",
+          "apology",
+          "shame"
+        ],
+        "vowel": "𐑩"
+      },
+      {
+        "id": "i:0132",
+        "frequency": 136,
+        "definition": "Psychological unease, fear, or anxiety; a state of inner disturbance.",
+        "translations": [
+          "fear",
+          "anxiety",
+          "worry",
+          "dread",
+          "distress",
+          "unease"
+        ],
+        "vowel": "𐑦"
+      },
+      {
+        "id": "i:0156",
+        "frequency": 107,
+        "definition": "A flaw, deficiency, or weakness that causes failure or harm.",
+        "translations": [
+          "flaw",
+          "fault",
+          "weakness",
+          "defect",
+          "failure",
+          "shortcoming"
+        ],
+        "vowel": "𐑧"
+      },
+      {
+        "id": "i:0339",
+        "frequency": 29,
+        "definition": "Failure to retain or recall; the state of having forgotten something.",
+        "translations": [
+          "forget",
+          "forgetting",
+          "forgetfulness",
+          "memory lapse",
+          "neglect"
+        ],
+        "vowel": "𐑨"
+      },
+      {
+        "id": "i:0367",
+        "frequency": 27,
+        "definition": "Disappointment and loss of hope; the feeling when expectations are not met.",
+        "translations": [
+          "disappointed",
+          "let down",
+          "discouraged",
+          "dejected",
+          "disheartened"
+        ],
+        "vowel": "𐑱"
+      },
+      {
+        "id": "i:0463",
+        "frequency": 18,
+        "definition": "Persistent irritation or frustration caused by something unpleasant.",
+        "translations": [
+          "annoying",
+          "frustrating",
+          "irritating",
+          "bothersome",
+          "aggravating"
+        ],
+        "vowel": "𐑲"
+      },
+      {
+        "id": "i:0560",
+        "frequency": 12,
+        "definition": "Humiliation and embarrassment; intense self-conscious distress at having been shamed.",
+        "translations": [
+          "embarrass",
+          "humiliate",
+          "shame",
+          "mortify",
+          "awkward"
+        ],
+        "vowel": "𐑪"
+      },
+      {
+        "id": "i:0561",
+        "frequency": 12,
+        "definition": "Jealousy and ill will toward another's success or possessions; resentful envy.",
+        "translations": [
+          "jealous",
+          "envious",
+          "resentful",
+          "covetous",
+          "grudging"
+        ],
+        "vowel": "𐑰"
+      },
+      {
+        "id": "i:0635",
+        "frequency": 9,
+        "definition": "Strong dislike or aversion; a powerful negative feeling toward someone or something.",
+        "translations": [
+          "hate",
+          "dislike",
+          "loathe",
+          "detest",
+          "aversion",
+          "hostility"
+        ],
+        "vowel": "𐑴"
+      },
+      {
+        "id": "i:0846",
+        "frequency": 6,
+        "definition": "Deep sorrow from loss or misfortune; pervasive grief.",
+        "translations": [
+          "grief",
+          "sorrow",
+          "sadness",
+          "mourning",
+          "heartbreak",
+          "woe"
+        ],
+        "vowel": "𐑵"
+      }
+    ],
+    "sound": "𐑝𐑟"
+  },
+  "family_kinship": {
+    "label": "Family & Kinship",
+    "count": 8,
+    "ideas": [
+      {
+        "id": "i:0110",
+        "frequency": 158,
+        "definition": "A parent; any person who contributes to the creation or raising of offspring.",
+        "translations": [
+          "parent",
+          "caregiver",
+          "guardian",
+          "raise",
+          "parenting"
+        ],
+        "vowel": "𐑩"
+      },
+      {
+        "id": "i:0256",
+        "frequency": 47,
+        "definition": "The bond of kinship; connection through ancestry, birth, marriage, or adoption.",
+        "translations": [
+          "family",
+          "relative",
+          "kin",
+          "relation",
+          "ancestry"
+        ],
+        "vowel": "𐑧"
+      },
+      {
+        "id": "i:0368",
+        "frequency": 26,
+        "definition": "A young or immature person; a child or youth who is a descendant.",
+        "translations": [
+          "child",
+          "kid",
+          "youth",
+          "young",
+          "offspring",
+          "juvenile"
+        ],
+        "vowel": "𐑨"
+      },
+      {
+        "id": "i:0572",
+        "frequency": 11,
+        "definition": "A sibling or person of shared lineage; a non-hierarchical family relationship.",
+        "translations": [
+          "sibling",
+          "brother",
+          "sister",
+          "related",
+          "kinship"
+        ],
+        "vowel": "𐑱"
+      },
+      {
+        "id": "i:0609",
+        "frequency": 10,
+        "definition": "A spouse; one who shares a recognized partnership or marital union.",
+        "translations": [
+          "spouse",
+          "partner",
+          "husband",
+          "wife",
+          "married"
+        ],
+        "vowel": "𐑲"
+      },
+      {
+        "id": "i:0704",
+        "frequency": 8,
+        "definition": "A generational link in a family; the continuity between one generation and the next.",
+        "translations": [
+          "generation",
+          "lineage",
+          "heritage",
+          "ancestry",
+          "legacy"
+        ],
+        "vowel": "𐑪"
+      },
+      {
+        "id": "i:1468",
+        "frequency": 1,
+        "definition": "The female biological parent; the one who gestated and birthed the offspring.",
+        "translations": [
+          "mother",
+          "mom",
+          "biological mother"
+        ],
+        "vowel": "𐑰"
+      },
+      {
+        "id": "i:0193",
+        "frequency": 76,
+        "definition": "The male biological parent; the one who provided the fertilizing gamete.",
+        "translations": [
+          "father",
+          "dad",
+          "biological father"
+        ],
+        "vowel": "𐑦"
+      }
+    ],
+    "sound": "𐑗𐑑"
+  },
+  "social_interaction": {
+    "label": "Social Interaction",
+    "count": 13,
+    "ideas": [
+      {
+        "id": "i:0058",
+        "frequency": 357,
+        "definition": "A facial expression signaling interpersonal interest, emotion, or playful intent.",
+        "translations": [
+          "smile",
+          "wink",
+          "expression",
+          "grin",
+          "gesture",
+          "signal"
+        ],
+        "vowel": "𐑩"
+      },
+      {
+        "id": "i:0067",
+        "frequency": 302,
+        "definition": "A committed relationship or bond that establishes mutual obligations.",
+        "translations": [
+          "bond",
+          "relationship",
+          "tie",
+          "connection",
+          "commitment",
+          "link"
+        ],
+        "vowel": "𐑦"
+      },
+      {
+        "id": "i:0081",
+        "frequency": 241,
+        "definition": "A group of people united around shared interests or experiences.",
+        "translations": [
+          "group",
+          "community",
+          "club",
+          "team",
+          "gathering",
+          "collective"
+        ],
+        "vowel": "𐑧"
+      },
+      {
+        "id": "i:0162",
+        "frequency": 99,
+        "definition": "Direct personal interaction; friendship, romance, or collaboration with another.",
+        "translations": [
+          "friend",
+          "relationship",
+          "connection",
+          "interact",
+          "engage",
+          "bond"
+        ],
+        "vowel": "𐑨"
+      },
+      {
+        "id": "i:0226",
+        "frequency": 59,
+        "definition": "A positive, respectful attitude conveying goodwill and admiration.",
+        "translations": [
+          "respect",
+          "admire",
+          "esteem",
+          "goodwill",
+          "regard",
+          "honor"
+        ],
+        "vowel": "𐑱"
+      },
+      {
+        "id": "i:0244",
+        "frequency": 51,
+        "definition": "A communicative gesture acknowledging someone's presence; a greeting.",
+        "translations": [
+          "greet",
+          "hello",
+          "acknowledge",
+          "welcome",
+          "salute",
+          "wave"
+        ],
+        "vowel": "𐑲"
+      },
+      {
+        "id": "i:0360",
+        "frequency": 27,
+        "definition": "An informal, egalitarian address used between people on equal footing.",
+        "translations": [
+          "hey",
+          "mate",
+          "buddy",
+          "pal",
+          "dude",
+          "informal address"
+        ],
+        "vowel": "𐑰"
+      },
+      {
+        "id": "i:0376",
+        "frequency": 25,
+        "definition": "Shared participation by a group in an activity or endeavor.",
+        "translations": [
+          "participate",
+          "join in",
+          "together",
+          "collective",
+          "shared",
+          "group activity"
+        ],
+        "vowel": "𐑴"
+      },
+      {
+        "id": "i:0517",
+        "frequency": 14,
+        "definition": "Social; relating to interaction and conduct between individuals.",
+        "translations": [
+          "social",
+          "interpersonal",
+          "communal",
+          "public",
+          "societal"
+        ],
+        "vowel": "𐑵"
+      },
+      {
+        "id": "i:0564",
+        "frequency": 12,
+        "definition": "A disposition toward interaction and association with others.",
+        "translations": [
+          "sociable",
+          "social",
+          "outgoing",
+          "community",
+          "association"
+        ],
+        "vowel": "𐑷"
+      },
+      {
+        "id": "i:0967",
+        "frequency": 4,
+        "definition": "Establishing a boundary or limit while acknowledging the other party; a parting.",
+        "translations": [
+          "goodbye",
+          "farewell",
+          "boundary",
+          "limit",
+          "bye",
+          "parting"
+        ],
+        "vowel": "𐑬"
+      },
+      {
+        "id": "i:0334",
+        "frequency": 30,
+        "definition": "The concept of two; a pair or dual quantity.",
+        "translations": [
+          "two",
+          "pair",
+          "dual",
+          "both",
+          "couple",
+          "twice"
+        ],
+        "vowel": "𐑪"
+      },
+      {
+        "id": "i:d2",
+        "frequency": 0,
+        "definition": "The digit two; the numeric value 2.",
+        "translations": [
+          "2",
+          "two",
+          "pair",
+          "double",
+          "both"
+        ],
+        "vowel": "𐑫"
+      }
+    ],
+    "sound": "𐑯𐑡"
+  },
+  "power_authority": {
+    "label": "Power & Authority",
+    "count": 9,
+    "ideas": [
+      {
+        "id": "i:0107",
+        "frequency": 166,
+        "definition": "An organized authority that regulates, controls, and maintains order.",
+        "translations": [
+          "government",
+          "authority",
+          "state",
+          "institution",
+          "administration",
+          "rule"
+        ],
+        "vowel": "𐑩"
+      },
+      {
+        "id": "i:0267",
+        "frequency": 45,
+        "definition": "The highest position or title within an organization or context.",
+        "translations": [
+          "title",
+          "rank",
+          "position",
+          "role",
+          "leadership",
+          "heading"
+        ],
+        "vowel": "𐑦"
+      },
+      {
+        "id": "i:0274",
+        "frequency": 43,
+        "definition": "Assertive and duty-bound; strong in stance and imposing in obligation.",
+        "translations": [
+          "assertive",
+          "strong",
+          "authoritative",
+          "commanding",
+          "duty",
+          "obligation"
+        ],
+        "vowel": "𐑧"
+      },
+      {
+        "id": "i:0321",
+        "frequency": 31,
+        "definition": "The capacity for strength, influence, or control; the ability to act or cause change.",
+        "translations": [
+          "power",
+          "strength",
+          "force",
+          "influence",
+          "capacity",
+          "ability"
+        ],
+        "vowel": "𐑨"
+      },
+      {
+        "id": "i:0464",
+        "frequency": 18,
+        "definition": "The highest-ranking individual who leads and directs an organization.",
+        "translations": [
+          "leader",
+          "chief",
+          "boss",
+          "head",
+          "director",
+          "commander"
+        ],
+        "vowel": "𐑱"
+      },
+      {
+        "id": "i:0692",
+        "frequency": 8,
+        "definition": "Supreme authorization; the ultimate endorsement or approval.",
+        "translations": [
+          "authority",
+          "permission",
+          "sanction",
+          "approval",
+          "authorization"
+        ],
+        "vowel": "𐑲"
+      },
+      {
+        "id": "i:1059",
+        "frequency": 3,
+        "definition": "Strength and capacity to maintain control, stability, and authority.",
+        "translations": [
+          "strength",
+          "power",
+          "control",
+          "authority",
+          "influence",
+          "dominance"
+        ],
+        "vowel": "𐑪"
+      },
+      {
+        "id": "i:1531",
+        "frequency": 1,
+        "definition": "A regulatory body that enforces rules and maintains societal order.",
+        "translations": [
+          "police",
+          "law enforcement",
+          "regulator",
+          "authority",
+          "enforcement"
+        ],
+        "vowel": "𐑰"
+      },
+      {
+        "id": "i:1550",
+        "frequency": 1,
+        "definition": "A senior administrative or executive title within a hierarchy.",
+        "translations": [
+          "official",
+          "minister",
+          "officer",
+          "executive",
+          "administrator"
+        ],
+        "vowel": "𐑴"
+      }
+    ],
+    "sound": "𐑓𐑕"
+  },
+  "law_justice": {
+    "label": "Law & Justice",
+    "count": 9,
+    "ideas": [
+      {
+        "id": "i:0309",
+        "frequency": 34,
+        "definition": "Prohibited; contrary to established rules or standards.",
+        "translations": [
+          "illegal",
+          "forbidden",
+          "prohibited",
+          "unlawful",
+          "banned",
+          "foul"
+        ],
+        "vowel": "𐑩"
+      },
+      {
+        "id": "i:0358",
+        "frequency": 27,
+        "definition": "Fairness, entitlement, and adherence to accepted principles; what is just and right.",
+        "translations": [
+          "fair",
+          "just",
+          "right",
+          "justified",
+          "equity",
+          "fairness"
+        ],
+        "vowel": "𐑦"
+      },
+      {
+        "id": "i:0483",
+        "frequency": 17,
+        "definition": "A period of legally mandated confinement; imprisonment.",
+        "translations": [
+          "prison",
+          "jail",
+          "imprisonment",
+          "sentence",
+          "confinement",
+          "custody"
+        ],
+        "vowel": "𐑧"
+      },
+      {
+        "id": "i:0619",
+        "frequency": 10,
+        "definition": "Accountability for one's actions; moral and legal responsibility.",
+        "translations": [
+          "responsible",
+          "accountable",
+          "liable",
+          "culpable",
+          "duty",
+          "obligation"
+        ],
+        "vowel": "𐑨"
+      },
+      {
+        "id": "i:0625",
+        "frequency": 10,
+        "definition": "The formal process of adjudicating disputes and determining rights.",
+        "translations": [
+          "court",
+          "trial",
+          "legal",
+          "adjudicate",
+          "justice",
+          "judicial"
+        ],
+        "vowel": "𐑱"
+      },
+      {
+        "id": "i:0696",
+        "frequency": 8,
+        "definition": "Having committed wrongdoing; the state of being culpable.",
+        "translations": [
+          "guilty",
+          "culpable",
+          "at fault",
+          "responsible",
+          "convicted"
+        ],
+        "vowel": "𐑲"
+      },
+      {
+        "id": "i:0871",
+        "frequency": 5,
+        "definition": "The unlawful, intentional killing of a person.",
+        "translations": [
+          "murder",
+          "kill",
+          "homicide",
+          "slay",
+          "assassination"
+        ],
+        "vowel": "𐑪"
+      },
+      {
+        "id": "i:1068",
+        "frequency": 3,
+        "definition": "Relating to punishment imposed for unlawful conduct.",
+        "translations": [
+          "punishment",
+          "penalty",
+          "punitive",
+          "sanction",
+          "consequence"
+        ],
+        "vowel": "𐑰"
+      },
+      {
+        "id": "i:1603",
+        "frequency": 1,
+        "definition": "The collective body of rules and authorities governing conduct in a community.",
+        "translations": [
+          "law",
+          "legal system",
+          "rule of law",
+          "legislation",
+          "order"
+        ],
+        "vowel": "𐑴"
+      }
+    ],
+    "sound": "𐑕𐑒𐑕"
+  },
+  "commerce_money": {
+    "label": "Commerce & Money",
+    "count": 10,
+    "ideas": [
+      {
+        "id": "i:0118",
+        "frequency": 147,
+        "definition": "Economic activity; the exchange of goods and services and the flow of value.",
+        "translations": [
+          "economy",
+          "commerce",
+          "business",
+          "market",
+          "trade",
+          "economic"
+        ],
+        "vowel": "𐑩"
+      },
+      {
+        "id": "i:0192",
+        "frequency": 76,
+        "definition": "Money; a medium of exchange used to store and transfer value.",
+        "translations": [
+          "money",
+          "cash",
+          "currency",
+          "funds",
+          "capital",
+          "coin"
+        ],
+        "vowel": "𐑦"
+      },
+      {
+        "id": "i:0215",
+        "frequency": 64,
+        "definition": "A transaction; a mutually agreed exchange of goods, services, or value.",
+        "translations": [
+          "deal",
+          "transaction",
+          "sale",
+          "purchase",
+          "trade",
+          "exchange"
+        ],
+        "vowel": "𐑧"
+      },
+      {
+        "id": "i:0228",
+        "frequency": 58,
+        "definition": "Payment for work or services; wages or compensation.",
+        "translations": [
+          "pay",
+          "wage",
+          "salary",
+          "payment",
+          "fee",
+          "compensation"
+        ],
+        "vowel": "𐑨"
+      },
+      {
+        "id": "i:0347",
+        "frequency": 29,
+        "definition": "Relating to commercial or industrial activity.",
+        "translations": [
+          "business",
+          "commercial",
+          "industrial",
+          "trade",
+          "enterprise"
+        ],
+        "vowel": "𐑱"
+      },
+      {
+        "id": "i:0424",
+        "frequency": 22,
+        "definition": "The availability of goods or services for purchase; the marketplace.",
+        "translations": [
+          "market",
+          "sell",
+          "available",
+          "for sale",
+          "commerce",
+          "retail"
+        ],
+        "vowel": "𐑲"
+      },
+      {
+        "id": "i:0532",
+        "frequency": 13,
+        "definition": "An entity that offers goods or services; a business or customer.",
+        "translations": [
+          "business",
+          "company",
+          "customer",
+          "client",
+          "vendor",
+          "shop"
+        ],
+        "vowel": "𐑪"
+      },
+      {
+        "id": "i:0585",
+        "frequency": 11,
+        "definition": "The net positive result after all costs; profit or surplus.",
+        "translations": [
+          "profit",
+          "surplus",
+          "net",
+          "gain",
+          "benefit",
+          "return"
+        ],
+        "vowel": "𐑰"
+      },
+      {
+        "id": "i:0744",
+        "frequency": 7,
+        "definition": "Costly; requiring significant sacrifice or payment to achieve.",
+        "translations": [
+          "expensive",
+          "costly",
+          "dear",
+          "price",
+          "cost"
+        ],
+        "vowel": "𐑴"
+      },
+      {
+        "id": "i:0944",
+        "frequency": 4,
+        "definition": "Temporary economic use in exchange for regular payment; to rent or lease. Covers the financial arrangement of paying for temporary access to something. Distinct from linguistic borrowing of foreign words.",
+        "translations": [
+          "rent",
+          "lease",
+          "hire",
+          "temporary use",
+          "rental"
+        ],
+        "vowel": "𐑵"
+      }
+    ],
+    "sound": "𐑒𐑕𐑑"
+  },
+  "belief_spirit": {
+    "label": "Belief, Spirit & Meaning",
+    "count": 14,
+    "ideas": [
+      {
+        "id": "i:0191",
+        "frequency": 76,
+        "definition": "A solemn promise or vow; a binding declaration of intent or truth.",
+        "translations": [
+          "promise",
+          "vow",
+          "oath",
+          "pledge",
+          "swear",
+          "commitment"
+        ],
+        "vowel": "𐑩"
+      },
+      {
+        "id": "i:0493",
+        "frequency": 16,
+        "definition": "Profound devotion and reverence; deeply pious and morally earnest.",
+        "translations": [
+          "devout",
+          "pious",
+          "faithful",
+          "reverent",
+          "holy",
+          "zealous"
+        ],
+        "vowel": "𐑧"
+      },
+      {
+        "id": "i:0573",
+        "frequency": 11,
+        "definition": "The supreme moral or divine principle; ultimate good opposing evil.",
+        "translations": [
+          "good",
+          "divine",
+          "righteous",
+          "holy",
+          "sacred",
+          "god"
+        ],
+        "vowel": "𐑨"
+      },
+      {
+        "id": "i:0694",
+        "frequency": 8,
+        "definition": "A fundamental moral principle; the ultimate standard of right conduct.",
+        "translations": [
+          "morality",
+          "ethics",
+          "principle",
+          "virtue",
+          "righteousness"
+        ],
+        "vowel": "𐑱"
+      },
+      {
+        "id": "i:0883",
+        "frequency": 5,
+        "definition": "A religious gathering and the place where it is held; a church service.",
+        "translations": [
+          "church",
+          "worship",
+          "service",
+          "congregation",
+          "mass",
+          "prayer"
+        ],
+        "vowel": "𐑲"
+      },
+      {
+        "id": "i:0910",
+        "frequency": 5,
+        "definition": "A spiritual worldview involving belief in divine entities and associated rituals.",
+        "translations": [
+          "religion",
+          "faith",
+          "spiritual",
+          "belief",
+          "worship",
+          "creed"
+        ],
+        "vowel": "𐑪"
+      },
+      {
+        "id": "i:0927",
+        "frequency": 5,
+        "definition": "Inspiring profound awe and reverence; eliciting deep wonder.",
+        "translations": [
+          "awesome",
+          "awe-inspiring",
+          "sacred",
+          "wondrous",
+          "sublime",
+          "magnificent"
+        ],
+        "vowel": "𐑰"
+      },
+      {
+        "id": "i:1047",
+        "frequency": 4,
+        "definition": "Derived from a non-material or spiritual source; relating to worship.",
+        "translations": [
+          "spiritual",
+          "sacred",
+          "divine",
+          "transcendent",
+          "religious",
+          "holy"
+        ],
+        "vowel": "𐑴"
+      },
+      {
+        "id": "i:1113",
+        "frequency": 3,
+        "definition": "A transcendent realm where the righteous dwell after death; paradise.",
+        "translations": [
+          "heaven",
+          "paradise",
+          "afterlife",
+          "eternal life",
+          "bliss"
+        ],
+        "vowel": "𐑵"
+      },
+      {
+        "id": "i:1137",
+        "frequency": 3,
+        "definition": "Sacred; consecrated or honored as holy.",
+        "translations": [
+          "holy",
+          "sacred",
+          "blessed",
+          "consecrated",
+          "divine",
+          "hallowed"
+        ],
+        "vowel": "𐑷"
+      },
+      {
+        "id": "i:1191",
+        "frequency": 3,
+        "definition": "A disciplined practice cultivating spiritual insight through mind-body control.",
+        "translations": [
+          "meditation",
+          "yoga",
+          "mindfulness",
+          "practice",
+          "contemplation"
+        ],
+        "vowel": "𐑬"
+      },
+      {
+        "id": "i:1683",
+        "frequency": 1,
+        "definition": "A sacred and esoteric phenomenon beyond ordinary human understanding.",
+        "translations": [
+          "mystery",
+          "mystical",
+          "esoteric",
+          "sacred",
+          "supernatural",
+          "occult"
+        ],
+        "vowel": "𐑫"
+      },
+      {
+        "id": "i:0209",
+        "frequency": 67,
+        "definition": "The totality of all existence; everything that is.",
+        "translations": [
+          "everything",
+          "all",
+          "universe",
+          "totality",
+          "existence",
+          "whole"
+        ],
+        "vowel": "𐑦"
+      },
+      {
+        "id": "i:d7",
+        "frequency": 0,
+        "definition": "The digit seven; the numeric value 7.",
+        "translations": [
+          "7",
+          "seven"
+        ],
+        "vowel": "𐑶"
+      }
+    ],
+    "sound": "𐑙𐑒𐑕"
+  },
+  "motion_movement": {
+    "label": "Motion & Movement",
+    "count": 9,
+    "ideas": [
+      {
+        "id": "i:0109",
+        "frequency": 159,
+        "definition": "The act of changing position or state; movement of any kind.",
+        "translations": [
+          "move",
+          "motion",
+          "movement",
+          "shift",
+          "go",
+          "travel"
+        ],
+        "vowel": "𐑩"
+      },
+      {
+        "id": "i:0171",
+        "frequency": 91,
+        "definition": "A sudden forceful downward transition; falling or dropping abruptly.",
+        "translations": [
+          "fall",
+          "drop",
+          "crash",
+          "collapse",
+          "plunge",
+          "tumble"
+        ],
+        "vowel": "𐑦"
+      },
+      {
+        "id": "i:0317",
+        "frequency": 32,
+        "definition": "Walking; traveling on foot.",
+        "translations": [
+          "walk",
+          "go on foot",
+          "stroll",
+          "hike",
+          "step",
+          "tread"
+        ],
+        "vowel": "𐑧"
+      },
+      {
+        "id": "i:0371",
+        "frequency": 26,
+        "definition": "Waking up; transitioning from sleep to an alert, active state.",
+        "translations": [
+          "wake",
+          "wake up",
+          "arise",
+          "rouse",
+          "get up",
+          "awaken"
+        ],
+        "vowel": "𐑨"
+      },
+      {
+        "id": "i:0382",
+        "frequency": 25,
+        "definition": "A forceful throw or ejection; projecting something with force.",
+        "translations": [
+          "throw",
+          "launch",
+          "shoot",
+          "fling",
+          "project",
+          "eject"
+        ],
+        "vowel": "𐑱"
+      },
+      {
+        "id": "i:0693",
+        "frequency": 8,
+        "definition": "Departure; leaving a place or condition.",
+        "translations": [
+          "leave",
+          "depart",
+          "go away",
+          "exit",
+          "set off",
+          "departure"
+        ],
+        "vowel": "𐑲"
+      },
+      {
+        "id": "i:0821",
+        "frequency": 6,
+        "definition": "Moving through water; swimming.",
+        "translations": [
+          "swim",
+          "swimming",
+          "float",
+          "aquatic movement",
+          "stroke"
+        ],
+        "vowel": "𐑪"
+      },
+      {
+        "id": "i:0848",
+        "frequency": 6,
+        "definition": "Approaching a target; reducing the distance to a destination.",
+        "translations": [
+          "approach",
+          "near",
+          "close in",
+          "arrive",
+          "reach",
+          "come"
+        ],
+        "vowel": "𐑰"
+      },
+      {
+        "id": "i:1617",
+        "frequency": 1,
+        "definition": "Airborne movement; moving through the air by aerodynamic means.",
+        "translations": [
+          "fly",
+          "flight",
+          "airborne",
+          "aviation",
+          "glide",
+          "soar"
+        ],
+        "vowel": "𐑴"
+      }
+    ],
+    "sound": "𐑖𐑑"
+  },
+  "work_outcome": {
+    "label": "Work, Effort & Outcome",
+    "count": 11,
+    "ideas": [
+      {
+        "id": "i:0044",
+        "frequency": 493,
+        "definition": "Mastery of knowledge and skill; expertise that enables effective action.",
+        "translations": [
+          "skill",
+          "expertise",
+          "mastery",
+          "ability",
+          "competence",
+          "talent"
+        ],
+        "vowel": "𐑩"
+      },
+      {
+        "id": "i:0073",
+        "frequency": 276,
+        "definition": "A systematic method or practice; procedure applied to achieve results.",
+        "translations": [
+          "method",
+          "technique",
+          "practice",
+          "exercise",
+          "process",
+          "procedure"
+        ],
+        "vowel": "𐑦"
+      },
+      {
+        "id": "i:0091",
+        "frequency": 202,
+        "definition": "Active engagement combining care and authority; managing and doing.",
+        "translations": [
+          "manage",
+          "do",
+          "act",
+          "engage",
+          "work",
+          "operate"
+        ],
+        "vowel": "𐑧"
+      },
+      {
+        "id": "i:0229",
+        "frequency": 58,
+        "definition": "An occupation and its associated tools and effort.",
+        "translations": [
+          "job",
+          "work",
+          "occupation",
+          "task",
+          "tool",
+          "effort"
+        ],
+        "vowel": "𐑲"
+      },
+      {
+        "id": "i:0272",
+        "frequency": 43,
+        "definition": "A supporting or auxiliary element that enables a larger whole.",
+        "translations": [
+          "helper",
+          "support",
+          "assistant",
+          "aid",
+          "backup",
+          "enabler"
+        ],
+        "vowel": "𐑪"
+      },
+      {
+        "id": "i:0313",
+        "frequency": 33,
+        "definition": "Skilled coordination of resources toward a desired outcome.",
+        "translations": [
+          "manage",
+          "coordinate",
+          "plan",
+          "orchestrate",
+          "execute",
+          "organize"
+        ],
+        "vowel": "𐑰"
+      },
+      {
+        "id": "i:0450",
+        "frequency": 19,
+        "definition": "Consistent hard or manual labor, often under another's direction.",
+        "translations": [
+          "work hard",
+          "labor",
+          "toil",
+          "slave",
+          "serve",
+          "grind"
+        ],
+        "vowel": "𐑴"
+      },
+      {
+        "id": "i:0575",
+        "frequency": 11,
+        "definition": "Accountability for fulfilling obligations; being responsible for a task.",
+        "translations": [
+          "responsible",
+          "accountable",
+          "duty",
+          "obligation",
+          "liable",
+          "own"
+        ],
+        "vowel": "𐑵"
+      },
+      {
+        "id": "i:0827",
+        "frequency": 6,
+        "definition": "A worker; one who performs labor for the benefit of others.",
+        "translations": [
+          "worker",
+          "employee",
+          "laborer",
+          "staff",
+          "operative"
+        ],
+        "vowel": "𐑷"
+      },
+      {
+        "id": "i:0175",
+        "frequency": 87,
+        "definition": "Achieving or bringing into existence a goal through effort.",
+        "translations": [
+          "achieve",
+          "accomplish",
+          "succeed",
+          "realize",
+          "complete",
+          "attain"
+        ],
+        "vowel": "𐑨"
+      },
+      {
+        "id": "i:0181",
+        "frequency": 83,
+        "definition": "Loss, failure, or deprivation; the experience of not achieving a goal.",
+        "translations": [
+          "lose",
+          "loss",
+          "fail",
+          "failure",
+          "defeat",
+          "deprivation"
+        ],
+        "vowel": "𐑱"
+      }
+    ],
+    "sound": "𐑜𐑟"
+  },
+  "play_competition": {
+    "label": "Play & Competition",
+    "count": 13,
+    "ideas": [
+      {
+        "id": "i:0092",
+        "frequency": 198,
+        "definition": "An activity involving engagement, cooperation, and interaction; a game.",
+        "translations": [
+          "game",
+          "play",
+          "activity",
+          "sport",
+          "engage",
+          "participate"
+        ],
+        "vowel": "𐑩"
+      },
+      {
+        "id": "i:0245",
+        "frequency": 50,
+        "definition": "Lighthearted, imaginative activity for fun or competition.",
+        "translations": [
+          "play",
+          "game",
+          "fun",
+          "recreation",
+          "sport",
+          "frolic"
+        ],
+        "vowel": "𐑦"
+      },
+      {
+        "id": "i:0264",
+        "frequency": 45,
+        "definition": "A competitive encounter; rivalry between opposing parties.",
+        "translations": [
+          "compete",
+          "contest",
+          "match",
+          "rivalry",
+          "challenge",
+          "versus"
+        ],
+        "vowel": "𐑧"
+      },
+      {
+        "id": "i:0303",
+        "frequency": 36,
+        "definition": "Victorious; the state of having won or achieved superiority.",
+        "translations": [
+          "win",
+          "victory",
+          "champion",
+          "triumph",
+          "succeed",
+          "beat"
+        ],
+        "vowel": "𐑨"
+      },
+      {
+        "id": "i:0335",
+        "frequency": 30,
+        "definition": "Timely advantage; favorable circumstances for action.",
+        "translations": [
+          "opportunity",
+          "chance",
+          "timing",
+          "advantage",
+          "opening",
+          "lucky break"
+        ],
+        "vowel": "𐑱"
+      },
+      {
+        "id": "i:0373",
+        "frequency": 26,
+        "definition": "Resulting in the attainment of objectives; successful.",
+        "translations": [
+          "succeed",
+          "achieve",
+          "accomplish",
+          "win",
+          "effective",
+          "successful"
+        ],
+        "vowel": "𐑲"
+      },
+      {
+        "id": "i:0400",
+        "frequency": 24,
+        "definition": "Favorable outcome; resulting from luck or good circumstances.",
+        "translations": [
+          "lucky",
+          "fortunate",
+          "successful",
+          "good outcome",
+          "fortunate result"
+        ],
+        "vowel": "𐑪"
+      },
+      {
+        "id": "i:0448",
+        "frequency": 19,
+        "definition": "A sustained record of victories; continuous success.",
+        "translations": [
+          "winning streak",
+          "dominance",
+          "champion",
+          "consistent winner"
+        ],
+        "vowel": "𐑰"
+      },
+      {
+        "id": "i:0838",
+        "frequency": 6,
+        "definition": "Personal enjoyment pursued in one's spare time.",
+        "translations": [
+          "hobby",
+          "leisure",
+          "pastime",
+          "recreation",
+          "free time"
+        ],
+        "vowel": "𐑴"
+      },
+      {
+        "id": "i:0977",
+        "frequency": 4,
+        "definition": "Playful or whimsical engagement; a toy or playful thing.",
+        "translations": [
+          "toy",
+          "playful",
+          "whimsical",
+          "fun",
+          "game",
+          "novelty"
+        ],
+        "vowel": "𐑵"
+      },
+      {
+        "id": "i:1036",
+        "frequency": 4,
+        "definition": "A person who participates in competitive physical fighting.",
+        "translations": [
+          "fighter",
+          "athlete",
+          "competitor",
+          "martial artist",
+          "player"
+        ],
+        "vowel": "𐑷"
+      },
+      {
+        "id": "i:1146",
+        "frequency": 3,
+        "definition": "An organized sporting event or competition.",
+        "translations": [
+          "tournament",
+          "competition",
+          "event",
+          "match",
+          "contest",
+          "championship"
+        ],
+        "vowel": "𐑬"
+      },
+      {
+        "id": "i:1188",
+        "frequency": 3,
+        "definition": "Entertainment based on chance; gambling or luck-based games.",
+        "translations": [
+          "gamble",
+          "luck",
+          "chance",
+          "lottery",
+          "game of chance",
+          "bet"
+        ],
+        "vowel": "𐑫"
+      }
+    ],
+    "sound": "𐑓𐑑"
+  },
+  "danger_protection": {
+    "label": "Danger & Protection",
+    "count": 13,
+    "ideas": [
+      {
+        "id": "i:0242",
+        "frequency": 52,
+        "definition": "An uncertain opportunity with possible reward; odds-based risk.",
+        "translations": [
+          "risk",
+          "chance",
+          "bet",
+          "gamble",
+          "odds",
+          "wager"
+        ],
+        "vowel": "𐑩"
+      },
+      {
+        "id": "i:0409",
+        "frequency": 23,
+        "definition": "A protective barrier or assurance against harm or uncertainty.",
+        "translations": [
+          "protect",
+          "safety",
+          "guard",
+          "barrier",
+          "secure",
+          "shield"
+        ],
+        "vowel": "𐑦"
+      },
+      {
+        "id": "i:0447",
+        "frequency": 19,
+        "definition": "Providing safety or protection through containment or locking.",
+        "translations": [
+          "safe",
+          "secure",
+          "protected",
+          "lock",
+          "fortify",
+          "guard"
+        ],
+        "vowel": "𐑧"
+      },
+      {
+        "id": "i:0489",
+        "frequency": 16,
+        "definition": "A blockage preventing movement, flow, or access.",
+        "translations": [
+          "block",
+          "stuck",
+          "obstruct",
+          "jam",
+          "prevent",
+          "clog"
+        ],
+        "vowel": "𐑨"
+      },
+      {
+        "id": "i:0494",
+        "frequency": 16,
+        "definition": "Evading responsibility or compliance through cleverness.",
+        "translations": [
+          "evade",
+          "avoid",
+          "dodge",
+          "circumvent",
+          "escape",
+          "cheat"
+        ],
+        "vowel": "𐑱"
+      },
+      {
+        "id": "i:0525",
+        "frequency": 13,
+        "definition": "A sudden, intense disturbance or shock; an overwhelming disruption.",
+        "translations": [
+          "storm",
+          "shock",
+          "disruption",
+          "overwhelm",
+          "crisis",
+          "tumult"
+        ],
+        "vowel": "𐑲"
+      },
+      {
+        "id": "i:0631",
+        "frequency": 9,
+        "definition": "Vigilant and watchful; alert and ready to respond.",
+        "translations": [
+          "alert",
+          "vigilant",
+          "watchful",
+          "on guard",
+          "aware",
+          "attentive"
+        ],
+        "vowel": "𐑪"
+      },
+      {
+        "id": "i:0637",
+        "frequency": 9,
+        "definition": "Vulnerable; open to being taken or captured.",
+        "translations": [
+          "vulnerable",
+          "exposed",
+          "open",
+          "susceptible",
+          "capturable",
+          "at risk"
+        ],
+        "vowel": "𐑰"
+      },
+      {
+        "id": "i:0691",
+        "frequency": 8,
+        "definition": "Intense alarm or apprehension arising from threat.",
+        "translations": [
+          "alarm",
+          "panic",
+          "fright",
+          "shock",
+          "terror",
+          "dread"
+        ],
+        "vowel": "𐑴"
+      },
+      {
+        "id": "i:0896",
+        "frequency": 5,
+        "definition": "Indicating danger or risk before it occurs; a warning signal.",
+        "translations": [
+          "warn",
+          "warning",
+          "signal",
+          "alert",
+          "caution",
+          "red flag"
+        ],
+        "vowel": "𐑵"
+      },
+      {
+        "id": "i:1020",
+        "frequency": 4,
+        "definition": "A vulnerability combining the likelihood and severity of possible harm.",
+        "translations": [
+          "risk",
+          "hazard",
+          "threat",
+          "danger",
+          "vulnerability",
+          "exposure"
+        ],
+        "vowel": "𐑷"
+      },
+      {
+        "id": "i:1664",
+        "frequency": 1,
+        "definition": "Tools or methods used for protection, offense, or influence.",
+        "translations": [
+          "weapon",
+          "tool",
+          "instrument",
+          "arms",
+          "defense",
+          "means"
+        ],
+        "vowel": "𐑬"
+      },
+      {
+        "id": "i:1726",
+        "frequency": 1,
+        "definition": "The quality of metal; hard, strong material associated with tools and weapons.",
+        "translations": [
+          "metal",
+          "metallic",
+          "steel",
+          "iron",
+          "hard",
+          "weapon"
+        ],
+        "vowel": "𐑫"
+      }
+    ],
+    "sound": "𐑥𐑓"
+  },
+  "give_take": {
+    "label": "Giving & Taking",
+    "count": 10,
+    "ideas": [
+      {
+        "id": "i:0176",
+        "frequency": 87,
+        "definition": "Requesting or seeking approval, consent, or something desired.",
+        "translations": [
+          "ask",
+          "request",
+          "seek",
+          "inquire",
+          "petition",
+          "solicit"
+        ],
+        "vowel": "𐑩"
+      },
+      {
+        "id": "i:0178",
+        "frequency": 85,
+        "definition": "Accepting or releasing; letting something go or taking it in.",
+        "translations": [
+          "accept",
+          "receive",
+          "release",
+          "let go",
+          "surrender",
+          "yield"
+        ],
+        "vowel": "𐑦"
+      },
+      {
+        "id": "i:0237",
+        "frequency": 54,
+        "definition": "The absence of something needed or desired; lack.",
+        "translations": [
+          "lack",
+          "without",
+          "absence",
+          "missing",
+          "deprived",
+          "devoid"
+        ],
+        "vowel": "𐑧"
+      },
+      {
+        "id": "i:0261",
+        "frequency": 46,
+        "definition": "The act of giving or granting; offering something to another.",
+        "translations": [
+          "give",
+          "grant",
+          "offer",
+          "gift",
+          "donate",
+          "provide"
+        ],
+        "vowel": "𐑨"
+      },
+      {
+        "id": "i:0304",
+        "frequency": 35,
+        "definition": "Support, defense, or backing for something; acting on behalf of.",
+        "translations": [
+          "support",
+          "defend",
+          "back",
+          "advocate",
+          "represent",
+          "for"
+        ],
+        "vowel": "𐑱"
+      },
+      {
+        "id": "i:0405",
+        "frequency": 23,
+        "definition": "Moving something from one place to another; sending or delivering.",
+        "translations": [
+          "send",
+          "deliver",
+          "transfer",
+          "ship",
+          "transmit",
+          "dispatch"
+        ],
+        "vowel": "𐑲"
+      },
+      {
+        "id": "i:0630",
+        "frequency": 9,
+        "definition": "Distributing or assigning things to be used or measured.",
+        "translations": [
+          "distribute",
+          "allocate",
+          "assign",
+          "share out",
+          "divide",
+          "portion"
+        ],
+        "vowel": "𐑪"
+      },
+      {
+        "id": "i:0648",
+        "frequency": 9,
+        "definition": "Denial or rejection; refusing or declining.",
+        "translations": [
+          "refuse",
+          "reject",
+          "deny",
+          "decline",
+          "say no",
+          "turn down"
+        ],
+        "vowel": "𐑰"
+      },
+      {
+        "id": "i:0815",
+        "frequency": 6,
+        "definition": "Taking another's property without consent.",
+        "translations": [
+          "steal",
+          "theft",
+          "take",
+          "rob",
+          "swipe",
+          "pilfer"
+        ],
+        "vowel": "𐑴"
+      },
+      {
+        "id": "i:1277",
+        "frequency": 2,
+        "definition": "Abandonment; severing a connection or leaving something behind.",
+        "translations": [
+          "abandon",
+          "leave behind",
+          "desert",
+          "reject",
+          "discard",
+          "forsake"
+        ],
+        "vowel": "𐑵"
+      }
+    ],
+    "sound": "𐑚𐑟"
+  },
+  "logic_connectives": {
+    "label": "Logic & Connectives",
+    "count": 14,
+    "ideas": [
+      {
+        "id": "i:0005",
+        "frequency": 2685,
+        "definition": "A relationship linking two elements; setting one as condition or context for the other.",
+        "translations": [
+          "of",
+          "between",
+          "relating",
+          "concerning",
+          "linking",
+          "to"
+        ],
+        "vowel": "𐑩"
+      },
+      {
+        "id": "i:0011",
+        "frequency": 1827,
+        "definition": "A concessive connective indicating persistence despite opposition.",
+        "translations": [
+          "yet",
+          "still",
+          "nevertheless",
+          "however",
+          "even so",
+          "but still"
+        ],
+        "vowel": "𐑦"
+      },
+      {
+        "id": "i:0013",
+        "frequency": 1553,
+        "definition": "Negation; reversing or inverting the meaning of what follows.",
+        "translations": [
+          "not",
+          "no",
+          "negate"
+        ],
+        "vowel": "𐑧"
+      },
+      {
+        "id": "i:0020",
+        "frequency": 1013,
+        "definition": "A condition or requirement that must be met for a result to occur.",
+        "translations": [
+          "condition",
+          "requirement",
+          "must",
+          "need",
+          "necessary",
+          "prerequisite"
+        ],
+        "vowel": "𐑨"
+      },
+      {
+        "id": "i:0062",
+        "frequency": 316,
+        "definition": "Total absence, denial, or refusal; complete negation.",
+        "translations": [
+          "none",
+          "nothing",
+          "zero",
+          "never"
+        ],
+        "vowel": "𐑱"
+      },
+      {
+        "id": "i:0111",
+        "frequency": 157,
+        "definition": "The reason or cause behind an event; expressing purpose or causation.",
+        "translations": [
+          "because",
+          "since",
+          "for",
+          "due to"
+        ],
+        "vowel": "𐑲"
+      },
+      {
+        "id": "i:0168",
+        "frequency": 93,
+        "definition": "A marker introducing comparison, contrast, or the next element in a sequence.",
+        "translations": [
+          "then",
+          "next",
+          "but",
+          "rather",
+          "alternatively",
+          "instead"
+        ],
+        "vowel": "𐑰"
+      },
+      {
+        "id": "i:0254",
+        "frequency": 47,
+        "definition": "The state or condition that follows from an occurrence; a consequence.",
+        "translations": [
+          "therefore",
+          "so",
+          "then",
+          "consequence"
+        ],
+        "vowel": "𐑬"
+      },
+      {
+        "id": "i:0333",
+        "frequency": 30,
+        "definition": "Any single item chosen from a set of alternatives.",
+        "translations": [
+          "either",
+          "any one",
+          "whichever",
+          "one of",
+          "a choice"
+        ],
+        "vowel": "𐑫"
+      },
+      {
+        "id": "i:0700",
+        "frequency": 8,
+        "definition": "A connective introducing an indirect question or alternative possibility.",
+        "translations": [
+          "whether",
+          "or not"
+        ],
+        "vowel": "𐑶"
+      },
+      {
+        "id": "i:1919",
+        "frequency": 0,
+        "definition": "In the company of; accompanied by; having.",
+        "translations": [
+          "with",
+          "together with",
+          "alongside"
+        ],
+        "vowel": "𐑪"
+      },
+      {
+        "id": "i:1921",
+        "frequency": 0,
+        "definition": "Continuing up to but not beyond a point; the temporal or conditional limit.",
+        "translations": [
+          "until",
+          "up to",
+          "till"
+        ],
+        "vowel": "𐑵"
+      },
+      {
+        "id": "i:1927",
+        "frequency": 0,
+        "definition": "At the same time as; during the same period.",
+        "translations": [
+          "while",
+          "during",
+          "simultaneously"
+        ],
+        "vowel": "𐑴"
+      },
+      {
+        "id": "i:1933",
+        "frequency": 0,
+        "definition": "Clause opener — marks the beginning of a subordinate clause; that/which/who as a relativizer. All parts of the clause must follow this marker and stay grouped together.",
+        "translations": [
+          "that",
+          "which",
+          "who",
+          "whom",
+          "whereby",
+          "clause marker",
+          "subordinate"
+        ],
+        "vowel": "𐑷"
+      }
+    ],
+    "sound": "𐑯𐑟"
+  },
+  "structure_order": {
+    "label": "Structure & Order",
+    "count": 10,
+    "ideas": [
+      {
+        "id": "i:0085",
+        "frequency": 226,
+        "definition": "The foundation or basis from which something arises or is supported.",
+        "translations": [
+          "foundation",
+          "base",
+          "basis",
+          "root",
+          "origin",
+          "ground"
+        ],
+        "vowel": "𐑩"
+      },
+      {
+        "id": "i:0098",
+        "frequency": 176,
+        "definition": "The relative rank or level of something within a hierarchy or system.",
+        "translations": [
+          "level",
+          "rank",
+          "grade",
+          "tier",
+          "stage",
+          "position"
+        ],
+        "vowel": "𐑦"
+      },
+      {
+        "id": "i:0138",
+        "frequency": 129,
+        "definition": "A systematic plan or framework organizing things into a purposeful structure.",
+        "translations": [
+          "system",
+          "plan",
+          "framework",
+          "structure",
+          "organization",
+          "design"
+        ],
+        "vowel": "𐑧"
+      },
+      {
+        "id": "i:0169",
+        "frequency": 93,
+        "definition": "The foremost, highest-ranking, or most significant element in a context.",
+        "translations": [
+          "top",
+          "main",
+          "chief",
+          "primary",
+          "first",
+          "leading"
+        ],
+        "vowel": "𐑨"
+      },
+      {
+        "id": "i:0273",
+        "frequency": 43,
+        "definition": "A unified whole formed systematically from a predefined plan.",
+        "translations": [
+          "unified",
+          "integrated",
+          "systematic",
+          "organized",
+          "whole",
+          "complete"
+        ],
+        "vowel": "𐑱"
+      },
+      {
+        "id": "i:0357",
+        "frequency": 28,
+        "definition": "An abstract standard or reference point defining a level or category.",
+        "translations": [
+          "standard",
+          "level",
+          "category",
+          "benchmark",
+          "criterion",
+          "grade"
+        ],
+        "vowel": "𐑲"
+      },
+      {
+        "id": "i:0374",
+        "frequency": 26,
+        "definition": "An organized set of units in sequence or grouping; a list or series.",
+        "translations": [
+          "list",
+          "series",
+          "sequence",
+          "set",
+          "order",
+          "arrangement"
+        ],
+        "vowel": "𐑪"
+      },
+      {
+        "id": "i:0418",
+        "frequency": 22,
+        "definition": "A collective grouping united around shared purposes or goals.",
+        "translations": [
+          "organization",
+          "group",
+          "team",
+          "institution",
+          "association",
+          "body"
+        ],
+        "vowel": "𐑰"
+      },
+      {
+        "id": "i:0621",
+        "frequency": 10,
+        "definition": "An organized system for storing and arranging items.",
+        "translations": [
+          "storage",
+          "archive",
+          "organize",
+          "file",
+          "catalog",
+          "index"
+        ],
+        "vowel": "𐑴"
+      },
+      {
+        "id": "i:1037",
+        "frequency": 4,
+        "definition": "The fundamental composition and unity of a whole; underlying structure.",
+        "translations": [
+          "structure",
+          "composition",
+          "makeup",
+          "fabric",
+          "constitution",
+          "framework"
+        ],
+        "vowel": "𐑵"
+      }
+    ],
+    "sound": "𐑙𐑒"
+  },
+  "relation_causation": {
+    "label": "Relation & Causation",
+    "count": 10,
+    "ideas": [
+      {
+        "id": "i:0028",
+        "frequency": 685,
+        "definition": "A relational link indicating possession, origin, causation, or association.",
+        "translations": [
+          "of",
+          "belonging to",
+          "caused by",
+          "from",
+          "related to",
+          "by"
+        ],
+        "vowel": "𐑩"
+      },
+      {
+        "id": "i:0057",
+        "frequency": 357,
+        "definition": "A means, resource, or approach that achieves a desired end.",
+        "translations": [
+          "solution",
+          "means",
+          "way",
+          "method",
+          "answer",
+          "approach"
+        ],
+        "vowel": "𐑧"
+      },
+      {
+        "id": "i:0094",
+        "frequency": 185,
+        "definition": "A means or method by which something is accomplished; the instrument.",
+        "translations": [
+          "by",
+          "via",
+          "through",
+          "by means of",
+          "using",
+          "instrumental"
+        ],
+        "vowel": "𐑨"
+      },
+      {
+        "id": "i:0103",
+        "frequency": 172,
+        "definition": "Possibility or uncertainty; something that may or may not occur.",
+        "translations": [
+          "maybe",
+          "possibly",
+          "might",
+          "could",
+          "perhaps",
+          "probability"
+        ],
+        "vowel": "𐑱"
+      },
+      {
+        "id": "i:0891",
+        "frequency": 5,
+        "definition": "The result or outcome of an action or process.",
+        "translations": [
+          "result",
+          "outcome",
+          "consequence",
+          "effect",
+          "product",
+          "conclusion"
+        ],
+        "vowel": "𐑴"
+      },
+      {
+        "id": "i:1222",
+        "frequency": 2,
+        "definition": "A link where one circumstance follows or responds to another.",
+        "translations": [
+          "follow",
+          "respond to",
+          "consequence of",
+          "sequel",
+          "result from"
+        ],
+        "vowel": "𐑵"
+      },
+      {
+        "id": "i:0033",
+        "frequency": 624,
+        "definition": "Having shared qualities; comparable or analogous to another.",
+        "translations": [
+          "similar",
+          "like",
+          "comparable",
+          "analogous",
+          "alike",
+          "same kind"
+        ],
+        "vowel": "𐑦"
+      },
+      {
+        "id": "i:0122",
+        "frequency": 141,
+        "definition": "A comparison of extent, degree, or manner between entities.",
+        "translations": [
+          "as",
+          "like",
+          "compared to",
+          "in the same way",
+          "to the degree"
+        ],
+        "vowel": "𐑲"
+      },
+      {
+        "id": "i:0146",
+        "frequency": 115,
+        "definition": "The state of being distinct or uniquely individual; separateness.",
+        "translations": [
+          "different",
+          "distinct",
+          "separate",
+          "unique",
+          "other",
+          "apart"
+        ],
+        "vowel": "𐑪"
+      },
+      {
+        "id": "i:0182",
+        "frequency": 83,
+        "definition": "An additional or alternative element; something else or a different option.",
+        "translations": [
+          "other",
+          "another",
+          "else",
+          "alternative",
+          "different",
+          "additional"
+        ],
+        "vowel": "𐑰"
+      }
+    ],
+    "sound": "𐑥𐑐"
+  },
+  "truth_certainty": {
+    "label": "Truth & Certainty",
+    "count": 8,
+    "ideas": [
+      {
+        "id": "i:0150",
+        "frequency": 112,
+        "definition": "An objectively verifiable element of reality; a fact.",
+        "translations": [
+          "fact",
+          "truth",
+          "reality",
+          "data",
+          "information",
+          "evidence"
+        ],
+        "vowel": "𐑧"
+      },
+      {
+        "id": "i:0208",
+        "frequency": 69,
+        "definition": "The semantic quality of being literal — meaning exactly what is stated, without figurative, metaphorical, or embellished interpretation. Describes how an expression should be understood. Distinct from the discourse act of quoting someone verbatim.",
+        "translations": [
+          "literal",
+          "non-figurative",
+          "direct",
+          "plain meaning",
+          "exact sense",
+          "strict"
+        ],
+        "vowel": "𐑱"
+      },
+      {
+        "id": "i:0343",
+        "frequency": 29,
+        "definition": "Clearly evident and precisely defined; leaving no doubt.",
+        "translations": [
+          "clear",
+          "obvious",
+          "evident",
+          "plain",
+          "explicit",
+          "definite"
+        ],
+        "vowel": "𐑲"
+      },
+      {
+        "id": "i:0432",
+        "frequency": 21,
+        "definition": "A false statement; deception or lying.",
+        "translations": [
+          "lie",
+          "false",
+          "deceive",
+          "untruth",
+          "deception",
+          "dishonest"
+        ],
+        "vowel": "𐑪"
+      },
+      {
+        "id": "i:0877",
+        "frequency": 5,
+        "definition": "Verifiable truth; something proven by evidence.",
+        "translations": [
+          "proven",
+          "verified",
+          "valid",
+          "evidenced",
+          "confirmed",
+          "demonstrated"
+        ],
+        "vowel": "𐑰"
+      },
+      {
+        "id": "i:0036",
+        "frequency": 585,
+        "definition": "Completely accurate and true; an exact reflection of reality.",
+        "translations": [
+          "true",
+          "accurate",
+          "exact",
+          "correct",
+          "real",
+          "factual"
+        ],
+        "vowel": "𐑩"
+      },
+      {
+        "id": "i:0140",
+        "frequency": 123,
+        "definition": "Exactness and precision; faithfully reflecting reality without ambiguity.",
+        "translations": [
+          "precise",
+          "exact",
+          "accurate",
+          "correct",
+          "faithful",
+          "rigorous"
+        ],
+        "vowel": "𐑦"
+      },
+      {
+        "id": "i:0180",
+        "frequency": 84,
+        "definition": "Steadfast and reliable; free from doubt or wavering.",
+        "translations": [
+          "certain",
+          "sure",
+          "reliable",
+          "stable",
+          "confident",
+          "definite"
+        ],
+        "vowel": "𐑨"
+      }
+    ],
+    "sound": "𐑯𐑕𐑑"
+  },
+  "quantity_degree": {
+    "label": "Quantity & Degree",
+    "count": 7,
+    "ideas": [
+      {
+        "id": "i:0008",
+        "frequency": 2154,
+        "definition": "The extent, magnitude, or intensity of something; how much.",
+        "translations": [
+          "amount",
+          "degree",
+          "extent",
+          "magnitude",
+          "level",
+          "how much"
+        ],
+        "vowel": "𐑩"
+      },
+      {
+        "id": "i:0065",
+        "frequency": 305,
+        "definition": "A vague, imprecise amount; some but not a specified quantity.",
+        "translations": [
+          "some",
+          "a bit",
+          "somewhat",
+          "a little",
+          "vague amount",
+          "roughly"
+        ],
+        "vowel": "𐑦"
+      },
+      {
+        "id": "i:0072",
+        "frequency": 276,
+        "definition": "Applying to each element individually; every single one.",
+        "translations": [
+          "each",
+          "every",
+          "per",
+          "individually",
+          "one by one"
+        ],
+        "vowel": "𐑧"
+      },
+      {
+        "id": "i:0116",
+        "frequency": 149,
+        "definition": "A relational or proportional connection between terms.",
+        "translations": [
+          "ratio",
+          "proportion",
+          "relation",
+          "per",
+          "rate",
+          "comparative"
+        ],
+        "vowel": "𐑨"
+      },
+      {
+        "id": "i:0144",
+        "frequency": 116,
+        "definition": "A measured or perceived quantity; relating to number.",
+        "translations": [
+          "number",
+          "quantity",
+          "count",
+          "amount",
+          "figure",
+          "numeric"
+        ],
+        "vowel": "𐑱"
+      },
+      {
+        "id": "i:0164",
+        "frequency": 97,
+        "definition": "A complete whole formed by combining all constituent parts.",
+        "translations": [
+          "total",
+          "whole",
+          "all",
+          "sum",
+          "entire",
+          "complete count"
+        ],
+        "vowel": "𐑲"
+      },
+      {
+        "id": "i:d3",
+        "frequency": 0,
+        "definition": "The digit three; the numeric value 3.",
+        "translations": [
+          "3",
+          "three",
+          "triple",
+          "trio"
+        ],
+        "vowel": "𐑪"
+      }
+    ],
+    "sound": "𐑒𐑕"
+  },
+  "time_temporal": {
+    "label": "Time — Measurement & Cycles",
+    "count": 10,
+    "ideas": [
+      {
+        "id": "i:0338",
+        "frequency": 29,
+        "definition": "The period of daylight from sunrise to sunset; a full 24-hour cycle.",
+        "translations": [
+          "day",
+          "daytime"
+        ],
+        "vowel": "𐑱"
+      },
+      {
+        "id": "i:0325",
+        "frequency": 31,
+        "definition": "The period of darkness from sunset to sunrise.",
+        "translations": [
+          "night",
+          "nighttime"
+        ],
+        "vowel": "𐑨"
+      },
+      {
+        "id": "i:1471",
+        "frequency": 1,
+        "definition": "The natural recurring state of rest and reduced consciousness.",
+        "translations": [
+          "sleep",
+          "rest",
+          "slumber"
+        ],
+        "vowel": "𐑪"
+      },
+      {
+        "id": "i:0311",
+        "frequency": 34,
+        "definition": "A unit of time equal to one-sixtieth of a minute; a very brief moment.",
+        "translations": [
+          "second",
+          "sec"
+        ],
+        "vowel": "𐑧"
+      },
+      {
+        "id": "i:1897",
+        "frequency": 0,
+        "definition": "A unit of time equal to sixty seconds.",
+        "translations": [
+          "minute",
+          "min"
+        ],
+        "vowel": "𐑩"
+      },
+      {
+        "id": "i:0577",
+        "frequency": 11,
+        "definition": "A unit of time equal to sixty minutes.",
+        "translations": [
+          "hour",
+          "hr"
+        ],
+        "vowel": "𐑲"
+      },
+      {
+        "id": "i:1855",
+        "frequency": 1,
+        "definition": "A period of seven consecutive days.",
+        "translations": [
+          "week",
+          "weekly"
+        ],
+        "vowel": "𐑰"
+      },
+      {
+        "id": "i:1907",
+        "frequency": 0,
+        "definition": "A unit of time approximately one-twelfth of a year; roughly 30 days.",
+        "translations": [
+          "month",
+          "monthly"
+        ],
+        "vowel": "𐑦"
+      },
+      {
+        "id": "i:1431",
+        "frequency": 1,
+        "definition": "A complete cycle of approximately 365 days.",
+        "translations": [
+          "year",
+          "annual"
+        ],
+        "vowel": "𐑴"
+      },
+      {
+        "id": "i:d4",
+        "frequency": 0,
+        "definition": "The digit four; the numeric value 4.",
+        "translations": [
+          "4",
+          "four",
+          "quartet"
+        ],
+        "vowel": "𐑵"
+      }
+    ],
+    "sound": "𐑯𐑔"
+  },
+  "beginning_ending": {
+    "label": "Beginning & Ending",
+    "count": 7,
+    "ideas": [
+      {
+        "id": "i:0053",
+        "frequency": 393,
+        "definition": "The point at which something concludes and ceases.",
+        "translations": [
+          "end",
+          "finish",
+          "stop",
+          "conclude",
+          "terminate",
+          "final"
+        ],
+        "vowel": "𐑩"
+      },
+      {
+        "id": "i:0119",
+        "frequency": 145,
+        "definition": "The state of being first or earliest; the beginning.",
+        "translations": [
+          "first",
+          "begin",
+          "start",
+          "initial",
+          "earliest",
+          "opening"
+        ],
+        "vowel": "𐑦"
+      },
+      {
+        "id": "i:0158",
+        "frequency": 106,
+        "definition": "That which comes before in time or order; preceding.",
+        "translations": [
+          "before",
+          "prior",
+          "previous",
+          "earlier",
+          "preceding",
+          "former"
+        ],
+        "vowel": "𐑧"
+      },
+      {
+        "id": "i:0219",
+        "frequency": 60,
+        "definition": "Final and complete; the ultimate resolution.",
+        "translations": [
+          "final",
+          "last",
+          "complete",
+          "definitive",
+          "ultimate",
+          "finished"
+        ],
+        "vowel": "𐑨"
+      },
+      {
+        "id": "i:0413",
+        "frequency": 22,
+        "definition": "The moment or point of creation or origin.",
+        "translations": [
+          "origin",
+          "birth",
+          "creation",
+          "beginning",
+          "founding",
+          "start point"
+        ],
+        "vowel": "𐑱"
+      },
+      {
+        "id": "i:0440",
+        "frequency": 20,
+        "definition": "An unspecified single point in time; once.",
+        "translations": [
+          "once",
+          "sometime",
+          "at some point",
+          "one time",
+          "a moment"
+        ],
+        "vowel": "𐑲"
+      },
+      {
+        "id": "i:0983",
+        "frequency": 4,
+        "definition": "A point or boundary marking the beginning or end of something.",
+        "translations": [
+          "limit",
+          "boundary",
+          "threshold",
+          "point",
+          "edge",
+          "onset"
+        ],
+        "vowel": "𐑪"
+      }
+    ],
+    "sound": "𐑯𐑛𐑟"
+  },
+  "change_process": {
+    "label": "Change & Process",
+    "count": 10,
+    "ideas": [
+      {
+        "id": "i:0090",
+        "frequency": 203,
+        "definition": "The degree or intensity of change; how much something changes.",
+        "translations": [
+          "change",
+          "shift",
+          "degree",
+          "intensity",
+          "abrupt",
+          "sudden"
+        ],
+        "vowel": "𐑩"
+      },
+      {
+        "id": "i:0154",
+        "frequency": 108,
+        "definition": "A sudden disruption causing cessation or termination.",
+        "translations": [
+          "break",
+          "stop",
+          "disrupt",
+          "halt",
+          "interrupt",
+          "sudden end"
+        ],
+        "vowel": "𐑦"
+      },
+      {
+        "id": "i:0217",
+        "frequency": 62,
+        "definition": "A transition from one state to another; change or exchange.",
+        "translations": [
+          "change",
+          "shift",
+          "transition",
+          "transform",
+          "switch",
+          "alter"
+        ],
+        "vowel": "𐑧"
+      },
+      {
+        "id": "i:0345",
+        "frequency": 29,
+        "definition": "Relating to transformation; the alteration of form or appearance.",
+        "translations": [
+          "transform",
+          "change",
+          "alter",
+          "modify",
+          "reshape",
+          "metamorphose"
+        ],
+        "vowel": "𐑨"
+      },
+      {
+        "id": "i:0369",
+        "frequency": 26,
+        "definition": "The capacity to adjust and endure across varied contexts.",
+        "translations": [
+          "adapt",
+          "flexible",
+          "resilient",
+          "adjust",
+          "endure",
+          "cope"
+        ],
+        "vowel": "𐑱"
+      },
+      {
+        "id": "i:0381",
+        "frequency": 25,
+        "definition": "Becoming better; the process of improvement.",
+        "translations": [
+          "improve",
+          "better",
+          "progress",
+          "advance",
+          "upgrade",
+          "refine"
+        ],
+        "vowel": "𐑲"
+      },
+      {
+        "id": "i:0453",
+        "frequency": 18,
+        "definition": "A relative degree or proportion between states; a ratio or rate.",
+        "translations": [
+          "rate",
+          "ratio",
+          "proportion",
+          "degree",
+          "per",
+          "relative"
+        ],
+        "vowel": "𐑪"
+      },
+      {
+        "id": "i:0574",
+        "frequency": 11,
+        "definition": "A recurring or renewed process; repetition and return.",
+        "translations": [
+          "repeat",
+          "cycle",
+          "recur",
+          "again",
+          "return",
+          "renewal"
+        ],
+        "vowel": "𐑰"
+      },
+      {
+        "id": "i:0915",
+        "frequency": 5,
+        "definition": "Capable of being changed to fit new uses; adaptable.",
+        "translations": [
+          "flexible",
+          "adaptable",
+          "versatile",
+          "adjustable",
+          "variable"
+        ],
+        "vowel": "𐑴"
+      },
+      {
+        "id": "i:d8",
+        "frequency": 0,
+        "definition": "The digit eight; the numeric value 8.",
+        "translations": [
+          "8",
+          "eight"
+        ],
+        "vowel": "𐑵"
+      }
+    ],
+    "sound": "𐑯𐑗"
+  },
+  "existence_absence": {
+    "label": "Existence, State & Absence",
+    "count": 12,
+    "ideas": [
+      {
+        "id": "i:0001",
+        "frequency": 6338,
+        "definition": "Actively existing and functioning; alive and operational.",
+        "translations": [
+          "alive",
+          "active",
+          "live",
+          "existing",
+          "functioning",
+          "on"
+        ],
+        "vowel": "𐑩"
+      },
+      {
+        "id": "i:0010",
+        "frequency": 1835,
+        "definition": "The living, vital state of conscious existence.",
+        "translations": [
+          "life",
+          "alive",
+          "living",
+          "vital",
+          "exist",
+          "being"
+        ],
+        "vowel": "𐑦"
+      },
+      {
+        "id": "i:0054",
+        "frequency": 386,
+        "definition": "The current moment; existing or happening now.",
+        "translations": [
+          "now",
+          "current",
+          "present",
+          "today",
+          "at this moment"
+        ],
+        "vowel": "𐑧"
+      },
+      {
+        "id": "i:0190",
+        "frequency": 76,
+        "definition": "Having stopped or departed; no longer continuing or present.",
+        "translations": [
+          "gone",
+          "left",
+          "departed",
+          "finished",
+          "stopped",
+          "over"
+        ],
+        "vowel": "𐑪"
+      },
+      {
+        "id": "i:0241",
+        "frequency": 52,
+        "definition": "Complete stillness or dormancy; rest or cessation of activity.",
+        "translations": [
+          "still",
+          "rest",
+          "dormant",
+          "static",
+          "dead",
+          "inactive"
+        ],
+        "vowel": "𐑰"
+      },
+      {
+        "id": "i:0263",
+        "frequency": 45,
+        "definition": "Persisting over time; remaining after others are gone.",
+        "translations": [
+          "persist",
+          "remain",
+          "last",
+          "endure",
+          "stay",
+          "continue"
+        ],
+        "vowel": "𐑴"
+      },
+      {
+        "id": "i:0283",
+        "frequency": 40,
+        "definition": "A state of being held, supported, or in a particular position.",
+        "translations": [
+          "hold",
+          "position",
+          "status",
+          "stance",
+          "state",
+          "condition"
+        ],
+        "vowel": "𐑵"
+      },
+      {
+        "id": "i:0514",
+        "frequency": 14,
+        "definition": "Being placed or held in a specific location or posture.",
+        "translations": [
+          "positioned",
+          "placed",
+          "situated",
+          "located",
+          "set",
+          "fixed"
+        ],
+        "vowel": "𐑷"
+      },
+      {
+        "id": "i:0083",
+        "frequency": 230,
+        "definition": "The absence of any quantity; zero.",
+        "translations": [
+          "zero",
+          "none",
+          "nothing",
+          "null",
+          "absence",
+          "void"
+        ],
+        "vowel": "𐑨"
+      },
+      {
+        "id": "i:0149",
+        "frequency": 113,
+        "definition": "Persistent existence within a larger context; membership in something ongoing.",
+        "translations": [
+          "belong",
+          "part of",
+          "within",
+          "member",
+          "included",
+          "inside"
+        ],
+        "vowel": "𐑱"
+      },
+      {
+        "id": "i:1929",
+        "frequency": 0,
+        "definition": "To be; the copula linking a subject to a predicate or state. Pure existence or identity: X is Y, to exist as, to be in a state. Covers 'is', 'are', 'was', 'am' in their linking rather than actional sense.",
+        "translations": [
+          "be",
+          "is",
+          "are",
+          "am",
+          "was"
+        ],
+        "vowel": "𐑲"
+      },
+      {
+        "id": "i:d0",
+        "frequency": 0,
+        "definition": "The digit zero; the numeric value 0. Used in counting, scales, and numeric expressions.",
+        "translations": [
+          "0",
+          "zero",
+          "null",
+          "none",
+          "off"
+        ],
+        "vowel": "𐑬"
+      }
+    ],
+    "sound": "𐑯𐑑"
+  },
+  "place_dwelling": {
+    "label": "Place & Dwelling",
+    "count": 9,
+    "ideas": [
+      {
+        "id": "i:0233",
+        "frequency": 55,
+        "definition": "A self-propelled vehicle; a mode of motorized transport.",
+        "translations": [
+          "car",
+          "vehicle",
+          "automobile",
+          "transport",
+          "motor"
+        ],
+        "vowel": "𐑧"
+      },
+      {
+        "id": "i:0285",
+        "frequency": 39,
+        "definition": "A location used for habitation; a home or dwelling place.",
+        "translations": [
+          "home",
+          "dwelling",
+          "residence",
+          "house",
+          "habitat",
+          "abode"
+        ],
+        "vowel": "𐑨"
+      },
+      {
+        "id": "i:0337",
+        "frequency": 29,
+        "definition": "A defined area or bounded region with specific characteristics.",
+        "translations": [
+          "area",
+          "zone",
+          "region",
+          "territory",
+          "boundary",
+          "space"
+        ],
+        "vowel": "𐑲"
+      },
+      {
+        "id": "i:0527",
+        "frequency": 13,
+        "definition": "A defined geographic area with a concentration of people; a town or city.",
+        "translations": [
+          "town",
+          "city",
+          "area",
+          "district",
+          "settlement",
+          "locality"
+        ],
+        "vowel": "𐑪"
+      },
+      {
+        "id": "i:0628",
+        "frequency": 10,
+        "definition": "Applying force to move rapidly; driving a vehicle.",
+        "translations": [
+          "drive",
+          "drive fast",
+          "speed",
+          "accelerate",
+          "motor"
+        ],
+        "vowel": "𐑰"
+      },
+      {
+        "id": "i:1481",
+        "frequency": 1,
+        "definition": "A principal hub of human settlement and activity in a region.",
+        "translations": [
+          "city",
+          "capital",
+          "metropolis",
+          "center",
+          "hub",
+          "main city"
+        ],
+        "vowel": "𐑴"
+      },
+      {
+        "id": "i:0075",
+        "frequency": 265,
+        "definition": "An internal space within a larger structure; a room or enclosed area.",
+        "translations": [
+          "room",
+          "space",
+          "chamber",
+          "interior",
+          "area",
+          "cavity"
+        ],
+        "vowel": "𐑩"
+      },
+      {
+        "id": "i:0088",
+        "frequency": 208,
+        "definition": "A designated area organized for gathering, habitation, or a specific purpose.",
+        "translations": [
+          "place",
+          "location",
+          "room",
+          "spot",
+          "venue",
+          "site"
+        ],
+        "vowel": "𐑦"
+      },
+      {
+        "id": "i:0328",
+        "frequency": 31,
+        "definition": "A passage or gateway enabling movement between spaces.",
+        "translations": [
+          "door",
+          "gate",
+          "entrance",
+          "opening",
+          "portal",
+          "access"
+        ],
+        "vowel": "𐑱"
+      }
+    ],
+    "sound": "𐑣'"
+  },
+  "nature_elements": {
+    "label": "Nature & Elements",
+    "count": 13,
+    "ideas": [
+      {
+        "id": "i:0172",
+        "frequency": 90,
+        "definition": "Powerful energy that ignites, illuminates, or destroys; fire.",
+        "translations": [
+          "fire",
+          "flame",
+          "heat",
+          "burn",
+          "light",
+          "energy"
+        ],
+        "vowel": "𐑩"
+      },
+      {
+        "id": "i:0173",
+        "frequency": 88,
+        "definition": "The earth's fundamental terrestrial substance; the natural ground.",
+        "translations": [
+          "earth",
+          "ground",
+          "land",
+          "soil",
+          "nature",
+          "terrain"
+        ],
+        "vowel": "𐑧"
+      },
+      {
+        "id": "i:0326",
+        "frequency": 31,
+        "definition": "The quality of floating or fluid movement above or through a medium.",
+        "translations": [
+          "float",
+          "fluid",
+          "water",
+          "flow",
+          "liquid",
+          "buoyant"
+        ],
+        "vowel": "𐑱"
+      },
+      {
+        "id": "i:0394",
+        "frequency": 24,
+        "definition": "Cold, bleak, and dry; harsh and lacking warmth.",
+        "translations": [
+          "cold",
+          "harsh",
+          "bleak",
+          "dry",
+          "frigid",
+          "icy"
+        ],
+        "vowel": "𐑲"
+      },
+      {
+        "id": "i:0495",
+        "frequency": 16,
+        "definition": "The atmospheric conditions at a specific time and place; weather.",
+        "translations": [
+          "weather",
+          "climate",
+          "atmosphere",
+          "conditions",
+          "forecast"
+        ],
+        "vowel": "𐑪"
+      },
+      {
+        "id": "i:0521",
+        "frequency": 14,
+        "definition": "The state of lacking moisture; dry.",
+        "translations": [
+          "dry",
+          "arid",
+          "parched",
+          "moisture-free",
+          "desiccated"
+        ],
+        "vowel": "𐑰"
+      },
+      {
+        "id": "i:0587",
+        "frequency": 11,
+        "definition": "Relating to the sun; solar.",
+        "translations": [
+          "sun",
+          "solar",
+          "sunshine",
+          "sunlight",
+          "star"
+        ],
+        "vowel": "𐑴"
+      },
+      {
+        "id": "i:0626",
+        "frequency": 10,
+        "definition": "A gaseous chemical substance; relating to gas.",
+        "translations": [
+          "gas",
+          "gaseous",
+          "vapor",
+          "fumes",
+          "air"
+        ],
+        "vowel": "𐑵"
+      },
+      {
+        "id": "i:0733",
+        "frequency": 7,
+        "definition": "A solidified form produced by cooling; ice or crystal.",
+        "translations": [
+          "ice",
+          "crystal",
+          "frozen",
+          "solid",
+          "frost",
+          "glacier"
+        ],
+        "vowel": "𐑷"
+      },
+      {
+        "id": "i:1176",
+        "frequency": 3,
+        "definition": "A large ocean wave; a ground swell.",
+        "translations": [
+          "wave",
+          "swell",
+          "ocean wave",
+          "surf",
+          "breaker"
+        ],
+        "vowel": "𐑬"
+      },
+      {
+        "id": "i:1358",
+        "frequency": 2,
+        "definition": "A natural watercourse flowing from higher to lower elevation.",
+        "translations": [
+          "river",
+          "stream",
+          "watercourse",
+          "creek",
+          "flow"
+        ],
+        "vowel": "𐑫"
+      },
+      {
+        "id": "i:1883",
+        "frequency": 0,
+        "definition": "The Earth's natural satellite visible at night.",
+        "translations": [
+          "moon",
+          "lunar",
+          "satellite"
+        ],
+        "vowel": "𐑦"
+      },
+      {
+        "id": "i:1886",
+        "frequency": 0,
+        "definition": "The tough outer layer of a tree's trunk and branches.",
+        "translations": [
+          "bark",
+          "tree bark",
+          "rind",
+          "outer layer"
+        ],
+        "vowel": "𐑨"
+      }
+    ],
+    "sound": "𐑥𐑐𐑑"
+  },
+  "living_things": {
+    "label": "Living Things",
+    "count": 12,
+    "ideas": [
+      {
+        "id": "i:0356",
+        "frequency": 28,
+        "definition": "A domesticated canine; the dog.",
+        "translations": [
+          "dog",
+          "canine",
+          "hound",
+          "pup",
+          "pet"
+        ],
+        "vowel": "𐑱"
+      },
+      {
+        "id": "i:0539",
+        "frequency": 13,
+        "definition": "A small domesticated feline; the cat.",
+        "translations": [
+          "cat",
+          "feline",
+          "kitten",
+          "kitty",
+          "pet"
+        ],
+        "vowel": "𐑪"
+      },
+      {
+        "id": "i:0828",
+        "frequency": 6,
+        "definition": "A young animal before reaching full maturity.",
+        "translations": [
+          "young",
+          "juvenile",
+          "baby animal",
+          "cub",
+          "pup",
+          "foal"
+        ],
+        "vowel": "𐑰"
+      },
+      {
+        "id": "i:1158",
+        "frequency": 3,
+        "definition": "A cartilaginous marine predatory fish; a shark.",
+        "translations": [
+          "shark",
+          "fish",
+          "predator",
+          "marine animal"
+        ],
+        "vowel": "𐑴"
+      },
+      {
+        "id": "i:1267",
+        "frequency": 2,
+        "definition": "Large hoofed herbivorous mammals; cattle or bovines.",
+        "translations": [
+          "cow",
+          "cattle",
+          "bull",
+          "bovine",
+          "livestock"
+        ],
+        "vowel": "𐑵"
+      },
+      {
+        "id": "i:1347",
+        "frequency": 2,
+        "definition": "Large felines; lions, tigers, and big cats.",
+        "translations": [
+          "lion",
+          "tiger",
+          "big cat",
+          "predator",
+          "feline"
+        ],
+        "vowel": "𐑷"
+      },
+      {
+        "id": "i:1377",
+        "frequency": 2,
+        "definition": "A living entity classifiable as human or animal.",
+        "translations": [
+          "creature",
+          "being",
+          "animal",
+          "organism",
+          "living thing"
+        ],
+        "vowel": "𐑬"
+      },
+      {
+        "id": "i:1884",
+        "frequency": 0,
+        "definition": "A feathered winged vertebrate capable of flight.",
+        "translations": [
+          "bird",
+          "avian",
+          "fowl",
+          "feathered animal"
+        ],
+        "vowel": "𐑧"
+      },
+      {
+        "id": "i:1887",
+        "frequency": 0,
+        "definition": "A small limbless soil invertebrate.",
+        "translations": [
+          "worm",
+          "earthworm",
+          "invertebrate"
+        ],
+        "vowel": "𐑨"
+      },
+      {
+        "id": "i:0136",
+        "frequency": 131,
+        "definition": "A seed-bearing product of a flowering plant; the result of plant reproduction.",
+        "translations": [
+          "fruit",
+          "produce",
+          "yield",
+          "harvest",
+          "result"
+        ],
+        "vowel": "𐑩"
+      },
+      {
+        "id": "i:0461",
+        "frequency": 18,
+        "definition": "An area dominated by trees and shrubs; a forest or woodland.",
+        "translations": [
+          "forest",
+          "woods",
+          "woodland",
+          "trees",
+          "jungle"
+        ],
+        "vowel": "𐑲"
+      },
+      {
+        "id": "i:1930",
+        "frequency": 0,
+        "definition": "Life stage — position in the arc of a life on a 0–9 scale: 0=newborn/beginning of life, 1–2=infant/toddler, 3–4=child/youth, 5=adult, 6–7=middle age, 8=elderly, 9=end of life. Decimals allow fine gradation. Applies to any living thing. Example: life[0]=newborn, life[3]=young, life[5]=adult, life[8]=old.",
+        "translations": [
+          "age",
+          "young",
+          "old",
+          "life stage",
+          "youth",
+          "elderly"
+        ],
+        "vowel": "𐑦"
+      }
+    ],
+    "sound": "𐑡𐑛"
+  },
+  "evaluation_quality": {
+    "label": "Evaluation, Quality & Morality",
+    "count": 12,
+    "ideas": [
+      {
+        "id": "i:0018",
+        "frequency": 1077,
+        "definition": "Adequate and generally approved; meeting minimum expectations.",
+        "translations": [
+          "ok",
+          "acceptable",
+          "fine",
+          "good enough",
+          "adequate",
+          "alright"
+        ],
+        "vowel": "𐑩"
+      },
+      {
+        "id": "i:0024",
+        "frequency": 745,
+        "definition": "A positive indication of agreement or approval; yes.",
+        "translations": [
+          "yes",
+          "ok",
+          "agree",
+          "approved",
+          "positive",
+          "affirmative"
+        ],
+        "vowel": "𐑦"
+      },
+      {
+        "id": "i:0078",
+        "frequency": 248,
+        "definition": "Outstanding quality; widely admired and excellent.",
+        "translations": [
+          "great",
+          "excellent",
+          "outstanding",
+          "superb",
+          "remarkable",
+          "impressive"
+        ],
+        "vowel": "𐑧"
+      },
+      {
+        "id": "i:0127",
+        "frequency": 137,
+        "definition": "A standard of worth or quality; an assessment of value.",
+        "translations": [
+          "quality",
+          "standard",
+          "grade",
+          "value",
+          "measure",
+          "assessment"
+        ],
+        "vowel": "𐑨"
+      },
+      {
+        "id": "i:0166",
+        "frequency": 94,
+        "definition": "Reciprocal support and fairness; what is mutually just and balanced.",
+        "translations": [
+          "fair",
+          "equal",
+          "just",
+          "balanced",
+          "equity",
+          "mutual"
+        ],
+        "vowel": "𐑱"
+      },
+      {
+        "id": "i:0203",
+        "frequency": 71,
+        "definition": "Appropriate and fitting within a given context.",
+        "translations": [
+          "appropriate",
+          "fitting",
+          "suitable",
+          "right",
+          "proper",
+          "relevant"
+        ],
+        "vowel": "𐑲"
+      },
+      {
+        "id": "i:0211",
+        "frequency": 65,
+        "definition": "Unacceptable, offensive, or disagreeable; not satisfactory.",
+        "translations": [
+          "bad",
+          "wrong",
+          "unacceptable",
+          "offensive",
+          "poor",
+          "disagreeable"
+        ],
+        "vowel": "𐑪"
+      },
+      {
+        "id": "i:0222",
+        "frequency": 60,
+        "definition": "Of great monetary worth; valuable for purchase or trade.",
+        "translations": [
+          "valuable",
+          "expensive",
+          "precious",
+          "worth",
+          "costly",
+          "prized"
+        ],
+        "vowel": "𐑰"
+      },
+      {
+        "id": "i:0276",
+        "frequency": 42,
+        "definition": "The status of being selected as the best; chosen.",
+        "translations": [
+          "chosen",
+          "selected",
+          "preferred",
+          "elected",
+          "pick",
+          "best"
+        ],
+        "vowel": "𐑴"
+      },
+      {
+        "id": "i:0307",
+        "frequency": 35,
+        "definition": "Having recognized worth or status; important and esteemed.",
+        "translations": [
+          "important",
+          "valued",
+          "significant",
+          "esteemed",
+          "worthy",
+          "honored"
+        ],
+        "vowel": "𐑵"
+      },
+      {
+        "id": "i:0473",
+        "frequency": 17,
+        "definition": "Smooth, gentle, and uncomplicated; the earliest or simplest form.",
+        "translations": [
+          "smooth",
+          "gentle",
+          "simple",
+          "easy",
+          "basic",
+          "soft"
+        ],
+        "vowel": "𐑷"
+      },
+      {
+        "id": "i:d6",
+        "frequency": 0,
+        "definition": "The digit six; the numeric value 6.",
+        "translations": [
+          "6",
+          "six"
+        ],
+        "vowel": "𐑬"
+      }
+    ],
+    "sound": "𐑑𐑕"
+  },
+  "language_expression": {
+    "label": "Language & Expression",
+    "count": 9,
+    "ideas": [
+      {
+        "id": "i:0040",
+        "frequency": 544,
+        "definition": "The conveyance of meaning through spoken words; speech.",
+        "translations": [
+          "speak",
+          "say",
+          "talk",
+          "speech",
+          "language",
+          "verbal"
+        ],
+        "vowel": "𐑦"
+      },
+      {
+        "id": "i:0060",
+        "frequency": 347,
+        "definition": "The outward manifestation of an intention, desire, or creative act.",
+        "translations": [
+          "express",
+          "show",
+          "convey",
+          "communicate",
+          "voice",
+          "manifest"
+        ],
+        "vowel": "𐑧"
+      },
+      {
+        "id": "i:0106",
+        "frequency": 166,
+        "definition": "A direct address or interjection used to get someone's attention.",
+        "translations": [
+          "hey",
+          "hi",
+          "call out",
+          "address",
+          "hail",
+          "yo"
+        ],
+        "vowel": "𐑨"
+      },
+      {
+        "id": "i:0129",
+        "frequency": 137,
+        "definition": "An informal friendly acknowledgment of another's presence.",
+        "translations": [
+          "hello",
+          "hi",
+          "hey",
+          "greet",
+          "acknowledge"
+        ],
+        "vowel": "𐑱"
+      },
+      {
+        "id": "i:0218",
+        "frequency": 60,
+        "definition": "A written representation of information; text.",
+        "translations": [
+          "write",
+          "written",
+          "text",
+          "document",
+          "letter",
+          "script"
+        ],
+        "vowel": "𐑲"
+      },
+      {
+        "id": "i:0249",
+        "frequency": 48,
+        "definition": "An attention-drawing signal in conversation.",
+        "translations": [
+          "listen",
+          "attention",
+          "hey",
+          "signal",
+          "cue",
+          "note"
+        ],
+        "vowel": "𐑪"
+      },
+      {
+        "id": "i:0516",
+        "frequency": 14,
+        "definition": "A written unit representing sound or meaning; a word or letter.",
+        "translations": [
+          "word",
+          "letter",
+          "symbol",
+          "character",
+          "token",
+          "sign"
+        ],
+        "vowel": "𐑰"
+      },
+      {
+        "id": "i:0590",
+        "frequency": 11,
+        "definition": "A vocal expression through spoken or sung words; a name or song.",
+        "translations": [
+          "name",
+          "call",
+          "sing",
+          "voice",
+          "word",
+          "song"
+        ],
+        "vowel": "𐑴"
+      },
+      {
+        "id": "i:0022",
+        "frequency": 819,
+        "definition": "Expressing and elaborating on the essential characteristics of a concept; to describe or characterize what something is. Covers definition as semantic elaboration of meaning. Distinct from assigning an alias or label to content.",
+        "translations": [
+          "describe",
+          "characterize",
+          "explain",
+          "define",
+          "elaborate",
+          "express"
+        ],
+        "vowel": "𐑩"
+      }
+    ],
+    "sound": "𐑯𐑑𐑕"
+  },
+  "narrative_creativity": {
+    "label": "Narrative, Story & Creativity",
+    "count": 11,
+    "ideas": [
+      {
+        "id": "i:0145",
+        "frequency": 116,
+        "definition": "The source, record, or explanation of an event or condition.",
+        "translations": [
+          "account",
+          "record",
+          "source",
+          "explanation",
+          "report",
+          "history"
+        ],
+        "vowel": "𐑩"
+      },
+      {
+        "id": "i:0255",
+        "frequency": 47,
+        "definition": "A structured narrative recounting past events with purpose.",
+        "translations": [
+          "story",
+          "tale",
+          "narrative",
+          "account",
+          "anecdote",
+          "chronicle"
+        ],
+        "vowel": "𐑦"
+      },
+      {
+        "id": "i:0301",
+        "frequency": 36,
+        "definition": "A proper name, title, or formal identifier assigned to a person, place, or thing to mark its identity or status. Covers naming as a semantic act — what something is called in the world. Distinct from the discourse operation of aliasing a phrase.",
+        "translations": [
+          "name",
+          "title",
+          "proper name",
+          "designation",
+          "label",
+          "identity"
+        ],
+        "vowel": "𐑨"
+      },
+      {
+        "id": "i:0449",
+        "frequency": 19,
+        "definition": "An internal mental image or concept; visualization.",
+        "translations": [
+          "image",
+          "vision",
+          "picture",
+          "concept",
+          "idea",
+          "mental image"
+        ],
+        "vowel": "𐑴"
+      },
+      {
+        "id": "i:0645",
+        "frequency": 9,
+        "definition": "The ability to retain and recall information; memory storage.",
+        "translations": [
+          "memory",
+          "remember",
+          "recall",
+          "store",
+          "retain",
+          "record"
+        ],
+        "vowel": "𐑵"
+      },
+      {
+        "id": "i:1033",
+        "frequency": 4,
+        "definition": "The combination of one's background and past deeds; personal history.",
+        "translations": [
+          "background",
+          "history",
+          "past",
+          "record",
+          "reputation",
+          "context"
+        ],
+        "vowel": "𐑷"
+      },
+      {
+        "id": "i:0269",
+        "frequency": 44,
+        "definition": "Dance; rhythmic movement as artistic expression.",
+        "translations": [
+          "dance",
+          "dancing",
+          "choreography",
+          "rhythm",
+          "movement"
+        ],
+        "vowel": "𐑧"
+      },
+      {
+        "id": "i:0336",
+        "frequency": 30,
+        "definition": "Creative imagination and skill in devising and executing ideas.",
+        "translations": [
+          "creativity",
+          "imagination",
+          "creativity",
+          "craft",
+          "invention",
+          "artistry"
+        ],
+        "vowel": "𐑱"
+      },
+      {
+        "id": "i:0372",
+        "frequency": 26,
+        "definition": "Deliberate, expressive manipulation of sensory elements in the arts.",
+        "translations": [
+          "art",
+          "craft",
+          "skill",
+          "create",
+          "artistic",
+          "make"
+        ],
+        "vowel": "𐑲"
+      },
+      {
+        "id": "i:0384",
+        "frequency": 25,
+        "definition": "A medium that records images using light; photography or film.",
+        "translations": [
+          "photo",
+          "photograph",
+          "film",
+          "image",
+          "picture",
+          "camera"
+        ],
+        "vowel": "𐑪"
+      },
+      {
+        "id": "i:0430",
+        "frequency": 21,
+        "definition": "A visual depiction created through lines, paint, or other means.",
+        "translations": [
+          "drawing",
+          "painting",
+          "picture",
+          "illustration",
+          "artwork",
+          "image"
+        ],
+        "vowel": "𐑰"
+      }
+    ],
+    "sound": "𐑝𐑛"
+  },
+  "learning_education": {
+    "label": "Learning & Education",
+    "count": 11,
+    "ideas": [
+      {
+        "id": "i:0029",
+        "frequency": 676,
+        "definition": "The process of developing and applying skills and knowledge.",
+        "translations": [
+          "learn",
+          "study",
+          "develop",
+          "train",
+          "practice",
+          "education"
+        ],
+        "vowel": "𐑩"
+      },
+      {
+        "id": "i:0141",
+        "frequency": 123,
+        "definition": "The state of newly discovering or perceiving something.",
+        "translations": [
+          "discover",
+          "find out",
+          "new",
+          "experience",
+          "perceive",
+          "encounter"
+        ],
+        "vowel": "𐑦"
+      },
+      {
+        "id": "i:0177",
+        "frequency": 87,
+        "definition": "An educational institution providing structured teaching.",
+        "translations": [
+          "school",
+          "institution",
+          "academy",
+          "educational",
+          "campus"
+        ],
+        "vowel": "𐑧"
+      },
+      {
+        "id": "i:0199",
+        "frequency": 73,
+        "definition": "The deliberate conveyance of knowledge or guidance.",
+        "translations": [
+          "teach",
+          "instruct",
+          "guide",
+          "train",
+          "educate",
+          "direct"
+        ],
+        "vowel": "𐑨"
+      },
+      {
+        "id": "i:0204",
+        "frequency": 70,
+        "definition": "An exceptional innate capacity for adapting and thinking effectively.",
+        "translations": [
+          "talent",
+          "intelligence",
+          "gifted",
+          "smart",
+          "ability",
+          "apt"
+        ],
+        "vowel": "𐑱"
+      },
+      {
+        "id": "i:0315",
+        "frequency": 33,
+        "definition": "Ongoing supportive influence encouraging growth and development.",
+        "translations": [
+          "mentor",
+          "coach",
+          "guide",
+          "nurture",
+          "develop",
+          "cultivate"
+        ],
+        "vowel": "𐑲"
+      },
+      {
+        "id": "i:0362",
+        "frequency": 27,
+        "definition": "A person who teaches in an academic setting.",
+        "translations": [
+          "teacher",
+          "professor",
+          "instructor",
+          "educator",
+          "lecturer"
+        ],
+        "vowel": "𐑪"
+      },
+      {
+        "id": "i:0431",
+        "frequency": 21,
+        "definition": "Persistent inquiry aimed at uncovering truth through examination.",
+        "translations": [
+          "research",
+          "investigate",
+          "study",
+          "inquiry",
+          "explore",
+          "examine"
+        ],
+        "vowel": "𐑰"
+      },
+      {
+        "id": "i:0515",
+        "frequency": 14,
+        "definition": "A person formally enrolled in an educational institution.",
+        "translations": [
+          "student",
+          "pupil",
+          "learner",
+          "enrolled",
+          "scholar"
+        ],
+        "vowel": "𐑴"
+      },
+      {
+        "id": "i:0718",
+        "frequency": 8,
+        "definition": "Formal acknowledgment of having completed educational requirements.",
+        "translations": [
+          "graduate",
+          "degree",
+          "diploma",
+          "qualify",
+          "credential",
+          "certify"
+        ],
+        "vowel": "𐑵"
+      },
+      {
+        "id": "i:1352",
+        "frequency": 2,
+        "definition": "A foundational stage of education for early learners.",
+        "translations": [
+          "elementary",
+          "primary school",
+          "early education",
+          "kindergarten"
+        ],
+        "vowel": "𐑷"
+      }
+    ],
+    "sound": "𐑙𐑟"
+  },
+  "body": {
+    "label": "Body — Basic Parts",
+    "count": 14,
+    "ideas": [
+      {
+        "id": "i:1888",
+        "frequency": 0,
+        "definition": "The uppermost body part containing the brain and major sense organs.",
+        "translations": [
+          "head",
+          "skull",
+          "cranium"
+        ],
+        "vowel": "𐑩"
+      },
+      {
+        "id": "i:1889",
+        "frequency": 0,
+        "definition": "The organ of vision.",
+        "translations": [
+          "eye",
+          "vision",
+          "see",
+          "sight"
+        ],
+        "vowel": "𐑦"
+      },
+      {
+        "id": "i:1890",
+        "frequency": 0,
+        "definition": "The organ of hearing.",
+        "translations": [
+          "ear",
+          "hearing",
+          "listen",
+          "auditory"
+        ],
+        "vowel": "𐑧"
+      },
+      {
+        "id": "i:1891",
+        "frequency": 0,
+        "definition": "The organ of smell and nasal breathing.",
+        "translations": [
+          "nose",
+          "smell",
+          "nasal",
+          "sniff"
+        ],
+        "vowel": "𐑨"
+      },
+      {
+        "id": "i:1246",
+        "frequency": 2,
+        "definition": "The oral opening used for eating, speaking, and breathing.",
+        "translations": [
+          "mouth",
+          "oral",
+          "opening",
+          "lips"
+        ],
+        "vowel": "𐑶"
+      },
+      {
+        "id": "i:1885",
+        "frequency": 0,
+        "definition": "The muscular organ in the mouth for taste and speech.",
+        "translations": [
+          "tongue",
+          "taste",
+          "lingual"
+        ],
+        "vowel": "𐑱"
+      },
+      {
+        "id": "i:0472",
+        "frequency": 17,
+        "definition": "The terminal part of the arm used for grasping and manipulation.",
+        "translations": [
+          "hand",
+          "palm",
+          "grasp"
+        ],
+        "vowel": "𐑷"
+      },
+      {
+        "id": "i:0536",
+        "frequency": 13,
+        "definition": "The upper limb from shoulder to wrist.",
+        "translations": [
+          "arm",
+          "limb",
+          "forearm",
+          "upper limb"
+        ],
+        "vowel": "𐑫"
+      },
+      {
+        "id": "i:1893",
+        "frequency": 0,
+        "definition": "The limb used for standing, walking, and locomotion.",
+        "translations": [
+          "leg",
+          "limb",
+          "lower limb",
+          "stride"
+        ],
+        "vowel": "𐑲"
+      },
+      {
+        "id": "i:1892",
+        "frequency": 0,
+        "definition": "The terminal part of the leg used for standing and walking.",
+        "translations": [
+          "foot",
+          "feet",
+          "step",
+          "sole"
+        ],
+        "vowel": "𐑪"
+      },
+      {
+        "id": "i:1895",
+        "frequency": 0,
+        "definition": "The posterior surface of the body from shoulders to hips.",
+        "translations": [
+          "back",
+          "spine",
+          "posterior",
+          "rear"
+        ],
+        "vowel": "𐑰"
+      },
+      {
+        "id": "i:0491",
+        "frequency": 16,
+        "definition": "Filamentous growth on mammalian skin; hair.",
+        "translations": [
+          "hair",
+          "fur",
+          "coat",
+          "filament"
+        ],
+        "vowel": "𐑬"
+      },
+      {
+        "id": "i:1904",
+        "frequency": 0,
+        "definition": "The outer body covering; the largest organ.",
+        "translations": [
+          "skin",
+          "surface",
+          "covering",
+          "hide",
+          "epidermis"
+        ],
+        "vowel": "𐑴"
+      },
+      {
+        "id": "i:1882",
+        "frequency": 0,
+        "definition": "Dense connective tissue forming the skeleton.",
+        "translations": [
+          "bone",
+          "skeletal",
+          "skeleton",
+          "rigid"
+        ],
+        "vowel": "𐑵"
+      }
+    ],
+    "sound": "𐑜𐑛"
+  },
+  "health_medicine": {
+    "label": "Health & Medicine",
+    "count": 9,
+    "ideas": [
+      {
+        "id": "i:0206",
+        "frequency": 69,
+        "definition": "A state of poor health or physical distress; illness.",
+        "translations": [
+          "sick",
+          "ill",
+          "unwell",
+          "disease",
+          "nausea",
+          "ailment"
+        ],
+        "vowel": "𐑩"
+      },
+      {
+        "id": "i:0248",
+        "frequency": 49,
+        "definition": "Overall unpleasantness or distress; pain or suffering.",
+        "translations": [
+          "pain",
+          "hurt",
+          "suffer",
+          "discomfort",
+          "distress",
+          "ache"
+        ],
+        "vowel": "𐑦"
+      },
+      {
+        "id": "i:0318",
+        "frequency": 32,
+        "definition": "A trained medical practitioner.",
+        "translations": [
+          "doctor",
+          "physician",
+          "medic",
+          "surgeon",
+          "clinician"
+        ],
+        "vowel": "𐑧"
+      },
+      {
+        "id": "i:0399",
+        "frequency": 24,
+        "definition": "Treatment aimed at restoring health and relieving symptoms.",
+        "translations": [
+          "treat",
+          "cure",
+          "heal",
+          "therapy",
+          "treatment",
+          "remedy"
+        ],
+        "vowel": "𐑨"
+      },
+      {
+        "id": "i:0426",
+        "frequency": 22,
+        "definition": "Relating to the body in accordance with medical principles.",
+        "translations": [
+          "medical",
+          "clinical",
+          "bodily",
+          "physical",
+          "anatomical"
+        ],
+        "vowel": "𐑱"
+      },
+      {
+        "id": "i:0442",
+        "frequency": 20,
+        "definition": "Assistance that promotes personal or social well-being.",
+        "translations": [
+          "care",
+          "welfare",
+          "support",
+          "wellbeing",
+          "health",
+          "aid"
+        ],
+        "vowel": "𐑲"
+      },
+      {
+        "id": "i:0544",
+        "frequency": 13,
+        "definition": "The cessation of life.",
+        "translations": [
+          "death",
+          "die",
+          "deceased",
+          "mortality",
+          "end of life"
+        ],
+        "vowel": "𐑪"
+      },
+      {
+        "id": "i:0632",
+        "frequency": 9,
+        "definition": "A state of injury, loss, or impairment.",
+        "translations": [
+          "injury",
+          "harm",
+          "damage",
+          "wound",
+          "hurt",
+          "impairment"
+        ],
+        "vowel": "𐑰"
+      },
+      {
+        "id": "i:0667",
+        "frequency": 9,
+        "definition": "Relief and comfort from suffering.",
+        "translations": [
+          "relief",
+          "comfort",
+          "ease",
+          "soothe",
+          "alleviate",
+          "better"
+        ],
+        "vowel": "𐑴"
+      }
+    ],
+    "sound": "𐑥𐑛"
+  },
+  "food_eating": {
+    "label": "Food & Eating",
+    "count": 11,
+    "ideas": [
+      {
+        "id": "i:0268",
+        "frequency": 45,
+        "definition": "Producing satisfaction or nourishment; fulfilling.",
+        "translations": [
+          "satisfy",
+          "fulfilling",
+          "nourishing",
+          "filling",
+          "gratifying"
+        ],
+        "vowel": "𐑩"
+      },
+      {
+        "id": "i:0332",
+        "frequency": 30,
+        "definition": "A social gathering centered on shared eating.",
+        "translations": [
+          "meal",
+          "lunch",
+          "dinner",
+          "feast",
+          "gathering",
+          "eat together"
+        ],
+        "vowel": "𐑦"
+      },
+      {
+        "id": "i:0396",
+        "frequency": 24,
+        "definition": "A small portion of food; a snack or appetizer.",
+        "translations": [
+          "snack",
+          "bite",
+          "appetizer",
+          "nibble",
+          "tidbit"
+        ],
+        "vowel": "𐑧"
+      },
+      {
+        "id": "i:0410",
+        "frequency": 23,
+        "definition": "Cultivated plant matter for consumption; produce.",
+        "translations": [
+          "produce",
+          "vegetable",
+          "fruit",
+          "crop",
+          "harvest",
+          "food"
+        ],
+        "vowel": "𐑨"
+      },
+      {
+        "id": "i:0471",
+        "frequency": 17,
+        "definition": "The primary daily eating occasion; a main meal.",
+        "translations": [
+          "meal",
+          "dinner",
+          "lunch",
+          "main meal",
+          "eat",
+          "dine"
+        ],
+        "vowel": "𐑱"
+      },
+      {
+        "id": "i:0492",
+        "frequency": 16,
+        "definition": "A bodily yearning for food; hunger.",
+        "translations": [
+          "hungry",
+          "hunger",
+          "appetite",
+          "starving",
+          "famished"
+        ],
+        "vowel": "𐑲"
+      },
+      {
+        "id": "i:0510",
+        "frequency": 15,
+        "definition": "Acquiring and supplying everyday food and household items.",
+        "translations": [
+          "groceries",
+          "shopping",
+          "provisions",
+          "supply",
+          "household"
+        ],
+        "vowel": "𐑪"
+      },
+      {
+        "id": "i:0549",
+        "frequency": 12,
+        "definition": "A substance absorbed by the body; food, drink, or drug.",
+        "translations": [
+          "consume",
+          "ingest",
+          "eat",
+          "drink",
+          "substance",
+          "intake"
+        ],
+        "vowel": "𐑰"
+      },
+      {
+        "id": "i:0550",
+        "frequency": 12,
+        "definition": "A liquid intended for drinking.",
+        "translations": [
+          "drink",
+          "beverage",
+          "liquid",
+          "fluid",
+          "potion"
+        ],
+        "vowel": "𐑴"
+      },
+      {
+        "id": "i:0583",
+        "frequency": 11,
+        "definition": "A naturally occurring fluid essential for life; water.",
+        "translations": [
+          "water",
+          "liquid",
+          "fluid",
+          "H2O",
+          "hydrate"
+        ],
+        "vowel": "𐑵"
+      },
+      {
+        "id": "i:0717",
+        "frequency": 8,
+        "definition": "Cultivated plant parts grown for eating; vegetables.",
+        "translations": [
+          "vegetable",
+          "plant food",
+          "produce",
+          "crop",
+          "greens"
+        ],
+        "vowel": "𐑷"
+      }
+    ],
+    "sound": "𐑥𐑐𐑕"
+  },
+  "containment_connection": {
+    "label": "Containment & Connection",
+    "count": 10,
+    "ideas": [
+      {
+        "id": "i:0082",
+        "frequency": 234,
+        "definition": "A means of conveying or moving something; a carrier or channel.",
+        "translations": [
+          "carry",
+          "convey",
+          "channel",
+          "vehicle",
+          "means",
+          "medium"
+        ],
+        "vowel": "𐑩"
+      },
+      {
+        "id": "i:0131",
+        "frequency": 137,
+        "definition": "The state of being completely full or saturated.",
+        "translations": [
+          "full",
+          "filled",
+          "saturated",
+          "packed",
+          "complete",
+          "capacity"
+        ],
+        "vowel": "𐑦"
+      },
+      {
+        "id": "i:0363",
+        "frequency": 27,
+        "definition": "Packing or filling a space to capacity; stuffing.",
+        "translations": [
+          "stuff",
+          "fill",
+          "pack",
+          "load",
+          "cram",
+          "dense"
+        ],
+        "vowel": "𐑲"
+      },
+      {
+        "id": "i:0387",
+        "frequency": 25,
+        "definition": "The concept of holding items together for transport or display.",
+        "translations": [
+          "carry",
+          "hold together",
+          "bag",
+          "bundle",
+          "contain",
+          "support"
+        ],
+        "vowel": "𐑪"
+      },
+      {
+        "id": "i:0456",
+        "frequency": 18,
+        "definition": "Able to be grasped by hand or arm.",
+        "translations": [
+          "hold",
+          "grip",
+          "grasp",
+          "handle",
+          "embrace",
+          "tangible"
+        ],
+        "vowel": "𐑰"
+      },
+      {
+        "id": "i:0789",
+        "frequency": 6,
+        "definition": "Retaining or storing information, materials, or goods for future use.",
+        "translations": [
+          "store",
+          "retain",
+          "hold",
+          "contain",
+          "keep",
+          "preserve"
+        ],
+        "vowel": "𐑴"
+      },
+      {
+        "id": "i:0904",
+        "frequency": 5,
+        "definition": "A portable bag for carrying personal items.",
+        "translations": [
+          "bag",
+          "pack",
+          "sack",
+          "carry",
+          "tote",
+          "luggage"
+        ],
+        "vowel": "𐑵"
+      },
+      {
+        "id": "i:0130",
+        "frequency": 137,
+        "definition": "A component occupying a specific position within a larger whole.",
+        "translations": [
+          "part",
+          "piece",
+          "component",
+          "element",
+          "section",
+          "slot"
+        ],
+        "vowel": "𐑧"
+      },
+      {
+        "id": "i:0153",
+        "frequency": 108,
+        "definition": "Simultaneously present and collaborating; together.",
+        "translations": [
+          "together",
+          "joint",
+          "combined",
+          "collaborative",
+          "unified",
+          "co-"
+        ],
+        "vowel": "𐑨"
+      },
+      {
+        "id": "i:0294",
+        "frequency": 37,
+        "definition": "A linear series of connections constraining freedom of movement.",
+        "translations": [
+          "chain",
+          "link",
+          "connect",
+          "series",
+          "sequence",
+          "bind"
+        ],
+        "vowel": "𐑱"
+      }
+    ],
+    "sound": "𐑟𐑛"
+  },
+  "perception_senses": {
+    "label": "Perception & Senses",
+    "count": 14,
+    "ideas": [
+      {
+        "id": "i:0105",
+        "frequency": 171,
+        "definition": "The visual perception of something; being seen or noticed.",
+        "translations": [
+          "see",
+          "look",
+          "observe",
+          "sight",
+          "visual",
+          "notice"
+        ],
+        "vowel": "𐑩"
+      },
+      {
+        "id": "i:0142",
+        "frequency": 120,
+        "definition": "Becoming aware through external contact or communication.",
+        "translations": [
+          "aware",
+          "notice",
+          "perceive",
+          "sense",
+          "learn of",
+          "detect"
+        ],
+        "vowel": "𐑦"
+      },
+      {
+        "id": "i:0524",
+        "frequency": 14,
+        "definition": "Conveying facts or details to another; informing.",
+        "translations": [
+          "inform",
+          "tell",
+          "report",
+          "convey",
+          "share",
+          "communicate"
+        ],
+        "vowel": "𐑲"
+      },
+      {
+        "id": "i:0602",
+        "frequency": 11,
+        "definition": "An audible vibration conveying linguistic or tonal content; sound or voice.",
+        "translations": [
+          "sound",
+          "voice",
+          "tone",
+          "vibration",
+          "audio",
+          "hear"
+        ],
+        "vowel": "𐑪"
+      },
+      {
+        "id": "i:0604",
+        "frequency": 10,
+        "definition": "The faculty of perceiving and distinguishing differences; discrimination.",
+        "translations": [
+          "sense",
+          "perceive",
+          "feel",
+          "distinguish",
+          "taste",
+          "detect"
+        ],
+        "vowel": "𐑰"
+      },
+      {
+        "id": "i:0614",
+        "frequency": 10,
+        "definition": "The sense of smell; perception of airborne chemical stimuli.",
+        "translations": [
+          "smell",
+          "scent",
+          "aroma",
+          "odor",
+          "sniff",
+          "nose"
+        ],
+        "vowel": "𐑴"
+      },
+      {
+        "id": "i:1149",
+        "frequency": 3,
+        "definition": "The capacity to detect incoming signals; receptiveness.",
+        "translations": [
+          "receptive",
+          "detect",
+          "receive",
+          "sensitive",
+          "open",
+          "responsive"
+        ],
+        "vowel": "𐑬"
+      },
+      {
+        "id": "i:0875",
+        "frequency": 5,
+        "definition": "Touching or probing with a finger; tactile exploration.",
+        "translations": [
+          "touch",
+          "finger",
+          "probe",
+          "point",
+          "feel",
+          "tap"
+        ],
+        "vowel": "𐑷"
+      },
+      {
+        "id": "i:1343",
+        "frequency": 2,
+        "definition": "A fresh, crisp quality; the sensation of freshness and clean aroma.",
+        "translations": [
+          "fresh",
+          "crisp",
+          "clean",
+          "mint",
+          "invigorating",
+          "light"
+        ],
+        "vowel": "𐑫"
+      },
+      {
+        "id": "i:0807",
+        "frequency": 6,
+        "definition": "A flower; the reproductive structure of a flowering plant.",
+        "translations": [
+          "flower",
+          "blossom",
+          "bloom",
+          "petal",
+          "floral"
+        ],
+        "vowel": "𐑵"
+      },
+      {
+        "id": "i:0279",
+        "frequency": 41,
+        "definition": "Color — hue value on a 0–9 scale mapping to specific positions on the color wheel: 0=Red, 1=Orange, 2=Yellow, 3=Green, 4=Teal, 5=Cyan, 6=Blue, 7=Indigo, 8=Violet, 9=Magenta. Decimals specify blends (e.g. 0.5=Red-Orange, 2.5=Yellow-Green). Optionally followed by lightness (0–4, default 2) and saturation (5–9, default 9). Example: color[6] = blue, color[6·0·9] = navy, color[6·4·6] = baby blue.",
+        "translations": [
+          "color",
+          "hue",
+          "tint",
+          "shade",
+          "pigment",
+          "chroma"
+        ],
+        "vowel": "𐑱"
+      },
+      {
+        "id": "i:1931",
+        "frequency": 0,
+        "definition": "Color lightness — the brightness dimension within a hue expression, on a 0–4 scale: 0=very dark, 1=dark, 2=mid (default), 3=light, 4=very light. The second parameter in color[hue·lightness·saturation].",
+        "translations": [
+          "lightness",
+          "brightness",
+          "dark",
+          "light",
+          "shade",
+          "tone"
+        ],
+        "vowel": "𐑧"
+      },
+      {
+        "id": "i:1932",
+        "frequency": 0,
+        "definition": "Color saturation — the vividness or purity dimension within a hue expression, on a 5–9 scale: 5=near gray/desaturated, 6=dull, 7=moderate, 8=vivid, 9=pure/fully saturated (default). The third parameter in color[hue·lightness·saturation].",
+        "translations": [
+          "saturation",
+          "vivid",
+          "muted",
+          "pure",
+          "dull",
+          "chroma",
+          "intensity"
+        ],
+        "vowel": "𐑨"
+      },
+      {
+        "id": "i:d5",
+        "frequency": 0,
+        "definition": "The digit five; the numeric value 5. Also the midpoint of any 0–9 scale.",
+        "translations": [
+          "5",
+          "five",
+          "mid",
+          "midpoint"
+        ],
+        "vowel": "𐑶"
+      }
+    ],
+    "sound": "𐑒𐑑𐑕"
+  },
+  "time_complex": {
+    "label": "Time — Abstract & Sequence",
+    "count": 11,
+    "ideas": [
+      {
+        "id": "i:0006",
+        "frequency": 2565,
+        "definition": "A temporal marker indicating when something occurs.",
+        "translations": [
+          "when",
+          "at the time",
+          "timing",
+          "temporal",
+          "at",
+          "schedule"
+        ],
+        "vowel": "𐑩"
+      },
+      {
+        "id": "i:0007",
+        "frequency": 2391,
+        "definition": "A point or period after the present; upcoming.",
+        "translations": [
+          "future",
+          "next",
+          "soon",
+          "later",
+          "upcoming",
+          "after"
+        ],
+        "vowel": "𐑦"
+      },
+      {
+        "id": "i:0016",
+        "frequency": 1323,
+        "definition": "A point in time relative to another; before, at, or after.",
+        "translations": [
+          "relative time",
+          "before",
+          "after",
+          "during",
+          "when",
+          "temporal"
+        ],
+        "vowel": "𐑧"
+      },
+      {
+        "id": "i:0026",
+        "frequency": 692,
+        "definition": "A span of time; duration or temporal extent.",
+        "translations": [
+          "duration",
+          "period",
+          "span",
+          "time",
+          "length",
+          "stretch"
+        ],
+        "vowel": "𐑨"
+      },
+      {
+        "id": "i:0034",
+        "frequency": 615,
+        "definition": "A distinct span marking a stage of development.",
+        "translations": [
+          "period",
+          "era",
+          "stage",
+          "phase",
+          "episode",
+          "age"
+        ],
+        "vowel": "𐑱"
+      },
+      {
+        "id": "i:0042",
+        "frequency": 537,
+        "definition": "Occurring immediately after; quickly and urgently.",
+        "translations": [
+          "soon",
+          "immediately",
+          "shortly",
+          "quickly",
+          "right away",
+          "at once"
+        ],
+        "vowel": "𐑲"
+      },
+      {
+        "id": "i:0123",
+        "frequency": 141,
+        "definition": "Lasting or enduring; persisting over time.",
+        "translations": [
+          "lasting",
+          "enduring",
+          "long",
+          "persistent",
+          "sustained",
+          "permanent"
+        ],
+        "vowel": "𐑪"
+      },
+      {
+        "id": "i:0160",
+        "frequency": 101,
+        "definition": "A transient moment of arrival or proximity in a sequence.",
+        "translations": [
+          "moment",
+          "instant",
+          "point",
+          "brief",
+          "transient",
+          "fleeting"
+        ],
+        "vowel": "𐑰"
+      },
+      {
+        "id": "i:0606",
+        "frequency": 10,
+        "definition": "Later or late; occurring after the expected or usual time.",
+        "translations": [
+          "late",
+          "later",
+          "delayed",
+          "overdue",
+          "past time",
+          "slow"
+        ],
+        "vowel": "𐑴"
+      },
+      {
+        "id": "i:1398",
+        "frequency": 2,
+        "definition": "The transitional period between day and night; dawn or dusk.",
+        "translations": [
+          "dawn",
+          "dusk",
+          "twilight",
+          "sunrise",
+          "sunset"
+        ],
+        "vowel": "𐑵"
+      },
+      {
+        "id": "i:1370",
+        "frequency": 2,
+        "definition": "Occurring or repeating each day; daily.",
+        "translations": [
+          "daily",
+          "each day",
+          "everyday"
+        ],
+        "vowel": "𐑷"
+      }
+    ],
+    "sound": "𐑯𐑛"
+  },
+  "body_complex": {
+    "label": "Body — Internal, Organs & Reproduction",
+    "count": 14,
+    "ideas": [
+      {
+        "id": "i:0458",
+        "frequency": 18,
+        "definition": "The muscular organ pumping blood through the body.",
+        "translations": [
+          "heart",
+          "cardiac",
+          "pulse",
+          "core"
+        ],
+        "vowel": "𐑧"
+      },
+      {
+        "id": "i:1894",
+        "frequency": 0,
+        "definition": "The organ of thought and nervous system control.",
+        "translations": [
+          "brain",
+          "mind",
+          "cognitive",
+          "neural",
+          "cerebral"
+        ],
+        "vowel": "𐑩"
+      },
+      {
+        "id": "i:1074",
+        "frequency": 3,
+        "definition": "The paired respiratory organs exchanging oxygen and carbon dioxide.",
+        "translations": [
+          "lung",
+          "lungs",
+          "breathe",
+          "respiratory",
+          "pulmonary"
+        ],
+        "vowel": "𐑷"
+      },
+      {
+        "id": "i:1843",
+        "frequency": 1,
+        "definition": "The digestive organ receiving and processing food.",
+        "translations": [
+          "stomach",
+          "belly",
+          "gut",
+          "abdomen",
+          "digestive"
+        ],
+        "vowel": "𐑫"
+      },
+      {
+        "id": "i:1013",
+        "frequency": 4,
+        "definition": "The chest region; the upper front of the torso.",
+        "translations": [
+          "chest",
+          "thorax",
+          "torso",
+          "breast",
+          "front"
+        ],
+        "vowel": "𐑵"
+      },
+      {
+        "id": "i:1329",
+        "frequency": 2,
+        "definition": "The throat; the anterior neck region containing the airway.",
+        "translations": [
+          "throat",
+          "neck",
+          "airway",
+          "swallow",
+          "gullet"
+        ],
+        "vowel": "𐑬"
+      },
+      {
+        "id": "i:1755",
+        "frequency": 1,
+        "definition": "Blood; the fluid circulating through the body.",
+        "translations": [
+          "blood",
+          "bleed",
+          "sanguine",
+          "plasma",
+          "gore"
+        ],
+        "vowel": "𐑶"
+      },
+      {
+        "id": "i:1900",
+        "frequency": 0,
+        "definition": "The biological process of producing offspring.",
+        "translations": [
+          "reproduce",
+          "reproduction",
+          "procreate",
+          "breed",
+          "propagate"
+        ],
+        "vowel": "𐑱"
+      },
+      {
+        "id": "i:1901",
+        "frequency": 0,
+        "definition": "The uterus; the organ where offspring develop before birth.",
+        "translations": [
+          "womb",
+          "uterus",
+          "uterine"
+        ],
+        "vowel": "𐑲"
+      },
+      {
+        "id": "i:1902",
+        "frequency": 0,
+        "definition": "The external male reproductive organs.",
+        "translations": [
+          "penis",
+          "male genitalia",
+          "phallus"
+        ],
+        "vowel": "𐑪"
+      },
+      {
+        "id": "i:1903",
+        "frequency": 0,
+        "definition": "The external female reproductive organs.",
+        "translations": [
+          "vagina",
+          "vulva",
+          "female genitalia"
+        ],
+        "vowel": "𐑰"
+      },
+      {
+        "id": "i:1898",
+        "frequency": 0,
+        "definition": "Carrying developing offspring in the womb.",
+        "translations": [
+          "pregnant",
+          "pregnancy",
+          "gestation",
+          "expecting",
+          "with child"
+        ],
+        "vowel": "𐑦"
+      },
+      {
+        "id": "i:1899",
+        "frequency": 0,
+        "definition": "The emergence of offspring from the body.",
+        "translations": [
+          "birth",
+          "born",
+          "deliver",
+          "childbirth",
+          "nativity"
+        ],
+        "vowel": "𐑨"
+      },
+      {
+        "id": "i:0779",
+        "frequency": 6,
+        "definition": "Sexual attraction and connection between people.",
+        "translations": [
+          "sexuality",
+          "attraction",
+          "desire",
+          "sexual",
+          "intimacy",
+          "orientation"
+        ],
+        "vowel": "𐑴"
+      }
+    ],
+    "sound": "𐑔𐑕"
+  },
+  "measurement": {
+    "label": "Measurement — Physical Dimensions",
+    "count": 11,
+    "ideas": [
+      {
+        "id": "i:0812",
+        "frequency": 6,
+        "definition": "Extent in one dimension. Base unit: meter.",
+        "translations": [
+          "length",
+          "distance",
+          "height",
+          "width",
+          "meter"
+        ],
+        "vowel": "𐑴"
+      },
+      {
+        "id": "i:0291",
+        "frequency": 38,
+        "definition": "Quantity of matter in an object. Base unit: gram.",
+        "translations": [
+          "mass",
+          "weight",
+          "gram",
+          "kilogram"
+        ],
+        "vowel": "𐑪"
+      },
+      {
+        "id": "i:0980",
+        "frequency": 4,
+        "definition": "Three-dimensional space occupied. Base unit: liter.",
+        "translations": [
+          "volume",
+          "capacity",
+          "liter"
+        ],
+        "vowel": "𐑷"
+      },
+      {
+        "id": "i:1908",
+        "frequency": 0,
+        "definition": "Two-dimensional extent or surface. Base unit: square meter.",
+        "translations": [
+          "area",
+          "surface area",
+          "square meter"
+        ],
+        "vowel": "𐑦"
+      },
+      {
+        "id": "i:1909",
+        "frequency": 0,
+        "definition": "Distance traveled per unit time. Base unit: meter per second.",
+        "translations": [
+          "speed",
+          "velocity",
+          "pace",
+          "meter per second"
+        ],
+        "vowel": "𐑧"
+      },
+      {
+        "id": "i:0452",
+        "frequency": 19,
+        "definition": "Force applied per unit area. Base unit: pascal.",
+        "translations": [
+          "pressure",
+          "force per area",
+          "pascal"
+        ],
+        "vowel": "𐑰"
+      },
+      {
+        "id": "i:1910",
+        "frequency": 0,
+        "definition": "Push or pull between objects. Base unit: newton.",
+        "translations": [
+          "force",
+          "push",
+          "pull",
+          "newton"
+        ],
+        "vowel": "𐑨"
+      },
+      {
+        "id": "i:1911",
+        "frequency": 0,
+        "definition": "Capacity to do work or cause change. Base unit: joule.",
+        "translations": [
+          "energy",
+          "power",
+          "joule"
+        ],
+        "vowel": "𐑱"
+      },
+      {
+        "id": "i:1912",
+        "frequency": 0,
+        "definition": "Rotational extent between two lines. Base unit: degree.",
+        "translations": [
+          "angle",
+          "degree",
+          "rotation",
+          "radian"
+        ],
+        "vowel": "𐑲"
+      },
+      {
+        "id": "i:1913",
+        "frequency": 0,
+        "definition": "Thermal energy or heat intensity. Base unit: degree Celsius.",
+        "translations": [
+          "temperature",
+          "heat",
+          "cold",
+          "Celsius"
+        ],
+        "vowel": "𐑩"
+      },
+      {
+        "id": "i:0932",
+        "frequency": 5,
+        "definition": "Rate of repetition per unit time. Base unit: hertz.",
+        "translations": [
+          "frequency",
+          "rate",
+          "cycles",
+          "hertz"
+        ],
+        "vowel": "𐑵"
+      }
+    ],
+    "sound": "𐑐𐑑𐑕"
+  },
+  "positive_expansive": {
+    "label": "Positive & Expansive",
+    "count": 10,
+    "ideas": [
+      {
+        "id": "i:0299",
+        "frequency": 37,
+        "definition": "The positive Y direction; ahead, toward the front.",
+        "translations": [
+          "forward",
+          "ahead",
+          "front",
+          "+Y"
+        ],
+        "vowel": "𐑲"
+      },
+      {
+        "id": "i:1438",
+        "frequency": 1,
+        "definition": "The +X direction; toward the observer's right.",
+        "translations": [
+          "right",
+          "rightward",
+          "+X"
+        ],
+        "vowel": "𐑴"
+      },
+      {
+        "id": "i:0027",
+        "frequency": 686,
+        "definition": "Exceptional in size, quality, or impact; great.",
+        "translations": [
+          "great",
+          "big",
+          "large",
+          "excellent",
+          "outstanding",
+          "major"
+        ],
+        "vowel": "𐑦"
+      },
+      {
+        "id": "i:0115",
+        "frequency": 150,
+        "definition": "An additional or surplus element; more than before.",
+        "translations": [
+          "more",
+          "extra",
+          "additional",
+          "surplus",
+          "plus",
+          "added"
+        ],
+        "vowel": "𐑨"
+      },
+      {
+        "id": "i:0074",
+        "frequency": 266,
+        "definition": "Including every member; complete coverage of a group.",
+        "translations": [
+          "all",
+          "every",
+          "whole",
+          "entire",
+          "complete",
+          "total"
+        ],
+        "vowel": "𐑧"
+      },
+      {
+        "id": "i:0023",
+        "frequency": 765,
+        "definition": "Beyond limits; existing or acting without external constraints.",
+        "translations": [
+          "out",
+          "beyond",
+          "outside",
+          "exceed",
+          "over",
+          "past"
+        ],
+        "vowel": "𐑩"
+      },
+      {
+        "id": "i:0346",
+        "frequency": 29,
+        "definition": "At the greatest distance from center; extreme.",
+        "translations": [
+          "extreme",
+          "far",
+          "maximum",
+          "utmost",
+          "outermost",
+          "edge"
+        ],
+        "vowel": "𐑪"
+      },
+      {
+        "id": "i:0250",
+        "frequency": 48,
+        "definition": "Open and available to all; unrestricted.",
+        "translations": [
+          "open",
+          "free",
+          "available",
+          "accessible",
+          "unrestricted",
+          "public"
+        ],
+        "vowel": "𐑱"
+      },
+      {
+        "id": "i:0687",
+        "frequency": 8,
+        "definition": "A broad expanse; wide coverage of space.",
+        "translations": [
+          "wide",
+          "broad",
+          "large",
+          "expansive",
+          "spanning",
+          "spread"
+        ],
+        "vowel": "𐑰"
+      },
+      {
+        "id": "i:d9",
+        "frequency": 0,
+        "definition": "The digit nine; the numeric value 9. Also the maximum on any 0–9 scale.",
+        "translations": [
+          "9",
+          "nine",
+          "maximum",
+          "full scale"
+        ],
+        "vowel": "𐑵"
+      }
+    ],
+    "sound": "𐑥𐑟"
+  },
+  "negative_contractive": {
+    "label": "Negative & Contractive",
+    "count": 11,
+    "ideas": [
+      {
+        "id": "i:0186",
+        "frequency": 78,
+        "definition": "The negative Y direction; toward and behind the observer.",
+        "translations": [
+          "backward",
+          "behind",
+          "back",
+          "-Y"
+        ],
+        "vowel": "𐑪"
+      },
+      {
+        "id": "i:1917",
+        "frequency": 0,
+        "definition": "The −X direction; toward the observer's left.",
+        "translations": [
+          "left",
+          "leftward",
+          "-X"
+        ],
+        "vowel": "𐑰"
+      },
+      {
+        "id": "i:0052",
+        "frequency": 395,
+        "definition": "Very small or minimal; barely perceptible.",
+        "translations": [
+          "small",
+          "little",
+          "tiny",
+          "minimal",
+          "slight",
+          "negligible"
+        ],
+        "vowel": "𐑧"
+      },
+      {
+        "id": "i:0389",
+        "frequency": 24,
+        "definition": "Divided into parts; the per-unit or fractional concept.",
+        "translations": [
+          "per",
+          "divided",
+          "fractional",
+          "ratio",
+          "each",
+          "split"
+        ],
+        "vowel": "𐑵"
+      },
+      {
+        "id": "i:0361",
+        "frequency": 27,
+        "definition": "Lacking firmness or support; weak or flaccid.",
+        "translations": [
+          "weak",
+          "soft",
+          "flaccid",
+          "limp",
+          "feeble",
+          "fragile"
+        ],
+        "vowel": "𐑴"
+      },
+      {
+        "id": "i:0032",
+        "frequency": 642,
+        "definition": "Near or adjacent; close in space, time, or relation.",
+        "translations": [
+          "near",
+          "close",
+          "adjacent",
+          "next to",
+          "nearby",
+          "proximate"
+        ],
+        "vowel": "𐑦"
+      },
+      {
+        "id": "i:0097",
+        "frequency": 178,
+        "definition": "Less far; at a smaller distance from a reference point.",
+        "translations": [
+          "closer",
+          "nearer",
+          "less far",
+          "shorter distance"
+        ],
+        "vowel": "𐑨"
+      },
+      {
+        "id": "i:0121",
+        "frequency": 143,
+        "definition": "A gap, opening, or space of separation.",
+        "translations": [
+          "gap",
+          "space",
+          "opening",
+          "absence",
+          "interval",
+          "separation"
+        ],
+        "vowel": "𐑲"
+      },
+      {
+        "id": "i:0393",
+        "frequency": 24,
+        "definition": "At or forming the extreme boundary separating two areas.",
+        "translations": [
+          "edge",
+          "border",
+          "boundary",
+          "limit",
+          "margin",
+          "rim"
+        ],
+        "vowel": "𐑷"
+      },
+      {
+        "id": "i:0009",
+        "frequency": 2118,
+        "definition": "Relating to interior position, internal composition, or close proximity.",
+        "translations": [
+          "in",
+          "inside",
+          "internal",
+          "within",
+          "inner",
+          "close"
+        ],
+        "vowel": "𐑩"
+      },
+      {
+        "id": "i:0100",
+        "frequency": 175,
+        "definition": "On the opposite side; spanning from one limit to another.",
+        "translations": [
+          "opposite",
+          "across",
+          "other side",
+          "reverse",
+          "contrary",
+          "over"
+        ],
+        "vowel": "𐑱"
+      }
+    ],
+    "sound": "𐑯𐑕"
+  },
+  "axes_reference": {
+    "label": "Axes, Dimensions & Reference",
+    "count": 14,
+    "ideas": [
+      {
+        "id": "i:0084",
+        "frequency": 228,
+        "definition": "The lateral spatial dimension; the line along which left and right move.",
+        "translations": [
+          "X axis",
+          "lateral",
+          "left-right",
+          "width dimension"
+        ],
+        "vowel": "𐑧"
+      },
+      {
+        "id": "i:0797",
+        "frequency": 0,
+        "definition": "The depth spatial dimension; the Y axis going forward and backward.",
+        "translations": [
+          "Y axis",
+          "depth",
+          "forward-back",
+          "into/away"
+        ],
+        "vowel": "𐑱"
+      },
+      {
+        "id": "i:1918",
+        "frequency": 0,
+        "definition": "The vertical spatial dimension; the Z axis along which up and down move.",
+        "translations": [
+          "Z axis",
+          "vertical",
+          "height axis",
+          "up-down"
+        ],
+        "vowel": "𐑲"
+      },
+      {
+        "id": "i:1312",
+        "frequency": 2,
+        "definition": "Cardinal direction — absolute geographic orientation independent of the observer. Specified as cardinal[0–3]: 0=north, 1=east, 2=south, 3=west. Decimals give intermediate headings: cardinal[0.5]=northeast, cardinal[1.5]=southeast.",
+        "translations": [
+          "north",
+          "south",
+          "east",
+          "west",
+          "cardinal direction"
+        ],
+        "vowel": "𐑷"
+      },
+      {
+        "id": "i:1374",
+        "frequency": 2,
+        "definition": "The orientation or heading an entity faces; a directional vector.",
+        "translations": [
+          "direction",
+          "heading",
+          "facing",
+          "vector"
+        ],
+        "vowel": "𐑬"
+      },
+      {
+        "id": "i:1915",
+        "frequency": 0,
+        "definition": "Whether spatial terms are egocentric (default) or absolute/cardinal.",
+        "translations": [
+          "reference frame",
+          "perspective",
+          "egocentric",
+          "global"
+        ],
+        "vowel": "𐑪"
+      },
+      {
+        "id": "i:1784",
+        "frequency": 1,
+        "definition": "The difference or displacement between two spatial positions.",
+        "translations": [
+          "offset",
+          "delta",
+          "displacement",
+          "coordinate difference"
+        ],
+        "vowel": "𐑶"
+      },
+      {
+        "id": "i:0499",
+        "frequency": 15,
+        "definition": "A position between extremes; a midpoint or average.",
+        "translations": [
+          "middle",
+          "average",
+          "midpoint",
+          "medium"
+        ],
+        "vowel": "𐑰"
+      },
+      {
+        "id": "i:0593",
+        "frequency": 11,
+        "definition": "Grayscale — achromatic brightness on a 0–9 scale independent of hue: 0=black, 9=white, 4–5=mid gray. Used when no hue is present. Distinct from the lightness modifier used within a hue expression.",
+        "translations": [
+          "gray",
+          "grayscale",
+          "black",
+          "white",
+          "brightness",
+          "neutral"
+        ],
+        "vowel": "𐑴"
+      },
+      {
+        "id": "i:0770",
+        "frequency": 7,
+        "definition": "Relating to magnitude or proportion across a dimension.",
+        "translations": [
+          "magnitude",
+          "proportion",
+          "scale",
+          "extent"
+        ],
+        "vowel": "𐑵"
+      },
+      {
+        "id": "i:1298",
+        "frequency": 2,
+        "definition": "A departure from a straight line; curvature.",
+        "translations": [
+          "curve",
+          "curved",
+          "bent",
+          "arc"
+        ],
+        "vowel": "𐑫"
+      },
+      {
+        "id": "i:0030",
+        "frequency": 669,
+        "definition": "The current spatial reference point; the place being indicated.",
+        "translations": [
+          "here",
+          "this place",
+          "present location"
+        ],
+        "vowel": "𐑩"
+      },
+      {
+        "id": "i:0041",
+        "frequency": 538,
+        "definition": "Orientation or alignment; facing toward a shared direction or purpose.",
+        "translations": [
+          "toward",
+          "facing",
+          "oriented",
+          "aligned"
+        ],
+        "vowel": "𐑦"
+      },
+      {
+        "id": "i:0104",
+        "frequency": 171,
+        "definition": "Positional equality; being at the same level or extent.",
+        "translations": [
+          "at",
+          "level with",
+          "equal position",
+          "same as"
+        ],
+        "vowel": "𐑨"
+      }
+    ],
+    "sound": "𐑐𐑑"
+  },
+  "single_vowel_reserved": {
+    "label": "Single-Vowel Reserved Words",
+    "notes": "These are the 14 phonetically reserved single-vowel roots. They are not assigned consonant endings and cannot be used as regular roots. Listed here for reference and duplicate-checking only.",
+    "count": 14,
+    "ideas": [
+      {
+        "id": "sv:𐑰",
+        "symbol": "𐑰",
+        "frequency": 0,
+        "definition": "I / me — first person pronoun; subject of a clause. Object/reflexive handled by prefix system."
+      },
+      {
+        "id": "sv:𐑴",
+        "symbol": "𐑴",
+        "frequency": 0,
+        "definition": "You — second person pronoun."
+      },
+      {
+        "id": "sv:𐑱",
+        "symbol": "𐑱",
+        "frequency": 0,
+        "definition": "It / they / them — third person pronoun; gender-neutral, any animacy. Number (singular/plural) handled by prefix system."
+      },
+      {
+        "id": "sv:𐑵",
+        "symbol": "𐑵",
+        "frequency": 0,
+        "definition": "We / us — first person plural inclusive (speaker + addressee + others)."
+      },
+      {
+        "id": "sv:𐑧",
+        "symbol": "𐑧",
+        "frequency": 0,
+        "definition": "And / add / join — additive; connects elements, joins sets, performs addition. As verb: to add, combine, or join. As noun: addition, union. As modifier: additive."
+      },
+      {
+        "id": "sv:𐑲",
+        "symbol": "𐑲",
+        "frequency": 0,
+        "definition": "But / contrast / except — contrastive; introduces opposition or exception. As verb: to contrast or oppose. As noun: exception, contrast. As modifier: contrasting, exceptional."
+      },
+      {
+        "id": "sv:𐑨",
+        "symbol": "𐑨",
+        "frequency": 0,
+        "definition": "Or / choose / option — disjunctive; introduces alternatives. As verb: to choose, alternate. As noun: option, alternative. As modifier: optional, alternative."
+      },
+      {
+        "id": "sv:𐑩",
+        "symbol": "𐑩",
+        "frequency": 0,
+        "definition": "To / at / toward — directional; marks destination or location. As verb: to go toward, to arrive. As noun: destination, goal. As modifier: directed toward."
+      },
+      {
+        "id": "sv:𐑪",
+        "symbol": "𐑪",
+        "frequency": 0,
+        "definition": "From / origin / source — ablative; marks starting point or origin. As verb: to originate, to depart. As noun: source, origin. As modifier: original, derived from."
+      },
+      {
+        "id": "sv:𐑫",
+        "symbol": "𐑫",
+        "frequency": 0,
+        "definition": "In / enter / contain — locative; marks interior position or entry. As verb: to enter, to contain. As noun: interior, content. As modifier: inner, internal."
+      },
+      {
+        "id": "sv:𐑷",
+        "symbol": "𐑷",
+        "frequency": 0,
+        "definition": "On / upon / active — locative; marks surface contact or active state. As verb: to place on, to activate. As noun: surface, support. As modifier: upon, active, enabled."
+      },
+      {
+        "id": "sv:𐑶",
+        "symbol": "𐑶",
+        "frequency": 0,
+        "definition": "Up / raise / increase — upward; marks +Z direction, multiplication by 10 per step, or increase. As verb: to raise, increase, shift up. As noun: rise, increase. As modifier: upward, more."
+      },
+      {
+        "id": "sv:𐑬",
+        "symbol": "𐑬",
+        "frequency": 0,
+        "definition": "Down / lower / decrease — downward; marks −Z direction, division by 10 per step, or decrease. As verb: to lower, decrease, shift down. As noun: fall, decrease. As modifier: downward, less."
+      },
+      {
+        "id": "sv:𐑦",
+        "symbol": "𐑦",
+        "frequency": 0,
+        "definition": "If / condition / require — conditional; introduces conditional clauses. As verb: to condition, to require. As noun: condition, requirement. As modifier: conditional, contingent."
+      }
+    ],
+    "sound": null,
+    "sound_note": "Single-vowel reserved words have no suffix by design"
+  },
+  "question_markers": {
+    "label": "Particles & Markers",
+    "count": 6,
+    "ideas": [
+      {
+        "id": "i:1922",
+        "frequency": 0,
+        "definition": "At the time that; a temporal relative marker and question word.",
+        "translations": [
+          "when",
+          "at what time",
+          "whenever"
+        ],
+        "vowel": "𐑩"
+      },
+      {
+        "id": "i:1923",
+        "frequency": 0,
+        "definition": "At the place that; a locative relative marker and question word.",
+        "translations": [
+          "where",
+          "at what place",
+          "wherever"
+        ],
+        "vowel": "𐑦"
+      },
+      {
+        "id": "i:1924",
+        "frequency": 0,
+        "definition": "In what way or by what means; a manner marker and question word.",
+        "translations": [
+          "how",
+          "in what way",
+          "by what means"
+        ],
+        "vowel": "𐑧"
+      },
+      {
+        "id": "i:1920",
+        "frequency": 0,
+        "definition": "Concerning or regarding; marking the topic of discourse.",
+        "translations": [
+          "about",
+          "regarding",
+          "concerning"
+        ],
+        "vowel": "𐑨"
+      },
+      {
+        "id": "i:1925",
+        "frequency": 0,
+        "definition": "Introduces the second element of a comparison.",
+        "translations": [
+          "than",
+          "compared to",
+          "versus"
+        ],
+        "vowel": "𐑱"
+      },
+      {
+        "id": "i:1926",
+        "frequency": 0,
+        "definition": "Limiting to a single case; exclusivity.",
+        "translations": [
+          "only",
+          "just",
+          "merely",
+          "solely"
+        ],
+        "vowel": "𐑲"
+      }
+    ],
+    "sound": "𐑚𐑛"
+  },
+  "_potential_suffix_replacements": [
+    {
+      "group_key": "place_dwelling",
+      "current_suffix": "𐑕𐑑𐑕",
+      "replacement": "𐑣'",
+      "reason": "Repeated 𐑕 sound (𐑕𐑑𐑕) is awkward to articulate",
+      "status": "applied",
+      "note": "𐑣' now assigned; 𐑕𐑑𐑕 freed for alias pool"
+    },
+    {
+      "group_key": "law_justice",
+      "current_suffix": "𐑕𐑒𐑕",
+      "replacement": "𐑣'",
+      "reason": "Repeated 𐑕 sound (𐑕𐑒𐑕) is awkward to articulate — if Place & Dwelling takes 𐑣', use next alias pool entry here"
+    },
+    {
+      "group_key": "language_expression",
+      "current_suffix": "𐑯𐑑𐑕",
+      "replacement": "swap with 𐑯𐑕𐑑 (Truth & Certainty)",
+      "reason": "𐑯𐑑𐑕 and 𐑯𐑕𐑑 are near-anagrams — consider swapping one for an alias pool entry if confusion arises in practice"
+    },
+    {
+      "group_key": "emotion_positive",
+      "current_suffix": "𐑛𐑟",
+      "replacement": "swap with 𐑟𐑛 (Containment & Connection)",
+      "reason": "𐑛𐑟 and 𐑟𐑛 are near-anagrams — monitor for confusion"
+    },
+    {
+      "group_key": "commerce_money",
+      "current_suffix": "𐑒𐑕𐑑",
+      "replacement": "swap with 𐑒𐑑𐑕 (Perception & Senses)",
+      "reason": "𐑒𐑕𐑑 and 𐑒𐑑𐑕 are near-anagrams — monitor for confusion"
+    }
+  ],
+  "function_words": {
+    "fw:𐑽": {
+      "symbol": "𐑽",
+      "name": "borrow",
+      "definition": "Discourse marker: introduces foreign, untranslated, or coined content. What follows is spoken in the source language or as-coined until an alias root closes the span. The prefix on 𐑽 indicates the grammatical role the borrowed content will play in the sentence. The closing alias root simultaneously ends the span and becomes the reusable handle for that content. Distinct from economic borrowing/renting (i:0944).",
+      "translations": [
+        "borrow [a word]",
+        "loanword marker",
+        "foreign word follows",
+        "code-switch"
+      ],
+      "frequency": 0,
+      "type": "function_word"
+    },
+    "fw:𐑸": {
+      "symbol": "𐑸",
+      "name": "phrase alias",
+      "definition": "Discourse marker: opens a span of native or mixed content being assigned to an alias. The content following 𐑸 — which may be one word or many, borrowed or native — is bound to the alias root that closes the span. That alias root then stands in for the entire spanned content for the rest of the conversation. Distinct from naming or describing (i:0301, i:0022).",
+      "translations": [
+        "alias follows",
+        "define as",
+        "call this",
+        "phrase marker"
+      ],
+      "frequency": 0,
+      "type": "function_word"
+    },
+    "fw:𐑹": {
+      "symbol": "𐑹",
+      "name": "example",
+      "definition": "Discourse marker: introduces a concrete example, specific instance, or illustration of the prior statement. The content following 𐑹 is a particular case of what was just said in the abstract or general. Takes a prefix indicating the grammatical role of the example. Does not open an alias span — it simply signals 'for instance'.",
+      "translations": [
+        "for example",
+        "for instance",
+        "such as",
+        "specifically",
+        "e.g.",
+        "namely"
+      ],
+      "frequency": 0,
+      "type": "function_word"
+    },
+    "fw:𐑺": {
+      "symbol": "𐑺",
+      "name": "quote",
+      "definition": "Discourse marker: signals exact, verbatim reproduction of something said or written. What follows is quoted speech or text, reproduced as originally expressed. May be closed by an alias root (assigning the quote a handle) or self-closes at the end of the quoted material when the speaker returns to prefixed native words. Distinct from the semantic quality of being literal (i:0208).",
+      "translations": [
+        "quote",
+        "quoting",
+        "in their words",
+        "verbatim follows",
+        "said"
+      ],
+      "frequency": 0,
+      "type": "function_word"
+    },
+    "fw:𐑻": {
+      "symbol": "𐑻",
+      "name": "refer back",
+      "definition": "Discourse marker: points backward to something already established in the conversation — a prior alias, a defined concept, or a previously named thing. Used to re-invoke content without repeating it in full. Takes a prefix for grammatical role. Operates at the discourse navigation level. Distinct from anaphoric pronouns (i:0004) which substitute at the noun level.",
+      "translations": [
+        "as established",
+        "referring back to",
+        "the previously defined",
+        "as mentioned"
+      ],
+      "frequency": 0,
+      "type": "function_word"
+    }
+  },
+  "alias_roots": {
+    "alias:1": {
+      "suffix": "𐑕𐑒𐑑",
+      "name": "alias 1",
+      "definition": "Alias root 1. A reusable conversational handle assigned by a borrow (𐑽) or phrase-alias (𐑸) span. Closes the open span and simultaneously becomes the word that represents that borrowed or aliased content for the rest of the conversation. Takes any prefix for grammatical role. Can be reassigned.",
+      "translations": [
+        "[alias 1]",
+        "A1"
+      ],
+      "frequency": 0,
+      "type": "alias_root",
+      "vowel": "𐑩",
+      "word": "𐑩𐑕𐑒𐑑"
+    },
+    "alias:2": {
+      "suffix": "𐑯𐑡𐑛",
+      "name": "alias 2",
+      "definition": "Alias root 2. A reusable conversational handle assigned by a borrow (𐑽) or phrase-alias (𐑸) span. Closes the open span and simultaneously becomes the word that represents that borrowed or aliased content for the rest of the conversation. Takes any prefix for grammatical role. Can be reassigned.",
+      "translations": [
+        "[alias 2]",
+        "A2"
+      ],
+      "frequency": 0,
+      "type": "alias_root",
+      "vowel": "𐑦",
+      "word": "𐑦𐑯𐑡𐑛"
+    },
+    "alias:3": {
+      "suffix": "𐑓𐑑𐑕",
+      "name": "alias 3",
+      "definition": "Alias root 3. A reusable conversational handle assigned by a borrow (𐑽) or phrase-alias (𐑸) span. Closes the open span and simultaneously becomes the word that represents that borrowed or aliased content for the rest of the conversation. Takes any prefix for grammatical role. Can be reassigned.",
+      "translations": [
+        "[alias 3]",
+        "A3"
+      ],
+      "frequency": 0,
+      "type": "alias_root",
+      "vowel": "𐑧",
+      "word": "𐑧𐑓𐑑𐑕"
+    },
+    "alias:4": {
+      "suffix": "𐑛𐑔",
+      "name": "alias 4",
+      "definition": "Alias root 4. A reusable conversational handle assigned by a borrow (𐑽) or phrase-alias (𐑸) span. Closes the open span and simultaneously becomes the word that represents that borrowed or aliased content for the rest of the conversation. Takes any prefix for grammatical role. Can be reassigned.",
+      "translations": [
+        "[alias 4]",
+        "A4"
+      ],
+      "frequency": 0,
+      "type": "alias_root",
+      "vowel": "𐑨",
+      "word": "𐑨𐑛𐑔"
+    },
+    "alias:5": {
+      "suffix": "𐑞𐑟",
+      "name": "alias 5",
+      "definition": "Alias root 5. A reusable conversational handle assigned by a borrow (𐑽) or phrase-alias (𐑸) span. Closes the open span and simultaneously becomes the word that represents that borrowed or aliased content for the rest of the conversation. Takes any prefix for grammatical role. Can be reassigned.",
+      "translations": [
+        "[alias 5]",
+        "A5"
+      ],
+      "frequency": 0,
+      "type": "alias_root",
+      "vowel": "𐑱",
+      "word": "𐑱𐑞𐑟"
+    }
+  }
+}
