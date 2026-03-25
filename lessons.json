@@ -1,0 +1,1507 @@
+{
+  "_comment": "lessons.json — thints language curriculum. Word data is pulled from dictionary.json at runtime using the IDs in wordIds. Only sentences, prompts, and structural metadata are hardcoded here.",
+
+  "meta": {
+    "version": 1,
+    "totalLessons": 30,
+    "xpPerLesson": 100,
+    "xpPerPracticeCorrect": 20,
+    "streakUnit": "day"
+  },
+
+  "units": [
+    {
+      "id": "unit-1",
+      "title": "Foundation",
+      "description": "How the language is built — structure, the glue words, and your first sentences.",
+      "color": "teal",
+      "lessons": ["l01", "l02", "l03", "l04", "l05", "l06"]
+    },
+    {
+      "id": "unit-2",
+      "title": "Time & Logic",
+      "description": "Tense, time words, logical connectives, and how to modify and negate.",
+      "color": "blue",
+      "lessons": ["l07", "l08", "l09", "l10", "l11", "l12"]
+    },
+    {
+      "id": "unit-3",
+      "title": "Vocabulary",
+      "description": "Expanding your word bank across the core semantic groups.",
+      "color": "green",
+      "lessons": ["l13", "l14", "l15", "l16", "l17", "l18", "l19", "l20", "l21", "l22"]
+    },
+    {
+      "id": "unit-4",
+      "title": "Advanced Grammar",
+      "description": "Modals, commands, subordinate clauses, evidentiality, and numbers.",
+      "color": "amber",
+      "lessons": ["l23", "l24", "l25", "l26", "l27", "l28"]
+    },
+    {
+      "id": "unit-5",
+      "title": "Fluency",
+      "description": "Putting it all together — complex sentences and borrowing words.",
+      "color": "coral",
+      "lessons": ["l29", "l30"]
+    }
+  ],
+
+  "lessons": {
+
+    "l01": {
+      "id": "l01",
+      "unit": "unit-1",
+      "order": 1,
+      "title": "How words are built",
+      "subtitle": "Suffixes, vowels, and the 𐑯𐑑 family",
+      "description": "Every word in thints is built from a suffix (the topic family) and a vowel (which specific idea). Learn to read any word before you know it.",
+      "estimatedMinutes": 7,
+      "xp": 100,
+      "badge": null,
+
+      "wordIds": ["i:0001", "i:0010", "i:0054", "i:0083", "i:0149", "i:1929"],
+
+      "grammar": [
+        {
+          "id": "g-word-structure",
+          "title": "Word structure: suffix + vowel",
+          "body": "Every regular word is built from two pieces: a suffix and a vowel.\n\nThe suffix tells you the topic family — all words ending in 𐑯𐑑 are about existence and state. The vowel tells you which specific idea within that family.\n\nSo 𐑩𐑯𐑑 (alive) and 𐑦𐑯𐑑 (life) are in the same family — they're both about existence — but different vowels pick different ideas.",
+          "examples": [
+            {
+              "shavian": "𐑩𐑯𐑑",
+              "gloss": "alive",
+              "breakdown": [
+                { "part": "𐑩", "role": "vowel", "meaning": "active/operational" },
+                { "part": "𐑯𐑑", "role": "suffix", "meaning": "existence & state family" }
+              ]
+            },
+            {
+              "shavian": "𐑦𐑯𐑑",
+              "gloss": "life",
+              "breakdown": [
+                { "part": "𐑦", "role": "vowel", "meaning": "living/alive" },
+                { "part": "𐑯𐑑", "role": "suffix", "meaning": "existence & state family" }
+              ]
+            },
+            {
+              "shavian": "𐑧𐑯𐑑",
+              "gloss": "now",
+              "breakdown": [
+                { "part": "𐑧", "role": "vowel", "meaning": "current/present" },
+                { "part": "𐑯𐑑", "role": "suffix", "meaning": "existence & state family" }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "g-suffix-families",
+          "title": "44 suffix families",
+          "body": "There are 44 suffix families in thints. When you hear an unfamiliar word, the suffix tells you the topic before you know the specific meaning.\n\nHear a word ending in 𐑯𐑑? You know it's about existence or state. Hear 𐑛𐑟? You know it's a positive emotion. This makes the language highly decodable — even new words give you a clue.",
+          "examples": []
+        }
+      ],
+
+      "practice": [
+        {
+          "id": "l01-p1",
+          "type": "multipleChoice",
+          "prompt": "What does the suffix 𐑯𐑑 tell you about a word?",
+          "options": ["It is a verb", "It belongs to the existence & state family", "It is a question", "It is plural"],
+          "correctIndex": 1,
+          "explanation": "The suffix 𐑯𐑑 marks the existence & state family. All words with this suffix deal with being, living, or existing."
+        },
+        {
+          "id": "l01-p2",
+          "type": "multipleChoice",
+          "prompt": "Which part of 𐑩𐑯𐑑 tells you which specific idea it represents?",
+          "options": ["𐑯𐑑 — the suffix", "𐑩 — the vowel", "The whole word together", "Neither — it is arbitrary"],
+          "correctIndex": 1,
+          "explanation": "The vowel 𐑩 picks the specific idea (alive/active) within the 𐑯𐑑 family. Different vowels pick different ideas in the same family."
+        },
+        {
+          "id": "l01-p3",
+          "type": "multipleChoice",
+          "prompt": "𐑦𐑯𐑑 and 𐑩𐑯𐑑 share the same suffix 𐑯𐑑. What does that tell you?",
+          "options": ["They mean the same thing", "They are both about existence and state", "They are both verbs", "They are opposites"],
+          "correctIndex": 1,
+          "explanation": "Same suffix means same family. 𐑦𐑯𐑑 (life) and 𐑩𐑯𐑑 (alive) are both in the existence & state family — different vowels, different ideas, same topic."
+        },
+        {
+          "id": "l01-p4",
+          "type": "wordMatch",
+          "prompt": "Match each word to its meaning",
+          "pairs": [
+            { "shavian": "𐑩𐑯𐑑", "english": "alive" },
+            { "shavian": "𐑦𐑯𐑑", "english": "life" },
+            { "shavian": "𐑧𐑯𐑑", "english": "now" },
+            { "shavian": "𐑨𐑯𐑑", "english": "zero / none" }
+          ]
+        },
+        {
+          "id": "l01-p5",
+          "type": "multipleChoice",
+          "prompt": "You see a word ending in 𐑛𐑟 that you have never seen before. What do you know about it before looking it up?",
+          "options": ["Nothing — you need to look it up", "It is in the positive emotions family", "It is a verb in past tense", "It is a number"],
+          "correctIndex": 1,
+          "explanation": "The 𐑛𐑟 suffix marks the positive emotions family. Knowing suffixes lets you make an educated guess about any unfamiliar word."
+        }
+      ]
+    },
+
+    "l02": {
+      "id": "l02",
+      "unit": "unit-1",
+      "order": 2,
+      "title": "The glue words",
+      "subtitle": "Single-vowel reserved words",
+      "description": "Fourteen single-vowel words do enormous work in thints. They never take a prefix or suffix — they are their own complete words.",
+      "estimatedMinutes": 8,
+      "xp": 100,
+      "badge": null,
+
+      "wordIds": ["sv:𐑧", "sv:𐑰", "sv:𐑱", "sv:𐑴", "sv:𐑲", "sv:𐑫", "sv:𐑵", "sv:𐑨", "sv:𐑩", "sv:𐑦"],
+
+      "grammar": [
+        {
+          "id": "g-reserved-words",
+          "title": "Single-vowel reserved words",
+          "body": "These words are each a single Shavian vowel. They are reserved — they cannot be modified with prefixes or suffixes. They function as-is.\n\nSome are pronouns (𐑰 = I, 𐑴 = you, 𐑱 = it/they, 𐑵 = we). Others are connectors (𐑧 = and, 𐑲 = but, 𐑨 = or). Others are positional (𐑩 = to/toward, 𐑫 = in, 𐑦 = if).\n\nThese are extremely high-frequency — ranks 2 through 15 in the dictionary. Mastering them gives you the skeleton of any sentence.",
+          "examples": [
+            {
+              "shavian": "𐑰 𐑧 𐑴",
+              "gloss": "I and you",
+              "breakdown": [
+                { "part": "𐑰", "role": "reserved", "meaning": "I / me" },
+                { "part": "𐑧", "role": "reserved", "meaning": "and" },
+                { "part": "𐑴", "role": "reserved", "meaning": "you" }
+              ]
+            },
+            {
+              "shavian": "𐑰 𐑲 𐑴",
+              "gloss": "I but you",
+              "breakdown": [
+                { "part": "𐑰", "role": "reserved", "meaning": "I / me" },
+                { "part": "𐑲", "role": "reserved", "meaning": "but / however" },
+                { "part": "𐑴", "role": "reserved", "meaning": "you" }
+              ]
+            }
+          ]
+        }
+      ],
+
+      "practice": [
+        {
+          "id": "l02-p1",
+          "type": "multipleChoice",
+          "prompt": "What does 𐑰 mean?",
+          "options": ["you", "we", "I / me", "it"],
+          "correctIndex": 2,
+          "explanation": "𐑰 is the first-person pronoun — I, me, myself, my."
+        },
+        {
+          "id": "l02-p2",
+          "type": "multipleChoice",
+          "prompt": "What does 𐑧 mean?",
+          "options": ["or", "but", "if", "and"],
+          "correctIndex": 3,
+          "explanation": "𐑧 means and, plus, also — it joins things together."
+        },
+        {
+          "id": "l02-p3",
+          "type": "multipleChoice",
+          "prompt": "You want to say 'you or I'. Which is correct?",
+          "options": ["𐑴 𐑨 𐑰", "𐑴 𐑧 𐑰", "𐑴 𐑲 𐑰", "𐑴 𐑦 𐑰"],
+          "correctIndex": 0,
+          "explanation": "𐑨 means or / either. 𐑧 means and. 𐑲 means but. 𐑦 means if."
+        },
+        {
+          "id": "l02-p4",
+          "type": "wordMatch",
+          "prompt": "Match each reserved word to its meaning",
+          "pairs": [
+            { "shavian": "𐑰", "english": "I / me" },
+            { "shavian": "𐑴", "english": "you" },
+            { "shavian": "𐑵", "english": "we / us" },
+            { "shavian": "𐑱", "english": "it / they" }
+          ]
+        },
+        {
+          "id": "l02-p5",
+          "type": "multipleChoice",
+          "prompt": "Can you add a prefix to 𐑰 to change how it is used?",
+          "options": ["Yes — prefixes apply to all words", "No — single-vowel reserved words never take prefixes", "Only sometimes", "Yes — but only in formal writing"],
+          "correctIndex": 1,
+          "explanation": "Single-vowel reserved words are fixed. They cannot be modified with prefixes or suffixes — they work exactly as they are."
+        }
+      ]
+    },
+
+    "l03": {
+      "id": "l03",
+      "unit": "unit-1",
+      "order": 3,
+      "title": "Nouns and subjects",
+      "subtitle": "The subject prefix 𐑐",
+      "description": "Every root word in thints is POS-neutral — it is neither a noun nor a verb until a prefix is added. The prefix 𐑐 marks the subject of a sentence.",
+      "estimatedMinutes": 8,
+      "xp": 100,
+      "badge": null,
+
+      "wordIds": ["i:0002", "i:0004", "i:0087", "i:0095", "i:0108", "i:0139"],
+
+      "grammar": [
+        {
+          "id": "g-pos-neutral",
+          "title": "Roots are POS-neutral",
+          "body": "In most languages, words have a fixed part of speech — 'run' is a verb, 'dog' is a noun. In thints, every root word is neutral. The prefix you attach determines whether it functions as a noun, verb, modifier, or something else.\n\nThis is one of the most important ideas in the language. The same root can play any role in a sentence depending on its prefix.",
+          "examples": []
+        },
+        {
+          "id": "g-subject-prefix",
+          "title": "The subject prefix 𐑐",
+          "body": "𐑐 marks the subject — who or what performs the action.\n\nAttach 𐑐 to any root and you have a subject noun. The prefix comes before the root with no space.",
+          "examples": [
+            {
+              "shavian": "𐑐𐑩𐑙",
+              "gloss": "someone (as subject)",
+              "breakdown": [
+                { "part": "𐑐", "role": "prefix", "meaning": "subject" },
+                { "part": "𐑩𐑙", "role": "root", "meaning": "someone / something" }
+              ]
+            },
+            {
+              "shavian": "𐑐𐑦𐑙",
+              "gloss": "this thing (as subject)",
+              "breakdown": [
+                { "part": "𐑐", "role": "prefix", "meaning": "subject" },
+                { "part": "𐑦𐑙", "role": "root", "meaning": "it / this / that" }
+              ]
+            }
+          ]
+        }
+      ],
+
+      "practice": [
+        {
+          "id": "l03-p1",
+          "type": "multipleChoice",
+          "prompt": "What does the prefix 𐑐 mark?",
+          "options": ["The object of a sentence", "The subject of a sentence", "A verb in past tense", "A modifier"],
+          "correctIndex": 1,
+          "explanation": "𐑐 marks the subject — who or what performs the action."
+        },
+        {
+          "id": "l03-p2",
+          "type": "multipleChoice",
+          "prompt": "𐑩𐑙 means 'someone'. How do you say 'someone (as the subject)'?",
+          "options": ["𐑩𐑙𐑐", "𐑐𐑩𐑙", "𐑩𐑐𐑙", "𐑩𐑙 alone"],
+          "correctIndex": 1,
+          "explanation": "Prefixes attach to the front of the root. 𐑐 + 𐑩𐑙 = 𐑐𐑩𐑙."
+        },
+        {
+          "id": "l03-p3",
+          "type": "multipleChoice",
+          "prompt": "A thints root word without a prefix is...",
+          "options": ["always a noun", "always a verb", "POS-neutral — its role is undefined until a prefix is added", "only usable in the dictionary"],
+          "correctIndex": 2,
+          "explanation": "Roots are POS-neutral. They need a prefix to have a grammatical role in a sentence."
+        },
+        {
+          "id": "l03-p4",
+          "type": "wordMatch",
+          "prompt": "Match the root to its meaning",
+          "pairs": [
+            { "shavian": "𐑩𐑙", "english": "someone / something" },
+            { "shavian": "𐑦𐑙", "english": "it / this / that" },
+            { "shavian": "𐑧𐑙", "english": "person / individual" },
+            { "shavian": "𐑨𐑙", "english": "specific / particular" }
+          ]
+        },
+        {
+          "id": "l03-p5",
+          "type": "multipleChoice",
+          "prompt": "How do you say 'a person (as the subject)'?",
+          "options": ["𐑧𐑙𐑐", "𐑐𐑧𐑙", "𐑧𐑙", "𐑑𐑧𐑙"],
+          "correctIndex": 1,
+          "explanation": "𐑐 (subject prefix) + 𐑧𐑙 (person) = 𐑐𐑧𐑙."
+        }
+      ]
+    },
+
+    "l04": {
+      "id": "l04",
+      "unit": "unit-1",
+      "order": 4,
+      "title": "Your first verbs",
+      "subtitle": "Present tense — prefix 𐑥",
+      "description": "The prefix 𐑥 marks a verb in present tense. Combined with the subject prefix from L3, you can now make your first real sentences.",
+      "estimatedMinutes": 8,
+      "xp": 100,
+      "badge": "first-sentence",
+
+      "wordIds": ["i:0014", "i:0015", "i:0040", "i:0047", "i:0022"],
+
+      "grammar": [
+        {
+          "id": "g-present-prefix",
+          "title": "Present tense: prefix 𐑥",
+          "body": "𐑥 marks a verb in present tense. The same root that was a subject noun with 𐑐 becomes a verb with 𐑥.\n\nThis is the power of the prefix system — the root stays the same, the prefix changes the role.",
+          "examples": [
+            {
+              "shavian": "𐑐𐑩𐑙 𐑥𐑩𐑒𐑑",
+              "gloss": "someone knows",
+              "breakdown": [
+                { "part": "𐑐𐑩𐑙", "role": "subject", "meaning": "someone (subject)" },
+                { "part": "𐑥𐑩𐑒𐑑", "role": "verb-present", "meaning": "knows (present)" }
+              ]
+            },
+            {
+              "shavian": "𐑐𐑰 𐑥𐑩𐑐𐑕",
+              "gloss": "I want",
+              "breakdown": [
+                { "part": "𐑐𐑰", "role": "subject", "meaning": "I (as subject)" },
+                { "part": "𐑥𐑩𐑐𐑕", "role": "verb-present", "meaning": "want (present)" }
+              ]
+            },
+            {
+              "shavian": "𐑐𐑴 𐑥𐑦𐑯𐑑𐑕",
+              "gloss": "you speak",
+              "breakdown": [
+                { "part": "𐑐𐑴", "role": "subject", "meaning": "you (as subject)" },
+                { "part": "𐑥𐑦𐑯𐑑𐑕", "role": "verb-present", "meaning": "speak (present)" }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "g-word-order",
+          "title": "Word order is mostly free",
+          "body": "In thints, word order is flexible. The prefixes tell you each word's role — you don't need position to know what is the subject and what is the verb.\n\nThe one constraint: modifiers must be placed directly next to what they modify. You'll learn this when we reach modifiers.",
+          "examples": []
+        }
+      ],
+
+      "practice": [
+        {
+          "id": "l04-p1",
+          "type": "multipleChoice",
+          "prompt": "What does the prefix 𐑥 mark?",
+          "options": ["Past tense verb", "Present tense verb", "Subject noun", "Future tense verb"],
+          "correctIndex": 1,
+          "explanation": "𐑥 marks a verb in present tense."
+        },
+        {
+          "id": "l04-p2",
+          "type": "multipleChoice",
+          "prompt": "How do you say 'knows' (present tense verb) using the root 𐑩𐑒𐑑?",
+          "options": ["𐑩𐑒𐑑𐑥", "𐑐𐑩𐑒𐑑", "𐑥𐑩𐑒𐑑", "𐑩𐑥𐑒𐑑"],
+          "correctIndex": 2,
+          "explanation": "𐑥 (present tense) + 𐑩𐑒𐑑 (know) = 𐑥𐑩𐑒𐑑. Prefixes always attach to the front."
+        },
+        {
+          "id": "l04-p3",
+          "type": "multipleChoice",
+          "prompt": "What is the difference between 𐑐𐑩𐑒𐑑 and 𐑥𐑩𐑒𐑑?",
+          "options": [
+            "𐑐𐑩𐑒𐑑 is past tense, 𐑥𐑩𐑒𐑑 is present tense",
+            "𐑐𐑩𐑒𐑑 is 'knowledge' as a subject noun, 𐑥𐑩𐑒𐑑 is 'knows' as a verb",
+            "They mean the same thing",
+            "𐑐𐑩𐑒𐑑 is formal, 𐑥𐑩𐑒𐑑 is informal"
+          ],
+          "correctIndex": 1,
+          "explanation": "Same root 𐑩𐑒𐑑 (knowledge/knowing), different prefixes. 𐑐 makes it a subject noun, 𐑥 makes it a present-tense verb."
+        },
+        {
+          "id": "l04-p4",
+          "type": "multipleChoice",
+          "prompt": "What does 𐑐𐑰 𐑥𐑩𐑐𐑕 mean?",
+          "options": ["you want", "I want", "we want", "someone wants"],
+          "correctIndex": 1,
+          "explanation": "𐑐𐑰 = I (subject), 𐑥𐑩𐑐𐑕 = want (present verb). So: I want."
+        },
+        {
+          "id": "l04-p5",
+          "type": "multipleChoice",
+          "prompt": "Thints word order is...",
+          "options": [
+            "Fixed — subject must come first",
+            "Fixed — verb must come first",
+            "Mostly free — prefixes tell you each word's role",
+            "Fixed — the same as English"
+          ],
+          "correctIndex": 2,
+          "explanation": "Word order is mostly free in thints. Because prefixes mark each word's grammatical role, position doesn't carry that information."
+        }
+      ]
+    },
+
+    "l05": {
+      "id": "l05",
+      "unit": "unit-1",
+      "order": 5,
+      "title": "Objects and indirect objects",
+      "subtitle": "Prefixes 𐑑 and 𐑒",
+      "description": "The same roots from L3 and L4 can now play new roles. 𐑑 marks the direct object, 𐑒 marks the indirect object.",
+      "estimatedMinutes": 8,
+      "xp": 100,
+      "badge": null,
+
+      "wordIds": ["i:0002", "i:0004", "i:0014", "i:0015", "i:0040"],
+
+      "grammar": [
+        {
+          "id": "g-object-prefix",
+          "title": "Direct object: prefix 𐑑",
+          "body": "𐑑 marks the direct object — who or what receives the action directly.\n\nAll noun prefixes use plosive stop sounds: 𐑐 𐑑 𐑒 𐑔. If you mishear one for another you still know it's a noun — just the role may be unclear.",
+          "examples": [
+            {
+              "shavian": "𐑐𐑰 𐑥𐑩𐑒𐑑 𐑑𐑦𐑙",
+              "gloss": "I know this",
+              "breakdown": [
+                { "part": "𐑐𐑰", "role": "subject", "meaning": "I (subject)" },
+                { "part": "𐑥𐑩𐑒𐑑", "role": "verb-present", "meaning": "know (present)" },
+                { "part": "𐑑𐑦𐑙", "role": "object", "meaning": "this (object)" }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "g-indirect-object",
+          "title": "Indirect object: prefix 𐑒",
+          "body": "𐑒 marks the indirect object — who or what benefits from or receives the result of the action.\n\nIn English: 'I gave the dog a bone' — 'the dog' is the indirect object (receives the benefit), 'a bone' is the direct object (receives the action directly).",
+          "examples": [
+            {
+              "shavian": "𐑐𐑰 𐑥𐑩𐑯𐑑𐑕 𐑒𐑴 𐑑𐑦𐑙",
+              "gloss": "I describe this to you",
+              "breakdown": [
+                { "part": "𐑐𐑰", "role": "subject", "meaning": "I (subject)" },
+                { "part": "𐑥𐑩𐑯𐑑𐑕", "role": "verb-present", "meaning": "describe (present)" },
+                { "part": "𐑒𐑴", "role": "indirect-object", "meaning": "to you (indirect object)" },
+                { "part": "𐑑𐑦𐑙", "role": "object", "meaning": "this (direct object)" }
+              ]
+            }
+          ]
+        }
+      ],
+
+      "practice": [
+        {
+          "id": "l05-p1",
+          "type": "multipleChoice",
+          "prompt": "𐑑 marks the...",
+          "options": ["subject", "direct object", "indirect object", "verb"],
+          "correctIndex": 1,
+          "explanation": "𐑑 marks the direct object — who or what receives the action directly."
+        },
+        {
+          "id": "l05-p2",
+          "type": "multipleChoice",
+          "prompt": "𐑒 marks the...",
+          "options": ["subject", "direct object", "indirect object", "modifier"],
+          "correctIndex": 2,
+          "explanation": "𐑒 marks the indirect object — who or what benefits from the action."
+        },
+        {
+          "id": "l05-p3",
+          "type": "multipleChoice",
+          "prompt": "In 'I gave you this', which word is the indirect object?",
+          "options": ["I", "gave", "you", "this"],
+          "correctIndex": 2,
+          "explanation": "'You' receives the benefit of the giving — that's the indirect object. 'This' is what was directly given — the direct object."
+        },
+        {
+          "id": "l05-p4",
+          "type": "multipleChoice",
+          "prompt": "What does 𐑑𐑩𐑙 mean?",
+          "options": ["someone (subject)", "someone (object)", "someone (indirect object)", "someone (verb)"],
+          "correctIndex": 1,
+          "explanation": "𐑑 (direct object prefix) + 𐑩𐑙 (someone) = 'someone' as the direct object."
+        },
+        {
+          "id": "l05-p5",
+          "type": "multipleChoice",
+          "prompt": "All noun prefixes (𐑐 𐑑 𐑒 𐑔) share which acoustic quality?",
+          "options": ["They are all nasal sounds", "They are all plosive stop sounds", "They are all fricatives", "They are all vowels"],
+          "correctIndex": 1,
+          "explanation": "All noun prefixes use plosive stop sounds. Mishearing one for another still signals 'noun' — you may not know the exact role but you know it's a noun."
+        }
+      ]
+    },
+
+    "l06": {
+      "id": "l06",
+      "unit": "unit-1",
+      "order": 6,
+      "title": "Negation",
+      "subtitle": "The operator 𐑕 and the word 𐑧𐑯𐑟",
+      "description": "Two ways to negate in thints: the operator 𐑕 stacks onto prefix + root, and 𐑧𐑯𐑟 is the standalone negation word.",
+      "estimatedMinutes": 8,
+      "xp": 100,
+      "badge": null,
+
+      "wordIds": ["i:0013", "i:0018", "i:0024", "i:0078", "i:0211"],
+
+      "grammar": [
+        {
+          "id": "g-negation-operator",
+          "title": "The negation operator 𐑕",
+          "body": "𐑕 is an operator — it stacks onto a base prefix to add negation. It always comes first in the stack.\n\nStacking order: negation (𐑕) + base role (𐑐/𐑑/𐑒/𐑥…) + plural (𐑮 if applicable)\n\nSo 𐑕𐑐𐑩𐑙 means 'not someone (as subject)' — the person doing the action is specifically not that thing.",
+          "examples": [
+            {
+              "shavian": "𐑕𐑥𐑩𐑒𐑑",
+              "gloss": "does not know",
+              "breakdown": [
+                { "part": "𐑕", "role": "operator", "meaning": "negation" },
+                { "part": "𐑥", "role": "prefix", "meaning": "present tense" },
+                { "part": "𐑩𐑒𐑑", "role": "root", "meaning": "know" }
+              ]
+            },
+            {
+              "shavian": "𐑕𐑐𐑩𐑙",
+              "gloss": "not someone (as subject)",
+              "breakdown": [
+                { "part": "𐑕", "role": "operator", "meaning": "negation" },
+                { "part": "𐑐", "role": "prefix", "meaning": "subject" },
+                { "part": "𐑩𐑙", "role": "root", "meaning": "someone" }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "g-negation-word",
+          "title": "The negation word 𐑧𐑯𐑟",
+          "body": "𐑧𐑯𐑟 is a standalone word meaning 'not / no / negate'. It belongs to the Logic & Connectives family (suffix 𐑯𐑟).\n\nUse 𐑧𐑯𐑟 when you want to negate a whole idea rather than a specific prefix. It is often more natural in spoken sentences.",
+          "examples": [
+            {
+              "shavian": "𐑧𐑯𐑟 𐑐𐑰",
+              "gloss": "not me",
+              "breakdown": [
+                { "part": "𐑧𐑯𐑟", "role": "word", "meaning": "not / no" },
+                { "part": "𐑐𐑰", "role": "subject", "meaning": "I (subject)" }
+              ]
+            }
+          ]
+        }
+      ],
+
+      "practice": [
+        {
+          "id": "l06-p1",
+          "type": "multipleChoice",
+          "prompt": "What does the operator 𐑕 do?",
+          "options": ["Makes a verb plural", "Adds negation to a prefix", "Marks past tense", "Marks the indirect object"],
+          "correctIndex": 1,
+          "explanation": "𐑕 is the negation operator. It stacks before a base prefix: 𐑕 + 𐑥 = negated present verb, 𐑕 + 𐑐 = negated subject."
+        },
+        {
+          "id": "l06-p2",
+          "type": "multipleChoice",
+          "prompt": "What does 𐑕𐑥𐑩𐑐𐑕 mean?",
+          "options": ["wants (present)", "does not want (negated present)", "wanted (past)", "will want (future)"],
+          "correctIndex": 1,
+          "explanation": "𐑕 (negation) + 𐑥 (present) + 𐑩𐑐𐑕 (want) = does not want."
+        },
+        {
+          "id": "l06-p3",
+          "type": "multipleChoice",
+          "prompt": "What is the correct stacking order for a negated subject noun?",
+          "options": ["base prefix + 𐑕", "𐑕 + base prefix", "base prefix + 𐑕 + root", "root + 𐑕 + base prefix"],
+          "correctIndex": 1,
+          "explanation": "Negation (𐑕) always comes first: 𐑕 + base prefix + root."
+        },
+        {
+          "id": "l06-p4",
+          "type": "wordMatch",
+          "prompt": "Match the word to its meaning",
+          "pairs": [
+            { "shavian": "𐑧𐑯𐑟", "english": "not / no" },
+            { "shavian": "𐑩𐑑𐑕", "english": "ok / acceptable" },
+            { "shavian": "𐑦𐑑𐑕", "english": "yes / agree" },
+            { "shavian": "𐑪𐑑𐑕", "english": "bad / wrong" }
+          ]
+        },
+        {
+          "id": "l06-p5",
+          "type": "multipleChoice",
+          "prompt": "What is the difference between 𐑕𐑐𐑩𐑙 and 𐑧𐑯𐑟 𐑐𐑩𐑙?",
+          "options": [
+            "No difference — they mean the same thing",
+            "𐑕𐑐𐑩𐑙 specifically negates the subject role; 𐑧𐑯𐑟 𐑐𐑩𐑙 negates the idea more broadly",
+            "𐑕𐑐𐑩𐑙 is formal, 𐑧𐑯𐑟 𐑐𐑩𐑙 is informal",
+            "𐑕𐑐𐑩𐑙 is a verb form, 𐑧𐑯𐑟 𐑐𐑩𐑙 is a noun phrase"
+          ],
+          "correctIndex": 1,
+          "explanation": "𐑕𐑐𐑩𐑙 uses the operator to negate the specific subject role. 𐑧𐑯𐑟 𐑐𐑩𐑙 uses the standalone negation word to broadly negate the phrase."
+        }
+      ]
+    },
+
+    "l07": {
+      "id": "l07",
+      "unit": "unit-2",
+      "order": 7,
+      "title": "Past and future",
+      "subtitle": "Prefixes 𐑯 and 𐑛",
+      "description": "Tense is marked entirely by the verb prefix. The root word never changes — only the prefix does.",
+      "estimatedMinutes": 7,
+      "xp": 100,
+      "badge": null,
+
+      "wordIds": ["i:0014", "i:0015", "i:0040", "i:0022", "i:0047"],
+
+      "grammar": [
+        {
+          "id": "g-tense-system",
+          "title": "The tense system: 𐑥 𐑯 𐑛",
+          "body": "Three prefixes cover all simple tenses:\n\n𐑥 — present: I know\n𐑯 — past: I knew\n𐑛 — future: I will know\n\nAll three use voiced nasals and continuants, so even if you mishear one, you know it's a verb in some tense.",
+          "examples": [
+            {
+              "shavian": "𐑐𐑰 𐑥𐑩𐑒𐑑",
+              "gloss": "I know",
+              "breakdown": [
+                { "part": "𐑐𐑰", "role": "subject", "meaning": "I (subject)" },
+                { "part": "𐑥𐑩𐑒𐑑", "role": "verb-present", "meaning": "know (present)" }
+              ]
+            },
+            {
+              "shavian": "𐑐𐑰 𐑯𐑩𐑒𐑑",
+              "gloss": "I knew",
+              "breakdown": [
+                { "part": "𐑐𐑰", "role": "subject", "meaning": "I (subject)" },
+                { "part": "𐑯𐑩𐑒𐑑", "role": "verb-past", "meaning": "knew (past)" }
+              ]
+            },
+            {
+              "shavian": "𐑐𐑰 𐑛𐑩𐑒𐑑",
+              "gloss": "I will know",
+              "breakdown": [
+                { "part": "𐑐𐑰", "role": "subject", "meaning": "I (subject)" },
+                { "part": "𐑛𐑩𐑒𐑑", "role": "verb-future", "meaning": "will know (future)" }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "g-negated-future",
+          "title": "Negated future: 𐑛𐑮",
+          "body": "The future tense uses 𐑮 for negation rather than 𐑕. So 'will not' is 𐑛𐑮, not 𐑕𐑛.\n\nThis is one of the few irregular forms. In the future verb slot, 𐑮 is repurposed as negation instead of plural. Context (verb position in the sentence) disambiguates.",
+          "examples": [
+            {
+              "shavian": "𐑐𐑰 𐑛𐑮𐑩𐑒𐑑",
+              "gloss": "I will not know",
+              "breakdown": [
+                { "part": "𐑐𐑰", "role": "subject", "meaning": "I (subject)" },
+                { "part": "𐑛𐑮𐑩𐑒𐑑", "role": "verb-future-neg", "meaning": "will not know" }
+              ]
+            }
+          ]
+        }
+      ],
+
+      "practice": [
+        {
+          "id": "l07-p1",
+          "type": "multipleChoice",
+          "prompt": "Which prefix marks past tense?",
+          "options": ["𐑥", "𐑯", "𐑛", "𐑚"],
+          "correctIndex": 1,
+          "explanation": "𐑯 marks past tense. 𐑥 = present, 𐑛 = future, 𐑚 = ongoing/progressive."
+        },
+        {
+          "id": "l07-p2",
+          "type": "multipleChoice",
+          "prompt": "How do you say 'I will want'?",
+          "options": ["𐑐𐑰 𐑥𐑩𐑐𐑕", "𐑐𐑰 𐑯𐑩𐑐𐑕", "𐑐𐑰 𐑛𐑩𐑐𐑕", "𐑐𐑰 𐑚𐑩𐑐𐑕"],
+          "correctIndex": 2,
+          "explanation": "𐑛 (future) + 𐑩𐑐𐑕 (want) = 𐑛𐑩𐑐𐑕. With subject 𐑐𐑰 (I): 𐑐𐑰 𐑛𐑩𐑐𐑕."
+        },
+        {
+          "id": "l07-p3",
+          "type": "multipleChoice",
+          "prompt": "How do you negate a future tense verb?",
+          "options": ["𐑕 + 𐑛 + root", "𐑛𐑮 + root", "𐑛 + 𐑕 + root", "𐑧𐑯𐑟 + 𐑛 + root"],
+          "correctIndex": 1,
+          "explanation": "Future negation uses 𐑛𐑮 (not 𐑕𐑛). So 'will not know' = 𐑛𐑮𐑩𐑒𐑑."
+        },
+        {
+          "id": "l07-p4",
+          "type": "wordMatch",
+          "prompt": "Match the verb form to its tense",
+          "pairs": [
+            { "shavian": "𐑥𐑩𐑒𐑑", "english": "knows (present)" },
+            { "shavian": "𐑯𐑩𐑒𐑑", "english": "knew (past)" },
+            { "shavian": "𐑛𐑩𐑒𐑑", "english": "will know (future)" },
+            { "shavian": "𐑕𐑥𐑩𐑒𐑑", "english": "does not know" }
+          ]
+        },
+        {
+          "id": "l07-p5",
+          "type": "multipleChoice",
+          "prompt": "What does 𐑐𐑴 𐑯𐑩𐑐𐑕 mean?",
+          "options": ["you want", "you wanted", "you will want", "you do not want"],
+          "correctIndex": 1,
+          "explanation": "𐑐𐑴 = you (subject). 𐑯𐑩𐑐𐑕 = wanted (𐑯 past + 𐑩𐑐𐑕 want). So: you wanted."
+        }
+      ]
+    },
+
+    "l08": {
+      "id": "l08",
+      "unit": "unit-2",
+      "order": 8,
+      "title": "Time words",
+      "subtitle": "The 𐑯𐑛 suffix family",
+      "description": "The 𐑯𐑛 suffix family covers time — when things happen, how long they last, and their sequence.",
+      "estimatedMinutes": 7,
+      "xp": 100,
+      "badge": null,
+      "wordIds": ["i:0006", "i:0007", "i:0016", "i:0026", "i:0034", "i:0042", "i:0160"],
+      "grammar": [
+        {
+          "id": "g-time-family",
+          "title": "The 𐑯𐑛 time family",
+          "body": "All words ending in 𐑯𐑛 deal with time in the abstract — when something happens, how long it lasts, and sequencing. These are different from clock time (that comes in the Time — Measurement & Cycles group).\n\nTime words often appear without prefixes when used as sentence-level markers.",
+          "examples": [
+            {
+              "shavian": "𐑩𐑯𐑛 𐑐𐑰 𐑥𐑩𐑒𐑑",
+              "gloss": "when I know",
+              "breakdown": [
+                { "part": "𐑩𐑯𐑛", "role": "word", "meaning": "when / at the time" },
+                { "part": "𐑐𐑰", "role": "subject", "meaning": "I (subject)" },
+                { "part": "𐑥𐑩𐑒𐑑", "role": "verb-present", "meaning": "know (present)" }
+              ]
+            }
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "id": "l08-p1",
+          "type": "multipleChoice",
+          "prompt": "What suffix family covers abstract time concepts?",
+          "options": ["𐑯𐑑", "𐑯𐑛", "𐑯𐑟", "𐑛𐑟"],
+          "correctIndex": 1,
+          "explanation": "𐑯𐑛 is the time — abstract & sequence family."
+        },
+        {
+          "id": "l08-p2",
+          "type": "wordMatch",
+          "prompt": "Match the time word to its meaning",
+          "pairs": [
+            { "shavian": "𐑩𐑯𐑛", "english": "when / at the time" },
+            { "shavian": "𐑦𐑯𐑛", "english": "future / next / soon" },
+            { "shavian": "𐑧𐑯𐑛", "english": "before / after / relative time" },
+            { "shavian": "𐑲𐑯𐑛", "english": "soon / immediately" }
+          ]
+        },
+        {
+          "id": "l08-p3",
+          "type": "multipleChoice",
+          "prompt": "What does 𐑨𐑯𐑛 mean?",
+          "options": ["when", "future", "duration / period / span", "soon"],
+          "correctIndex": 2,
+          "explanation": "𐑨𐑯𐑛 means duration, period, or span — how long something lasts."
+        },
+        {
+          "id": "l08-p4",
+          "type": "multipleChoice",
+          "prompt": "What does 𐑰𐑯𐑛 mean?",
+          "options": ["era / stage", "moment / instant / point in time", "duration", "immediately"],
+          "correctIndex": 1,
+          "explanation": "𐑰𐑯𐑛 means moment, instant, or a specific point in time."
+        },
+        {
+          "id": "l08-p5",
+          "type": "multipleChoice",
+          "prompt": "How would you say 'soon, I will speak'?",
+          "options": [
+            "𐑐𐑰 𐑛𐑦𐑯𐑑𐑕 𐑲𐑯𐑛",
+            "𐑲𐑯𐑛 𐑐𐑰 𐑛𐑦𐑯𐑑𐑕",
+            "𐑐𐑰 𐑲𐑯𐑛 𐑥𐑦𐑯𐑑𐑕",
+            "𐑲𐑯𐑛 𐑐𐑰 𐑯𐑦𐑯𐑑𐑕"
+          ],
+          "correctIndex": 1,
+          "explanation": "𐑲𐑯𐑛 (soon) + 𐑐𐑰 (I, subject) + 𐑛𐑦𐑯𐑑𐑕 (will speak, future). Word order is flexible, so 𐑲𐑯𐑛 can come first."
+        }
+      ]
+    },
+
+    "l09": {
+      "id": "l09",
+      "unit": "unit-2",
+      "order": 9,
+      "title": "Logic and connectives",
+      "subtitle": "The 𐑯𐑟 suffix family",
+      "description": "The 𐑯𐑟 family handles logical relationships — of, not, because, condition, and more.",
+      "estimatedMinutes": 8,
+      "xp": 100,
+      "badge": null,
+      "wordIds": ["i:0005", "i:0011", "i:0013", "i:0020", "i:0062", "i:0111", "i:0168"],
+      "grammar": [
+        {
+          "id": "g-logic-family",
+          "title": "The 𐑯𐑟 logic family",
+          "body": "The 𐑯𐑟 suffix family covers logical connectives — the words that link ideas. You already know 𐑧𐑯𐑟 (not) from L6. This family includes of/between, yet/still, condition, because, and then.\n\nThese words often appear without prefixes, serving as sentence-level connectors.",
+          "examples": [
+            {
+              "shavian": "𐑐𐑰 𐑥𐑩𐑒𐑑 𐑨𐑯𐑟 𐑑𐑦𐑙",
+              "gloss": "I must know this",
+              "breakdown": [
+                { "part": "𐑐𐑰", "role": "subject", "meaning": "I (subject)" },
+                { "part": "𐑥𐑩𐑒𐑑", "role": "verb-present", "meaning": "know (present)" },
+                { "part": "𐑨𐑯𐑟", "role": "word", "meaning": "condition / must" },
+                { "part": "𐑑𐑦𐑙", "role": "object", "meaning": "this (object)" }
+              ]
+            }
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "id": "l09-p1",
+          "type": "wordMatch",
+          "prompt": "Match the logic word to its meaning",
+          "pairs": [
+            { "shavian": "𐑩𐑯𐑟", "english": "of / between / relating" },
+            { "shavian": "𐑦𐑯𐑟", "english": "yet / still / nevertheless" },
+            { "shavian": "𐑧𐑯𐑟", "english": "not / no / negate" },
+            { "shavian": "𐑨𐑯𐑟", "english": "condition / must" }
+          ]
+        },
+        {
+          "id": "l09-p2",
+          "type": "multipleChoice",
+          "prompt": "What does 𐑲𐑯𐑟 mean?",
+          "options": ["yet / still", "because / since", "then / next", "none / nothing"],
+          "correctIndex": 1,
+          "explanation": "𐑲𐑯𐑟 means because, since, or for — it introduces a reason."
+        },
+        {
+          "id": "l09-p3",
+          "type": "multipleChoice",
+          "prompt": "What does 𐑰𐑯𐑟 mean?",
+          "options": ["because", "none / nothing", "then / next / but", "condition"],
+          "correctIndex": 2,
+          "explanation": "𐑰𐑯𐑟 means then, next, or but — it marks sequence or contrast."
+        },
+        {
+          "id": "l09-p4",
+          "type": "multipleChoice",
+          "prompt": "How would you say 'I know, but I do not want'?",
+          "options": [
+            "𐑐𐑰 𐑥𐑩𐑒𐑑 𐑦𐑯𐑟 𐑕𐑥𐑩𐑐𐑕",
+            "𐑐𐑰 𐑥𐑩𐑒𐑑 𐑧𐑯𐑟 𐑕𐑥𐑩𐑐𐑕",
+            "𐑐𐑰 𐑥𐑩𐑒𐑑 𐑨𐑯𐑟 𐑕𐑥𐑩𐑐𐑕",
+            "𐑐𐑰 𐑯𐑩𐑒𐑑 𐑦𐑯𐑟 𐑕𐑥𐑩𐑐𐑕"
+          ],
+          "correctIndex": 0,
+          "explanation": "𐑦𐑯𐑟 means yet / still / nevertheless — it introduces a contrast. 𐑐𐑰 𐑥𐑩𐑒𐑑 (I know) 𐑦𐑯𐑟 (yet) 𐑕𐑥𐑩𐑐𐑕 (do not want)."
+        },
+        {
+          "id": "l09-p5",
+          "type": "multipleChoice",
+          "prompt": "𐑩𐑯𐑟 (of / between / relating) is used to show...",
+          "options": ["Time sequence", "Logical relationship or belonging", "Negation", "Emotion"],
+          "correctIndex": 1,
+          "explanation": "𐑩𐑯𐑟 shows a logical relationship — belonging, connection, or relevance between two things."
+        }
+      ]
+    },
+
+    "l10": {
+      "id": "l10",
+      "unit": "unit-2",
+      "order": 10,
+      "title": "Modifiers",
+      "subtitle": "Prefix 𐑖 — adjectives and adverbs",
+      "description": "The prefix 𐑖 turns any root into a modifier. Whether it reads as an adjective or adverb depends entirely on what it sits next to.",
+      "estimatedMinutes": 7,
+      "xp": 100,
+      "badge": null,
+      "wordIds": ["i:0023", "i:0027", "i:0052", "i:0074", "i:0115", "i:0018"],
+      "grammar": [
+        {
+          "id": "g-modifier-prefix",
+          "title": "The modifier prefix 𐑖",
+          "body": "𐑖 is the only modifier prefix. One prefix covers both adjectives and adverbs — position determines which reading applies.\n\n𐑖 before a noun = adjective ('big dog')\n𐑖 before a verb = adverb ('runs quickly')\n\nThe negated form is 𐑠, not 𐑕𐑖 — 𐑠 is its own dedicated sound for negated modifiers.",
+          "examples": [
+            {
+              "shavian": "𐑐𐑦𐑥𐑟 𐑩𐑙",
+              "gloss": "a big something",
+              "breakdown": [
+                { "part": "𐑐", "role": "prefix", "meaning": "subject" },
+                { "part": "𐑦𐑥𐑟", "role": "root", "meaning": "great / big" },
+                { "part": "𐑩𐑙", "role": "root", "meaning": "someone / something" }
+              ]
+            },
+            {
+              "shavian": "𐑐𐑩𐑙 𐑥𐑩𐑒𐑑 𐑖𐑦𐑥𐑟",
+              "gloss": "someone knows greatly",
+              "breakdown": [
+                { "part": "𐑐𐑩𐑙", "role": "subject", "meaning": "someone (subject)" },
+                { "part": "𐑥𐑩𐑒𐑑", "role": "verb-present", "meaning": "knows (present)" },
+                { "part": "𐑖𐑦𐑥𐑟", "role": "modifier", "meaning": "greatly (adverb)" }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "g-modifier-adjacency",
+          "title": "Modifier adjacency rule",
+          "body": "The one hard word-order rule in thints: modifiers must be placed directly next to the word they modify.\n\nThis is enforced because without it, 𐑖𐑦𐑥𐑟 could modify anything in the sentence and the meaning would be ambiguous.",
+          "examples": []
+        }
+      ],
+      "practice": [
+        {
+          "id": "l10-p1",
+          "type": "multipleChoice",
+          "prompt": "What prefix marks a modifier (adjective or adverb)?",
+          "options": ["𐑐", "𐑥", "𐑖", "𐑑"],
+          "correctIndex": 2,
+          "explanation": "𐑖 is the modifier prefix. Same prefix for both adjectives and adverbs — position determines which."
+        },
+        {
+          "id": "l10-p2",
+          "type": "multipleChoice",
+          "prompt": "𐑖𐑦𐑥𐑟 placed before a noun reads as...",
+          "options": ["an adverb", "a verb", "an adjective", "a subject"],
+          "correctIndex": 2,
+          "explanation": "𐑖 before a noun = adjective. 𐑖 before a verb = adverb. Same word, position decides."
+        },
+        {
+          "id": "l10-p3",
+          "type": "multipleChoice",
+          "prompt": "How do you form a negated modifier (e.g. 'not big')?",
+          "options": ["𐑕𐑖 + root", "𐑖𐑕 + root", "𐑠 + root", "𐑖 + root + 𐑕"],
+          "correctIndex": 2,
+          "explanation": "𐑠 is the dedicated negated modifier prefix. It is not 𐑕 stacked onto 𐑖 — 𐑠 is its own distinct sound."
+        },
+        {
+          "id": "l10-p4",
+          "type": "wordMatch",
+          "prompt": "Match the root to its meaning",
+          "pairs": [
+            { "shavian": "𐑩𐑥𐑟", "english": "out / beyond / outside" },
+            { "shavian": "𐑦𐑥𐑟", "english": "great / big / large" },
+            { "shavian": "𐑧𐑥𐑟", "english": "all / every / whole" },
+            { "shavian": "𐑧𐑯𐑕", "english": "small / little / tiny" }
+          ]
+        },
+        {
+          "id": "l10-p5",
+          "type": "multipleChoice",
+          "prompt": "Why must modifiers be adjacent to what they modify?",
+          "options": [
+            "It is a stylistic convention",
+            "Without it, the modifier's target is ambiguous since word order is otherwise free",
+            "It makes sentences shorter",
+            "It matches English word order"
+          ],
+          "correctIndex": 1,
+          "explanation": "Because thints word order is otherwise free, the only way to know what a modifier modifies is its physical position next to the target."
+        }
+      ]
+    },
+
+    "l11": {
+      "id": "l11",
+      "unit": "unit-2",
+      "order": 11,
+      "title": "Ongoing action",
+      "subtitle": "Progressive aspect — prefix 𐑚",
+      "description": "𐑚 marks ongoing or continuous action. It covers the present progressive and is the most common aspect marker.",
+      "estimatedMinutes": 7,
+      "xp": 100,
+      "badge": null,
+      "wordIds": ["i:0014", "i:0015", "i:0040", "i:0022", "i:0047"],
+      "grammar": [
+        {
+          "id": "g-progressive",
+          "title": "Progressive aspect: 𐑚",
+          "body": "𐑚 marks an ongoing or continuous action — 'I am knowing' / 'I am wanting'. It is the present progressive by default.\n\n𐑚 alone covers the most common case. Past and future progressive use the ticked sounds (𐑮' and 𐑑') which you'll learn later.",
+          "examples": [
+            {
+              "shavian": "𐑐𐑰 𐑚𐑩𐑒𐑑",
+              "gloss": "I am knowing / I am getting to know",
+              "breakdown": [
+                { "part": "𐑐𐑰", "role": "subject", "meaning": "I (subject)" },
+                { "part": "𐑚𐑩𐑒𐑑", "role": "verb-progressive", "meaning": "knowing (ongoing present)" }
+              ]
+            },
+            {
+              "shavian": "𐑐𐑩𐑙 𐑚𐑦𐑯𐑑𐑕",
+              "gloss": "someone is speaking",
+              "breakdown": [
+                { "part": "𐑐𐑩𐑙", "role": "subject", "meaning": "someone (subject)" },
+                { "part": "𐑚𐑦𐑯𐑑𐑕", "role": "verb-progressive", "meaning": "speaking (ongoing)" }
+              ]
+            }
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "id": "l11-p1",
+          "type": "multipleChoice",
+          "prompt": "What does the prefix 𐑚 mark?",
+          "options": ["Past tense", "Future tense", "Ongoing / progressive action", "Negation"],
+          "correctIndex": 2,
+          "explanation": "𐑚 marks progressive aspect — ongoing or continuous action."
+        },
+        {
+          "id": "l11-p2",
+          "type": "multipleChoice",
+          "prompt": "What is the difference between 𐑥𐑩𐑒𐑑 and 𐑚𐑩𐑒𐑑?",
+          "options": [
+            "No difference",
+            "𐑥𐑩𐑒𐑑 is 'knows' (simple present); 𐑚𐑩𐑒𐑑 is 'is knowing' (ongoing)",
+            "𐑥𐑩𐑒𐑑 is formal; 𐑚𐑩𐑒𐑑 is informal",
+            "𐑥𐑩𐑒𐑑 is past; 𐑚𐑩𐑒𐑑 is present"
+          ],
+          "correctIndex": 1,
+          "explanation": "𐑥𐑩𐑒𐑑 = knows (simple present). 𐑚𐑩𐑒𐑑 = is knowing / in the process of knowing (progressive)."
+        },
+        {
+          "id": "l11-p3",
+          "type": "multipleChoice",
+          "prompt": "How do you say 'I am not speaking'?",
+          "options": ["𐑐𐑰 𐑕𐑚𐑦𐑯𐑑𐑕", "𐑐𐑰 𐑚𐑮𐑦𐑯𐑑𐑕", "𐑐𐑰 𐑚𐑦𐑯𐑑𐑕 𐑧𐑯𐑟", "𐑕𐑐𐑰 𐑚𐑦𐑯𐑑𐑕"],
+          "correctIndex": 1,
+          "explanation": "𐑚𐑮 is the negated progressive (not ongoing). 𐑚𐑮 + 𐑦𐑯𐑑𐑕 (speak) = 𐑚𐑮𐑦𐑯𐑑𐑕 (is not speaking)."
+        },
+        {
+          "id": "l11-p4",
+          "type": "multipleChoice",
+          "prompt": "𐑚 alone defaults to which tense?",
+          "options": ["Past progressive", "Present progressive", "Future progressive", "All tenses equally"],
+          "correctIndex": 1,
+          "explanation": "𐑚 alone = present progressive ('I am doing'). Past and future progressive use ticked sounds covered later."
+        },
+        {
+          "id": "l11-p5",
+          "type": "multipleChoice",
+          "prompt": "What does 𐑐𐑩𐑙 𐑚𐑩𐑐𐑕 mean?",
+          "options": ["someone wanted", "someone wants", "someone is wanting / someone is in a state of wanting", "someone will want"],
+          "correctIndex": 2,
+          "explanation": "𐑚𐑩𐑐𐑕 = is wanting (ongoing present progressive). With 𐑐𐑩𐑙 (someone, subject): someone is wanting."
+        }
+      ]
+    },
+
+    "l12": {
+      "id": "l12",
+      "unit": "unit-2",
+      "order": 12,
+      "title": "Quantity and possession",
+      "subtitle": "Prefix 𐑣",
+      "description": "𐑣 marks quantity (how many) when placed before a number, and possession (belonging to) when placed before a pronoun.",
+      "estimatedMinutes": 7,
+      "xp": 100,
+      "badge": "unit-2-complete",
+      "wordIds": ["i:0005", "i:0011", "i:0062", "i:0074", "i:0115"],
+      "grammar": [
+        {
+          "id": "g-quantity-possession",
+          "title": "Prefix 𐑣: quantity and possession",
+          "body": "𐑣 does double duty:\n\nBefore a number: quantity — 𐑣3 𐑩𐑙 = 3 somethings\nBefore a pronoun: possession — 𐑣𐑰 𐑩𐑙 = my something\n\nContext determines which reading applies — a digit after 𐑣 means quantity; a pronoun after 𐑣 means possession.",
+          "examples": [
+            {
+              "shavian": "𐑣𐑰 𐑑𐑩𐑙",
+              "gloss": "my something (possession)",
+              "breakdown": [
+                { "part": "𐑣𐑰", "role": "possession", "meaning": "my (𐑣 + 𐑰)" },
+                { "part": "𐑑𐑩𐑙", "role": "object", "meaning": "something (object)" }
+              ]
+            }
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "id": "l12-p1",
+          "type": "multipleChoice",
+          "prompt": "What does 𐑣 + a pronoun express?",
+          "options": ["Quantity", "Possession", "Negation", "Past tense"],
+          "correctIndex": 1,
+          "explanation": "𐑣 before a pronoun marks possession. 𐑣𐑰 = my, 𐑣𐑴 = your, 𐑣𐑵 = our."
+        },
+        {
+          "id": "l12-p2",
+          "type": "multipleChoice",
+          "prompt": "How would you say 'your thing'?",
+          "options": ["𐑣𐑰 𐑑𐑦𐑙", "𐑣𐑴 𐑑𐑦𐑙", "𐑣𐑵 𐑑𐑦𐑙", "𐑣𐑱 𐑑𐑦𐑙"],
+          "correctIndex": 1,
+          "explanation": "𐑣𐑴 = your (𐑣 possession + 𐑴 you). 𐑣𐑴 𐑑𐑦𐑙 = your thing."
+        },
+        {
+          "id": "l12-p3",
+          "type": "multipleChoice",
+          "prompt": "What does 𐑧𐑒𐑕 mean?",
+          "options": ["some / a bit", "each / every / all", "amount / degree", "more / extra"],
+          "correctIndex": 1,
+          "explanation": "𐑧𐑒𐑕 = each, every, all — universal quantity."
+        },
+        {
+          "id": "l12-p4",
+          "type": "wordMatch",
+          "prompt": "Match the quantity/logic word to its meaning",
+          "pairs": [
+            { "shavian": "𐑩𐑒𐑕", "english": "amount / degree / extent" },
+            { "shavian": "𐑦𐑒𐑕", "english": "some / a bit" },
+            { "shavian": "𐑧𐑒𐑕", "english": "each / every" },
+            { "shavian": "𐑨𐑥𐑟", "english": "more / extra / additional" }
+          ]
+        },
+        {
+          "id": "l12-p5",
+          "type": "multipleChoice",
+          "prompt": "𐑣 before a number vs 𐑣 before a pronoun — what is the difference?",
+          "options": [
+            "No difference — 𐑣 always means possession",
+            "Before a number = quantity; before a pronoun = possession",
+            "Before a number = possession; before a pronoun = quantity",
+            "𐑣 always means quantity"
+          ],
+          "correctIndex": 1,
+          "explanation": "𐑣 is context-sensitive: before a digit it means quantity, before a pronoun it means possession."
+        }
+      ]
+    },
+
+    "l13": {
+      "id": "l13",
+      "unit": "unit-3",
+      "order": 13,
+      "title": "Relating things",
+      "subtitle": "Relation & Causation — the 𐑥𐑐 family",
+      "description": "Words about how things relate to each other — belonging, similarity, cause, and result.",
+      "estimatedMinutes": 7,
+      "xp": 100,
+      "badge": null,
+      "wordIds": ["i:0036", "i:0041", "i:0057", "i:0111", "i:0254", "i:0346"],
+      "grammar": [
+        {
+          "id": "g-relation-family",
+          "title": "The 𐑥𐑐 relation family",
+          "body": "The 𐑥𐑐 suffix family covers how things relate — of/belonging, similar/like, solution/means, and cause/result. These words are frequently used as connectors in complex sentences.",
+          "examples": [
+            {
+              "shavian": "𐑩𐑥𐑐 𐑐𐑰",
+              "gloss": "belonging to me / of mine",
+              "breakdown": [
+                { "part": "𐑩𐑥𐑐", "role": "word", "meaning": "of / belonging to / caused by" },
+                { "part": "𐑐𐑰", "role": "subject", "meaning": "I / me" }
+              ]
+            }
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "id": "l13-p1",
+          "type": "wordMatch",
+          "prompt": "Match the relation word to its meaning",
+          "pairs": [
+            { "shavian": "𐑩𐑥𐑐", "english": "of / belonging to / caused by" },
+            { "shavian": "𐑦𐑥𐑐", "english": "similar / like / comparable" },
+            { "shavian": "𐑧𐑥𐑐", "english": "solution / means / method" },
+            { "shavian": "𐑬𐑯𐑟", "english": "therefore / so / as a result" }
+          ]
+        },
+        {
+          "id": "l13-p2",
+          "type": "multipleChoice",
+          "prompt": "What does 𐑦𐑥𐑐 mean?",
+          "options": ["of / belonging to", "similar / like / comparable", "solution / means", "therefore"],
+          "correctIndex": 1,
+          "explanation": "𐑦𐑥𐑐 = similar, like, comparable — it marks similarity or analogy."
+        },
+        {
+          "id": "l13-p3",
+          "type": "multipleChoice",
+          "prompt": "How would you say 'this is like that'?",
+          "options": [
+            "𐑐𐑦𐑙 𐑥𐑦𐑥𐑐 𐑑𐑦𐑙",
+            "𐑐𐑦𐑙 𐑦𐑥𐑐 𐑑𐑦𐑙",
+            "𐑐𐑦𐑙 𐑩𐑥𐑐 𐑑𐑦𐑙",
+            "𐑦𐑥𐑐 𐑐𐑦𐑙 𐑑𐑦𐑙"
+          ],
+          "correctIndex": 0,
+          "explanation": "𐑐𐑦𐑙 (this, subject) + 𐑥𐑦𐑥𐑐 (is similar, present verb using root 𐑦𐑥𐑐) + 𐑑𐑦𐑙 (that, object)."
+        },
+        {
+          "id": "l13-p4",
+          "type": "multipleChoice",
+          "prompt": "𐑩𐑥𐑐 expresses...",
+          "options": ["similarity", "quantity", "belonging / origin / causation", "time"],
+          "correctIndex": 2,
+          "explanation": "𐑩𐑥𐑐 covers belonging to, of, origin, and causation — the most general relation word."
+        },
+        {
+          "id": "l13-p5",
+          "type": "multipleChoice",
+          "prompt": "What does 𐑧𐑥𐑐 mean?",
+          "options": ["of / belonging to", "similar", "solution / means / method / way", "result"],
+          "correctIndex": 2,
+          "explanation": "𐑧𐑥𐑐 = solution, means, method — the way something is achieved."
+        }
+      ]
+    },
+
+    "l14": {
+      "id": "l14",
+      "unit": "unit-3",
+      "order": 14,
+      "title": "Quality and value",
+      "subtitle": "Evaluation & Morality — the 𐑑𐑕 family",
+      "description": "Words about quality, standards, and judgment — from ok to outstanding, from value to wrongness.",
+      "estimatedMinutes": 7,
+      "xp": 100,
+      "badge": null,
+      "wordIds": ["i:0018", "i:0024", "i:0078", "i:0127", "i:0166", "i:0211", "i:0222"],
+      "grammar": [
+        {
+          "id": "g-evaluation-family",
+          "title": "The 𐑑𐑕 evaluation family",
+          "body": "The 𐑑𐑕 suffix family covers evaluation and moral judgment — how good, how appropriate, how valuable something is.\n\nThis family runs from ok/acceptable through great/excellent. The vowel marks the degree and valence.",
+          "examples": []
+        }
+      ],
+      "practice": [
+        {
+          "id": "l14-p1",
+          "type": "wordMatch",
+          "prompt": "Match the evaluation word to its meaning",
+          "pairs": [
+            { "shavian": "𐑩𐑑𐑕", "english": "ok / acceptable / fine" },
+            { "shavian": "𐑦𐑑𐑕", "english": "yes / ok / agree" },
+            { "shavian": "𐑧𐑑𐑕", "english": "great / excellent" },
+            { "shavian": "𐑪𐑑𐑕", "english": "bad / wrong / unacceptable" }
+          ]
+        },
+        {
+          "id": "l14-p2",
+          "type": "multipleChoice",
+          "prompt": "What does 𐑰𐑑𐑕 mean?",
+          "options": ["ok", "quality / standard", "valuable / expensive / precious", "fair / equal"],
+          "correctIndex": 2,
+          "explanation": "𐑰𐑑𐑕 = valuable, expensive, precious — high worth."
+        },
+        {
+          "id": "l14-p3",
+          "type": "multipleChoice",
+          "prompt": "How would you say 'this is great'?",
+          "options": [
+            "𐑐𐑦𐑙 𐑥𐑧𐑑𐑕",
+            "𐑐𐑦𐑙 𐑯𐑧𐑑𐑕",
+            "𐑑𐑦𐑙 𐑥𐑧𐑑𐑕",
+            "𐑐𐑦𐑙 𐑧𐑑𐑕"
+          ],
+          "correctIndex": 0,
+          "explanation": "𐑐𐑦𐑙 (this, subject) + 𐑥𐑧𐑑𐑕 (is great, present verb from root 𐑧𐑑𐑕)."
+        },
+        {
+          "id": "l14-p4",
+          "type": "multipleChoice",
+          "prompt": "What does 𐑱𐑑𐑕 mean?",
+          "options": ["great", "bad", "valuable", "fair / equal / just"],
+          "correctIndex": 3,
+          "explanation": "𐑱𐑑𐑕 = fair, equal, just — balanced evaluation."
+        },
+        {
+          "id": "l14-p5",
+          "type": "multipleChoice",
+          "prompt": "𐑨𐑑𐑕 means...",
+          "options": ["yes", "quality / standard / grade", "bad", "ok"],
+          "correctIndex": 1,
+          "explanation": "𐑨𐑑𐑕 = quality, standard, grade — the level or measure of something's worth."
+        }
+      ]
+    },
+
+    "l15": {
+      "id": "l15",
+      "unit": "unit-3",
+      "order": 15,
+      "title": "Positive emotions",
+      "subtitle": "The 𐑛𐑟 family",
+      "description": "All positive emotions end in 𐑛𐑟. From delight to love to happiness — recognizing this suffix means you always know you're in emotional territory.",
+      "estimatedMinutes": 7,
+      "xp": 100,
+      "badge": null,
+      "wordIds": ["i:0047", "i:0051", "i:0055", "i:0080", "i:0125", "i:0183", "i:0288"],
+      "grammar": [],
+      "practice": [
+        {
+          "id": "l15-p1",
+          "type": "wordMatch",
+          "prompt": "Match the emotion to its meaning",
+          "pairs": [
+            { "shavian": "𐑩𐑛𐑟", "english": "wow / amazing / delight" },
+            { "shavian": "𐑦𐑛𐑟", "english": "happy / joy / fun" },
+            { "shavian": "𐑧𐑛𐑟", "english": "love / affection / romance" },
+            { "shavian": "𐑨𐑛𐑟", "english": "satisfied / content / pleased" }
+          ]
+        },
+        {
+          "id": "l15-p2",
+          "type": "multipleChoice",
+          "prompt": "What does 𐑱𐑛𐑟 mean?",
+          "options": ["love", "happy", "cute / charming / lovely", "friendly"],
+          "correctIndex": 2,
+          "explanation": "𐑱𐑛𐑟 = cute, charming, lovely — appealing in a soft way."
+        },
+        {
+          "id": "l15-p3",
+          "type": "multipleChoice",
+          "prompt": "How would you say 'I am happy'?",
+          "options": [
+            "𐑐𐑰 𐑦𐑛𐑟",
+            "𐑐𐑰 𐑥𐑦𐑛𐑟",
+            "𐑐𐑰 𐑯𐑦𐑛𐑟",
+            "𐑰 𐑦𐑛𐑟"
+          ],
+          "correctIndex": 1,
+          "explanation": "𐑐𐑰 (I, subject) + 𐑥𐑦𐑛𐑟 (am happy, present verb from root 𐑦𐑛𐑟)."
+        },
+        {
+          "id": "l15-p4",
+          "type": "multipleChoice",
+          "prompt": "What does 𐑰𐑛𐑟 mean?",
+          "options": ["love", "friendly", "adorable", "sweet / pleasant / delightful"],
+          "correctIndex": 3,
+          "explanation": "𐑰𐑛𐑟 = sweet, pleasant, delightful."
+        },
+        {
+          "id": "l15-p5",
+          "type": "multipleChoice",
+          "prompt": "What does the 𐑛𐑟 suffix tell you about a word before you know which one it is?",
+          "options": [
+            "It is a verb",
+            "It is about quantity",
+            "It is a positive emotion",
+            "It is about time"
+          ],
+          "correctIndex": 2,
+          "explanation": "𐑛𐑟 is the positive emotions suffix. Any word ending in 𐑛𐑟 is in that family."
+        }
+      ]
+    },
+
+    "l16": { "id": "l16", "unit": "unit-3", "order": 16, "title": "Negative emotions", "subtitle": "Negative emotion words", "description": "The counterparts to L15 — negative emotions and their vocabulary.", "estimatedMinutes": 7, "xp": 100, "badge": null, "wordIds": ["i:0064", "i:0068", "i:0085", "i:0093", "i:0113", "i:0130", "i:0174"], "grammar": [], "practice": [] },
+    "l17": { "id": "l17", "unit": "unit-3", "order": 17, "title": "Motion", "subtitle": "Motion & Movement — the 𐑖𐑑 family", "description": "Words about how things move — direction, speed, travel.", "estimatedMinutes": 7, "xp": 100, "badge": null, "wordIds": ["i:0073", "i:0076", "i:0089", "i:0104", "i:0116", "i:0135", "i:0158"], "grammar": [], "practice": [] },
+    "l18": { "id": "l18", "unit": "unit-3", "order": 18, "title": "Place and space", "subtitle": "Place & Dwelling + Axes & Dimensions", "description": "Spatial language — where things are and how they relate in space.", "estimatedMinutes": 7, "xp": 100, "badge": null, "wordIds": ["i:0039", "i:0045", "i:0075", "i:0094", "i:0119", "i:0138"], "grammar": [], "practice": [] },
+    "l19": { "id": "l19", "unit": "unit-3", "order": 19, "title": "The body", "subtitle": "Body — Basic Parts", "description": "Core vocabulary for the human body.", "estimatedMinutes": 7, "xp": 100, "badge": null, "wordIds": ["i:0177", "i:0185", "i:0196", "i:0208", "i:0219", "i:0228", "i:0237"], "grammar": [], "practice": [] },
+    "l20": { "id": "l20", "unit": "unit-3", "order": 20, "title": "Social interaction", "subtitle": "Social Interaction vocabulary", "description": "Greetings, farewells, and the words that make social exchange work.", "estimatedMinutes": 7, "xp": 100, "badge": null, "wordIds": ["i:0106", "i:0129", "i:0218", "i:0249", "i:0263", "i:0283", "i:0314"], "grammar": [], "practice": [] },
+    "l21": { "id": "l21", "unit": "unit-3", "order": 21, "title": "Work and effort", "subtitle": "Work, Effort & Outcome vocabulary", "description": "Doing things, trying, succeeding, and failing.", "estimatedMinutes": 7, "xp": 100, "badge": null, "wordIds": ["i:0048", "i:0053", "i:0069", "i:0082", "i:0101", "i:0117", "i:0134"], "grammar": [], "practice": [] },
+    "l22": { "id": "l22", "unit": "unit-3", "order": 22, "title": "Nature", "subtitle": "Nature & Elements vocabulary", "description": "The natural world — elements, living things, and natural phenomena.", "estimatedMinutes": 7, "xp": 100, "badge": "unit-3-complete", "wordIds": ["i:0144", "i:0153", "i:0162", "i:0171", "i:0184", "i:0197", "i:0209"], "grammar": [], "practice": [] },
+
+    "l23": {
+      "id": "l23",
+      "unit": "unit-4",
+      "order": 23,
+      "title": "Can, should, would",
+      "subtitle": "Modal prefixes 𐑟 𐑡 𐑜",
+      "description": "Modals express ability, obligation, and conditionality. They use voiced obstruents — acoustically verb-adjacent but distinct.",
+      "estimatedMinutes": 8,
+      "xp": 100,
+      "badge": null,
+      "wordIds": ["i:0014", "i:0015", "i:0040", "i:0022", "i:0047"],
+      "grammar": [
+        {
+          "id": "g-modals",
+          "title": "Modal prefixes: 𐑟 𐑡 𐑜",
+          "body": "Three modal prefixes:\n\n𐑟 — can / could (ability)\n𐑡 — should / must (obligation)\n𐑜 — would / conditional\n\nNegating ability (𐑟) and obligation (𐑡) uses a negative modifier word before the modal, not a stacked 𐑕 prefix. Only conditional (𐑜) takes a stacked 𐑮: 𐑜𐑮 = would not.",
+          "examples": [
+            {
+              "shavian": "𐑐𐑰 𐑟𐑩𐑒𐑑",
+              "gloss": "I can know",
+              "breakdown": [
+                { "part": "𐑐𐑰", "role": "subject", "meaning": "I (subject)" },
+                { "part": "𐑟𐑩𐑒𐑑", "role": "modal-ability", "meaning": "can know" }
+              ]
+            },
+            {
+              "shavian": "𐑐𐑰 𐑡𐑩𐑒𐑑",
+              "gloss": "I should know",
+              "breakdown": [
+                { "part": "𐑐𐑰", "role": "subject", "meaning": "I (subject)" },
+                { "part": "𐑡𐑩𐑒𐑑", "role": "modal-obligation", "meaning": "should know" }
+              ]
+            },
+            {
+              "shavian": "𐑐𐑰 𐑜𐑩𐑒𐑑",
+              "gloss": "I would know",
+              "breakdown": [
+                { "part": "𐑐𐑰", "role": "subject", "meaning": "I (subject)" },
+                { "part": "𐑜𐑩𐑒𐑑", "role": "modal-conditional", "meaning": "would know" }
+              ]
+            }
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "id": "l23-p1",
+          "type": "multipleChoice",
+          "prompt": "Which prefix means 'can / could' (ability)?",
+          "options": ["𐑡", "𐑟", "𐑜", "𐑚"],
+          "correctIndex": 1,
+          "explanation": "𐑟 = can / could. 𐑡 = should / must. 𐑜 = would / conditional."
+        },
+        {
+          "id": "l23-p2",
+          "type": "multipleChoice",
+          "prompt": "How do you say 'I would not know'?",
+          "options": ["𐑐𐑰 𐑕𐑜𐑩𐑒𐑑", "𐑐𐑰 𐑜𐑮𐑩𐑒𐑑", "𐑐𐑰 𐑜𐑧𐑯𐑟𐑩𐑒𐑑", "𐑕𐑐𐑰 𐑜𐑩𐑒𐑑"],
+          "correctIndex": 1,
+          "explanation": "Conditional negation uses 𐑜𐑮, not 𐑕𐑜. 𐑜𐑮𐑩𐑒𐑑 = would not know."
+        },
+        {
+          "id": "l23-p3",
+          "type": "multipleChoice",
+          "prompt": "To say 'I cannot speak', you use...",
+          "options": [
+            "𐑕𐑟 + root",
+            "A negative modifier word before 𐑟 + root",
+            "𐑟𐑮 + root",
+            "𐑧𐑯𐑟 + 𐑟 + root, always"
+          ],
+          "correctIndex": 1,
+          "explanation": "Ability (𐑟) and obligation (𐑡) negate with a modifier word before them, not a stacked prefix. 𐑜 is the only modal that takes a stacked negation (𐑜𐑮)."
+        },
+        {
+          "id": "l23-p4",
+          "type": "wordMatch",
+          "prompt": "Match the modal to its meaning",
+          "pairs": [
+            { "shavian": "𐑟𐑩𐑒𐑑", "english": "can know" },
+            { "shavian": "𐑡𐑩𐑒𐑑", "english": "should know" },
+            { "shavian": "𐑜𐑩𐑒𐑑", "english": "would know" },
+            { "shavian": "𐑜𐑮𐑩𐑒𐑑", "english": "would not know" }
+          ]
+        },
+        {
+          "id": "l23-p5",
+          "type": "multipleChoice",
+          "prompt": "What acoustic quality do modal prefixes 𐑟 𐑡 𐑜 share?",
+          "options": ["They are all plosive stops", "They are all voiced obstruents", "They are all nasal sounds", "They are all vowels"],
+          "correctIndex": 1,
+          "explanation": "Modal prefixes use voiced obstruents — acoustically verb-adjacent but distinct enough to be recognizable as modals."
+        }
+      ]
+    },
+
+    "l24": { "id": "l24", "unit": "unit-4", "order": 24, "title": "Commands", "subtitle": "Do! and Do not! — prefixes 𐑗 and 𐑢", "description": "The imperative — telling someone to do or not do something. Phonetically distinct from all other verb prefixes.", "estimatedMinutes": 6, "xp": 100, "badge": null, "wordIds": ["i:0040", "i:0015", "i:0014", "i:0022", "i:0047"], "grammar": [], "practice": [] },
+    "l25": { "id": "l25", "unit": "unit-4", "order": 25, "title": "Subordinate clauses", "subtitle": "Clause verb prefix 𐑓", "description": "How to embed one clause inside another — 'I know that you want...'", "estimatedMinutes": 8, "xp": 100, "badge": null, "wordIds": ["i:0014", "i:0015", "i:0040", "i:0022", "i:0006"], "grammar": [], "practice": [] },
+    "l26": { "id": "l26", "unit": "unit-4", "order": 26, "title": "Reported speech", "subtitle": "The evidential 𐑯'", "description": "Marking whether you witnessed something directly or are reporting what you heard.", "estimatedMinutes": 7, "xp": 100, "badge": null, "wordIds": ["i:0040", "i:0014", "i:0022", "i:0006", "i:0007"], "grammar": [], "practice": [] },
+    "l27": { "id": "l27", "unit": "unit-4", "order": 27, "title": "Was doing, will be doing", "subtitle": "Ticked progressive: 𐑮' 𐑑' 𐑕'", "description": "Extending the progressive to past and future tenses using ticked consonants.", "estimatedMinutes": 8, "xp": 100, "badge": null, "wordIds": ["i:0040", "i:0014", "i:0015", "i:0022", "i:0047"], "grammar": [], "practice": [] },
+    "l28": { "id": "l28", "unit": "unit-4", "order": 28, "title": "Numbers", "subtitle": "Sequence markers 𐑤 𐑘 𐑝 𐑶 𐑬", "description": "How numbers work in thints — sequence boundaries, decimals, fractions, and scale.", "estimatedMinutes": 9, "xp": 100, "badge": "unit-4-complete", "wordIds": [], "grammar": [], "practice": [] },
+
+    "l29": { "id": "l29", "unit": "unit-5", "order": 29, "title": "Complex sentences", "subtitle": "Putting it all together", "description": "Combining everything — free word order, modifier adjacency, multiple clauses, all tenses.", "estimatedMinutes": 10, "xp": 150, "badge": null, "wordIds": ["i:0001", "i:0014", "i:0040", "i:0022", "i:0006", "i:0016", "i:0111"], "grammar": [], "practice": [] },
+    "l30": { "id": "l30", "unit": "unit-5", "order": 30, "title": "Borrowed words", "subtitle": "Alias roots and 𐑔", "description": "How to bring words from other languages into thints — alias roots, the generic noun prefix, and conversation handles.", "estimatedMinutes": 8, "xp": 150, "badge": "course-complete", "wordIds": ["alias:1", "alias:2", "fw:𐑹", "fw:𐑸"], "grammar": [], "practice": [] }
+
+  }
+}
