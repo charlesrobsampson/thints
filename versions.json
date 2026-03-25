@@ -1,6 +1,6 @@
 [
   {
-    "version": "master",
-    "description": "this is currently the latest branch but it is also the one in development"
+    "version": "init",
+    "description": "this is a test to check how the version selection works"
   }
 ]
