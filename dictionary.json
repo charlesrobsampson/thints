@@ -2567,7 +2567,8 @@
       "zero",
       "null",
       "none",
-      "off"
+      "off",
+      "digit"
     ],
     "vowel": "𐑬",
     "suffix": "𐑯𐑑"
@@ -3241,7 +3242,8 @@
       "1",
       "one",
       "single",
-      "unit"
+      "unit",
+      "digit"
     ],
     "vowel": "𐑰",
     "suffix": "𐑙"
@@ -4544,7 +4546,8 @@
       "two",
       "pair",
       "double",
-      "both"
+      "both",
+      "digit"
     ],
     "vowel": "𐑫",
     "suffix": "𐑯𐑡"
@@ -5472,7 +5475,8 @@
       "5",
       "five",
       "mid",
-      "midpoint"
+      "midpoint",
+      "digit"
     ],
     "vowel": "𐑶",
     "suffix": "𐑒𐑑𐑕"
@@ -5872,7 +5876,8 @@
       "3",
       "three",
       "triple",
-      "trio"
+      "trio",
+      "digit"
     ],
     "vowel": "𐑪",
     "suffix": "𐑒𐑕"
@@ -6009,7 +6014,8 @@
     "translations": [
       "4",
       "four",
-      "quartet"
+      "quartet",
+      "digit"
     ],
     "vowel": "𐑵",
     "suffix": "𐑯𐑔"
@@ -6284,7 +6290,8 @@
       "9",
       "nine",
       "maximum",
-      "full scale"
+      "full scale",
+      "digit"
     ],
     "vowel": "𐑵",
     "suffix": "𐑥𐑟"
@@ -6532,7 +6539,8 @@
     "rank": 424,
     "translations": [
       "6",
-      "six"
+      "six",
+      "digit"
     ],
     "vowel": "𐑬",
     "suffix": "𐑑𐑕"
@@ -6682,7 +6690,8 @@
     "rank": 434,
     "translations": [
       "7",
-      "seven"
+      "seven",
+      "digit"
     ],
     "vowel": "𐑶",
     "suffix": "𐑙𐑒𐑕"
@@ -6804,7 +6813,8 @@
     "rank": 443,
     "translations": [
       "8",
-      "eight"
+      "eight",
+      "digit"
     ],
     "vowel": "𐑵",
     "suffix": "𐑯𐑗"
