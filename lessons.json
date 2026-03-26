@@ -246,7 +246,7 @@
       "order": 2,
       "title": "The glue words",
       "subtitle": "Single-vowel reserved words",
-      "description": "Fourteen single-vowel words do enormous work in thints. They never take a prefix or suffix — they are their own complete words.",
+      "description": "Fourteen single-vowel words do enormous work in thints. They can take a prefix and be used like all other words. However, they have powerful functions on their own.",
       "estimatedMinutes": 8,
       "xp": 100,
       "badge": null,
