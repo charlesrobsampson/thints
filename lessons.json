@@ -102,14 +102,14 @@
         {
           "id": "g-word-structure",
           "title": "Word structure: suffix + vowel",
-          "body": "Every regular word is built from two pieces: a suffix and a vowel.\n\nThe suffix tells you the topic family — all words ending in {{prefix:verb-past-base-symbol}}{{prefix:noun-object-base-symbol}} are about existence and state. The vowel tells you which specific idea within that family.\n\nSo {{dict:i:0001.word}} (alive) and {{dict:i:0010.word}} (life) are in the same family — they're both about existence — but different vowels pick different ideas.",
+          "body": "Every regular word is built from two pieces: a suffix and a vowel.\n\nThe suffix tells you the topic family — all words ending in {{prefix:verb-past-base-symbol}}{{prefix:noun-object-base-symbol}} are about existence and state. The vowel tells you which specific idea within that family.\n\nSo {{dict:i:0001-word}} (alive) and {{dict:i:0010-word}} (life) are in the same family — they're both about existence — but different vowels pick different ideas.",
           "examples": [
             {
-              "shavian": "{{dict:i:0001.word}}",
+              "shavian": "{{dict:i:0001-word}}",
               "gloss": "alive",
               "breakdown": [
                 {
-                  "part": "{{dict:sv:𐑩.word}}",
+                  "part": "{{dict:sv:𐑩-word}}",
                   "role": "vowel",
                   "meaning": "active/operational"
                 },
@@ -121,11 +121,11 @@
               ]
             },
             {
-              "shavian": "{{dict:i:0010.word}}",
+              "shavian": "{{dict:i:0010-word}}",
               "gloss": "life",
               "breakdown": [
                 {
-                  "part": "{{dict:sv:𐑦.word}}",
+                  "part": "{{dict:sv:𐑦-word}}",
                   "role": "vowel",
                   "meaning": "living/alive"
                 },
@@ -137,11 +137,11 @@
               ]
             },
             {
-              "shavian": "{{dict:i:0054.word}}",
+              "shavian": "{{dict:i:0054-word}}",
               "gloss": "now",
               "breakdown": [
                 {
-                  "part": "{{dict:sv:𐑧.word}}",
+                  "part": "{{dict:sv:𐑧-word}}",
                   "role": "vowel",
                   "meaning": "current/present"
                 },
@@ -178,20 +178,20 @@
         {
           "id": "l01-p2",
           "type": "multipleChoice",
-          "prompt": "Which part of {{dict:i:0001.word}} tells you which specific idea it represents?",
+          "prompt": "Which part of {{dict:i:0001-word}} tells you which specific idea it represents?",
           "options": [
             "{{prefix:verb-past-base-symbol}}{{prefix:noun-object-base-symbol}} — the suffix",
-            "{{dict:sv:𐑩.word}} — the vowel",
+            "{{dict:sv:𐑩-word}} — the vowel",
             "The whole word together",
             "Neither — it is arbitrary"
           ],
           "correctIndex": 1,
-          "explanation": "The vowel {{dict:sv:𐑩.word}} picks the specific idea (alive/active) within the {{prefix:verb-past-base-symbol}}{{prefix:noun-object-base-symbol}} family. Different vowels pick different ideas in the same family."
+          "explanation": "The vowel {{dict:sv:𐑩-word}} picks the specific idea (alive/active) within the {{prefix:verb-past-base-symbol}}{{prefix:noun-object-base-symbol}} family. Different vowels pick different ideas in the same family."
         },
         {
           "id": "l01-p3",
           "type": "multipleChoice",
-          "prompt": "{{dict:i:0010.word}} and {{dict:i:0001.word}} share the same suffix {{prefix:verb-past-base-symbol}}{{prefix:noun-object-base-symbol}}. What does that tell you?",
+          "prompt": "{{dict:i:0010-word}} and {{dict:i:0001-word}} share the same suffix {{prefix:verb-past-base-symbol}}{{prefix:noun-object-base-symbol}}. What does that tell you?",
           "options": [
             "They mean the same thing",
             "They are both about existence and state",
@@ -199,7 +199,7 @@
             "They are opposites"
           ],
           "correctIndex": 1,
-          "explanation": "Same suffix means same family. {{dict:i:0010.word}} (life) and {{dict:i:0001.word}} (alive) are both in the existence & state family — different vowels, different ideas, same topic."
+          "explanation": "Same suffix means same family. {{dict:i:0010-word}} (life) and {{dict:i:0001-word}} (alive) are both in the existence & state family — different vowels, different ideas, same topic."
         },
         {
           "id": "l01-p4",
@@ -207,19 +207,19 @@
           "prompt": "Match each word to its meaning",
           "pairs": [
             {
-              "shavian": "{{dict:i:0001.word}}",
+              "shavian": "{{dict:i:0001-word}}",
               "english": "alive"
             },
             {
-              "shavian": "{{dict:i:0010.word}}",
+              "shavian": "{{dict:i:0010-word}}",
               "english": "life"
             },
             {
-              "shavian": "{{dict:i:0054.word}}",
+              "shavian": "{{dict:i:0054-word}}",
               "english": "now"
             },
             {
-              "shavian": "{{dict:i:0083.word}}",
+              "shavian": "{{dict:i:0083-word}}",
               "english": "zero / none"
             }
           ],
@@ -246,7 +246,7 @@
       "order": 2,
       "title": "The glue words",
       "subtitle": "Single-vowel reserved words",
-      "description": "Fourteen single-vowel words do enormous work in thints. They can take a prefix and be used like all other words. However, they have powerful functions on their own.",
+      "description": "Fourteen single-vowel words do enormous work in thints. They never take a prefix or suffix — they are their own complete words.",
       "estimatedMinutes": 8,
       "xp": 100,
       "badge": null,
@@ -266,47 +266,52 @@
         {
           "id": "g-reserved-words",
           "title": "Single-vowel reserved words",
-          "body": "These words are each a single Shavian vowel. They are reserved — they cannot be modified with prefixes or suffixes. They function as-is.\n\nSome are pronouns ({{dict:sv:𐑰.word}} = I, {{dict:sv:𐑴.word}} = you, {{dict:sv:𐑱.word}} = it/they, {{dict:sv:𐑵.word}} = we). Others are connectors ({{dict:sv:𐑧.word}} = and, {{dict:sv:𐑲.word}} = but, {{dict:sv:𐑨.word}} = or). Others are positional ({{dict:sv:𐑩.word}} = to/toward, {{dict:sv:𐑫.word}} = in, {{dict:sv:𐑦.word}} = if).\n\nThese are extremely high-frequency — ranks 2 through 15 in the dictionary. Mastering them gives you the skeleton of any sentence.",
+          "body": "These words are each a single Shavian vowel — {{dict:sv:𐑧-word}}, {{dict:sv:𐑰-word}}, {{dict:sv:𐑴-word}}, and so on. They have strong standalone meaning and work perfectly well without a prefix.\n\nBut like every other root in thints, they can take any prefix. The prefix simply adds grammatical precision:\n\n{{dict:sv:𐑰-word}} alone means I / me\n{{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰-word}} means I specifically as the subject\n{{prefix:noun-object-base-symbol}}{{dict:sv:𐑰-word}} means me specifically as the object\n{{prefix:verb-present-base-symbol}}{{dict:sv:𐑰-word}} means I am — using the pronoun as a verb\n\nAll words in thints are created equal — the reserved words have no special grammar restrictions, only strong default meanings.",
           "examples": [
             {
-              "shavian": "{{dict:sv:𐑰.word}} {{dict:sv:𐑧.word}} {{dict:sv:𐑴.word}}",
+              "shavian": "{{dict:sv:𐑰-word}} {{dict:sv:𐑧-word}} {{dict:sv:𐑴-word}}",
               "gloss": "I and you",
               "breakdown": [
                 {
-                  "part": "{{dict:sv:𐑰.word}}",
-                  "role": "reserved",
+                  "part": "{{dict:sv:𐑰-word}}",
+                  "role": "word",
                   "meaning": "I / me"
                 },
                 {
-                  "part": "{{dict:sv:𐑧.word}}",
-                  "role": "reserved",
+                  "part": "{{dict:sv:𐑧-word}}",
+                  "role": "word",
                   "meaning": "and"
                 },
                 {
-                  "part": "{{dict:sv:𐑴.word}}",
-                  "role": "reserved",
+                  "part": "{{dict:sv:𐑴-word}}",
+                  "role": "word",
                   "meaning": "you"
                 }
               ]
             },
             {
-              "shavian": "{{dict:sv:𐑰.word}} {{dict:sv:𐑲.word}} {{dict:sv:𐑴.word}}",
-              "gloss": "I but you",
+              "shavian": "{{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰-word}} {{prefix:verb-present-base-symbol}}{{dict:i:0014-word}}",
+              "gloss": "I know (I as explicit subject)",
               "breakdown": [
                 {
-                  "part": "{{dict:sv:𐑰.word}}",
-                  "role": "reserved",
+                  "part": "{{prefix:noun-subject-base-symbol}}",
+                  "role": "prefix",
+                  "meaning": "subject marker"
+                },
+                {
+                  "part": "{{dict:sv:𐑰-word}}",
+                  "role": "root",
                   "meaning": "I / me"
                 },
                 {
-                  "part": "{{dict:sv:𐑲.word}}",
-                  "role": "reserved",
-                  "meaning": "but / however"
+                  "part": "{{prefix:verb-present-base-symbol}}",
+                  "role": "prefix",
+                  "meaning": "present tense"
                 },
                 {
-                  "part": "{{dict:sv:𐑴.word}}",
-                  "role": "reserved",
-                  "meaning": "you"
+                  "part": "{{dict:i:0014-word}}",
+                  "role": "root",
+                  "meaning": "know"
                 }
               ]
             }
@@ -317,7 +322,7 @@
         {
           "id": "l02-p1",
           "type": "multipleChoice",
-          "prompt": "What does {{dict:sv:𐑰.word}} mean?",
+          "prompt": "What does {{dict:sv:𐑰-word}} mean?",
           "options": [
             "you",
             "we",
@@ -325,12 +330,12 @@
             "it"
           ],
           "correctIndex": 2,
-          "explanation": "{{dict:sv:𐑰.word}} is the first-person pronoun — I, me, myself, my."
+          "explanation": "{{dict:sv:𐑰-word}} is the first-person pronoun — I, me, myself, my."
         },
         {
           "id": "l02-p2",
           "type": "multipleChoice",
-          "prompt": "What does {{dict:sv:𐑧.word}} mean?",
+          "prompt": "What does {{dict:sv:𐑧-word}} mean?",
           "options": [
             "or",
             "but",
@@ -338,20 +343,20 @@
             "and"
           ],
           "correctIndex": 3,
-          "explanation": "{{dict:sv:𐑧.word}} means and, plus, also — it joins things together."
+          "explanation": "{{dict:sv:𐑧-word}} means and, plus, also — it joins things together."
         },
         {
           "id": "l02-p3",
           "type": "multipleChoice",
           "prompt": "You want to say 'you or I'. Which is correct?",
           "options": [
-            "{{dict:sv:𐑴.word}} {{dict:sv:𐑨.word}} {{dict:sv:𐑰.word}}",
-            "{{dict:sv:𐑴.word}} {{dict:sv:𐑧.word}} {{dict:sv:𐑰.word}}",
-            "{{dict:sv:𐑴.word}} {{dict:sv:𐑲.word}} {{dict:sv:𐑰.word}}",
-            "{{dict:sv:𐑴.word}} {{dict:sv:𐑦.word}} {{dict:sv:𐑰.word}}"
+            "{{dict:sv:𐑴-word}} {{dict:sv:𐑨-word}} {{dict:sv:𐑰-word}}",
+            "{{dict:sv:𐑴-word}} {{dict:sv:𐑧-word}} {{dict:sv:𐑰-word}}",
+            "{{dict:sv:𐑴-word}} {{dict:sv:𐑲-word}} {{dict:sv:𐑰-word}}",
+            "{{dict:sv:𐑴-word}} {{dict:sv:𐑦-word}} {{dict:sv:𐑰-word}}"
           ],
           "correctIndex": 0,
-          "explanation": "{{dict:sv:𐑨.word}} means or / either. {{dict:sv:𐑧.word}} means and. {{dict:sv:𐑲.word}} means but. {{dict:sv:𐑦.word}} means if."
+          "explanation": "{{dict:sv:𐑨-word}} means or / either. {{dict:sv:𐑧-word}} means and. {{dict:sv:𐑲-word}} means but. {{dict:sv:𐑦-word}} means if."
         },
         {
           "id": "l02-p4",
@@ -359,19 +364,19 @@
           "prompt": "Match each reserved word to its meaning",
           "pairs": [
             {
-              "shavian": "{{dict:sv:𐑰.word}}",
+              "shavian": "{{dict:sv:𐑰-word}}",
               "english": "I / me"
             },
             {
-              "shavian": "{{dict:sv:𐑴.word}}",
+              "shavian": "{{dict:sv:𐑴-word}}",
               "english": "you"
             },
             {
-              "shavian": "{{dict:sv:𐑵.word}}",
+              "shavian": "{{dict:sv:𐑵-word}}",
               "english": "we / us"
             },
             {
-              "shavian": "{{dict:sv:𐑱.word}}",
+              "shavian": "{{dict:sv:𐑱-word}}",
               "english": "it / they"
             }
           ],
@@ -380,15 +385,15 @@
         {
           "id": "l02-p5",
           "type": "multipleChoice",
-          "prompt": "Can you add a prefix to {{dict:sv:𐑰.word}} to change how it is used?",
+          "prompt": "{{dict:sv:𐑰-word}} alone means 'I / me'. What does {{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰-word}} mean?",
           "options": [
-            "Yes — prefixes apply to all words",
-            "No — single-vowel reserved words never take prefixes",
-            "Only sometimes",
-            "Yes — but only in formal writing"
+            "The same thing — no difference",
+            "I specifically as the subject of the sentence",
+            "A new word unrelated to {{dict:sv:𐑰-word}}",
+            "It is invalid — reserved words cannot take prefixes"
           ],
           "correctIndex": 1,
-          "explanation": "Single-vowel reserved words are fixed. They cannot be modified with prefixes or suffixes — they work exactly as they are."
+          "explanation": "Adding {{prefix:noun-subject-base-symbol}} makes the role explicit: I as the one performing the action. All words in thints can take prefixes — reserved words just have strong standalone meaning without them."
         }
       ]
     },
@@ -423,7 +428,7 @@
           "body": "{{prefix:noun-subject-base-symbol}} marks the subject — who or what performs the action.\n\nAttach {{prefix:noun-subject-base-symbol}} to any root and you have a subject noun. The prefix comes before the root with no space.",
           "examples": [
             {
-              "shavian": "{{prefix:noun-subject-base-symbol}}{{dict:i:0002.word}}",
+              "shavian": "{{prefix:noun-subject-base-symbol}}{{dict:i:0002-word}}",
               "gloss": "someone (as subject)",
               "breakdown": [
                 {
@@ -432,14 +437,14 @@
                   "meaning": "subject"
                 },
                 {
-                  "part": "{{dict:i:0002.word}}",
+                  "part": "{{dict:i:0002-word}}",
                   "role": "root",
                   "meaning": "someone / something"
                 }
               ]
             },
             {
-              "shavian": "{{prefix:noun-subject-base-symbol}}{{dict:i:0004.word}}",
+              "shavian": "{{prefix:noun-subject-base-symbol}}{{dict:i:0004-word}}",
               "gloss": "this thing (as subject)",
               "breakdown": [
                 {
@@ -448,7 +453,7 @@
                   "meaning": "subject"
                 },
                 {
-                  "part": "{{dict:i:0004.word}}",
+                  "part": "{{dict:i:0004-word}}",
                   "role": "root",
                   "meaning": "it / this / that"
                 }
@@ -474,15 +479,15 @@
         {
           "id": "l03-p2",
           "type": "multipleChoice",
-          "prompt": "{{dict:i:0002.word}} means 'someone'. How do you say 'someone (as the subject)'?",
+          "prompt": "{{dict:i:0002-word}} means 'someone'. How do you say 'someone (as the subject)'?",
           "options": [
             "{{invalid:𐑩𐑙𐑐}}",
-            "{{prefix:noun-subject-base-symbol}}{{dict:i:0002.word}}",
+            "{{prefix:noun-subject-base-symbol}}{{dict:i:0002-word}}",
             "{{invalid:𐑩𐑐𐑙}}",
-            "{{dict:i:0002.word}} alone"
+            "{{dict:i:0002-word}} alone"
           ],
           "correctIndex": 1,
-          "explanation": "Prefixes attach to the front of the root. {{prefix:noun-subject-base-symbol}} + {{dict:i:0002.word}} = {{prefix:noun-subject-base-symbol}}{{dict:i:0002.word}}."
+          "explanation": "Prefixes attach to the front of the root. {{prefix:noun-subject-base-symbol}} + {{dict:i:0002-word}} = {{prefix:noun-subject-base-symbol}}{{dict:i:0002-word}}."
         },
         {
           "id": "l03-p3",
@@ -503,19 +508,19 @@
           "prompt": "Match the root to its meaning",
           "pairs": [
             {
-              "shavian": "{{dict:i:0002.word}}",
+              "shavian": "{{dict:i:0002-word}}",
               "english": "someone / something"
             },
             {
-              "shavian": "{{dict:i:0004.word}}",
+              "shavian": "{{dict:i:0004-word}}",
               "english": "it / this / that"
             },
             {
-              "shavian": "{{dict:i:0087.word}}",
+              "shavian": "{{dict:i:0087-word}}",
               "english": "person / individual"
             },
             {
-              "shavian": "{{dict:i:0095.word}}",
+              "shavian": "{{dict:i:0095-word}}",
               "english": "specific / particular"
             }
           ],
@@ -527,12 +532,12 @@
           "prompt": "How do you say 'a person (as the subject)'?",
           "options": [
             "{{invalid:𐑧𐑙𐑐}}",
-            "{{prefix:noun-subject-base-symbol}}{{dict:i:0087.word}}",
-            "{{dict:i:0087.word}}",
-            "{{prefix:noun-object-base-symbol}}{{dict:i:0087.word}}"
+            "{{prefix:noun-subject-base-symbol}}{{dict:i:0087-word}}",
+            "{{dict:i:0087-word}}",
+            "{{prefix:noun-object-base-symbol}}{{dict:i:0087-word}}"
           ],
           "correctIndex": 1,
-          "explanation": "{{prefix:noun-subject-base-symbol}} (subject prefix) + {{dict:i:0087.word}} (person) = {{prefix:noun-subject-base-symbol}}{{dict:i:0087.word}}."
+          "explanation": "{{prefix:noun-subject-base-symbol}} (subject prefix) + {{dict:i:0087-word}} (person) = {{prefix:noun-subject-base-symbol}}{{dict:i:0087-word}}."
         }
       ]
     },
@@ -560,48 +565,48 @@
           "body": "{{prefix:verb-present-base-symbol}} marks a verb in present tense. The same root that was a subject noun with {{prefix:noun-subject-base-symbol}} becomes a verb with {{prefix:verb-present-base-symbol}}.\n\nThis is the power of the prefix system — the root stays the same, the prefix changes the role.",
           "examples": [
             {
-              "shavian": "{{prefix:noun-subject-base-symbol}}{{dict:i:0002.word}} {{prefix:verb-present-base-symbol}}{{dict:i:0014.word}}",
+              "shavian": "{{prefix:noun-subject-base-symbol}}{{dict:i:0002-word}} {{prefix:verb-present-base-symbol}}{{dict:i:0014-word}}",
               "gloss": "someone knows",
               "breakdown": [
                 {
-                  "part": "{{prefix:noun-subject-base-symbol}}{{dict:i:0002.word}}",
+                  "part": "{{prefix:noun-subject-base-symbol}}{{dict:i:0002-word}}",
                   "role": "subject",
                   "meaning": "someone (subject)"
                 },
                 {
-                  "part": "{{prefix:verb-present-base-symbol}}{{dict:i:0014.word}}",
+                  "part": "{{prefix:verb-present-base-symbol}}{{dict:i:0014-word}}",
                   "role": "verb-present",
                   "meaning": "knows (present)"
                 }
               ]
             },
             {
-              "shavian": "{{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰.word}} {{prefix:verb-present-base-symbol}}{{dict:i:0015.word}}",
+              "shavian": "{{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰-word}} {{prefix:verb-present-base-symbol}}{{dict:i:0015-word}}",
               "gloss": "I want",
               "breakdown": [
                 {
-                  "part": "{{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰.word}}",
+                  "part": "{{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰-word}}",
                   "role": "subject",
                   "meaning": "I (as subject)"
                 },
                 {
-                  "part": "{{prefix:verb-present-base-symbol}}{{dict:i:0015.word}}",
+                  "part": "{{prefix:verb-present-base-symbol}}{{dict:i:0015-word}}",
                   "role": "verb-present",
                   "meaning": "want (present)"
                 }
               ]
             },
             {
-              "shavian": "{{prefix:noun-subject-base-symbol}}{{dict:sv:𐑴.word}} {{prefix:verb-present-base-symbol}}{{dict:i:0040.word}}",
+              "shavian": "{{prefix:noun-subject-base-symbol}}{{dict:sv:𐑴-word}} {{prefix:verb-present-base-symbol}}{{dict:i:0040-word}}",
               "gloss": "you speak",
               "breakdown": [
                 {
-                  "part": "{{prefix:noun-subject-base-symbol}}{{dict:sv:𐑴.word}}",
+                  "part": "{{prefix:noun-subject-base-symbol}}{{dict:sv:𐑴-word}}",
                   "role": "subject",
                   "meaning": "you (as subject)"
                 },
                 {
-                  "part": "{{prefix:verb-present-base-symbol}}{{dict:i:0040.word}}",
+                  "part": "{{prefix:verb-present-base-symbol}}{{dict:i:0040-word}}",
                   "role": "verb-present",
                   "meaning": "speak (present)"
                 }
@@ -633,33 +638,33 @@
         {
           "id": "l04-p2",
           "type": "multipleChoice",
-          "prompt": "How do you say 'knows' (present tense verb) using the root {{dict:i:0014.word}}?",
+          "prompt": "How do you say 'knows' (present tense verb) using the root {{dict:i:0014-word}}?",
           "options": [
             "{{invalid:𐑩𐑒𐑑𐑥}}",
-            "{{prefix:noun-subject-base-symbol}}{{dict:i:0014.word}}",
-            "{{prefix:verb-present-base-symbol}}{{dict:i:0014.word}}",
+            "{{prefix:noun-subject-base-symbol}}{{dict:i:0014-word}}",
+            "{{prefix:verb-present-base-symbol}}{{dict:i:0014-word}}",
             "{{invalid:𐑩𐑥𐑒𐑑}}"
           ],
           "correctIndex": 2,
-          "explanation": "{{prefix:verb-present-base-symbol}} (present tense) + {{dict:i:0014.word}} (know) = {{prefix:verb-present-base-symbol}}{{dict:i:0014.word}}. Prefixes always attach to the front."
+          "explanation": "{{prefix:verb-present-base-symbol}} (present tense) + {{dict:i:0014-word}} (know) = {{prefix:verb-present-base-symbol}}{{dict:i:0014-word}}. Prefixes always attach to the front."
         },
         {
           "id": "l04-p3",
           "type": "multipleChoice",
-          "prompt": "What is the difference between {{prefix:noun-subject-base-symbol}}{{dict:i:0014.word}} and {{prefix:verb-present-base-symbol}}{{dict:i:0014.word}}?",
+          "prompt": "What is the difference between {{prefix:noun-subject-base-symbol}}{{dict:i:0014-word}} and {{prefix:verb-present-base-symbol}}{{dict:i:0014-word}}?",
           "options": [
-            "{{prefix:noun-subject-base-symbol}}{{dict:i:0014.word}} is past tense, {{prefix:verb-present-base-symbol}}{{dict:i:0014.word}} is present tense",
-            "{{prefix:noun-subject-base-symbol}}{{dict:i:0014.word}} is 'knowledge' as a subject noun, {{prefix:verb-present-base-symbol}}{{dict:i:0014.word}} is 'knows' as a verb",
+            "{{prefix:noun-subject-base-symbol}}{{dict:i:0014-word}} is past tense, {{prefix:verb-present-base-symbol}}{{dict:i:0014-word}} is present tense",
+            "{{prefix:noun-subject-base-symbol}}{{dict:i:0014-word}} is 'knowledge' as a subject noun, {{prefix:verb-present-base-symbol}}{{dict:i:0014-word}} is 'knows' as a verb",
             "They mean the same thing",
-            "{{prefix:noun-subject-base-symbol}}{{dict:i:0014.word}} is formal, {{prefix:verb-present-base-symbol}}{{dict:i:0014.word}} is informal"
+            "{{prefix:noun-subject-base-symbol}}{{dict:i:0014-word}} is formal, {{prefix:verb-present-base-symbol}}{{dict:i:0014-word}} is informal"
           ],
           "correctIndex": 1,
-          "explanation": "Same root {{dict:i:0014.word}} (knowledge/knowing), different prefixes. {{prefix:noun-subject-base-symbol}} makes it a subject noun, {{prefix:verb-present-base-symbol}} makes it a present-tense verb."
+          "explanation": "Same root {{dict:i:0014-word}} (knowledge/knowing), different prefixes. {{prefix:noun-subject-base-symbol}} makes it a subject noun, {{prefix:verb-present-base-symbol}} makes it a present-tense verb."
         },
         {
           "id": "l04-p4",
           "type": "multipleChoice",
-          "prompt": "What does {{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰.word}} {{prefix:verb-present-base-symbol}}{{dict:i:0015.word}} mean?",
+          "prompt": "What does {{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰-word}} {{prefix:verb-present-base-symbol}}{{dict:i:0015-word}} mean?",
           "options": [
             "you want",
             "I want",
@@ -667,7 +672,7 @@
             "someone wants"
           ],
           "correctIndex": 1,
-          "explanation": "{{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰.word}} = I (subject), {{prefix:verb-present-base-symbol}}{{dict:i:0015.word}} = want (present verb). So: I want."
+          "explanation": "{{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰-word}} = I (subject), {{prefix:verb-present-base-symbol}}{{dict:i:0015-word}} = want (present verb). So: I want."
         },
         {
           "id": "l04-p5",
@@ -708,21 +713,21 @@
           "body": "{{prefix:noun-object-base-symbol}} marks the direct object — who or what receives the action directly.\n\nAll noun prefixes use plosive stop sounds: {{prefix:noun-subject-base-symbol}} {{prefix:noun-object-base-symbol}} {{prefix:noun-indirect-base-symbol}} {{prefix:noun-generic-base-symbol}}. If you mishear one for another you still know it's a noun — just the role may be unclear.",
           "examples": [
             {
-              "shavian": "{{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰.word}} {{prefix:verb-present-base-symbol}}{{dict:i:0014.word}} {{prefix:noun-object-base-symbol}}{{dict:i:0004.word}}",
+              "shavian": "{{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰-word}} {{prefix:verb-present-base-symbol}}{{dict:i:0014-word}} {{prefix:noun-object-base-symbol}}{{dict:i:0004-word}}",
               "gloss": "I know this",
               "breakdown": [
                 {
-                  "part": "{{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰.word}}",
+                  "part": "{{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰-word}}",
                   "role": "subject",
                   "meaning": "I (subject)"
                 },
                 {
-                  "part": "{{prefix:verb-present-base-symbol}}{{dict:i:0014.word}}",
+                  "part": "{{prefix:verb-present-base-symbol}}{{dict:i:0014-word}}",
                   "role": "verb-present",
                   "meaning": "know (present)"
                 },
                 {
-                  "part": "{{prefix:noun-object-base-symbol}}{{dict:i:0004.word}}",
+                  "part": "{{prefix:noun-object-base-symbol}}{{dict:i:0004-word}}",
                   "role": "object",
                   "meaning": "this (object)"
                 }
@@ -736,26 +741,26 @@
           "body": "{{prefix:noun-indirect-base-symbol}} marks the indirect object — who or what benefits from or receives the result of the action.\n\nIn English: 'I gave the dog a bone' — 'the dog' is the indirect object (receives the benefit), 'a bone' is the direct object (receives the action directly).",
           "examples": [
             {
-              "shavian": "{{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰.word}} {{prefix:verb-present-base-symbol}}{{dict:i:0022.word}} {{prefix:noun-indirect-base-symbol}}{{dict:sv:𐑴.word}} {{prefix:noun-object-base-symbol}}{{dict:i:0004.word}}",
+              "shavian": "{{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰-word}} {{prefix:verb-present-base-symbol}}{{dict:i:0022-word}} {{prefix:noun-indirect-base-symbol}}{{dict:sv:𐑴-word}} {{prefix:noun-object-base-symbol}}{{dict:i:0004-word}}",
               "gloss": "I describe this to you",
               "breakdown": [
                 {
-                  "part": "{{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰.word}}",
+                  "part": "{{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰-word}}",
                   "role": "subject",
                   "meaning": "I (subject)"
                 },
                 {
-                  "part": "{{prefix:verb-present-base-symbol}}{{dict:i:0022.word}}",
+                  "part": "{{prefix:verb-present-base-symbol}}{{dict:i:0022-word}}",
                   "role": "verb-present",
                   "meaning": "describe (present)"
                 },
                 {
-                  "part": "{{prefix:noun-indirect-base-symbol}}{{dict:sv:𐑴.word}}",
+                  "part": "{{prefix:noun-indirect-base-symbol}}{{dict:sv:𐑴-word}}",
                   "role": "indirect-object",
                   "meaning": "to you (indirect object)"
                 },
                 {
-                  "part": "{{prefix:noun-object-base-symbol}}{{dict:i:0004.word}}",
+                  "part": "{{prefix:noun-object-base-symbol}}{{dict:i:0004-word}}",
                   "role": "object",
                   "meaning": "this (direct object)"
                 }
@@ -807,7 +812,7 @@
         {
           "id": "l05-p4",
           "type": "multipleChoice",
-          "prompt": "What does {{prefix:noun-object-base-symbol}}{{dict:i:0002.word}} mean?",
+          "prompt": "What does {{prefix:noun-object-base-symbol}}{{dict:i:0002-word}} mean?",
           "options": [
             "someone (subject)",
             "someone (object)",
@@ -815,7 +820,7 @@
             "someone (verb)"
           ],
           "correctIndex": 1,
-          "explanation": "{{prefix:noun-object-base-symbol}} (direct object prefix) + {{dict:i:0002.word}} (someone) = 'someone' as the direct object."
+          "explanation": "{{prefix:noun-object-base-symbol}} (direct object prefix) + {{dict:i:0002-word}} (someone) = 'someone' as the direct object."
         },
         {
           "id": "l05-p5",
@@ -837,8 +842,8 @@
       "unit": "unit-1",
       "order": 6,
       "title": "Negation",
-      "subtitle": "The operator {{prefix:operator-negation-symbol}} and the word {{dict:i:0013.word}}",
-      "description": "Two ways to negate in thints: the operator {{prefix:operator-negation-symbol}} stacks onto prefix + root, and {{dict:i:0013.word}} is the standalone negation word.",
+      "subtitle": "The operator {{prefix:operator-negation-symbol}} and the word {{dict:i:0013-word}}",
+      "description": "Two ways to negate in thints: the operator {{prefix:operator-negation-symbol}} stacks onto prefix + root, and {{dict:i:0013-word}} is the standalone negation word.",
       "estimatedMinutes": 8,
       "xp": 100,
       "badge": null,
@@ -853,10 +858,10 @@
         {
           "id": "g-negation-operator",
           "title": "The negation operator {{prefix:operator-negation-symbol}}",
-          "body": "{{prefix:operator-negation-symbol}} is an operator — it stacks onto a base prefix to add negation. It always comes first in the stack.\n\nStacking order: negation ({{prefix:operator-negation-symbol}}) + base role ({{prefix:noun-subject-base-symbol}}/{{prefix:noun-object-base-symbol}}/{{prefix:noun-indirect-base-symbol}}/{{prefix:verb-present-base-symbol}}…) + plural ({{prefix:operator-plural-symbol}} if applicable)\n\nSo {{prefix:noun-subject-negated-symbol}}{{dict:i:0002.word}} means 'not someone (as subject)' — the person doing the action is specifically not that thing.",
+          "body": "{{prefix:operator-negation-symbol}} is an operator — it stacks onto a base prefix to add negation. It always comes first in the stack.\n\nStacking order: negation ({{prefix:operator-negation-symbol}}) + base role ({{prefix:noun-subject-base-symbol}}/{{prefix:noun-object-base-symbol}}/{{prefix:noun-indirect-base-symbol}}/{{prefix:verb-present-base-symbol}}…) + plural ({{prefix:operator-plural-symbol}} if applicable)\n\nSo {{prefix:noun-subject-negated-symbol}}{{dict:i:0002-word}} means 'not someone (as subject)' — the person doing the action is specifically not that thing.",
           "examples": [
             {
-              "shavian": "{{prefix:verb-present-negated-symbol}}{{dict:i:0014.word}}",
+              "shavian": "{{prefix:verb-present-negated-symbol}}{{dict:i:0014-word}}",
               "gloss": "does not know",
               "breakdown": [
                 {
@@ -870,14 +875,14 @@
                   "meaning": "present tense"
                 },
                 {
-                  "part": "{{dict:i:0014.word}}",
+                  "part": "{{dict:i:0014-word}}",
                   "role": "root",
                   "meaning": "know"
                 }
               ]
             },
             {
-              "shavian": "{{prefix:noun-subject-negated-symbol}}{{dict:i:0002.word}}",
+              "shavian": "{{prefix:noun-subject-negated-symbol}}{{dict:i:0002-word}}",
               "gloss": "not someone (as subject)",
               "breakdown": [
                 {
@@ -891,7 +896,7 @@
                   "meaning": "subject"
                 },
                 {
-                  "part": "{{dict:i:0002.word}}",
+                  "part": "{{dict:i:0002-word}}",
                   "role": "root",
                   "meaning": "someone"
                 }
@@ -901,20 +906,20 @@
         },
         {
           "id": "g-negation-word",
-          "title": "The negation word {{dict:i:0013.word}}",
-          "body": "{{dict:i:0013.word}} is a standalone word meaning 'not / no / negate'. It belongs to the Logic & Connectives family (suffix {{prefix:verb-past-base-symbol}}{{prefix:modal-ability-base-symbol}}).\n\nUse {{dict:i:0013.word}} when you want to negate a whole idea rather than a specific prefix. It is often more natural in spoken sentences.",
+          "title": "The negation word {{dict:i:0013-word}}",
+          "body": "{{dict:i:0013-word}} is a standalone word meaning 'not / no / negate'. It belongs to the Logic & Connectives family (suffix {{prefix:verb-past-base-symbol}}{{prefix:modal-ability-base-symbol}}).\n\nUse {{dict:i:0013-word}} when you want to negate a whole idea rather than a specific prefix. It is often more natural in spoken sentences.",
           "examples": [
             {
-              "shavian": "{{dict:i:0013.word}} {{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰.word}}",
+              "shavian": "{{dict:i:0013-word}} {{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰-word}}",
               "gloss": "not me",
               "breakdown": [
                 {
-                  "part": "{{dict:i:0013.word}}",
+                  "part": "{{dict:i:0013-word}}",
                   "role": "word",
                   "meaning": "not / no"
                 },
                 {
-                  "part": "{{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰.word}}",
+                  "part": "{{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰-word}}",
                   "role": "subject",
                   "meaning": "I (subject)"
                 }
@@ -940,7 +945,7 @@
         {
           "id": "l06-p2",
           "type": "multipleChoice",
-          "prompt": "What does {{prefix:verb-present-negated-symbol}}{{dict:i:0015.word}} mean?",
+          "prompt": "What does {{prefix:verb-present-negated-symbol}}{{dict:i:0015-word}} mean?",
           "options": [
             "wants (present)",
             "does not want (negated present)",
@@ -948,7 +953,7 @@
             "will want (future)"
           ],
           "correctIndex": 1,
-          "explanation": "{{prefix:operator-negation-symbol}} (negation) + {{prefix:verb-present-base-symbol}} (present) + {{dict:i:0015.word}} (want) = does not want."
+          "explanation": "{{prefix:operator-negation-symbol}} (negation) + {{prefix:verb-present-base-symbol}} (present) + {{dict:i:0015-word}} (want) = does not want."
         },
         {
           "id": "l06-p3",
@@ -969,19 +974,19 @@
           "prompt": "Match the word to its meaning",
           "pairs": [
             {
-              "shavian": "{{dict:i:0013.word}}",
+              "shavian": "{{dict:i:0013-word}}",
               "english": "not / no"
             },
             {
-              "shavian": "{{dict:i:0018.word}}",
+              "shavian": "{{dict:i:0018-word}}",
               "english": "ok / acceptable"
             },
             {
-              "shavian": "{{dict:i:0024.word}}",
+              "shavian": "{{dict:i:0024-word}}",
               "english": "yes / agree"
             },
             {
-              "shavian": "{{dict:i:0211.word}}",
+              "shavian": "{{dict:i:0211-word}}",
               "english": "bad / wrong"
             }
           ],
@@ -990,15 +995,15 @@
         {
           "id": "l06-p5",
           "type": "multipleChoice",
-          "prompt": "What is the difference between {{prefix:noun-subject-negated-symbol}}{{dict:i:0002.word}} and {{dict:i:0013.word}} {{prefix:noun-subject-base-symbol}}{{dict:i:0002.word}}?",
+          "prompt": "What is the difference between {{prefix:noun-subject-negated-symbol}}{{dict:i:0002-word}} and {{dict:i:0013-word}} {{prefix:noun-subject-base-symbol}}{{dict:i:0002-word}}?",
           "options": [
             "No difference — they mean the same thing",
-            "{{prefix:noun-subject-negated-symbol}}{{dict:i:0002.word}} specifically negates the subject role; {{dict:i:0013.word}} {{prefix:noun-subject-base-symbol}}{{dict:i:0002.word}} negates the idea more broadly",
-            "{{prefix:noun-subject-negated-symbol}}{{dict:i:0002.word}} is formal, {{dict:i:0013.word}} {{prefix:noun-subject-base-symbol}}{{dict:i:0002.word}} is informal",
-            "{{prefix:noun-subject-negated-symbol}}{{dict:i:0002.word}} is a verb form, {{dict:i:0013.word}} {{prefix:noun-subject-base-symbol}}{{dict:i:0002.word}} is a noun phrase"
+            "{{prefix:noun-subject-negated-symbol}}{{dict:i:0002-word}} specifically negates the subject role; {{dict:i:0013-word}} {{prefix:noun-subject-base-symbol}}{{dict:i:0002-word}} negates the idea more broadly",
+            "{{prefix:noun-subject-negated-symbol}}{{dict:i:0002-word}} is formal, {{dict:i:0013-word}} {{prefix:noun-subject-base-symbol}}{{dict:i:0002-word}} is informal",
+            "{{prefix:noun-subject-negated-symbol}}{{dict:i:0002-word}} is a verb form, {{dict:i:0013-word}} {{prefix:noun-subject-base-symbol}}{{dict:i:0002-word}} is a noun phrase"
           ],
           "correctIndex": 1,
-          "explanation": "{{prefix:noun-subject-negated-symbol}}{{dict:i:0002.word}} uses the operator to negate the specific subject role. {{dict:i:0013.word}} {{prefix:noun-subject-base-symbol}}{{dict:i:0002.word}} uses the standalone negation word to broadly negate the phrase."
+          "explanation": "{{prefix:noun-subject-negated-symbol}}{{dict:i:0002-word}} uses the operator to negate the specific subject role. {{dict:i:0013-word}} {{prefix:noun-subject-base-symbol}}{{dict:i:0002-word}} uses the standalone negation word to broadly negate the phrase."
         }
       ]
     },
@@ -1026,48 +1031,48 @@
           "body": "Three prefixes cover all simple tenses:\n\n{{prefix:verb-present-base-symbol}} — present: I know\n{{prefix:verb-past-base-symbol}} — past: I knew\n{{prefix:verb-future-base-symbol}} — future: I will know\n\nAll three use voiced nasals and continuants, so even if you mishear one, you know it's a verb in some tense.",
           "examples": [
             {
-              "shavian": "{{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰.word}} {{prefix:verb-present-base-symbol}}{{dict:i:0014.word}}",
+              "shavian": "{{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰-word}} {{prefix:verb-present-base-symbol}}{{dict:i:0014-word}}",
               "gloss": "I know",
               "breakdown": [
                 {
-                  "part": "{{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰.word}}",
+                  "part": "{{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰-word}}",
                   "role": "subject",
                   "meaning": "I (subject)"
                 },
                 {
-                  "part": "{{prefix:verb-present-base-symbol}}{{dict:i:0014.word}}",
+                  "part": "{{prefix:verb-present-base-symbol}}{{dict:i:0014-word}}",
                   "role": "verb-present",
                   "meaning": "know (present)"
                 }
               ]
             },
             {
-              "shavian": "{{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰.word}} {{prefix:verb-past-base-symbol}}{{dict:i:0014.word}}",
+              "shavian": "{{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰-word}} {{prefix:verb-past-base-symbol}}{{dict:i:0014-word}}",
               "gloss": "I knew",
               "breakdown": [
                 {
-                  "part": "{{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰.word}}",
+                  "part": "{{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰-word}}",
                   "role": "subject",
                   "meaning": "I (subject)"
                 },
                 {
-                  "part": "{{prefix:verb-past-base-symbol}}{{dict:i:0014.word}}",
+                  "part": "{{prefix:verb-past-base-symbol}}{{dict:i:0014-word}}",
                   "role": "verb-past",
                   "meaning": "knew (past)"
                 }
               ]
             },
             {
-              "shavian": "{{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰.word}} {{prefix:verb-future-base-symbol}}{{dict:i:0014.word}}",
+              "shavian": "{{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰-word}} {{prefix:verb-future-base-symbol}}{{dict:i:0014-word}}",
               "gloss": "I will know",
               "breakdown": [
                 {
-                  "part": "{{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰.word}}",
+                  "part": "{{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰-word}}",
                   "role": "subject",
                   "meaning": "I (subject)"
                 },
                 {
-                  "part": "{{prefix:verb-future-base-symbol}}{{dict:i:0014.word}}",
+                  "part": "{{prefix:verb-future-base-symbol}}{{dict:i:0014-word}}",
                   "role": "verb-future",
                   "meaning": "will know (future)"
                 }
@@ -1081,16 +1086,16 @@
           "body": "The future tense uses {{prefix:operator-plural-symbol}} for negation rather than {{prefix:operator-negation-symbol}}. So 'will not' is {{prefix:verb-future-negated-symbol}}, not {{prefix:operator-negation-symbol}}{{prefix:verb-future-base-symbol}}.\n\nThis is one of the few irregular forms. In the future verb slot, {{prefix:operator-plural-symbol}} is repurposed as negation instead of plural. Context (verb position in the sentence) disambiguates.",
           "examples": [
             {
-              "shavian": "{{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰.word}} {{prefix:verb-future-negated-symbol}}{{dict:i:0014.word}}",
+              "shavian": "{{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰-word}} {{prefix:verb-future-negated-symbol}}{{dict:i:0014-word}}",
               "gloss": "I will not know",
               "breakdown": [
                 {
-                  "part": "{{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰.word}}",
+                  "part": "{{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰-word}}",
                   "role": "subject",
                   "meaning": "I (subject)"
                 },
                 {
-                  "part": "{{prefix:verb-future-negated-symbol}}{{dict:i:0014.word}}",
+                  "part": "{{prefix:verb-future-negated-symbol}}{{dict:i:0014-word}}",
                   "role": "verb-future-neg",
                   "meaning": "will not know"
                 }
@@ -1118,13 +1123,13 @@
           "type": "multipleChoice",
           "prompt": "How do you say 'I will want'?",
           "options": [
-            "{{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰.word}} {{prefix:verb-present-base-symbol}}{{dict:i:0015.word}}",
-            "{{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰.word}} {{prefix:verb-past-base-symbol}}{{dict:i:0015.word}}",
-            "{{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰.word}} {{prefix:verb-future-base-symbol}}{{dict:i:0015.word}}",
-            "{{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰.word}} {{prefix:verb-progressive-base-symbol}}{{dict:i:0015.word}}"
+            "{{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰-word}} {{prefix:verb-present-base-symbol}}{{dict:i:0015-word}}",
+            "{{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰-word}} {{prefix:verb-past-base-symbol}}{{dict:i:0015-word}}",
+            "{{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰-word}} {{prefix:verb-future-base-symbol}}{{dict:i:0015-word}}",
+            "{{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰-word}} {{prefix:verb-progressive-base-symbol}}{{dict:i:0015-word}}"
           ],
           "correctIndex": 2,
-          "explanation": "{{prefix:verb-future-base-symbol}} (future) + {{dict:i:0015.word}} (want) = {{prefix:verb-future-base-symbol}}{{dict:i:0015.word}}. With subject {{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰.word}} (I): {{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰.word}} {{prefix:verb-future-base-symbol}}{{dict:i:0015.word}}."
+          "explanation": "{{prefix:verb-future-base-symbol}} (future) + {{dict:i:0015-word}} (want) = {{prefix:verb-future-base-symbol}}{{dict:i:0015-word}}. With subject {{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰-word}} (I): {{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰-word}} {{prefix:verb-future-base-symbol}}{{dict:i:0015-word}}."
         },
         {
           "id": "l07-p3",
@@ -1134,10 +1139,10 @@
             "{{prefix:operator-negation-symbol}} + {{prefix:verb-future-base-symbol}} + root",
             "{{prefix:verb-future-negated-symbol}} + root",
             "{{prefix:verb-future-base-symbol}} + {{prefix:operator-negation-symbol}} + root",
-            "{{dict:i:0013.word}} + {{prefix:verb-future-base-symbol}} + root"
+            "{{dict:i:0013-word}} + {{prefix:verb-future-base-symbol}} + root"
           ],
           "correctIndex": 1,
-          "explanation": "Future negation uses {{prefix:verb-future-negated-symbol}} (not {{prefix:operator-negation-symbol}}{{prefix:verb-future-base-symbol}}). So 'will not know' = {{prefix:verb-future-negated-symbol}}{{dict:i:0014.word}}."
+          "explanation": "Future negation uses {{prefix:verb-future-negated-symbol}} (not {{prefix:operator-negation-symbol}}{{prefix:verb-future-base-symbol}}). So 'will not know' = {{prefix:verb-future-negated-symbol}}{{dict:i:0014-word}}."
         },
         {
           "id": "l07-p4",
@@ -1145,19 +1150,19 @@
           "prompt": "Match the verb form to its tense",
           "pairs": [
             {
-              "shavian": "{{prefix:verb-present-base-symbol}}{{dict:i:0014.word}}",
+              "shavian": "{{prefix:verb-present-base-symbol}}{{dict:i:0014-word}}",
               "english": "knows (present)"
             },
             {
-              "shavian": "{{prefix:verb-past-base-symbol}}{{dict:i:0014.word}}",
+              "shavian": "{{prefix:verb-past-base-symbol}}{{dict:i:0014-word}}",
               "english": "knew (past)"
             },
             {
-              "shavian": "{{prefix:verb-future-base-symbol}}{{dict:i:0014.word}}",
+              "shavian": "{{prefix:verb-future-base-symbol}}{{dict:i:0014-word}}",
               "english": "will know (future)"
             },
             {
-              "shavian": "{{prefix:verb-present-negated-symbol}}{{dict:i:0014.word}}",
+              "shavian": "{{prefix:verb-present-negated-symbol}}{{dict:i:0014-word}}",
               "english": "does not know"
             }
           ],
@@ -1166,7 +1171,7 @@
         {
           "id": "l07-p5",
           "type": "multipleChoice",
-          "prompt": "What does {{prefix:noun-subject-base-symbol}}{{dict:sv:𐑴.word}} {{prefix:verb-past-base-symbol}}{{dict:i:0015.word}} mean?",
+          "prompt": "What does {{prefix:noun-subject-base-symbol}}{{dict:sv:𐑴-word}} {{prefix:verb-past-base-symbol}}{{dict:i:0015-word}} mean?",
           "options": [
             "you want",
             "you wanted",
@@ -1174,7 +1179,7 @@
             "you do not want"
           ],
           "correctIndex": 1,
-          "explanation": "{{prefix:noun-subject-base-symbol}}{{dict:sv:𐑴.word}} = you (subject). {{prefix:verb-past-base-symbol}}{{dict:i:0015.word}} = wanted ({{prefix:verb-past-base-symbol}} past + {{dict:i:0015.word}} want). So: you wanted."
+          "explanation": "{{prefix:noun-subject-base-symbol}}{{dict:sv:𐑴-word}} = you (subject). {{prefix:verb-past-base-symbol}}{{dict:i:0015-word}} = wanted ({{prefix:verb-past-base-symbol}} past + {{dict:i:0015-word}} want). So: you wanted."
         }
       ]
     },
@@ -1204,21 +1209,21 @@
           "body": "All words ending in {{prefix:verb-past-base-symbol}}{{prefix:verb-future-base-symbol}} deal with time in the abstract — when something happens, how long it lasts, and sequencing. These are different from clock time (that comes in the Time — Measurement & Cycles group).\n\nTime words often appear without prefixes when used as sentence-level markers.",
           "examples": [
             {
-              "shavian": "{{dict:i:0006.word}} {{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰.word}} {{prefix:verb-present-base-symbol}}{{dict:i:0014.word}}",
+              "shavian": "{{dict:i:0006-word}} {{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰-word}} {{prefix:verb-present-base-symbol}}{{dict:i:0014-word}}",
               "gloss": "when I know",
               "breakdown": [
                 {
-                  "part": "{{dict:i:0006.word}}",
+                  "part": "{{dict:i:0006-word}}",
                   "role": "word",
                   "meaning": "when / at the time"
                 },
                 {
-                  "part": "{{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰.word}}",
+                  "part": "{{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰-word}}",
                   "role": "subject",
                   "meaning": "I (subject)"
                 },
                 {
-                  "part": "{{prefix:verb-present-base-symbol}}{{dict:i:0014.word}}",
+                  "part": "{{prefix:verb-present-base-symbol}}{{dict:i:0014-word}}",
                   "role": "verb-present",
                   "meaning": "know (present)"
                 }
@@ -1247,19 +1252,19 @@
           "prompt": "Match the time word to its meaning",
           "pairs": [
             {
-              "shavian": "{{dict:i:0006.word}}",
+              "shavian": "{{dict:i:0006-word}}",
               "english": "when / at the time"
             },
             {
-              "shavian": "{{dict:i:0007.word}}",
+              "shavian": "{{dict:i:0007-word}}",
               "english": "future / next / soon"
             },
             {
-              "shavian": "{{dict:i:0016.word}}",
+              "shavian": "{{dict:i:0016-word}}",
               "english": "before / after / relative time"
             },
             {
-              "shavian": "{{dict:i:0042.word}}",
+              "shavian": "{{dict:i:0042-word}}",
               "english": "soon / immediately"
             }
           ],
@@ -1268,7 +1273,7 @@
         {
           "id": "l08-p3",
           "type": "multipleChoice",
-          "prompt": "What does {{dict:i:0026.word}} mean?",
+          "prompt": "What does {{dict:i:0026-word}} mean?",
           "options": [
             "when",
             "future",
@@ -1276,12 +1281,12 @@
             "soon"
           ],
           "correctIndex": 2,
-          "explanation": "{{dict:i:0026.word}} means duration, period, or span — how long something lasts."
+          "explanation": "{{dict:i:0026-word}} means duration, period, or span — how long something lasts."
         },
         {
           "id": "l08-p4",
           "type": "multipleChoice",
-          "prompt": "What does {{dict:i:0160.word}} mean?",
+          "prompt": "What does {{dict:i:0160-word}} mean?",
           "options": [
             "era / stage",
             "moment / instant / point in time",
@@ -1289,20 +1294,20 @@
             "immediately"
           ],
           "correctIndex": 1,
-          "explanation": "{{dict:i:0160.word}} means moment, instant, or a specific point in time."
+          "explanation": "{{dict:i:0160-word}} means moment, instant, or a specific point in time."
         },
         {
           "id": "l08-p5",
           "type": "multipleChoice",
           "prompt": "How would you say 'soon, I will speak'?",
           "options": [
-            "{{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰.word}} {{prefix:verb-future-base-symbol}}{{dict:i:0040.word}} {{dict:i:0042.word}}",
-            "{{dict:i:0042.word}} {{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰.word}} {{prefix:verb-future-base-symbol}}{{dict:i:0040.word}}",
-            "{{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰.word}} {{dict:i:0042.word}} {{prefix:verb-present-base-symbol}}{{dict:i:0040.word}}",
-            "{{dict:i:0042.word}} {{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰.word}} {{prefix:verb-past-base-symbol}}{{dict:i:0040.word}}"
+            "{{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰-word}} {{prefix:verb-future-base-symbol}}{{dict:i:0040-word}} {{dict:i:0042-word}}",
+            "{{dict:i:0042-word}} {{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰-word}} {{prefix:verb-future-base-symbol}}{{dict:i:0040-word}}",
+            "{{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰-word}} {{dict:i:0042-word}} {{prefix:verb-present-base-symbol}}{{dict:i:0040-word}}",
+            "{{dict:i:0042-word}} {{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰-word}} {{prefix:verb-past-base-symbol}}{{dict:i:0040-word}}"
           ],
           "correctIndex": 1,
-          "explanation": "{{dict:i:0042.word}} (soon) + {{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰.word}} (I, subject) + {{prefix:verb-future-base-symbol}}{{dict:i:0040.word}} (will speak, future). Word order is flexible, so {{dict:i:0042.word}} can come first."
+          "explanation": "{{dict:i:0042-word}} (soon) + {{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰-word}} (I, subject) + {{prefix:verb-future-base-symbol}}{{dict:i:0040-word}} (will speak, future). Word order is flexible, so {{dict:i:0042-word}} can come first."
         }
       ]
     },
@@ -1329,29 +1334,29 @@
         {
           "id": "g-logic-family",
           "title": "The {{prefix:verb-past-base-symbol}}{{prefix:modal-ability-base-symbol}} logic family",
-          "body": "The {{prefix:verb-past-base-symbol}}{{prefix:modal-ability-base-symbol}} suffix family covers logical connectives — the words that link ideas. You already know {{dict:i:0013.word}} (not) from L6. This family includes of/between, yet/still, condition, because, and then.\n\nThese words often appear without prefixes, serving as sentence-level connectors.",
+          "body": "The {{prefix:verb-past-base-symbol}}{{prefix:modal-ability-base-symbol}} suffix family covers logical connectives — the words that link ideas. You already know {{dict:i:0013-word}} (not) from L6. This family includes of/between, yet/still, condition, because, and then.\n\nThese words often appear without prefixes, serving as sentence-level connectors.",
           "examples": [
             {
-              "shavian": "{{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰.word}} {{prefix:verb-present-base-symbol}}{{dict:i:0014.word}} {{dict:i:0020.word}} {{prefix:noun-object-base-symbol}}{{dict:i:0004.word}}",
+              "shavian": "{{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰-word}} {{prefix:verb-present-base-symbol}}{{dict:i:0014-word}} {{dict:i:0020-word}} {{prefix:noun-object-base-symbol}}{{dict:i:0004-word}}",
               "gloss": "I must know this",
               "breakdown": [
                 {
-                  "part": "{{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰.word}}",
+                  "part": "{{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰-word}}",
                   "role": "subject",
                   "meaning": "I (subject)"
                 },
                 {
-                  "part": "{{prefix:verb-present-base-symbol}}{{dict:i:0014.word}}",
+                  "part": "{{prefix:verb-present-base-symbol}}{{dict:i:0014-word}}",
                   "role": "verb-present",
                   "meaning": "know (present)"
                 },
                 {
-                  "part": "{{dict:i:0020.word}}",
+                  "part": "{{dict:i:0020-word}}",
                   "role": "word",
                   "meaning": "condition / must"
                 },
                 {
-                  "part": "{{prefix:noun-object-base-symbol}}{{dict:i:0004.word}}",
+                  "part": "{{prefix:noun-object-base-symbol}}{{dict:i:0004-word}}",
                   "role": "object",
                   "meaning": "this (object)"
                 }
@@ -1367,19 +1372,19 @@
           "prompt": "Match the logic word to its meaning",
           "pairs": [
             {
-              "shavian": "{{dict:i:0005.word}}",
+              "shavian": "{{dict:i:0005-word}}",
               "english": "of / between / relating"
             },
             {
-              "shavian": "{{dict:i:0011.word}}",
+              "shavian": "{{dict:i:0011-word}}",
               "english": "yet / still / nevertheless"
             },
             {
-              "shavian": "{{dict:i:0013.word}}",
+              "shavian": "{{dict:i:0013-word}}",
               "english": "not / no / negate"
             },
             {
-              "shavian": "{{dict:i:0020.word}}",
+              "shavian": "{{dict:i:0020-word}}",
               "english": "condition / must"
             }
           ],
@@ -1388,7 +1393,7 @@
         {
           "id": "l09-p2",
           "type": "multipleChoice",
-          "prompt": "What does {{dict:i:0111.word}} mean?",
+          "prompt": "What does {{dict:i:0111-word}} mean?",
           "options": [
             "yet / still",
             "because / since",
@@ -1396,12 +1401,12 @@
             "none / nothing"
           ],
           "correctIndex": 1,
-          "explanation": "{{dict:i:0111.word}} means because, since, or for — it introduces a reason."
+          "explanation": "{{dict:i:0111-word}} means because, since, or for — it introduces a reason."
         },
         {
           "id": "l09-p3",
           "type": "multipleChoice",
-          "prompt": "What does {{dict:i:0168.word}} mean?",
+          "prompt": "What does {{dict:i:0168-word}} mean?",
           "options": [
             "because",
             "none / nothing",
@@ -1409,25 +1414,25 @@
             "condition"
           ],
           "correctIndex": 2,
-          "explanation": "{{dict:i:0168.word}} means then, next, or but — it marks sequence or contrast."
+          "explanation": "{{dict:i:0168-word}} means then, next, or but — it marks sequence or contrast."
         },
         {
           "id": "l09-p4",
           "type": "multipleChoice",
           "prompt": "How would you say 'I know, but I do not want'?",
           "options": [
-            "{{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰.word}} {{prefix:verb-present-base-symbol}}{{dict:i:0014.word}} {{dict:i:0011.word}} {{prefix:verb-present-negated-symbol}}{{dict:i:0015.word}}",
-            "{{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰.word}} {{prefix:verb-present-base-symbol}}{{dict:i:0014.word}} {{dict:i:0013.word}} {{prefix:verb-present-negated-symbol}}{{dict:i:0015.word}}",
-            "{{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰.word}} {{prefix:verb-present-base-symbol}}{{dict:i:0014.word}} {{dict:i:0020.word}} {{prefix:verb-present-negated-symbol}}{{dict:i:0015.word}}",
-            "{{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰.word}} {{prefix:verb-past-base-symbol}}{{dict:i:0014.word}} {{dict:i:0011.word}} {{prefix:verb-present-negated-symbol}}{{dict:i:0015.word}}"
+            "{{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰-word}} {{prefix:verb-present-base-symbol}}{{dict:i:0014-word}} {{dict:i:0011-word}} {{prefix:verb-present-negated-symbol}}{{dict:i:0015-word}}",
+            "{{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰-word}} {{prefix:verb-present-base-symbol}}{{dict:i:0014-word}} {{dict:i:0013-word}} {{prefix:verb-present-negated-symbol}}{{dict:i:0015-word}}",
+            "{{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰-word}} {{prefix:verb-present-base-symbol}}{{dict:i:0014-word}} {{dict:i:0020-word}} {{prefix:verb-present-negated-symbol}}{{dict:i:0015-word}}",
+            "{{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰-word}} {{prefix:verb-past-base-symbol}}{{dict:i:0014-word}} {{dict:i:0011-word}} {{prefix:verb-present-negated-symbol}}{{dict:i:0015-word}}"
           ],
           "correctIndex": 0,
-          "explanation": "{{dict:i:0011.word}} means yet / still / nevertheless — it introduces a contrast. {{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰.word}} {{prefix:verb-present-base-symbol}}{{dict:i:0014.word}} (I know) {{dict:i:0011.word}} (yet) {{prefix:verb-present-negated-symbol}}{{dict:i:0015.word}} (do not want)."
+          "explanation": "{{dict:i:0011-word}} means yet / still / nevertheless — it introduces a contrast. {{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰-word}} {{prefix:verb-present-base-symbol}}{{dict:i:0014-word}} (I know) {{dict:i:0011-word}} (yet) {{prefix:verb-present-negated-symbol}}{{dict:i:0015-word}} (do not want)."
         },
         {
           "id": "l09-p5",
           "type": "multipleChoice",
-          "prompt": "{{dict:i:0005.word}} (of / between / relating) is used to show...",
+          "prompt": "{{dict:i:0005-word}} (of / between / relating) is used to show...",
           "options": [
             "Time sequence",
             "Logical relationship or belonging",
@@ -1435,7 +1440,7 @@
             "Emotion"
           ],
           "correctIndex": 1,
-          "explanation": "{{dict:i:0005.word}} shows a logical relationship — belonging, connection, or relevance between two things."
+          "explanation": "{{dict:i:0005-word}} shows a logical relationship — belonging, connection, or relevance between two things."
         }
       ]
     },
@@ -1464,7 +1469,7 @@
           "body": "{{prefix:modifier-base-symbol}} is the only modifier prefix. One prefix covers both adjectives and adverbs — position determines which reading applies.\n\n{{prefix:modifier-base-symbol}} before a noun = adjective ('big dog')\n{{prefix:modifier-base-symbol}} before a verb = adverb ('runs quickly')\n\nThe negated form is {{prefix:modifier-negated-symbol}}, not {{prefix:operator-negation-symbol}}{{prefix:modifier-base-symbol}} — {{prefix:modifier-negated-symbol}} is its own dedicated sound for negated modifiers.",
           "examples": [
             {
-              "shavian": "{{prefix:noun-subject-base-symbol}}{{dict:i:0027.word}} {{dict:i:0002.word}}",
+              "shavian": "{{prefix:noun-subject-base-symbol}}{{dict:i:0027-word}} {{dict:i:0002-word}}",
               "gloss": "a big something",
               "breakdown": [
                 {
@@ -1473,33 +1478,33 @@
                   "meaning": "subject"
                 },
                 {
-                  "part": "{{dict:i:0027.word}}",
+                  "part": "{{dict:i:0027-word}}",
                   "role": "root",
                   "meaning": "great / big"
                 },
                 {
-                  "part": "{{dict:i:0002.word}}",
+                  "part": "{{dict:i:0002-word}}",
                   "role": "root",
                   "meaning": "someone / something"
                 }
               ]
             },
             {
-              "shavian": "{{prefix:noun-subject-base-symbol}}{{dict:i:0002.word}} {{prefix:verb-present-base-symbol}}{{dict:i:0014.word}} {{prefix:modifier-base-symbol}}{{dict:i:0027.word}}",
+              "shavian": "{{prefix:noun-subject-base-symbol}}{{dict:i:0002-word}} {{prefix:verb-present-base-symbol}}{{dict:i:0014-word}} {{prefix:modifier-base-symbol}}{{dict:i:0027-word}}",
               "gloss": "someone knows greatly",
               "breakdown": [
                 {
-                  "part": "{{prefix:noun-subject-base-symbol}}{{dict:i:0002.word}}",
+                  "part": "{{prefix:noun-subject-base-symbol}}{{dict:i:0002-word}}",
                   "role": "subject",
                   "meaning": "someone (subject)"
                 },
                 {
-                  "part": "{{prefix:verb-present-base-symbol}}{{dict:i:0014.word}}",
+                  "part": "{{prefix:verb-present-base-symbol}}{{dict:i:0014-word}}",
                   "role": "verb-present",
                   "meaning": "knows (present)"
                 },
                 {
-                  "part": "{{prefix:modifier-base-symbol}}{{dict:i:0027.word}}",
+                  "part": "{{prefix:modifier-base-symbol}}{{dict:i:0027-word}}",
                   "role": "modifier",
                   "meaning": "greatly (adverb)"
                 }
@@ -1510,7 +1515,7 @@
         {
           "id": "g-modifier-adjacency",
           "title": "Modifier adjacency rule",
-          "body": "The one hard word-order rule in thints: modifiers must be placed directly next to the word they modify.\n\nThis is enforced because without it, {{prefix:modifier-base-symbol}}{{dict:i:0027.word}} could modify anything in the sentence and the meaning would be ambiguous.",
+          "body": "The one hard word-order rule in thints: modifiers must be placed directly next to the word they modify.\n\nThis is enforced because without it, {{prefix:modifier-base-symbol}}{{dict:i:0027-word}} could modify anything in the sentence and the meaning would be ambiguous.",
           "examples": []
         }
       ],
@@ -1531,7 +1536,7 @@
         {
           "id": "l10-p2",
           "type": "multipleChoice",
-          "prompt": "{{prefix:modifier-base-symbol}}{{dict:i:0027.word}} placed before a noun reads as...",
+          "prompt": "{{prefix:modifier-base-symbol}}{{dict:i:0027-word}} placed before a noun reads as...",
           "options": [
             "an adverb",
             "a verb",
@@ -1560,19 +1565,19 @@
           "prompt": "Match the root to its meaning",
           "pairs": [
             {
-              "shavian": "{{dict:i:0023.word}}",
+              "shavian": "{{dict:i:0023-word}}",
               "english": "out / beyond / outside"
             },
             {
-              "shavian": "{{dict:i:0027.word}}",
+              "shavian": "{{dict:i:0027-word}}",
               "english": "great / big / large"
             },
             {
-              "shavian": "{{dict:i:0074.word}}",
+              "shavian": "{{dict:i:0074-word}}",
               "english": "all / every / whole"
             },
             {
-              "shavian": "{{dict:i:0052.word}}",
+              "shavian": "{{dict:i:0052-word}}",
               "english": "small / little / tiny"
             }
           ],
@@ -1617,32 +1622,32 @@
           "body": "{{prefix:verb-progressive-base-symbol}} marks an ongoing or continuous action — 'I am knowing' / 'I am wanting'. It is the present progressive by default.\n\n{{prefix:verb-progressive-base-symbol}} alone covers the most common case. Past and future progressive use the ticked sounds ({{prefix:verb-progressive-past-ticked-symbol}} and {{prefix:verb-progressive-future-ticked-symbol}}) which you'll learn later.",
           "examples": [
             {
-              "shavian": "{{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰.word}} {{prefix:verb-progressive-base-symbol}}{{dict:i:0014.word}}",
+              "shavian": "{{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰-word}} {{prefix:verb-progressive-base-symbol}}{{dict:i:0014-word}}",
               "gloss": "I am knowing / I am getting to know",
               "breakdown": [
                 {
-                  "part": "{{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰.word}}",
+                  "part": "{{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰-word}}",
                   "role": "subject",
                   "meaning": "I (subject)"
                 },
                 {
-                  "part": "{{prefix:verb-progressive-base-symbol}}{{dict:i:0014.word}}",
+                  "part": "{{prefix:verb-progressive-base-symbol}}{{dict:i:0014-word}}",
                   "role": "verb-progressive",
                   "meaning": "knowing (ongoing present)"
                 }
               ]
             },
             {
-              "shavian": "{{prefix:noun-subject-base-symbol}}{{dict:i:0002.word}} {{prefix:verb-progressive-base-symbol}}{{dict:i:0040.word}}",
+              "shavian": "{{prefix:noun-subject-base-symbol}}{{dict:i:0002-word}} {{prefix:verb-progressive-base-symbol}}{{dict:i:0040-word}}",
               "gloss": "someone is speaking",
               "breakdown": [
                 {
-                  "part": "{{prefix:noun-subject-base-symbol}}{{dict:i:0002.word}}",
+                  "part": "{{prefix:noun-subject-base-symbol}}{{dict:i:0002-word}}",
                   "role": "subject",
                   "meaning": "someone (subject)"
                 },
                 {
-                  "part": "{{prefix:verb-progressive-base-symbol}}{{dict:i:0040.word}}",
+                  "part": "{{prefix:verb-progressive-base-symbol}}{{dict:i:0040-word}}",
                   "role": "verb-progressive",
                   "meaning": "speaking (ongoing)"
                 }
@@ -1668,28 +1673,28 @@
         {
           "id": "l11-p2",
           "type": "multipleChoice",
-          "prompt": "What is the difference between {{prefix:verb-present-base-symbol}}{{dict:i:0014.word}} and {{prefix:verb-progressive-base-symbol}}{{dict:i:0014.word}}?",
+          "prompt": "What is the difference between {{prefix:verb-present-base-symbol}}{{dict:i:0014-word}} and {{prefix:verb-progressive-base-symbol}}{{dict:i:0014-word}}?",
           "options": [
             "No difference",
-            "{{prefix:verb-present-base-symbol}}{{dict:i:0014.word}} is 'knows' (simple present); {{prefix:verb-progressive-base-symbol}}{{dict:i:0014.word}} is 'is knowing' (ongoing)",
-            "{{prefix:verb-present-base-symbol}}{{dict:i:0014.word}} is formal; {{prefix:verb-progressive-base-symbol}}{{dict:i:0014.word}} is informal",
-            "{{prefix:verb-present-base-symbol}}{{dict:i:0014.word}} is past; {{prefix:verb-progressive-base-symbol}}{{dict:i:0014.word}} is present"
+            "{{prefix:verb-present-base-symbol}}{{dict:i:0014-word}} is 'knows' (simple present); {{prefix:verb-progressive-base-symbol}}{{dict:i:0014-word}} is 'is knowing' (ongoing)",
+            "{{prefix:verb-present-base-symbol}}{{dict:i:0014-word}} is formal; {{prefix:verb-progressive-base-symbol}}{{dict:i:0014-word}} is informal",
+            "{{prefix:verb-present-base-symbol}}{{dict:i:0014-word}} is past; {{prefix:verb-progressive-base-symbol}}{{dict:i:0014-word}} is present"
           ],
           "correctIndex": 1,
-          "explanation": "{{prefix:verb-present-base-symbol}}{{dict:i:0014.word}} = knows (simple present). {{prefix:verb-progressive-base-symbol}}{{dict:i:0014.word}} = is knowing / in the process of knowing (progressive)."
+          "explanation": "{{prefix:verb-present-base-symbol}}{{dict:i:0014-word}} = knows (simple present). {{prefix:verb-progressive-base-symbol}}{{dict:i:0014-word}} = is knowing / in the process of knowing (progressive)."
         },
         {
           "id": "l11-p3",
           "type": "multipleChoice",
           "prompt": "How do you say 'I am not speaking'?",
           "options": [
-            "{{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰.word}} {{prefix:operator-negation-symbol}}{{prefix:verb-progressive-base-symbol}}{{dict:i:0040.word}}",
-            "{{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰.word}} {{prefix:verb-progressive-negated-symbol}}{{dict:i:0040.word}}",
-            "{{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰.word}} {{prefix:verb-progressive-base-symbol}}{{dict:i:0040.word}} {{dict:i:0013.word}}",
-            "{{prefix:noun-subject-negated-symbol}}{{dict:sv:𐑰.word}} {{prefix:verb-progressive-base-symbol}}{{dict:i:0040.word}}"
+            "{{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰-word}} {{prefix:operator-negation-symbol}}{{prefix:verb-progressive-base-symbol}}{{dict:i:0040-word}}",
+            "{{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰-word}} {{prefix:verb-progressive-negated-symbol}}{{dict:i:0040-word}}",
+            "{{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰-word}} {{prefix:verb-progressive-base-symbol}}{{dict:i:0040-word}} {{dict:i:0013-word}}",
+            "{{prefix:noun-subject-negated-symbol}}{{dict:sv:𐑰-word}} {{prefix:verb-progressive-base-symbol}}{{dict:i:0040-word}}"
           ],
           "correctIndex": 1,
-          "explanation": "{{prefix:verb-progressive-negated-symbol}} is the negated progressive (not ongoing). {{prefix:verb-progressive-negated-symbol}} + {{dict:i:0040.word}} (speak) = {{prefix:verb-progressive-negated-symbol}}{{dict:i:0040.word}} (is not speaking)."
+          "explanation": "{{prefix:verb-progressive-negated-symbol}} is the negated progressive (not ongoing). {{prefix:verb-progressive-negated-symbol}} + {{dict:i:0040-word}} (speak) = {{prefix:verb-progressive-negated-symbol}}{{dict:i:0040-word}} (is not speaking)."
         },
         {
           "id": "l11-p4",
@@ -1707,7 +1712,7 @@
         {
           "id": "l11-p5",
           "type": "multipleChoice",
-          "prompt": "What does {{prefix:noun-subject-base-symbol}}{{dict:i:0002.word}} {{prefix:verb-progressive-base-symbol}}{{dict:i:0015.word}} mean?",
+          "prompt": "What does {{prefix:noun-subject-base-symbol}}{{dict:i:0002-word}} {{prefix:verb-progressive-base-symbol}}{{dict:i:0015-word}} mean?",
           "options": [
             "someone wanted",
             "someone wants",
@@ -1715,7 +1720,7 @@
             "someone will want"
           ],
           "correctIndex": 2,
-          "explanation": "{{prefix:verb-progressive-base-symbol}}{{dict:i:0015.word}} = is wanting (ongoing present progressive). With {{prefix:noun-subject-base-symbol}}{{dict:i:0002.word}} (someone, subject): someone is wanting."
+          "explanation": "{{prefix:verb-progressive-base-symbol}}{{dict:i:0015-word}} = is wanting (ongoing present progressive). With {{prefix:noun-subject-base-symbol}}{{dict:i:0002-word}} (someone, subject): someone is wanting."
         }
       ]
     },
@@ -1740,19 +1745,19 @@
         {
           "id": "g-quantity-possession",
           "title": "Prefix {{prefix:quantity-base-symbol}}: quantity and possession",
-          "body": "{{prefix:quantity-base-symbol}} does double duty:\n\nBefore a number: quantity — {{prefix:quantity-base-symbol}}3 {{dict:i:0002.word}} = 3 somethings\nBefore a pronoun: possession — {{prefix:quantity-base-symbol}}{{dict:sv:𐑰.word}} {{dict:i:0002.word}} = my something\n\nContext determines which reading applies — a digit after {{prefix:quantity-base-symbol}} means quantity; a pronoun after {{prefix:quantity-base-symbol}} means possession.",
+          "body": "{{prefix:quantity-base-symbol}} does double duty:\n\nBefore a number: quantity — {{prefix:quantity-base-symbol}}3 {{dict:i:0002-word}} = 3 somethings\nBefore a pronoun: possession — {{prefix:quantity-base-symbol}}{{dict:sv:𐑰-word}} {{dict:i:0002-word}} = my something\n\nContext determines which reading applies — a digit after {{prefix:quantity-base-symbol}} means quantity; a pronoun after {{prefix:quantity-base-symbol}} means possession.",
           "examples": [
             {
-              "shavian": "{{prefix:quantity-base-symbol}}{{dict:sv:𐑰.word}} {{prefix:noun-object-base-symbol}}{{dict:i:0002.word}}",
+              "shavian": "{{prefix:quantity-base-symbol}}{{dict:sv:𐑰-word}} {{prefix:noun-object-base-symbol}}{{dict:i:0002-word}}",
               "gloss": "my something (possession)",
               "breakdown": [
                 {
-                  "part": "{{prefix:quantity-base-symbol}}{{dict:sv:𐑰.word}}",
+                  "part": "{{prefix:quantity-base-symbol}}{{dict:sv:𐑰-word}}",
                   "role": "possession",
-                  "meaning": "my ({{prefix:quantity-base-symbol}} + {{dict:sv:𐑰.word}})"
+                  "meaning": "my ({{prefix:quantity-base-symbol}} + {{dict:sv:𐑰-word}})"
                 },
                 {
-                  "part": "{{prefix:noun-object-base-symbol}}{{dict:i:0002.word}}",
+                  "part": "{{prefix:noun-object-base-symbol}}{{dict:i:0002-word}}",
                   "role": "object",
                   "meaning": "something (object)"
                 }
@@ -1773,25 +1778,25 @@
             "Past tense"
           ],
           "correctIndex": 1,
-          "explanation": "{{prefix:quantity-base-symbol}} before a pronoun marks possession. {{prefix:quantity-base-symbol}}{{dict:sv:𐑰.word}} = my, {{prefix:quantity-base-symbol}}{{dict:sv:𐑴.word}} = your, {{prefix:quantity-base-symbol}}{{dict:sv:𐑵.word}} = our."
+          "explanation": "{{prefix:quantity-base-symbol}} before a pronoun marks possession. {{prefix:quantity-base-symbol}}{{dict:sv:𐑰-word}} = my, {{prefix:quantity-base-symbol}}{{dict:sv:𐑴-word}} = your, {{prefix:quantity-base-symbol}}{{dict:sv:𐑵-word}} = our."
         },
         {
           "id": "l12-p2",
           "type": "multipleChoice",
           "prompt": "How would you say 'your thing'?",
           "options": [
-            "{{prefix:quantity-base-symbol}}{{dict:sv:𐑰.word}} {{prefix:noun-object-base-symbol}}{{dict:i:0004.word}}",
-            "{{prefix:quantity-base-symbol}}{{dict:sv:𐑴.word}} {{prefix:noun-object-base-symbol}}{{dict:i:0004.word}}",
-            "{{prefix:quantity-base-symbol}}{{dict:sv:𐑵.word}} {{prefix:noun-object-base-symbol}}{{dict:i:0004.word}}",
-            "{{prefix:quantity-base-symbol}}{{dict:sv:𐑱.word}} {{prefix:noun-object-base-symbol}}{{dict:i:0004.word}}"
+            "{{prefix:quantity-base-symbol}}{{dict:sv:𐑰-word}} {{prefix:noun-object-base-symbol}}{{dict:i:0004-word}}",
+            "{{prefix:quantity-base-symbol}}{{dict:sv:𐑴-word}} {{prefix:noun-object-base-symbol}}{{dict:i:0004-word}}",
+            "{{prefix:quantity-base-symbol}}{{dict:sv:𐑵-word}} {{prefix:noun-object-base-symbol}}{{dict:i:0004-word}}",
+            "{{prefix:quantity-base-symbol}}{{dict:sv:𐑱-word}} {{prefix:noun-object-base-symbol}}{{dict:i:0004-word}}"
           ],
           "correctIndex": 1,
-          "explanation": "{{prefix:quantity-base-symbol}}{{dict:sv:𐑴.word}} = your ({{prefix:quantity-base-symbol}} possession + {{dict:sv:𐑴.word}} you). {{prefix:quantity-base-symbol}}{{dict:sv:𐑴.word}} {{prefix:noun-object-base-symbol}}{{dict:i:0004.word}} = your thing."
+          "explanation": "{{prefix:quantity-base-symbol}}{{dict:sv:𐑴-word}} = your ({{prefix:quantity-base-symbol}} possession + {{dict:sv:𐑴-word}} you). {{prefix:quantity-base-symbol}}{{dict:sv:𐑴-word}} {{prefix:noun-object-base-symbol}}{{dict:i:0004-word}} = your thing."
         },
         {
           "id": "l12-p3",
           "type": "multipleChoice",
-          "prompt": "What does {{dict:i:0072.word}} mean?",
+          "prompt": "What does {{dict:i:0072-word}} mean?",
           "options": [
             "some / a bit",
             "each / every / all",
@@ -1799,7 +1804,7 @@
             "more / extra"
           ],
           "correctIndex": 1,
-          "explanation": "{{dict:i:0072.word}} = each, every, all — universal quantity."
+          "explanation": "{{dict:i:0072-word}} = each, every, all — universal quantity."
         },
         {
           "id": "l12-p4",
@@ -1807,19 +1812,19 @@
           "prompt": "Match the quantity/logic word to its meaning",
           "pairs": [
             {
-              "shavian": "{{dict:i:0008.word}}",
+              "shavian": "{{dict:i:0008-word}}",
               "english": "amount / degree / extent"
             },
             {
-              "shavian": "{{dict:i:0065.word}}",
+              "shavian": "{{dict:i:0065-word}}",
               "english": "some / a bit"
             },
             {
-              "shavian": "{{dict:i:0072.word}}",
+              "shavian": "{{dict:i:0072-word}}",
               "english": "each / every"
             },
             {
-              "shavian": "{{dict:i:0115.word}}",
+              "shavian": "{{dict:i:0115-word}}",
               "english": "more / extra / additional"
             }
           ],
@@ -1865,16 +1870,16 @@
           "body": "The {{prefix:verb-present-base-symbol}}{{prefix:noun-subject-base-symbol}} suffix family covers how things relate — of/belonging, similar/like, solution/means, and cause/result. These words are frequently used as connectors in complex sentences.",
           "examples": [
             {
-              "shavian": "{{dict:i:0028.word}} {{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰.word}}",
+              "shavian": "{{dict:i:0028-word}} {{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰-word}}",
               "gloss": "belonging to me / of mine",
               "breakdown": [
                 {
-                  "part": "{{dict:i:0028.word}}",
+                  "part": "{{dict:i:0028-word}}",
                   "role": "word",
                   "meaning": "of / belonging to / caused by"
                 },
                 {
-                  "part": "{{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰.word}}",
+                  "part": "{{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰-word}}",
                   "role": "subject",
                   "meaning": "I / me"
                 }
@@ -1890,19 +1895,19 @@
           "prompt": "Match the relation word to its meaning",
           "pairs": [
             {
-              "shavian": "{{dict:i:0028.word}}",
+              "shavian": "{{dict:i:0028-word}}",
               "english": "of / belonging to / caused by"
             },
             {
-              "shavian": "{{dict:i:0033.word}}",
+              "shavian": "{{dict:i:0033-word}}",
               "english": "similar / like / comparable"
             },
             {
-              "shavian": "{{dict:i:0057.word}}",
+              "shavian": "{{dict:i:0057-word}}",
               "english": "solution / means / method"
             },
             {
-              "shavian": "{{dict:i:0254.word}}",
+              "shavian": "{{dict:i:0254-word}}",
               "english": "therefore / so / as a result"
             }
           ],
@@ -1911,7 +1916,7 @@
         {
           "id": "l13-p2",
           "type": "multipleChoice",
-          "prompt": "What does {{dict:i:0033.word}} mean?",
+          "prompt": "What does {{dict:i:0033-word}} mean?",
           "options": [
             "of / belonging to",
             "similar / like / comparable",
@@ -1919,25 +1924,25 @@
             "therefore"
           ],
           "correctIndex": 1,
-          "explanation": "{{dict:i:0033.word}} = similar, like, comparable — it marks similarity or analogy."
+          "explanation": "{{dict:i:0033-word}} = similar, like, comparable — it marks similarity or analogy."
         },
         {
           "id": "l13-p3",
           "type": "multipleChoice",
           "prompt": "How would you say 'this is like that'?",
           "options": [
-            "{{prefix:noun-subject-base-symbol}}{{dict:i:0004.word}} {{prefix:verb-present-base-symbol}}{{dict:i:0033.word}} {{prefix:noun-object-base-symbol}}{{dict:i:0004.word}}",
-            "{{prefix:noun-subject-base-symbol}}{{dict:i:0004.word}} {{dict:i:0033.word}} {{prefix:noun-object-base-symbol}}{{dict:i:0004.word}}",
-            "{{prefix:noun-subject-base-symbol}}{{dict:i:0004.word}} {{dict:i:0028.word}} {{prefix:noun-object-base-symbol}}{{dict:i:0004.word}}",
-            "{{dict:i:0033.word}} {{prefix:noun-subject-base-symbol}}{{dict:i:0004.word}} {{prefix:noun-object-base-symbol}}{{dict:i:0004.word}}"
+            "{{prefix:noun-subject-base-symbol}}{{dict:i:0004-word}} {{prefix:verb-present-base-symbol}}{{dict:i:0033-word}} {{prefix:noun-object-base-symbol}}{{dict:i:0004-word}}",
+            "{{prefix:noun-subject-base-symbol}}{{dict:i:0004-word}} {{dict:i:0033-word}} {{prefix:noun-object-base-symbol}}{{dict:i:0004-word}}",
+            "{{prefix:noun-subject-base-symbol}}{{dict:i:0004-word}} {{dict:i:0028-word}} {{prefix:noun-object-base-symbol}}{{dict:i:0004-word}}",
+            "{{dict:i:0033-word}} {{prefix:noun-subject-base-symbol}}{{dict:i:0004-word}} {{prefix:noun-object-base-symbol}}{{dict:i:0004-word}}"
           ],
           "correctIndex": 0,
-          "explanation": "{{prefix:noun-subject-base-symbol}}{{dict:i:0004.word}} (this, subject) + {{prefix:verb-present-base-symbol}}{{dict:i:0033.word}} (is similar, present verb using root {{dict:i:0033.word}}) + {{prefix:noun-object-base-symbol}}{{dict:i:0004.word}} (that, object)."
+          "explanation": "{{prefix:noun-subject-base-symbol}}{{dict:i:0004-word}} (this, subject) + {{prefix:verb-present-base-symbol}}{{dict:i:0033-word}} (is similar, present verb using root {{dict:i:0033-word}}) + {{prefix:noun-object-base-symbol}}{{dict:i:0004-word}} (that, object)."
         },
         {
           "id": "l13-p4",
           "type": "multipleChoice",
-          "prompt": "{{dict:i:0028.word}} expresses...",
+          "prompt": "{{dict:i:0028-word}} expresses...",
           "options": [
             "similarity",
             "quantity",
@@ -1945,12 +1950,12 @@
             "time"
           ],
           "correctIndex": 2,
-          "explanation": "{{dict:i:0028.word}} covers belonging to, of, origin, and causation — the most general relation word."
+          "explanation": "{{dict:i:0028-word}} covers belonging to, of, origin, and causation — the most general relation word."
         },
         {
           "id": "l13-p5",
           "type": "multipleChoice",
-          "prompt": "What does {{dict:i:0057.word}} mean?",
+          "prompt": "What does {{dict:i:0057-word}} mean?",
           "options": [
             "of / belonging to",
             "similar",
@@ -1958,7 +1963,7 @@
             "result"
           ],
           "correctIndex": 2,
-          "explanation": "{{dict:i:0057.word}} = solution, means, method — the way something is achieved."
+          "explanation": "{{dict:i:0057-word}} = solution, means, method — the way something is achieved."
         }
       ]
     },
@@ -1996,19 +2001,19 @@
           "prompt": "Match the evaluation word to its meaning",
           "pairs": [
             {
-              "shavian": "{{dict:i:0018.word}}",
+              "shavian": "{{dict:i:0018-word}}",
               "english": "ok / acceptable / fine"
             },
             {
-              "shavian": "{{dict:i:0024.word}}",
+              "shavian": "{{dict:i:0024-word}}",
               "english": "yes / ok / agree"
             },
             {
-              "shavian": "{{dict:i:0078.word}}",
+              "shavian": "{{dict:i:0078-word}}",
               "english": "great / excellent"
             },
             {
-              "shavian": "{{dict:i:0211.word}}",
+              "shavian": "{{dict:i:0211-word}}",
               "english": "bad / wrong / unacceptable"
             }
           ],
@@ -2017,7 +2022,7 @@
         {
           "id": "l14-p2",
           "type": "multipleChoice",
-          "prompt": "What does {{dict:i:0222.word}} mean?",
+          "prompt": "What does {{dict:i:0222-word}} mean?",
           "options": [
             "ok",
             "quality / standard",
@@ -2025,25 +2030,25 @@
             "fair / equal"
           ],
           "correctIndex": 2,
-          "explanation": "{{dict:i:0222.word}} = valuable, expensive, precious — high worth."
+          "explanation": "{{dict:i:0222-word}} = valuable, expensive, precious — high worth."
         },
         {
           "id": "l14-p3",
           "type": "multipleChoice",
           "prompt": "How would you say 'this is great'?",
           "options": [
-            "{{prefix:noun-subject-base-symbol}}{{dict:i:0004.word}} {{prefix:verb-present-base-symbol}}{{dict:i:0078.word}}",
-            "{{prefix:noun-subject-base-symbol}}{{dict:i:0004.word}} {{prefix:verb-past-base-symbol}}{{dict:i:0078.word}}",
-            "{{prefix:noun-object-base-symbol}}{{dict:i:0004.word}} {{prefix:verb-present-base-symbol}}{{dict:i:0078.word}}",
-            "{{prefix:noun-subject-base-symbol}}{{dict:i:0004.word}} {{dict:i:0078.word}}"
+            "{{prefix:noun-subject-base-symbol}}{{dict:i:0004-word}} {{prefix:verb-present-base-symbol}}{{dict:i:0078-word}}",
+            "{{prefix:noun-subject-base-symbol}}{{dict:i:0004-word}} {{prefix:verb-past-base-symbol}}{{dict:i:0078-word}}",
+            "{{prefix:noun-object-base-symbol}}{{dict:i:0004-word}} {{prefix:verb-present-base-symbol}}{{dict:i:0078-word}}",
+            "{{prefix:noun-subject-base-symbol}}{{dict:i:0004-word}} {{dict:i:0078-word}}"
           ],
           "correctIndex": 0,
-          "explanation": "{{prefix:noun-subject-base-symbol}}{{dict:i:0004.word}} (this, subject) + {{prefix:verb-present-base-symbol}}{{dict:i:0078.word}} (is great, present verb from root {{dict:i:0078.word}})."
+          "explanation": "{{prefix:noun-subject-base-symbol}}{{dict:i:0004-word}} (this, subject) + {{prefix:verb-present-base-symbol}}{{dict:i:0078-word}} (is great, present verb from root {{dict:i:0078-word}})."
         },
         {
           "id": "l14-p4",
           "type": "multipleChoice",
-          "prompt": "What does {{dict:i:0166.word}} mean?",
+          "prompt": "What does {{dict:i:0166-word}} mean?",
           "options": [
             "great",
             "bad",
@@ -2051,12 +2056,12 @@
             "fair / equal / just"
           ],
           "correctIndex": 3,
-          "explanation": "{{dict:i:0166.word}} = fair, equal, just — balanced evaluation."
+          "explanation": "{{dict:i:0166-word}} = fair, equal, just — balanced evaluation."
         },
         {
           "id": "l14-p5",
           "type": "multipleChoice",
-          "prompt": "{{dict:i:0127.word}} means...",
+          "prompt": "{{dict:i:0127-word}} means...",
           "options": [
             "yes",
             "quality / standard / grade",
@@ -2064,7 +2069,7 @@
             "ok"
           ],
           "correctIndex": 1,
-          "explanation": "{{dict:i:0127.word}} = quality, standard, grade — the level or measure of something's worth."
+          "explanation": "{{dict:i:0127-word}} = quality, standard, grade — the level or measure of something's worth."
         }
       ]
     },
@@ -2095,19 +2100,19 @@
           "prompt": "Match the emotion to its meaning",
           "pairs": [
             {
-              "shavian": "{{dict:i:0047.word}}",
+              "shavian": "{{dict:i:0047-word}}",
               "english": "wow / amazing / delight"
             },
             {
-              "shavian": "{{dict:i:0051.word}}",
+              "shavian": "{{dict:i:0051-word}}",
               "english": "happy / joy / fun"
             },
             {
-              "shavian": "{{dict:i:0055.word}}",
+              "shavian": "{{dict:i:0055-word}}",
               "english": "love / affection / romance"
             },
             {
-              "shavian": "{{dict:i:0080.word}}",
+              "shavian": "{{dict:i:0080-word}}",
               "english": "satisfied / content / pleased"
             }
           ],
@@ -2116,7 +2121,7 @@
         {
           "id": "l15-p2",
           "type": "multipleChoice",
-          "prompt": "What does {{dict:i:0125.word}} mean?",
+          "prompt": "What does {{dict:i:0125-word}} mean?",
           "options": [
             "love",
             "happy",
@@ -2124,25 +2129,25 @@
             "friendly"
           ],
           "correctIndex": 2,
-          "explanation": "{{dict:i:0125.word}} = cute, charming, lovely — appealing in a soft way."
+          "explanation": "{{dict:i:0125-word}} = cute, charming, lovely — appealing in a soft way."
         },
         {
           "id": "l15-p3",
           "type": "multipleChoice",
           "prompt": "How would you say 'I am happy'?",
           "options": [
-            "{{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰.word}} {{dict:i:0051.word}}",
-            "{{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰.word}} {{prefix:verb-present-base-symbol}}{{dict:i:0051.word}}",
-            "{{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰.word}} {{prefix:verb-past-base-symbol}}{{dict:i:0051.word}}",
-            "{{dict:sv:𐑰.word}} {{dict:i:0051.word}}"
+            "{{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰-word}} {{dict:i:0051-word}}",
+            "{{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰-word}} {{prefix:verb-present-base-symbol}}{{dict:i:0051-word}}",
+            "{{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰-word}} {{prefix:verb-past-base-symbol}}{{dict:i:0051-word}}",
+            "{{dict:sv:𐑰-word}} {{dict:i:0051-word}}"
           ],
           "correctIndex": 1,
-          "explanation": "{{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰.word}} (I, subject) + {{prefix:verb-present-base-symbol}}{{dict:i:0051.word}} (am happy, present verb from root {{dict:i:0051.word}})."
+          "explanation": "{{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰-word}} (I, subject) + {{prefix:verb-present-base-symbol}}{{dict:i:0051-word}} (am happy, present verb from root {{dict:i:0051-word}})."
         },
         {
           "id": "l15-p4",
           "type": "multipleChoice",
-          "prompt": "What does {{dict:i:0288.word}} mean?",
+          "prompt": "What does {{dict:i:0288-word}} mean?",
           "options": [
             "love",
             "friendly",
@@ -2150,7 +2155,7 @@
             "sweet / pleasant / delightful"
           ],
           "correctIndex": 3,
-          "explanation": "{{dict:i:0288.word}} = sweet, pleasant, delightful."
+          "explanation": "{{dict:i:0288-word}} = sweet, pleasant, delightful."
         },
         {
           "id": "l15-p5",
@@ -2178,13 +2183,13 @@
       "xp": 100,
       "badge": null,
       "wordIds": [
-        "i:0064",
-        "i:0068",
-        "i:0085",
-        "i:0093",
-        "i:0113",
-        "i:0130",
-        "i:0174"
+        "i:0086",
+        "i:0132",
+        "i:0156",
+        "i:0339",
+        "i:0367",
+        "i:0463",
+        "i:0560"
       ],
       "grammar": [],
       "practice": []
@@ -2200,13 +2205,12 @@
       "xp": 100,
       "badge": null,
       "wordIds": [
-        "i:0073",
-        "i:0076",
-        "i:0089",
-        "i:0104",
-        "i:0116",
-        "i:0135",
-        "i:0158"
+        "i:0109",
+        "i:0171",
+        "i:0317",
+        "i:0382",
+        "i:0693",
+        "i:0848"
       ],
       "grammar": [],
       "practice": []
@@ -2222,12 +2226,13 @@
       "xp": 100,
       "badge": null,
       "wordIds": [
-        "i:0039",
-        "i:0045",
+        "i:0030",
+        "i:0041",
+        "i:0084",
+        "i:0104",
         "i:0075",
-        "i:0094",
-        "i:0119",
-        "i:0138"
+        "i:0088",
+        "i:0285"
       ],
       "grammar": [],
       "practice": []
@@ -2243,13 +2248,13 @@
       "xp": 100,
       "badge": null,
       "wordIds": [
-        "i:0177",
-        "i:0185",
-        "i:0196",
-        "i:0208",
-        "i:0219",
-        "i:0228",
-        "i:0237"
+        "i:1888",
+        "i:1889",
+        "i:1890",
+        "i:1891",
+        "i:0472",
+        "i:0491",
+        "i:0536"
       ],
       "grammar": [],
       "practice": []
@@ -2265,13 +2270,13 @@
       "xp": 100,
       "badge": null,
       "wordIds": [
-        "i:0106",
-        "i:0129",
-        "i:0218",
-        "i:0249",
-        "i:0263",
-        "i:0283",
-        "i:0314"
+        "i:0058",
+        "i:0067",
+        "i:0081",
+        "i:0162",
+        "i:0226",
+        "i:0244",
+        "i:0360"
       ],
       "grammar": [],
       "practice": []
@@ -2287,13 +2292,13 @@
       "xp": 100,
       "badge": null,
       "wordIds": [
-        "i:0048",
-        "i:0053",
-        "i:0069",
-        "i:0082",
-        "i:0101",
-        "i:0117",
-        "i:0134"
+        "i:0044",
+        "i:0073",
+        "i:0091",
+        "i:0175",
+        "i:0181",
+        "i:0229",
+        "i:0313"
       ],
       "grammar": [],
       "practice": []
@@ -2309,13 +2314,13 @@
       "xp": 100,
       "badge": "unit-3-complete",
       "wordIds": [
-        "i:0144",
-        "i:0153",
-        "i:0162",
-        "i:0171",
-        "i:0184",
-        "i:0197",
-        "i:0209"
+        "i:0172",
+        "i:0173",
+        "i:0326",
+        "i:0394",
+        "i:0495",
+        "i:0587",
+        "i:0626"
       ],
       "grammar": [],
       "practice": []
@@ -2344,48 +2349,48 @@
           "body": "Three modal prefixes:\n\n{{prefix:modal-ability-base-symbol}} — can / could (ability)\n{{prefix:modal-obligation-base-symbol}} — should / must (obligation)\n{{prefix:modal-conditional-base-symbol}} — would / conditional\n\nNegating ability ({{prefix:modal-ability-base-symbol}}) and obligation ({{prefix:modal-obligation-base-symbol}}) uses a negative modifier word before the modal, not a stacked {{prefix:operator-negation-symbol}} prefix. Only conditional ({{prefix:modal-conditional-base-symbol}}) takes a stacked {{prefix:operator-plural-symbol}}: {{prefix:modal-conditional-negated-symbol}} = would not.",
           "examples": [
             {
-              "shavian": "{{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰.word}} {{prefix:modal-ability-base-symbol}}{{dict:i:0014.word}}",
+              "shavian": "{{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰-word}} {{prefix:modal-ability-base-symbol}}{{dict:i:0014-word}}",
               "gloss": "I can know",
               "breakdown": [
                 {
-                  "part": "{{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰.word}}",
+                  "part": "{{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰-word}}",
                   "role": "subject",
                   "meaning": "I (subject)"
                 },
                 {
-                  "part": "{{prefix:modal-ability-base-symbol}}{{dict:i:0014.word}}",
+                  "part": "{{prefix:modal-ability-base-symbol}}{{dict:i:0014-word}}",
                   "role": "modal-ability",
                   "meaning": "can know"
                 }
               ]
             },
             {
-              "shavian": "{{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰.word}} {{prefix:modal-obligation-base-symbol}}{{dict:i:0014.word}}",
+              "shavian": "{{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰-word}} {{prefix:modal-obligation-base-symbol}}{{dict:i:0014-word}}",
               "gloss": "I should know",
               "breakdown": [
                 {
-                  "part": "{{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰.word}}",
+                  "part": "{{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰-word}}",
                   "role": "subject",
                   "meaning": "I (subject)"
                 },
                 {
-                  "part": "{{prefix:modal-obligation-base-symbol}}{{dict:i:0014.word}}",
+                  "part": "{{prefix:modal-obligation-base-symbol}}{{dict:i:0014-word}}",
                   "role": "modal-obligation",
                   "meaning": "should know"
                 }
               ]
             },
             {
-              "shavian": "{{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰.word}} {{prefix:modal-conditional-base-symbol}}{{dict:i:0014.word}}",
+              "shavian": "{{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰-word}} {{prefix:modal-conditional-base-symbol}}{{dict:i:0014-word}}",
               "gloss": "I would know",
               "breakdown": [
                 {
-                  "part": "{{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰.word}}",
+                  "part": "{{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰-word}}",
                   "role": "subject",
                   "meaning": "I (subject)"
                 },
                 {
-                  "part": "{{prefix:modal-conditional-base-symbol}}{{dict:i:0014.word}}",
+                  "part": "{{prefix:modal-conditional-base-symbol}}{{dict:i:0014-word}}",
                   "role": "modal-conditional",
                   "meaning": "would know"
                 }
@@ -2413,13 +2418,13 @@
           "type": "multipleChoice",
           "prompt": "How do you say 'I would not know'?",
           "options": [
-            "{{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰.word}} {{prefix:operator-negation-symbol}}{{prefix:modal-conditional-base-symbol}}{{dict:i:0014.word}}",
-            "{{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰.word}} {{prefix:modal-conditional-negated-symbol}}{{dict:i:0014.word}}",
-            "{{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰.word}} {{prefix:modal-conditional-base-symbol}}{{invalid:𐑧𐑯𐑟𐑩𐑒𐑑}}",
-            "{{prefix:noun-subject-negated-symbol}}{{dict:sv:𐑰.word}} {{prefix:modal-conditional-base-symbol}}{{dict:i:0014.word}}"
+            "{{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰-word}} {{prefix:operator-negation-symbol}}{{prefix:modal-conditional-base-symbol}}{{dict:i:0014-word}}",
+            "{{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰-word}} {{prefix:modal-conditional-negated-symbol}}{{dict:i:0014-word}}",
+            "{{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰-word}} {{prefix:modal-conditional-base-symbol}}{{invalid:𐑧𐑯𐑟𐑩𐑒𐑑}}",
+            "{{prefix:noun-subject-negated-symbol}}{{dict:sv:𐑰-word}} {{prefix:modal-conditional-base-symbol}}{{dict:i:0014-word}}"
           ],
           "correctIndex": 1,
-          "explanation": "Conditional negation uses {{prefix:modal-conditional-negated-symbol}}, not {{prefix:operator-negation-symbol}}{{prefix:modal-conditional-base-symbol}}. {{prefix:modal-conditional-negated-symbol}}{{dict:i:0014.word}} = would not know."
+          "explanation": "Conditional negation uses {{prefix:modal-conditional-negated-symbol}}, not {{prefix:operator-negation-symbol}}{{prefix:modal-conditional-base-symbol}}. {{prefix:modal-conditional-negated-symbol}}{{dict:i:0014-word}} = would not know."
         },
         {
           "id": "l23-p3",
@@ -2429,7 +2434,7 @@
             "{{prefix:operator-negation-symbol}}{{prefix:modal-ability-base-symbol}} + root",
             "A negative modifier word before {{prefix:modal-ability-base-symbol}} + root",
             "{{prefix:modal-ability-base-symbol}}{{prefix:operator-plural-symbol}} + root",
-            "{{dict:i:0013.word}} + {{prefix:modal-ability-base-symbol}} + root, always"
+            "{{dict:i:0013-word}} + {{prefix:modal-ability-base-symbol}} + root, always"
           ],
           "correctIndex": 1,
           "explanation": "Ability ({{prefix:modal-ability-base-symbol}}) and obligation ({{prefix:modal-obligation-base-symbol}}) negate with a modifier word before them, not a stacked prefix. {{prefix:modal-conditional-base-symbol}} is the only modal that takes a stacked negation ({{prefix:modal-conditional-negated-symbol}})."
@@ -2440,19 +2445,19 @@
           "prompt": "Match the modal to its meaning",
           "pairs": [
             {
-              "shavian": "{{prefix:modal-ability-base-symbol}}{{dict:i:0014.word}}",
+              "shavian": "{{prefix:modal-ability-base-symbol}}{{dict:i:0014-word}}",
               "english": "can know"
             },
             {
-              "shavian": "{{prefix:modal-obligation-base-symbol}}{{dict:i:0014.word}}",
+              "shavian": "{{prefix:modal-obligation-base-symbol}}{{dict:i:0014-word}}",
               "english": "should know"
             },
             {
-              "shavian": "{{prefix:modal-conditional-base-symbol}}{{dict:i:0014.word}}",
+              "shavian": "{{prefix:modal-conditional-base-symbol}}{{dict:i:0014-word}}",
               "english": "would know"
             },
             {
-              "shavian": "{{prefix:modal-conditional-negated-symbol}}{{dict:i:0014.word}}",
+              "shavian": "{{prefix:modal-conditional-negated-symbol}}{{dict:i:0014-word}}",
               "english": "would not know"
             }
           ],
