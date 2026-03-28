@@ -1,0 +1,577 @@
+{
+  "title": "𐑔𐑦𐑯𐑑𐑕 Language Reference",
+  "chapters": [
+    {
+      "id": "ch-writing",
+      "title": "The Writing System",
+      "summary": "Shavian alphabet, word structure, and how suffix, vowel, and prefix combine.",
+      "sections": [
+        {
+          "id": "writing-overview",
+          "title": "How words are built",
+          "body": "thints is written in the Shavian alphabet — every symbol maps to exactly one sound. No silent letters, no spelling inconsistencies.\n\nEvery word is built from up to three pieces:\n\n**PREFIX** + **VOWEL** + **SUFFIX**\n\nThe **suffix** tells you what kind of idea the word is — its semantic family.\nThe **vowel** tells you which specific idea within that family.\nThe **prefix** tells you how the word is being used grammatically in the sentence."
+        },
+        {
+          "id": "writing-suffixes",
+          "title": "Suffixes — the 44 word families",
+          "body": "There are 44 suffix families. When you hear a suffix you recognise, you know the topic area before knowing the specific word.\n\n`𐑛𐑟` — Positive Emotions (happy, love, delight)\n`𐑝𐑟` — Negative Emotions (fear, regret, jealousy)\n`𐑯𐑑` — Existence, State & Absence (alive, life, now)\n`𐑯𐑛` — Time — Abstract (when, future, duration)\n`𐑯𐑟` — Logic & Connectives (of, not, because)\n`𐑖𐑑` — Motion & Movement (move, walk, fall)\n`𐑜𐑟` — Work, Effort & Outcome (skill, job, achieve)\n`𐑯𐑔` — Time Measurement (minute, day, month, year)\n`𐑣'` — Place & Dwelling (room, home, city)\n`𐑜𐑛` — Body — Basic Parts (head, eye, hand)\n\nThe full list of 44 families is in the Prefixes reference.",
+          "examples": [
+            {
+              "shavian": "{{dict:i:0047.word}} · {{dict:i:0051.word}} · {{dict:i:0055.word}}",
+              "gloss": "wow · happy · love — all 𐑛𐑟 (positive emotions)",
+              "breakdown": []
+            }
+          ]
+        },
+        {
+          "id": "writing-vowels",
+          "title": "Vowels — which idea in the family",
+          "body": "There are 14 vowels, ranked from most common to least common. Within each suffix family, the most frequently used concept gets the most common vowel (𐑩), and rarer ideas get rarer vowels.\n\nVowels in order of frequency:\n𐑩 𐑦 𐑧 𐑨 𐑱 𐑲 𐑪 𐑰 𐑴 𐑵 𐑷 𐑬 𐑫 𐑶\n\nA word with vowel 𐑩 will come up constantly. A word with vowel 𐑶 is rare. This means the vowel itself gives you a rough sense of how often you'll encounter the word in everyday speech.",
+          "examples": [
+            {
+              "shavian": "{{dict:i:0001.word}} · {{dict:i:0010.word}} · {{dict:i:0054.word}} · {{dict:i:0083.word}}",
+              "gloss": "alive · life · now · zero — same 𐑯𐑑 suffix, different vowels",
+              "breakdown": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch-prefixes",
+      "title": "Prefixes — How Words Are Used",
+      "summary": "Every root is POS-neutral. Prefixes assign grammatical role: nouns, verbs, modifiers, modals, commands, and more.",
+      "sections": [
+        {
+          "id": "prefixes-pos-neutral",
+          "title": "Every root is POS-neutral",
+          "body": "The most important idea in thints: **the same root word can be a noun, verb, adjective, or adverb** — just by changing the prefix. There are no separate words for 'love' / 'to love' / 'loving' / 'lovingly'. They're all {{dict:i:0055.word}} with different prefixes.\n\nWithout a prefix, a root has meaning but no grammatical role. The prefix is what puts it to work in a sentence."
+        },
+        {
+          "id": "prefixes-nouns",
+          "title": "Noun prefixes",
+          "body": "All noun prefixes use stop consonant sounds ({{prefix:noun-subject-base-symbol}}, {{prefix:noun-object-base-symbol}}, {{prefix:noun-indirect-base-symbol}}, {{prefix:noun-generic-base-symbol}}). This acoustic family resemblance means even if you mishear which exact one, you still know 'this is a noun'.\n\nTwo **operator sounds** stack onto noun prefixes:\n`{{prefix:operator-negation-symbol}}` = negation — always goes first, before the role sound\n`{{prefix:operator-plural-symbol}}` = plural — always goes last, after the role sound\n\nBecause every noun carries its own role tag, **word order is flexible**.",
+          "examples": [
+            {
+              "shavian": "{{prefix:noun-subject-base-symbol}}{{dict:i:0356.word}} {{prefix:verb-past-base-symbol}}{{dict:i:0317.word}} {{prefix:noun-object-base-symbol}}{{dict:i:0539.word}}",
+              "gloss": "the dog chased the cat",
+              "breakdown": [
+                {
+                  "part": "{{prefix:noun-subject-base-symbol}}{{dict:i:0356.word}}",
+                  "role": "subject",
+                  "meaning": "the dog (subject)"
+                },
+                {
+                  "part": "{{prefix:verb-past-base-symbol}}{{dict:i:0317.word}}",
+                  "role": "verb-past",
+                  "meaning": "chased (past)"
+                },
+                {
+                  "part": "{{prefix:noun-object-base-symbol}}{{dict:i:0539.word}}",
+                  "role": "object",
+                  "meaning": "the cat (object)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "prefixes-verbs",
+          "title": "Verb prefixes — tense",
+          "body": "Tense verbs use voiced continuant sounds. Mishearing one still tells you 'this is a verb'.\n\n`{{prefix:verb-present-base-symbol}}` = present — 'I eat'\n`{{prefix:verb-past-base-symbol}}` = past — 'I ate'\n`{{prefix:verb-future-base-symbol}}` = future — 'I will eat'\n`{{prefix:verb-progressive-base-symbol}}` = ongoing present — 'I am eating'\n\nNegation:\n`{{prefix:verb-present-negated-symbol}}` = do not\n`{{prefix:verb-past-negated-symbol}}` = did not\n`{{prefix:verb-future-negated-symbol}}` = will not (special form)\n`{{prefix:verb-progressive-negated-symbol}}` = am not",
+          "examples": [
+            {
+              "shavian": "{{prefix:noun-subject-base-symbol}}{{dict:sv:𐑱-word.word}} {{prefix:verb-past-base-symbol}}{{dict:i:0317.word}} {{prefix:noun-object-base-symbol}}{{dict:sv:𐑩-word.word}}",
+              "gloss": "she walked to [it]",
+              "breakdown": [
+                {
+                  "part": "{{prefix:noun-subject-base-symbol}}{{dict:sv:𐑱-word.word}}",
+                  "role": "subject",
+                  "meaning": "she / they (subject)"
+                },
+                {
+                  "part": "{{prefix:verb-past-base-symbol}}{{dict:i:0317.word}}",
+                  "role": "verb-past",
+                  "meaning": "walked (past)"
+                },
+                {
+                  "part": "{{prefix:noun-object-base-symbol}}{{dict:sv:𐑩-word.word}}",
+                  "role": "object",
+                  "meaning": "to it / toward (object)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "prefixes-commands",
+          "title": "Commands",
+          "body": "Commands use their own distinct pair — intentionally different from all tense verbs:\n\n`{{prefix:verb-command-do-symbol}}` = Do this!\n`{{prefix:verb-command-do-not-symbol}}` = Do not do this!\n\nNo subject is needed — commands are always addressed to 'you'.",
+          "examples": [
+            {
+              "shavian": "{{prefix:verb-command-do-symbol}}{{dict:i:0317.word}}",
+              "gloss": "Walk!",
+              "breakdown": [
+                {
+                  "part": "{{prefix:verb-command-do-symbol}}",
+                  "role": "prefix",
+                  "meaning": "command: do!"
+                },
+                {
+                  "part": "{{dict:i:0317.word}}",
+                  "role": "root",
+                  "meaning": "walk"
+                }
+              ]
+            },
+            {
+              "shavian": "{{prefix:verb-command-do-not-symbol}}{{dict:i:0040.word}}",
+              "gloss": "Don't speak!",
+              "breakdown": [
+                {
+                  "part": "{{prefix:verb-command-do-not-symbol}}",
+                  "role": "prefix",
+                  "meaning": "command: do not!"
+                },
+                {
+                  "part": "{{dict:i:0040.word}}",
+                  "role": "root",
+                  "meaning": "speak"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "prefixes-modals",
+          "title": "Modals",
+          "body": "Modals express ability, obligation, and conditionality. They use a different sound family — clearly verb-like but unmistakably distinct:\n\n`{{prefix:modal-ability-base-symbol}}` = can / could (ability) — negate with a modifier word\n`{{prefix:modal-obligation-base-symbol}}` = should / must (obligation) — negate with a modifier word\n`{{prefix:modal-conditional-base-symbol}}` = would / conditional\n`{{prefix:modal-conditional-negated-symbol}}` = would not",
+          "examples": [
+            {
+              "shavian": "{{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰-word.word}} {{prefix:modal-conditional-base-symbol}}{{dict:i:0109.word}} {{dict:sv:𐑦-word.word}} {{prefix:noun-subject-base-symbol}}{{dict:sv:𐑱-word.word}} {{prefix:verb-clause-base-symbol}}{{dict:i:0018.word}}",
+              "gloss": "I would go if it were fine",
+              "breakdown": [
+                {
+                  "part": "{{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰-word.word}}",
+                  "role": "subject",
+                  "meaning": "I (subject)"
+                },
+                {
+                  "part": "{{prefix:modal-conditional-base-symbol}}{{dict:i:0109.word}}",
+                  "role": "modal-conditional",
+                  "meaning": "would go"
+                },
+                {
+                  "part": "{{dict:sv:𐑦-word.word}}",
+                  "role": "word",
+                  "meaning": "if"
+                },
+                {
+                  "part": "{{prefix:noun-subject-base-symbol}}{{dict:sv:𐑱-word.word}}",
+                  "role": "subject",
+                  "meaning": "it (clause subject)"
+                },
+                {
+                  "part": "{{prefix:verb-clause-base-symbol}}{{dict:i:0018.word}}",
+                  "role": "prefix",
+                  "meaning": "were fine (clause verb)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "prefixes-modifiers",
+          "title": "Modifiers",
+          "body": "One prefix covers both adjectives and adverbs:\n\n`{{prefix:modifier-base-symbol}}` = modifier (adjective or adverb — depends on position)\n`{{prefix:modifier-negated-symbol}}` = negated modifier (not big / un-)\n\n**The one hard word-order rule:** modifiers must sit directly adjacent to what they modify. Everything else is flexible, but a modifier's target is determined entirely by physical proximity.",
+          "examples": [
+            {
+              "shavian": "{{prefix:modifier-base-symbol}}{{dict:i:0027.word}} {{prefix:noun-generic-base-symbol}}{{dict:i:0356.word}}",
+              "gloss": "a big dog (modifier before noun = adjective)",
+              "breakdown": [
+                {
+                  "part": "{{prefix:modifier-base-symbol}}{{dict:i:0027.word}}",
+                  "role": "modifier",
+                  "meaning": "big (adjective)"
+                },
+                {
+                  "part": "{{prefix:noun-generic-base-symbol}}{{dict:i:0356.word}}",
+                  "role": "root",
+                  "meaning": "dog"
+                }
+              ]
+            },
+            {
+              "shavian": "{{prefix:verb-present-base-symbol}}{{dict:i:0109.word}} {{prefix:modifier-base-symbol}}{{dict:i:0027.word}}",
+              "gloss": "moves greatly (modifier after verb = adverb)",
+              "breakdown": [
+                {
+                  "part": "{{prefix:verb-present-base-symbol}}{{dict:i:0109.word}}",
+                  "role": "verb-present",
+                  "meaning": "moves (present)"
+                },
+                {
+                  "part": "{{prefix:modifier-base-symbol}}{{dict:i:0027.word}}",
+                  "role": "modifier",
+                  "meaning": "greatly (adverb)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "prefixes-quantity",
+          "title": "Quantity and possession",
+          "body": "One prefix handles both:\n\n`{{prefix:quantity-base-symbol}}` before a number = quantity ({{prefix:quantity-base-symbol}}3 {{dict:i:0356.word}} = 3 dogs)\n`{{prefix:quantity-base-symbol}}` before a pronoun = possession ({{prefix:quantity-base-symbol}}{{dict:sv:𐑰-word.word}} = my)\n`{{prefix:quantity-negated-symbol}}` = negated: lack of / not belonging to"
+        },
+        {
+          "id": "prefixes-ticked",
+          "title": "Ticked sounds",
+          "body": "Five rare consonants not found in English are reserved for low-frequency grammatical uses:\n\n`{{prefix:verb-progressive-past-ticked-symbol}}` = ongoing past ('was doing')\n`{{prefix:verb-progressive-future-ticked-symbol}}` = ongoing future ('will be doing')\n`{{prefix:verb-progressive-emphatic-ticked-symbol}}` = ongoing present emphatic ('am doing right now')\n`{{prefix:evidential-reportative-base-symbol}}` = evidential ('apparently / I heard that')\n`𐑣'` = reserved\n\nThey're harder to produce, so they're saved for things you rarely need to say.",
+          "examples": [
+            {
+              "shavian": "{{prefix:verb-present-base-symbol}}{{dict:i:0018.word}}",
+              "gloss": "it is fine (I know this directly)",
+              "breakdown": []
+            },
+            {
+              "shavian": "{{prefix:evidential-reportative-base-symbol}}{{dict:i:0018.word}}",
+              "gloss": "apparently it is fine (reported/inferred)",
+              "breakdown": [
+                {
+                  "part": "{{prefix:evidential-reportative-base-symbol}}",
+                  "role": "prefix",
+                  "meaning": "evidential"
+                },
+                {
+                  "part": "{{dict:i:0018.word}}",
+                  "role": "root",
+                  "meaning": "ok / fine"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch-special-words",
+      "title": "Special Words",
+      "summary": "Single-vowel reserved words, gender, and the pronoun system.",
+      "sections": [
+        {
+          "id": "special-reserved",
+          "title": "Single-vowel reserved words",
+          "body": "Fourteen words are each a bare vowel — no suffix. They are the most fundamental particles of the language. They **can** take prefixes when used as full words, but never take suffixes.\n\n{{dict:sv:𐑰-word.word}} — I / me\n{{dict:sv:𐑴-word.word}} — You\n{{dict:sv:𐑱-word.word}} — It / they / them (always gender-neutral)\n{{dict:sv:𐑵-word.word}} — We / us\n{{dict:sv:𐑧-word.word}} — And / add\n{{dict:sv:𐑲-word.word}} — But / contrast\n{{dict:sv:𐑨-word.word}} — Or / choose\n{{dict:sv:𐑩-word.word}} — To / toward\n{{dict:sv:𐑪-word.word}} — From / origin\n{{dict:sv:𐑫-word.word}} — In / enter\n{{dict:sv:𐑷-word.word}} — On / upon\n{{dict:sv:𐑶-word.word}} — Up / raise (also ×10 scale)\n{{dict:sv:𐑬-word.word}} — Down / lower (also ÷10 scale)\n{{dict:sv:𐑦-word.word}} — If / condition"
+        },
+        {
+          "id": "special-gender",
+          "title": "Gender",
+          "body": "All words are gender-neutral by default. Add gender only when it matters:\n\n{{dict:i:0108.word}} = male modifier\n{{dict:i:0139.word}} = female modifier\n\nPlace before any noun to specify. {{dict:i:0110.word}} alone = parent (neutral). {{dict:i:0108.word}} {{dict:i:0110.word}} = father. {{dict:i:0139.word}} {{dict:i:0110.word}} = mother.",
+          "examples": [
+            {
+              "shavian": "{{dict:i:0108.word}} {{dict:i:0356.word}}",
+              "gloss": "male dog",
+              "breakdown": [
+                {
+                  "part": "{{dict:i:0108.word}}",
+                  "role": "modifier",
+                  "meaning": "male"
+                },
+                {
+                  "part": "{{dict:i:0356.word}}",
+                  "role": "root",
+                  "meaning": "dog"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch-numbers",
+      "title": "Numbers",
+      "summary": "Digits 0–9, boundary markers, scale operators, fractions, and quantity.",
+      "sections": [
+        {
+          "id": "numbers-digits",
+          "title": "The ten digits",
+          "body": "Each digit 0–9 is its own root word, chosen because its meaning resonates with the number's character:\n\n0 = {{dict:i:d0.word}} (zero/null)\n1 = {{dict:i:d1.word}} (one/single)\n2 = {{dict:i:d2.word}} (two/pair)\n3 = {{dict:i:d3.word}} (three/triple)\n4 = {{dict:i:d4.word}} (four/quartet)\n5 = {{dict:i:d5.word}} (five/mid)\n6 = {{dict:i:d6.word}} (six)\n7 = {{dict:i:d7.word}} (seven)\n8 = {{dict:i:d8.word}} (eight)\n9 = {{dict:i:d9.word}} (nine/maximum)\n\nIn numeric expressions, digits are spoken bare — no prefix. Only boundary points are marked."
+        },
+        {
+          "id": "numbers-markers",
+          "title": "Boundary markers",
+          "body": "Three markers handle number boundaries:\n\n`{{prefix:number-integer-end-base-symbol}}` — end of a multi-digit integer (on the **last** digit)\n`{{prefix:number-decimal-start-base-symbol}}` — first digit after the decimal point\n`{{prefix:number-integer-end-decimal-follows-symbol}}` — last integer digit immediately before a decimal\n\nSingle-digit numbers need no marker. Multi-digit integers mark only the last digit.",
+          "examples": [
+            {
+              "shavian": "{{dict:i:d1.word}} {{prefix:number-integer-end-base-symbol}}{{dict:i:d0.word}}",
+              "gloss": "10",
+              "breakdown": [
+                {
+                  "part": "{{dict:i:d1.word}}",
+                  "role": "root",
+                  "meaning": "1 (bare)"
+                },
+                {
+                  "part": "{{prefix:number-integer-end-base-symbol}}",
+                  "role": "prefix",
+                  "meaning": "end of integer"
+                },
+                {
+                  "part": "{{dict:i:d0.word}}",
+                  "role": "root",
+                  "meaning": "0 (last digit)"
+                }
+              ]
+            },
+            {
+              "shavian": "{{dict:i:d1.word}} {{dict:i:d0.word}} {{dict:i:d3.word}} {{prefix:number-decimal-start-base-symbol}}{{dict:i:d2.word}} {{dict:i:d2.word}} {{prefix:number-integer-end-base-symbol}}{{dict:i:d5.word}}",
+              "gloss": "103.225",
+              "breakdown": []
+            }
+          ]
+        },
+        {
+          "id": "numbers-scale",
+          "title": "Scale operators",
+          "body": "The reserved words {{dict:sv:𐑶-word.word}} (up) and {{dict:sv:𐑬-word.word}} (down) act as scale operators — ×10 and ÷10 per step — replacing separate words for kilo-, mega-, milli-, centi- etc.\n\nThis also applies to **modifiers** to intensify or diminish meaning:\n\n{{dict:i:0027.word}} {{dict:sv:𐑶-word.word}}`3` = enormous (big ×10³)\n{{dict:i:0027.word}} {{dict:sv:𐑬-word.word}}`2` = tiny (big ÷10²)\n{{dict:i:0047.word}} {{dict:sv:𐑶-word.word}}`2` = extremely delightful\n{{dict:i:0047.word}} {{dict:sv:𐑬-word.word}}`2` = a tiny bit delightful",
+          "examples": [
+            {
+              "shavian": "{{dict:i:0812.word}} {{dict:sv:𐑶-word.word}}{{prefix:number-integer-end-base-symbol}}{{dict:i:d3.word}}",
+              "gloss": "kilometer (length × 10³)",
+              "breakdown": [
+                {
+                  "part": "{{dict:i:0812.word}}",
+                  "role": "root",
+                  "meaning": "length / meter"
+                },
+                {
+                  "part": "{{dict:sv:𐑶-word.word}}",
+                  "role": "word",
+                  "meaning": "scale up"
+                },
+                {
+                  "part": "{{prefix:number-integer-end-base-symbol}}{{dict:i:d3.word}}",
+                  "role": "root",
+                  "meaning": "exponent 3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "numbers-fractions",
+          "title": "Fractions",
+          "body": "Use the fraction marker `{{prefix:number-fraction-base-symbol}}` before the denominator digit. The noun follows directly — no end marker needed on the denominator since a noun always follows.\n\n{{prefix:number-fraction-base-symbol}}2 {{dict:i:0356.word}} = half a dog\n{{prefix:number-fraction-base-symbol}}4 {{dict:i:0356.word}} = a quarter of a dog\n{{prefix:number-fraction-base-symbol}}3 {{dict:i:0356.word}} = a third of a dog"
+        }
+      ]
+    },
+    {
+      "id": "ch-color",
+      "title": "Color",
+      "summary": "The fully numeric color system — hue, lightness, saturation, and grayscale.",
+      "sections": [
+        {
+          "id": "color-system",
+          "title": "Color is fully numeric",
+          "body": "Color in thints requires no separate color words. Three numbers specify any color:\n\n**{{dict:i:0279.word}} [ hue · lightness · saturation ]**\n\nIf you only give a hue, lightness 2 (mid) and saturation 9 (pure) are assumed. Lightness (0–4) and saturation (5–9) use non-overlapping ranges — they can appear in any order after the hue.\n\n**Hue (0–9):** 0=Red · 1=Orange · 2=Yellow · 3=Green · 4=Teal · 5=Cyan · 6=Blue · 7=Indigo · 8=Violet · 9=Magenta\nDecimal hues give blends: 0.5=red-orange · 2.5=yellow-green · 5.5=sky blue\n\n**Lightness (0–4):** 0=very dark · 1=dark · 2=mid (default) · 3=light · 4=very light\n\n**Saturation (5–9):** 5=near gray · 6=dull · 7=moderate · 8=vivid · 9=pure (default)",
+          "examples": [
+            {
+              "shavian": "{{dict:i:0279.word}} {{prefix:number-integer-end-base-symbol}}{{dict:i:d6.word}}",
+              "gloss": "blue (hue 6, defaults)",
+              "breakdown": []
+            },
+            {
+              "shavian": "{{dict:i:0279.word}} {{prefix:number-integer-end-base-symbol}}{{dict:i:d6.word}} {{prefix:number-integer-end-base-symbol}}{{dict:i:d0.word}} {{prefix:number-integer-end-base-symbol}}{{dict:i:d9.word}}",
+              "gloss": "navy — hue 6, very dark, pure",
+              "breakdown": []
+            },
+            {
+              "shavian": "{{dict:i:0279.word}} {{dict:i:d1.word}} {{prefix:number-integer-end-base-symbol}}{{dict:i:d0.word}} {{prefix:number-integer-end-base-symbol}}{{dict:i:d7.word}}",
+              "gloss": "brown — orange hue (1), very dark (0), moderate saturation (7)",
+              "breakdown": []
+            }
+          ]
+        },
+        {
+          "id": "color-grayscale",
+          "title": "Grayscale",
+          "body": "For true grays, use {{dict:i:0593.word}} (gray/grayscale) with a 0–9 value:\n\n0 = black · 5 = mid gray · 9 = white\n\nThis completely replaces the hue+lightness+saturation system for neutral tones.",
+          "examples": [
+            {
+              "shavian": "{{dict:i:0593.word}} {{prefix:number-integer-end-base-symbol}}{{dict:i:d0.word}}",
+              "gloss": "black",
+              "breakdown": []
+            },
+            {
+              "shavian": "{{dict:i:0593.word}} {{prefix:number-integer-end-base-symbol}}{{dict:i:d9.word}}",
+              "gloss": "white",
+              "breakdown": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch-space",
+      "title": "Space and Direction",
+      "summary": "Egocentric 3D axes, cardinal directions as numbers, and switching between reference frames.",
+      "sections": [
+        {
+          "id": "space-axes",
+          "title": "The three axes",
+          "body": "The default reference frame is **egocentric** — all directions relative to the speaker.\n\n**X (left ↔ right):** {{dict:i:1438.word}} = right (+X) · {{dict:i:1917.word}} = left (−X)\n**Y (forward ↔ back):** {{dict:i:0299.word}} = forward · {{dict:i:0186.word}} = backward\n**Z (up ↔ down):** {{dict:sv:𐑶-word.word}} = up · {{dict:sv:𐑬-word.word}} = down\n\nAll six are regular vocabulary words — take any prefix normally.",
+          "examples": [
+            {
+              "shavian": "{{prefix:verb-command-do-symbol}}{{dict:i:0299.word}}",
+              "gloss": "Go forward!",
+              "breakdown": [
+                {
+                  "part": "{{prefix:verb-command-do-symbol}}",
+                  "role": "prefix",
+                  "meaning": "command: do!"
+                },
+                {
+                  "part": "{{dict:i:0299.word}}",
+                  "role": "root",
+                  "meaning": "forward"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "space-cardinal",
+          "title": "Cardinal directions",
+          "body": "For absolute compass directions, use {{dict:i:1312.word}} (cardinal direction root) + number:\n\n0 = North · 1 = East · 2 = South · 3 = West\n\nDecimals give in-between directions: 0.5 = northeast · 1.5 = southeast · 2.5 = southwest · 3.5 = northwest",
+          "examples": [
+            {
+              "shavian": "{{dict:i:1312.word}} {{prefix:number-integer-end-base-symbol}}{{dict:i:d0.word}}",
+              "gloss": "North",
+              "breakdown": []
+            },
+            {
+              "shavian": "{{dict:i:1312.word}} {{dict:i:d3.word}} {{prefix:number-integer-end-decimal-follows-symbol}}{{dict:i:d5.word}}",
+              "gloss": "Northwest (3.5)",
+              "breakdown": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch-time",
+      "title": "Time",
+      "summary": "Time units, numbered days and months, time of day, and life stage.",
+      "sections": [
+        {
+          "id": "time-units",
+          "title": "Time units",
+          "body": "The 𐑯𐑔 suffix family covers time measurement:\n\n{{dict:i:0311.word}} = second · {{dict:i:1897.word}} = minute · {{dict:i:0577.word}} = hour\n{{dict:i:0338.word}} = day · {{dict:i:0325.word}} = night · {{dict:i:1855.word}} = week\n{{dict:i:1907.word}} = month · {{dict:i:1431.word}} = year"
+        },
+        {
+          "id": "time-days-months",
+          "title": "Days and months",
+          "body": "Days and months are numbered, not named.\n\n**Days:** {{dict:i:0338.word}}[1–7] where 1=Sunday, 2=Monday, 3=Tuesday, 4=Wednesday, 5=Thursday, 6=Friday, 7=Saturday\n\n**Months:** {{dict:i:1907.word}}[1–12] where 1=January, 2=February ... 12=December",
+          "examples": [
+            {
+              "shavian": "{{dict:i:0338.word}} {{prefix:number-integer-end-base-symbol}}{{dict:i:d2.word}}",
+              "gloss": "Monday (day 2)",
+              "breakdown": []
+            },
+            {
+              "shavian": "{{dict:i:1907.word}} {{prefix:number-integer-end-base-symbol}}{{dict:i:d1.word}}",
+              "gloss": "January (month 1)",
+              "breakdown": []
+            }
+          ]
+        },
+        {
+          "id": "time-of-day",
+          "title": "Time of day",
+          "body": "Time of day uses a 0–9 scale appended to the day ({{dict:i:0338.word}}) or night ({{dict:i:0325.word}}) root:\n\n{{dict:i:0338.word}}0 = dawn · {{dict:i:0338.word}}5 = noon · {{dict:i:0338.word}}9 = dusk\n{{dict:i:0325.word}}0 = just after sunset · {{dict:i:0325.word}}5 = midnight · {{dict:i:0325.word}}9 = just before dawn",
+          "examples": [
+            {
+              "shavian": "{{dict:i:0338.word}} {{prefix:number-integer-end-base-symbol}}{{dict:i:d5.word}}",
+              "gloss": "noon",
+              "breakdown": []
+            },
+            {
+              "shavian": "{{dict:i:0325.word}} {{prefix:number-integer-end-base-symbol}}{{dict:i:d5.word}}",
+              "gloss": "midnight",
+              "breakdown": []
+            }
+          ]
+        },
+        {
+          "id": "time-lifestage",
+          "title": "Life stage",
+          "body": "The life stage root {{dict:i:1930.word}} uses a 0–9 scale to express age for any living thing:\n\n0=Newborn · 1–2=Infant · 3–4=Child · 5=Adult · 6–7=Middle age · 8=Elderly · 9=End of life\n\n{{dict:i:0356.word}} {{dict:i:1930.word}}0 = puppy\n{{dict:i:0356.word}} {{dict:i:1930.word}}5 = adult dog",
+          "examples": [
+            {
+              "shavian": "{{dict:i:0356.word}} {{prefix:number-integer-end-base-symbol}}{{dict:i:d0.word}}",
+              "gloss": "puppy (dog at life stage 0)",
+              "breakdown": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch-clauses",
+      "title": "Clauses and Discourse",
+      "summary": "Subordinate clauses, discourse tools, aliases, and complex sentence structure.",
+      "sections": [
+        {
+          "id": "clauses-subordinate",
+          "title": "Subordinate clauses",
+          "body": "The clause opener {{dict:i:1933.word}} (that/which) signals a subordinate clause. Inside the clause, verbs use `{{prefix:verb-clause-base-symbol}}` instead of a tense prefix. Noun prefixes stay the same.",
+          "examples": [
+            {
+              "shavian": "{{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰-word.word}} {{prefix:verb-present-base-symbol}}{{dict:i:0014.word}} {{dict:i:1933.word}} {{prefix:noun-subject-base-symbol}}{{dict:i:0356.word}} {{prefix:verb-clause-base-symbol}}{{dict:i:0109.word}}",
+              "gloss": "I know that the dog moved",
+              "breakdown": [
+                {
+                  "part": "{{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰-word.word}}",
+                  "role": "subject",
+                  "meaning": "I (subject)"
+                },
+                {
+                  "part": "{{prefix:verb-present-base-symbol}}{{dict:i:0014.word}}",
+                  "role": "verb-present",
+                  "meaning": "know (present)"
+                },
+                {
+                  "part": "{{dict:i:1933.word}}",
+                  "role": "word",
+                  "meaning": "that — clause opener"
+                },
+                {
+                  "part": "{{prefix:noun-subject-base-symbol}}{{dict:i:0356.word}}",
+                  "role": "subject",
+                  "meaning": "the dog (clause subject)"
+                },
+                {
+                  "part": "{{prefix:verb-clause-base-symbol}}{{dict:i:0109.word}}",
+                  "role": "prefix",
+                  "meaning": "moved (clause verb)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "clauses-discourse",
+          "title": "Discourse tools",
+          "body": "Five special words handle conversation mechanics:\n\n`𐑽` — Borrow: introduces foreign or coined words\n`𐑸` — Phrase alias: assigns a shorthand to a native phrase\n`𐑹` — Example: 'for example / such as'\n`𐑺` — Quote: signals verbatim reproduction\n`𐑻` — Refer back: points to something defined earlier\n\nAll five take a prefix to show how the content they introduce is used."
+        },
+        {
+          "id": "clauses-aliases",
+          "title": "Aliases",
+          "body": "Five one-syllable alias words can be assigned to anything and reused for a conversation:\n\nA1 = {{dict:alias:1.word}} · A2 = {{dict:alias:2.word}} · A3 = {{dict:alias:3.word}} · A4 = {{dict:alias:4.word}} · A5 = {{dict:alias:5.word}}\n\nAssign with 𐑽 (borrowed word) or 𐑸 (native phrase), close with the alias word. Once assigned, aliases take any prefix like a regular root."
+        }
+      ]
+    }
+  ]
+}
