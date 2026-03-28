@@ -19,7 +19,8 @@
         "l03",
         "l04",
         "l05",
-        "l06"
+        "l06",
+        "l-numbers"
       ]
     },
     {
@@ -45,6 +46,9 @@
         "l13",
         "l14",
         "l15",
+        "l-color",
+        "l-directions",
+        "l-time-cycles",
         "l16",
         "l17",
         "l18",
@@ -1010,7 +1014,7 @@
     "l07": {
       "id": "l07",
       "unit": "unit-2",
-      "order": 7,
+      "order": 8,
       "title": "Past and future",
       "subtitle": "Prefixes {{prefix:verb-past-base-symbol}} and {{prefix:verb-future-base-symbol}}",
       "description": "Tense is marked entirely by the verb prefix. The root word never changes — only the prefix does.",
@@ -1186,7 +1190,7 @@
     "l08": {
       "id": "l08",
       "unit": "unit-2",
-      "order": 8,
+      "order": 9,
       "title": "Time words",
       "subtitle": "The {{prefix:verb-past-base-symbol}}{{prefix:verb-future-base-symbol}} suffix family",
       "description": "The {{prefix:verb-past-base-symbol}}{{prefix:verb-future-base-symbol}} suffix family covers time — when things happen, how long they last, and their sequence.",
@@ -1314,7 +1318,7 @@
     "l09": {
       "id": "l09",
       "unit": "unit-2",
-      "order": 9,
+      "order": 10,
       "title": "Logic and connectives",
       "subtitle": "The {{prefix:verb-past-base-symbol}}{{prefix:modal-ability-base-symbol}} suffix family",
       "description": "The {{prefix:verb-past-base-symbol}}{{prefix:modal-ability-base-symbol}} family handles logical relationships — of, not, because, condition, and more.",
@@ -1447,7 +1451,7 @@
     "l10": {
       "id": "l10",
       "unit": "unit-2",
-      "order": 10,
+      "order": 11,
       "title": "Modifiers",
       "subtitle": "Prefix {{prefix:modifier-base-symbol}} — adjectives and adverbs",
       "description": "The prefix {{prefix:modifier-base-symbol}} turns any root into a modifier. Whether it reads as an adjective or adverb depends entirely on what it sits next to.",
@@ -1601,7 +1605,7 @@
     "l11": {
       "id": "l11",
       "unit": "unit-2",
-      "order": 11,
+      "order": 12,
       "title": "Ongoing action",
       "subtitle": "Progressive aspect — prefix {{prefix:verb-progressive-base-symbol}}",
       "description": "{{prefix:verb-progressive-base-symbol}} marks ongoing or continuous action. It covers the present progressive and is the most common aspect marker.",
@@ -1727,7 +1731,7 @@
     "l12": {
       "id": "l12",
       "unit": "unit-2",
-      "order": 12,
+      "order": 13,
       "title": "Quantity and possession",
       "subtitle": "Prefix {{prefix:quantity-base-symbol}}",
       "description": "{{prefix:quantity-base-symbol}} marks quantity (how many) when placed before a number, and possession (belonging to) when placed before a pronoun.",
@@ -2092,41 +2096,84 @@
         "i:0183",
         "i:0288"
       ],
-      "grammar": [],
+      "grammar": [
+        {
+          "id": "g-pos-emo",
+          "title": "Positive emotions — suffix 𐑛𐑟",
+          "body": "All words ending in 𐑛𐑟 are positive emotions. The suffix is a guaranteed signal — hear it and you know the emotional territory before knowing the specific word.\n\n{{dict:i:0047.word}} wow/delight · {{dict:i:0051.word}} happy/joy · {{dict:i:0055.word}} love/affection · {{dict:i:0080.word}} satisfied/content · {{dict:i:0125.word}} cute/charming · {{dict:i:0183.word}} friendly/warm · {{dict:i:0288.word}} sweet/pleasant",
+          "examples": [
+            {
+              "shavian": "{{prefix:verb-present-base-symbol}}{{dict:i:0055.word}} {{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰-word.word}} {{prefix:noun-object-base-symbol}}{{dict:sv:𐑱-word.word}}",
+              "gloss": "I love them",
+              "breakdown": [
+                {
+                  "part": "{{prefix:verb-present-base-symbol}}",
+                  "role": "verb-present",
+                  "meaning": "love (present)"
+                },
+                {
+                  "part": "{{dict:i:0055.word}}",
+                  "role": "root",
+                  "meaning": "love/affection"
+                },
+                {
+                  "part": "{{prefix:noun-subject-base-symbol}}",
+                  "role": "subject",
+                  "meaning": "I (subject)"
+                },
+                {
+                  "part": "{{dict:sv:𐑰-word.word}}",
+                  "role": "root",
+                  "meaning": "I"
+                },
+                {
+                  "part": "{{prefix:noun-object-base-symbol}}",
+                  "role": "object",
+                  "meaning": "them (object)"
+                },
+                {
+                  "part": "{{dict:sv:𐑱-word.word}}",
+                  "role": "root",
+                  "meaning": "them/they"
+                }
+              ]
+            }
+          ]
+        }
+      ],
       "practice": [
         {
           "id": "l15-p1",
           "type": "wordMatch",
-          "prompt": "Match the emotion to its meaning",
+          "prompt": "Match each emotion to its meaning",
           "pairs": [
             {
               "shavian": "{{dict:i:0047.word}}",
-              "english": "wow / amazing / delight"
+              "english": "wow / delight"
             },
             {
               "shavian": "{{dict:i:0051.word}}",
-              "english": "happy / joy / fun"
+              "english": "happy / joy"
             },
             {
               "shavian": "{{dict:i:0055.word}}",
-              "english": "love / affection / romance"
+              "english": "love / affection"
             },
             {
               "shavian": "{{dict:i:0080.word}}",
-              "english": "satisfied / content / pleased"
+              "english": "satisfied / content"
             }
-          ],
-          "options": []
+          ]
         },
         {
           "id": "l15-p2",
           "type": "multipleChoice",
           "prompt": "What does {{dict:i:0125.word}} mean?",
           "options": [
-            "love",
-            "happy",
-            "cute / charming / lovely",
-            "friendly"
+            "Happy",
+            "Love",
+            "Cute / charming / lovely",
+            "Friendly"
           ],
           "correctIndex": 2,
           "explanation": "{{dict:i:0125.word}} = cute, charming, lovely — appealing in a soft way."
@@ -2134,48 +2181,48 @@
         {
           "id": "l15-p3",
           "type": "multipleChoice",
-          "prompt": "How would you say 'I am happy'?",
+          "prompt": "How do you say 'I am happy'?",
           "options": [
-            "{{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰.word}} {{dict:i:0051.word}}",
-            "{{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰.word}} {{prefix:verb-present-base-symbol}}{{dict:i:0051.word}}",
-            "{{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰.word}} {{prefix:verb-past-base-symbol}}{{dict:i:0051.word}}",
-            "{{dict:sv:𐑰.word}} {{dict:i:0051.word}}"
+            "{{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰-word.word}} {{dict:i:0051.word}}",
+            "{{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰-word.word}} {{prefix:verb-present-base-symbol}}{{dict:i:0051.word}}",
+            "{{prefix:verb-present-base-symbol}}{{dict:i:0051.word}} {{dict:sv:𐑰-word.word}}",
+            "{{prefix:modifier-base-symbol}}{{dict:i:0051.word}} {{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰-word.word}}"
           ],
           "correctIndex": 1,
-          "explanation": "{{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰.word}} (I, subject) + {{prefix:verb-present-base-symbol}}{{dict:i:0051.word}} (am happy, present verb from root {{dict:i:0051.word}})."
+          "explanation": "{{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰-word.word}} (I as subject) + {{prefix:verb-present-base-symbol}}{{dict:i:0051.word}} (am happy, present verb)."
         },
         {
           "id": "l15-p4",
           "type": "multipleChoice",
-          "prompt": "What does {{dict:i:0288.word}} mean?",
+          "prompt": "What does {{dict:i:0183.word}} mean?",
           "options": [
-            "love",
-            "friendly",
-            "adorable",
-            "sweet / pleasant / delightful"
+            "Love",
+            "Satisfied",
+            "Friendly / warm / sociable",
+            "Sweet"
           ],
-          "correctIndex": 3,
-          "explanation": "{{dict:i:0288.word}} = sweet, pleasant, delightful."
+          "correctIndex": 2,
+          "explanation": "{{dict:i:0183.word}} = friendly, warm, sociable."
         },
         {
           "id": "l15-p5",
           "type": "multipleChoice",
-          "prompt": "What does the {{prefix:verb-future-base-symbol}}{{prefix:modal-ability-base-symbol}} suffix tell you about a word before you know which one it is?",
+          "prompt": "What does the 𐑛𐑟 suffix tell you before you know the specific word?",
           "options": [
             "It is a verb",
-            "It is about quantity",
+            "It is about logic",
             "It is a positive emotion",
             "It is about time"
           ],
           "correctIndex": 2,
-          "explanation": "{{prefix:verb-future-base-symbol}}{{prefix:modal-ability-base-symbol}} is the positive emotions suffix. Any word ending in {{prefix:verb-future-base-symbol}}{{prefix:modal-ability-base-symbol}} is in that family."
+          "explanation": "𐑛𐑟 is the positive emotions suffix. Any word ending in 𐑛𐑟 belongs to that family."
         }
       ]
     },
     "l16": {
       "id": "l16",
       "unit": "unit-3",
-      "order": 16,
+      "order": 19,
       "title": "Negative emotions",
       "subtitle": "Negative emotion words",
       "description": "The counterparts to L15 — negative emotions and their vocabulary.",
@@ -2191,13 +2238,123 @@
         "i:0463",
         "i:0560"
       ],
-      "grammar": [],
-      "practice": []
+      "grammar": [
+        {
+          "id": "g-neg-emo-family",
+          "title": "The {{dict:i:0086.group}} family — suffix 𐑝𐑟",
+          "body": "All words ending in 𐑝𐑟 are negative emotions. Like the positive emotion family (𐑛𐑟), the suffix immediately tells you the emotional territory before you know the specific word.\n\nKey words: {{dict:i:0086.word}} (sorry/regret) · {{dict:i:0132.word}} (fear/anxiety) · {{dict:i:0156.word}} (flaw/fault) · {{dict:i:0367.word}} (disappointed) · {{dict:i:0463.word}} (annoying/frustrating)",
+          "examples": [
+            {
+              "shavian": "{{prefix:verb-present-base-symbol}}{{dict:i:0132.word}} {{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰-word.word}}",
+              "gloss": "I am afraid",
+              "breakdown": [
+                {
+                  "part": "{{prefix:verb-present-base-symbol}}",
+                  "role": "prefix",
+                  "meaning": "present tense"
+                },
+                {
+                  "part": "{{dict:i:0132.word}}",
+                  "role": "root",
+                  "meaning": "fear/anxiety"
+                },
+                {
+                  "part": "{{prefix:noun-subject-base-symbol}}",
+                  "role": "prefix",
+                  "meaning": "subject"
+                },
+                {
+                  "part": "{{dict:sv:𐑰-word.word}}",
+                  "role": "root",
+                  "meaning": "I"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "id": "l16-p1",
+          "type": "wordMatch",
+          "prompt": "Match the emotion to its meaning",
+          "pairs": [
+            {
+              "shavian": "{{dict:i:0086.word}}",
+              "english": "sorry / regret"
+            },
+            {
+              "shavian": "{{dict:i:0132.word}}",
+              "english": "fear / anxiety"
+            },
+            {
+              "shavian": "{{dict:i:0156.word}}",
+              "english": "flaw / fault"
+            },
+            {
+              "shavian": "{{dict:i:0339.word}}",
+              "english": "forget"
+            }
+          ]
+        },
+        {
+          "id": "l16-p2",
+          "type": "multipleChoice",
+          "prompt": "What suffix do all negative emotion words share?",
+          "options": [
+            "𐑛𐑟",
+            "𐑝𐑟",
+            "𐑯𐑟",
+            "𐑑𐑕"
+          ],
+          "correctIndex": 1,
+          "explanation": "𐑝𐑟 is the negative emotions suffix. 𐑛𐑟 is positive emotions. This lets you know the emotional valence as soon as you hear the ending."
+        },
+        {
+          "id": "l16-p3",
+          "type": "multipleChoice",
+          "prompt": "What does {{dict:i:0367.word}} mean?",
+          "options": [
+            "Fear",
+            "Sorry",
+            "Disappointed / let down",
+            "Jealous"
+          ],
+          "correctIndex": 2,
+          "explanation": "{{dict:i:0367.word}} = disappointed, let down, discouraged."
+        },
+        {
+          "id": "l16-p4",
+          "type": "multipleChoice",
+          "prompt": "How do you say 'I was afraid'?",
+          "options": [
+            "{{prefix:verb-past-base-symbol}}{{dict:i:0132.word}} {{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰-word.word}}",
+            "{{prefix:verb-present-base-symbol}}{{dict:i:0132.word}} {{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰-word.word}}",
+            "{{prefix:verb-future-base-symbol}}{{dict:i:0132.word}} {{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰-word.word}}",
+            "{{prefix:modifier-base-symbol}}{{dict:i:0132.word}} {{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰-word.word}}"
+          ],
+          "correctIndex": 0,
+          "explanation": "Past tense uses {{prefix:verb-past-base-symbol}}. So 'was afraid' = {{prefix:verb-past-base-symbol}}{{dict:i:0132.word}}."
+        },
+        {
+          "id": "l16-p5",
+          "type": "multipleChoice",
+          "prompt": "What does the 𐑝𐑟 suffix tell you before you know the specific word?",
+          "options": [
+            "It is a verb",
+            "It is a positive emotion",
+            "It is a negative emotion",
+            "It is about logic"
+          ],
+          "correctIndex": 2,
+          "explanation": "𐑝𐑟 = negative emotions family. The suffix is a reliable signal — any word ending in 𐑝𐑟 deals with negative emotional experience."
+        }
+      ]
     },
     "l17": {
       "id": "l17",
       "unit": "unit-3",
-      "order": 17,
+      "order": 20,
       "title": "Motion",
       "subtitle": "Motion & Movement — the {{prefix:modifier-base-symbol}}{{prefix:noun-object-base-symbol}} family",
       "description": "Words about how things move — direction, speed, travel.",
@@ -2212,13 +2369,123 @@
         "i:0693",
         "i:0848"
       ],
-      "grammar": [],
-      "practice": []
+      "grammar": [
+        {
+          "id": "g-motion-family",
+          "title": "The motion family — suffix 𐑖𐑑",
+          "body": "All words ending in 𐑖𐑑 describe movement. The vowel picks the specific kind of motion.\n\n{{dict:i:0109.word}} move/motion · {{dict:i:0171.word}} fall/drop · {{dict:i:0317.word}} walk · {{dict:i:0382.word}} throw/launch · {{dict:i:0693.word}} leave/depart · {{dict:i:0848.word}} approach",
+          "examples": [
+            {
+              "shavian": "{{prefix:verb-past-base-symbol}}{{dict:i:0317.word}} {{prefix:noun-subject-base-symbol}}{{dict:sv:𐑱-word.word}}",
+              "gloss": "she/he walked",
+              "breakdown": [
+                {
+                  "part": "{{prefix:verb-past-base-symbol}}",
+                  "role": "prefix",
+                  "meaning": "past tense"
+                },
+                {
+                  "part": "{{dict:i:0317.word}}",
+                  "role": "root",
+                  "meaning": "walk"
+                },
+                {
+                  "part": "{{prefix:noun-subject-base-symbol}}",
+                  "role": "prefix",
+                  "meaning": "subject"
+                },
+                {
+                  "part": "{{dict:sv:𐑱-word.word}}",
+                  "role": "root",
+                  "meaning": "they/she/he"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "id": "l17-p1",
+          "type": "wordMatch",
+          "prompt": "Match the motion word to its meaning",
+          "pairs": [
+            {
+              "shavian": "{{dict:i:0109.word}}",
+              "english": "move / motion"
+            },
+            {
+              "shavian": "{{dict:i:0171.word}}",
+              "english": "fall / drop"
+            },
+            {
+              "shavian": "{{dict:i:0317.word}}",
+              "english": "walk"
+            },
+            {
+              "shavian": "{{dict:i:0848.word}}",
+              "english": "approach / come near"
+            }
+          ]
+        },
+        {
+          "id": "l17-p2",
+          "type": "multipleChoice",
+          "prompt": "What suffix marks the motion family?",
+          "options": [
+            "𐑯𐑛",
+            "𐑛𐑟",
+            "𐑖𐑑",
+            "𐑯𐑑"
+          ],
+          "correctIndex": 2,
+          "explanation": "𐑖𐑑 is the motion & movement suffix family."
+        },
+        {
+          "id": "l17-p3",
+          "type": "multipleChoice",
+          "prompt": "How do you say 'the dog ran' (past)?",
+          "options": [
+            "{{prefix:verb-past-base-symbol}}{{dict:i:0109.word}} {{prefix:noun-subject-base-symbol}}{{dict:i:0356.word}}",
+            "{{prefix:verb-present-base-symbol}}{{dict:i:0109.word}} {{prefix:noun-subject-base-symbol}}{{dict:i:0356.word}}",
+            "{{prefix:verb-past-base-symbol}}{{dict:i:0317.word}} {{prefix:noun-subject-base-symbol}}{{dict:i:0356.word}}",
+            "{{prefix:noun-subject-base-symbol}}{{dict:i:0109.word}} {{prefix:verb-past-base-symbol}}{{dict:i:0356.word}}"
+          ],
+          "correctIndex": 0,
+          "explanation": "Past + move ({{dict:i:0109.word}}) + the dog as subject. Run and move share the same root — {{dict:i:0109.word}} covers general motion."
+        },
+        {
+          "id": "l17-p4",
+          "type": "multipleChoice",
+          "prompt": "What does {{dict:i:0693.word}} mean?",
+          "options": [
+            "Walk",
+            "Approach",
+            "Leave / depart",
+            "Fall"
+          ],
+          "correctIndex": 2,
+          "explanation": "{{dict:i:0693.word}} = leave, depart, go away."
+        },
+        {
+          "id": "l17-p5",
+          "type": "multipleChoice",
+          "prompt": "What does {{dict:i:0382.word}} mean?",
+          "options": [
+            "Fall",
+            "Throw / launch",
+            "Fly",
+            "Swim"
+          ],
+          "correctIndex": 1,
+          "explanation": "{{dict:i:0382.word}} = throw, launch, project."
+        }
+      ]
     },
     "l18": {
       "id": "l18",
       "unit": "unit-3",
-      "order": 18,
+      "order": 21,
       "title": "Place and space",
       "subtitle": "Place & Dwelling + Axes & Dimensions",
       "description": "Spatial language — where things are and how they relate in space.",
@@ -2234,13 +2501,133 @@
         "i:0088",
         "i:0285"
       ],
-      "grammar": [],
-      "practice": []
+      "grammar": [
+        {
+          "id": "g-place-family",
+          "title": "Place words — two families",
+          "body": "Place concepts come from two suffix families:\n\n𐑐𐑑 (Axes & Reference): {{dict:i:0030.word}} here · {{dict:i:0041.word}} toward · {{dict:i:0084.word}} X-axis/left-right · {{dict:i:0797.word}} Y-axis/depth\n\n𐑣' (Place & Dwelling): {{dict:i:0075.word}} room/space · {{dict:i:0088.word}} place/location · {{dict:i:0285.word}} home/dwelling",
+          "examples": [
+            {
+              "shavian": "{{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰-word.word}} {{prefix:verb-present-base-symbol}}{{dict:i:0109.word}} {{prefix:noun-object-base-symbol}}{{dict:i:0030.word}}",
+              "gloss": "I move here",
+              "breakdown": [
+                {
+                  "part": "{{prefix:noun-subject-base-symbol}}",
+                  "role": "prefix",
+                  "meaning": "subject"
+                },
+                {
+                  "part": "{{dict:sv:𐑰-word.word}}",
+                  "role": "root",
+                  "meaning": "I"
+                },
+                {
+                  "part": "{{prefix:verb-present-base-symbol}}",
+                  "role": "prefix",
+                  "meaning": "present"
+                },
+                {
+                  "part": "{{dict:i:0109.word}}",
+                  "role": "root",
+                  "meaning": "move"
+                },
+                {
+                  "part": "{{prefix:noun-object-base-symbol}}",
+                  "role": "prefix",
+                  "meaning": "object"
+                },
+                {
+                  "part": "{{dict:i:0030.word}}",
+                  "role": "root",
+                  "meaning": "here"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "id": "l18-p1",
+          "type": "wordMatch",
+          "prompt": "Match the place word to its meaning",
+          "pairs": [
+            {
+              "shavian": "{{dict:i:0030.word}}",
+              "english": "here / this place"
+            },
+            {
+              "shavian": "{{dict:i:0041.word}}",
+              "english": "toward / facing"
+            },
+            {
+              "shavian": "{{dict:i:0088.word}}",
+              "english": "place / location"
+            },
+            {
+              "shavian": "{{dict:i:0285.word}}",
+              "english": "home / dwelling"
+            }
+          ]
+        },
+        {
+          "id": "l18-p2",
+          "type": "multipleChoice",
+          "prompt": "What does {{dict:i:0075.word}} mean?",
+          "options": [
+            "Home",
+            "Place / location",
+            "Room / space / area",
+            "Here"
+          ],
+          "correctIndex": 2,
+          "explanation": "{{dict:i:0075.word}} = room, space, area."
+        },
+        {
+          "id": "l18-p3",
+          "type": "multipleChoice",
+          "prompt": "What does {{dict:i:0084.word}} describe?",
+          "options": [
+            "The Y axis (forward/back)",
+            "The X axis (left/right)",
+            "Vertical height",
+            "A specific location"
+          ],
+          "correctIndex": 1,
+          "explanation": "{{dict:i:0084.word}} = X axis / lateral / left-right dimension."
+        },
+        {
+          "id": "l18-p4",
+          "type": "multipleChoice",
+          "prompt": "How do you say 'my home'?",
+          "options": [
+            "{{prefix:noun-subject-base-symbol}}{{dict:i:0285.word}} {{dict:sv:𐑰-word.word}}",
+            "{{prefix:quantity-base-symbol}}{{dict:sv:𐑰-word.word}} {{dict:i:0285.word}}",
+            "{{prefix:noun-object-base-symbol}}{{dict:i:0285.word}} {{dict:sv:𐑰-word.word}}",
+            "{{dict:i:0285.word}} {{dict:sv:𐑰-word.word}}"
+          ],
+          "correctIndex": 1,
+          "explanation": "Possession uses {{prefix:quantity-base-symbol}} before the pronoun: {{prefix:quantity-base-symbol}}{{dict:sv:𐑰-word.word}} = my. So 'my home' = {{prefix:quantity-base-symbol}}{{dict:sv:𐑰-word.word}} {{dict:i:0285.word}}."
+        },
+        {
+          "id": "l18-p5",
+          "type": "multipleChoice",
+          "prompt": "What suffix family do place/dwelling words like {{dict:i:0088.word}} and {{dict:i:0285.word}} belong to?",
+          "options": [
+            "𐑐𐑑",
+            "𐑣'",
+            "𐑯𐑛",
+            "𐑖𐑑"
+          ],
+          "correctIndex": 1,
+          "explanation": "𐑣' (ticked) is the Place & Dwelling suffix family. 𐑐𐑑 covers axes and abstract reference."
+        }
+      ]
     },
     "l19": {
       "id": "l19",
       "unit": "unit-3",
-      "order": 19,
+      "order": 22,
       "title": "The body",
       "subtitle": "Body — Basic Parts",
       "description": "Core vocabulary for the human body.",
@@ -2256,13 +2643,123 @@
         "i:0491",
         "i:0536"
       ],
-      "grammar": [],
-      "practice": []
+      "grammar": [
+        {
+          "id": "g-body-family",
+          "title": "Body words — suffix 𐑜𐑛",
+          "body": "All words ending in 𐑜𐑛 are body parts. Key basic parts:\n{{dict:i:1888.word}} head/skull · {{dict:i:1889.word}} eye/vision · {{dict:i:1890.word}} ear/hearing · {{dict:i:1891.word}} nose/smell · {{dict:i:0472.word}} hand/palm · {{dict:i:0491.word}} hair/fur · {{dict:i:0536.word}} arm/limb",
+          "examples": [
+            {
+              "shavian": "{{prefix:noun-subject-base-symbol}}{{dict:i:1889.word}} {{prefix:verb-present-base-symbol}}{{dict:i:0105.word}}",
+              "gloss": "the eye sees",
+              "breakdown": [
+                {
+                  "part": "{{prefix:noun-subject-base-symbol}}",
+                  "role": "prefix",
+                  "meaning": "subject"
+                },
+                {
+                  "part": "{{dict:i:1889.word}}",
+                  "role": "root",
+                  "meaning": "eye"
+                },
+                {
+                  "part": "{{prefix:verb-present-base-symbol}}",
+                  "role": "prefix",
+                  "meaning": "present"
+                },
+                {
+                  "part": "{{dict:i:0105.word}}",
+                  "role": "root",
+                  "meaning": "see/observe"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "id": "l19-p1",
+          "type": "wordMatch",
+          "prompt": "Match the body part to its meaning",
+          "pairs": [
+            {
+              "shavian": "{{dict:i:1888.word}}",
+              "english": "head"
+            },
+            {
+              "shavian": "{{dict:i:1889.word}}",
+              "english": "eye"
+            },
+            {
+              "shavian": "{{dict:i:0472.word}}",
+              "english": "hand"
+            },
+            {
+              "shavian": "{{dict:i:0536.word}}",
+              "english": "arm"
+            }
+          ]
+        },
+        {
+          "id": "l19-p2",
+          "type": "multipleChoice",
+          "prompt": "What suffix marks the body parts family?",
+          "options": [
+            "𐑥𐑛",
+            "𐑜𐑛",
+            "𐑛𐑟",
+            "𐑣'"
+          ],
+          "correctIndex": 1,
+          "explanation": "𐑜𐑛 is the Body — Basic Parts suffix family."
+        },
+        {
+          "id": "l19-p3",
+          "type": "multipleChoice",
+          "prompt": "What does {{dict:i:0491.word}} mean?",
+          "options": [
+            "Mouth",
+            "Arm",
+            "Hair / fur",
+            "Eye"
+          ],
+          "correctIndex": 2,
+          "explanation": "{{dict:i:0491.word}} = hair, fur."
+        },
+        {
+          "id": "l19-p4",
+          "type": "multipleChoice",
+          "prompt": "What does {{dict:i:1890.word}} mean?",
+          "options": [
+            "Eye / vision",
+            "Nose / smell",
+            "Ear / hearing",
+            "Head"
+          ],
+          "correctIndex": 2,
+          "explanation": "{{dict:i:1890.word}} = ear, hearing."
+        },
+        {
+          "id": "l19-p5",
+          "type": "multipleChoice",
+          "prompt": "How do you say 'my hand'?",
+          "options": [
+            "{{prefix:noun-subject-base-symbol}}{{dict:i:0472.word}}",
+            "{{prefix:quantity-base-symbol}}{{dict:sv:𐑰-word.word}} {{dict:i:0472.word}}",
+            "{{dict:sv:𐑰-word.word}} {{dict:i:0472.word}}",
+            "{{prefix:noun-object-base-symbol}}{{dict:i:0472.word}} {{dict:sv:𐑰-word.word}}"
+          ],
+          "correctIndex": 1,
+          "explanation": "Possession: {{prefix:quantity-base-symbol}}{{dict:sv:𐑰-word.word}} = my. Followed by the body word: {{dict:i:0472.word}} hand."
+        }
+      ]
     },
     "l20": {
       "id": "l20",
       "unit": "unit-3",
-      "order": 20,
+      "order": 23,
       "title": "Social interaction",
       "subtitle": "Social Interaction vocabulary",
       "description": "Greetings, farewells, and the words that make social exchange work.",
@@ -2278,13 +2775,133 @@
         "i:0244",
         "i:0360"
       ],
-      "grammar": [],
-      "practice": []
+      "grammar": [
+        {
+          "id": "g-social-family",
+          "title": "Social words — suffix 𐑯𐑡",
+          "body": "The 𐑯𐑡 suffix family covers social interaction — connecting with others.\n\n{{dict:i:0058.word}} smile/wink · {{dict:i:0067.word}} bond/relationship · {{dict:i:0081.word}} group/community · {{dict:i:0162.word}} friend · {{dict:i:0226.word}} respect/admire · {{dict:i:0244.word}} greet",
+          "examples": [
+            {
+              "shavian": "{{prefix:verb-past-base-symbol}}{{dict:i:0244.word}} {{prefix:noun-subject-base-symbol}}{{dict:sv:𐑱-word.word}} {{prefix:noun-object-base-symbol}}{{dict:sv:𐑰-word.word}}",
+              "gloss": "she greeted me",
+              "breakdown": [
+                {
+                  "part": "{{prefix:verb-past-base-symbol}}",
+                  "role": "prefix",
+                  "meaning": "past"
+                },
+                {
+                  "part": "{{dict:i:0244.word}}",
+                  "role": "root",
+                  "meaning": "greet"
+                },
+                {
+                  "part": "{{prefix:noun-subject-base-symbol}}",
+                  "role": "prefix",
+                  "meaning": "subject"
+                },
+                {
+                  "part": "{{dict:sv:𐑱-word.word}}",
+                  "role": "root",
+                  "meaning": "she/they"
+                },
+                {
+                  "part": "{{prefix:noun-object-base-symbol}}",
+                  "role": "prefix",
+                  "meaning": "object"
+                },
+                {
+                  "part": "{{dict:sv:𐑰-word.word}}",
+                  "role": "root",
+                  "meaning": "me"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "id": "l20-p1",
+          "type": "wordMatch",
+          "prompt": "Match the social word to its meaning",
+          "pairs": [
+            {
+              "shavian": "{{dict:i:0058.word}}",
+              "english": "smile / wink"
+            },
+            {
+              "shavian": "{{dict:i:0081.word}}",
+              "english": "group / community"
+            },
+            {
+              "shavian": "{{dict:i:0162.word}}",
+              "english": "friend"
+            },
+            {
+              "shavian": "{{dict:i:0244.word}}",
+              "english": "greet"
+            }
+          ]
+        },
+        {
+          "id": "l20-p2",
+          "type": "multipleChoice",
+          "prompt": "What does {{dict:i:0067.word}} mean?",
+          "options": [
+            "Greet",
+            "Bond / relationship",
+            "Group",
+            "Smile"
+          ],
+          "correctIndex": 1,
+          "explanation": "{{dict:i:0067.word}} = bond, relationship, connection between people."
+        },
+        {
+          "id": "l20-p3",
+          "type": "multipleChoice",
+          "prompt": "How do you say 'we are friends'?",
+          "options": [
+            "{{prefix:verb-present-base-symbol}}{{dict:i:0162.word}} {{prefix:noun-subject-base-symbol}}{{dict:sv:𐑵-word.word}}",
+            "{{prefix:noun-subject-base-symbol}}{{dict:sv:𐑵-word.word}} {{prefix:verb-present-base-symbol}}{{dict:i:0244.word}}",
+            "{{prefix:modifier-base-symbol}}{{dict:i:0162.word}} {{prefix:noun-subject-base-symbol}}{{dict:sv:𐑵-word.word}}",
+            "{{prefix:verb-present-base-symbol}}{{dict:i:0067.word}} {{prefix:noun-subject-base-symbol}}{{dict:sv:𐑵-word.word}}"
+          ],
+          "correctIndex": 0,
+          "explanation": "{{prefix:verb-present-base-symbol}}{{dict:i:0162.word}} = are friends (present verb). {{prefix:noun-subject-base-symbol}}{{dict:sv:𐑵-word.word}} = we (subject)."
+        },
+        {
+          "id": "l20-p4",
+          "type": "multipleChoice",
+          "prompt": "What does {{dict:i:0226.word}} mean?",
+          "options": [
+            "Friend",
+            "Greet",
+            "Respect / admire",
+            "Group"
+          ],
+          "correctIndex": 2,
+          "explanation": "{{dict:i:0226.word}} = respect, admire."
+        },
+        {
+          "id": "l20-p5",
+          "type": "multipleChoice",
+          "prompt": "What suffix family covers social interaction words?",
+          "options": [
+            "𐑛𐑟",
+            "𐑯𐑡",
+            "𐑙𐑟",
+            "𐑑𐑕"
+          ],
+          "correctIndex": 1,
+          "explanation": "𐑯𐑡 is the Social Interaction suffix family."
+        }
+      ]
     },
     "l21": {
       "id": "l21",
       "unit": "unit-3",
-      "order": 21,
+      "order": 24,
       "title": "Work and effort",
       "subtitle": "Work, Effort & Outcome vocabulary",
       "description": "Doing things, trying, succeeding, and failing.",
@@ -2300,13 +2917,123 @@
         "i:0229",
         "i:0313"
       ],
-      "grammar": [],
-      "practice": []
+      "grammar": [
+        {
+          "id": "g-work-family",
+          "title": "Work words — suffix 𐑜𐑟",
+          "body": "The 𐑜𐑟 suffix family covers work, effort, and outcomes.\n\n{{dict:i:0044.word}} skill/expertise · {{dict:i:0073.word}} method/technique · {{dict:i:0091.word}} manage/do · {{dict:i:0175.word}} achieve/accomplish · {{dict:i:0181.word}} lose/loss · {{dict:i:0229.word}} job/work · {{dict:i:0313.word}} manage/coordinate",
+          "examples": [
+            {
+              "shavian": "{{prefix:verb-past-base-symbol}}{{dict:i:0175.word}} {{prefix:noun-subject-base-symbol}}{{dict:sv:𐑱-word.word}}",
+              "gloss": "she achieved it",
+              "breakdown": [
+                {
+                  "part": "{{prefix:verb-past-base-symbol}}",
+                  "role": "prefix",
+                  "meaning": "past"
+                },
+                {
+                  "part": "{{dict:i:0175.word}}",
+                  "role": "root",
+                  "meaning": "achieve/accomplish"
+                },
+                {
+                  "part": "{{prefix:noun-subject-base-symbol}}",
+                  "role": "prefix",
+                  "meaning": "subject"
+                },
+                {
+                  "part": "{{dict:sv:𐑱-word.word}}",
+                  "role": "root",
+                  "meaning": "she/they"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "id": "l21-p1",
+          "type": "wordMatch",
+          "prompt": "Match the work word to its meaning",
+          "pairs": [
+            {
+              "shavian": "{{dict:i:0044.word}}",
+              "english": "skill / expertise"
+            },
+            {
+              "shavian": "{{dict:i:0073.word}}",
+              "english": "method / technique"
+            },
+            {
+              "shavian": "{{dict:i:0175.word}}",
+              "english": "achieve"
+            },
+            {
+              "shavian": "{{dict:i:0181.word}}",
+              "english": "lose / loss"
+            }
+          ]
+        },
+        {
+          "id": "l21-p2",
+          "type": "multipleChoice",
+          "prompt": "What does {{dict:i:0229.word}} mean?",
+          "options": [
+            "Skill",
+            "Achieve",
+            "Job / work / occupation",
+            "Method"
+          ],
+          "correctIndex": 2,
+          "explanation": "{{dict:i:0229.word}} = job, work, occupation."
+        },
+        {
+          "id": "l21-p3",
+          "type": "multipleChoice",
+          "prompt": "How do you say 'I have skill'?",
+          "options": [
+            "{{prefix:verb-present-base-symbol}}{{dict:i:0044.word}} {{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰-word.word}}",
+            "{{prefix:modifier-base-symbol}}{{dict:i:0044.word}} {{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰-word.word}}",
+            "{{prefix:noun-subject-base-symbol}}{{dict:i:0044.word}} {{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰-word.word}}",
+            "{{prefix:verb-past-base-symbol}}{{dict:i:0044.word}} {{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰-word.word}}"
+          ],
+          "correctIndex": 0,
+          "explanation": "Present verb + skill root + I as subject."
+        },
+        {
+          "id": "l21-p4",
+          "type": "multipleChoice",
+          "prompt": "What does {{dict:i:0091.word}} mean?",
+          "options": [
+            "Skill",
+            "Method",
+            "Manage / do / handle",
+            "Job"
+          ],
+          "correctIndex": 2,
+          "explanation": "{{dict:i:0091.word}} = manage, do, handle."
+        },
+        {
+          "id": "l21-p5",
+          "type": "multipleChoice",
+          "prompt": "What suffix marks the work/effort family?",
+          "options": [
+            "𐑜𐑟",
+            "𐑝𐑟",
+            "𐑛𐑟",
+            "𐑯𐑡"
+          ],
+          "correctIndex": 0,
+          "explanation": "𐑜𐑟 is the Work, Effort & Outcome family."
+        }
+      ]
     },
     "l22": {
       "id": "l22",
       "unit": "unit-3",
-      "order": 22,
+      "order": 25,
       "title": "Nature",
       "subtitle": "Nature & Elements vocabulary",
       "description": "The natural world — elements, living things, and natural phenomena.",
@@ -2322,13 +3049,123 @@
         "i:0587",
         "i:0626"
       ],
-      "grammar": [],
-      "practice": []
+      "grammar": [
+        {
+          "id": "g-nature-family",
+          "title": "Nature words — suffix 𐑥𐑐𐑑",
+          "body": "The 𐑥𐑐𐑑 suffix family covers natural elements and phenomena.\n\n{{dict:i:0172.word}} fire/flame · {{dict:i:0173.word}} earth/ground · {{dict:i:0326.word}} float/fluid · {{dict:i:0394.word}} cold/harsh · {{dict:i:0495.word}} weather/climate · {{dict:i:0587.word}} sun/solar · {{dict:i:0626.word}} gas/gaseous",
+          "examples": [
+            {
+              "shavian": "{{prefix:noun-subject-base-symbol}}{{dict:i:0495.word}} {{prefix:verb-present-base-symbol}}{{dict:i:0109.word}}",
+              "gloss": "the weather is moving (changing)",
+              "breakdown": [
+                {
+                  "part": "{{prefix:noun-subject-base-symbol}}",
+                  "role": "prefix",
+                  "meaning": "subject"
+                },
+                {
+                  "part": "{{dict:i:0495.word}}",
+                  "role": "root",
+                  "meaning": "weather/climate"
+                },
+                {
+                  "part": "{{prefix:verb-present-base-symbol}}",
+                  "role": "prefix",
+                  "meaning": "present"
+                },
+                {
+                  "part": "{{dict:i:0109.word}}",
+                  "role": "root",
+                  "meaning": "move/change"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "id": "l22-p1",
+          "type": "wordMatch",
+          "prompt": "Match the nature word to its meaning",
+          "pairs": [
+            {
+              "shavian": "{{dict:i:0172.word}}",
+              "english": "fire / flame"
+            },
+            {
+              "shavian": "{{dict:i:0173.word}}",
+              "english": "earth / ground"
+            },
+            {
+              "shavian": "{{dict:i:0587.word}}",
+              "english": "sun / solar"
+            },
+            {
+              "shavian": "{{dict:i:0394.word}}",
+              "english": "cold / harsh"
+            }
+          ]
+        },
+        {
+          "id": "l22-p2",
+          "type": "multipleChoice",
+          "prompt": "What does {{dict:i:0326.word}} mean?",
+          "options": [
+            "Fire",
+            "Gas",
+            "Float / fluid / water",
+            "Earth"
+          ],
+          "correctIndex": 2,
+          "explanation": "{{dict:i:0326.word}} = float, fluid — covers water and liquids broadly."
+        },
+        {
+          "id": "l22-p3",
+          "type": "multipleChoice",
+          "prompt": "What does {{dict:i:0626.word}} mean?",
+          "options": [
+            "Fire",
+            "Gas / gaseous / air",
+            "Sun",
+            "Weather"
+          ],
+          "correctIndex": 1,
+          "explanation": "{{dict:i:0626.word}} = gas, gaseous, air."
+        },
+        {
+          "id": "l22-p4",
+          "type": "multipleChoice",
+          "prompt": "What suffix marks the nature/elements family?",
+          "options": [
+            "𐑥𐑐",
+            "𐑥𐑐𐑑",
+            "𐑯𐑔",
+            "𐑖𐑑"
+          ],
+          "correctIndex": 1,
+          "explanation": "𐑥𐑐𐑑 is the Nature & Elements suffix family."
+        },
+        {
+          "id": "l22-p5",
+          "type": "multipleChoice",
+          "prompt": "How would you say 'the sun is hot' (using {{dict:i:0047.word}} wow/delight as 'intense')?",
+          "options": [
+            "{{prefix:noun-subject-base-symbol}}{{dict:i:0587.word}} {{prefix:modifier-base-symbol}}{{dict:i:0047.word}} {{prefix:verb-present-base-symbol}}{{dict:i:0001.word}}",
+            "{{prefix:verb-present-base-symbol}}{{dict:i:0587.word}} {{prefix:noun-subject-base-symbol}}{{dict:i:0047.word}}",
+            "{{prefix:noun-subject-base-symbol}}{{dict:i:0587.word}} {{prefix:verb-present-base-symbol}}{{dict:i:0001.word}} {{prefix:modifier-base-symbol}}{{dict:i:0047.word}}",
+            "{{prefix:modifier-base-symbol}}{{dict:i:0587.word}} {{prefix:noun-subject-base-symbol}}{{dict:i:0047.word}}"
+          ],
+          "correctIndex": 2,
+          "explanation": "Modifiers go adjacent to what they modify. Sun as subject, is alive/active as verb, intense as modifier on the verb — adjacent to the verb."
+        }
+      ]
     },
     "l23": {
       "id": "l23",
       "unit": "unit-4",
-      "order": 23,
+      "order": 26,
       "title": "Can, should, would",
       "subtitle": "Modal prefixes {{prefix:modal-ability-base-symbol}} {{prefix:modal-obligation-base-symbol}} {{prefix:modal-conditional-base-symbol}}",
       "description": "Modals express ability, obligation, and conditionality. They use voiced obstruents — acoustically verb-adjacent but distinct.",
@@ -2481,7 +3318,7 @@
     "l24": {
       "id": "l24",
       "unit": "unit-4",
-      "order": 24,
+      "order": 27,
       "title": "Commands",
       "subtitle": "Do! and Do not! — prefixes {{prefix:verb-command-do-symbol}} and {{prefix:verb-command-do-not-symbol}}",
       "description": "The imperative — telling someone to do or not do something. Phonetically distinct from all other verb prefixes.",
@@ -2495,13 +3332,155 @@
         "i:0022",
         "i:0047"
       ],
-      "grammar": [],
-      "practice": []
+      "grammar": [
+        {
+          "id": "g-commands",
+          "title": "Commands: {{prefix:verb-command-do-symbol-symbol}} and {{prefix:verb-command-do-not-symbol-symbol}}",
+          "body": "Two dedicated prefixes handle commands — intentionally distinct from tense verbs so they're unmistakable:\n\n{{prefix:verb-command-do-symbol-symbol}} = Do this!\n{{prefix:verb-command-do-not-symbol-symbol}} = Do not do this!\n\nThey stand alone — no subject needed since commands are always addressed to 'you'.",
+          "examples": [
+            {
+              "shavian": "{{prefix:verb-command-do-symbol-symbol}}{{dict:i:0317.word}}",
+              "gloss": "Walk!",
+              "breakdown": [
+                {
+                  "part": "{{prefix:verb-command-do-symbol-symbol}}",
+                  "role": "prefix",
+                  "meaning": "command: do!"
+                },
+                {
+                  "part": "{{dict:i:0317.word}}",
+                  "role": "root",
+                  "meaning": "walk"
+                }
+              ]
+            },
+            {
+              "shavian": "{{prefix:verb-command-do-not-symbol-symbol}}{{dict:i:0317.word}}",
+              "gloss": "Don't walk!",
+              "breakdown": [
+                {
+                  "part": "{{prefix:verb-command-do-not-symbol-symbol}}",
+                  "role": "prefix",
+                  "meaning": "command: do not!"
+                },
+                {
+                  "part": "{{dict:i:0317.word}}",
+                  "role": "root",
+                  "meaning": "walk"
+                }
+              ]
+            },
+            {
+              "shavian": "{{prefix:verb-command-do-symbol-symbol}}{{dict:i:0040.word}} {{prefix:noun-object-base-symbol}}{{dict:sv:𐑰-word.word}}",
+              "gloss": "Talk to me!",
+              "breakdown": [
+                {
+                  "part": "{{prefix:verb-command-do-symbol-symbol}}",
+                  "role": "prefix",
+                  "meaning": "command"
+                },
+                {
+                  "part": "{{dict:i:0040.word}}",
+                  "role": "root",
+                  "meaning": "speak/say"
+                },
+                {
+                  "part": "{{prefix:noun-object-base-symbol}}",
+                  "role": "prefix",
+                  "meaning": "object"
+                },
+                {
+                  "part": "{{dict:sv:𐑰-word.word}}",
+                  "role": "root",
+                  "meaning": "me"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "id": "l24-p1",
+          "type": "multipleChoice",
+          "prompt": "What does {{prefix:verb-command-do-symbol-symbol}} mark?",
+          "options": [
+            "Past tense",
+            "A command to do something",
+            "A command not to do something",
+            "Future tense"
+          ],
+          "correctIndex": 1,
+          "explanation": "{{prefix:verb-command-do-symbol-symbol}} = do this! It is the imperative/command prefix."
+        },
+        {
+          "id": "l24-p2",
+          "type": "multipleChoice",
+          "prompt": "How do you say 'Don't speak!'?",
+          "options": [
+            "{{prefix:verb-command-do-symbol-symbol}}{{dict:i:0040.word}}",
+            "{{prefix:verb-command-do-not-symbol-symbol}}{{dict:i:0040.word}}",
+            "{{prefix:verb-present-negated-symbol-symbol}}{{dict:i:0040.word}}",
+            "{{prefix:verb-command-do-symbol-symbol}}{{dict:i:0013.word}} {{dict:i:0040.word}}"
+          ],
+          "correctIndex": 1,
+          "explanation": "{{prefix:verb-command-do-not-symbol-symbol}} is the prohibition command prefix. {{prefix:verb-command-do-not-symbol-symbol}}{{dict:i:0040.word}} = Don't speak!"
+        },
+        {
+          "id": "l24-p3",
+          "type": "multipleChoice",
+          "prompt": "Commands are acoustically distinct from tense verbs. Why does this matter?",
+          "options": [
+            "It makes them faster to say",
+            "It means you can never mishear a command as a statement",
+            "It makes them easier to negate",
+            "It matches English grammar"
+          ],
+          "correctIndex": 1,
+          "explanation": "The command prefixes use sounds in a different family from tense prefixes — so even in noisy speech you can't confuse 'he speaks' with 'speak!'"
+        },
+        {
+          "id": "l24-p4",
+          "type": "wordMatch",
+          "prompt": "Match the command form to its meaning",
+          "pairs": [
+            {
+              "shavian": "{{prefix:verb-command-do-symbol-symbol}}{{dict:i:0317.word}}",
+              "english": "Walk!"
+            },
+            {
+              "shavian": "{{prefix:verb-command-do-not-symbol-symbol}}{{dict:i:0317.word}}",
+              "english": "Don't walk!"
+            },
+            {
+              "shavian": "{{prefix:verb-command-do-symbol-symbol}}{{dict:i:0109.word}}",
+              "english": "Move!"
+            },
+            {
+              "shavian": "{{prefix:verb-command-do-not-symbol-symbol}}{{dict:i:0040.word}}",
+              "english": "Don't speak!"
+            }
+          ]
+        },
+        {
+          "id": "l24-p5",
+          "type": "multipleChoice",
+          "prompt": "Do commands require a subject word like {{prefix:noun-subject-base-symbol}}{{dict:sv:𐑴-word.word}} (you)?",
+          "options": [
+            "Yes — always",
+            "No — the command prefix implies 'you' already",
+            "Only for negative commands",
+            "Only in formal speech"
+          ],
+          "correctIndex": 1,
+          "explanation": "Commands are addressed to 'you' by default — the command prefix itself implies the subject. Adding an explicit subject is optional for emphasis."
+        }
+      ]
     },
     "l25": {
       "id": "l25",
       "unit": "unit-4",
-      "order": 25,
+      "order": 28,
       "title": "Subordinate clauses",
       "subtitle": "Clause verb prefix {{prefix:verb-clause-base-symbol}}",
       "description": "How to embed one clause inside another — 'I know that you want...'",
@@ -2515,13 +3494,138 @@
         "i:0022",
         "i:0006"
       ],
-      "grammar": [],
-      "practice": []
+      "grammar": [
+        {
+          "id": "g-clause-opener",
+          "title": "Clause opener: {{dict:i:1933.word}}",
+          "body": "The word {{dict:i:1933.word}} (that/which) opens a subordinate clause — a phrase like 'that she went' or 'which I found'. Everything inside the clause follows {{dict:i:1933.word}} and stays grouped together.\n\nInside the clause, verbs use the clause verb prefix {{prefix:verb-clause-base-symbol-symbol}} instead of a tense prefix. Nouns still use their normal prefixes ({{prefix:noun-subject-base-symbol-symbol}}, {{prefix:noun-object-base-symbol-symbol}}, etc.).",
+          "examples": [
+            {
+              "shavian": "{{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰-word.word}} {{prefix:verb-present-base-symbol}}{{dict:i:0014.word}} {{dict:i:1933.word}} {{prefix:noun-subject-base-symbol}}{{dict:i:0356.word}} {{prefix:verb-clause-base-symbol-symbol}}{{dict:i:0109.word}}",
+              "gloss": "I know that the dog moved",
+              "breakdown": [
+                {
+                  "part": "{{prefix:noun-subject-base-symbol}}",
+                  "role": "subject",
+                  "meaning": "I (subject)"
+                },
+                {
+                  "part": "{{dict:sv:𐑰-word.word}}",
+                  "role": "root",
+                  "meaning": "I"
+                },
+                {
+                  "part": "{{prefix:verb-present-base-symbol}}",
+                  "role": "verb-present",
+                  "meaning": "know (present)"
+                },
+                {
+                  "part": "{{dict:i:0014.word}}",
+                  "role": "root",
+                  "meaning": "know"
+                },
+                {
+                  "part": "{{dict:i:1933.word}}",
+                  "role": "word",
+                  "meaning": "that (clause opener)"
+                },
+                {
+                  "part": "{{prefix:noun-subject-base-symbol}}",
+                  "role": "subject",
+                  "meaning": "the dog (clause subject)"
+                },
+                {
+                  "part": "{{dict:i:0356.word}}",
+                  "role": "root",
+                  "meaning": "dog"
+                },
+                {
+                  "part": "{{prefix:verb-clause-base-symbol-symbol}}",
+                  "role": "prefix",
+                  "meaning": "clause verb"
+                },
+                {
+                  "part": "{{dict:i:0109.word}}",
+                  "role": "root",
+                  "meaning": "move"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "id": "l25-p1",
+          "type": "multipleChoice",
+          "prompt": "What does {{dict:i:1933.word}} signal?",
+          "options": [
+            "A question",
+            "The start of a subordinate clause",
+            "A command",
+            "A past tense verb"
+          ],
+          "correctIndex": 1,
+          "explanation": "{{dict:i:1933.word}} = that/which — it opens a subordinate clause. Everything that follows is inside the clause."
+        },
+        {
+          "id": "l25-p2",
+          "type": "multipleChoice",
+          "prompt": "Inside a subordinate clause, verbs use which prefix?",
+          "options": [
+            "{{prefix:verb-present-base-symbol-symbol}}",
+            "{{prefix:verb-past-base-symbol-symbol}}",
+            "{{prefix:verb-clause-base-symbol-symbol}}",
+            "{{prefix:verb-future-base-symbol-symbol}}"
+          ],
+          "correctIndex": 2,
+          "explanation": "{{prefix:verb-clause-base-symbol-symbol}} is the clause verb prefix. Regular tense prefixes are replaced by this inside subordinate clauses."
+        },
+        {
+          "id": "l25-p3",
+          "type": "multipleChoice",
+          "prompt": "Which is correct for 'I know that she loves dogs'?",
+          "options": [
+            "{{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰-word.word}} {{prefix:verb-present-base-symbol}}{{dict:i:0014.word}} {{dict:i:1933.word}} {{prefix:noun-subject-base-symbol}}{{dict:sv:𐑱-word.word}} {{prefix:verb-clause-base-symbol-symbol}}{{dict:i:0055.word}} {{prefix:noun-generic-base-symbol-symbol}}𐑮{{dict:i:0356.word}}",
+            "{{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰-word.word}} {{prefix:verb-present-base-symbol}}{{dict:i:0014.word}} {{prefix:noun-subject-base-symbol}}{{dict:sv:𐑱-word.word}} {{prefix:verb-present-base-symbol}}{{dict:i:0055.word}} {{prefix:noun-generic-base-symbol-symbol}}𐑮{{dict:i:0356.word}}",
+            "{{dict:i:1933.word}} {{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰-word.word}} {{prefix:verb-present-base-symbol}}{{dict:i:0014.word}} {{prefix:noun-subject-base-symbol}}{{dict:sv:𐑱-word.word}} {{prefix:verb-clause-base-symbol-symbol}}{{dict:i:0055.word}}",
+            "{{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰-word.word}} {{prefix:verb-present-base-symbol}}{{dict:i:0014.word}} {{dict:i:1933.word}} {{prefix:noun-subject-base-symbol}}{{dict:sv:𐑱-word.word}} {{prefix:verb-present-base-symbol}}{{dict:i:0055.word}}"
+          ],
+          "correctIndex": 0,
+          "explanation": "Main clause: I know. Then {{dict:i:1933.word}} opens the sub-clause. Inside: she (subject) + {{prefix:verb-clause-base-symbol-symbol}} love + dogs (generic plural noun)."
+        },
+        {
+          "id": "l25-p4",
+          "type": "multipleChoice",
+          "prompt": "Can nouns inside a subordinate clause still use {{prefix:noun-subject-base-symbol-symbol}} and {{prefix:noun-object-base-symbol-symbol}}?",
+          "options": [
+            "No — they use {p('verb-clause-base-symbol')} too",
+            "Yes — noun prefixes stay the same inside clauses",
+            "Only the first noun can",
+            "Only if the clause opener is present"
+          ],
+          "correctIndex": 1,
+          "explanation": "Noun prefixes work the same inside and outside clauses. Only verb prefixes change — from tense markers to the clause verb prefix."
+        },
+        {
+          "id": "l25-p5",
+          "type": "multipleChoice",
+          "prompt": "What is {{prefix:verb-clause-base-symbol-symbol}} used for?",
+          "options": [
+            "Commands inside clauses",
+            "Ongoing action inside a clause",
+            "Verbs inside subordinate clauses (after that/which)",
+            "Reported speech"
+          ],
+          "correctIndex": 2,
+          "explanation": "{{prefix:verb-clause-base-symbol-symbol}} marks verbs inside subordinate clauses opened by {{dict:i:1933.word}}."
+        }
+      ]
     },
     "l26": {
       "id": "l26",
       "unit": "unit-4",
-      "order": 26,
+      "order": 29,
       "title": "Reported speech",
       "subtitle": "The evidential {{prefix:evidential-reportative-base-symbol}}",
       "description": "Marking whether you witnessed something directly or are reporting what you heard.",
@@ -2535,13 +3639,129 @@
         "i:0006",
         "i:0007"
       ],
-      "grammar": [],
-      "practice": []
+      "grammar": [
+        {
+          "id": "g-evidential",
+          "title": "The evidential {{prefix:evidential-reportative-base-symbol-symbol}}",
+          "body": "The evidential {{prefix:evidential-reportative-base-symbol-symbol}} (ticked sound) marks a statement as second-hand — something you didn't witness yourself. Without it, you're asserting personal knowledge. With it, you're signaling inference or hearsay.\n\nThis distinction exists in many languages. In thints it's a single ticked prefix on the verb.\n\nNegation of the evidential uses a modifier word (not {{prefix:operator-negation-symbol-symbol}} stack) to say 'apparently not'.",
+          "examples": [
+            {
+              "shavian": "{{prefix:verb-present-base-symbol}}{{dict:i:0018.word}} {{prefix:noun-subject-base-symbol}}{{dict:sv:𐑱-word.word}}",
+              "gloss": "it is fine (I know this directly)",
+              "breakdown": [
+                {
+                  "part": "{{prefix:verb-present-base-symbol}}",
+                  "role": "verb-present",
+                  "meaning": "present tense"
+                },
+                {
+                  "part": "{{dict:i:0018.word}}",
+                  "role": "root",
+                  "meaning": "ok/fine"
+                },
+                {
+                  "part": "{{prefix:noun-subject-base-symbol}}",
+                  "role": "subject",
+                  "meaning": "it (subject)"
+                }
+              ]
+            },
+            {
+              "shavian": "{{prefix:evidential-reportative-base-symbol-symbol}}{{dict:i:0018.word}} {{prefix:noun-subject-base-symbol}}{{dict:sv:𐑱-word.word}}",
+              "gloss": "apparently it is fine (I was told / I inferred)",
+              "breakdown": [
+                {
+                  "part": "{{prefix:evidential-reportative-base-symbol-symbol}}",
+                  "role": "prefix",
+                  "meaning": "evidential — reported/inferred"
+                },
+                {
+                  "part": "{{dict:i:0018.word}}",
+                  "role": "root",
+                  "meaning": "ok/fine"
+                },
+                {
+                  "part": "{{prefix:noun-subject-base-symbol}}",
+                  "role": "subject",
+                  "meaning": "it (subject)"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "id": "l26-p1",
+          "type": "multipleChoice",
+          "prompt": "What does {{prefix:evidential-reportative-base-symbol-symbol}} signal?",
+          "options": [
+            "Past tense",
+            "Future tense",
+            "A statement is reported or inferred, not directly witnessed",
+            "A command"
+          ],
+          "correctIndex": 2,
+          "explanation": "{{prefix:evidential-reportative-base-symbol-symbol}} is the evidential — it marks hearsay, inference, or reported information. Without it, the statement claims direct knowledge."
+        },
+        {
+          "id": "l26-p2",
+          "type": "multipleChoice",
+          "prompt": "What is the difference between {{prefix:verb-present-base-symbol}}{{dict:i:0014.word}} and {{prefix:evidential-reportative-base-symbol-symbol}}{{dict:i:0014.word}}?",
+          "options": [
+            "{{prefix:verb-present-base-symbol}}{{dict:i:0014.word}} = I know (direct). {{prefix:evidential-reportative-base-symbol-symbol}}{{dict:i:0014.word}} = apparently someone knows (reported)",
+            "They mean exactly the same thing",
+            "{{prefix:verb-present-base-symbol}}{{dict:i:0014.word}} is formal. {{prefix:evidential-reportative-base-symbol-symbol}}{{dict:i:0014.word}} is informal",
+            "{{prefix:verb-present-base-symbol}}{{dict:i:0014.word}} is present. {{prefix:evidential-reportative-base-symbol-symbol}}{{dict:i:0014.word}} is past"
+          ],
+          "correctIndex": 0,
+          "explanation": "The evidential replaces the tense prefix to signal the information is reported or inferred, not first-hand."
+        },
+        {
+          "id": "l26-p3",
+          "type": "multipleChoice",
+          "prompt": "Which real-world situation calls for the evidential?",
+          "options": [
+            "Telling someone what time it is from your watch",
+            "Repeating something you read in a news article",
+            "Describing what you saw happen",
+            "Giving a direct command"
+          ],
+          "correctIndex": 1,
+          "explanation": "The evidential marks second-hand or inferred information — repeating news, rumors, or things you concluded rather than witnessed."
+        },
+        {
+          "id": "l26-p4",
+          "type": "multipleChoice",
+          "prompt": "Is {{prefix:evidential-reportative-base-symbol-symbol}} a ticked sound?",
+          "options": [
+            "No — it is a regular consonant",
+            "Yes — it uses a ticked consonant not found in English",
+            "Only when negated",
+            "It depends on dialect"
+          ],
+          "correctIndex": 1,
+          "explanation": "{{prefix:evidential-reportative-base-symbol-symbol}} is a ticked sound — one of the five rare ticked consonants. That's why it's phonetically distinct from all tense prefixes."
+        },
+        {
+          "id": "l26-p5",
+          "type": "multipleChoice",
+          "prompt": "How do you say 'apparently it is fine'?",
+          "options": [
+            "{{prefix:verb-present-base-symbol}}{{dict:i:0018.word}}",
+            "{{prefix:verb-past-base-symbol}}{{dict:i:0018.word}}",
+            "{{prefix:evidential-reportative-base-symbol-symbol}}{{dict:i:0018.word}}",
+            "{{prefix:verb-clause-base-symbol-symbol}}{{dict:i:0018.word}}"
+          ],
+          "correctIndex": 2,
+          "explanation": "{{prefix:evidential-reportative-base-symbol-symbol}}{{dict:i:0018.word}} = apparently fine. The evidential replaces the tense prefix."
+        }
+      ]
     },
     "l27": {
       "id": "l27",
       "unit": "unit-4",
-      "order": 27,
+      "order": 30,
       "title": "Was doing, will be doing",
       "subtitle": "Ticked progressive: {{prefix:verb-progressive-past-ticked-symbol}} {{prefix:verb-progressive-future-ticked-symbol}} {{prefix:verb-progressive-emphatic-ticked-symbol}}",
       "description": "Extending the progressive to past and future tenses using ticked consonants.",
@@ -2555,27 +3775,327 @@
         "i:0022",
         "i:0047"
       ],
-      "grammar": [],
-      "practice": []
+      "grammar": [
+        {
+          "id": "g-ticked-progressive",
+          "title": "Past and future progressive with ticked sounds",
+          "body": "The regular progressive {{prefix:verb-progressive-base-symbol-symbol}} covers ongoing present ('I am doing'). For ongoing past and future, ticked sounds take over — they're rare, so they're saved for these low-frequency forms.\n\n{{prefix:verb-progressive-past-ticked-symbol-symbol}} = was doing (ongoing past)\n{{prefix:verb-progressive-future-ticked-symbol-symbol}} = will be doing (ongoing future)\n{{prefix:verb-progressive-emphatic-ticked-symbol-symbol}} = am doing right now (emphatic present)\n\nNegation follows the same pattern as the base progressive: stack {{prefix:operator-negation-symbol-symbol}} before.",
+          "examples": [
+            {
+              "shavian": "{{prefix:verb-progressive-past-ticked-symbol-symbol}}{{dict:i:0040.word}} {{prefix:noun-subject-base-symbol}}{{dict:sv:𐑱-word.word}}",
+              "gloss": "she was speaking (ongoing past)",
+              "breakdown": [
+                {
+                  "part": "{{prefix:verb-progressive-past-ticked-symbol-symbol}}",
+                  "role": "verb-progressive",
+                  "meaning": "ongoing past (ticked)"
+                },
+                {
+                  "part": "{{dict:i:0040.word}}",
+                  "role": "root",
+                  "meaning": "speak"
+                },
+                {
+                  "part": "{{prefix:noun-subject-base-symbol}}",
+                  "role": "subject",
+                  "meaning": "she (subject)"
+                }
+              ]
+            },
+            {
+              "shavian": "{{prefix:verb-progressive-future-ticked-symbol-symbol}}{{dict:i:0014.word}} {{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰-word.word}}",
+              "gloss": "I will be knowing / I will be learning",
+              "breakdown": [
+                {
+                  "part": "{{prefix:verb-progressive-future-ticked-symbol-symbol}}",
+                  "role": "verb-progressive",
+                  "meaning": "ongoing future (ticked)"
+                },
+                {
+                  "part": "{{dict:i:0014.word}}",
+                  "role": "root",
+                  "meaning": "know"
+                },
+                {
+                  "part": "{{prefix:noun-subject-base-symbol}}",
+                  "role": "subject",
+                  "meaning": "I (subject)"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "id": "l27-p1",
+          "type": "multipleChoice",
+          "prompt": "What does {{prefix:verb-progressive-past-ticked-symbol-symbol}} mark?",
+          "options": [
+            "Simple past",
+            "Ongoing past ('was doing')",
+            "Ongoing future",
+            "Ongoing present emphatic"
+          ],
+          "correctIndex": 1,
+          "explanation": "{{prefix:verb-progressive-past-ticked-symbol-symbol}} = ongoing past — 'was doing'. Its counterpart {{prefix:verb-progressive-base-symbol-symbol}} is ongoing present, {{prefix:verb-progressive-future-ticked-symbol-symbol}} is ongoing future."
+        },
+        {
+          "id": "l27-p2",
+          "type": "multipleChoice",
+          "prompt": "Why do past and future progressive use ticked sounds?",
+          "options": [
+            "They were borrowed from another language",
+            "Ticked sounds are reserved for low-frequency grammatical uses to keep regular sounds free",
+            "They are easier to pronounce",
+            "They match the sound of the vowels"
+          ],
+          "correctIndex": 1,
+          "explanation": "Ticked consonants are harder to produce in English so they're saved for grammatical forms you rarely need — like ongoing past and future."
+        },
+        {
+          "id": "l27-p3",
+          "type": "multipleChoice",
+          "prompt": "How do you say 'I was speaking'?",
+          "options": [
+            "{{prefix:verb-past-base-symbol}}{{dict:i:0040.word}} {{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰-word.word}}",
+            "{{prefix:verb-progressive-base-symbol}}{{dict:i:0040.word}} {{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰-word.word}}",
+            "{{prefix:verb-progressive-past-ticked-symbol-symbol}}{{dict:i:0040.word}} {{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰-word.word}}",
+            "{{prefix:verb-progressive-future-ticked-symbol-symbol}}{{dict:i:0040.word}} {{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰-word.word}}"
+          ],
+          "correctIndex": 2,
+          "explanation": "{{prefix:verb-progressive-past-ticked-symbol-symbol}} = was doing (ongoing past). {{prefix:verb-past-base-symbol}} = simple past (did)."
+        },
+        {
+          "id": "l27-p4",
+          "type": "wordMatch",
+          "prompt": "Match the progressive form to its meaning",
+          "pairs": [
+            {
+              "shavian": "{{prefix:verb-progressive-base-symbol-symbol}}",
+              "english": "is doing (ongoing present)"
+            },
+            {
+              "shavian": "{{prefix:verb-progressive-past-ticked-symbol-symbol}}",
+              "english": "was doing (ongoing past)"
+            },
+            {
+              "shavian": "{{prefix:verb-progressive-future-ticked-symbol-symbol}}",
+              "english": "will be doing (ongoing future)"
+            },
+            {
+              "shavian": "{{prefix:verb-progressive-emphatic-ticked-symbol-symbol}}",
+              "english": "am doing right now (emphatic)"
+            }
+          ]
+        },
+        {
+          "id": "l27-p5",
+          "type": "multipleChoice",
+          "prompt": "What does {{prefix:verb-progressive-emphatic-ticked-symbol-symbol}}{{dict:i:0047.word}} mean?",
+          "options": [
+            "I was delighted",
+            "I am delighted (simple)",
+            "I am delighting right now (emphatic ongoing)",
+            "I will delight"
+          ],
+          "correctIndex": 2,
+          "explanation": "{{prefix:verb-progressive-emphatic-ticked-symbol-symbol}} = ongoing present emphatic — 'am doing right now, at this very moment'. Used for stress and immediacy."
+        }
+      ]
     },
     "l28": {
       "id": "l28",
       "unit": "unit-4",
-      "order": 28,
-      "title": "Numbers",
-      "subtitle": "Sequence markers {{prefix:number-integer-end-base-symbol}} {{prefix:number-decimal-start-base-symbol}} {{prefix:number-fraction-base-symbol}} {{prefix:number-scale-up-symbol}} {{prefix:number-scale-down-symbol}}",
-      "description": "How numbers work in thints — sequence boundaries, decimals, fractions, and scale.",
+      "order": 31,
+      "title": "Advanced numbers",
+      "subtitle": "Fractions, measurement, and the number system in context",
+      "description": "Building on the basics from the numbers lesson — fractions, physical measurement, and how numbers combine with other words to express precise quantities.",
       "estimatedMinutes": 9,
       "xp": 100,
       "badge": "unit-4-complete",
-      "wordIds": [],
-      "grammar": [],
-      "practice": []
+      "wordIds": [
+        "i:0812",
+        "i:0291",
+        "i:1913",
+        "i:0770"
+      ],
+      "grammar": [
+        {
+          "id": "g-fractions",
+          "title": "Fractions with {{prefix:number-fraction-base-symbol-symbol}}",
+          "body": "For clean fractions, use {{prefix:number-fraction-base-symbol-symbol}} before the denominator digit. The noun follows directly — since a noun always follows, no end marker is needed on the denominator.\n\n{{prefix:number-fraction-base-symbol-symbol}}2 = one half · {{prefix:number-fraction-base-symbol-symbol}}4 = one quarter · {{prefix:number-fraction-base-symbol-symbol}}3 = one third",
+          "examples": [
+            {
+              "shavian": "{{prefix:number-fraction-base-symbol-symbol}}{{dict:i:d4.word}} {{dict:i:0356.word}}",
+              "gloss": "a quarter of a dog",
+              "breakdown": [
+                {
+                  "part": "{{prefix:number-fraction-base-symbol-symbol}}",
+                  "role": "prefix",
+                  "meaning": "fraction marker"
+                },
+                {
+                  "part": "{{dict:i:d4.word}}",
+                  "role": "root",
+                  "meaning": "4 — denominator"
+                },
+                {
+                  "part": "{{dict:i:0356.word}}",
+                  "role": "root",
+                  "meaning": "dog — the noun it applies to"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "g-measurement",
+          "title": "Physical measurement",
+          "body": "Each physical dimension has its own root word in the 𐑐𐑑𐑕 family. The base value is always a standard metric unit. Scale with {{dict:sv:𐑶-word.word}} and {{dict:sv:𐑬-word.word}}:\n\n{{dict:i:0812.word}} = length (meter) · {{dict:i:0291.word}} = mass (gram) · {{dict:i:1913.word}} = temperature (°C)",
+          "examples": [
+            {
+              "shavian": "{{dict:i:0812.word}} {{dict:sv:𐑶-word.word}}{{prefix:number-integer-end-base-symbol}}{{dict:i:d3.word}}",
+              "gloss": "kilometer (length × 10³)",
+              "breakdown": [
+                {
+                  "part": "{{dict:i:0812.word}}",
+                  "role": "root",
+                  "meaning": "length / meter"
+                },
+                {
+                  "part": "{{dict:sv:𐑶-word.word}}",
+                  "role": "word",
+                  "meaning": "scale up"
+                },
+                {
+                  "part": "{{prefix:number-integer-end-base-symbol}}",
+                  "role": "prefix",
+                  "meaning": "end"
+                },
+                {
+                  "part": "{{dict:i:d3.word}}",
+                  "role": "root",
+                  "meaning": "3 (exponent)"
+                }
+              ]
+            },
+            {
+              "shavian": "{{dict:i:1913.word}} {{prefix:number-integer-end-base-symbol}}{{dict:i:d2.word}} {{prefix:number-integer-end-base-symbol}}{{dict:i:d0.word}}",
+              "gloss": "20°C",
+              "breakdown": [
+                {
+                  "part": "{{dict:i:1913.word}}",
+                  "role": "root",
+                  "meaning": "temperature"
+                },
+                {
+                  "part": "{{prefix:number-integer-end-base-symbol}}",
+                  "role": "prefix",
+                  "meaning": "end"
+                },
+                {
+                  "part": "{{dict:i:d2.word}}",
+                  "role": "root",
+                  "meaning": "2"
+                },
+                {
+                  "part": "{{prefix:number-integer-end-base-symbol}}",
+                  "role": "prefix",
+                  "meaning": "end"
+                },
+                {
+                  "part": "{{dict:i:d0.word}}",
+                  "role": "root",
+                  "meaning": "0"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "id": "l28-p1",
+          "type": "multipleChoice",
+          "prompt": "What does {{prefix:number-fraction-base-symbol-symbol}}{{dict:i:d2.word}} {{dict:i:0356.word}} mean?",
+          "options": [
+            "2 dogs",
+            "A second dog",
+            "Half a dog",
+            "A pair of dogs"
+          ],
+          "correctIndex": 2,
+          "explanation": "{{prefix:number-fraction-base-symbol-symbol}} = fraction marker. {{dict:i:d2.word}} = 2 (denominator). So this is one half of a dog."
+        },
+        {
+          "id": "l28-p2",
+          "type": "multipleChoice",
+          "prompt": "How do you say 'centimeter' (length ÷ 10²)?",
+          "options": [
+            "{{dict:i:0812.word}} {{dict:sv:𐑶-word.word}}{{prefix:number-integer-end-base-symbol}}{{dict:i:d2.word}}",
+            "{{dict:i:0812.word}} {{dict:sv:𐑬-word.word}}{{prefix:number-integer-end-base-symbol}}{{dict:i:d2.word}}",
+            "{{dict:i:0812.word}} {{prefix:number-integer-end-base-symbol}}{{dict:i:d2.word}}",
+            "{{dict:i:0812.word}} {{dict:sv:𐑬-word.word}}{{dict:i:d2.word}}"
+          ],
+          "correctIndex": 1,
+          "explanation": "{{dict:sv:𐑬-word.word}} = scale down. {{prefix:number-integer-end-base-symbol}}{{dict:i:d2.word}} = exponent 2. So length ÷ 10² = centimeter."
+        },
+        {
+          "id": "l28-p3",
+          "type": "multipleChoice",
+          "prompt": "What does {{dict:i:0291.word}} measure?",
+          "options": [
+            "Length",
+            "Temperature",
+            "Mass / weight",
+            "Volume"
+          ],
+          "correctIndex": 2,
+          "explanation": "{{dict:i:0291.word}} = mass/weight, base unit = gram."
+        },
+        {
+          "id": "l28-p4",
+          "type": "wordMatch",
+          "prompt": "Match the measurement word to its dimension",
+          "pairs": [
+            {
+              "shavian": "{{dict:i:0812.word}}",
+              "english": "length / distance (meter)"
+            },
+            {
+              "shavian": "{{dict:i:0291.word}}",
+              "english": "mass / weight (gram)"
+            },
+            {
+              "shavian": "{{dict:i:1913.word}}",
+              "english": "temperature (°C)"
+            },
+            {
+              "shavian": "{{dict:i:0770.word}}",
+              "english": "magnitude / proportion / scale"
+            }
+          ]
+        },
+        {
+          "id": "l28-p5",
+          "type": "multipleChoice",
+          "prompt": "How do you say '20°C'?",
+          "options": [
+            "{{dict:i:1913.word}} {{dict:i:d2.word}} {{dict:i:d0.word}}",
+            "{{dict:i:1913.word}} {{prefix:number-integer-end-base-symbol}}{{dict:i:d2.word}} {{prefix:number-integer-end-base-symbol}}{{dict:i:d0.word}}",
+            "{{dict:i:d2.word}} {{dict:i:d0.word}} {{dict:i:1913.word}}",
+            "{{dict:i:1913.word}} {{prefix:number-integer-end-base-symbol}}{{dict:i:d2.word}}{{dict:i:d0.word}}"
+          ],
+          "correctIndex": 1,
+          "explanation": "Temperature word + digits with end markers. 20 = two digits: {{prefix:number-integer-end-base-symbol}}{{dict:i:d2.word}} {{prefix:number-integer-end-base-symbol}}{{dict:i:d0.word}} (each marked in a multi-digit sequence)."
+        }
+      ]
     },
     "l29": {
       "id": "l29",
       "unit": "unit-5",
-      "order": 29,
+      "order": 32,
       "title": "Complex sentences",
       "subtitle": "Putting it all together",
       "description": "Combining everything — free word order, modifier adjacency, multiple clauses, all tenses.",
@@ -2591,13 +4111,148 @@
         "i:0016",
         "i:0111"
       ],
-      "grammar": [],
-      "practice": []
+      "grammar": [
+        {
+          "id": "g-complex",
+          "title": "Combining what you know",
+          "body": "Complex sentences in thints are built from the same small set of rules — there are no new mechanisms, just combinations.\n\nFree word order means the same meaning can be expressed in many arrangements. Only modifier adjacency is strict — a modifier must sit right next to what it modifies.\n\nSentences can stack:\n• A main clause + a subordinate clause ({{dict:i:1933.word}} + {{prefix:verb-clause-base-symbol-symbol}})\n• A statement + an evidential ({{prefix:evidential-reportative-base-symbol-symbol}})\n• Multiple noun phrases in any order",
+          "examples": [
+            {
+              "shavian": "{{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰-word.word}} {{prefix:verb-present-base-symbol}}{{dict:i:0014.word}} {{dict:i:1933.word}} {{prefix:noun-subject-base-symbol}}{{dict:sv:𐑱-word.word}} {{prefix:verb-clause-base-symbol-symbol}}{{dict:i:0015.word}} {{prefix:noun-object-base-symbol}}{{dict:sv:𐑰-word.word}}",
+              "gloss": "I know that she wants me",
+              "breakdown": [
+                {
+                  "part": "{{prefix:noun-subject-base-symbol}}",
+                  "role": "subject",
+                  "meaning": "I (subject)"
+                },
+                {
+                  "part": "{{dict:sv:𐑰-word.word}}",
+                  "role": "root",
+                  "meaning": "I"
+                },
+                {
+                  "part": "{{prefix:verb-present-base-symbol}}",
+                  "role": "verb-present",
+                  "meaning": "know"
+                },
+                {
+                  "part": "{{dict:i:0014.word}}",
+                  "role": "root",
+                  "meaning": "know"
+                },
+                {
+                  "part": "{{dict:i:1933.word}}",
+                  "role": "word",
+                  "meaning": "that (clause opener)"
+                },
+                {
+                  "part": "{{prefix:noun-subject-base-symbol}}",
+                  "role": "subject",
+                  "meaning": "she (clause subject)"
+                },
+                {
+                  "part": "{{dict:sv:𐑱-word.word}}",
+                  "role": "root",
+                  "meaning": "she/they"
+                },
+                {
+                  "part": "{{prefix:verb-clause-base-symbol-symbol}}",
+                  "role": "prefix",
+                  "meaning": "clause verb"
+                },
+                {
+                  "part": "{{dict:i:0015.word}}",
+                  "role": "root",
+                  "meaning": "want"
+                },
+                {
+                  "part": "{{prefix:noun-object-base-symbol}}",
+                  "role": "object",
+                  "meaning": "me (object)"
+                },
+                {
+                  "part": "{{dict:sv:𐑰-word.word}}",
+                  "role": "root",
+                  "meaning": "me"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "id": "l29-p1",
+          "type": "multipleChoice",
+          "prompt": "Which rule about word order is strict in thints?",
+          "options": [
+            "Subject must come first",
+            "Verb must come last",
+            "Modifiers must be adjacent to what they modify",
+            "Objects must follow verbs"
+          ],
+          "correctIndex": 2,
+          "explanation": "The one hard rule: modifiers must sit directly next to the word they modify. Everything else is free."
+        },
+        {
+          "id": "l29-p2",
+          "type": "multipleChoice",
+          "prompt": "In a complex sentence with a subordinate clause, which verb prefix changes?",
+          "options": [
+            "Subject prefix — from {{prefix:noun-subject-base-symbol-symbol}} to {{prefix:noun-object-base-symbol-symbol}}",
+            "Main verb prefix — from {{prefix:verb-present-base-symbol-symbol}} to {{prefix:verb-past-base-symbol-symbol}}",
+            "Clause verb prefix — from tense ({{prefix:verb-present-base-symbol-symbol}} etc.) to {{prefix:verb-clause-base-symbol-symbol}}",
+            "Nothing changes — all prefixes stay the same"
+          ],
+          "correctIndex": 2,
+          "explanation": "Inside a subordinate clause, verbs switch from tense prefixes to the clause verb prefix {{prefix:verb-clause-base-symbol-symbol}}."
+        },
+        {
+          "id": "l29-p3",
+          "type": "multipleChoice",
+          "prompt": "How many new grammar rules does a complex thints sentence introduce?",
+          "options": [
+            "Many — complex sentences have their own rules",
+            "A few — mainly new word order restrictions",
+            "None — complex sentences use the same rules, just combined",
+            "Two — one for each clause"
+          ],
+          "correctIndex": 2,
+          "explanation": "No new rules. Complex sentences are built by combining the same prefix system, word order freedom, and clause structure already learned."
+        },
+        {
+          "id": "l29-p4",
+          "type": "multipleChoice",
+          "prompt": "What is the purpose of {{dict:i:1933.word}} in a sentence?",
+          "options": [
+            "It marks past tense",
+            "It opens a subordinate clause",
+            "It signals reported speech",
+            "It introduces a command"
+          ],
+          "correctIndex": 1,
+          "explanation": "{{dict:i:1933.word}} = that/which — the clause opener. It signals that what follows is a subordinate clause."
+        },
+        {
+          "id": "l29-p5",
+          "type": "multipleChoice",
+          "prompt": "'The big dog apparently was speaking.' Which sentence is correct?",
+          "options": [
+            "{{prefix:evidential-reportative-base-symbol-symbol}}{{dict:i:0040.word}} {{prefix:noun-subject-base-symbol}}{{dict:i:0356.word}} {{prefix:modifier-base-symbol}}{{dict:i:0027.word}}",
+            "{{prefix:noun-subject-base-symbol}}{{dict:i:0356.word}} {{prefix:modifier-base-symbol}}{{dict:i:0027.word}} {{prefix:verb-progressive-past-ticked-symbol-symbol}}{{dict:i:0040.word}}",
+            "{{prefix:verb-progressive-past-ticked-symbol-symbol}}{{dict:i:0040.word}} {{prefix:modifier-base-symbol}}{{dict:i:0027.word}} {{prefix:noun-subject-base-symbol}}{{dict:i:0356.word}}",
+            "{{prefix:evidential-reportative-base-symbol-symbol}}{{dict:i:0040.word}} {{prefix:modifier-base-symbol}}{{dict:i:0027.word}} {{prefix:noun-subject-base-symbol}}{{dict:i:0356.word}}"
+          ],
+          "correctIndex": 3,
+          "explanation": "Evidential on the verb (apparently was speaking). Modifier {{dict:i:0027.word}} must be adjacent to the noun {{dict:i:0356.word}}. Word order is otherwise free — option D has both correct."
+        }
+      ]
     },
     "l30": {
       "id": "l30",
       "unit": "unit-5",
-      "order": 30,
+      "order": 33,
       "title": "Borrowed words",
       "subtitle": "Alias roots and {{prefix:noun-generic-base-symbol}}",
       "description": "How to bring words from other languages into thints — alias roots, the generic noun prefix, and conversation handles.",
@@ -2610,8 +4265,1247 @@
         "fw:𐑹",
         "fw:𐑸"
       ],
-      "grammar": [],
-      "practice": []
+      "grammar": [
+        {
+          "id": "g-borrow",
+          "title": "Borrowing words: {{dict:fw:𐑽-word.word}} and aliases",
+          "body": "When you need a word thints doesn't have, use the borrow marker {{dict:fw:𐑽-word.word}} to introduce it. The borrowed span closes when you assign it an alias word — a short one-syllable handle that works like any regular word.\n\nFive alias words are available: alias:1 · alias:2 · alias:3 · alias:4 · alias:5\n\nOnce assigned, an alias takes any prefix:\n{{prefix:noun-subject-base-symbol-symbol}}[alias] · {{prefix:verb-present-base-symbol-symbol}}[alias] · {{prefix:modifier-base-symbol-symbol}}[alias]",
+          "examples": [
+            {
+              "shavian": "{{dict:fw:𐑽-word.word}} schadenfreude {{dict:alias:3.word}}",
+              "gloss": "the word 'schadenfreude' is now A3",
+              "breakdown": [
+                {
+                  "part": "{{dict:fw:𐑽-word.word}}",
+                  "role": "word",
+                  "meaning": "borrow marker"
+                },
+                {
+                  "part": "schadenfreude",
+                  "role": "root",
+                  "meaning": "foreign word span"
+                },
+                {
+                  "part": "{{dict:alias:3.word}}",
+                  "role": "root",
+                  "meaning": "alias 3 — closes the span"
+                }
+              ]
+            },
+            {
+              "shavian": "{{prefix:noun-subject-base-symbol-symbol}}{{dict:alias:3.word}} {{prefix:verb-present-base-symbol}}{{dict:i:0047.word}}",
+              "gloss": "A3 delights (using the alias as subject)",
+              "breakdown": [
+                {
+                  "part": "{{prefix:noun-subject-base-symbol-symbol}}",
+                  "role": "prefix",
+                  "meaning": "subject"
+                },
+                {
+                  "part": "{{dict:alias:3.word}}",
+                  "role": "root",
+                  "meaning": "alias 3 (schadenfreude)"
+                },
+                {
+                  "part": "{{prefix:verb-present-base-symbol}}",
+                  "role": "prefix",
+                  "meaning": "present"
+                },
+                {
+                  "part": "{{dict:i:0047.word}}",
+                  "role": "root",
+                  "meaning": "delight/wow"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "g-generic-noun",
+          "title": "The generic noun prefix {{prefix:noun-generic-base-symbol-symbol}}",
+          "body": "When a borrowed word or a word with no clear grammatical role needs a prefix, use {{prefix:noun-generic-base-symbol-symbol}} — the generic noun marker. It says 'this is a noun but I'm not specifying its role in the sentence'.\n\nThis is the default for dictionary entries, list items, titles, and borrowed words that haven't been slotted into a sentence structure yet.",
+          "examples": [
+            {
+              "shavian": "{{prefix:noun-generic-base-symbol-symbol}}{{dict:fw:𐑽-word.word}}",
+              "gloss": "a borrowable (a generic item)",
+              "breakdown": [
+                {
+                  "part": "{{prefix:noun-generic-base-symbol-symbol}}",
+                  "role": "prefix",
+                  "meaning": "generic noun"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "id": "l30-p1",
+          "type": "multipleChoice",
+          "prompt": "What does the borrow marker {{dict:fw:𐑽-word.word}} signal?",
+          "options": [
+            "A subordinate clause is starting",
+            "A foreign or coined word span is starting",
+            "An alias is being defined",
+            "A command"
+          ],
+          "correctIndex": 1,
+          "explanation": "{{dict:fw:𐑽-word.word}} opens a borrowed word span. The span closes when an alias word is spoken, assigning the borrowed content a handle."
+        },
+        {
+          "id": "l30-p2",
+          "type": "multipleChoice",
+          "prompt": "How many alias words are available?",
+          "options": [
+            "3",
+            "5",
+            "7",
+            "As many as needed"
+          ],
+          "correctIndex": 1,
+          "explanation": "There are exactly five alias words — enough for any typical conversation."
+        },
+        {
+          "id": "l30-p3",
+          "type": "multipleChoice",
+          "prompt": "Once an alias is assigned, how is it used?",
+          "options": [
+            "It can only be used as a subject noun",
+            "It works like any regular root word — takes any prefix",
+            "It can only be used once",
+            "It requires the borrow marker each time"
+          ],
+          "correctIndex": 1,
+          "explanation": "Aliases are fully regular after assignment — they take any prefix and can be used as noun, verb, modifier, etc."
+        },
+        {
+          "id": "l30-p4",
+          "type": "multipleChoice",
+          "prompt": "When would you use the generic noun prefix {{prefix:noun-generic-base-symbol-symbol}}?",
+          "options": [
+            "When you want a plural noun",
+            "When a word has no specific grammatical role in the sentence",
+            "For all borrowed words regardless",
+            "Only for titles and names"
+          ],
+          "correctIndex": 1,
+          "explanation": "{{prefix:noun-generic-base-symbol-symbol}} marks a noun without a specific grammatical role — useful for labels, titles, list items, and borrowed words not yet placed in a sentence."
+        },
+        {
+          "id": "l30-p5",
+          "type": "multipleChoice",
+          "prompt": "What is the difference between the phrase alias marker {{dict:fw:𐑸-word.word}} and the borrow marker {{dict:fw:𐑽-word.word}}?",
+          "options": [
+            "{{dict:fw:𐑽-word.word}} is for foreign words. {{dict:fw:𐑸-word.word}} is for assigning a shorthand to a native-language phrase.",
+            "They are the same — use either",
+            "{{dict:fw:𐑸-word.word}} is older, {{dict:fw:𐑽-word.word}} is newer",
+            "{{dict:fw:𐑽-word.word}} is for speech, {{dict:fw:𐑸-word.word}} is for writing"
+          ],
+          "correctIndex": 0,
+          "explanation": "{{dict:fw:𐑽-word.word}} introduces foreign/coined words. {{dict:fw:𐑸-word.word}} assigns a shorthand to a native phrase. Both close with an alias word."
+        }
+      ]
+    },
+    "l-numbers": {
+      "id": "l-numbers",
+      "unit": "unit-1",
+      "order": 7,
+      "title": "Numbers",
+      "subtitle": "Digits 0–9, markers, and the scale system",
+      "description": "Numbers do heavy lifting in thints — they express color, time, direction, age, and measurement. Learn the ten digit words, how to build any number, and how the scale operators intensify or diminish meaning.",
+      "estimatedMinutes": 10,
+      "xp": 120,
+      "badge": null,
+      "wordIds": [
+        "i:d0",
+        "i:d1",
+        "i:d2",
+        "i:d3",
+        "i:d4",
+        "i:d5",
+        "i:d6",
+        "i:d7",
+        "i:d8",
+        "i:d9"
+      ],
+      "grammar": [
+        {
+          "id": "g-digits",
+          "title": "The ten digit words",
+          "body": "Each digit 0–9 is its own root word from the regular vocabulary, chosen because its meaning resonates with the number's character. Like all roots, digits are POS-neutral — they can be nouns, verbs, or modifiers.\n\n0 = {{dict:i:d0.word}} · 1 = {{dict:i:d1.word}} · 2 = {{dict:i:d2.word}} · 3 = {{dict:i:d3.word}} · 4 = {{dict:i:d4.word}}\n5 = {{dict:i:d5.word}} · 6 = {{dict:i:d6.word}} · 7 = {{dict:i:d7.word}} · 8 = {{dict:i:d8.word}} · 9 = {{dict:i:d9.word}}\n\nIn numeric expressions digits are spoken bare — no prefix. You only mark specific boundary points.",
+          "examples": [
+            {
+              "shavian": "{{dict:i:d5.word}}",
+              "gloss": "5 (single digit — no marker needed)",
+              "breakdown": [
+                {
+                  "part": "{{dict:i:d5.word}}",
+                  "role": "root",
+                  "meaning": "five"
+                }
+              ]
+            },
+            {
+              "shavian": "{{dict:i:d1.word}} {{prefix:number-integer-end-base-symbol}}{{dict:i:d0.word}}",
+              "gloss": "10",
+              "breakdown": [
+                {
+                  "part": "{{dict:i:d1.word}}",
+                  "role": "root",
+                  "meaning": "one"
+                },
+                {
+                  "part": "{{prefix:number-integer-end-base-symbol}}",
+                  "role": "prefix",
+                  "meaning": "end of integer"
+                },
+                {
+                  "part": "{{dict:i:d0.word}}",
+                  "role": "root",
+                  "meaning": "zero — last digit"
+                }
+              ]
+            },
+            {
+              "shavian": "{{dict:i:d1.word}} {{dict:i:d0.word}} {{prefix:number-integer-end-base-symbol}}{{dict:i:d3.word}}",
+              "gloss": "103",
+              "breakdown": [
+                {
+                  "part": "{{dict:i:d1.word}}",
+                  "role": "root",
+                  "meaning": "one (bare)"
+                },
+                {
+                  "part": "{{dict:i:d0.word}}",
+                  "role": "root",
+                  "meaning": "zero (bare)"
+                },
+                {
+                  "part": "{{prefix:number-integer-end-base-symbol}}",
+                  "role": "prefix",
+                  "meaning": "end of integer"
+                },
+                {
+                  "part": "{{dict:i:d3.word}}",
+                  "role": "root",
+                  "meaning": "three — last digit"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "g-markers",
+          "title": "The three boundary markers",
+          "body": "Most digits are spoken bare. You only mark specific boundaries:\n\n{{prefix:number-integer-end-base-symbol}} — end of a multi-digit integer (on the last digit)\n{{prefix:number-decimal-start-base-symbol}} — first digit after a decimal point\n{{prefix:number-integer-end-decimal-follows-symbol}} — last integer digit immediately before a decimal\n\nSingle-digit numbers need no marker — {{dict:i:d5.word}} alone is clearly 5.",
+          "examples": [
+            {
+              "shavian": "{{prefix:number-decimal-start-base-symbol}}{{prefix:number-integer-end-base-symbol}}{{dict:i:d5.word}}",
+              "gloss": "0.5",
+              "breakdown": [
+                {
+                  "part": "{{prefix:number-decimal-start-base-symbol}}",
+                  "role": "prefix",
+                  "meaning": "decimal start"
+                },
+                {
+                  "part": "{{prefix:number-integer-end-base-symbol}}",
+                  "role": "prefix",
+                  "meaning": "integer end"
+                },
+                {
+                  "part": "{{dict:i:d5.word}}",
+                  "role": "root",
+                  "meaning": "five"
+                }
+              ]
+            },
+            {
+              "shavian": "{{dict:i:d1.word}} {{dict:i:d0.word}} {{dict:i:d3.word}} {{prefix:number-decimal-start-base-symbol}}{{dict:i:d2.word}} {{dict:i:d2.word}} {{prefix:number-integer-end-base-symbol}}{{dict:i:d5.word}}",
+              "gloss": "103.225",
+              "breakdown": [
+                {
+                  "part": "{{dict:i:d1.word}}",
+                  "role": "root",
+                  "meaning": "1"
+                },
+                {
+                  "part": "{{dict:i:d0.word}}",
+                  "role": "root",
+                  "meaning": "0"
+                },
+                {
+                  "part": "{{dict:i:d3.word}}",
+                  "role": "root",
+                  "meaning": "3"
+                },
+                {
+                  "part": "{{prefix:number-decimal-start-base-symbol}}",
+                  "role": "prefix",
+                  "meaning": "decimal"
+                },
+                {
+                  "part": "{{dict:i:d2.word}}",
+                  "role": "root",
+                  "meaning": "2"
+                },
+                {
+                  "part": "{{dict:i:d2.word}}",
+                  "role": "root",
+                  "meaning": "2"
+                },
+                {
+                  "part": "{{prefix:number-integer-end-base-symbol}}",
+                  "role": "prefix",
+                  "meaning": "end"
+                },
+                {
+                  "part": "{{dict:i:d5.word}}",
+                  "role": "root",
+                  "meaning": "5"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "g-scale",
+          "title": "Scale operators: {{dict:sv:𐑶-word.word}} and {{dict:sv:𐑬-word.word}}",
+          "body": "The reserved words {{dict:sv:𐑶-word.word}} (up/raise) and {{dict:sv:𐑬-word.word}} (down/lower) double as scale operators. After a word, they scale it up or down by powers of 10 — replacing separate prefixes like kilo-, mega-, milli-, centi-.\n\nThe exponent is a bare digit after {{dict:sv:𐑶-word.word}} or {{dict:sv:𐑬-word.word}}, closed with {{prefix:number-integer-end-base-symbol}}.\n\nThis also works on modifiers to intensify or diminish meaning:",
+          "examples": [
+            {
+              "shavian": "{{dict:i:0279.word}} {{prefix:number-integer-end-base-symbol}}{{dict:i:d6.word}} {{dict:sv:𐑶-word.word}}{{prefix:number-integer-end-base-symbol}}{{dict:i:d2.word}}",
+              "gloss": "blue × 10² — very vivid blue",
+              "breakdown": [
+                {
+                  "part": "{{dict:i:0279.word}}",
+                  "role": "root",
+                  "meaning": "color"
+                },
+                {
+                  "part": "{{prefix:number-integer-end-base-symbol}}",
+                  "role": "prefix",
+                  "meaning": "digit end"
+                },
+                {
+                  "part": "{{dict:i:d6.word}}",
+                  "role": "root",
+                  "meaning": "6 (hue: blue)"
+                },
+                {
+                  "part": "{{dict:sv:𐑶-word.word}}",
+                  "role": "word",
+                  "meaning": "scale up"
+                },
+                {
+                  "part": "{{prefix:number-integer-end-base-symbol}}",
+                  "role": "prefix",
+                  "meaning": "digit end"
+                },
+                {
+                  "part": "{{dict:i:d2.word}}",
+                  "role": "root",
+                  "meaning": "exponent 2"
+                }
+              ]
+            },
+            {
+              "shavian": "{{prefix:modifier-base-symbol}}{{dict:i:0047.word}} {{dict:sv:𐑶-word.word}}{{prefix:number-integer-end-base-symbol}}{{dict:i:d2.word}}",
+              "gloss": "extremely delightful (× 10²)",
+              "breakdown": [
+                {
+                  "part": "{{prefix:modifier-base-symbol}}",
+                  "role": "prefix",
+                  "meaning": "modifier"
+                },
+                {
+                  "part": "{{dict:i:0047.word}}",
+                  "role": "root",
+                  "meaning": "delight/wow"
+                },
+                {
+                  "part": "{{dict:sv:𐑶-word.word}}",
+                  "role": "word",
+                  "meaning": "scale up"
+                },
+                {
+                  "part": "{{prefix:number-integer-end-base-symbol}}",
+                  "role": "prefix",
+                  "meaning": "end"
+                },
+                {
+                  "part": "{{dict:i:d2.word}}",
+                  "role": "root",
+                  "meaning": "exponent 2"
+                }
+              ]
+            },
+            {
+              "shavian": "{{prefix:modifier-base-symbol}}{{dict:i:0047.word}} {{dict:sv:𐑬-word.word}}{{prefix:number-integer-end-base-symbol}}{{dict:i:d2.word}}",
+              "gloss": "a tiny bit delightful (÷ 10²)",
+              "breakdown": [
+                {
+                  "part": "{{prefix:modifier-base-symbol}}",
+                  "role": "prefix",
+                  "meaning": "modifier"
+                },
+                {
+                  "part": "{{dict:i:0047.word}}",
+                  "role": "root",
+                  "meaning": "delight/wow"
+                },
+                {
+                  "part": "{{dict:sv:𐑬-word.word}}",
+                  "role": "word",
+                  "meaning": "scale down"
+                },
+                {
+                  "part": "{{prefix:number-integer-end-base-symbol}}",
+                  "role": "prefix",
+                  "meaning": "end"
+                },
+                {
+                  "part": "{{dict:i:d2.word}}",
+                  "role": "root",
+                  "meaning": "exponent 2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "g-quantity",
+          "title": "Numbers with {{prefix:quantity-base-symbol}}",
+          "body": "To express a count of something, put {{prefix:quantity-base-symbol}} on the leading digit (or on 0 for decimals). The noun follows directly.\n\n{{prefix:quantity-base-symbol}}{{prefix:number-integer-end-base-symbol}}{{dict:i:d3.word}} {{dict:i:0356.word}} = 3 dogs\n{{prefix:quantity-base-symbol}}{{dict:i:d0.word}} {{prefix:number-decimal-start-base-symbol}}{{prefix:number-integer-end-base-symbol}}{{dict:i:d5.word}} {{dict:i:0356.word}} = 0.5 of a dog",
+          "examples": [
+            {
+              "shavian": "{{prefix:quantity-base-symbol}}{{prefix:number-integer-end-base-symbol}}{{dict:i:d7.word}} {{dict:i:0356.word}}",
+              "gloss": "7 dogs",
+              "breakdown": [
+                {
+                  "part": "{{prefix:quantity-base-symbol}}",
+                  "role": "prefix",
+                  "meaning": "quantity"
+                },
+                {
+                  "part": "{{prefix:number-integer-end-base-symbol}}",
+                  "role": "prefix",
+                  "meaning": "integer end"
+                },
+                {
+                  "part": "{{dict:i:d7.word}}",
+                  "role": "root",
+                  "meaning": "seven"
+                },
+                {
+                  "part": "{{dict:i:0356.word}}",
+                  "role": "root",
+                  "meaning": "dog"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "id": "ln-p1",
+          "type": "multipleChoice",
+          "prompt": "How do you write the number 10?",
+          "options": [
+            "{{prefix:number-integer-end-base-symbol}}{{dict:i:d1.word}} {{dict:i:d0.word}}",
+            "{{dict:i:d1.word}} {{prefix:number-integer-end-base-symbol}}{{dict:i:d0.word}}",
+            "{{dict:i:d1.word}} {{dict:i:d0.word}}",
+            "{{prefix:number-integer-end-base-symbol}}{{dict:i:d1.word}} {{prefix:number-integer-end-base-symbol}}{{dict:i:d0.word}}"
+          ],
+          "correctIndex": 1,
+          "explanation": "The end marker {{prefix:number-integer-end-base-symbol}} goes on the last digit only. So 10 = {{dict:i:d1.word}} {{prefix:number-integer-end-base-symbol}}{{dict:i:d0.word}}."
+        },
+        {
+          "id": "ln-p2",
+          "type": "multipleChoice",
+          "prompt": "What does the scale operator do in a numeric expression?",
+          "options": [
+            "Marks the end of a number",
+            "Multiplies or divides by powers of 10",
+            "Indicates a fraction",
+            "Turns a number into a verb"
+          ],
+          "correctIndex": 1,
+          "explanation": "Scale operators {{dict:sv:𐑶-word.word}} (up, ×10) and {{dict:sv:𐑬-word.word}} (down, ÷10) followed by an exponent digit scale the value by powers of 10."
+        },
+        {
+          "id": "ln-p3",
+          "type": "multipleChoice",
+          "prompt": "What does {{prefix:quantity-base-symbol}}{{prefix:number-integer-end-base-symbol}}{{dict:i:d3.word}} {{dict:i:0356.word}} mean?",
+          "options": [
+            "The dog quantity",
+            "3 dogs",
+            "Dog number 3",
+            "A third of a dog"
+          ],
+          "correctIndex": 1,
+          "explanation": "{{prefix:quantity-base-symbol}} marks quantity. {{prefix:number-integer-end-base-symbol}}{{dict:i:d3.word}} = 3 (one digit, marked). {{dict:i:0356.word}} = dog. Together: 3 dogs."
+        },
+        {
+          "id": "ln-p4",
+          "type": "wordMatch",
+          "prompt": "Match each digit to its value",
+          "pairs": [
+            {
+              "shavian": "{{dict:i:d0.word}}",
+              "english": "0 — zero"
+            },
+            {
+              "shavian": "{{dict:i:d5.word}}",
+              "english": "5 — five"
+            },
+            {
+              "shavian": "{{dict:i:d9.word}}",
+              "english": "9 — nine"
+            },
+            {
+              "shavian": "{{dict:i:d1.word}}",
+              "english": "1 — one"
+            }
+          ]
+        },
+        {
+          "id": "ln-p5",
+          "type": "multipleChoice",
+          "prompt": "How do you say 0.5?",
+          "options": [
+            "{{prefix:number-integer-end-base-symbol}}{{dict:i:d0.word}} {{prefix:number-decimal-start-base-symbol}}{{dict:i:d5.word}}",
+            "{{dict:i:d0.word}} {{dict:i:d5.word}}",
+            "{{prefix:number-decimal-start-base-symbol}}{{prefix:number-integer-end-base-symbol}}{{dict:i:d5.word}}",
+            "{{dict:i:d5.word}} {{prefix:number-decimal-start-base-symbol}}{{dict:i:d0.word}}"
+          ],
+          "correctIndex": 2,
+          "explanation": "For 0.5 there is no integer part — go straight to decimal: {{prefix:number-decimal-start-base-symbol}} opens the decimal and {{prefix:number-integer-end-base-symbol}} closes on the last digit."
+        }
+      ]
+    },
+    "l-color": {
+      "id": "l-color",
+      "unit": "unit-3",
+      "order": 16,
+      "title": "Color",
+      "subtitle": "The numeric color system — {{dict:i:0279.word}}",
+      "description": "Color in thints is fully numeric. Three numbers specify any color: hue (0–9), lightness (0–4), and saturation (5–9). No separate words for blue, red, or green — just numbers.",
+      "estimatedMinutes": 8,
+      "xp": 100,
+      "badge": null,
+      "wordIds": [
+        "i:0279",
+        "i:1931",
+        "i:1932",
+        "i:0593"
+      ],
+      "grammar": [
+        {
+          "id": "g-color-system",
+          "title": "Color = {{dict:i:0279.word}} + hue + lightness + saturation",
+          "body": "The color word {{dict:i:0279.word}} (color/hue/tint) is followed by up to three numbers:\n\nHue (0–9, required): 0=Red · 1=Orange · 2=Yellow · 3=Green · 4=Teal · 5=Cyan · 6=Blue · 7=Indigo · 8=Violet · 9=Magenta\n\nLightness (0–4, optional): 0=very dark · 1=dark · 2=mid (default) · 3=light · 4=very light\n\nSaturation (5–9, optional): 5=near gray · 6=dull · 7=moderate · 8=vivid · 9=pure (default)\n\nLightness and saturation ranges don't overlap (0–4 vs 5–9), so they can be given in any order after the hue.",
+          "examples": [
+            {
+              "shavian": "{{dict:i:0279.word}} {{prefix:number-integer-end-base-symbol}}{{dict:i:d6.word}}",
+              "gloss": "blue (hue 6, defaults: lightness 2, saturation 9)",
+              "breakdown": [
+                {
+                  "part": "{{dict:i:0279.word}}",
+                  "role": "root",
+                  "meaning": "color"
+                },
+                {
+                  "part": "{{prefix:number-integer-end-base-symbol}}",
+                  "role": "prefix",
+                  "meaning": "digit end"
+                },
+                {
+                  "part": "{{dict:i:d6.word}}",
+                  "role": "root",
+                  "meaning": "6 — blue"
+                }
+              ]
+            },
+            {
+              "shavian": "{{dict:i:0279.word}} {{prefix:number-integer-end-base-symbol}}{{dict:i:d6.word}} {{prefix:number-integer-end-base-symbol}}{{dict:i:d0.word}} {{prefix:number-integer-end-base-symbol}}{{dict:i:d9.word}}",
+              "gloss": "navy — hue 6, very dark, pure",
+              "breakdown": [
+                {
+                  "part": "{{dict:i:0279.word}}",
+                  "role": "root",
+                  "meaning": "color"
+                },
+                {
+                  "part": "{{prefix:number-integer-end-base-symbol}}",
+                  "role": "prefix",
+                  "meaning": "digit end"
+                },
+                {
+                  "part": "{{dict:i:d6.word}}",
+                  "role": "root",
+                  "meaning": "6 — blue"
+                },
+                {
+                  "part": "{{prefix:number-integer-end-base-symbol}}",
+                  "role": "prefix",
+                  "meaning": "digit end"
+                },
+                {
+                  "part": "{{dict:i:d0.word}}",
+                  "role": "root",
+                  "meaning": "0 — very dark"
+                },
+                {
+                  "part": "{{prefix:number-integer-end-base-symbol}}",
+                  "role": "prefix",
+                  "meaning": "digit end"
+                },
+                {
+                  "part": "{{dict:i:d9.word}}",
+                  "role": "root",
+                  "meaning": "9 — pure"
+                }
+              ]
+            },
+            {
+              "shavian": "{{dict:i:0279.word}} {{dict:i:d1.word}} {{prefix:number-integer-end-base-symbol}}{{dict:i:d0.word}} {{prefix:number-integer-end-base-symbol}}{{dict:i:d7.word}}",
+              "gloss": "brown — orange hue (1), very dark (0), moderate saturation (7)",
+              "breakdown": [
+                {
+                  "part": "{{dict:i:0279.word}}",
+                  "role": "root",
+                  "meaning": "color"
+                },
+                {
+                  "part": "{{dict:i:d1.word}}",
+                  "role": "root",
+                  "meaning": "1 — orange hue (bare)"
+                },
+                {
+                  "part": "{{prefix:number-integer-end-base-symbol}}",
+                  "role": "prefix",
+                  "meaning": "digit end"
+                },
+                {
+                  "part": "{{dict:i:d0.word}}",
+                  "role": "root",
+                  "meaning": "0 — very dark"
+                },
+                {
+                  "part": "{{prefix:number-integer-end-base-symbol}}",
+                  "role": "prefix",
+                  "meaning": "digit end"
+                },
+                {
+                  "part": "{{dict:i:d7.word}}",
+                  "role": "root",
+                  "meaning": "7 — moderate saturation"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "g-color-decimal",
+          "title": "Decimal hues for blends",
+          "body": "A decimal hue gives an in-between color. Use {{prefix:number-integer-end-decimal-follows-symbol}} when the integer part of the hue is immediately followed by a decimal:\n\n2.5 = yellow-green (chartreuse) · 0.5 = red-orange · 5.5 = sky blue\n\nDecimals only apply to the hue — lightness and saturation are always whole numbers.",
+          "examples": [
+            {
+              "shavian": "{{dict:i:0279.word}} {{dict:i:d2.word}} {{prefix:number-integer-end-decimal-follows-symbol}}{{dict:i:d5.word}}",
+              "gloss": "hue 2.5 — chartreuse / yellow-green",
+              "breakdown": [
+                {
+                  "part": "{{dict:i:0279.word}}",
+                  "role": "root",
+                  "meaning": "color"
+                },
+                {
+                  "part": "{{dict:i:d2.word}}",
+                  "role": "root",
+                  "meaning": "2 (bare integer)"
+                },
+                {
+                  "part": "{{prefix:number-integer-end-decimal-follows-symbol}}",
+                  "role": "prefix",
+                  "meaning": "integer ends, decimal follows"
+                },
+                {
+                  "part": "{{dict:i:d5.word}}",
+                  "role": "root",
+                  "meaning": "5 (decimal digit)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "g-grayscale",
+          "title": "Grayscale: {{dict:i:0593.word}}",
+          "body": "For true grays (no hue), use {{dict:i:0593.word}} (gray/grayscale/black) with a 0–9 value:\n0 = black · 5 = mid gray · 9 = white\n\nThis avoids the hue+lightness+saturation system entirely when you just need a neutral tone.",
+          "examples": [
+            {
+              "shavian": "{{dict:i:0593.word}} {{prefix:number-integer-end-base-symbol}}{{dict:i:d0.word}}",
+              "gloss": "black",
+              "breakdown": [
+                {
+                  "part": "{{dict:i:0593.word}}",
+                  "role": "root",
+                  "meaning": "gray"
+                },
+                {
+                  "part": "{{prefix:number-integer-end-base-symbol}}",
+                  "role": "prefix",
+                  "meaning": "end"
+                },
+                {
+                  "part": "{{dict:i:d0.word}}",
+                  "role": "root",
+                  "meaning": "0 — black"
+                }
+              ]
+            },
+            {
+              "shavian": "{{dict:i:0593.word}} {{prefix:number-integer-end-base-symbol}}{{dict:i:d9.word}}",
+              "gloss": "white",
+              "breakdown": [
+                {
+                  "part": "{{dict:i:0593.word}}",
+                  "role": "root",
+                  "meaning": "gray"
+                },
+                {
+                  "part": "{{prefix:number-integer-end-base-symbol}}",
+                  "role": "prefix",
+                  "meaning": "end"
+                },
+                {
+                  "part": "{{dict:i:d9.word}}",
+                  "role": "root",
+                  "meaning": "9 — white"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "id": "lc-p1",
+          "type": "multipleChoice",
+          "prompt": "What does {{dict:i:0279.word}} {{prefix:number-integer-end-base-symbol}}{{dict:i:d0.word}} express?",
+          "options": [
+            "Orange",
+            "Red",
+            "Dark red",
+            "Gray"
+          ],
+          "correctIndex": 1,
+          "explanation": "Hue 0 = Red. With no lightness or saturation given, defaults are lightness 2 (mid) and saturation 9 (pure) — so this is pure red."
+        },
+        {
+          "id": "lc-p2",
+          "type": "multipleChoice",
+          "prompt": "Which hue number gives blue?",
+          "options": [
+            "4",
+            "5",
+            "6",
+            "7"
+          ],
+          "correctIndex": 2,
+          "explanation": "Hue 6 = Blue. The hue scale: 0=Red 1=Orange 2=Yellow 3=Green 4=Teal 5=Cyan 6=Blue 7=Indigo 8=Violet 9=Magenta."
+        },
+        {
+          "id": "lc-p3",
+          "type": "multipleChoice",
+          "prompt": "Lightness 0 means...",
+          "options": [
+            "White",
+            "Mid gray",
+            "Very dark",
+            "Pure saturation"
+          ],
+          "correctIndex": 2,
+          "explanation": "Lightness runs 0 (very dark) to 4 (very light). Lightness 2 is the default mid tone."
+        },
+        {
+          "id": "lc-p4",
+          "type": "multipleChoice",
+          "prompt": "What does {{dict:i:0593.word}} {{prefix:number-integer-end-base-symbol}}{{dict:i:d5.word}} express?",
+          "options": [
+            "Hue 5 (cyan)",
+            "Mid gray",
+            "Dark blue",
+            "White"
+          ],
+          "correctIndex": 1,
+          "explanation": "{{dict:i:0593.word}} is the grayscale word — no hue. Value 5 on a 0–9 scale is mid gray."
+        },
+        {
+          "id": "lc-p5",
+          "type": "multipleChoice",
+          "prompt": "You want to say 'baby blue' — hue 6, very light (4), dull saturation (6). Which is correct?",
+          "options": [
+            "{{dict:i:0279.word}} {{prefix:number-integer-end-base-symbol}}{{dict:i:d6.word}} {{prefix:number-integer-end-base-symbol}}{{dict:i:d4.word}} {{prefix:number-integer-end-base-symbol}}{{dict:i:d6.word}}",
+            "{{dict:i:0279.word}} {{prefix:number-integer-end-base-symbol}}{{dict:i:d6.word}} {{prefix:number-integer-end-base-symbol}}{{dict:i:d6.word}} {{prefix:number-integer-end-base-symbol}}{{dict:i:d4.word}}",
+            "{{dict:i:0279.word}} {{dict:i:d6.word}} {{dict:i:d4.word}} {{dict:i:d6.word}}",
+            "{{dict:i:0279.word}} {{prefix:number-integer-end-base-symbol}}{{dict:i:d4.word}} {{prefix:number-integer-end-base-symbol}}{{dict:i:d6.word}} {{prefix:number-integer-end-base-symbol}}{{dict:i:d6.word}}"
+          ],
+          "correctIndex": 0,
+          "explanation": "Hue 6 · lightness 4 · saturation 6. Each digit gets an end marker since they're in a multi-digit sequence."
+        }
+      ]
+    },
+    "l-directions": {
+      "id": "l-directions",
+      "unit": "unit-3",
+      "order": 17,
+      "title": "Directions and space",
+      "subtitle": "Egocentric axes and cardinal directions",
+      "description": "The language uses a 3D coordinate system centered on the speaker. Learn the three axes, how up/down double as scale operators, and how cardinal directions work as numbers.",
+      "estimatedMinutes": 8,
+      "xp": 100,
+      "badge": null,
+      "wordIds": [
+        "i:1438",
+        "i:1917",
+        "i:0299",
+        "i:0186",
+        "i:1312",
+        "i:0084",
+        "i:0797"
+      ],
+      "grammar": [
+        {
+          "id": "g-axes",
+          "title": "Three axes, six directions",
+          "body": "All directions are relative to the speaker by default. The three axes:\n\nX (left ↔ right): {{dict:i:1438.word}} = right/+X · {{dict:i:1917.word}} = left/−X\nY (forward ↔ back): {{dict:i:0299.word}} = forward · {{dict:i:0186.word}} = backward\nZ (up ↔ down): {{dict:sv:𐑶-word.word}} = up · {{dict:sv:𐑬-word.word}} = down\n\nAll six are regular vocabulary words — take any prefix normally.",
+          "examples": [
+            {
+              "shavian": "{{prefix:verb-present-base-symbol}}{{dict:i:0299.word}} {{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰-word.word}}",
+              "gloss": "I go forward",
+              "breakdown": [
+                {
+                  "part": "{{prefix:verb-present-base-symbol}}",
+                  "role": "prefix",
+                  "meaning": "present tense"
+                },
+                {
+                  "part": "{{dict:i:0299.word}}",
+                  "role": "root",
+                  "meaning": "forward"
+                },
+                {
+                  "part": "{{prefix:noun-subject-base-symbol}}",
+                  "role": "prefix",
+                  "meaning": "subject"
+                },
+                {
+                  "part": "{{dict:sv:𐑰-word.word}}",
+                  "role": "root",
+                  "meaning": "I"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "g-cardinal",
+          "title": "Cardinal directions: {{dict:i:1312.word}} + number",
+          "body": "For absolute compass directions (not relative to you), use the cardinal root {{dict:i:1312.word}} followed by a number:\n\n0 = North · 1 = East · 2 = South · 3 = West\n\nDecimals give in-between directions: 0.5 = northeast · 1.5 = southeast · 2.5 = southwest · 3.5 = northwest",
+          "examples": [
+            {
+              "shavian": "{{dict:i:1312.word}} {{prefix:number-integer-end-base-symbol}}{{dict:i:d0.word}}",
+              "gloss": "North",
+              "breakdown": [
+                {
+                  "part": "{{dict:i:1312.word}}",
+                  "role": "root",
+                  "meaning": "cardinal direction"
+                },
+                {
+                  "part": "{{prefix:number-integer-end-base-symbol}}",
+                  "role": "prefix",
+                  "meaning": "end"
+                },
+                {
+                  "part": "{{dict:i:d0.word}}",
+                  "role": "root",
+                  "meaning": "0 — north"
+                }
+              ]
+            },
+            {
+              "shavian": "{{dict:i:1312.word}} {{dict:i:d3.word}} {{prefix:number-integer-end-decimal-follows-symbol}}{{dict:i:d5.word}}",
+              "gloss": "Northwest (direction 3.5)",
+              "breakdown": [
+                {
+                  "part": "{{dict:i:1312.word}}",
+                  "role": "root",
+                  "meaning": "cardinal direction"
+                },
+                {
+                  "part": "{{dict:i:d3.word}}",
+                  "role": "root",
+                  "meaning": "3 — west (bare)"
+                },
+                {
+                  "part": "{{prefix:number-integer-end-decimal-follows-symbol}}",
+                  "role": "prefix",
+                  "meaning": "integer end + decimal"
+                },
+                {
+                  "part": "{{dict:i:d5.word}}",
+                  "role": "root",
+                  "meaning": "5 (decimal digit)"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "id": "ld-p1",
+          "type": "multipleChoice",
+          "prompt": "What does {{dict:i:1917.word}} mean?",
+          "options": [
+            "Forward",
+            "Right (+X)",
+            "Left (−X)",
+            "Down"
+          ],
+          "correctIndex": 2,
+          "explanation": "{{dict:i:1917.word}} = left/leftward/−X. Its counterpart {{dict:i:1438.word}} = right/+X."
+        },
+        {
+          "id": "ld-p2",
+          "type": "multipleChoice",
+          "prompt": "Cardinal direction 2 is...",
+          "options": [
+            "North",
+            "East",
+            "South",
+            "West"
+          ],
+          "correctIndex": 2,
+          "explanation": "0=North 1=East 2=South 3=West. Think of it as a clockwise quarter-turn from north."
+        },
+        {
+          "id": "ld-p3",
+          "type": "multipleChoice",
+          "prompt": "How do you say 'northwest'?",
+          "options": [
+            "{{dict:i:1312.word}} {{prefix:number-integer-end-base-symbol}}{{dict:i:d3.word}}",
+            "{{dict:i:1312.word}} {{dict:i:d3.word}} {{prefix:number-integer-end-decimal-follows-symbol}}{{dict:i:d5.word}}",
+            "{{dict:i:1312.word}} {{prefix:number-integer-end-base-symbol}}{{dict:i:d0.word}} {{prefix:number-integer-end-base-symbol}}{{dict:i:d3.word}}",
+            "{{dict:i:1438.word}} {{dict:i:1312.word}}"
+          ],
+          "correctIndex": 1,
+          "explanation": "Northwest is between West (3) and North (0) — that's 3.5. Use integer-end-decimal-follows on the 3."
+        },
+        {
+          "id": "ld-p4",
+          "type": "wordMatch",
+          "prompt": "Match axis word to direction",
+          "pairs": [
+            {
+              "shavian": "{{dict:i:0299.word}}",
+              "english": "forward"
+            },
+            {
+              "shavian": "{{dict:i:0186.word}}",
+              "english": "backward"
+            },
+            {
+              "shavian": "{{dict:i:1438.word}}",
+              "english": "right"
+            },
+            {
+              "shavian": "{{dict:sv:𐑶-word.word}}",
+              "english": "up"
+            }
+          ]
+        },
+        {
+          "id": "ld-p5",
+          "type": "multipleChoice",
+          "prompt": "Directions are egocentric by default. What does that mean?",
+          "options": [
+            "They are always compass directions",
+            "They are relative to the speaker's position and facing",
+            "They require a number",
+            "They can only be used as modifiers"
+          ],
+          "correctIndex": 1,
+          "explanation": "Egocentric means centered on the speaker — 'forward' is wherever you're facing, 'right' is your right. Use the cardinal root to switch to absolute compass directions."
+        }
+      ]
+    },
+    "l-time-cycles": {
+      "id": "l-time-cycles",
+      "unit": "unit-3",
+      "order": 18,
+      "title": "Time and cycles",
+      "subtitle": "Units, numbered days and months, time of day",
+      "description": "Time units are regular vocabulary words. Days of the week and months of the year are numbers, not names. Time of day is a 0–9 scale on the day and night words.",
+      "estimatedMinutes": 8,
+      "xp": 100,
+      "badge": null,
+      "wordIds": [
+        "i:1897",
+        "i:0311",
+        "i:0577",
+        "i:0338",
+        "i:0325",
+        "i:1855",
+        "i:1907",
+        "i:1431"
+      ],
+      "grammar": [
+        {
+          "id": "g-time-units",
+          "title": "Time unit words",
+          "body": "The 𐑯𐑔 suffix family covers time measurement. All eight time units:\n\n{{dict:i:0311.word}} second · {{dict:i:1897.word}} minute · {{dict:i:0577.word}} hour · {{dict:i:0338.word}} day · {{dict:i:0325.word}} night · {{dict:i:1855.word}} week · {{dict:i:1907.word}} month · {{dict:i:1431.word}} year\n\nThese take prefixes like any root word.",
+          "examples": [
+            {
+              "shavian": "{{prefix:modifier-base-symbol}}{{dict:i:0577.word}} {{prefix:quantity-base-symbol}}{{prefix:number-integer-end-base-symbol}}{{dict:i:d3.word}}",
+              "gloss": "3 hours (as modifier)",
+              "breakdown": [
+                {
+                  "part": "{{prefix:modifier-base-symbol}}",
+                  "role": "prefix",
+                  "meaning": "modifier"
+                },
+                {
+                  "part": "{{dict:i:0577.word}}",
+                  "role": "root",
+                  "meaning": "hour"
+                },
+                {
+                  "part": "{{prefix:quantity-base-symbol}}",
+                  "role": "prefix",
+                  "meaning": "quantity"
+                },
+                {
+                  "part": "{{prefix:number-integer-end-base-symbol}}",
+                  "role": "prefix",
+                  "meaning": "end"
+                },
+                {
+                  "part": "{{dict:i:d3.word}}",
+                  "role": "root",
+                  "meaning": "three"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "g-days-months",
+          "title": "Numbered days and months",
+          "body": "There are no named days or months. Instead, combine the unit word with a number:\n\nDay[1–7] where 1 = Sunday, 2 = Monday, ... 7 = Saturday\nMonth[1–12] where 1 = January, 2 = February, ... 12 = December\n\nThe number follows the unit word with the end marker on the last digit.",
+          "examples": [
+            {
+              "shavian": "{{dict:i:0338.word}} {{prefix:number-integer-end-base-symbol}}{{dict:i:d1.word}}",
+              "gloss": "Sunday (day 1)",
+              "breakdown": [
+                {
+                  "part": "{{dict:i:0338.word}}",
+                  "role": "root",
+                  "meaning": "day"
+                },
+                {
+                  "part": "{{prefix:number-integer-end-base-symbol}}",
+                  "role": "prefix",
+                  "meaning": "end"
+                },
+                {
+                  "part": "{{dict:i:d1.word}}",
+                  "role": "root",
+                  "meaning": "1 — Sunday"
+                }
+              ]
+            },
+            {
+              "shavian": "{{dict:i:1907.word}} {{prefix:number-integer-end-base-symbol}}{{dict:i:d3.word}}",
+              "gloss": "March (month 3)",
+              "breakdown": [
+                {
+                  "part": "{{dict:i:1907.word}}",
+                  "role": "root",
+                  "meaning": "month"
+                },
+                {
+                  "part": "{{prefix:number-integer-end-base-symbol}}",
+                  "role": "prefix",
+                  "meaning": "end"
+                },
+                {
+                  "part": "{{dict:i:d3.word}}",
+                  "role": "root",
+                  "meaning": "3 — March"
+                }
+              ]
+            },
+            {
+              "shavian": "{{dict:i:1907.word}} {{dict:i:d1.word}} {{prefix:number-integer-end-base-symbol}}{{dict:i:d2.word}}",
+              "gloss": "December (month 12)",
+              "breakdown": [
+                {
+                  "part": "{{dict:i:1907.word}}",
+                  "role": "root",
+                  "meaning": "month"
+                },
+                {
+                  "part": "{{dict:i:d1.word}}",
+                  "role": "root",
+                  "meaning": "1 (bare)"
+                },
+                {
+                  "part": "{{prefix:number-integer-end-base-symbol}}",
+                  "role": "prefix",
+                  "meaning": "end"
+                },
+                {
+                  "part": "{{dict:i:d2.word}}",
+                  "role": "root",
+                  "meaning": "2 — last digit"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "g-time-of-day",
+          "title": "Time of day: 0–9 on day and night",
+          "body": "Time of day uses a 0–9 scale appended to the day or night word:\n\n{{dict:i:0338.word}}0 = dawn/sunrise · {{dict:i:0338.word}}5 = noon · {{dict:i:0338.word}}9 = dusk\n{{dict:i:0325.word}}0 = just after sunset · {{dict:i:0325.word}}5 = midnight · {{dict:i:0325.word}}9 = just before dawn",
+          "examples": [
+            {
+              "shavian": "{{dict:i:0338.word}} {{prefix:number-integer-end-base-symbol}}{{dict:i:d5.word}}",
+              "gloss": "noon",
+              "breakdown": [
+                {
+                  "part": "{{dict:i:0338.word}}",
+                  "role": "root",
+                  "meaning": "day"
+                },
+                {
+                  "part": "{{prefix:number-integer-end-base-symbol}}",
+                  "role": "prefix",
+                  "meaning": "end"
+                },
+                {
+                  "part": "{{dict:i:d5.word}}",
+                  "role": "root",
+                  "meaning": "5 — noon"
+                }
+              ]
+            },
+            {
+              "shavian": "{{dict:i:0325.word}} {{prefix:number-integer-end-base-symbol}}{{dict:i:d5.word}}",
+              "gloss": "midnight",
+              "breakdown": [
+                {
+                  "part": "{{dict:i:0325.word}}",
+                  "role": "root",
+                  "meaning": "night"
+                },
+                {
+                  "part": "{{prefix:number-integer-end-base-symbol}}",
+                  "role": "prefix",
+                  "meaning": "end"
+                },
+                {
+                  "part": "{{dict:i:d5.word}}",
+                  "role": "root",
+                  "meaning": "5 — midnight"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "id": "lt-p1",
+          "type": "multipleChoice",
+          "prompt": "Which word means 'month'?",
+          "options": [
+            "{{dict:i:1431.word}}",
+            "{{dict:i:1855.word}}",
+            "{{dict:i:1907.word}}",
+            "{{dict:i:0338.word}}"
+          ],
+          "correctIndex": 2,
+          "explanation": "{{dict:i:1907.word}} = month. {{dict:i:1431.word}} = year. {{dict:i:1855.word}} = week. {{dict:i:0338.word}} = day."
+        },
+        {
+          "id": "lt-p2",
+          "type": "multipleChoice",
+          "prompt": "How do you say 'Wednesday' (day 4)?",
+          "options": [
+            "{{dict:i:0338.word}} {{dict:i:d4.word}}",
+            "{{dict:i:0338.word}} {{prefix:number-integer-end-base-symbol}}{{dict:i:d4.word}}",
+            "{{dict:i:1907.word}} {{prefix:number-integer-end-base-symbol}}{{dict:i:d4.word}}",
+            "{{prefix:number-integer-end-base-symbol}}{{dict:i:d4.word}} {{dict:i:0338.word}}"
+          ],
+          "correctIndex": 1,
+          "explanation": "Day word then number with end marker: {{dict:i:0338.word}} {{prefix:number-integer-end-base-symbol}}{{dict:i:d4.word}} = day 4 = Wednesday (Sun=1, Mon=2, Tue=3, Wed=4)."
+        },
+        {
+          "id": "lt-p3",
+          "type": "multipleChoice",
+          "prompt": "What does {{dict:i:0338.word}} {{prefix:number-integer-end-base-symbol}}{{dict:i:d9.word}} represent?",
+          "options": [
+            "9 days",
+            "September (month 9)",
+            "Dusk",
+            "Day 9 (no such day)"
+          ],
+          "correctIndex": 2,
+          "explanation": "Time of day: {{dict:i:0338.word}}9 = dusk (the day scale goes 0=dawn to 9=dusk)."
+        },
+        {
+          "id": "lt-p4",
+          "type": "wordMatch",
+          "prompt": "Match the time word to its meaning",
+          "pairs": [
+            {
+              "shavian": "{{dict:i:0311.word}}",
+              "english": "second"
+            },
+            {
+              "shavian": "{{dict:i:0577.word}}",
+              "english": "hour"
+            },
+            {
+              "shavian": "{{dict:i:1431.word}}",
+              "english": "year"
+            },
+            {
+              "shavian": "{{dict:i:0325.word}}",
+              "english": "night"
+            }
+          ]
+        },
+        {
+          "id": "lt-p5",
+          "type": "multipleChoice",
+          "prompt": "January is which month number?",
+          "options": [
+            "0",
+            "1",
+            "12",
+            "It has a name, not a number"
+          ],
+          "correctIndex": 1,
+          "explanation": "Months are numbered 1–12 with 1 = January. There are no month names in thints — just numbers."
+        }
+      ]
     }
   }
 }
