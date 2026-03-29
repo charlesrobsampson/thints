@@ -156,13 +156,15 @@
                 }
               ]
             }
-          ]
+          ],
+          "textbookRef": "writing-overview"
         },
         {
           "id": "g-suffix-families",
           "title": "44 suffix families",
           "body": "There are 44 suffix families in thints. When you hear an unfamiliar word, the suffix tells you the topic before you know the specific meaning.\n\nHear a word ending in {{prefix:verb-past-base-symbol}}{{prefix:noun-object-base-symbol}}? You know it's about existence or state. Hear {{prefix:verb-future-base-symbol}}{{prefix:modal-ability-base-symbol}}? You know it's a positive emotion. This makes the language highly decodable — even new words give you a clue.",
-          "examples": []
+          "examples": [],
+          "textbookRef": "writing-suffixes"
         }
       ],
       "practice": [
@@ -319,7 +321,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "textbookRef": "special-reserved"
         }
       ],
       "practice": [
@@ -424,7 +427,8 @@
           "id": "g-pos-neutral",
           "title": "Roots are POS-neutral",
           "body": "In most languages, words have a fixed part of speech — 'run' is a verb, 'dog' is a noun. In thints, every root word is neutral. The prefix you attach determines whether it functions as a noun, verb, modifier, or something else.\n\nThis is one of the most important ideas in the language. The same root can play any role in a sentence depending on its prefix.",
-          "examples": []
+          "examples": [],
+          "textbookRef": "prefixes-pos-neutral"
         },
         {
           "id": "g-subject-prefix",
@@ -463,7 +467,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "textbookRef": "prefixes-nouns"
         }
       ],
       "practice": [
@@ -616,13 +621,15 @@
                 }
               ]
             }
-          ]
+          ],
+          "textbookRef": "prefixes-verbs"
         },
         {
           "id": "g-word-order",
           "title": "Word order is mostly free",
           "body": "In thints, word order is flexible. The prefixes tell you each word's role — you don't need position to know what is the subject and what is the verb.\n\nThe one constraint: modifiers must be placed directly next to what they modify. You'll learn this when we reach modifiers.",
-          "examples": []
+          "examples": [],
+          "textbookRef": "prefixes-nouns"
         }
       ],
       "practice": [
@@ -737,7 +744,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "textbookRef": "prefixes-nouns"
         },
         {
           "id": "g-indirect-object",
@@ -770,7 +778,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "textbookRef": "prefixes-nouns"
         }
       ],
       "practice": [
@@ -906,7 +915,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "textbookRef": "prefixes-nouns"
         },
         {
           "id": "g-negation-word",
@@ -929,7 +939,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "textbookRef": "prefixes-nouns"
         }
       ],
       "practice": [
@@ -1082,7 +1093,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "textbookRef": "prefixes-verbs"
         },
         {
           "id": "g-negated-future",
@@ -1105,7 +1117,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "textbookRef": "prefixes-verbs"
         }
       ],
       "practice": [
@@ -1233,7 +1246,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "textbookRef": "time-units"
         }
       ],
       "practice": [
@@ -1366,7 +1380,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "textbookRef": "writing-suffixes"
         }
       ],
       "practice": [
@@ -1514,13 +1529,15 @@
                 }
               ]
             }
-          ]
+          ],
+          "textbookRef": "prefixes-modifiers"
         },
         {
           "id": "g-modifier-adjacency",
           "title": "Modifier adjacency rule",
           "body": "The one hard word-order rule in thints: modifiers must be placed directly next to the word they modify.\n\nThis is enforced because without it, {{prefix:modifier-base-symbol}}{{dict:i:0027.word}} could modify anything in the sentence and the meaning would be ambiguous.",
-          "examples": []
+          "examples": [],
+          "textbookRef": "prefixes-modifiers"
         }
       ],
       "practice": [
@@ -1657,7 +1674,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "textbookRef": "prefixes-verbs"
         }
       ],
       "practice": [
@@ -1767,7 +1785,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "textbookRef": "prefixes-quantity"
         }
       ],
       "practice": [
@@ -1889,7 +1908,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "textbookRef": "writing-suffixes"
         }
       ],
       "practice": [
@@ -1995,7 +2015,8 @@
           "id": "g-evaluation-family",
           "title": "The {{prefix:noun-object-base-symbol}}{{prefix:operator-negation-symbol}} evaluation family",
           "body": "The {{prefix:noun-object-base-symbol}}{{prefix:operator-negation-symbol}} suffix family covers evaluation and moral judgment — how good, how appropriate, how valuable something is.\n\nThis family runs from ok/acceptable through great/excellent. The vowel marks the degree and valence.",
-          "examples": []
+          "examples": [],
+          "textbookRef": "prefixes-modifiers"
         }
       ],
       "practice": [
@@ -2138,7 +2159,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "textbookRef": "writing-suffixes"
         }
       ],
       "practice": [
@@ -2270,7 +2292,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "textbookRef": "writing-suffixes"
         }
       ],
       "practice": [
@@ -2401,7 +2424,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "textbookRef": "writing-suffixes"
         }
       ],
       "practice": [
@@ -2543,7 +2567,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "textbookRef": "space-axes"
         }
       ],
       "practice": [
@@ -2675,7 +2700,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "textbookRef": "writing-suffixes"
         }
       ],
       "practice": [
@@ -2817,7 +2843,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "textbookRef": "writing-suffixes"
         }
       ],
       "practice": [
@@ -2949,7 +2976,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "textbookRef": "writing-suffixes"
         }
       ],
       "practice": [
@@ -3081,7 +3109,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "textbookRef": "writing-suffixes"
         }
       ],
       "practice": [
@@ -3233,7 +3262,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "textbookRef": "prefixes-modals"
         }
       ],
       "practice": [
@@ -3396,7 +3426,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "textbookRef": "prefixes-commands"
         }
       ],
       "practice": [
@@ -3551,7 +3582,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "textbookRef": "clauses-subordinate"
         }
       ],
       "practice": [
@@ -3687,7 +3719,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "textbookRef": "prefixes-ticked"
         }
       ],
       "practice": [
@@ -3823,7 +3856,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "textbookRef": "prefixes-ticked"
         }
       ],
       "practice": [
@@ -3947,7 +3981,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "textbookRef": "numbers-fractions"
         },
         {
           "id": "g-measurement",
@@ -4011,7 +4046,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "textbookRef": "numbers-scale"
         }
       ],
       "practice": [
@@ -4178,7 +4214,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "textbookRef": "clauses-subordinate"
         }
       ],
       "practice": [
@@ -4318,7 +4355,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "textbookRef": "clauses-aliases"
         },
         {
           "id": "g-generic-noun",
@@ -4336,7 +4374,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "textbookRef": "prefixes-nouns"
         }
       ],
       "practice": [
@@ -4493,7 +4532,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "textbookRef": "numbers-digits"
         },
         {
           "id": "g-markers",
@@ -4567,7 +4607,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "textbookRef": "numbers-markers"
         },
         {
           "id": "g-scale",
@@ -4672,7 +4713,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "textbookRef": "numbers-scale"
         },
         {
           "id": "g-quantity",
@@ -4705,7 +4747,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "textbookRef": "prefixes-quantity"
         }
       ],
       "practice": [
@@ -4906,7 +4949,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "textbookRef": "color-system"
         },
         {
           "id": "g-color-decimal",
@@ -4939,7 +4983,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "textbookRef": "color-system"
         },
         {
           "id": "g-grayscale",
@@ -4988,7 +5033,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "textbookRef": "color-grayscale"
         }
       ],
       "practice": [
@@ -5110,7 +5156,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "textbookRef": "space-axes"
         },
         {
           "id": "g-cardinal",
@@ -5164,7 +5211,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "textbookRef": "space-cardinal"
         }
       ],
       "practice": [
@@ -5302,7 +5350,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "textbookRef": "time-units"
         },
         {
           "id": "g-days-months",
@@ -5377,7 +5426,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "textbookRef": "time-days-months"
         },
         {
           "id": "g-time-of-day",
@@ -5426,7 +5476,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "textbookRef": "time-of-day"
         }
       ],
       "practice": [
