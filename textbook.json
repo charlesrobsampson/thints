@@ -57,14 +57,14 @@
               "gloss": "the dog chased the cat",
               "breakdown": [
                 {
-                  "part": "{{prefix:noun-subject-base-symbol}}{{dict:i:0356.word}}",
-                  "role": "subject",
-                  "meaning": "the dog (subject)"
-                },
-                {
                   "part": "{{prefix:verb-past-base-symbol}}{{dict:i:0317.word}}",
                   "role": "verb-past",
                   "meaning": "chased (past)"
+                },
+                {
+                  "part": "{{prefix:noun-subject-base-symbol}}{{dict:i:0356.word}}",
+                  "role": "subject",
+                  "meaning": "the dog (subject)"
                 },
                 {
                   "part": "{{prefix:noun-object-base-symbol}}{{dict:i:0539.word}}",

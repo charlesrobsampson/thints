@@ -1,0 +1,364 @@
+{
+  "𐑐": {
+    "pronunciation": {
+      "ipa": "p",
+      "arpabet": "P",
+      "phonics": "p"
+    }
+  },
+  "𐑚": {
+    "pronunciation": {
+      "ipa": "b",
+      "arpabet": "B",
+      "phonics": "b"
+    }
+  },
+  "𐑑": {
+    "pronunciation": {
+      "ipa": "t",
+      "arpabet": "T",
+      "phonics": "t"
+    }
+  },
+  "𐑛": {
+    "pronunciation": {
+      "ipa": "d",
+      "arpabet": "D",
+      "phonics": "d"
+    }
+  },
+  "𐑒": {
+    "pronunciation": {
+      "ipa": "k",
+      "arpabet": "K",
+      "phonics": "k"
+    }
+  },
+  "𐑜": {
+    "pronunciation": {
+      "ipa": "ɡ",
+      "arpabet": "G",
+      "phonics": "g"
+    }
+  },
+  "𐑓": {
+    "pronunciation": {
+      "ipa": "f",
+      "arpabet": "F",
+      "phonics": "f"
+    }
+  },
+  "𐑝": {
+    "pronunciation": {
+      "ipa": "v",
+      "arpabet": "V",
+      "phonics": "v"
+    }
+  },
+  "𐑔": {
+    "pronunciation": {
+      "ipa": "θ",
+      "arpabet": "TH",
+      "phonics": "(th)in"
+    }
+  },
+  "𐑞": {
+    "pronunciation": {
+      "ipa": "ð",
+      "arpabet": "DH",
+      "phonics": "(th)em"
+    }
+  },
+  "𐑕": {
+    "pronunciation": {
+      "ipa": "s",
+      "arpabet": "S",
+      "phonics": "s"
+    }
+  },
+  "𐑟": {
+    "pronunciation": {
+      "ipa": "z",
+      "arpabet": "Z",
+      "phonics": "z"
+    }
+  },
+  "𐑖": {
+    "pronunciation": {
+      "ipa": "ʃ",
+      "arpabet": "SH",
+      "phonics": "sh"
+    }
+  },
+  "𐑠": {
+    "pronunciation": {
+      "ipa": "ʒ",
+      "arpabet": "ZH",
+      "phonics": "zh"
+    }
+  },
+  "𐑗": {
+    "pronunciation": {
+      "ipa": "tʃ",
+      "arpabet": "CH",
+      "phonics": "ch"
+    }
+  },
+  "𐑡": {
+    "pronunciation": {
+      "ipa": "dʒ",
+      "arpabet": "JH",
+      "phonics": "jh"
+    }
+  },
+  "𐑘": {
+    "pronunciation": {
+      "ipa": "j",
+      "arpabet": "Y",
+      "phonics": "y"
+    }
+  },
+  "𐑢": {
+    "pronunciation": {
+      "ipa": "w",
+      "arpabet": "W",
+      "phonics": "w"
+    }
+  },
+  "𐑙": {
+    "pronunciation": {
+      "ipa": "ŋ",
+      "arpabet": "NG",
+      "phonics": "ng"
+    }
+  },
+  "𐑣": {
+    "pronunciation": {
+      "ipa": "h",
+      "arpabet": "HH",
+      "phonics": "h"
+    }
+  },
+  "𐑤": {
+    "pronunciation": {
+      "ipa": "l",
+      "arpabet": "L",
+      "phonics": "l"
+    }
+  },
+  "𐑮": {
+    "pronunciation": {
+      "ipa": "ɹ",
+      "arpabet": "R",
+      "phonics": "r"
+    }
+  },
+  "𐑥": {
+    "pronunciation": {
+      "ipa": "m",
+      "arpabet": "M",
+      "phonics": "m"
+    }
+  },
+  "𐑯": {
+    "pronunciation": {
+      "ipa": "n",
+      "arpabet": "N",
+      "phonics": "n"
+    }
+  },
+  "𐑦": {
+    "pronunciation": {
+      "ipa": "ɪ",
+      "arpabet": "IH0",
+      "phonics": "ih"
+    }
+  },
+  "𐑰": {
+    "pronunciation": {
+      "ipa": "i",
+      "arpabet": "IY1",
+      "phonics": "ee"
+    }
+  },
+  "𐑧": {
+    "pronunciation": {
+      "ipa": "ɛ",
+      "arpabet": "EH0",
+      "phonics": "eh"
+    }
+  },
+  "𐑱": {
+    "pronunciation": {
+      "ipa": "eɪ",
+      "arpabet": "EY0",
+      "phonics": "ay"
+    }
+  },
+  "𐑨": {
+    "pronunciation": {
+      "ipa": "æ",
+      "arpabet": "AE0",
+      "phonics": "ah"
+    }
+  },
+  "𐑲": {
+    "pronunciation": {
+      "ipa": "aɪ",
+      "arpabet": "AY0",
+      "phonics": "eye"
+    }
+  },
+  "𐑩": {
+    "pronunciation": {
+      "ipa": "ə",
+      "arpabet": "AH0",
+      "phonics": "uh"
+    }
+  },
+  "𐑳": {
+    "pronunciation": {
+      "ipa": "ʌ",
+      "arpabet": "AH1",
+      "phonics": "uh"
+    }
+  },
+  "𐑪": {
+    "pronunciation": {
+      "ipa": "ɔ",
+      "arpabet": "AA1",
+      "phonics": "awe"
+    }
+  },
+  "𐑴": {
+    "pronunciation": {
+      "ipa": "oʊ",
+      "arpabet": "OW0",
+      "phonics": "oh"
+    }
+  },
+  "𐑫": {
+    "pronunciation": {
+      "ipa": "ʊ",
+      "arpabet": "UH0",
+      "phonics": "c(ou)ld"
+    }
+  },
+  "𐑵": {
+    "pronunciation": {
+      "ipa": "u",
+      "arpabet": "UW0",
+      "phonics": "oo"
+    }
+  },
+  "𐑬": {
+    "pronunciation": {
+      "ipa": "aʊ",
+      "arpabet": "AW0",
+      "phonics": "ow"
+    }
+  },
+  "𐑶": {
+    "pronunciation": {
+      "ipa": "ɔɪ",
+      "arpabet": "OY0",
+      "phonics": "oy"
+    }
+  },
+  "𐑭": {
+    "pronunciation": {
+      "ipa": "ɑ",
+      "arpabet": "AA0",
+      "phonics": "awe"
+    }
+  },
+  "𐑷": {
+    "pronunciation": {
+      "ipa": "ɒ",
+      "arpabet": "AO0",
+      "phonics": "(a)ll"
+    }
+  },
+  "𐑸": {
+    "composite": [
+      "𐑪",
+      "𐑮"
+    ]
+  },
+  "𐑹": {
+    "composite": [
+      "𐑴",
+      "𐑮"
+    ]
+  },
+  "𐑺": {
+    "composite": [
+      "𐑱",
+      "𐑮"
+    ]
+  },
+  "𐑻": {
+    "composite": [
+      "𐑩",
+      "𐑮"
+    ]
+  },
+  "𐑼": {
+    "composite": [
+      "𐑧",
+      "𐑮"
+    ]
+  },
+  "𐑾": {
+    "composite": [
+      "𐑰",
+      "𐑩"
+    ]
+  },
+  "𐑿": {
+    "composite": [
+      "𐑘",
+      "𐑵"
+    ]
+  },
+  "𐑯'": {
+    "pronunciation": {
+      "ipa": "ŋǂ"
+    },
+    "examples": [
+      "https://en.wikipedia.org/wiki/File:Palatoalveolar_click.ogg"
+    ],
+  },
+  "𐑕'": {
+    "pronunciation": {
+      "ipa": "tsʼ"
+    },
+    "examples": [
+      "https://en.wikipedia.org/wiki/File:Alveolar_ejective_affricate.ogg"
+    ]
+  },
+  "𐑣'": {
+    "pronunciation": {
+      "ipa": "ʔh"
+    },
+    "examples": [
+      "https://en.wikipedia.org/wiki/File:Voiceless_glottal_affricate.ogg"
+    ]
+  },
+  "𐑑'": {
+    "pronunciation": {
+      "ipa": "kǀ"
+    },
+    "examples": [
+      "https://en.wikipedia.org/wiki/File:Dental_click.ogg"
+    ]
+  },
+  "𐑮'": {
+    "pronunciation": {
+      "ipa": "r"
+    },
+    "examples": [
+      "https://en.wikipedia.org/wiki/File:Alveolar_trill.ogg"
+    ]
+  }
+}
