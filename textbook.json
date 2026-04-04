@@ -81,11 +81,11 @@
           "body": "Tense verbs use voiced continuant sounds. Mishearing one still tells you 'this is a verb'.\n\n`{{prefix:verb-present-base-symbol}}` = present — 'I eat'\n`{{prefix:verb-past-base-symbol}}` = past — 'I ate'\n`{{prefix:verb-future-base-symbol}}` = future — 'I will eat'\n`{{prefix:verb-progressive-base-symbol}}` = ongoing present — 'I am eating'\n\nNegation:\n`{{prefix:verb-present-negated-symbol}}` = do not\n`{{prefix:verb-past-negated-symbol}}` = did not\n`{{prefix:verb-future-negated-symbol}}` = will not (special form)\n`{{prefix:verb-progressive-negated-symbol}}` = am not",
           "examples": [
             {
-              "shavian": "{{prefix:noun-subject-base-symbol}}{{dict:sv:𐑱-word.word}} {{prefix:verb-past-base-symbol}}{{dict:i:0317.word}} {{prefix:noun-object-base-symbol}}{{dict:sv:𐑩-word.word}}",
+              "shavian": "{{prefix:noun-subject-base-symbol}}{{dict:sv:𐑱.word}} {{prefix:verb-past-base-symbol}}{{dict:i:0317.word}} {{prefix:noun-object-base-symbol}}{{dict:sv:𐑩.word}}",
               "gloss": "she walked to [it]",
               "breakdown": [
                 {
-                  "part": "{{prefix:noun-subject-base-symbol}}{{dict:sv:𐑱-word.word}}",
+                  "part": "{{prefix:noun-subject-base-symbol}}{{dict:sv:𐑱.word}}",
                   "role": "subject",
                   "meaning": "she / they (subject)"
                 },
@@ -95,7 +95,7 @@
                   "meaning": "walked (past)"
                 },
                 {
-                  "part": "{{prefix:noun-object-base-symbol}}{{dict:sv:𐑩-word.word}}",
+                  "part": "{{prefix:noun-object-base-symbol}}{{dict:sv:𐑩.word}}",
                   "role": "object",
                   "meaning": "to it / toward (object)"
                 }
@@ -148,11 +148,11 @@
           "body": "Modals express ability, obligation, and conditionality. They use a different sound family — clearly verb-like but unmistakably distinct:\n\n`{{prefix:modal-ability-base-symbol}}` = can / could (ability) — negate with a modifier word\n`{{prefix:modal-obligation-base-symbol}}` = should / must (obligation) — negate with a modifier word\n`{{prefix:modal-conditional-base-symbol}}` = would / conditional\n`{{prefix:modal-conditional-negated-symbol}}` = would not",
           "examples": [
             {
-              "shavian": "{{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰-word.word}} {{prefix:modal-conditional-base-symbol}}{{dict:i:0109.word}} {{dict:sv:𐑦-word.word}} {{prefix:noun-subject-base-symbol}}{{dict:sv:𐑱-word.word}} {{prefix:verb-clause-base-symbol}}{{dict:i:0018.word}}",
+              "shavian": "{{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰.word}} {{prefix:modal-conditional-base-symbol}}{{dict:i:0109.word}} {{dict:sv:𐑦.word}} {{prefix:noun-subject-base-symbol}}{{dict:sv:𐑱.word}} {{prefix:verb-clause-base-symbol}}{{dict:i:0018.word}}",
               "gloss": "I would go if it were fine",
               "breakdown": [
                 {
-                  "part": "{{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰-word.word}}",
+                  "part": "{{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰.word}}",
                   "role": "subject",
                   "meaning": "I (subject)"
                 },
@@ -162,12 +162,12 @@
                   "meaning": "would go"
                 },
                 {
-                  "part": "{{dict:sv:𐑦-word.word}}",
+                  "part": "{{dict:sv:𐑦.word}}",
                   "role": "word",
                   "meaning": "if"
                 },
                 {
-                  "part": "{{prefix:noun-subject-base-symbol}}{{dict:sv:𐑱-word.word}}",
+                  "part": "{{prefix:noun-subject-base-symbol}}{{dict:sv:𐑱.word}}",
                   "role": "subject",
                   "meaning": "it (clause subject)"
                 },
@@ -222,7 +222,7 @@
         {
           "id": "prefixes-quantity",
           "title": "Quantity and possession",
-          "body": "One prefix handles both:\n\n`{{prefix:quantity-base-symbol}}` before a number = quantity ({{prefix:quantity-base-symbol}}3 {{dict:i:0356.word}} = 3 dogs)\n`{{prefix:quantity-base-symbol}}` before a pronoun = possession ({{prefix:quantity-base-symbol}}{{dict:sv:𐑰-word.word}} = my)\n`{{prefix:quantity-negated-symbol}}` = negated: lack of / not belonging to"
+          "body": "One prefix handles both:\n\n`{{prefix:quantity-base-symbol}}` before a number = quantity ({{prefix:quantity-base-symbol}}3 {{dict:i:0356.word}} = 3 dogs)\n`{{prefix:quantity-base-symbol}}` before a pronoun = possession ({{prefix:quantity-base-symbol}}{{dict:sv:𐑰.word}} = my)\n`{{prefix:quantity-negated-symbol}}` = negated: lack of / not belonging to"
         },
         {
           "id": "prefixes-ticked",
@@ -262,7 +262,7 @@
         {
           "id": "special-reserved",
           "title": "Single-vowel reserved words",
-          "body": "Fourteen words are each a bare vowel — no suffix. They are the most fundamental particles of the language. They **can** take prefixes when used as full words, but never take suffixes.\n\n{{dict:sv:𐑰-word.word}} — I / me\n{{dict:sv:𐑴-word.word}} — You\n{{dict:sv:𐑱-word.word}} — It / they / them (always gender-neutral)\n{{dict:sv:𐑵-word.word}} — We / us\n{{dict:sv:𐑧-word.word}} — And / add\n{{dict:sv:𐑲-word.word}} — But / contrast\n{{dict:sv:𐑨-word.word}} — Or / choose\n{{dict:sv:𐑩-word.word}} — To / toward\n{{dict:sv:𐑪-word.word}} — From / origin\n{{dict:sv:𐑫-word.word}} — In / enter\n{{dict:sv:𐑷-word.word}} — On / upon\n{{dict:sv:𐑶-word.word}} — Up / raise (also ×10 scale)\n{{dict:sv:𐑬-word.word}} — Down / lower (also ÷10 scale)\n{{dict:sv:𐑦-word.word}} — If / condition"
+          "body": "Fourteen words are each a bare vowel — no suffix. They are the most fundamental particles of the language. They **can** take prefixes when used as full words, but never take suffixes.\n\n{{dict:sv:𐑰.word}} — I / me\n{{dict:sv:𐑴.word}} — You\n{{dict:sv:𐑱.word}} — It / they / them (always gender-neutral)\n{{dict:sv:𐑵.word}} — We / us\n{{dict:sv:𐑧.word}} — And / add\n{{dict:sv:𐑲.word}} — But / contrast\n{{dict:sv:𐑨.word}} — Or / choose\n{{dict:sv:𐑩.word}} — To / toward\n{{dict:sv:𐑪.word}} — From / origin\n{{dict:sv:𐑫.word}} — In / enter\n{{dict:sv:𐑷.word}} — On / upon\n{{dict:sv:𐑶.word}} — Up / raise (also ×10 scale)\n{{dict:sv:𐑬.word}} — Down / lower (also ÷10 scale)\n{{dict:sv:𐑦.word}} — If / condition"
         },
         {
           "id": "special-gender",
@@ -335,10 +335,10 @@
         {
           "id": "numbers-scale",
           "title": "Scale operators",
-          "body": "The reserved words {{dict:sv:𐑶-word.word}} (up) and {{dict:sv:𐑬-word.word}} (down) act as scale operators — ×10 and ÷10 per step — replacing separate words for kilo-, mega-, milli-, centi- etc.\n\nThis also applies to **modifiers** to intensify or diminish meaning:\n\n{{dict:i:0027.word}} {{dict:sv:𐑶-word.word}}`3` = enormous (big ×10³)\n{{dict:i:0027.word}} {{dict:sv:𐑬-word.word}}`2` = tiny (big ÷10²)\n{{dict:i:0047.word}} {{dict:sv:𐑶-word.word}}`2` = extremely delightful\n{{dict:i:0047.word}} {{dict:sv:𐑬-word.word}}`2` = a tiny bit delightful",
+          "body": "The reserved words {{dict:sv:𐑶.word}} (up) and {{dict:sv:𐑬.word}} (down) act as scale operators — ×10 and ÷10 per step — replacing separate words for kilo-, mega-, milli-, centi- etc.\n\nThis also applies to **modifiers** to intensify or diminish meaning:\n\n{{dict:i:0027.word}} {{dict:sv:𐑶.word}}`3` = enormous (big ×10³)\n{{dict:i:0027.word}} {{dict:sv:𐑬.word}}`2` = tiny (big ÷10²)\n{{dict:i:0047.word}} {{dict:sv:𐑶.word}}`2` = extremely delightful\n{{dict:i:0047.word}} {{dict:sv:𐑬.word}}`2` = a tiny bit delightful",
           "examples": [
             {
-              "shavian": "{{dict:i:0812.word}} {{dict:sv:𐑶-word.word}}{{prefix:number-integer-end-base-symbol}}{{dict:i:d3.word}}",
+              "shavian": "{{dict:i:0812.word}} {{dict:sv:𐑶.word}}{{prefix:number-integer-end-base-symbol}}{{dict:i:d3.word}}",
               "gloss": "kilometer (length × 10³)",
               "breakdown": [
                 {
@@ -347,7 +347,7 @@
                   "meaning": "length / meter"
                 },
                 {
-                  "part": "{{dict:sv:𐑶-word.word}}",
+                  "part": "{{dict:sv:𐑶.word}}",
                   "role": "word",
                   "meaning": "scale up"
                 },
@@ -421,7 +421,7 @@
         {
           "id": "space-axes",
           "title": "The three axes",
-          "body": "The default reference frame is **egocentric** — all directions relative to the speaker.\n\n**X (left ↔ right):** {{dict:i:1438.word}} = right (+X) · {{dict:i:1917.word}} = left (−X)\n**Y (forward ↔ back):** {{dict:i:0299.word}} = forward · {{dict:i:0186.word}} = backward\n**Z (up ↔ down):** {{dict:sv:𐑶-word.word}} = up · {{dict:sv:𐑬-word.word}} = down\n\nAll six are regular vocabulary words — take any prefix normally.",
+          "body": "The default reference frame is **egocentric** — all directions relative to the speaker.\n\n**X (left ↔ right):** {{dict:i:1438.word}} = right (+X) · {{dict:i:1917.word}} = left (−X)\n**Y (forward ↔ back):** {{dict:i:0299.word}} = forward · {{dict:i:0186.word}} = backward\n**Z (up ↔ down):** {{dict:sv:𐑶.word}} = up · {{dict:sv:𐑬.word}} = down\n\nAll six are regular vocabulary words — take any prefix normally.",
           "examples": [
             {
               "shavian": "{{prefix:verb-command-do-symbol}}{{dict:i:0299.word}}",
@@ -529,11 +529,11 @@
           "body": "The clause opener {{dict:i:1933.word}} (that/which) signals a subordinate clause. Inside the clause, verbs use `{{prefix:verb-clause-base-symbol}}` instead of a tense prefix. Noun prefixes stay the same.",
           "examples": [
             {
-              "shavian": "{{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰-word.word}} {{prefix:verb-present-base-symbol}}{{dict:i:0014.word}} {{dict:i:1933.word}} {{prefix:noun-subject-base-symbol}}{{dict:i:0356.word}} {{prefix:verb-clause-base-symbol}}{{dict:i:0109.word}}",
+              "shavian": "{{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰.word}} {{prefix:verb-present-base-symbol}}{{dict:i:0014.word}} {{dict:i:1933.word}} {{prefix:noun-subject-base-symbol}}{{dict:i:0356.word}} {{prefix:verb-clause-base-symbol}}{{dict:i:0109.word}}",
               "gloss": "I know that the dog moved",
               "breakdown": [
                 {
-                  "part": "{{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰-word.word}}",
+                  "part": "{{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰.word}}",
                   "role": "subject",
                   "meaning": "I (subject)"
                 },

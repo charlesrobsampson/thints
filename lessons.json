@@ -2124,7 +2124,7 @@
           "body": "All words ending in 𐑛𐑟 are positive emotions. The suffix is a guaranteed signal — hear it and you know the emotional territory before knowing the specific word.\n\n{{dict:i:0047.word}} wow/delight · {{dict:i:0051.word}} happy/joy · {{dict:i:0055.word}} love/affection · {{dict:i:0080.word}} satisfied/content · {{dict:i:0125.word}} cute/charming · {{dict:i:0183.word}} friendly/warm · {{dict:i:0288.word}} sweet/pleasant",
           "examples": [
             {
-              "shavian": "{{prefix:verb-present-base-symbol}}{{dict:i:0055.word}} {{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰-word.word}} {{prefix:noun-object-base-symbol}}{{dict:sv:𐑱-word.word}}",
+              "shavian": "{{prefix:verb-present-base-symbol}}{{dict:i:0055.word}} {{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰.word}} {{prefix:noun-object-base-symbol}}{{dict:sv:𐑱.word}}",
               "gloss": "I love them",
               "breakdown": [
                 {
@@ -2143,7 +2143,7 @@
                   "meaning": "I (subject)"
                 },
                 {
-                  "part": "{{dict:sv:𐑰-word.word}}",
+                  "part": "{{dict:sv:𐑰.word}}",
                   "role": "root",
                   "meaning": "I"
                 },
@@ -2153,7 +2153,7 @@
                   "meaning": "them (object)"
                 },
                 {
-                  "part": "{{dict:sv:𐑱-word.word}}",
+                  "part": "{{dict:sv:𐑱.word}}",
                   "role": "root",
                   "meaning": "them/they"
                 }
@@ -2205,13 +2205,13 @@
           "type": "multipleChoice",
           "prompt": "How do you say 'I am happy'?",
           "options": [
-            "{{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰-word.word}} {{dict:i:0051.word}}",
-            "{{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰-word.word}} {{prefix:verb-present-base-symbol}}{{dict:i:0051.word}}",
-            "{{prefix:verb-present-base-symbol}}{{dict:i:0051.word}} {{dict:sv:𐑰-word.word}}",
-            "{{prefix:modifier-base-symbol}}{{dict:i:0051.word}} {{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰-word.word}}"
+            "{{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰.word}} {{dict:i:0051.word}}",
+            "{{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰.word}} {{prefix:verb-present-base-symbol}}{{dict:i:0051.word}}",
+            "{{prefix:verb-present-base-symbol}}{{dict:i:0051.word}} {{dict:sv:𐑰.word}}",
+            "{{prefix:modifier-base-symbol}}{{dict:i:0051.word}} {{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰.word}}"
           ],
           "correctIndex": 1,
-          "explanation": "{{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰-word.word}} (I as subject) + {{prefix:verb-present-base-symbol}}{{dict:i:0051.word}} (am happy, present verb)."
+          "explanation": "{{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰.word}} (I as subject) + {{prefix:verb-present-base-symbol}}{{dict:i:0051.word}} (am happy, present verb)."
         },
         {
           "id": "l15-p4",
@@ -2267,7 +2267,7 @@
           "body": "All words ending in 𐑝𐑟 are negative emotions. Like the positive emotion family (𐑛𐑟), the suffix immediately tells you the emotional territory before you know the specific word.\n\nKey words: {{dict:i:0086.word}} (sorry/regret) · {{dict:i:0132.word}} (fear/anxiety) · {{dict:i:0156.word}} (flaw/fault) · {{dict:i:0367.word}} (disappointed) · {{dict:i:0463.word}} (annoying/frustrating)",
           "examples": [
             {
-              "shavian": "{{prefix:verb-present-base-symbol}}{{dict:i:0132.word}} {{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰-word.word}}",
+              "shavian": "{{prefix:verb-present-base-symbol}}{{dict:i:0132.word}} {{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰.word}}",
               "gloss": "I am afraid",
               "breakdown": [
                 {
@@ -2286,7 +2286,7 @@
                   "meaning": "subject"
                 },
                 {
-                  "part": "{{dict:sv:𐑰-word.word}}",
+                  "part": "{{dict:sv:𐑰.word}}",
                   "role": "root",
                   "meaning": "I"
                 }
@@ -2351,10 +2351,10 @@
           "type": "multipleChoice",
           "prompt": "How do you say 'I was afraid'?",
           "options": [
-            "{{prefix:verb-past-base-symbol}}{{dict:i:0132.word}} {{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰-word.word}}",
-            "{{prefix:verb-present-base-symbol}}{{dict:i:0132.word}} {{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰-word.word}}",
-            "{{prefix:verb-future-base-symbol}}{{dict:i:0132.word}} {{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰-word.word}}",
-            "{{prefix:modifier-base-symbol}}{{dict:i:0132.word}} {{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰-word.word}}"
+            "{{prefix:verb-past-base-symbol}}{{dict:i:0132.word}} {{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰.word}}",
+            "{{prefix:verb-present-base-symbol}}{{dict:i:0132.word}} {{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰.word}}",
+            "{{prefix:verb-future-base-symbol}}{{dict:i:0132.word}} {{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰.word}}",
+            "{{prefix:modifier-base-symbol}}{{dict:i:0132.word}} {{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰.word}}"
           ],
           "correctIndex": 0,
           "explanation": "Past tense uses {{prefix:verb-past-base-symbol}}. So 'was afraid' = {{prefix:verb-past-base-symbol}}{{dict:i:0132.word}}."
@@ -2399,7 +2399,7 @@
           "body": "All words ending in 𐑖𐑑 describe movement. The vowel picks the specific kind of motion.\n\n{{dict:i:0109.word}} move/motion · {{dict:i:0171.word}} fall/drop · {{dict:i:0317.word}} walk · {{dict:i:0382.word}} throw/launch · {{dict:i:0693.word}} leave/depart · {{dict:i:0848.word}} approach",
           "examples": [
             {
-              "shavian": "{{prefix:verb-past-base-symbol}}{{dict:i:0317.word}} {{prefix:noun-subject-base-symbol}}{{dict:sv:𐑱-word.word}}",
+              "shavian": "{{prefix:verb-past-base-symbol}}{{dict:i:0317.word}} {{prefix:noun-subject-base-symbol}}{{dict:sv:𐑱.word}}",
               "gloss": "she/he walked",
               "breakdown": [
                 {
@@ -2418,7 +2418,7 @@
                   "meaning": "subject"
                 },
                 {
-                  "part": "{{dict:sv:𐑱-word.word}}",
+                  "part": "{{dict:sv:𐑱.word}}",
                   "role": "root",
                   "meaning": "they/she/he"
                 }
@@ -2532,7 +2532,7 @@
           "body": "Place concepts come from two suffix families:\n\n𐑐𐑑 (Axes & Reference): {{dict:i:0030.word}} here · {{dict:i:0041.word}} toward · {{dict:i:0084.word}} X-axis/left-right · {{dict:i:0797.word}} Y-axis/depth\n\n𐑣' (Place & Dwelling): {{dict:i:0075.word}} room/space · {{dict:i:0088.word}} place/location · {{dict:i:0285.word}} home/dwelling",
           "examples": [
             {
-              "shavian": "{{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰-word.word}} {{prefix:verb-present-base-symbol}}{{dict:i:0109.word}} {{prefix:noun-object-base-symbol}}{{dict:i:0030.word}}",
+              "shavian": "{{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰.word}} {{prefix:verb-present-base-symbol}}{{dict:i:0109.word}} {{prefix:noun-object-base-symbol}}{{dict:i:0030.word}}",
               "gloss": "I move here",
               "breakdown": [
                 {
@@ -2541,7 +2541,7 @@
                   "meaning": "subject"
                 },
                 {
-                  "part": "{{dict:sv:𐑰-word.word}}",
+                  "part": "{{dict:sv:𐑰.word}}",
                   "role": "root",
                   "meaning": "I"
                 },
@@ -2626,13 +2626,13 @@
           "type": "multipleChoice",
           "prompt": "How do you say 'my home'?",
           "options": [
-            "{{prefix:noun-subject-base-symbol}}{{dict:i:0285.word}} {{dict:sv:𐑰-word.word}}",
-            "{{prefix:quantity-base-symbol}}{{dict:sv:𐑰-word.word}} {{dict:i:0285.word}}",
-            "{{prefix:noun-object-base-symbol}}{{dict:i:0285.word}} {{dict:sv:𐑰-word.word}}",
-            "{{dict:i:0285.word}} {{dict:sv:𐑰-word.word}}"
+            "{{prefix:noun-subject-base-symbol}}{{dict:i:0285.word}} {{dict:sv:𐑰.word}}",
+            "{{prefix:quantity-base-symbol}}{{dict:sv:𐑰.word}} {{dict:i:0285.word}}",
+            "{{prefix:noun-object-base-symbol}}{{dict:i:0285.word}} {{dict:sv:𐑰.word}}",
+            "{{dict:i:0285.word}} {{dict:sv:𐑰.word}}"
           ],
           "correctIndex": 1,
-          "explanation": "Possession uses {{prefix:quantity-base-symbol}} before the pronoun: {{prefix:quantity-base-symbol}}{{dict:sv:𐑰-word.word}} = my. So 'my home' = {{prefix:quantity-base-symbol}}{{dict:sv:𐑰-word.word}} {{dict:i:0285.word}}."
+          "explanation": "Possession uses {{prefix:quantity-base-symbol}} before the pronoun: {{prefix:quantity-base-symbol}}{{dict:sv:𐑰.word}} = my. So 'my home' = {{prefix:quantity-base-symbol}}{{dict:sv:𐑰.word}} {{dict:i:0285.word}}."
         },
         {
           "id": "l18-p5",
@@ -2773,12 +2773,12 @@
           "prompt": "How do you say 'my hand'?",
           "options": [
             "{{prefix:noun-subject-base-symbol}}{{dict:i:0472.word}}",
-            "{{prefix:quantity-base-symbol}}{{dict:sv:𐑰-word.word}} {{dict:i:0472.word}}",
-            "{{dict:sv:𐑰-word.word}} {{dict:i:0472.word}}",
-            "{{prefix:noun-object-base-symbol}}{{dict:i:0472.word}} {{dict:sv:𐑰-word.word}}"
+            "{{prefix:quantity-base-symbol}}{{dict:sv:𐑰.word}} {{dict:i:0472.word}}",
+            "{{dict:sv:𐑰.word}} {{dict:i:0472.word}}",
+            "{{prefix:noun-object-base-symbol}}{{dict:i:0472.word}} {{dict:sv:𐑰.word}}"
           ],
           "correctIndex": 1,
-          "explanation": "Possession: {{prefix:quantity-base-symbol}}{{dict:sv:𐑰-word.word}} = my. Followed by the body word: {{dict:i:0472.word}} hand."
+          "explanation": "Possession: {{prefix:quantity-base-symbol}}{{dict:sv:𐑰.word}} = my. Followed by the body word: {{dict:i:0472.word}} hand."
         }
       ]
     },
@@ -2808,7 +2808,7 @@
           "body": "The 𐑯𐑡 suffix family covers social interaction — connecting with others.\n\n{{dict:i:0058.word}} smile/wink · {{dict:i:0067.word}} bond/relationship · {{dict:i:0081.word}} group/community · {{dict:i:0162.word}} friend · {{dict:i:0226.word}} respect/admire · {{dict:i:0244.word}} greet",
           "examples": [
             {
-              "shavian": "{{prefix:verb-past-base-symbol}}{{dict:i:0244.word}} {{prefix:noun-subject-base-symbol}}{{dict:sv:𐑱-word.word}} {{prefix:noun-object-base-symbol}}{{dict:sv:𐑰-word.word}}",
+              "shavian": "{{prefix:verb-past-base-symbol}}{{dict:i:0244.word}} {{prefix:noun-subject-base-symbol}}{{dict:sv:𐑱.word}} {{prefix:noun-object-base-symbol}}{{dict:sv:𐑰.word}}",
               "gloss": "she greeted me",
               "breakdown": [
                 {
@@ -2827,7 +2827,7 @@
                   "meaning": "subject"
                 },
                 {
-                  "part": "{{dict:sv:𐑱-word.word}}",
+                  "part": "{{dict:sv:𐑱.word}}",
                   "role": "root",
                   "meaning": "she/they"
                 },
@@ -2837,7 +2837,7 @@
                   "meaning": "object"
                 },
                 {
-                  "part": "{{dict:sv:𐑰-word.word}}",
+                  "part": "{{dict:sv:𐑰.word}}",
                   "role": "root",
                   "meaning": "me"
                 }
@@ -2889,13 +2889,13 @@
           "type": "multipleChoice",
           "prompt": "How do you say 'we are friends'?",
           "options": [
-            "{{prefix:verb-present-base-symbol}}{{dict:i:0162.word}} {{prefix:noun-subject-base-symbol}}{{dict:sv:𐑵-word.word}}",
-            "{{prefix:noun-subject-base-symbol}}{{dict:sv:𐑵-word.word}} {{prefix:verb-present-base-symbol}}{{dict:i:0244.word}}",
-            "{{prefix:modifier-base-symbol}}{{dict:i:0162.word}} {{prefix:noun-subject-base-symbol}}{{dict:sv:𐑵-word.word}}",
-            "{{prefix:verb-present-base-symbol}}{{dict:i:0067.word}} {{prefix:noun-subject-base-symbol}}{{dict:sv:𐑵-word.word}}"
+            "{{prefix:verb-present-base-symbol}}{{dict:i:0162.word}} {{prefix:noun-subject-base-symbol}}{{dict:sv:𐑵.word}}",
+            "{{prefix:noun-subject-base-symbol}}{{dict:sv:𐑵.word}} {{prefix:verb-present-base-symbol}}{{dict:i:0244.word}}",
+            "{{prefix:modifier-base-symbol}}{{dict:i:0162.word}} {{prefix:noun-subject-base-symbol}}{{dict:sv:𐑵.word}}",
+            "{{prefix:verb-present-base-symbol}}{{dict:i:0067.word}} {{prefix:noun-subject-base-symbol}}{{dict:sv:𐑵.word}}"
           ],
           "correctIndex": 0,
-          "explanation": "{{prefix:verb-present-base-symbol}}{{dict:i:0162.word}} = are friends (present verb). {{prefix:noun-subject-base-symbol}}{{dict:sv:𐑵-word.word}} = we (subject)."
+          "explanation": "{{prefix:verb-present-base-symbol}}{{dict:i:0162.word}} = are friends (present verb). {{prefix:noun-subject-base-symbol}}{{dict:sv:𐑵.word}} = we (subject)."
         },
         {
           "id": "l20-p4",
@@ -2951,7 +2951,7 @@
           "body": "The 𐑜𐑟 suffix family covers work, effort, and outcomes.\n\n{{dict:i:0044.word}} skill/expertise · {{dict:i:0073.word}} method/technique · {{dict:i:0091.word}} manage/do · {{dict:i:0175.word}} achieve/accomplish · {{dict:i:0181.word}} lose/loss · {{dict:i:0229.word}} job/work · {{dict:i:0313.word}} manage/coordinate",
           "examples": [
             {
-              "shavian": "{{prefix:verb-past-base-symbol}}{{dict:i:0175.word}} {{prefix:noun-subject-base-symbol}}{{dict:sv:𐑱-word.word}}",
+              "shavian": "{{prefix:verb-past-base-symbol}}{{dict:i:0175.word}} {{prefix:noun-subject-base-symbol}}{{dict:sv:𐑱.word}}",
               "gloss": "she achieved it",
               "breakdown": [
                 {
@@ -2970,7 +2970,7 @@
                   "meaning": "subject"
                 },
                 {
-                  "part": "{{dict:sv:𐑱-word.word}}",
+                  "part": "{{dict:sv:𐑱.word}}",
                   "role": "root",
                   "meaning": "she/they"
                 }
@@ -3022,10 +3022,10 @@
           "type": "multipleChoice",
           "prompt": "How do you say 'I have skill'?",
           "options": [
-            "{{prefix:verb-present-base-symbol}}{{dict:i:0044.word}} {{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰-word.word}}",
-            "{{prefix:modifier-base-symbol}}{{dict:i:0044.word}} {{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰-word.word}}",
-            "{{prefix:noun-subject-base-symbol}}{{dict:i:0044.word}} {{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰-word.word}}",
-            "{{prefix:verb-past-base-symbol}}{{dict:i:0044.word}} {{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰-word.word}}"
+            "{{prefix:verb-present-base-symbol}}{{dict:i:0044.word}} {{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰.word}}",
+            "{{prefix:modifier-base-symbol}}{{dict:i:0044.word}} {{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰.word}}",
+            "{{prefix:noun-subject-base-symbol}}{{dict:i:0044.word}} {{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰.word}}",
+            "{{prefix:verb-past-base-symbol}}{{dict:i:0044.word}} {{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰.word}}"
           ],
           "correctIndex": 0,
           "explanation": "Present verb + skill root + I as subject."
@@ -3401,7 +3401,7 @@
               ]
             },
             {
-              "shavian": "{{prefix:verb-command-do-symbol-symbol}}{{dict:i:0040.word}} {{prefix:noun-object-base-symbol}}{{dict:sv:𐑰-word.word}}",
+              "shavian": "{{prefix:verb-command-do-symbol-symbol}}{{dict:i:0040.word}} {{prefix:noun-object-base-symbol}}{{dict:sv:𐑰.word}}",
               "gloss": "Talk to me!",
               "breakdown": [
                 {
@@ -3420,7 +3420,7 @@
                   "meaning": "object"
                 },
                 {
-                  "part": "{{dict:sv:𐑰-word.word}}",
+                  "part": "{{dict:sv:𐑰.word}}",
                   "role": "root",
                   "meaning": "me"
                 }
@@ -3496,7 +3496,7 @@
         {
           "id": "l24-p5",
           "type": "multipleChoice",
-          "prompt": "Do commands require a subject word like {{prefix:noun-subject-base-symbol}}{{dict:sv:𐑴-word.word}} (you)?",
+          "prompt": "Do commands require a subject word like {{prefix:noun-subject-base-symbol}}{{dict:sv:𐑴.word}} (you)?",
           "options": [
             "Yes — always",
             "No — the command prefix implies 'you' already",
@@ -3532,7 +3532,7 @@
           "body": "The word {{dict:i:1933.word}} (that/which) opens a subordinate clause — a phrase like 'that she went' or 'which I found'. Everything inside the clause follows {{dict:i:1933.word}} and stays grouped together.\n\nInside the clause, verbs use the clause verb prefix {{prefix:verb-clause-base-symbol-symbol}} instead of a tense prefix. Nouns still use their normal prefixes ({{prefix:noun-subject-base-symbol-symbol}}, {{prefix:noun-object-base-symbol-symbol}}, etc.).",
           "examples": [
             {
-              "shavian": "{{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰-word.word}} {{prefix:verb-present-base-symbol}}{{dict:i:0014.word}} {{dict:i:1933.word}} {{prefix:noun-subject-base-symbol}}{{dict:i:0356.word}} {{prefix:verb-clause-base-symbol-symbol}}{{dict:i:0109.word}}",
+              "shavian": "{{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰.word}} {{prefix:verb-present-base-symbol}}{{dict:i:0014.word}} {{dict:i:1933.word}} {{prefix:noun-subject-base-symbol}}{{dict:i:0356.word}} {{prefix:verb-clause-base-symbol-symbol}}{{dict:i:0109.word}}",
               "gloss": "I know that the dog moved",
               "breakdown": [
                 {
@@ -3541,7 +3541,7 @@
                   "meaning": "I (subject)"
                 },
                 {
-                  "part": "{{dict:sv:𐑰-word.word}}",
+                  "part": "{{dict:sv:𐑰.word}}",
                   "role": "root",
                   "meaning": "I"
                 },
@@ -3618,10 +3618,10 @@
           "type": "multipleChoice",
           "prompt": "Which is correct for 'I know that she loves dogs'?",
           "options": [
-            "{{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰-word.word}} {{prefix:verb-present-base-symbol}}{{dict:i:0014.word}} {{dict:i:1933.word}} {{prefix:noun-subject-base-symbol}}{{dict:sv:𐑱-word.word}} {{prefix:verb-clause-base-symbol-symbol}}{{dict:i:0055.word}} {{prefix:noun-generic-base-symbol-symbol}}𐑮{{dict:i:0356.word}}",
-            "{{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰-word.word}} {{prefix:verb-present-base-symbol}}{{dict:i:0014.word}} {{prefix:noun-subject-base-symbol}}{{dict:sv:𐑱-word.word}} {{prefix:verb-present-base-symbol}}{{dict:i:0055.word}} {{prefix:noun-generic-base-symbol-symbol}}𐑮{{dict:i:0356.word}}",
-            "{{dict:i:1933.word}} {{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰-word.word}} {{prefix:verb-present-base-symbol}}{{dict:i:0014.word}} {{prefix:noun-subject-base-symbol}}{{dict:sv:𐑱-word.word}} {{prefix:verb-clause-base-symbol-symbol}}{{dict:i:0055.word}}",
-            "{{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰-word.word}} {{prefix:verb-present-base-symbol}}{{dict:i:0014.word}} {{dict:i:1933.word}} {{prefix:noun-subject-base-symbol}}{{dict:sv:𐑱-word.word}} {{prefix:verb-present-base-symbol}}{{dict:i:0055.word}}"
+            "{{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰.word}} {{prefix:verb-present-base-symbol}}{{dict:i:0014.word}} {{dict:i:1933.word}} {{prefix:noun-subject-base-symbol}}{{dict:sv:𐑱.word}} {{prefix:verb-clause-base-symbol-symbol}}{{dict:i:0055.word}} {{prefix:noun-generic-base-symbol-symbol}}𐑮{{dict:i:0356.word}}",
+            "{{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰.word}} {{prefix:verb-present-base-symbol}}{{dict:i:0014.word}} {{prefix:noun-subject-base-symbol}}{{dict:sv:𐑱.word}} {{prefix:verb-present-base-symbol}}{{dict:i:0055.word}} {{prefix:noun-generic-base-symbol-symbol}}𐑮{{dict:i:0356.word}}",
+            "{{dict:i:1933.word}} {{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰.word}} {{prefix:verb-present-base-symbol}}{{dict:i:0014.word}} {{prefix:noun-subject-base-symbol}}{{dict:sv:𐑱.word}} {{prefix:verb-clause-base-symbol-symbol}}{{dict:i:0055.word}}",
+            "{{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰.word}} {{prefix:verb-present-base-symbol}}{{dict:i:0014.word}} {{dict:i:1933.word}} {{prefix:noun-subject-base-symbol}}{{dict:sv:𐑱.word}} {{prefix:verb-present-base-symbol}}{{dict:i:0055.word}}"
           ],
           "correctIndex": 0,
           "explanation": "Main clause: I know. Then {{dict:i:1933.word}} opens the sub-clause. Inside: she (subject) + {{prefix:verb-clause-base-symbol-symbol}} love + dogs (generic plural noun)."
@@ -3678,7 +3678,7 @@
           "body": "The evidential {{prefix:evidential-reportative-base-symbol-symbol}} (ticked sound) marks a statement as second-hand — something you didn't witness yourself. Without it, you're asserting personal knowledge. With it, you're signaling inference or hearsay.\n\nThis distinction exists in many languages. In thints it's a single ticked prefix on the verb.\n\nNegation of the evidential uses a modifier word (not {{prefix:operator-negation-symbol-symbol}} stack) to say 'apparently not'.",
           "examples": [
             {
-              "shavian": "{{prefix:verb-present-base-symbol}}{{dict:i:0018.word}} {{prefix:noun-subject-base-symbol}}{{dict:sv:𐑱-word.word}}",
+              "shavian": "{{prefix:verb-present-base-symbol}}{{dict:i:0018.word}} {{prefix:noun-subject-base-symbol}}{{dict:sv:𐑱.word}}",
               "gloss": "it is fine (I know this directly)",
               "breakdown": [
                 {
@@ -3699,7 +3699,7 @@
               ]
             },
             {
-              "shavian": "{{prefix:evidential-reportative-base-symbol-symbol}}{{dict:i:0018.word}} {{prefix:noun-subject-base-symbol}}{{dict:sv:𐑱-word.word}}",
+              "shavian": "{{prefix:evidential-reportative-base-symbol-symbol}}{{dict:i:0018.word}} {{prefix:noun-subject-base-symbol}}{{dict:sv:𐑱.word}}",
               "gloss": "apparently it is fine (I was told / I inferred)",
               "breakdown": [
                 {
@@ -3815,7 +3815,7 @@
           "body": "The regular progressive {{prefix:verb-progressive-base-symbol-symbol}} covers ongoing present ('I am doing'). For ongoing past and future, ticked sounds take over — they're rare, so they're saved for these low-frequency forms.\n\n{{prefix:verb-progressive-past-ticked-symbol-symbol}} = was doing (ongoing past)\n{{prefix:verb-progressive-future-ticked-symbol-symbol}} = will be doing (ongoing future)\n{{prefix:verb-progressive-emphatic-ticked-symbol-symbol}} = am doing right now (emphatic present)\n\nNegation follows the same pattern as the base progressive: stack {{prefix:operator-negation-symbol-symbol}} before.",
           "examples": [
             {
-              "shavian": "{{prefix:verb-progressive-past-ticked-symbol-symbol}}{{dict:i:0040.word}} {{prefix:noun-subject-base-symbol}}{{dict:sv:𐑱-word.word}}",
+              "shavian": "{{prefix:verb-progressive-past-ticked-symbol-symbol}}{{dict:i:0040.word}} {{prefix:noun-subject-base-symbol}}{{dict:sv:𐑱.word}}",
               "gloss": "she was speaking (ongoing past)",
               "breakdown": [
                 {
@@ -3836,7 +3836,7 @@
               ]
             },
             {
-              "shavian": "{{prefix:verb-progressive-future-ticked-symbol-symbol}}{{dict:i:0014.word}} {{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰-word.word}}",
+              "shavian": "{{prefix:verb-progressive-future-ticked-symbol-symbol}}{{dict:i:0014.word}} {{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰.word}}",
               "gloss": "I will be knowing / I will be learning",
               "breakdown": [
                 {
@@ -3892,10 +3892,10 @@
           "type": "multipleChoice",
           "prompt": "How do you say 'I was speaking'?",
           "options": [
-            "{{prefix:verb-past-base-symbol}}{{dict:i:0040.word}} {{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰-word.word}}",
-            "{{prefix:verb-progressive-base-symbol}}{{dict:i:0040.word}} {{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰-word.word}}",
-            "{{prefix:verb-progressive-past-ticked-symbol-symbol}}{{dict:i:0040.word}} {{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰-word.word}}",
-            "{{prefix:verb-progressive-future-ticked-symbol-symbol}}{{dict:i:0040.word}} {{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰-word.word}}"
+            "{{prefix:verb-past-base-symbol}}{{dict:i:0040.word}} {{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰.word}}",
+            "{{prefix:verb-progressive-base-symbol}}{{dict:i:0040.word}} {{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰.word}}",
+            "{{prefix:verb-progressive-past-ticked-symbol-symbol}}{{dict:i:0040.word}} {{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰.word}}",
+            "{{prefix:verb-progressive-future-ticked-symbol-symbol}}{{dict:i:0040.word}} {{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰.word}}"
           ],
           "correctIndex": 2,
           "explanation": "{{prefix:verb-progressive-past-ticked-symbol-symbol}} = was doing (ongoing past). {{prefix:verb-past-base-symbol}} = simple past (did)."
@@ -3987,10 +3987,10 @@
         {
           "id": "g-measurement",
           "title": "Physical measurement",
-          "body": "Each physical dimension has its own root word in the 𐑐𐑑𐑕 family. The base value is always a standard metric unit. Scale with {{dict:sv:𐑶-word.word}} and {{dict:sv:𐑬-word.word}}:\n\n{{dict:i:0812.word}} = length (meter) · {{dict:i:0291.word}} = mass (gram) · {{dict:i:1913.word}} = temperature (°C)",
+          "body": "Each physical dimension has its own root word in the 𐑐𐑑𐑕 family. The base value is always a standard metric unit. Scale with {{dict:sv:𐑶.word}} and {{dict:sv:𐑬.word}}:\n\n{{dict:i:0812.word}} = length (meter) · {{dict:i:0291.word}} = mass (gram) · {{dict:i:1913.word}} = temperature (°C)",
           "examples": [
             {
-              "shavian": "{{dict:i:0812.word}} {{dict:sv:𐑶-word.word}}{{prefix:number-integer-end-base-symbol}}{{dict:i:d3.word}}",
+              "shavian": "{{dict:i:0812.word}} {{dict:sv:𐑶.word}}{{prefix:number-integer-end-base-symbol}}{{dict:i:d3.word}}",
               "gloss": "kilometer (length × 10³)",
               "breakdown": [
                 {
@@ -3999,7 +3999,7 @@
                   "meaning": "length / meter"
                 },
                 {
-                  "part": "{{dict:sv:𐑶-word.word}}",
+                  "part": "{{dict:sv:𐑶.word}}",
                   "role": "word",
                   "meaning": "scale up"
                 },
@@ -4069,13 +4069,13 @@
           "type": "multipleChoice",
           "prompt": "How do you say 'centimeter' (length ÷ 10²)?",
           "options": [
-            "{{dict:i:0812.word}} {{dict:sv:𐑶-word.word}}{{prefix:number-integer-end-base-symbol}}{{dict:i:d2.word}}",
-            "{{dict:i:0812.word}} {{dict:sv:𐑬-word.word}}{{prefix:number-integer-end-base-symbol}}{{dict:i:d2.word}}",
+            "{{dict:i:0812.word}} {{dict:sv:𐑶.word}}{{prefix:number-integer-end-base-symbol}}{{dict:i:d2.word}}",
+            "{{dict:i:0812.word}} {{dict:sv:𐑬.word}}{{prefix:number-integer-end-base-symbol}}{{dict:i:d2.word}}",
             "{{dict:i:0812.word}} {{prefix:number-integer-end-base-symbol}}{{dict:i:d2.word}}",
-            "{{dict:i:0812.word}} {{dict:sv:𐑬-word.word}}{{dict:i:d2.word}}"
+            "{{dict:i:0812.word}} {{dict:sv:𐑬.word}}{{dict:i:d2.word}}"
           ],
           "correctIndex": 1,
-          "explanation": "{{dict:sv:𐑬-word.word}} = scale down. {{prefix:number-integer-end-base-symbol}}{{dict:i:d2.word}} = exponent 2. So length ÷ 10² = centimeter."
+          "explanation": "{{dict:sv:𐑬.word}} = scale down. {{prefix:number-integer-end-base-symbol}}{{dict:i:d2.word}} = exponent 2. So length ÷ 10² = centimeter."
         },
         {
           "id": "l28-p3",
@@ -4154,7 +4154,7 @@
           "body": "Complex sentences in thints are built from the same small set of rules — there are no new mechanisms, just combinations.\n\nFree word order means the same meaning can be expressed in many arrangements. Only modifier adjacency is strict — a modifier must sit right next to what it modifies.\n\nSentences can stack:\n• A main clause + a subordinate clause ({{dict:i:1933.word}} + {{prefix:verb-clause-base-symbol-symbol}})\n• A statement + an evidential ({{prefix:evidential-reportative-base-symbol-symbol}})\n• Multiple noun phrases in any order",
           "examples": [
             {
-              "shavian": "{{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰-word.word}} {{prefix:verb-present-base-symbol}}{{dict:i:0014.word}} {{dict:i:1933.word}} {{prefix:noun-subject-base-symbol}}{{dict:sv:𐑱-word.word}} {{prefix:verb-clause-base-symbol-symbol}}{{dict:i:0015.word}} {{prefix:noun-object-base-symbol}}{{dict:sv:𐑰-word.word}}",
+              "shavian": "{{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰.word}} {{prefix:verb-present-base-symbol}}{{dict:i:0014.word}} {{dict:i:1933.word}} {{prefix:noun-subject-base-symbol}}{{dict:sv:𐑱.word}} {{prefix:verb-clause-base-symbol-symbol}}{{dict:i:0015.word}} {{prefix:noun-object-base-symbol}}{{dict:sv:𐑰.word}}",
               "gloss": "I know that she wants me",
               "breakdown": [
                 {
@@ -4163,7 +4163,7 @@
                   "meaning": "I (subject)"
                 },
                 {
-                  "part": "{{dict:sv:𐑰-word.word}}",
+                  "part": "{{dict:sv:𐑰.word}}",
                   "role": "root",
                   "meaning": "I"
                 },
@@ -4188,7 +4188,7 @@
                   "meaning": "she (clause subject)"
                 },
                 {
-                  "part": "{{dict:sv:𐑱-word.word}}",
+                  "part": "{{dict:sv:𐑱.word}}",
                   "role": "root",
                   "meaning": "she/they"
                 },
@@ -4208,7 +4208,7 @@
                   "meaning": "me (object)"
                 },
                 {
-                  "part": "{{dict:sv:𐑰-word.word}}",
+                  "part": "{{dict:sv:𐑰.word}}",
                   "role": "root",
                   "meaning": "me"
                 }
@@ -4305,15 +4305,15 @@
       "grammar": [
         {
           "id": "g-borrow",
-          "title": "Borrowing words: {{dict:fw:𐑽-word.word}} and aliases",
-          "body": "When you need a word thints doesn't have, use the borrow marker {{dict:fw:𐑽-word.word}} to introduce it. The borrowed span closes when you assign it an alias word — a short one-syllable handle that works like any regular word.\n\nFive alias words are available: alias:1 · alias:2 · alias:3 · alias:4 · alias:5\n\nOnce assigned, an alias takes any prefix:\n{{prefix:noun-subject-base-symbol-symbol}}[alias] · {{prefix:verb-present-base-symbol-symbol}}[alias] · {{prefix:modifier-base-symbol-symbol}}[alias]",
+          "title": "Borrowing words: {{dict:fw:𐑽.word}} and aliases",
+          "body": "When you need a word thints doesn't have, use the borrow marker {{dict:fw:𐑽.word}} to introduce it. The borrowed span closes when you assign it an alias word — a short one-syllable handle that works like any regular word.\n\nFive alias words are available: alias:1 · alias:2 · alias:3 · alias:4 · alias:5\n\nOnce assigned, an alias takes any prefix:\n{{prefix:noun-subject-base-symbol-symbol}}[alias] · {{prefix:verb-present-base-symbol-symbol}}[alias] · {{prefix:modifier-base-symbol-symbol}}[alias]",
           "examples": [
             {
-              "shavian": "{{dict:fw:𐑽-word.word}} schadenfreude {{dict:alias:3.word}}",
+              "shavian": "{{dict:fw:𐑽.word}} schadenfreude {{dict:alias:3.word}}",
               "gloss": "the word 'schadenfreude' is now A3",
               "breakdown": [
                 {
-                  "part": "{{dict:fw:𐑽-word.word}}",
+                  "part": "{{dict:fw:𐑽.word}}",
                   "role": "word",
                   "meaning": "borrow marker"
                 },
@@ -4364,7 +4364,7 @@
           "body": "When a borrowed word or a word with no clear grammatical role needs a prefix, use {{prefix:noun-generic-base-symbol-symbol}} — the generic noun marker. It says 'this is a noun but I'm not specifying its role in the sentence'.\n\nThis is the default for dictionary entries, list items, titles, and borrowed words that haven't been slotted into a sentence structure yet.",
           "examples": [
             {
-              "shavian": "{{prefix:noun-generic-base-symbol-symbol}}{{dict:fw:𐑽-word.word}}",
+              "shavian": "{{prefix:noun-generic-base-symbol-symbol}}{{dict:fw:𐑽.word}}",
               "gloss": "a borrowable (a generic item)",
               "breakdown": [
                 {
@@ -4382,7 +4382,7 @@
         {
           "id": "l30-p1",
           "type": "multipleChoice",
-          "prompt": "What does the borrow marker {{dict:fw:𐑽-word.word}} signal?",
+          "prompt": "What does the borrow marker {{dict:fw:𐑽.word}} signal?",
           "options": [
             "A subordinate clause is starting",
             "A foreign or coined word span is starting",
@@ -4390,7 +4390,7 @@
             "A command"
           ],
           "correctIndex": 1,
-          "explanation": "{{dict:fw:𐑽-word.word}} opens a borrowed word span. The span closes when an alias word is spoken, assigning the borrowed content a handle."
+          "explanation": "{{dict:fw:𐑽.word}} opens a borrowed word span. The span closes when an alias word is spoken, assigning the borrowed content a handle."
         },
         {
           "id": "l30-p2",
@@ -4434,15 +4434,15 @@
         {
           "id": "l30-p5",
           "type": "multipleChoice",
-          "prompt": "What is the difference between the phrase alias marker {{dict:fw:𐑸-word.word}} and the borrow marker {{dict:fw:𐑽-word.word}}?",
+          "prompt": "What is the difference between the phrase alias marker {{dict:fw:𐑸.word}} and the borrow marker {{dict:fw:𐑽.word}}?",
           "options": [
-            "{{dict:fw:𐑽-word.word}} is for foreign words. {{dict:fw:𐑸-word.word}} is for assigning a shorthand to a native-language phrase.",
+            "{{dict:fw:𐑽.word}} is for foreign words. {{dict:fw:𐑸.word}} is for assigning a shorthand to a native-language phrase.",
             "They are the same — use either",
-            "{{dict:fw:𐑸-word.word}} is older, {{dict:fw:𐑽-word.word}} is newer",
-            "{{dict:fw:𐑽-word.word}} is for speech, {{dict:fw:𐑸-word.word}} is for writing"
+            "{{dict:fw:𐑸.word}} is older, {{dict:fw:𐑽.word}} is newer",
+            "{{dict:fw:𐑽.word}} is for speech, {{dict:fw:𐑸.word}} is for writing"
           ],
           "correctIndex": 0,
-          "explanation": "{{dict:fw:𐑽-word.word}} introduces foreign/coined words. {{dict:fw:𐑸-word.word}} assigns a shorthand to a native phrase. Both close with an alias word."
+          "explanation": "{{dict:fw:𐑽.word}} introduces foreign/coined words. {{dict:fw:𐑸.word}} assigns a shorthand to a native phrase. Both close with an alias word."
         }
       ]
     },
@@ -4612,11 +4612,11 @@
         },
         {
           "id": "g-scale",
-          "title": "Scale operators: {{dict:sv:𐑶-word.word}} and {{dict:sv:𐑬-word.word}}",
-          "body": "The reserved words {{dict:sv:𐑶-word.word}} (up/raise) and {{dict:sv:𐑬-word.word}} (down/lower) double as scale operators. After a word, they scale it up or down by powers of 10 — replacing separate prefixes like kilo-, mega-, milli-, centi-.\n\nThe exponent is a bare digit after {{dict:sv:𐑶-word.word}} or {{dict:sv:𐑬-word.word}}, closed with {{prefix:number-integer-end-base-symbol}}.\n\nThis also works on modifiers to intensify or diminish meaning:",
+          "title": "Scale operators: {{dict:sv:𐑶.word}} and {{dict:sv:𐑬.word}}",
+          "body": "The reserved words {{dict:sv:𐑶.word}} (up/raise) and {{dict:sv:𐑬.word}} (down/lower) double as scale operators. After a word, they scale it up or down by powers of 10 — replacing separate prefixes like kilo-, mega-, milli-, centi-.\n\nThe exponent is a bare digit after {{dict:sv:𐑶.word}} or {{dict:sv:𐑬.word}}, closed with {{prefix:number-integer-end-base-symbol}}.\n\nThis also works on modifiers to intensify or diminish meaning:",
           "examples": [
             {
-              "shavian": "{{dict:i:0279.word}} {{prefix:number-integer-end-base-symbol}}{{dict:i:d6.word}} {{dict:sv:𐑶-word.word}}{{prefix:number-integer-end-base-symbol}}{{dict:i:d2.word}}",
+              "shavian": "{{dict:i:0279.word}} {{prefix:number-integer-end-base-symbol}}{{dict:i:d6.word}} {{dict:sv:𐑶.word}}{{prefix:number-integer-end-base-symbol}}{{dict:i:d2.word}}",
               "gloss": "blue × 10² — very vivid blue",
               "breakdown": [
                 {
@@ -4635,7 +4635,7 @@
                   "meaning": "6 (hue: blue)"
                 },
                 {
-                  "part": "{{dict:sv:𐑶-word.word}}",
+                  "part": "{{dict:sv:𐑶.word}}",
                   "role": "word",
                   "meaning": "scale up"
                 },
@@ -4652,7 +4652,7 @@
               ]
             },
             {
-              "shavian": "{{prefix:modifier-base-symbol}}{{dict:i:0047.word}} {{dict:sv:𐑶-word.word}}{{prefix:number-integer-end-base-symbol}}{{dict:i:d2.word}}",
+              "shavian": "{{prefix:modifier-base-symbol}}{{dict:i:0047.word}} {{dict:sv:𐑶.word}}{{prefix:number-integer-end-base-symbol}}{{dict:i:d2.word}}",
               "gloss": "extremely delightful (× 10²)",
               "breakdown": [
                 {
@@ -4666,7 +4666,7 @@
                   "meaning": "delight/wow"
                 },
                 {
-                  "part": "{{dict:sv:𐑶-word.word}}",
+                  "part": "{{dict:sv:𐑶.word}}",
                   "role": "word",
                   "meaning": "scale up"
                 },
@@ -4683,7 +4683,7 @@
               ]
             },
             {
-              "shavian": "{{prefix:modifier-base-symbol}}{{dict:i:0047.word}} {{dict:sv:𐑬-word.word}}{{prefix:number-integer-end-base-symbol}}{{dict:i:d2.word}}",
+              "shavian": "{{prefix:modifier-base-symbol}}{{dict:i:0047.word}} {{dict:sv:𐑬.word}}{{prefix:number-integer-end-base-symbol}}{{dict:i:d2.word}}",
               "gloss": "a tiny bit delightful (÷ 10²)",
               "breakdown": [
                 {
@@ -4697,7 +4697,7 @@
                   "meaning": "delight/wow"
                 },
                 {
-                  "part": "{{dict:sv:𐑬-word.word}}",
+                  "part": "{{dict:sv:𐑬.word}}",
                   "role": "word",
                   "meaning": "scale down"
                 },
@@ -4776,7 +4776,7 @@
             "Turns a number into a verb"
           ],
           "correctIndex": 1,
-          "explanation": "Scale operators {{dict:sv:𐑶-word.word}} (up, ×10) and {{dict:sv:𐑬-word.word}} (down, ÷10) followed by an exponent digit scale the value by powers of 10."
+          "explanation": "Scale operators {{dict:sv:𐑶.word}} (up, ×10) and {{dict:sv:𐑬.word}} (down, ÷10) followed by an exponent digit scale the value by powers of 10."
         },
         {
           "id": "ln-p3",
@@ -5128,10 +5128,10 @@
         {
           "id": "g-axes",
           "title": "Three axes, six directions",
-          "body": "All directions are relative to the speaker by default. The three axes:\n\nX (left ↔ right): {{dict:i:1438.word}} = right/+X · {{dict:i:1917.word}} = left/−X\nY (forward ↔ back): {{dict:i:0299.word}} = forward · {{dict:i:0186.word}} = backward\nZ (up ↔ down): {{dict:sv:𐑶-word.word}} = up · {{dict:sv:𐑬-word.word}} = down\n\nAll six are regular vocabulary words — take any prefix normally.",
+          "body": "All directions are relative to the speaker by default. The three axes:\n\nX (left ↔ right): {{dict:i:1438.word}} = right/+X · {{dict:i:1917.word}} = left/−X\nY (forward ↔ back): {{dict:i:0299.word}} = forward · {{dict:i:0186.word}} = backward\nZ (up ↔ down): {{dict:sv:𐑶.word}} = up · {{dict:sv:𐑬.word}} = down\n\nAll six are regular vocabulary words — take any prefix normally.",
           "examples": [
             {
-              "shavian": "{{prefix:verb-present-base-symbol}}{{dict:i:0299.word}} {{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰-word.word}}",
+              "shavian": "{{prefix:verb-present-base-symbol}}{{dict:i:0299.word}} {{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰.word}}",
               "gloss": "I go forward",
               "breakdown": [
                 {
@@ -5150,7 +5150,7 @@
                   "meaning": "subject"
                 },
                 {
-                  "part": "{{dict:sv:𐑰-word.word}}",
+                  "part": "{{dict:sv:𐑰.word}}",
                   "role": "root",
                   "meaning": "I"
                 }
@@ -5273,7 +5273,7 @@
               "english": "right"
             },
             {
-              "shavian": "{{dict:sv:𐑶-word.word}}",
+              "shavian": "{{dict:sv:𐑶.word}}",
               "english": "up"
             }
           ]
