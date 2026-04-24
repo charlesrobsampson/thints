@@ -148,7 +148,7 @@
           "body": "Modals express ability, obligation, and conditionality. They use a different sound family — clearly verb-like but unmistakably distinct:\n\n`{{prefix:modal-ability-base-symbol}}` = can / could (ability) — negate with a modifier word\n`{{prefix:modal-obligation-base-symbol}}` = should / must (obligation) — negate with a modifier word\n`{{prefix:modal-conditional-base-symbol}}` = would / conditional\n`{{prefix:modal-conditional-negated-symbol}}` = would not",
           "examples": [
             {
-              "shavian": "{{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰.word}} {{prefix:modal-conditional-base-symbol}}{{dict:i:0109.word}} {{dict:sv:𐑦.word}} {{prefix:noun-subject-base-symbol}}{{dict:sv:𐑱.word}} {{prefix:verb-clause-base-symbol}}{{dict:i:0018.word}}",
+              "shavian": "{{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰.word}} {{prefix:modal-conditional-base-symbol}}{{dict:i:0109.word}} {{dict:sv:𐑦.word}} {{prefix:noun-subject-base-symbol}}{{dict:sv:𐑱.word}} {{prefix:verb-present-base-symbol}}{{dict:i:0018.word}}",
               "gloss": "I would go if it were fine",
               "breakdown": [
                 {
@@ -172,7 +172,7 @@
                   "meaning": "it (clause subject)"
                 },
                 {
-                  "part": "{{prefix:verb-clause-base-symbol}}{{dict:i:0018.word}}",
+                  "part": "{{prefix:verb-progressive-past-ticked-symbol}}{{dict:i:0018.word}}",
                   "role": "prefix",
                   "meaning": "were fine (clause verb)"
                 }
@@ -526,10 +526,10 @@
         {
           "id": "clauses-subordinate",
           "title": "Subordinate clauses",
-          "body": "The clause opener {{dict:i:1933.word}} (that/which) signals a subordinate clause. Inside the clause, verbs use `{{prefix:verb-clause-base-symbol}}` instead of a tense prefix. Noun prefixes stay the same.",
+          "body": "The clause opener {{dict:i:1933.word}} (that/which) signals a subordinate clause. Inside the clause, verbs use the prefix for what makes the most sense in the clause. Noun prefixes stay the same.",
           "examples": [
             {
-              "shavian": "{{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰.word}} {{prefix:verb-present-base-symbol}}{{dict:i:0014.word}} {{dict:i:1933.word}} {{prefix:noun-subject-base-symbol}}{{dict:i:0356.word}} {{prefix:verb-clause-base-symbol}}{{dict:i:0109.word}}",
+              "shavian": "{{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰.word}} {{prefix:verb-present-base-symbol}}{{dict:i:0014.word}} {{dict:i:1933.word}} {{prefix:noun-subject-base-symbol}}{{dict:i:0356.word}} {{prefix:verb-past-base-symbol}}{{dict:i:0109.word}}",
               "gloss": "I know that the dog moved",
               "breakdown": [
                 {
@@ -553,7 +553,7 @@
                   "meaning": "the dog (clause subject)"
                 },
                 {
-                  "part": "{{prefix:verb-clause-base-symbol}}{{dict:i:0109.word}}",
+                  "part": "{{prefix:verb-past-base-symbol}}{{dict:i:0109.word}}",
                   "role": "prefix",
                   "meaning": "moved (clause verb)"
                 }

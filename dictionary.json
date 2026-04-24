@@ -30,7 +30,7 @@
     "suffix": ""
   },
   "i:0002": {
-    "word": "𐑩𐑙",
+    "word": "𐑸𐑐",
     "definition": "General reference to an unspecified individual or entity; the concept of 'someone' or 'something'.",
     "group": "Person, Self & Reference",
     "rank": 3,
@@ -41,8 +41,8 @@
       "a person",
       "anybody"
     ],
-    "vowel": "𐑩",
-    "suffix": "𐑙"
+    "vowel": "𐑸",
+    "suffix": "𐑮𐑐 𐑮𐑚"
   },
   "sv:𐑰": {
     "word": "𐑰",
@@ -101,7 +101,7 @@
     "suffix": ""
   },
   "i:0004": {
-    "word": "𐑦𐑙",
+    "word": "𐑹𐑐",
     "definition": "Anaphora — a pronoun or referential word that substitutes for a noun or noun phrase already mentioned, pointing to a prior entity in the discourse. Covers 'it', 'this', 'that', 'the aforementioned'. Operates at the level of noun replacement. Distinct from 𐑻 which navigates to a named alias or defined concept.",
     "group": "Person, Self & Reference",
     "rank": 8,
@@ -114,8 +114,8 @@
       "said",
       "such"
     ],
-    "vowel": "𐑦",
-    "suffix": "𐑙"
+    "vowel": "𐑹",
+    "suffix": "𐑮𐑐 𐑮𐑚"
   },
   "sv:𐑩": {
     "word": "𐑩",
@@ -222,7 +222,7 @@
     "suffix": ""
   },
   "i:0008": {
-    "word": "𐑩𐑒𐑕",
+    "word": "𐑸𐑑",
     "definition": "The extent, magnitude, or intensity of something; how much.",
     "group": "Quantity & Degree",
     "rank": 16,
@@ -234,8 +234,8 @@
       "level",
       "how much"
     ],
-    "vowel": "𐑩",
-    "suffix": "𐑒𐑕"
+    "vowel": "𐑸",
+    "suffix": "𐑮𐑑 𐑮𐑛"
   },
   "i:0009": {
     "word": "𐑩𐑯𐑕",
@@ -356,7 +356,7 @@
     "suffix": ""
   },
   "i:0015": {
-    "word": "𐑩𐑐𐑕",
+    "word": "𐑸𐑕",
     "definition": "The mental act of wanting, intending, or planning; directed desire toward an outcome.",
     "group": "Desire, Will & Intention",
     "rank": 25,
@@ -368,8 +368,8 @@
       "desire",
       "will"
     ],
-    "vowel": "𐑩",
-    "suffix": "𐑐𐑕"
+    "vowel": "𐑸",
+    "suffix": "𐑮𐑕 𐑮𐑟"
   },
   "i:0016": {
     "word": "𐑧𐑯𐑛",
@@ -544,7 +544,7 @@
     "suffix": "𐑥𐑐"
   },
   "i:0029": {
-    "word": "𐑩𐑙𐑟",
+    "word": "𐑩𐑒𐑕",
     "definition": "The process of developing and applying skills and knowledge.",
     "group": "Learning & Education",
     "rank": 37,
@@ -557,7 +557,7 @@
       "education"
     ],
     "vowel": "𐑩",
-    "suffix": "𐑙𐑟"
+    "suffix": "𐑒𐑕"
   },
   "i:0031": {
     "word": "𐑦𐑒𐑑",
@@ -636,7 +636,7 @@
     "suffix": "𐑯𐑛"
   },
   "i:0036": {
-    "word": "𐑩𐑯𐑕𐑑",
+    "word": "𐑩𐑟",
     "definition": "Completely accurate and true; an exact reflection of reality.",
     "group": "Truth & Certainty",
     "rank": 43,
@@ -792,7 +792,7 @@
     "suffix": "𐑯𐑕"
   },
   "i:0053": {
-    "word": "𐑩𐑯𐑛𐑟",
+    "word": "𐑸𐑥",
     "definition": "The point at which something concludes and ceases.",
     "group": "Beginning & Ending",
     "rank": 53,
@@ -804,8 +804,8 @@
       "terminate",
       "final"
     ],
-    "vowel": "𐑩",
-    "suffix": "𐑯𐑛𐑟"
+    "vowel": "𐑸",
+    "suffix": "𐑮𐑥 𐑮𐑯"
   },
   "i:0054": {
     "word": "𐑧𐑯𐑑",
@@ -931,7 +931,7 @@
     "suffix": "𐑯𐑟"
   },
   "i:0065": {
-    "word": "𐑦𐑒𐑕",
+    "word": "𐑹𐑛",
     "definition": "A vague, imprecise amount; some but not a specified quantity.",
     "group": "Quantity & Degree",
     "rank": 62,
@@ -943,8 +943,8 @@
       "vague amount",
       "roughly"
     ],
-    "vowel": "𐑦",
-    "suffix": "𐑒𐑕"
+    "vowel": "𐑹",
+    "suffix": "𐑮𐑑 𐑮𐑛"
   },
   "i:0067": {
     "word": "𐑦𐑯𐑡",
@@ -993,7 +993,7 @@
     "suffix": "𐑜𐑟"
   },
   "i:0072": {
-    "word": "𐑧𐑒𐑕",
+    "word": "𐑺𐑑",
     "definition": "Applying to each element individually; every single one.",
     "group": "Quantity & Degree",
     "rank": 66,
@@ -1004,8 +1004,8 @@
       "individually",
       "one by one"
     ],
-    "vowel": "𐑧",
-    "suffix": "𐑒𐑕"
+    "vowel": "𐑺",
+    "suffix": "𐑮𐑑 𐑮𐑛"
   },
   "i:0074": {
     "word": "𐑧𐑥𐑟",
@@ -1181,7 +1181,7 @@
     "suffix": "𐑝𐑟"
   },
   "i:0087": {
-    "word": "𐑧𐑙",
+    "word": "𐑺𐑚",
     "definition": "The concept of a named or identifiable entity; a person, thing, or idea that can be pointed to.",
     "group": "Person, Self & Reference",
     "rank": 78,
@@ -1192,8 +1192,8 @@
       "someone",
       "identity"
     ],
-    "vowel": "𐑧",
-    "suffix": "𐑙"
+    "vowel": "𐑺",
+    "suffix": "𐑮𐑐 𐑮𐑚"
   },
   "i:0088": {
     "word": "𐑦𐑣'",
@@ -1244,7 +1244,7 @@
     "suffix": "𐑜𐑟"
   },
   "alias:1": {
-    "word": "𐑩𐑕𐑒𐑑",
+    "word": "𐑩𐑐𐑕",
     "definition": "Alias root 1. A reusable conversational handle assigned by a borrow (𐑽) or phrase-alias (𐑸) span. Closes the open span and simultaneously becomes the word that represents that borrowed or aliased content for the rest of the conversation. Takes any prefix for grammatical role. Can be reassigned.",
     "group": "Alias Roots",
     "rank": 82,
@@ -1253,10 +1253,10 @@
       "A1"
     ],
     "vowel": "𐑩",
-    "suffix": "𐑕𐑒𐑑"
+    "suffix": "𐑐𐑕"
   },
   "alias:2": {
-    "word": "𐑦𐑯𐑡𐑛",
+    "word": "𐑦𐑤",
     "definition": "Alias root 2. A reusable conversational handle assigned by a borrow (𐑽) or phrase-alias (𐑸) span. Closes the open span and simultaneously becomes the word that represents that borrowed or aliased content for the rest of the conversation. Takes any prefix for grammatical role. Can be reassigned.",
     "group": "Alias Roots",
     "rank": 83,
@@ -1265,10 +1265,10 @@
       "A2"
     ],
     "vowel": "𐑦",
-    "suffix": "𐑯𐑡𐑛"
+    "suffix": "𐑤"
   },
   "alias:3": {
-    "word": "𐑧𐑓𐑑𐑕",
+    "word": "𐑧𐑗𐑑",
     "definition": "Alias root 3. A reusable conversational handle assigned by a borrow (𐑽) or phrase-alias (𐑸) span. Closes the open span and simultaneously becomes the word that represents that borrowed or aliased content for the rest of the conversation. Takes any prefix for grammatical role. Can be reassigned.",
     "group": "Alias Roots",
     "rank": 84,
@@ -1277,10 +1277,10 @@
       "A3"
     ],
     "vowel": "𐑧",
-    "suffix": "𐑓𐑑𐑕"
+    "suffix": "𐑗𐑑"
   },
   "alias:4": {
-    "word": "𐑨𐑛𐑔",
+    "word": "𐑨𐑔𐑕",
     "definition": "Alias root 4. A reusable conversational handle assigned by a borrow (𐑽) or phrase-alias (𐑸) span. Closes the open span and simultaneously becomes the word that represents that borrowed or aliased content for the rest of the conversation. Takes any prefix for grammatical role. Can be reassigned.",
     "group": "Alias Roots",
     "rank": 85,
@@ -1289,10 +1289,10 @@
       "A4"
     ],
     "vowel": "𐑨",
-    "suffix": "𐑛𐑔"
+    "suffix": "𐑔𐑕"
   },
   "alias:5": {
-    "word": "𐑱𐑞𐑟",
+    "word": "𐑱𐑤",
     "definition": "Alias root 5. A reusable conversational handle assigned by a borrow (𐑽) or phrase-alias (𐑸) span. Closes the open span and simultaneously becomes the word that represents that borrowed or aliased content for the rest of the conversation. Takes any prefix for grammatical role. Can be reassigned.",
     "group": "Alias Roots",
     "rank": 86,
@@ -1301,7 +1301,7 @@
       "A5"
     ],
     "vowel": "𐑱",
-    "suffix": "𐑞𐑟"
+    "suffix": "𐑤"
   },
   "i:0092": {
     "word": "𐑩𐑓𐑑",
@@ -1336,7 +1336,7 @@
     "suffix": "𐑥𐑐"
   },
   "i:0095": {
-    "word": "𐑨𐑙",
+    "word": "𐑺𐑐",
     "definition": "Specificity; identifying or singling out a particular individual or group.",
     "group": "Person, Self & Reference",
     "rank": 89,
@@ -1347,11 +1347,11 @@
       "designated",
       "the one in question"
     ],
-    "vowel": "𐑨",
-    "suffix": "𐑙"
+    "vowel": "𐑺",
+    "suffix": "𐑮𐑐 𐑮𐑚"
   },
   "i:0096": {
-    "word": "𐑱𐑙",
+    "word": "𐑽𐑚",
     "definition": "Broad, unspecified collection or group; referring to items in general without specifying which.",
     "group": "Person, Self & Reference",
     "rank": 90,
@@ -1362,8 +1362,8 @@
       "a range of",
       "unspecified"
     ],
-    "vowel": "𐑱",
-    "suffix": "𐑙"
+    "vowel": "𐑽",
+    "suffix": "𐑮𐑐 𐑮𐑚"
   },
   "i:0097": {
     "word": "𐑨𐑯𐑕",
@@ -1428,7 +1428,7 @@
     "suffix": "𐑥𐑐"
   },
   "i:0105": {
-    "word": "𐑩𐑒𐑑𐑕",
+    "word": "𐑩𐑠",
     "definition": "The visual perception of something; being seen or noticed.",
     "group": "Perception & Senses",
     "rank": 95,
@@ -1441,7 +1441,7 @@
       "notice"
     ],
     "vowel": "𐑩",
-    "suffix": "𐑒𐑑𐑕"
+    "suffix": "𐑠"
   },
   "i:0104": {
     "word": "𐑨𐑐𐑑",
@@ -1490,7 +1490,7 @@
     "suffix": "𐑯𐑑𐑕"
   },
   "i:0108": {
-    "word": "𐑲𐑙",
+    "word": "𐑽𐑐",
     "definition": "The male gender modifier; indicating masculine biological sex. Applies to any concept to specify the male instance.",
     "group": "Person, Self & Reference",
     "rank": 99,
@@ -1499,8 +1499,8 @@
       "man",
       "masculine"
     ],
-    "vowel": "𐑲",
-    "suffix": "𐑙"
+    "vowel": "𐑽",
+    "suffix": "𐑮𐑐 𐑮𐑚"
   },
   "i:0109": {
     "word": "𐑩𐑖𐑑",
@@ -1519,7 +1519,7 @@
     "suffix": "𐑖𐑑"
   },
   "i:0110": {
-    "word": "𐑩𐑗𐑑",
+    "word": "𐑸𐑒",
     "definition": "A parent; any person who contributes to the creation or raising of offspring.",
     "group": "Family & Kinship",
     "rank": 101,
@@ -1530,8 +1530,8 @@
       "raise",
       "parenting"
     ],
-    "vowel": "𐑩",
-    "suffix": "𐑗𐑑"
+    "vowel": "𐑸",
+    "suffix": "𐑮𐑒 𐑮𐑜"
   },
   "i:0111": {
     "word": "𐑲𐑯𐑟",
@@ -1564,7 +1564,7 @@
     "suffix": "𐑥𐑟"
   },
   "i:0116": {
-    "word": "𐑨𐑒𐑕",
+    "word": "𐑽𐑛",
     "definition": "A relational or proportional connection between terms.",
     "group": "Quantity & Degree",
     "rank": 104,
@@ -1576,11 +1576,11 @@
       "rate",
       "comparative"
     ],
-    "vowel": "𐑨",
-    "suffix": "𐑒𐑕"
+    "vowel": "𐑽",
+    "suffix": "𐑮𐑑 𐑮𐑛"
   },
   "i:0118": {
-    "word": "𐑩𐑒𐑕𐑑",
+    "word": "𐑩𐑡",
     "definition": "Economic activity; the exchange of goods and services and the flow of value.",
     "group": "Commerce & Money",
     "rank": 105,
@@ -1593,10 +1593,10 @@
       "economic"
     ],
     "vowel": "𐑩",
-    "suffix": "𐑒𐑕𐑑"
+    "suffix": "𐑡"
   },
   "i:0119": {
-    "word": "𐑦𐑯𐑛𐑟",
+    "word": "𐑺𐑥",
     "definition": "The state of being first or earliest; the beginning.",
     "group": "Beginning & Ending",
     "rank": 106,
@@ -1608,8 +1608,8 @@
       "earliest",
       "opening"
     ],
-    "vowel": "𐑦",
-    "suffix": "𐑯𐑛𐑟"
+    "vowel": "𐑺",
+    "suffix": "𐑮𐑥 𐑮𐑯"
   },
   "i:0121": {
     "word": "𐑲𐑯𐑕",
@@ -1785,7 +1785,7 @@
     "suffix": "𐑙𐑒"
   },
   "i:0139": {
-    "word": "𐑪𐑙",
+    "word": "𐑸𐑚",
     "definition": "The female gender modifier; indicating feminine biological sex. Applies to any concept to specify the female instance.",
     "group": "Person, Self & Reference",
     "rank": 118,
@@ -1794,11 +1794,11 @@
       "woman",
       "feminine"
     ],
-    "vowel": "𐑪",
-    "suffix": "𐑙"
+    "vowel": "𐑸",
+    "suffix": "𐑮𐑐 𐑮𐑚"
   },
   "i:0140": {
-    "word": "𐑦𐑯𐑕𐑑",
+    "word": "𐑦𐑟",
     "definition": "Exactness and precision; faithfully reflecting reality without ambiguity.",
     "group": "Truth & Certainty",
     "rank": 119,
@@ -1811,10 +1811,10 @@
       "rigorous"
     ],
     "vowel": "𐑦",
-    "suffix": "𐑯𐑕𐑑"
+    "suffix": "𐑟"
   },
   "i:0141": {
-    "word": "𐑦𐑙𐑟",
+    "word": "𐑦𐑒𐑕",
     "definition": "The state of newly discovering or perceiving something.",
     "group": "Learning & Education",
     "rank": 120,
@@ -1827,10 +1827,10 @@
       "encounter"
     ],
     "vowel": "𐑦",
-    "suffix": "𐑙𐑟"
+    "suffix": "𐑒𐑕"
   },
   "i:0142": {
-    "word": "𐑦𐑒𐑑𐑕",
+    "word": "𐑦𐑠",
     "definition": "Becoming aware through external contact or communication.",
     "group": "Perception & Senses",
     "rank": 121,
@@ -1843,10 +1843,10 @@
       "detect"
     ],
     "vowel": "𐑦",
-    "suffix": "𐑒𐑑𐑕"
+    "suffix": "𐑠"
   },
   "i:0144": {
-    "word": "𐑱𐑒𐑕",
+    "word": "𐑸𐑛",
     "definition": "A measured or perceived quantity; relating to number.",
     "group": "Quantity & Degree",
     "rank": 122,
@@ -1858,8 +1858,8 @@
       "figure",
       "numeric"
     ],
-    "vowel": "𐑱",
-    "suffix": "𐑒𐑕"
+    "vowel": "𐑸",
+    "suffix": "𐑮𐑑 𐑮𐑛"
   },
   "i:0145": {
     "word": "𐑩𐑝𐑛",
@@ -1910,7 +1910,7 @@
     "suffix": "𐑯𐑑"
   },
   "i:0150": {
-    "word": "𐑧𐑯𐑕𐑑",
+    "word": "𐑧𐑟",
     "definition": "An objectively verifiable element of reality; a fact.",
     "group": "Truth & Certainty",
     "rank": 126,
@@ -1923,7 +1923,7 @@
       "evidence"
     ],
     "vowel": "𐑧",
-    "suffix": "𐑯𐑕𐑑"
+    "suffix": "𐑟"
   },
   "i:0152": {
     "word": "𐑨𐑒𐑑",
@@ -1989,7 +1989,7 @@
     "suffix": "𐑝𐑟"
   },
   "i:0158": {
-    "word": "𐑧𐑯𐑛𐑟",
+    "word": "𐑹𐑯",
     "definition": "That which comes before in time or order; preceding.",
     "group": "Beginning & Ending",
     "rank": 131,
@@ -2001,8 +2001,8 @@
       "preceding",
       "former"
     ],
-    "vowel": "𐑧",
-    "suffix": "𐑯𐑛𐑟"
+    "vowel": "𐑹",
+    "suffix": "𐑮𐑥 𐑮𐑯"
   },
   "i:0160": {
     "word": "𐑰𐑯𐑛",
@@ -2037,7 +2037,7 @@
     "suffix": "𐑯𐑡"
   },
   "i:0164": {
-    "word": "𐑲𐑒𐑕",
+    "word": "𐑺𐑛",
     "definition": "A complete whole formed by combining all constituent parts.",
     "group": "Quantity & Degree",
     "rank": 134,
@@ -2049,8 +2049,8 @@
       "entire",
       "complete count"
     ],
-    "vowel": "𐑲",
-    "suffix": "𐑒𐑕"
+    "vowel": "𐑺",
+    "suffix": "𐑮𐑑 𐑮𐑛"
   },
   "i:0166": {
     "word": "𐑱𐑑𐑕",
@@ -2117,7 +2117,7 @@
     "suffix": "𐑖𐑑"
   },
   "i:0172": {
-    "word": "𐑩𐑥𐑐𐑑",
+    "word": "𐑩𐑛",
     "definition": "Powerful energy that ignites, illuminates, or destroys; fire.",
     "group": "Nature & Elements",
     "rank": 139,
@@ -2130,10 +2130,10 @@
       "energy"
     ],
     "vowel": "𐑩",
-    "suffix": "𐑥𐑐𐑑"
+    "suffix": "𐑛"
   },
   "i:0173": {
-    "word": "𐑧𐑥𐑐𐑑",
+    "word": "𐑧𐑛",
     "definition": "The earth's fundamental terrestrial substance; the natural ground.",
     "group": "Nature & Elements",
     "rank": 140,
@@ -2146,7 +2146,7 @@
       "terrain"
     ],
     "vowel": "𐑧",
-    "suffix": "𐑥𐑐𐑑"
+    "suffix": "𐑛"
   },
   "i:0175": {
     "word": "𐑨𐑜𐑟",
@@ -2181,7 +2181,7 @@
     "suffix": "𐑚𐑟"
   },
   "i:0177": {
-    "word": "𐑧𐑙𐑟",
+    "word": "𐑧𐑒𐑕",
     "definition": "An educational institution providing structured teaching.",
     "group": "Learning & Education",
     "rank": 143,
@@ -2193,7 +2193,7 @@
       "campus"
     ],
     "vowel": "𐑧",
-    "suffix": "𐑙𐑟"
+    "suffix": "𐑒𐑕"
   },
   "i:0178": {
     "word": "𐑦𐑚𐑟",
@@ -2212,7 +2212,7 @@
     "suffix": "𐑚𐑟"
   },
   "i:0180": {
-    "word": "𐑨𐑯𐑕𐑑",
+    "word": "𐑨𐑟",
     "definition": "Steadfast and reliable; free from doubt or wavering.",
     "group": "Truth & Certainty",
     "rank": 145,
@@ -2225,7 +2225,7 @@
       "definite"
     ],
     "vowel": "𐑨",
-    "suffix": "𐑯𐑕𐑑"
+    "suffix": "𐑟"
   },
   "i:0183": {
     "word": "𐑲𐑛𐑟",
@@ -2305,7 +2305,7 @@
     "suffix": "𐑯𐑕"
   },
   "i:0193": {
-    "word": "𐑦𐑗𐑑",
+    "word": "𐑽𐑜",
     "definition": "The male biological parent; the one who provided the fertilizing gamete.",
     "group": "Family & Kinship",
     "rank": 151,
@@ -2314,11 +2314,11 @@
       "dad",
       "biological father"
     ],
-    "vowel": "𐑦",
-    "suffix": "𐑗𐑑"
+    "vowel": "𐑽",
+    "suffix": "𐑮𐑒 𐑮𐑜"
   },
   "i:0192": {
-    "word": "𐑦𐑒𐑕𐑑",
+    "word": "𐑦𐑡",
     "definition": "Money; a medium of exchange used to store and transfer value.",
     "group": "Commerce & Money",
     "rank": 152,
@@ -2331,10 +2331,10 @@
       "coin"
     ],
     "vowel": "𐑦",
-    "suffix": "𐑒𐑕𐑑"
+    "suffix": "𐑡"
   },
   "i:0191": {
-    "word": "𐑩𐑙𐑒𐑕",
+    "word": "𐑩𐑥",
     "definition": "A solemn promise or vow; a binding declaration of intent or truth.",
     "group": "Belief, Spirit & Meaning",
     "rank": 153,
@@ -2347,7 +2347,7 @@
       "commitment"
     ],
     "vowel": "𐑩",
-    "suffix": "𐑙𐑒𐑕"
+    "suffix": "𐑥"
   },
   "i:0190": {
     "word": "𐑪𐑯𐑑",
@@ -2366,7 +2366,7 @@
     "suffix": "𐑯𐑑"
   },
   "i:0195": {
-    "word": "𐑦𐑐𐑕",
+    "word": "𐑸𐑟",
     "definition": "Careful attention and vigilance; watchful oversight to prevent harm or error.",
     "group": "Desire, Will & Intention",
     "rank": 155,
@@ -2378,11 +2378,11 @@
       "watchfulness",
       "mindfulness"
     ],
-    "vowel": "𐑦",
-    "suffix": "𐑐𐑕"
+    "vowel": "𐑸",
+    "suffix": "𐑮𐑕 𐑮𐑟"
   },
   "i:0199": {
-    "word": "𐑨𐑙𐑟",
+    "word": "𐑨𐑒𐑕",
     "definition": "The deliberate conveyance of knowledge or guidance.",
     "group": "Learning & Education",
     "rank": 156,
@@ -2395,7 +2395,7 @@
       "direct"
     ],
     "vowel": "𐑨",
-    "suffix": "𐑙𐑟"
+    "suffix": "𐑒𐑕"
   },
   "i:0203": {
     "word": "𐑲𐑑𐑕",
@@ -2414,7 +2414,7 @@
     "suffix": "𐑑𐑕"
   },
   "i:0204": {
-    "word": "𐑱𐑙𐑟",
+    "word": "𐑱𐑒𐑕",
     "definition": "An exceptional innate capacity for adapting and thinking effectively.",
     "group": "Learning & Education",
     "rank": 158,
@@ -2427,10 +2427,10 @@
       "apt"
     ],
     "vowel": "𐑱",
-    "suffix": "𐑙𐑟"
+    "suffix": "𐑒𐑕"
   },
   "i:0208": {
-    "word": "𐑱𐑯𐑕𐑑",
+    "word": "𐑱𐑟",
     "definition": "The semantic quality of being literal — meaning exactly what is stated, without figurative, metaphorical, or embellished interpretation. Describes how an expression should be understood. Distinct from the discourse act of quoting someone verbatim.",
     "group": "Truth & Certainty",
     "rank": 159,
@@ -2443,7 +2443,7 @@
       "strict"
     ],
     "vowel": "𐑱",
-    "suffix": "𐑯𐑕𐑑"
+    "suffix": "𐑟"
   },
   "i:0206": {
     "word": "𐑩𐑥𐑛",
@@ -2462,7 +2462,7 @@
     "suffix": "𐑥𐑛"
   },
   "i:0209": {
-    "word": "𐑦𐑙𐑒𐑕",
+    "word": "𐑦𐑥",
     "definition": "The totality of all existence; everything that is.",
     "group": "Belief, Spirit & Meaning",
     "rank": 161,
@@ -2475,7 +2475,7 @@
       "whole"
     ],
     "vowel": "𐑦",
-    "suffix": "𐑙𐑒𐑕"
+    "suffix": "𐑥"
   },
   "i:0211": {
     "word": "𐑪𐑑𐑕",
@@ -2494,7 +2494,7 @@
     "suffix": "𐑑𐑕"
   },
   "i:0215": {
-    "word": "𐑧𐑒𐑕𐑑",
+    "word": "𐑧𐑡",
     "definition": "A transaction; a mutually agreed exchange of goods, services, or value.",
     "group": "Commerce & Money",
     "rank": 163,
@@ -2507,7 +2507,7 @@
       "exchange"
     ],
     "vowel": "𐑧",
-    "suffix": "𐑒𐑕𐑑"
+    "suffix": "𐑡"
   },
   "i:0217": {
     "word": "𐑧𐑯𐑗",
@@ -2526,7 +2526,7 @@
     "suffix": "𐑯𐑗"
   },
   "i:0219": {
-    "word": "𐑨𐑯𐑛𐑟",
+    "word": "𐑽𐑥",
     "definition": "Final and complete; the ultimate resolution.",
     "group": "Beginning & Ending",
     "rank": 165,
@@ -2538,8 +2538,8 @@
       "ultimate",
       "finished"
     ],
-    "vowel": "𐑨",
-    "suffix": "𐑯𐑛𐑟"
+    "vowel": "𐑽",
+    "suffix": "𐑮𐑥 𐑮𐑯"
   },
   "i:0222": {
     "word": "𐑰𐑑𐑕",
@@ -2606,7 +2606,7 @@
     "suffix": "𐑯𐑡"
   },
   "i:0228": {
-    "word": "𐑨𐑒𐑕𐑑",
+    "word": "𐑨𐑡",
     "definition": "Payment for work or services; wages or compensation.",
     "group": "Commerce & Money",
     "rank": 170,
@@ -2619,7 +2619,7 @@
       "compensation"
     ],
     "vowel": "𐑨",
-    "suffix": "𐑒𐑕𐑑"
+    "suffix": "𐑡"
   },
   "i:0229": {
     "word": "𐑲𐑜𐑟",
@@ -2638,7 +2638,7 @@
     "suffix": "𐑜𐑟"
   },
   "i:0231": {
-    "word": "𐑧𐑐𐑕",
+    "word": "𐑹𐑕",
     "definition": "A firm decision or commitment; resolving definitively on a course of action.",
     "group": "Desire, Will & Intention",
     "rank": 172,
@@ -2649,8 +2649,8 @@
       "determination",
       "decision"
     ],
-    "vowel": "𐑧",
-    "suffix": "𐑐𐑕"
+    "vowel": "𐑹",
+    "suffix": "𐑮𐑕 𐑮𐑟"
   },
   "i:0233": {
     "word": "𐑧𐑣'",
@@ -2684,7 +2684,7 @@
     "suffix": "𐑚𐑟"
   },
   "i:0242": {
-    "word": "𐑩𐑥𐑓",
+    "word": "𐑩𐑚",
     "definition": "An uncertain opportunity with possible reward; odds-based risk.",
     "group": "Danger & Protection",
     "rank": 175,
@@ -2697,7 +2697,7 @@
       "wager"
     ],
     "vowel": "𐑩",
-    "suffix": "𐑥𐑓"
+    "suffix": "𐑚"
   },
   "i:0241": {
     "word": "𐑰𐑯𐑑",
@@ -2796,7 +2796,7 @@
     "suffix": "𐑥𐑟"
   },
   "i:0256": {
-    "word": "𐑧𐑗𐑑",
+    "word": "𐑸𐑜",
     "definition": "The bond of kinship; connection through ancestry, birth, marriage, or adoption.",
     "group": "Family & Kinship",
     "rank": 182,
@@ -2807,8 +2807,8 @@
       "relation",
       "ancestry"
     ],
-    "vowel": "𐑧",
-    "suffix": "𐑗𐑑"
+    "vowel": "𐑸",
+    "suffix": "𐑮𐑒 𐑮𐑜"
   },
   "i:0254": {
     "word": "𐑬𐑯𐑟",
@@ -2921,7 +2921,7 @@
     "suffix": "𐑯𐑑"
   },
   "i:0268": {
-    "word": "𐑩𐑥𐑐𐑕",
+    "word": "𐑩𐑔𐑕",
     "definition": "Producing satisfaction or nourishment; fulfilling.",
     "group": "Food & Eating",
     "rank": 190,
@@ -2933,7 +2933,7 @@
       "gratifying"
     ],
     "vowel": "𐑩",
-    "suffix": "𐑥𐑐𐑕"
+    "suffix": "𐑔𐑕"
   },
   "i:0270": {
     "word": "𐑪𐑛𐑟",
@@ -3031,7 +3031,7 @@
     "suffix": "𐑑𐑕"
   },
   "i:0279": {
-    "word": "𐑱𐑒𐑑𐑕",
+    "word": "𐑱𐑠",
     "definition": "Color — hue value on a 0–9 scale mapping to specific positions on the color wheel: 0=Red, 1=Orange, 2=Yellow, 3=Green, 4=Teal, 5=Cyan, 6=Blue, 7=Indigo, 8=Violet, 9=Magenta. Decimals specify blends (e.g. 0.5=Red-Orange, 2.5=Yellow-Green). Optionally followed by lightness (0–4, default 2) and saturation (5–9, default 9). Example: color[6] = blue, color[6·0·9] = navy, color[6·4·6] = baby blue.",
     "group": "Perception & Senses",
     "rank": 197,
@@ -3044,7 +3044,7 @@
       "chroma"
     ],
     "vowel": "𐑱",
-    "suffix": "𐑒𐑑𐑕"
+    "suffix": "𐑠"
   },
   "i:0283": {
     "word": "𐑵𐑯𐑑",
@@ -3094,7 +3094,7 @@
     "suffix": "𐑛𐑟"
   },
   "i:0291": {
-    "word": "𐑪𐑐𐑑𐑕",
+    "word": "𐑪𐑜",
     "definition": "Quantity of matter in an object. Base unit: gram.",
     "group": "Measurement — Physical Dimensions",
     "rank": 201,
@@ -3105,7 +3105,7 @@
       "kilogram"
     ],
     "vowel": "𐑪",
-    "suffix": "𐑐𐑑𐑕"
+    "suffix": "𐑜"
   },
   "i:0295": {
     "word": "𐑴𐑛𐑟",
@@ -3154,7 +3154,7 @@
     "suffix": "𐑥𐑟"
   },
   "i:0302": {
-    "word": "𐑨𐑐𐑕",
+    "word": "𐑹𐑟",
     "definition": "Inner strength and resolve in the face of difficulty; the capacity to persist through hardship.",
     "group": "Desire, Will & Intention",
     "rank": 205,
@@ -3166,8 +3166,8 @@
       "resilience",
       "fortitude"
     ],
-    "vowel": "𐑨",
-    "suffix": "𐑐𐑕"
+    "vowel": "𐑹",
+    "suffix": "𐑮𐑕 𐑮𐑟"
   },
   "i:0303": {
     "word": "𐑨𐑓𐑑",
@@ -3234,7 +3234,7 @@
     "suffix": "𐑑𐑕"
   },
   "i:d1": {
-    "word": "𐑰𐑙",
+    "word": "𐑹𐑚",
     "definition": "The digit one; the numeric value 1. A single unit.",
     "group": "Person, Self & Reference",
     "rank": 210,
@@ -3245,11 +3245,11 @@
       "unit",
       "digit"
     ],
-    "vowel": "𐑰",
-    "suffix": "𐑙"
+    "vowel": "𐑹",
+    "suffix": "𐑮𐑐 𐑮𐑚"
   },
   "i:0309": {
-    "word": "𐑩𐑕𐑒𐑕",
+    "word": "𐑩𐑓",
     "definition": "Prohibited; contrary to established rules or standards.",
     "group": "Law & Justice",
     "rank": 211,
@@ -3262,7 +3262,7 @@
       "foul"
     ],
     "vowel": "𐑩",
-    "suffix": "𐑕𐑒𐑕"
+    "suffix": "𐑓"
   },
   "i:0311": {
     "word": "𐑧𐑯𐑔",
@@ -3308,7 +3308,7 @@
     "suffix": "𐑜𐑟"
   },
   "i:0315": {
-    "word": "𐑲𐑙𐑟",
+    "word": "𐑲𐑒𐑕",
     "definition": "Ongoing supportive influence encouraging growth and development.",
     "group": "Learning & Education",
     "rank": 215,
@@ -3321,7 +3321,7 @@
       "cultivate"
     ],
     "vowel": "𐑲",
-    "suffix": "𐑙𐑟"
+    "suffix": "𐑒𐑕"
   },
   "i:0317": {
     "word": "𐑧𐑖𐑑",
@@ -3399,7 +3399,7 @@
     "suffix": "𐑣'"
   },
   "i:0326": {
-    "word": "𐑱𐑥𐑐𐑑",
+    "word": "𐑱𐑛",
     "definition": "The quality of floating or fluid movement above or through a medium.",
     "group": "Nature & Elements",
     "rank": 221,
@@ -3412,7 +3412,7 @@
       "buoyant"
     ],
     "vowel": "𐑱",
-    "suffix": "𐑥𐑐𐑑"
+    "suffix": "𐑛"
   },
   "i:0334": {
     "word": "𐑪𐑯𐑡",
@@ -3478,7 +3478,7 @@
     "suffix": "𐑝𐑛"
   },
   "i:0332": {
-    "word": "𐑦𐑥𐑐𐑕",
+    "word": "𐑦𐑔𐑕",
     "definition": "A social gathering centered on shared eating.",
     "group": "Food & Eating",
     "rank": 226,
@@ -3491,7 +3491,7 @@
       "eat together"
     ],
     "vowel": "𐑦",
-    "suffix": "𐑥𐑐𐑕"
+    "suffix": "𐑔𐑕"
   },
   "i:0339": {
     "word": "𐑨𐑝𐑟",
@@ -3509,7 +3509,7 @@
     "suffix": "𐑝𐑟"
   },
   "i:0347": {
-    "word": "𐑱𐑒𐑕𐑑",
+    "word": "𐑱𐑡",
     "definition": "Relating to commercial or industrial activity.",
     "group": "Commerce & Money",
     "rank": 228,
@@ -3521,10 +3521,10 @@
       "enterprise"
     ],
     "vowel": "𐑱",
-    "suffix": "𐑒𐑕𐑑"
+    "suffix": "𐑡"
   },
   "i:0343": {
-    "word": "𐑲𐑯𐑕𐑑",
+    "word": "𐑲𐑟",
     "definition": "Clearly evident and precisely defined; leaving no doubt.",
     "group": "Truth & Certainty",
     "rank": 229,
@@ -3537,7 +3537,7 @@
       "definite"
     ],
     "vowel": "𐑲",
-    "suffix": "𐑯𐑕𐑑"
+    "suffix": "𐑟"
   },
   "i:0338": {
     "word": "𐑱𐑯𐑔",
@@ -3662,7 +3662,7 @@
     "suffix": "𐑯𐑡"
   },
   "i:0358": {
-    "word": "𐑦𐑕𐑒𐑕",
+    "word": "𐑦𐑓",
     "definition": "Fairness, entitlement, and adherence to accepted principles; what is just and right.",
     "group": "Law & Justice",
     "rank": 238,
@@ -3675,10 +3675,10 @@
       "fairness"
     ],
     "vowel": "𐑦",
-    "suffix": "𐑕𐑒𐑕"
+    "suffix": "𐑓"
   },
   "i:0362": {
-    "word": "𐑪𐑙𐑟",
+    "word": "𐑪𐑒𐑕",
     "definition": "A person who teaches in an academic setting.",
     "group": "Learning & Education",
     "rank": 239,
@@ -3690,7 +3690,7 @@
       "lecturer"
     ],
     "vowel": "𐑪",
-    "suffix": "𐑙𐑟"
+    "suffix": "𐑒𐑕"
   },
   "i:0363": {
     "word": "𐑲𐑟𐑛",
@@ -3725,7 +3725,7 @@
     "suffix": "𐑯𐑕"
   },
   "i:0368": {
-    "word": "𐑨𐑗𐑑",
+    "word": "𐑹𐑒",
     "definition": "A young or immature person; a child or youth who is a descendant.",
     "group": "Family & Kinship",
     "rank": 242,
@@ -3737,8 +3737,8 @@
       "offspring",
       "juvenile"
     ],
-    "vowel": "𐑨",
-    "suffix": "𐑗𐑑"
+    "vowel": "𐑹",
+    "suffix": "𐑮𐑒 𐑮𐑜"
   },
   "i:0371": {
     "word": "𐑨𐑖𐑑",
@@ -3931,7 +3931,7 @@
     "suffix": "𐑓𐑑"
   },
   "i:0394": {
-    "word": "𐑲𐑥𐑐𐑑",
+    "word": "𐑲𐑛",
     "definition": "Cold, bleak, and dry; harsh and lacking warmth.",
     "group": "Nature & Elements",
     "rank": 255,
@@ -3944,7 +3944,7 @@
       "icy"
     ],
     "vowel": "𐑲",
-    "suffix": "𐑥𐑐𐑑"
+    "suffix": "𐑛"
   },
   "i:0399": {
     "word": "𐑨𐑥𐑛",
@@ -3963,7 +3963,7 @@
     "suffix": "𐑥𐑛"
   },
   "i:0396": {
-    "word": "𐑧𐑥𐑐𐑕",
+    "word": "𐑧𐑔𐑕",
     "definition": "A small portion of food; a snack or appetizer.",
     "group": "Food & Eating",
     "rank": 257,
@@ -3975,7 +3975,7 @@
       "tidbit"
     ],
     "vowel": "𐑧",
-    "suffix": "𐑥𐑐𐑕"
+    "suffix": "𐑔𐑕"
   },
   "i:0389": {
     "word": "𐑵𐑯𐑕",
@@ -4010,7 +4010,7 @@
     "suffix": "𐑯𐑕"
   },
   "i:0409": {
-    "word": "𐑦𐑥𐑓",
+    "word": "𐑦𐑚",
     "definition": "A protective barrier or assurance against harm or uncertainty.",
     "group": "Danger & Protection",
     "rank": 260,
@@ -4023,7 +4023,7 @@
       "shield"
     ],
     "vowel": "𐑦",
-    "suffix": "𐑥𐑓"
+    "suffix": "𐑚"
   },
   "i:0405": {
     "word": "𐑲𐑚𐑟",
@@ -4042,7 +4042,7 @@
     "suffix": "𐑚𐑟"
   },
   "i:0410": {
-    "word": "𐑨𐑥𐑐𐑕",
+    "word": "𐑨𐑔𐑕",
     "definition": "Cultivated plant matter for consumption; produce.",
     "group": "Food & Eating",
     "rank": 262,
@@ -4055,10 +4055,10 @@
       "food"
     ],
     "vowel": "𐑨",
-    "suffix": "𐑥𐑐𐑕"
+    "suffix": "𐑔𐑕"
   },
   "i:0424": {
-    "word": "𐑲𐑒𐑕𐑑",
+    "word": "𐑲𐑡",
     "definition": "The availability of goods or services for purchase; the marketplace.",
     "group": "Commerce & Money",
     "rank": 263,
@@ -4071,7 +4071,7 @@
       "retail"
     ],
     "vowel": "𐑲",
-    "suffix": "𐑒𐑕𐑑"
+    "suffix": "𐑡"
   },
   "i:0418": {
     "word": "𐑰𐑙𐑒",
@@ -4090,7 +4090,7 @@
     "suffix": "𐑙𐑒"
   },
   "i:0413": {
-    "word": "𐑱𐑯𐑛𐑟",
+    "word": "𐑺𐑯",
     "definition": "The moment or point of creation or origin.",
     "group": "Beginning & Ending",
     "rank": 265,
@@ -4102,8 +4102,8 @@
       "founding",
       "start point"
     ],
-    "vowel": "𐑱",
-    "suffix": "𐑯𐑛𐑟"
+    "vowel": "𐑺",
+    "suffix": "𐑮𐑥 𐑮𐑯"
   },
   "i:0426": {
     "word": "𐑱𐑥𐑛",
@@ -4121,7 +4121,7 @@
     "suffix": "𐑥𐑛"
   },
   "i:0432": {
-    "word": "𐑪𐑯𐑕𐑑",
+    "word": "𐑪𐑟",
     "definition": "A false statement; deception or lying.",
     "group": "Truth & Certainty",
     "rank": 267,
@@ -4134,7 +4134,7 @@
       "dishonest"
     ],
     "vowel": "𐑪",
-    "suffix": "𐑯𐑕𐑑"
+    "suffix": "𐑟"
   },
   "i:0430": {
     "word": "𐑰𐑝𐑛",
@@ -4153,7 +4153,7 @@
     "suffix": "𐑝𐑛"
   },
   "i:0431": {
-    "word": "𐑰𐑙𐑟",
+    "word": "𐑰𐑒𐑕",
     "definition": "Persistent inquiry aimed at uncovering truth through examination.",
     "group": "Learning & Education",
     "rank": 269,
@@ -4166,10 +4166,10 @@
       "examine"
     ],
     "vowel": "𐑰",
-    "suffix": "𐑙𐑟"
+    "suffix": "𐑒𐑕"
   },
   "i:0440": {
-    "word": "𐑲𐑯𐑛𐑟",
+    "word": "𐑽𐑯",
     "definition": "An unspecified single point in time; once.",
     "group": "Beginning & Ending",
     "rank": 270,
@@ -4180,8 +4180,8 @@
       "one time",
       "a moment"
     ],
-    "vowel": "𐑲",
-    "suffix": "𐑯𐑛𐑟"
+    "vowel": "𐑽",
+    "suffix": "𐑮𐑥 𐑮𐑯"
   },
   "i:0442": {
     "word": "𐑲𐑥𐑛",
@@ -4230,7 +4230,7 @@
     "suffix": "𐑓𐑑"
   },
   "i:0447": {
-    "word": "𐑧𐑥𐑓",
+    "word": "𐑧𐑚",
     "definition": "Providing safety or protection through containment or locking.",
     "group": "Danger & Protection",
     "rank": 274,
@@ -4243,7 +4243,7 @@
       "guard"
     ],
     "vowel": "𐑧",
-    "suffix": "𐑥𐑓"
+    "suffix": "𐑚"
   },
   "i:0449": {
     "word": "𐑴𐑝𐑛",
@@ -4262,7 +4262,7 @@
     "suffix": "𐑝𐑛"
   },
   "i:0452": {
-    "word": "𐑰𐑐𐑑𐑕",
+    "word": "𐑰𐑜",
     "definition": "Force applied per unit area. Base unit: pascal.",
     "group": "Measurement — Physical Dimensions",
     "rank": 276,
@@ -4272,7 +4272,7 @@
       "pascal"
     ],
     "vowel": "𐑰",
-    "suffix": "𐑐𐑑𐑕"
+    "suffix": "𐑜"
   },
   "i:0463": {
     "word": "𐑲𐑝𐑟",
@@ -4353,7 +4353,7 @@
     "suffix": "𐑟𐑛"
   },
   "i:0458": {
-    "word": "𐑧𐑔𐑕",
+    "word": "𐑧𐑙",
     "definition": "The muscular organ pumping blood through the body.",
     "group": "Body — Internal, Organs & Reproduction",
     "rank": 282,
@@ -4364,10 +4364,10 @@
       "core"
     ],
     "vowel": "𐑧",
-    "suffix": "𐑔𐑕"
+    "suffix": "𐑙"
   },
   "i:0480": {
-    "word": "𐑱𐑐𐑕",
+    "word": "𐑽𐑟",
     "definition": "Steadfast loyalty or faithfulness; unwavering allegiance and dedication to a person, cause, or principle.",
     "group": "Desire, Will & Intention",
     "rank": 283,
@@ -4379,8 +4379,8 @@
       "steadfast",
       "committed"
     ],
-    "vowel": "𐑱",
-    "suffix": "𐑐𐑕"
+    "vowel": "𐑽",
+    "suffix": "𐑮𐑕 𐑮𐑟"
   },
   "i:0466": {
     "word": "𐑷𐑛𐑟",
@@ -4399,7 +4399,7 @@
     "suffix": "𐑛𐑟"
   },
   "i:0483": {
-    "word": "𐑧𐑕𐑒𐑕",
+    "word": "𐑧𐑓",
     "definition": "A period of legally mandated confinement; imprisonment.",
     "group": "Law & Justice",
     "rank": 285,
@@ -4412,7 +4412,7 @@
       "custody"
     ],
     "vowel": "𐑧",
-    "suffix": "𐑕𐑒𐑕"
+    "suffix": "𐑓"
   },
   "i:0473": {
     "word": "𐑷𐑑𐑕",
@@ -4431,7 +4431,7 @@
     "suffix": "𐑑𐑕"
   },
   "i:0472": {
-    "word": "𐑷𐑜𐑛",
+    "word": "𐑷𐑯",
     "definition": "The terminal part of the arm used for grasping and manipulation.",
     "group": "Body — Basic Parts",
     "rank": 287,
@@ -4441,10 +4441,10 @@
       "grasp"
     ],
     "vowel": "𐑷",
-    "suffix": "𐑜𐑛"
+    "suffix": "𐑯"
   },
   "i:0471": {
-    "word": "𐑱𐑥𐑐𐑕",
+    "word": "𐑱𐑔𐑕",
     "definition": "The primary daily eating occasion; a main meal.",
     "group": "Food & Eating",
     "rank": 288,
@@ -4457,10 +4457,10 @@
       "dine"
     ],
     "vowel": "𐑱",
-    "suffix": "𐑥𐑐𐑕"
+    "suffix": "𐑔𐑕"
   },
   "i:0493": {
-    "word": "𐑧𐑙𐑒𐑕",
+    "word": "𐑧𐑥",
     "definition": "Profound devotion and reverence; deeply pious and morally earnest.",
     "group": "Belief, Spirit & Meaning",
     "rank": 289,
@@ -4473,10 +4473,10 @@
       "zealous"
     ],
     "vowel": "𐑧",
-    "suffix": "𐑙𐑒𐑕"
+    "suffix": "𐑥"
   },
   "i:0489": {
-    "word": "𐑨𐑥𐑓",
+    "word": "𐑨𐑚",
     "definition": "A blockage preventing movement, flow, or access.",
     "group": "Danger & Protection",
     "rank": 290,
@@ -4489,10 +4489,10 @@
       "clog"
     ],
     "vowel": "𐑨",
-    "suffix": "𐑥𐑓"
+    "suffix": "𐑚"
   },
   "i:0494": {
-    "word": "𐑱𐑥𐑓",
+    "word": "𐑱𐑚",
     "definition": "Evading responsibility or compliance through cleverness.",
     "group": "Danger & Protection",
     "rank": 291,
@@ -4505,10 +4505,10 @@
       "cheat"
     ],
     "vowel": "𐑱",
-    "suffix": "𐑥𐑓"
+    "suffix": "𐑚"
   },
   "i:0495": {
-    "word": "𐑪𐑥𐑐𐑑",
+    "word": "𐑪𐑛",
     "definition": "The atmospheric conditions at a specific time and place; weather.",
     "group": "Nature & Elements",
     "rank": 292,
@@ -4520,10 +4520,10 @@
       "forecast"
     ],
     "vowel": "𐑪",
-    "suffix": "𐑥𐑐𐑑"
+    "suffix": "𐑛"
   },
   "i:0491": {
-    "word": "𐑬𐑜𐑛",
+    "word": "𐑬𐑯",
     "definition": "Filamentous growth on mammalian skin; hair.",
     "group": "Body — Basic Parts",
     "rank": 293,
@@ -4534,7 +4534,7 @@
       "filament"
     ],
     "vowel": "𐑬",
-    "suffix": "𐑜𐑛"
+    "suffix": "𐑯"
   },
   "i:d2": {
     "word": "𐑫𐑯𐑡",
@@ -4553,7 +4553,7 @@
     "suffix": "𐑯𐑡"
   },
   "i:0492": {
-    "word": "𐑲𐑥𐑐𐑕",
+    "word": "𐑲𐑔𐑕",
     "definition": "A bodily yearning for food; hunger.",
     "group": "Food & Eating",
     "rank": 295,
@@ -4565,7 +4565,7 @@
       "famished"
     ],
     "vowel": "𐑲",
-    "suffix": "𐑥𐑐𐑕"
+    "suffix": "𐑔𐑕"
   },
   "i:0507": {
     "word": "𐑰𐑒𐑑",
@@ -4584,7 +4584,7 @@
     "suffix": "𐑒𐑑"
   },
   "i:0510": {
-    "word": "𐑪𐑥𐑐𐑕",
+    "word": "𐑪𐑔𐑕",
     "definition": "Acquiring and supplying everyday food and household items.",
     "group": "Food & Eating",
     "rank": 297,
@@ -4596,7 +4596,7 @@
       "household"
     ],
     "vowel": "𐑪",
-    "suffix": "𐑥𐑐𐑕"
+    "suffix": "𐑔𐑕"
   },
   "i:0499": {
     "word": "𐑰𐑐𐑑",
@@ -4613,7 +4613,7 @@
     "suffix": "𐑐𐑑"
   },
   "i:0522": {
-    "word": "𐑲𐑐𐑕",
+    "word": "𐑺𐑕",
     "definition": "An intense longing or craving; strong desire for something not yet had.",
     "group": "Desire, Will & Intention",
     "rank": 299,
@@ -4625,8 +4625,8 @@
       "hunger",
       "urge"
     ],
-    "vowel": "𐑲",
-    "suffix": "𐑐𐑕"
+    "vowel": "𐑺",
+    "suffix": "𐑮𐑕 𐑮𐑟"
   },
   "i:0517": {
     "word": "𐑵𐑯𐑡",
@@ -4660,7 +4660,7 @@
     "suffix": "𐑯𐑑"
   },
   "i:0521": {
-    "word": "𐑰𐑥𐑐𐑑",
+    "word": "𐑰𐑛",
     "definition": "The state of lacking moisture; dry.",
     "group": "Nature & Elements",
     "rank": 302,
@@ -4672,7 +4672,7 @@
       "desiccated"
     ],
     "vowel": "𐑰",
-    "suffix": "𐑥𐑐𐑑"
+    "suffix": "𐑛"
   },
   "i:0516": {
     "word": "𐑰𐑯𐑑𐑕",
@@ -4691,7 +4691,7 @@
     "suffix": "𐑯𐑑𐑕"
   },
   "i:0515": {
-    "word": "𐑴𐑙𐑟",
+    "word": "𐑴𐑒𐑕",
     "definition": "A person formally enrolled in an educational institution.",
     "group": "Learning & Education",
     "rank": 304,
@@ -4703,10 +4703,10 @@
       "scholar"
     ],
     "vowel": "𐑴",
-    "suffix": "𐑙𐑟"
+    "suffix": "𐑒𐑕"
   },
   "i:0524": {
-    "word": "𐑲𐑒𐑑𐑕",
+    "word": "𐑲𐑠",
     "definition": "Conveying facts or details to another; informing.",
     "group": "Perception & Senses",
     "rank": 305,
@@ -4719,10 +4719,10 @@
       "communicate"
     ],
     "vowel": "𐑲",
-    "suffix": "𐑒𐑑𐑕"
+    "suffix": "𐑠"
   },
   "i:0532": {
-    "word": "𐑪𐑒𐑕𐑑",
+    "word": "𐑪𐑡",
     "definition": "An entity that offers goods or services; a business or customer.",
     "group": "Commerce & Money",
     "rank": 306,
@@ -4735,10 +4735,10 @@
       "shop"
     ],
     "vowel": "𐑪",
-    "suffix": "𐑒𐑕𐑑"
+    "suffix": "𐑡"
   },
   "i:0525": {
-    "word": "𐑲𐑥𐑓",
+    "word": "𐑲𐑚",
     "definition": "A sudden, intense disturbance or shock; an overwhelming disruption.",
     "group": "Danger & Protection",
     "rank": 307,
@@ -4751,7 +4751,7 @@
       "tumult"
     ],
     "vowel": "𐑲",
-    "suffix": "𐑥𐑓"
+    "suffix": "𐑚"
   },
   "i:0527": {
     "word": "𐑪𐑣'",
@@ -4785,7 +4785,7 @@
     "suffix": "𐑡𐑛"
   },
   "i:0536": {
-    "word": "𐑫𐑜𐑛",
+    "word": "𐑫𐑯",
     "definition": "The upper limb from shoulder to wrist.",
     "group": "Body — Basic Parts",
     "rank": 310,
@@ -4796,7 +4796,7 @@
       "upper limb"
     ],
     "vowel": "𐑫",
-    "suffix": "𐑜𐑛"
+    "suffix": "𐑯"
   },
   "i:0544": {
     "word": "𐑪𐑥𐑛",
@@ -4875,7 +4875,7 @@
     "suffix": "𐑯𐑡"
   },
   "i:0549": {
-    "word": "𐑰𐑥𐑐𐑕",
+    "word": "𐑰𐑔𐑕",
     "definition": "A substance absorbed by the body; food, drink, or drug.",
     "group": "Food & Eating",
     "rank": 316,
@@ -4888,10 +4888,10 @@
       "intake"
     ],
     "vowel": "𐑰",
-    "suffix": "𐑥𐑐𐑕"
+    "suffix": "𐑔𐑕"
   },
   "i:0550": {
-    "word": "𐑴𐑥𐑐𐑕",
+    "word": "𐑴𐑔𐑕",
     "definition": "A liquid intended for drinking.",
     "group": "Food & Eating",
     "rank": 317,
@@ -4903,10 +4903,10 @@
       "potion"
     ],
     "vowel": "𐑴",
-    "suffix": "𐑥𐑐𐑕"
+    "suffix": "𐑔𐑕"
   },
   "i:0572": {
-    "word": "𐑱𐑗𐑑",
+    "word": "𐑹𐑜",
     "definition": "A sibling or person of shared lineage; a non-hierarchical family relationship.",
     "group": "Family & Kinship",
     "rank": 318,
@@ -4917,11 +4917,11 @@
       "related",
       "kinship"
     ],
-    "vowel": "𐑱",
-    "suffix": "𐑗𐑑"
+    "vowel": "𐑹",
+    "suffix": "𐑮𐑒 𐑮𐑜"
   },
   "i:0585": {
-    "word": "𐑰𐑒𐑕𐑑",
+    "word": "𐑰𐑡",
     "definition": "The net positive result after all costs; profit or surplus.",
     "group": "Commerce & Money",
     "rank": 319,
@@ -4934,10 +4934,10 @@
       "return"
     ],
     "vowel": "𐑰",
-    "suffix": "𐑒𐑕𐑑"
+    "suffix": "𐑡"
   },
   "i:0573": {
-    "word": "𐑨𐑙𐑒𐑕",
+    "word": "𐑨𐑥",
     "definition": "The supreme moral or divine principle; ultimate good opposing evil.",
     "group": "Belief, Spirit & Meaning",
     "rank": 320,
@@ -4950,7 +4950,7 @@
       "god"
     ],
     "vowel": "𐑨",
-    "suffix": "𐑙𐑒𐑕"
+    "suffix": "𐑥"
   },
   "i:0575": {
     "word": "𐑵𐑜𐑟",
@@ -4997,7 +4997,7 @@
     "suffix": "𐑯𐑗"
   },
   "i:0587": {
-    "word": "𐑴𐑥𐑐𐑑",
+    "word": "𐑴𐑛",
     "definition": "Relating to the sun; solar.",
     "group": "Nature & Elements",
     "rank": 324,
@@ -5009,7 +5009,7 @@
       "star"
     ],
     "vowel": "𐑴",
-    "suffix": "𐑥𐑐𐑑"
+    "suffix": "𐑛"
   },
   "i:0590": {
     "word": "𐑴𐑯𐑑𐑕",
@@ -5028,7 +5028,7 @@
     "suffix": "𐑯𐑑𐑕"
   },
   "i:0583": {
-    "word": "𐑵𐑥𐑐𐑕",
+    "word": "𐑵𐑔𐑕",
     "definition": "A naturally occurring fluid essential for life; water.",
     "group": "Food & Eating",
     "rank": 326,
@@ -5040,10 +5040,10 @@
       "hydrate"
     ],
     "vowel": "𐑵",
-    "suffix": "𐑥𐑐𐑕"
+    "suffix": "𐑔𐑕"
   },
   "i:0602": {
-    "word": "𐑪𐑒𐑑𐑕",
+    "word": "𐑪𐑠",
     "definition": "An audible vibration conveying linguistic or tonal content; sound or voice.",
     "group": "Perception & Senses",
     "rank": 327,
@@ -5056,7 +5056,7 @@
       "hear"
     ],
     "vowel": "𐑪",
-    "suffix": "𐑒𐑑𐑕"
+    "suffix": "𐑠"
   },
   "i:0593": {
     "word": "𐑴𐑐𐑑",
@@ -5075,7 +5075,7 @@
     "suffix": "𐑐𐑑"
   },
   "i:0609": {
-    "word": "𐑲𐑗𐑑",
+    "word": "𐑺𐑒",
     "definition": "A spouse; one who shares a recognized partnership or marital union.",
     "group": "Family & Kinship",
     "rank": 329,
@@ -5086,11 +5086,11 @@
       "wife",
       "married"
     ],
-    "vowel": "𐑲",
-    "suffix": "𐑗𐑑"
+    "vowel": "𐑺",
+    "suffix": "𐑮𐑒 𐑮𐑜"
   },
   "i:0619": {
-    "word": "𐑨𐑕𐑒𐑕",
+    "word": "𐑨𐑓",
     "definition": "Accountability for one's actions; moral and legal responsibility.",
     "group": "Law & Justice",
     "rank": 330,
@@ -5103,10 +5103,10 @@
       "obligation"
     ],
     "vowel": "𐑨",
-    "suffix": "𐑕𐑒𐑕"
+    "suffix": "𐑓"
   },
   "i:0625": {
-    "word": "𐑱𐑕𐑒𐑕",
+    "word": "𐑱𐑓",
     "definition": "The formal process of adjudicating disputes and determining rights.",
     "group": "Law & Justice",
     "rank": 331,
@@ -5119,7 +5119,7 @@
       "judicial"
     ],
     "vowel": "𐑱",
-    "suffix": "𐑕𐑒𐑕"
+    "suffix": "𐑓"
   },
   "i:0621": {
     "word": "𐑴𐑙𐑒",
@@ -5153,7 +5153,7 @@
     "suffix": "𐑣'"
   },
   "i:0626": {
-    "word": "𐑵𐑥𐑐𐑑",
+    "word": "𐑵𐑛",
     "definition": "A gaseous chemical substance; relating to gas.",
     "group": "Nature & Elements",
     "rank": 334,
@@ -5165,10 +5165,10 @@
       "air"
     ],
     "vowel": "𐑵",
-    "suffix": "𐑥𐑐𐑑"
+    "suffix": "𐑛"
   },
   "i:0604": {
-    "word": "𐑰𐑒𐑑𐑕",
+    "word": "𐑰𐑠",
     "definition": "The faculty of perceiving and distinguishing differences; discrimination.",
     "group": "Perception & Senses",
     "rank": 335,
@@ -5181,10 +5181,10 @@
       "detect"
     ],
     "vowel": "𐑰",
-    "suffix": "𐑒𐑑𐑕"
+    "suffix": "𐑠"
   },
   "i:0614": {
-    "word": "𐑴𐑒𐑑𐑕",
+    "word": "𐑴𐑠",
     "definition": "The sense of smell; perception of airborne chemical stimuli.",
     "group": "Perception & Senses",
     "rank": 336,
@@ -5197,7 +5197,7 @@
       "nose"
     ],
     "vowel": "𐑴",
-    "suffix": "𐑒𐑑𐑕"
+    "suffix": "𐑠"
   },
   "i:0606": {
     "word": "𐑴𐑯𐑛",
@@ -5216,7 +5216,7 @@
     "suffix": "𐑯𐑛"
   },
   "i:0655": {
-    "word": "𐑪𐑐𐑕",
+    "word": "𐑺𐑟",
     "definition": "A desired outcome or completed work; the target of intention or creative effort.",
     "group": "Desire, Will & Intention",
     "rank": 338,
@@ -5228,8 +5228,8 @@
       "result",
       "achievement"
     ],
-    "vowel": "𐑪",
-    "suffix": "𐑐𐑕"
+    "vowel": "𐑺",
+    "suffix": "𐑮𐑕 𐑮𐑟"
   },
   "i:0635": {
     "word": "𐑴𐑝𐑟",
@@ -5248,7 +5248,7 @@
     "suffix": "𐑝𐑟"
   },
   "i:0631": {
-    "word": "𐑪𐑥𐑓",
+    "word": "𐑪𐑚",
     "definition": "Vigilant and watchful; alert and ready to respond.",
     "group": "Danger & Protection",
     "rank": 340,
@@ -5261,10 +5261,10 @@
       "attentive"
     ],
     "vowel": "𐑪",
-    "suffix": "𐑥𐑓"
+    "suffix": "𐑚"
   },
   "i:0637": {
-    "word": "𐑰𐑥𐑓",
+    "word": "𐑰𐑚",
     "definition": "Vulnerable; open to being taken or captured.",
     "group": "Danger & Protection",
     "rank": 341,
@@ -5277,7 +5277,7 @@
       "at risk"
     ],
     "vowel": "𐑰",
-    "suffix": "𐑥𐑓"
+    "suffix": "𐑚"
   },
   "i:0630": {
     "word": "𐑪𐑚𐑟",
@@ -5360,7 +5360,7 @@
     "suffix": "𐑥𐑛"
   },
   "i:0703": {
-    "word": "𐑰𐑐𐑕",
+    "word": "𐑽𐑕",
     "definition": "An expression of goodwill and hope for another's flourishing.",
     "group": "Desire, Will & Intention",
     "rank": 347,
@@ -5371,11 +5371,11 @@
       "goodwill",
       "blessing"
     ],
-    "vowel": "𐑰",
-    "suffix": "𐑐𐑕"
+    "vowel": "𐑽",
+    "suffix": "𐑮𐑕 𐑮𐑟"
   },
   "i:0704": {
-    "word": "𐑪𐑗𐑑",
+    "word": "𐑺𐑜",
     "definition": "A generational link in a family; the continuity between one generation and the next.",
     "group": "Family & Kinship",
     "rank": 348,
@@ -5386,8 +5386,8 @@
       "ancestry",
       "legacy"
     ],
-    "vowel": "𐑪",
-    "suffix": "𐑗𐑑"
+    "vowel": "𐑺",
+    "suffix": "𐑮𐑒 𐑮𐑜"
   },
   "i:0692": {
     "word": "𐑲𐑓𐑕",
@@ -5405,7 +5405,7 @@
     "suffix": "𐑓𐑕"
   },
   "i:0696": {
-    "word": "𐑲𐑕𐑒𐑕",
+    "word": "𐑲𐑓",
     "definition": "Having committed wrongdoing; the state of being culpable.",
     "group": "Law & Justice",
     "rank": 350,
@@ -5417,10 +5417,10 @@
       "convicted"
     ],
     "vowel": "𐑲",
-    "suffix": "𐑕𐑒𐑕"
+    "suffix": "𐑓"
   },
   "i:0694": {
-    "word": "𐑱𐑙𐑒𐑕",
+    "word": "𐑱𐑥",
     "definition": "A fundamental moral principle; the ultimate standard of right conduct.",
     "group": "Belief, Spirit & Meaning",
     "rank": 351,
@@ -5432,7 +5432,7 @@
       "righteousness"
     ],
     "vowel": "𐑱",
-    "suffix": "𐑙𐑒𐑕"
+    "suffix": "𐑥"
   },
   "i:0693": {
     "word": "𐑲𐑖𐑑",
@@ -5451,7 +5451,7 @@
     "suffix": "𐑖𐑑"
   },
   "i:0691": {
-    "word": "𐑴𐑥𐑓",
+    "word": "𐑴𐑚",
     "definition": "Intense alarm or apprehension arising from threat.",
     "group": "Danger & Protection",
     "rank": 353,
@@ -5464,10 +5464,10 @@
       "dread"
     ],
     "vowel": "𐑴",
-    "suffix": "𐑥𐑓"
+    "suffix": "𐑚"
   },
   "i:d5": {
-    "word": "𐑶𐑒𐑑𐑕",
+    "word": "𐑶𐑠",
     "definition": "The digit five; the numeric value 5. Also the midpoint of any 0–9 scale.",
     "group": "Perception & Senses",
     "rank": 354,
@@ -5479,7 +5479,7 @@
       "digit"
     ],
     "vowel": "𐑶",
-    "suffix": "𐑒𐑑𐑕"
+    "suffix": "𐑠"
   },
   "i:0700": {
     "word": "𐑶𐑯𐑟",
@@ -5494,7 +5494,7 @@
     "suffix": "𐑯𐑟"
   },
   "i:0718": {
-    "word": "𐑵𐑙𐑟",
+    "word": "𐑵𐑒𐑕",
     "definition": "Formal acknowledgment of having completed educational requirements.",
     "group": "Learning & Education",
     "rank": 356,
@@ -5507,10 +5507,10 @@
       "certify"
     ],
     "vowel": "𐑵",
-    "suffix": "𐑙𐑟"
+    "suffix": "𐑒𐑕"
   },
   "i:0717": {
-    "word": "𐑷𐑥𐑐𐑕",
+    "word": "𐑷𐑔𐑕",
     "definition": "Cultivated plant parts grown for eating; vegetables.",
     "group": "Food & Eating",
     "rank": 357,
@@ -5522,7 +5522,7 @@
       "greens"
     ],
     "vowel": "𐑷",
-    "suffix": "𐑥𐑐𐑕"
+    "suffix": "𐑔𐑕"
   },
   "i:0687": {
     "word": "𐑰𐑥𐑟",
@@ -5541,7 +5541,7 @@
     "suffix": "𐑥𐑟"
   },
   "i:0744": {
-    "word": "𐑴𐑒𐑕𐑑",
+    "word": "𐑴𐑡",
     "definition": "Costly; requiring significant sacrifice or payment to achieve.",
     "group": "Commerce & Money",
     "rank": 359,
@@ -5553,10 +5553,10 @@
       "cost"
     ],
     "vowel": "𐑴",
-    "suffix": "𐑒𐑕𐑑"
+    "suffix": "𐑡"
   },
   "i:0733": {
-    "word": "𐑷𐑥𐑐𐑑",
+    "word": "𐑷𐑛",
     "definition": "A solidified form produced by cooling; ice or crystal.",
     "group": "Nature & Elements",
     "rank": 360,
@@ -5569,7 +5569,7 @@
       "glacier"
     ],
     "vowel": "𐑷",
-    "suffix": "𐑥𐑐𐑑"
+    "suffix": "𐑛"
   },
   "i:0770": {
     "word": "𐑵𐑐𐑑",
@@ -5711,7 +5711,7 @@
     "suffix": "𐑟𐑛"
   },
   "i:0807": {
-    "word": "𐑵𐑒𐑑𐑕",
+    "word": "𐑵𐑠",
     "definition": "A flower; the reproductive structure of a flowering plant.",
     "group": "Perception & Senses",
     "rank": 370,
@@ -5723,10 +5723,10 @@
       "floral"
     ],
     "vowel": "𐑵",
-    "suffix": "𐑒𐑑𐑕"
+    "suffix": "𐑠"
   },
   "i:0779": {
-    "word": "𐑴𐑔𐑕",
+    "word": "𐑴𐑙",
     "definition": "Sexual attraction and connection between people.",
     "group": "Body — Internal, Organs & Reproduction",
     "rank": 371,
@@ -5739,10 +5739,10 @@
       "orientation"
     ],
     "vowel": "𐑴",
-    "suffix": "𐑔𐑕"
+    "suffix": "𐑙"
   },
   "i:0812": {
-    "word": "𐑴𐑐𐑑𐑕",
+    "word": "𐑴𐑜",
     "definition": "Extent in one dimension. Base unit: meter.",
     "group": "Measurement — Physical Dimensions",
     "rank": 372,
@@ -5754,10 +5754,10 @@
       "meter"
     ],
     "vowel": "𐑴",
-    "suffix": "𐑐𐑑𐑕"
+    "suffix": "𐑜"
   },
   "i:0871": {
-    "word": "𐑪𐑕𐑒𐑕",
+    "word": "𐑪𐑓",
     "definition": "The unlawful, intentional killing of a person.",
     "group": "Law & Justice",
     "rank": 373,
@@ -5769,10 +5769,10 @@
       "assassination"
     ],
     "vowel": "𐑪",
-    "suffix": "𐑕𐑒𐑕"
+    "suffix": "𐑓"
   },
   "i:0883": {
-    "word": "𐑲𐑙𐑒𐑕",
+    "word": "𐑲𐑥",
     "definition": "A religious gathering and the place where it is held; a church service.",
     "group": "Belief, Spirit & Meaning",
     "rank": 374,
@@ -5785,10 +5785,10 @@
       "prayer"
     ],
     "vowel": "𐑲",
-    "suffix": "𐑙𐑒𐑕"
+    "suffix": "𐑥"
   },
   "i:0910": {
-    "word": "𐑪𐑙𐑒𐑕",
+    "word": "𐑪𐑥",
     "definition": "A spiritual worldview involving belief in divine entities and associated rituals.",
     "group": "Belief, Spirit & Meaning",
     "rank": 375,
@@ -5801,10 +5801,10 @@
       "creed"
     ],
     "vowel": "𐑪",
-    "suffix": "𐑙𐑒𐑕"
+    "suffix": "𐑥"
   },
   "i:0927": {
-    "word": "𐑰𐑙𐑒𐑕",
+    "word": "𐑰𐑥",
     "definition": "Inspiring profound awe and reverence; eliciting deep wonder.",
     "group": "Belief, Spirit & Meaning",
     "rank": 376,
@@ -5817,10 +5817,10 @@
       "magnificent"
     ],
     "vowel": "𐑰",
-    "suffix": "𐑙𐑒𐑕"
+    "suffix": "𐑥"
   },
   "i:0896": {
-    "word": "𐑵𐑥𐑓",
+    "word": "𐑵𐑚",
     "definition": "Indicating danger or risk before it occurs; a warning signal.",
     "group": "Danger & Protection",
     "rank": 377,
@@ -5833,7 +5833,7 @@
       "red flag"
     ],
     "vowel": "𐑵",
-    "suffix": "𐑥𐑓"
+    "suffix": "𐑚"
   },
   "i:0891": {
     "word": "𐑴𐑥𐑐",
@@ -5852,7 +5852,7 @@
     "suffix": "𐑥𐑐"
   },
   "i:0877": {
-    "word": "𐑰𐑯𐑕𐑑",
+    "word": "𐑰𐑟",
     "definition": "Verifiable truth; something proven by evidence.",
     "group": "Truth & Certainty",
     "rank": 379,
@@ -5865,10 +5865,10 @@
       "demonstrated"
     ],
     "vowel": "𐑰",
-    "suffix": "𐑯𐑕𐑑"
+    "suffix": "𐑟"
   },
   "i:d3": {
-    "word": "𐑪𐑒𐑕",
+    "word": "𐑹𐑑",
     "definition": "The digit three; the numeric value 3.",
     "group": "Quantity & Degree",
     "rank": 380,
@@ -5879,8 +5879,8 @@
       "trio",
       "digit"
     ],
-    "vowel": "𐑪",
-    "suffix": "𐑒𐑕"
+    "vowel": "𐑹",
+    "suffix": "𐑮𐑑 𐑮𐑛"
   },
   "i:0915": {
     "word": "𐑴𐑯𐑗",
@@ -5914,7 +5914,7 @@
     "suffix": "𐑟𐑛"
   },
   "i:0875": {
-    "word": "𐑷𐑒𐑑𐑕",
+    "word": "𐑷𐑠",
     "definition": "Touching or probing with a finger; tactile exploration.",
     "group": "Perception & Senses",
     "rank": 383,
@@ -5927,10 +5927,10 @@
       "tap"
     ],
     "vowel": "𐑷",
-    "suffix": "𐑒𐑑𐑕"
+    "suffix": "𐑠"
   },
   "i:0932": {
-    "word": "𐑵𐑐𐑑𐑕",
+    "word": "𐑵𐑜",
     "definition": "Rate of repetition per unit time. Base unit: hertz.",
     "group": "Measurement — Physical Dimensions",
     "rank": 384,
@@ -5941,7 +5941,7 @@
       "hertz"
     ],
     "vowel": "𐑵",
-    "suffix": "𐑐𐑑𐑕"
+    "suffix": "𐑜"
   },
   "i:0967": {
     "word": "𐑬𐑯𐑡",
@@ -5960,7 +5960,7 @@
     "suffix": "𐑯𐑡"
   },
   "i:0944": {
-    "word": "𐑵𐑒𐑕𐑑",
+    "word": "𐑵𐑡",
     "definition": "Temporary economic use in exchange for regular payment; to rent or lease. Covers the financial arrangement of paying for temporary access to something. Distinct from linguistic borrowing of foreign words.",
     "group": "Commerce & Money",
     "rank": 386,
@@ -5972,10 +5972,10 @@
       "rental"
     ],
     "vowel": "𐑵",
-    "suffix": "𐑒𐑕𐑑"
+    "suffix": "𐑡"
   },
   "i:1047": {
-    "word": "𐑴𐑙𐑒𐑕",
+    "word": "𐑴𐑥",
     "definition": "Derived from a non-material or spiritual source; relating to worship.",
     "group": "Belief, Spirit & Meaning",
     "rank": 387,
@@ -5988,7 +5988,7 @@
       "holy"
     ],
     "vowel": "𐑴",
-    "suffix": "𐑙𐑒𐑕"
+    "suffix": "𐑥"
   },
   "i:0977": {
     "word": "𐑵𐑓𐑑",
@@ -6036,7 +6036,7 @@
     "suffix": "𐑓𐑑"
   },
   "i:1020": {
-    "word": "𐑷𐑥𐑓",
+    "word": "𐑷𐑚",
     "definition": "A vulnerability combining the likelihood and severity of possible harm.",
     "group": "Danger & Protection",
     "rank": 391,
@@ -6049,7 +6049,7 @@
       "exposure"
     ],
     "vowel": "𐑷",
-    "suffix": "𐑥𐑓"
+    "suffix": "𐑚"
   },
   "i:1037": {
     "word": "𐑵𐑙𐑒",
@@ -6068,7 +6068,7 @@
     "suffix": "𐑙𐑒"
   },
   "i:0983": {
-    "word": "𐑪𐑯𐑛𐑟",
+    "word": "𐑹𐑥",
     "definition": "A point or boundary marking the beginning or end of something.",
     "group": "Beginning & Ending",
     "rank": 393,
@@ -6080,8 +6080,8 @@
       "edge",
       "onset"
     ],
-    "vowel": "𐑪",
-    "suffix": "𐑯𐑛𐑟"
+    "vowel": "𐑹",
+    "suffix": "𐑮𐑥 𐑮𐑯"
   },
   "i:1033": {
     "word": "𐑷𐑝𐑛",
@@ -6100,7 +6100,7 @@
     "suffix": "𐑝𐑛"
   },
   "i:1013": {
-    "word": "𐑵𐑔𐑕",
+    "word": "𐑵𐑙",
     "definition": "The chest region; the upper front of the torso.",
     "group": "Body — Internal, Organs & Reproduction",
     "rank": 395,
@@ -6112,10 +6112,10 @@
       "front"
     ],
     "vowel": "𐑵",
-    "suffix": "𐑔𐑕"
+    "suffix": "𐑙"
   },
   "i:0980": {
-    "word": "𐑷𐑐𐑑𐑕",
+    "word": "𐑷𐑜",
     "definition": "Three-dimensional space occupied. Base unit: liter.",
     "group": "Measurement — Physical Dimensions",
     "rank": 396,
@@ -6125,7 +6125,7 @@
       "liter"
     ],
     "vowel": "𐑷",
-    "suffix": "𐑐𐑑𐑕"
+    "suffix": "𐑜"
   },
   "i:1059": {
     "word": "𐑪𐑓𐑕",
@@ -6144,7 +6144,7 @@
     "suffix": "𐑓𐑕"
   },
   "i:1068": {
-    "word": "𐑰𐑕𐑒𐑕",
+    "word": "𐑰𐑓",
     "definition": "Relating to punishment imposed for unlawful conduct.",
     "group": "Law & Justice",
     "rank": 398,
@@ -6156,10 +6156,10 @@
       "consequence"
     ],
     "vowel": "𐑰",
-    "suffix": "𐑕𐑒𐑕"
+    "suffix": "𐑓"
   },
   "i:1113": {
-    "word": "𐑵𐑙𐑒𐑕",
+    "word": "𐑵𐑥",
     "definition": "A transcendent realm where the righteous dwell after death; paradise.",
     "group": "Belief, Spirit & Meaning",
     "rank": 399,
@@ -6171,10 +6171,10 @@
       "bliss"
     ],
     "vowel": "𐑵",
-    "suffix": "𐑙𐑒𐑕"
+    "suffix": "𐑥"
   },
   "i:1137": {
-    "word": "𐑷𐑙𐑒𐑕",
+    "word": "𐑷𐑥",
     "definition": "Sacred; consecrated or honored as holy.",
     "group": "Belief, Spirit & Meaning",
     "rank": 400,
@@ -6187,10 +6187,10 @@
       "hallowed"
     ],
     "vowel": "𐑷",
-    "suffix": "𐑙𐑒𐑕"
+    "suffix": "𐑥"
   },
   "i:1191": {
-    "word": "𐑬𐑙𐑒𐑕",
+    "word": "𐑬𐑥",
     "definition": "A disciplined practice cultivating spiritual insight through mind-body control.",
     "group": "Belief, Spirit & Meaning",
     "rank": 401,
@@ -6202,7 +6202,7 @@
       "contemplation"
     ],
     "vowel": "𐑬",
-    "suffix": "𐑙𐑒𐑕"
+    "suffix": "𐑥"
   },
   "i:1146": {
     "word": "𐑬𐑓𐑑",
@@ -6237,7 +6237,7 @@
     "suffix": "𐑓𐑑"
   },
   "i:1176": {
-    "word": "𐑬𐑥𐑐𐑑",
+    "word": "𐑬𐑛",
     "definition": "A large ocean wave; a ground swell.",
     "group": "Nature & Elements",
     "rank": 404,
@@ -6249,7 +6249,7 @@
       "breaker"
     ],
     "vowel": "𐑬",
-    "suffix": "𐑥𐑐𐑑"
+    "suffix": "𐑛"
   },
   "i:1158": {
     "word": "𐑴𐑡𐑛",
@@ -6266,7 +6266,7 @@
     "suffix": "𐑡𐑛"
   },
   "i:1149": {
-    "word": "𐑬𐑒𐑑𐑕",
+    "word": "𐑬𐑠",
     "definition": "The capacity to detect incoming signals; receptiveness.",
     "group": "Perception & Senses",
     "rank": 406,
@@ -6279,7 +6279,7 @@
       "responsive"
     ],
     "vowel": "𐑬",
-    "suffix": "𐑒𐑑𐑕"
+    "suffix": "𐑠"
   },
   "i:d9": {
     "word": "𐑵𐑥𐑟",
@@ -6297,7 +6297,7 @@
     "suffix": "𐑥𐑟"
   },
   "i:1074": {
-    "word": "𐑷𐑔𐑕",
+    "word": "𐑷𐑙",
     "definition": "The paired respiratory organs exchanging oxygen and carbon dioxide.",
     "group": "Body — Internal, Organs & Reproduction",
     "rank": 408,
@@ -6309,7 +6309,7 @@
       "pulmonary"
     ],
     "vowel": "𐑷",
-    "suffix": "𐑔𐑕"
+    "suffix": "𐑙"
   },
   "i:1277": {
     "word": "𐑵𐑚𐑟",
@@ -6343,7 +6343,7 @@
     "suffix": "𐑥𐑐"
   },
   "i:1358": {
-    "word": "𐑫𐑥𐑐𐑑",
+    "word": "𐑫𐑛",
     "definition": "A natural watercourse flowing from higher to lower elevation.",
     "group": "Nature & Elements",
     "rank": 411,
@@ -6355,7 +6355,7 @@
       "flow"
     ],
     "vowel": "𐑫",
-    "suffix": "𐑥𐑐𐑑"
+    "suffix": "𐑛"
   },
   "i:1267": {
     "word": "𐑵𐑡𐑛",
@@ -6403,7 +6403,7 @@
     "suffix": "𐑡𐑛"
   },
   "i:1352": {
-    "word": "𐑷𐑙𐑟",
+    "word": "𐑷𐑒𐑕",
     "definition": "A foundational stage of education for early learners.",
     "group": "Learning & Education",
     "rank": 415,
@@ -6414,10 +6414,10 @@
       "kindergarten"
     ],
     "vowel": "𐑷",
-    "suffix": "𐑙𐑟"
+    "suffix": "𐑒𐑕"
   },
   "i:1246": {
-    "word": "𐑶𐑜𐑛",
+    "word": "𐑶𐑯",
     "definition": "The oral opening used for eating, speaking, and breathing.",
     "group": "Body — Basic Parts",
     "rank": 416,
@@ -6428,10 +6428,10 @@
       "lips"
     ],
     "vowel": "𐑶",
-    "suffix": "𐑜𐑛"
+    "suffix": "𐑯"
   },
   "i:1343": {
-    "word": "𐑫𐑒𐑑𐑕",
+    "word": "𐑫𐑠",
     "definition": "A fresh, crisp quality; the sensation of freshness and clean aroma.",
     "group": "Perception & Senses",
     "rank": 417,
@@ -6444,7 +6444,7 @@
       "light"
     ],
     "vowel": "𐑫",
-    "suffix": "𐑒𐑑𐑕"
+    "suffix": "𐑠"
   },
   "i:1398": {
     "word": "𐑵𐑯𐑛",
@@ -6475,7 +6475,7 @@
     "suffix": "𐑯𐑛"
   },
   "i:1329": {
-    "word": "𐑬𐑔𐑕",
+    "word": "𐑬𐑙",
     "definition": "The throat; the anterior neck region containing the airway.",
     "group": "Body — Internal, Organs & Reproduction",
     "rank": 420,
@@ -6487,7 +6487,7 @@
       "gullet"
     ],
     "vowel": "𐑬",
-    "suffix": "𐑔𐑕"
+    "suffix": "𐑙"
   },
   "i:1312": {
     "word": "𐑷𐑐𐑑",
@@ -6562,7 +6562,7 @@
     "suffix": "𐑒𐑑"
   },
   "i:1468": {
-    "word": "𐑰𐑗𐑑",
+    "word": "𐑽𐑒",
     "definition": "The female biological parent; the one who gestated and birthed the offspring.",
     "group": "Family & Kinship",
     "rank": 426,
@@ -6571,8 +6571,8 @@
       "mom",
       "biological mother"
     ],
-    "vowel": "𐑰",
-    "suffix": "𐑗𐑑"
+    "vowel": "𐑽",
+    "suffix": "𐑮𐑒 𐑮𐑜"
   },
   "i:1531": {
     "word": "𐑰𐑓𐑕",
@@ -6605,7 +6605,7 @@
     "suffix": "𐑓𐑕"
   },
   "i:1603": {
-    "word": "𐑴𐑕𐑒𐑕",
+    "word": "𐑴𐑓",
     "definition": "The collective body of rules and authorities governing conduct in a community.",
     "group": "Law & Justice",
     "rank": 429,
@@ -6617,10 +6617,10 @@
       "order"
     ],
     "vowel": "𐑴",
-    "suffix": "𐑕𐑒𐑕"
+    "suffix": "𐑓"
   },
   "i:1683": {
-    "word": "𐑫𐑙𐑒𐑕",
+    "word": "𐑫𐑥",
     "definition": "A sacred and esoteric phenomenon beyond ordinary human understanding.",
     "group": "Belief, Spirit & Meaning",
     "rank": 430,
@@ -6633,7 +6633,7 @@
       "occult"
     ],
     "vowel": "𐑫",
-    "suffix": "𐑙𐑒𐑕"
+    "suffix": "𐑡"
   },
   "i:1617": {
     "word": "𐑴𐑖𐑑",
@@ -6652,7 +6652,7 @@
     "suffix": "𐑖𐑑"
   },
   "i:1664": {
-    "word": "𐑬𐑥𐑓",
+    "word": "𐑬𐑚",
     "definition": "Tools or methods used for protection, offense, or influence.",
     "group": "Danger & Protection",
     "rank": 432,
@@ -6665,10 +6665,10 @@
       "means"
     ],
     "vowel": "𐑬",
-    "suffix": "𐑥𐑓"
+    "suffix": "𐑚"
   },
   "i:1726": {
-    "word": "𐑫𐑥𐑓",
+    "word": "𐑫𐑚",
     "definition": "The quality of metal; hard, strong material associated with tools and weapons.",
     "group": "Danger & Protection",
     "rank": 433,
@@ -6681,10 +6681,10 @@
       "weapon"
     ],
     "vowel": "𐑫",
-    "suffix": "𐑥𐑓"
+    "suffix": "𐑚"
   },
   "i:d7": {
-    "word": "𐑶𐑙𐑒𐑕",
+    "word": "𐑶𐑥",
     "definition": "The digit seven; the numeric value 7.",
     "group": "Belief, Spirit & Meaning",
     "rank": 434,
@@ -6694,7 +6694,7 @@
       "digit"
     ],
     "vowel": "𐑶",
-    "suffix": "𐑙𐑒𐑕"
+    "suffix": "𐑥"
   },
   "i:1471": {
     "word": "𐑪𐑯𐑔",
@@ -6750,7 +6750,7 @@
     "suffix": "𐑣'"
   },
   "i:1843": {
-    "word": "𐑫𐑔𐑕",
+    "word": "𐑫𐑙",
     "definition": "The digestive organ receiving and processing food.",
     "group": "Body — Internal, Organs & Reproduction",
     "rank": 439,
@@ -6762,10 +6762,10 @@
       "digestive"
     ],
     "vowel": "𐑫",
-    "suffix": "𐑔𐑕"
+    "suffix": "𐑙"
   },
   "i:1755": {
-    "word": "𐑶𐑔𐑕",
+    "word": "𐑶𐑙",
     "definition": "Blood; the fluid circulating through the body.",
     "group": "Body — Internal, Organs & Reproduction",
     "rank": 440,
@@ -6777,7 +6777,7 @@
       "gore"
     ],
     "vowel": "𐑶",
-    "suffix": "𐑔𐑕"
+    "suffix": "𐑙"
   },
   "i:1438": {
     "word": "𐑴𐑥𐑟",
@@ -6915,7 +6915,7 @@
     "suffix": "𐑯𐑑"
   },
   "i:1883": {
-    "word": "𐑦𐑥𐑐𐑑",
+    "word": "𐑦𐑛",
     "definition": "The Earth's natural satellite visible at night.",
     "group": "Nature & Elements",
     "rank": 451,
@@ -6925,10 +6925,10 @@
       "satellite"
     ],
     "vowel": "𐑦",
-    "suffix": "𐑥𐑐𐑑"
+    "suffix": "𐑛"
   },
   "i:1886": {
-    "word": "𐑨𐑥𐑐𐑑",
+    "word": "𐑨𐑛",
     "definition": "The tough outer layer of a tree's trunk and branches.",
     "group": "Nature & Elements",
     "rank": 452,
@@ -6939,7 +6939,7 @@
       "outer layer"
     ],
     "vowel": "𐑨",
-    "suffix": "𐑥𐑐𐑑"
+    "suffix": "𐑛"
   },
   "i:1884": {
     "word": "𐑧𐑡𐑛",
@@ -6985,7 +6985,7 @@
     "suffix": "𐑡𐑛"
   },
   "i:1888": {
-    "word": "𐑩𐑜𐑛",
+    "word": "𐑩𐑯",
     "definition": "The uppermost body part containing the brain and major sense organs.",
     "group": "Body — Basic Parts",
     "rank": 456,
@@ -6995,10 +6995,10 @@
       "cranium"
     ],
     "vowel": "𐑩",
-    "suffix": "𐑜𐑛"
+    "suffix": "𐑯"
   },
   "i:1889": {
-    "word": "𐑦𐑜𐑛",
+    "word": "𐑦𐑯",
     "definition": "The organ of vision.",
     "group": "Body — Basic Parts",
     "rank": 457,
@@ -7009,10 +7009,10 @@
       "sight"
     ],
     "vowel": "𐑦",
-    "suffix": "𐑜𐑛"
+    "suffix": "𐑯"
   },
   "i:1890": {
-    "word": "𐑧𐑜𐑛",
+    "word": "𐑧𐑯",
     "definition": "The organ of hearing.",
     "group": "Body — Basic Parts",
     "rank": 458,
@@ -7023,10 +7023,10 @@
       "auditory"
     ],
     "vowel": "𐑧",
-    "suffix": "𐑜𐑛"
+    "suffix": "𐑯"
   },
   "i:1891": {
-    "word": "𐑨𐑜𐑛",
+    "word": "𐑨𐑯",
     "definition": "The organ of smell and nasal breathing.",
     "group": "Body — Basic Parts",
     "rank": 459,
@@ -7037,10 +7037,10 @@
       "sniff"
     ],
     "vowel": "𐑨",
-    "suffix": "𐑜𐑛"
+    "suffix": "𐑯"
   },
   "i:1885": {
-    "word": "𐑱𐑜𐑛",
+    "word": "𐑱𐑯",
     "definition": "The muscular organ in the mouth for taste and speech.",
     "group": "Body — Basic Parts",
     "rank": 460,
@@ -7050,10 +7050,10 @@
       "lingual"
     ],
     "vowel": "𐑱",
-    "suffix": "𐑜𐑛"
+    "suffix": "𐑯"
   },
   "i:1893": {
-    "word": "𐑲𐑜𐑛",
+    "word": "𐑲𐑯",
     "definition": "The limb used for standing, walking, and locomotion.",
     "group": "Body — Basic Parts",
     "rank": 461,
@@ -7064,10 +7064,10 @@
       "stride"
     ],
     "vowel": "𐑲",
-    "suffix": "𐑜𐑛"
+    "suffix": "𐑯"
   },
   "i:1892": {
-    "word": "𐑪𐑜𐑛",
+    "word": "𐑪𐑯",
     "definition": "The terminal part of the leg used for standing and walking.",
     "group": "Body — Basic Parts",
     "rank": 462,
@@ -7078,10 +7078,10 @@
       "sole"
     ],
     "vowel": "𐑪",
-    "suffix": "𐑜𐑛"
+    "suffix": "𐑯"
   },
   "i:1895": {
-    "word": "𐑰𐑜𐑛",
+    "word": "𐑰𐑯",
     "definition": "The posterior surface of the body from shoulders to hips.",
     "group": "Body — Basic Parts",
     "rank": 463,
@@ -7092,10 +7092,10 @@
       "rear"
     ],
     "vowel": "𐑰",
-    "suffix": "𐑜𐑛"
+    "suffix": "𐑯"
   },
   "i:1904": {
-    "word": "𐑴𐑜𐑛",
+    "word": "𐑴𐑯",
     "definition": "The outer body covering; the largest organ.",
     "group": "Body — Basic Parts",
     "rank": 464,
@@ -7107,10 +7107,10 @@
       "epidermis"
     ],
     "vowel": "𐑴",
-    "suffix": "𐑜𐑛"
+    "suffix": "𐑯"
   },
   "i:1882": {
-    "word": "𐑵𐑜𐑛",
+    "word": "𐑵𐑯",
     "definition": "Dense connective tissue forming the skeleton.",
     "group": "Body — Basic Parts",
     "rank": 465,
@@ -7121,10 +7121,10 @@
       "rigid"
     ],
     "vowel": "𐑵",
-    "suffix": "𐑜𐑛"
+    "suffix": "𐑯"
   },
   "i:1931": {
-    "word": "𐑧𐑒𐑑𐑕",
+    "word": "𐑧𐑠",
     "definition": "Color lightness — the brightness dimension within a hue expression, on a 0–4 scale: 0=very dark, 1=dark, 2=mid (default), 3=light, 4=very light. The second parameter in color[hue·lightness·saturation].",
     "group": "Perception & Senses",
     "rank": 466,
@@ -7137,10 +7137,10 @@
       "tone"
     ],
     "vowel": "𐑧",
-    "suffix": "𐑒𐑑𐑕"
+    "suffix": "𐑠"
   },
   "i:1932": {
-    "word": "𐑨𐑒𐑑𐑕",
+    "word": "𐑨𐑠",
     "definition": "Color saturation — the vividness or purity dimension within a hue expression, on a 5–9 scale: 5=near gray/desaturated, 6=dull, 7=moderate, 8=vivid, 9=pure/fully saturated (default). The third parameter in color[hue·lightness·saturation].",
     "group": "Perception & Senses",
     "rank": 467,
@@ -7154,10 +7154,10 @@
       "intensity"
     ],
     "vowel": "𐑨",
-    "suffix": "𐑒𐑑𐑕"
+    "suffix": "𐑠"
   },
   "i:1894": {
-    "word": "𐑩𐑔𐑕",
+    "word": "𐑩𐑙",
     "definition": "The organ of thought and nervous system control.",
     "group": "Body — Internal, Organs & Reproduction",
     "rank": 468,
@@ -7169,10 +7169,10 @@
       "cerebral"
     ],
     "vowel": "𐑩",
-    "suffix": "𐑔𐑕"
+    "suffix": "𐑙"
   },
   "i:1900": {
-    "word": "𐑱𐑔𐑕",
+    "word": "𐑱𐑙",
     "definition": "The biological process of producing offspring.",
     "group": "Body — Internal, Organs & Reproduction",
     "rank": 469,
@@ -7184,10 +7184,10 @@
       "propagate"
     ],
     "vowel": "𐑱",
-    "suffix": "𐑔𐑕"
+    "suffix": "𐑙"
   },
   "i:1901": {
-    "word": "𐑲𐑔𐑕",
+    "word": "𐑲𐑙",
     "definition": "The uterus; the organ where offspring develop before birth.",
     "group": "Body — Internal, Organs & Reproduction",
     "rank": 470,
@@ -7197,10 +7197,10 @@
       "uterine"
     ],
     "vowel": "𐑲",
-    "suffix": "𐑔𐑕"
+    "suffix": "𐑙"
   },
   "i:1902": {
-    "word": "𐑪𐑔𐑕",
+    "word": "𐑪𐑙",
     "definition": "The external male reproductive organs.",
     "group": "Body — Internal, Organs & Reproduction",
     "rank": 471,
@@ -7210,10 +7210,10 @@
       "phallus"
     ],
     "vowel": "𐑪",
-    "suffix": "𐑔𐑕"
+    "suffix": "𐑙"
   },
   "i:1903": {
-    "word": "𐑰𐑔𐑕",
+    "word": "𐑰𐑙",
     "definition": "The external female reproductive organs.",
     "group": "Body — Internal, Organs & Reproduction",
     "rank": 472,
@@ -7223,10 +7223,10 @@
       "female genitalia"
     ],
     "vowel": "𐑰",
-    "suffix": "𐑔𐑕"
+    "suffix": "𐑙"
   },
   "i:1898": {
-    "word": "𐑦𐑔𐑕",
+    "word": "𐑦𐑙",
     "definition": "Carrying developing offspring in the womb.",
     "group": "Body — Internal, Organs & Reproduction",
     "rank": 473,
@@ -7238,10 +7238,10 @@
       "with child"
     ],
     "vowel": "𐑦",
-    "suffix": "𐑔𐑕"
+    "suffix": "𐑙"
   },
   "i:1899": {
-    "word": "𐑨𐑔𐑕",
+    "word": "𐑨𐑙",
     "definition": "The emergence of offspring from the body.",
     "group": "Body — Internal, Organs & Reproduction",
     "rank": 474,
@@ -7253,10 +7253,10 @@
       "nativity"
     ],
     "vowel": "𐑨",
-    "suffix": "𐑔𐑕"
+    "suffix": "𐑙"
   },
   "i:1908": {
-    "word": "𐑦𐑐𐑑𐑕",
+    "word": "𐑦𐑜",
     "definition": "Two-dimensional extent or surface. Base unit: square meter.",
     "group": "Measurement — Physical Dimensions",
     "rank": 475,
@@ -7266,10 +7266,10 @@
       "square meter"
     ],
     "vowel": "𐑦",
-    "suffix": "𐑐𐑑𐑕"
+    "suffix": "𐑜"
   },
   "i:1909": {
-    "word": "𐑧𐑐𐑑𐑕",
+    "word": "𐑧𐑜",
     "definition": "Distance traveled per unit time. Base unit: meter per second.",
     "group": "Measurement — Physical Dimensions",
     "rank": 476,
@@ -7280,10 +7280,10 @@
       "meter per second"
     ],
     "vowel": "𐑧",
-    "suffix": "𐑐𐑑𐑕"
+    "suffix": "𐑜"
   },
   "i:1910": {
-    "word": "𐑨𐑐𐑑𐑕",
+    "word": "𐑨𐑜",
     "definition": "Push or pull between objects. Base unit: newton.",
     "group": "Measurement — Physical Dimensions",
     "rank": 477,
@@ -7294,10 +7294,10 @@
       "newton"
     ],
     "vowel": "𐑨",
-    "suffix": "𐑐𐑑𐑕"
+    "suffix": "𐑜"
   },
   "i:1911": {
-    "word": "𐑱𐑐𐑑𐑕",
+    "word": "𐑱𐑜",
     "definition": "Capacity to do work or cause change. Base unit: joule.",
     "group": "Measurement — Physical Dimensions",
     "rank": 478,
@@ -7307,10 +7307,10 @@
       "joule"
     ],
     "vowel": "𐑱",
-    "suffix": "𐑐𐑑𐑕"
+    "suffix": "𐑜"
   },
   "i:1912": {
-    "word": "𐑲𐑐𐑑𐑕",
+    "word": "𐑲𐑜",
     "definition": "Rotational extent between two lines. Base unit: degree.",
     "group": "Measurement — Physical Dimensions",
     "rank": 479,
@@ -7321,10 +7321,10 @@
       "radian"
     ],
     "vowel": "𐑲",
-    "suffix": "𐑐𐑑𐑕"
+    "suffix": "𐑜"
   },
   "i:1913": {
-    "word": "𐑩𐑐𐑑𐑕",
+    "word": "𐑩𐑜",
     "definition": "Thermal energy or heat intensity. Base unit: degree Celsius.",
     "group": "Measurement — Physical Dimensions",
     "rank": 480,
@@ -7335,7 +7335,7 @@
       "Celsius"
     ],
     "vowel": "𐑩",
-    "suffix": "𐑐𐑑𐑕"
+    "suffix": "𐑜"
   },
   "i:1917": {
     "word": "𐑰𐑯𐑕",
@@ -7393,7 +7393,7 @@
     "suffix": "𐑐𐑑"
   },
   "i:1922": {
-    "word": "𐑩𐑚𐑛",
+    "word": "𐑸𐑗",
     "definition": "At the time that; a temporal relative marker and question word.",
     "group": "Particles & Markers",
     "rank": 485,
@@ -7402,11 +7402,11 @@
       "at what time",
       "whenever"
     ],
-    "vowel": "𐑩",
-    "suffix": "𐑚𐑛"
+    "vowel": "𐑸",
+    "suffix": "𐑮𐑗 𐑮𐑡"
   },
   "i:1923": {
-    "word": "𐑦𐑚𐑛",
+    "word": "𐑹𐑗",
     "definition": "At the place that; a locative relative marker and question word.",
     "group": "Particles & Markers",
     "rank": 486,
@@ -7415,11 +7415,11 @@
       "at what place",
       "wherever"
     ],
-    "vowel": "𐑦",
-    "suffix": "𐑚𐑛"
+    "vowel": "𐑹",
+    "suffix": "𐑮𐑗 𐑮𐑡"
   },
   "i:1924": {
-    "word": "𐑧𐑚𐑛",
+    "word": "𐑺𐑗",
     "definition": "In what way or by what means; a manner marker and question word.",
     "group": "Particles & Markers",
     "rank": 487,
@@ -7428,11 +7428,11 @@
       "in what way",
       "by what means"
     ],
-    "vowel": "𐑧",
-    "suffix": "𐑚𐑛"
+    "vowel": "𐑺",
+    "suffix": "𐑮𐑗 𐑮𐑡"
   },
   "i:1920": {
-    "word": "𐑨𐑚𐑛",
+    "word": "𐑽𐑡",
     "definition": "Concerning or regarding; marking the topic of discourse.",
     "group": "Particles & Markers",
     "rank": 488,
@@ -7441,11 +7441,11 @@
       "regarding",
       "concerning"
     ],
-    "vowel": "𐑨",
-    "suffix": "𐑚𐑛"
+    "vowel": "𐑽",
+    "suffix": "𐑮𐑗 𐑮𐑡"
   },
   "i:1925": {
-    "word": "𐑱𐑚𐑛",
+    "word": "𐑺𐑡",
     "definition": "Introduces the second element of a comparison.",
     "group": "Particles & Markers",
     "rank": 489,
@@ -7454,11 +7454,11 @@
       "compared to",
       "versus"
     ],
-    "vowel": "𐑱",
-    "suffix": "𐑚𐑛"
+    "vowel": "𐑺",
+    "suffix": "𐑮𐑗 𐑮𐑡"
   },
   "i:1926": {
-    "word": "𐑲𐑚𐑛",
+    "word": "𐑸𐑡",
     "definition": "Limiting to a single case; exclusivity.",
     "group": "Particles & Markers",
     "rank": 490,
@@ -7468,7 +7468,7 @@
       "merely",
       "solely"
     ],
-    "vowel": "𐑲",
-    "suffix": "𐑚𐑛"
+    "vowel": "𐑸",
+    "suffix": "𐑮𐑗 𐑮𐑡"
   }
 }

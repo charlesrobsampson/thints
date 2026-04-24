@@ -14,7 +14,7 @@
           "a person",
           "anybody"
         ],
-        "vowel": "𐑩"
+        "vowel": "𐑸𐑐"
       },
       {
         "id": "i:0004",
@@ -29,7 +29,7 @@
           "said",
           "such"
         ],
-        "vowel": "𐑦"
+        "vowel": "𐑹𐑐"
       },
       {
         "id": "i:0095",
@@ -42,7 +42,7 @@
           "designated",
           "the one in question"
         ],
-        "vowel": "𐑨"
+        "vowel": "𐑺𐑐"
       },
       {
         "id": "i:0096",
@@ -55,7 +55,7 @@
           "a range of",
           "unspecified"
         ],
-        "vowel": "𐑱"
+        "vowel": "𐑽𐑚"
       },
       {
         "id": "i:0087",
@@ -68,7 +68,7 @@
           "someone",
           "identity"
         ],
-        "vowel": "𐑧"
+        "vowel": "𐑺𐑚"
       },
       {
         "id": "i:0108",
@@ -79,7 +79,7 @@
           "man",
           "masculine"
         ],
-        "vowel": "𐑲"
+        "vowel": "𐑽𐑐"
       },
       {
         "id": "i:0139",
@@ -90,7 +90,7 @@
           "woman",
           "feminine"
         ],
-        "vowel": "𐑪"
+        "vowel": "𐑸𐑚"
       },
       {
         "id": "i:d1",
@@ -102,10 +102,10 @@
           "single",
           "unit"
         ],
-        "vowel": "𐑰"
+        "vowel": "𐑹𐑚"
       }
     ],
-    "sound": "𐑙"
+    "sound": "𐑮𐑐 𐑮𐑚"
   },
   "knowledge_mind": {
     "label": "Knowledge & Mind",
@@ -252,7 +252,7 @@
           "desire",
           "will"
         ],
-        "vowel": "𐑩"
+        "vowel": "𐑸𐑕"
       },
       {
         "id": "i:0195",
@@ -266,7 +266,7 @@
           "watchfulness",
           "mindfulness"
         ],
-        "vowel": "𐑦"
+        "vowel": "𐑸𐑟"
       },
       {
         "id": "i:0231",
@@ -279,7 +279,7 @@
           "determination",
           "decision"
         ],
-        "vowel": "𐑧"
+        "vowel": "𐑹𐑕"
       },
       {
         "id": "i:0302",
@@ -293,7 +293,7 @@
           "resilience",
           "fortitude"
         ],
-        "vowel": "𐑨"
+        "vowel": "𐑹𐑟"
       },
       {
         "id": "i:0522",
@@ -307,7 +307,7 @@
           "hunger",
           "urge"
         ],
-        "vowel": "𐑲"
+        "vowel": "𐑺𐑕"
       },
       {
         "id": "i:0655",
@@ -321,7 +321,7 @@
           "result",
           "achievement"
         ],
-        "vowel": "𐑪"
+        "vowel": "𐑺𐑟"
       },
       {
         "id": "i:0703",
@@ -334,7 +334,7 @@
           "goodwill",
           "blessing"
         ],
-        "vowel": "𐑰"
+        "vowel": "𐑽𐑕"
       },
       {
         "id": "i:0480",
@@ -348,10 +348,10 @@
           "steadfast",
           "committed"
         ],
-        "vowel": "𐑱"
+        "vowel": "𐑽𐑟"
       }
     ],
-    "sound": "𐑐𐑕"
+    "sound": "𐑮𐑕 𐑮𐑟"
   },
   "emotion_positive": {
     "label": "Positive Emotions",
@@ -683,7 +683,7 @@
           "raise",
           "parenting"
         ],
-        "vowel": "𐑩"
+        "vowel": "𐑸𐑒"
       },
       {
         "id": "i:0256",
@@ -696,7 +696,7 @@
           "relation",
           "ancestry"
         ],
-        "vowel": "𐑧"
+        "vowel": "𐑸𐑜"
       },
       {
         "id": "i:0368",
@@ -710,7 +710,7 @@
           "offspring",
           "juvenile"
         ],
-        "vowel": "𐑨"
+        "vowel": "𐑹𐑒"
       },
       {
         "id": "i:0572",
@@ -723,7 +723,7 @@
           "related",
           "kinship"
         ],
-        "vowel": "𐑱"
+        "vowel": "𐑹𐑜"
       },
       {
         "id": "i:0609",
@@ -736,7 +736,7 @@
           "wife",
           "married"
         ],
-        "vowel": "𐑲"
+        "vowel": "𐑺𐑒"
       },
       {
         "id": "i:0704",
@@ -749,7 +749,7 @@
           "ancestry",
           "legacy"
         ],
-        "vowel": "𐑪"
+        "vowel": "𐑺𐑜"
       },
       {
         "id": "i:1468",
@@ -760,7 +760,7 @@
           "mom",
           "biological mother"
         ],
-        "vowel": "𐑰"
+        "vowel": "𐑽𐑒"
       },
       {
         "id": "i:0193",
@@ -771,10 +771,10 @@
           "dad",
           "biological father"
         ],
-        "vowel": "𐑦"
+        "vowel": "𐑽𐑜"
       }
     ],
-    "sound": "𐑗𐑑"
+    "sound": "𐑮𐑒 𐑮𐑜"
   },
   "social_interaction": {
     "label": "Social Interaction",
@@ -1219,7 +1219,7 @@
         "vowel": "𐑴"
       }
     ],
-    "sound": "𐑕𐑒𐑕"
+    "sound": "𐑓"
   },
   "commerce_money": {
     "label": "Commerce & Money",
@@ -1363,7 +1363,7 @@
         "vowel": "𐑵"
       }
     ],
-    "sound": "𐑒𐑕𐑑"
+    "sound": "𐑡"
   },
   "belief_spirit": {
     "label": "Belief, Spirit & Meaning",
@@ -1559,7 +1559,7 @@
         "vowel": "𐑶"
       }
     ],
-    "sound": "𐑙𐑒𐑕"
+    "sound": "𐑥"
   },
   "motion_movement": {
     "label": "Motion & Movement",
@@ -2224,7 +2224,7 @@
         "vowel": "𐑫"
       }
     ],
-    "sound": "𐑥𐑓"
+    "sound": "𐑚"
   },
   "give_take": {
     "label": "Giving & Taking",
@@ -2963,7 +2963,7 @@
         "vowel": "𐑨"
       }
     ],
-    "sound": "𐑯𐑕𐑑"
+    "sound": "𐑟"
   },
   "quantity_degree": {
     "label": "Quantity & Degree",
@@ -2981,7 +2981,7 @@
           "level",
           "how much"
         ],
-        "vowel": "𐑩"
+        "vowel": "𐑸𐑑"
       },
       {
         "id": "i:0065",
@@ -2995,7 +2995,7 @@
           "vague amount",
           "roughly"
         ],
-        "vowel": "𐑦"
+        "vowel": "𐑹𐑛"
       },
       {
         "id": "i:0072",
@@ -3008,7 +3008,7 @@
           "individually",
           "one by one"
         ],
-        "vowel": "𐑧"
+        "vowel": "𐑺𐑑"
       },
       {
         "id": "i:0116",
@@ -3022,7 +3022,7 @@
           "rate",
           "comparative"
         ],
-        "vowel": "𐑨"
+        "vowel": "𐑽𐑛"
       },
       {
         "id": "i:0144",
@@ -3036,7 +3036,7 @@
           "figure",
           "numeric"
         ],
-        "vowel": "𐑱"
+        "vowel": "𐑸𐑛"
       },
       {
         "id": "i:0164",
@@ -3050,7 +3050,7 @@
           "entire",
           "complete count"
         ],
-        "vowel": "𐑲"
+        "vowel": "𐑺𐑛"
       },
       {
         "id": "i:d3",
@@ -3062,10 +3062,10 @@
           "triple",
           "trio"
         ],
-        "vowel": "𐑪"
+        "vowel": "𐑹𐑑"
       }
     ],
-    "sound": "𐑒𐑕"
+    "sound": "𐑮𐑑 𐑮𐑛"
   },
   "time_temporal": {
     "label": "Time — Measurement & Cycles",
@@ -3192,7 +3192,7 @@
           "terminate",
           "final"
         ],
-        "vowel": "𐑩"
+        "vowel": "𐑸𐑥"
       },
       {
         "id": "i:0119",
@@ -3206,7 +3206,7 @@
           "earliest",
           "opening"
         ],
-        "vowel": "𐑦"
+        "vowel": "𐑺𐑥"
       },
       {
         "id": "i:0158",
@@ -3220,7 +3220,7 @@
           "preceding",
           "former"
         ],
-        "vowel": "𐑧"
+        "vowel": "𐑹𐑯"
       },
       {
         "id": "i:0219",
@@ -3234,7 +3234,7 @@
           "ultimate",
           "finished"
         ],
-        "vowel": "𐑨"
+        "vowel": "𐑽𐑥"
       },
       {
         "id": "i:0413",
@@ -3248,7 +3248,7 @@
           "founding",
           "start point"
         ],
-        "vowel": "𐑱"
+        "vowel": "𐑺𐑯"
       },
       {
         "id": "i:0440",
@@ -3261,7 +3261,7 @@
           "one time",
           "a moment"
         ],
-        "vowel": "𐑲"
+        "vowel": "𐑽𐑯"
       },
       {
         "id": "i:0983",
@@ -3275,10 +3275,10 @@
           "edge",
           "onset"
         ],
-        "vowel": "𐑪"
+        "vowel": "𐑹𐑥"
       }
     ],
-    "sound": "𐑯𐑛𐑟"
+    "sound": "𐑮𐑥 𐑮𐑯"
   },
   "change_process": {
     "label": "Change & Process",
@@ -3901,7 +3901,7 @@
         "vowel": "𐑨"
       }
     ],
-    "sound": "𐑥𐑐𐑑"
+    "sound": "𐑛"
   },
   "living_things": {
     "label": "Living Things",
@@ -4681,7 +4681,7 @@
         "vowel": "𐑷"
       }
     ],
-    "sound": "𐑙𐑟"
+    "sound": "𐑒𐑕"
   },
   "body": {
     "label": "Body — Basic Parts",
@@ -4854,7 +4854,7 @@
         "vowel": "𐑵"
       }
     ],
-    "sound": "𐑜𐑛"
+    "sound": "𐑯"
   },
   "health_medicine": {
     "label": "Health & Medicine",
@@ -5138,7 +5138,7 @@
         "vowel": "𐑷"
       }
     ],
-    "sound": "𐑥𐑐𐑕"
+    "sound": "𐑔𐑕"
   },
   "containment_connection": {
     "label": "Containment & Connection",
@@ -5486,7 +5486,7 @@
         "vowel": "𐑶"
       }
     ],
-    "sound": "𐑒𐑑𐑕"
+    "sound": "𐑠"
   },
   "time_complex": {
     "label": "Time — Abstract & Sequence",
@@ -5826,7 +5826,7 @@
         "vowel": "𐑴"
       }
     ],
-    "sound": "𐑔𐑕"
+    "sound": "𐑙"
   },
   "measurement": {
     "label": "Measurement — Physical Dimensions",
@@ -5962,7 +5962,7 @@
         "vowel": "𐑵"
       }
     ],
-    "sound": "𐑐𐑑𐑕"
+    "sound": "𐑜"
   },
   "positive_expansive": {
     "label": "Positive & Expansive",
@@ -6541,7 +6541,7 @@
           "at what time",
           "whenever"
         ],
-        "vowel": "𐑩"
+        "vowel": "𐑸𐑗"
       },
       {
         "id": "i:1923",
@@ -6552,7 +6552,7 @@
           "at what place",
           "wherever"
         ],
-        "vowel": "𐑦"
+        "vowel": "𐑹𐑗"
       },
       {
         "id": "i:1924",
@@ -6563,7 +6563,7 @@
           "in what way",
           "by what means"
         ],
-        "vowel": "𐑧"
+        "vowel": "𐑺𐑗"
       },
       {
         "id": "i:1920",
@@ -6574,7 +6574,7 @@
           "regarding",
           "concerning"
         ],
-        "vowel": "𐑨"
+        "vowel": "𐑽𐑡"
       },
       {
         "id": "i:1925",
@@ -6585,7 +6585,7 @@
           "compared to",
           "versus"
         ],
-        "vowel": "𐑱"
+        "vowel": "𐑺𐑡"
       },
       {
         "id": "i:1926",
@@ -6597,10 +6597,10 @@
           "merely",
           "solely"
         ],
-        "vowel": "𐑲"
+        "vowel": "𐑸𐑡"
       }
     ],
-    "sound": "𐑚𐑛"
+    "sound": "𐑮𐑗 𐑮𐑡"
   },
   "_potential_suffix_replacements": [
     {

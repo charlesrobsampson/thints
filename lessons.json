@@ -3365,15 +3365,15 @@
       "grammar": [
         {
           "id": "g-commands",
-          "title": "Commands: {{prefix:verb-command-do-symbol-symbol}} and {{prefix:verb-command-do-not-symbol-symbol}}",
-          "body": "Two dedicated prefixes handle commands — intentionally distinct from tense verbs so they're unmistakable:\n\n{{prefix:verb-command-do-symbol-symbol}} = Do this!\n{{prefix:verb-command-do-not-symbol-symbol}} = Do not do this!\n\nThey stand alone — no subject needed since commands are always addressed to 'you'.",
+          "title": "Commands: {{prefix:verb-command-do-symbol}} and {{prefix:verb-command-do-not-symbol}}",
+          "body": "Two dedicated prefixes handle commands — intentionally distinct from tense verbs so they're unmistakable:\n\n{{prefix:verb-command-do-symbol}} = Do this!\n{{prefix:verb-command-do-not-symbol}} = Do not do this!\n\nThey stand alone — no subject needed since commands are always addressed to 'you'.",
           "examples": [
             {
-              "shavian": "{{prefix:verb-command-do-symbol-symbol}}{{dict:i:0317.word}}",
+              "shavian": "{{prefix:verb-command-do-symbol}}{{dict:i:0317.word}}",
               "gloss": "Walk!",
               "breakdown": [
                 {
-                  "part": "{{prefix:verb-command-do-symbol-symbol}}",
+                  "part": "{{prefix:verb-command-do-symbol}}",
                   "role": "prefix",
                   "meaning": "command: do!"
                 },
@@ -3385,11 +3385,11 @@
               ]
             },
             {
-              "shavian": "{{prefix:verb-command-do-not-symbol-symbol}}{{dict:i:0317.word}}",
+              "shavian": "{{prefix:verb-command-do-not-symbol}}{{dict:i:0317.word}}",
               "gloss": "Don't walk!",
               "breakdown": [
                 {
-                  "part": "{{prefix:verb-command-do-not-symbol-symbol}}",
+                  "part": "{{prefix:verb-command-do-not-symbol}}",
                   "role": "prefix",
                   "meaning": "command: do not!"
                 },
@@ -3401,11 +3401,11 @@
               ]
             },
             {
-              "shavian": "{{prefix:verb-command-do-symbol-symbol}}{{dict:i:0040.word}} {{prefix:noun-object-base-symbol}}{{dict:sv:𐑰.word}}",
+              "shavian": "{{prefix:verb-command-do-symbol}}{{dict:i:0040.word}} {{prefix:noun-object-base-symbol}}{{dict:sv:𐑰.word}}",
               "gloss": "Talk to me!",
               "breakdown": [
                 {
-                  "part": "{{prefix:verb-command-do-symbol-symbol}}",
+                  "part": "{{prefix:verb-command-do-symbol}}",
                   "role": "prefix",
                   "meaning": "command"
                 },
@@ -3434,7 +3434,7 @@
         {
           "id": "l24-p1",
           "type": "multipleChoice",
-          "prompt": "What does {{prefix:verb-command-do-symbol-symbol}} mark?",
+          "prompt": "What does {{prefix:verb-command-do-symbol}} mark?",
           "options": [
             "Past tense",
             "A command to do something",
@@ -3442,20 +3442,20 @@
             "Future tense"
           ],
           "correctIndex": 1,
-          "explanation": "{{prefix:verb-command-do-symbol-symbol}} = do this! It is the imperative/command prefix."
+          "explanation": "{{prefix:verb-command-do-symbol}} = do this! It is the imperative/command prefix."
         },
         {
           "id": "l24-p2",
           "type": "multipleChoice",
           "prompt": "How do you say 'Don't speak!'?",
           "options": [
-            "{{prefix:verb-command-do-symbol-symbol}}{{dict:i:0040.word}}",
-            "{{prefix:verb-command-do-not-symbol-symbol}}{{dict:i:0040.word}}",
-            "{{prefix:verb-present-negated-symbol-symbol}}{{dict:i:0040.word}}",
-            "{{prefix:verb-command-do-symbol-symbol}}{{dict:i:0013.word}} {{dict:i:0040.word}}"
+            "{{prefix:verb-command-do-symbol}}{{dict:i:0040.word}}",
+            "{{prefix:verb-command-do-not-symbol}}{{dict:i:0040.word}}",
+            "{{prefix:verb-present-negated-symbol}}{{dict:i:0040.word}}",
+            "{{prefix:verb-command-do-symbol}}{{dict:i:0013.word}} {{dict:i:0040.word}}"
           ],
           "correctIndex": 1,
-          "explanation": "{{prefix:verb-command-do-not-symbol-symbol}} is the prohibition command prefix. {{prefix:verb-command-do-not-symbol-symbol}}{{dict:i:0040.word}} = Don't speak!"
+          "explanation": "{{prefix:verb-command-do-not-symbol}} is the prohibition command prefix. {{prefix:verb-command-do-not-symbol}}{{dict:i:0040.word}} = Don't speak!"
         },
         {
           "id": "l24-p3",
@@ -3476,19 +3476,19 @@
           "prompt": "Match the command form to its meaning",
           "pairs": [
             {
-              "shavian": "{{prefix:verb-command-do-symbol-symbol}}{{dict:i:0317.word}}",
+              "shavian": "{{prefix:verb-command-do-symbol}}{{dict:i:0317.word}}",
               "english": "Walk!"
             },
             {
-              "shavian": "{{prefix:verb-command-do-not-symbol-symbol}}{{dict:i:0317.word}}",
+              "shavian": "{{prefix:verb-command-do-not-symbol}}{{dict:i:0317.word}}",
               "english": "Don't walk!"
             },
             {
-              "shavian": "{{prefix:verb-command-do-symbol-symbol}}{{dict:i:0109.word}}",
+              "shavian": "{{prefix:verb-command-do-symbol}}{{dict:i:0109.word}}",
               "english": "Move!"
             },
             {
-              "shavian": "{{prefix:verb-command-do-not-symbol-symbol}}{{dict:i:0040.word}}",
+              "shavian": "{{prefix:verb-command-do-not-symbol}}{{dict:i:0040.word}}",
               "english": "Don't speak!"
             }
           ]
@@ -3513,7 +3513,7 @@
       "unit": "unit-4",
       "order": 28,
       "title": "Subordinate clauses",
-      "subtitle": "Clause verb prefix {{prefix:verb-clause-base-symbol}}",
+      "subtitle": "I know that you like food",
       "description": "How to embed one clause inside another — 'I know that you want...'",
       "estimatedMinutes": 8,
       "xp": 100,
@@ -3529,10 +3529,10 @@
         {
           "id": "g-clause-opener",
           "title": "Clause opener: {{dict:i:1933.word}}",
-          "body": "The word {{dict:i:1933.word}} (that/which) opens a subordinate clause — a phrase like 'that she went' or 'which I found'. Everything inside the clause follows {{dict:i:1933.word}} and stays grouped together.\n\nInside the clause, verbs use the clause verb prefix {{prefix:verb-clause-base-symbol-symbol}} instead of a tense prefix. Nouns still use their normal prefixes ({{prefix:noun-subject-base-symbol-symbol}}, {{prefix:noun-object-base-symbol-symbol}}, etc.).",
+          "body": "The word {{dict:i:1933.word}} (that/which) opens a subordinate clause — a phrase like 'that she went' or 'which I found'. Everything inside the clause follows {{dict:i:1933.word}} and stays grouped together.\n\nInside the clause, verbs use whichever tense prefix makes the most sense for the contex. Nouns use their normal prefixes ({{prefix:noun-subject-base-symbol}}, {{prefix:noun-object-base-symbol}}, etc.).",
           "examples": [
             {
-              "shavian": "{{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰.word}} {{prefix:verb-present-base-symbol}}{{dict:i:0014.word}} {{dict:i:1933.word}} {{prefix:noun-subject-base-symbol}}{{dict:i:0356.word}} {{prefix:verb-clause-base-symbol-symbol}}{{dict:i:0109.word}}",
+              "shavian": "{{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰.word}} {{prefix:verb-present-base-symbol}}{{dict:i:0014.word}} {{dict:i:1933.word}} {{prefix:noun-subject-base-symbol}}{{dict:i:0356.word}} {{prefix:verb-past-base-symbol}}{{dict:i:0109.word}}",
               "gloss": "I know that the dog moved",
               "breakdown": [
                 {
@@ -3571,7 +3571,7 @@
                   "meaning": "dog"
                 },
                 {
-                  "part": "{{prefix:verb-clause-base-symbol-symbol}}",
+                  "part": "{{prefix:verb-past-base-symbol}}",
                   "role": "prefix",
                   "meaning": "clause verb"
                 },
@@ -3605,52 +3605,39 @@
           "type": "multipleChoice",
           "prompt": "Inside a subordinate clause, verbs use which prefix?",
           "options": [
-            "{{prefix:verb-present-base-symbol-symbol}}",
-            "{{prefix:verb-past-base-symbol-symbol}}",
-            "{{prefix:verb-clause-base-symbol-symbol}}",
-            "{{prefix:verb-future-base-symbol-symbol}}"
+            "{{prefix:verb-present-base-symbol}}",
+            "{{prefix:verb-past-base-symbol}}",
+            "whichever verb prefix matches what you're trying to say",
+            "{{prefix:verb-future-base-symbol}}"
           ],
           "correctIndex": 2,
-          "explanation": "{{prefix:verb-clause-base-symbol-symbol}} is the clause verb prefix. Regular tense prefixes are replaced by this inside subordinate clauses."
+          "explanation": "The clause verb should match the tense of the clause. If the clause is explaining something that has already happend, it could use {{prefix:verb-past-base}}. If the clause is explaining something that will be ongoing in the future, it could use {{prefix:verb-progressive-future-ticked}}"
         },
         {
           "id": "l25-p3",
           "type": "multipleChoice",
           "prompt": "Which is correct for 'I know that she loves dogs'?",
           "options": [
-            "{{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰.word}} {{prefix:verb-present-base-symbol}}{{dict:i:0014.word}} {{dict:i:1933.word}} {{prefix:noun-subject-base-symbol}}{{dict:sv:𐑱.word}} {{prefix:verb-clause-base-symbol-symbol}}{{dict:i:0055.word}} {{prefix:noun-generic-base-symbol-symbol}}𐑮{{dict:i:0356.word}}",
-            "{{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰.word}} {{prefix:verb-present-base-symbol}}{{dict:i:0014.word}} {{prefix:noun-subject-base-symbol}}{{dict:sv:𐑱.word}} {{prefix:verb-present-base-symbol}}{{dict:i:0055.word}} {{prefix:noun-generic-base-symbol-symbol}}𐑮{{dict:i:0356.word}}",
-            "{{dict:i:1933.word}} {{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰.word}} {{prefix:verb-present-base-symbol}}{{dict:i:0014.word}} {{prefix:noun-subject-base-symbol}}{{dict:sv:𐑱.word}} {{prefix:verb-clause-base-symbol-symbol}}{{dict:i:0055.word}}",
+            "{{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰.word}} {{prefix:verb-present-base-symbol}}{{dict:i:0014.word}} {{dict:i:1933.word}} {{prefix:noun-subject-base-symbol}}{{dict:sv:𐑱.word}} {{prefix:verb-present-base-symbol}}{{dict:i:0055.word}} {{prefix:noun-generic-plural-symbol}}{{dict:i:0356.word}}",
+            "{{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰.word}} {{prefix:verb-present-base-symbol}}{{dict:i:0014.word}} {{prefix:noun-subject-base-symbol}}{{dict:sv:𐑱.word}} {{prefix:verb-present-base-symbol}}{{dict:i:0055.word}} {{prefix:noun-generic-base-symbol}}{{dict:i:0356.word}}",
+            "{{dict:i:1933.word}} {{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰.word}} {{prefix:verb-present-base-symbol}}{{dict:i:0014.word}} {{prefix:noun-subject-base-symbol}}{{dict:sv:𐑱.word}} {{prefix:verb-present-base-symbol}}{{dict:i:0055.word}}",
             "{{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰.word}} {{prefix:verb-present-base-symbol}}{{dict:i:0014.word}} {{dict:i:1933.word}} {{prefix:noun-subject-base-symbol}}{{dict:sv:𐑱.word}} {{prefix:verb-present-base-symbol}}{{dict:i:0055.word}}"
           ],
           "correctIndex": 0,
-          "explanation": "Main clause: I know. Then {{dict:i:1933.word}} opens the sub-clause. Inside: she (subject) + {{prefix:verb-clause-base-symbol-symbol}} love + dogs (generic plural noun)."
+          "explanation": "Main clause: I know. Then {{dict:i:1933.word}} opens the sub-clause. Inside: she (subject) + {{prefix:verb-present-base-symbol}} love + dogs (generic plural noun)."
         },
         {
           "id": "l25-p4",
           "type": "multipleChoice",
-          "prompt": "Can nouns inside a subordinate clause still use {{prefix:noun-subject-base-symbol-symbol}} and {{prefix:noun-object-base-symbol-symbol}}?",
+          "prompt": "Can nouns inside a subordinate clause still use {{prefix:noun-subject-base-symbol}} and {{prefix:noun-object-base-symbol}}?",
           "options": [
-            "No — they use {p('verb-clause-base-symbol')} too",
+            "No — they use the noun clause symbol",
             "Yes — noun prefixes stay the same inside clauses",
             "Only the first noun can",
             "Only if the clause opener is present"
           ],
           "correctIndex": 1,
           "explanation": "Noun prefixes work the same inside and outside clauses. Only verb prefixes change — from tense markers to the clause verb prefix."
-        },
-        {
-          "id": "l25-p5",
-          "type": "multipleChoice",
-          "prompt": "What is {{prefix:verb-clause-base-symbol-symbol}} used for?",
-          "options": [
-            "Commands inside clauses",
-            "Ongoing action inside a clause",
-            "Verbs inside subordinate clauses (after that/which)",
-            "Reported speech"
-          ],
-          "correctIndex": 2,
-          "explanation": "{{prefix:verb-clause-base-symbol-symbol}} marks verbs inside subordinate clauses opened by {{dict:i:1933.word}}."
         }
       ]
     },
@@ -3674,8 +3661,8 @@
       "grammar": [
         {
           "id": "g-evidential",
-          "title": "The evidential {{prefix:evidential-reportative-base-symbol-symbol}}",
-          "body": "The evidential {{prefix:evidential-reportative-base-symbol-symbol}} (ticked sound) marks a statement as second-hand — something you didn't witness yourself. Without it, you're asserting personal knowledge. With it, you're signaling inference or hearsay.\n\nThis distinction exists in many languages. In thints it's a single ticked prefix on the verb.\n\nNegation of the evidential uses a modifier word (not {{prefix:operator-negation-symbol-symbol}} stack) to say 'apparently not'.",
+          "title": "The evidential {{prefix:evidential-reportative-base-symbol}}",
+          "body": "The evidential {{prefix:evidential-reportative-base-symbol}} (ticked sound) marks a statement as second-hand — something you didn't witness yourself. Without it, you're asserting personal knowledge. With it, you're signaling inference or hearsay.\n\nThis distinction exists in many languages. In thints it's a single ticked prefix on the verb.\n\nNegation of the evidential uses a modifier word (not {{prefix:operator-negation-symbol}} stack) to say 'apparently not'.",
           "examples": [
             {
               "shavian": "{{prefix:verb-present-base-symbol}}{{dict:i:0018.word}} {{prefix:noun-subject-base-symbol}}{{dict:sv:𐑱.word}}",
@@ -3699,11 +3686,11 @@
               ]
             },
             {
-              "shavian": "{{prefix:evidential-reportative-base-symbol-symbol}}{{dict:i:0018.word}} {{prefix:noun-subject-base-symbol}}{{dict:sv:𐑱.word}}",
+              "shavian": "{{prefix:evidential-reportative-base-symbol}}{{dict:i:0018.word}} {{prefix:noun-subject-base-symbol}}{{dict:sv:𐑱.word}}",
               "gloss": "apparently it is fine (I was told / I inferred)",
               "breakdown": [
                 {
-                  "part": "{{prefix:evidential-reportative-base-symbol-symbol}}",
+                  "part": "{{prefix:evidential-reportative-base-symbol}}",
                   "role": "prefix",
                   "meaning": "evidential — reported/inferred"
                 },
@@ -3727,7 +3714,7 @@
         {
           "id": "l26-p1",
           "type": "multipleChoice",
-          "prompt": "What does {{prefix:evidential-reportative-base-symbol-symbol}} signal?",
+          "prompt": "What does {{prefix:evidential-reportative-base-symbol}} signal?",
           "options": [
             "Past tense",
             "Future tense",
@@ -3735,17 +3722,17 @@
             "A command"
           ],
           "correctIndex": 2,
-          "explanation": "{{prefix:evidential-reportative-base-symbol-symbol}} is the evidential — it marks hearsay, inference, or reported information. Without it, the statement claims direct knowledge."
+          "explanation": "{{prefix:evidential-reportative-base-symbol}} is the evidential — it marks hearsay, inference, or reported information. Without it, the statement claims direct knowledge."
         },
         {
           "id": "l26-p2",
           "type": "multipleChoice",
-          "prompt": "What is the difference between {{prefix:verb-present-base-symbol}}{{dict:i:0014.word}} and {{prefix:evidential-reportative-base-symbol-symbol}}{{dict:i:0014.word}}?",
+          "prompt": "What is the difference between {{prefix:verb-present-base-symbol}}{{dict:i:0014.word}} and {{prefix:evidential-reportative-base-symbol}}{{dict:i:0014.word}}?",
           "options": [
-            "{{prefix:verb-present-base-symbol}}{{dict:i:0014.word}} = I know (direct). {{prefix:evidential-reportative-base-symbol-symbol}}{{dict:i:0014.word}} = apparently someone knows (reported)",
+            "{{prefix:verb-present-base-symbol}}{{dict:i:0014.word}} = I know (direct). {{prefix:evidential-reportative-base-symbol}}{{dict:i:0014.word}} = apparently someone knows (reported)",
             "They mean exactly the same thing",
-            "{{prefix:verb-present-base-symbol}}{{dict:i:0014.word}} is formal. {{prefix:evidential-reportative-base-symbol-symbol}}{{dict:i:0014.word}} is informal",
-            "{{prefix:verb-present-base-symbol}}{{dict:i:0014.word}} is present. {{prefix:evidential-reportative-base-symbol-symbol}}{{dict:i:0014.word}} is past"
+            "{{prefix:verb-present-base-symbol}}{{dict:i:0014.word}} is formal. {{prefix:evidential-reportative-base-symbol}}{{dict:i:0014.word}} is informal",
+            "{{prefix:verb-present-base-symbol}}{{dict:i:0014.word}} is present. {{prefix:evidential-reportative-base-symbol}}{{dict:i:0014.word}} is past"
           ],
           "correctIndex": 0,
           "explanation": "The evidential replaces the tense prefix to signal the information is reported or inferred, not first-hand."
@@ -3766,7 +3753,7 @@
         {
           "id": "l26-p4",
           "type": "multipleChoice",
-          "prompt": "Is {{prefix:evidential-reportative-base-symbol-symbol}} a ticked sound?",
+          "prompt": "Is {{prefix:evidential-reportative-base-symbol}} a ticked sound?",
           "options": [
             "No — it is a regular consonant",
             "Yes — it uses a ticked consonant not found in English",
@@ -3774,7 +3761,7 @@
             "It depends on dialect"
           ],
           "correctIndex": 1,
-          "explanation": "{{prefix:evidential-reportative-base-symbol-symbol}} is a ticked sound — one of the five rare ticked consonants. That's why it's phonetically distinct from all tense prefixes."
+          "explanation": "{{prefix:evidential-reportative-base-symbol}} is a ticked sound — one of the five rare ticked consonants. That's why it's phonetically distinct from all tense prefixes."
         },
         {
           "id": "l26-p5",
@@ -3783,11 +3770,11 @@
           "options": [
             "{{prefix:verb-present-base-symbol}}{{dict:i:0018.word}}",
             "{{prefix:verb-past-base-symbol}}{{dict:i:0018.word}}",
-            "{{prefix:evidential-reportative-base-symbol-symbol}}{{dict:i:0018.word}}",
-            "{{prefix:verb-clause-base-symbol-symbol}}{{dict:i:0018.word}}"
+            "{{prefix:evidential-reportative-base-symbol}}{{dict:i:0018.word}}",
+            "{{prefix:verb-progressive-past-ticked-symbol}}{{dict:i:0018.word}}"
           ],
           "correctIndex": 2,
-          "explanation": "{{prefix:evidential-reportative-base-symbol-symbol}}{{dict:i:0018.word}} = apparently fine. The evidential replaces the tense prefix."
+          "explanation": "{{prefix:evidential-reportative-base-symbol}}{{dict:i:0018.word}} = apparently fine. The evidential replaces the tense prefix."
         }
       ]
     },
@@ -3812,14 +3799,14 @@
         {
           "id": "g-ticked-progressive",
           "title": "Past and future progressive with ticked sounds",
-          "body": "The regular progressive {{prefix:verb-progressive-base-symbol-symbol}} covers ongoing present ('I am doing'). For ongoing past and future, ticked sounds take over — they're rare, so they're saved for these low-frequency forms.\n\n{{prefix:verb-progressive-past-ticked-symbol-symbol}} = was doing (ongoing past)\n{{prefix:verb-progressive-future-ticked-symbol-symbol}} = will be doing (ongoing future)\n{{prefix:verb-progressive-emphatic-ticked-symbol-symbol}} = am doing right now (emphatic present)\n\nNegation follows the same pattern as the base progressive: stack {{prefix:operator-negation-symbol-symbol}} before.",
+          "body": "The regular progressive {{prefix:verb-progressive-base-symbol}} covers ongoing present ('I am doing'). For ongoing past and future, ticked sounds take over — they're rare, so they're saved for these low-frequency forms.\n\n{{prefix:verb-progressive-past-ticked-symbol}} = was doing (ongoing past)\n{{prefix:verb-progressive-future-ticked-symbol}} = will be doing (ongoing future)\n{{prefix:verb-progressive-emphatic-ticked-symbol}} = am doing right now (emphatic present)\n\nNegation follows the same pattern as the base progressive: stack {{prefix:operator-negation-symbol}} before.",
           "examples": [
             {
-              "shavian": "{{prefix:verb-progressive-past-ticked-symbol-symbol}}{{dict:i:0040.word}} {{prefix:noun-subject-base-symbol}}{{dict:sv:𐑱.word}}",
+              "shavian": "{{prefix:verb-progressive-past-ticked-symbol}}{{dict:i:0040.word}} {{prefix:noun-subject-base-symbol}}{{dict:sv:𐑱.word}}",
               "gloss": "she was speaking (ongoing past)",
               "breakdown": [
                 {
-                  "part": "{{prefix:verb-progressive-past-ticked-symbol-symbol}}",
+                  "part": "{{prefix:verb-progressive-past-ticked-symbol}}",
                   "role": "verb-progressive",
                   "meaning": "ongoing past (ticked)"
                 },
@@ -3836,11 +3823,11 @@
               ]
             },
             {
-              "shavian": "{{prefix:verb-progressive-future-ticked-symbol-symbol}}{{dict:i:0014.word}} {{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰.word}}",
+              "shavian": "{{prefix:verb-progressive-future-ticked-symbol}}{{dict:i:0014.word}} {{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰.word}}",
               "gloss": "I will be knowing / I will be learning",
               "breakdown": [
                 {
-                  "part": "{{prefix:verb-progressive-future-ticked-symbol-symbol}}",
+                  "part": "{{prefix:verb-progressive-future-ticked-symbol}}",
                   "role": "verb-progressive",
                   "meaning": "ongoing future (ticked)"
                 },
@@ -3864,7 +3851,7 @@
         {
           "id": "l27-p1",
           "type": "multipleChoice",
-          "prompt": "What does {{prefix:verb-progressive-past-ticked-symbol-symbol}} mark?",
+          "prompt": "What does {{prefix:verb-progressive-past-ticked-symbol}} mark?",
           "options": [
             "Simple past",
             "Ongoing past ('was doing')",
@@ -3872,7 +3859,7 @@
             "Ongoing present emphatic"
           ],
           "correctIndex": 1,
-          "explanation": "{{prefix:verb-progressive-past-ticked-symbol-symbol}} = ongoing past — 'was doing'. Its counterpart {{prefix:verb-progressive-base-symbol-symbol}} is ongoing present, {{prefix:verb-progressive-future-ticked-symbol-symbol}} is ongoing future."
+          "explanation": "{{prefix:verb-progressive-past-ticked-symbol}} = ongoing past — 'was doing'. Its counterpart {{prefix:verb-progressive-base-symbol}} is ongoing present, {{prefix:verb-progressive-future-ticked-symbol}} is ongoing future."
         },
         {
           "id": "l27-p2",
@@ -3894,11 +3881,11 @@
           "options": [
             "{{prefix:verb-past-base-symbol}}{{dict:i:0040.word}} {{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰.word}}",
             "{{prefix:verb-progressive-base-symbol}}{{dict:i:0040.word}} {{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰.word}}",
-            "{{prefix:verb-progressive-past-ticked-symbol-symbol}}{{dict:i:0040.word}} {{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰.word}}",
-            "{{prefix:verb-progressive-future-ticked-symbol-symbol}}{{dict:i:0040.word}} {{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰.word}}"
+            "{{prefix:verb-progressive-past-ticked-symbol}}{{dict:i:0040.word}} {{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰.word}}",
+            "{{prefix:verb-progressive-future-ticked-symbol}}{{dict:i:0040.word}} {{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰.word}}"
           ],
           "correctIndex": 2,
-          "explanation": "{{prefix:verb-progressive-past-ticked-symbol-symbol}} = was doing (ongoing past). {{prefix:verb-past-base-symbol}} = simple past (did)."
+          "explanation": "{{prefix:verb-progressive-past-ticked-symbol}} = was doing (ongoing past). {{prefix:verb-past-base-symbol}} = simple past (did)."
         },
         {
           "id": "l27-p4",
@@ -3906,19 +3893,19 @@
           "prompt": "Match the progressive form to its meaning",
           "pairs": [
             {
-              "shavian": "{{prefix:verb-progressive-base-symbol-symbol}}",
+              "shavian": "{{prefix:verb-progressive-base-symbol}}",
               "english": "is doing (ongoing present)"
             },
             {
-              "shavian": "{{prefix:verb-progressive-past-ticked-symbol-symbol}}",
+              "shavian": "{{prefix:verb-progressive-past-ticked-symbol}}",
               "english": "was doing (ongoing past)"
             },
             {
-              "shavian": "{{prefix:verb-progressive-future-ticked-symbol-symbol}}",
+              "shavian": "{{prefix:verb-progressive-future-ticked-symbol}}",
               "english": "will be doing (ongoing future)"
             },
             {
-              "shavian": "{{prefix:verb-progressive-emphatic-ticked-symbol-symbol}}",
+              "shavian": "{{prefix:verb-progressive-emphatic-ticked-symbol}}",
               "english": "am doing right now (emphatic)"
             }
           ]
@@ -3926,7 +3913,7 @@
         {
           "id": "l27-p5",
           "type": "multipleChoice",
-          "prompt": "What does {{prefix:verb-progressive-emphatic-ticked-symbol-symbol}}{{dict:i:0047.word}} mean?",
+          "prompt": "What does {{prefix:verb-progressive-emphatic-ticked-symbol}}{{dict:i:0047.word}} mean?",
           "options": [
             "I was delighted",
             "I am delighted (simple)",
@@ -3934,7 +3921,7 @@
             "I will delight"
           ],
           "correctIndex": 2,
-          "explanation": "{{prefix:verb-progressive-emphatic-ticked-symbol-symbol}} = ongoing present emphatic — 'am doing right now, at this very moment'. Used for stress and immediacy."
+          "explanation": "{{prefix:verb-progressive-emphatic-ticked-symbol}} = ongoing present emphatic — 'am doing right now, at this very moment'. Used for stress and immediacy."
         }
       ]
     },
@@ -3957,15 +3944,15 @@
       "grammar": [
         {
           "id": "g-fractions",
-          "title": "Fractions with {{prefix:number-fraction-base-symbol-symbol}}",
-          "body": "For clean fractions, use {{prefix:number-fraction-base-symbol-symbol}} before the denominator digit. The noun follows directly — since a noun always follows, no end marker is needed on the denominator.\n\n{{prefix:number-fraction-base-symbol-symbol}}2 = one half · {{prefix:number-fraction-base-symbol-symbol}}4 = one quarter · {{prefix:number-fraction-base-symbol-symbol}}3 = one third",
+          "title": "Fractions with {{prefix:number-fraction-base-symbol}}",
+          "body": "For clean fractions, use {{prefix:number-fraction-base-symbol}} before the denominator digit. The noun follows directly — since a noun always follows, no end marker is needed on the denominator.\n\n{{prefix:number-fraction-base-symbol}}2 = one half · {{prefix:number-fraction-base-symbol}}4 = one quarter · {{prefix:number-fraction-base-symbol}}3 = one third",
           "examples": [
             {
-              "shavian": "{{prefix:number-fraction-base-symbol-symbol}}{{dict:i:d4.word}} {{dict:i:0356.word}}",
+              "shavian": "{{prefix:number-fraction-base-symbol}}{{dict:i:d4.word}} {{dict:i:0356.word}}",
               "gloss": "a quarter of a dog",
               "breakdown": [
                 {
-                  "part": "{{prefix:number-fraction-base-symbol-symbol}}",
+                  "part": "{{prefix:number-fraction-base-symbol}}",
                   "role": "prefix",
                   "meaning": "fraction marker"
                 },
@@ -4054,7 +4041,7 @@
         {
           "id": "l28-p1",
           "type": "multipleChoice",
-          "prompt": "What does {{prefix:number-fraction-base-symbol-symbol}}{{dict:i:d2.word}} {{dict:i:0356.word}} mean?",
+          "prompt": "What does {{prefix:number-fraction-base-symbol}}{{dict:i:d2.word}} {{dict:i:0356.word}} mean?",
           "options": [
             "2 dogs",
             "A second dog",
@@ -4062,7 +4049,7 @@
             "A pair of dogs"
           ],
           "correctIndex": 2,
-          "explanation": "{{prefix:number-fraction-base-symbol-symbol}} = fraction marker. {{dict:i:d2.word}} = 2 (denominator). So this is one half of a dog."
+          "explanation": "{{prefix:number-fraction-base-symbol}} = fraction marker. {{dict:i:d2.word}} = 2 (denominator). So this is one half of a dog."
         },
         {
           "id": "l28-p2",
@@ -4151,10 +4138,10 @@
         {
           "id": "g-complex",
           "title": "Combining what you know",
-          "body": "Complex sentences in thints are built from the same small set of rules — there are no new mechanisms, just combinations.\n\nFree word order means the same meaning can be expressed in many arrangements. Only modifier adjacency is strict — a modifier must sit right next to what it modifies.\n\nSentences can stack:\n• A main clause + a subordinate clause ({{dict:i:1933.word}} + {{prefix:verb-clause-base-symbol-symbol}})\n• A statement + an evidential ({{prefix:evidential-reportative-base-symbol-symbol}})\n• Multiple noun phrases in any order",
+          "body": "Complex sentences in thints are built from the same small set of rules — there are no new mechanisms, just combinations.\n\nFree word order means the same meaning can be expressed in many arrangements. Only modifier adjacency is strict — a modifier must sit right next to what it modifies. If the modifier is taking the place of an adjective or adverb, it follows immediately after the verb or now. There can be one or many. If it is signifiying a quantity or possession, it goes in front of what it's modifying.\n\nSentences can stack:\n• A main clause + a subordinate clause ({{dict:i:1933.word}} + {{prefix:verb-present-base-symbol}})\n• A statement + an evidential ({{prefix:evidential-reportative-base-symbol}})\n• Multiple noun phrases in any order",
           "examples": [
             {
-              "shavian": "{{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰.word}} {{prefix:verb-present-base-symbol}}{{dict:i:0014.word}} {{dict:i:1933.word}} {{prefix:noun-subject-base-symbol}}{{dict:sv:𐑱.word}} {{prefix:verb-clause-base-symbol-symbol}}{{dict:i:0015.word}} {{prefix:noun-object-base-symbol}}{{dict:sv:𐑰.word}}",
+              "shavian": "{{prefix:noun-subject-base-symbol}}{{dict:sv:𐑰.word}} {{prefix:verb-present-base-symbol}}{{dict:i:0014.word}} {{dict:i:1933.word}} {{prefix:noun-subject-base-symbol}}{{dict:sv:𐑱.word}} {{prefix:verb-present-base-symbol}}{{dict:i:0015.word}} {{prefix:noun-object-base-symbol}}{{dict:sv:𐑰.word}}",
               "gloss": "I know that she wants me",
               "breakdown": [
                 {
@@ -4193,9 +4180,9 @@
                   "meaning": "she/they"
                 },
                 {
-                  "part": "{{prefix:verb-clause-base-symbol-symbol}}",
+                  "part": "{{prefix:verb-present-base-symbol}}",
                   "role": "prefix",
-                  "meaning": "clause verb"
+                  "meaning": "present verb"
                 },
                 {
                   "part": "{{dict:i:0015.word}}",
@@ -4237,13 +4224,12 @@
           "type": "multipleChoice",
           "prompt": "In a complex sentence with a subordinate clause, which verb prefix changes?",
           "options": [
-            "Subject prefix — from {{prefix:noun-subject-base-symbol-symbol}} to {{prefix:noun-object-base-symbol-symbol}}",
-            "Main verb prefix — from {{prefix:verb-present-base-symbol-symbol}} to {{prefix:verb-past-base-symbol-symbol}}",
-            "Clause verb prefix — from tense ({{prefix:verb-present-base-symbol-symbol}} etc.) to {{prefix:verb-clause-base-symbol-symbol}}",
+            "Subject prefix — from {{prefix:noun-subject-base-symbol}} to {{prefix:noun-object-base-symbol}}",
+            "Main verb prefix — from {{prefix:verb-present-base-symbol}} to {{prefix:verb-past-base-symbol}}",
             "Nothing changes — all prefixes stay the same"
           ],
           "correctIndex": 2,
-          "explanation": "Inside a subordinate clause, verbs switch from tense prefixes to the clause verb prefix {{prefix:verb-clause-base-symbol-symbol}}."
+          "explanation": "In a subordinate clause, nothing changes"
         },
         {
           "id": "l29-p3",
@@ -4276,10 +4262,10 @@
           "type": "multipleChoice",
           "prompt": "'The big dog apparently was speaking.' Which sentence is correct?",
           "options": [
-            "{{prefix:evidential-reportative-base-symbol-symbol}}{{dict:i:0040.word}} {{prefix:noun-subject-base-symbol}}{{dict:i:0356.word}} {{prefix:modifier-base-symbol}}{{dict:i:0027.word}}",
-            "{{prefix:noun-subject-base-symbol}}{{dict:i:0356.word}} {{prefix:modifier-base-symbol}}{{dict:i:0027.word}} {{prefix:verb-progressive-past-ticked-symbol-symbol}}{{dict:i:0040.word}}",
-            "{{prefix:verb-progressive-past-ticked-symbol-symbol}}{{dict:i:0040.word}} {{prefix:modifier-base-symbol}}{{dict:i:0027.word}} {{prefix:noun-subject-base-symbol}}{{dict:i:0356.word}}",
-            "{{prefix:evidential-reportative-base-symbol-symbol}}{{dict:i:0040.word}} {{prefix:modifier-base-symbol}}{{dict:i:0027.word}} {{prefix:noun-subject-base-symbol}}{{dict:i:0356.word}}"
+            "{{prefix:evidential-reportative-base-symbol}}{{dict:i:0040.word}} {{prefix:noun-subject-base-symbol}}{{dict:i:0356.word}} {{prefix:modifier-base-symbol}}{{dict:i:0027.word}}",
+            "{{prefix:noun-subject-base-symbol}}{{dict:i:0356.word}} {{prefix:modifier-base-symbol}}{{dict:i:0027.word}} {{prefix:verb-progressive-past-ticked-symbol}}{{dict:i:0040.word}}",
+            "{{prefix:verb-progressive-past-ticked-symbol}}{{dict:i:0040.word}} {{prefix:modifier-base-symbol}}{{dict:i:0027.word}} {{prefix:noun-subject-base-symbol}}{{dict:i:0356.word}}",
+            "{{prefix:evidential-reportative-base-symbol}}{{dict:i:0040.word}} {{prefix:modifier-base-symbol}}{{dict:i:0027.word}} {{prefix:noun-subject-base-symbol}}{{dict:i:0356.word}}"
           ],
           "correctIndex": 3,
           "explanation": "Evidential on the verb (apparently was speaking). Modifier {{dict:i:0027.word}} must be adjacent to the noun {{dict:i:0356.word}}. Word order is otherwise free — option D has both correct."
@@ -4306,7 +4292,7 @@
         {
           "id": "g-borrow",
           "title": "Borrowing words: {{dict:fw:𐑽.word}} and aliases",
-          "body": "When you need a word thints doesn't have, use the borrow marker {{dict:fw:𐑽.word}} to introduce it. The borrowed span closes when you assign it an alias word — a short one-syllable handle that works like any regular word.\n\nFive alias words are available: alias:1 · alias:2 · alias:3 · alias:4 · alias:5\n\nOnce assigned, an alias takes any prefix:\n{{prefix:noun-subject-base-symbol-symbol}}[alias] · {{prefix:verb-present-base-symbol-symbol}}[alias] · {{prefix:modifier-base-symbol-symbol}}[alias]",
+          "body": "When you need a word thints doesn't have, use the borrow marker {{dict:fw:𐑽.word}} to introduce it. The borrowed span closes when you assign it an alias word — a short one-syllable handle that works like any regular word.\n\nFive alias words are available: alias:1 · alias:2 · alias:3 · alias:4 · alias:5\n\nOnce assigned, an alias takes any prefix:\n{{prefix:noun-subject-base-symbol}}[alias] · {{prefix:verb-present-base-symbol}}[alias] · {{prefix:modifier-base-symbol}}[alias]",
           "examples": [
             {
               "shavian": "{{dict:fw:𐑽.word}} schadenfreude {{dict:alias:3.word}}",
@@ -4330,11 +4316,11 @@
               ]
             },
             {
-              "shavian": "{{prefix:noun-subject-base-symbol-symbol}}{{dict:alias:3.word}} {{prefix:verb-present-base-symbol}}{{dict:i:0047.word}}",
+              "shavian": "{{prefix:noun-subject-base-symbol}}{{dict:alias:3.word}} {{prefix:verb-present-base-symbol}}{{dict:i:0047.word}}",
               "gloss": "A3 delights (using the alias as subject)",
               "breakdown": [
                 {
-                  "part": "{{prefix:noun-subject-base-symbol-symbol}}",
+                  "part": "{{prefix:noun-subject-base-symbol}}",
                   "role": "prefix",
                   "meaning": "subject"
                 },
@@ -4360,15 +4346,15 @@
         },
         {
           "id": "g-generic-noun",
-          "title": "The generic noun prefix {{prefix:noun-generic-base-symbol-symbol}}",
-          "body": "When a borrowed word or a word with no clear grammatical role needs a prefix, use {{prefix:noun-generic-base-symbol-symbol}} — the generic noun marker. It says 'this is a noun but I'm not specifying its role in the sentence'.\n\nThis is the default for dictionary entries, list items, titles, and borrowed words that haven't been slotted into a sentence structure yet.",
+          "title": "The generic noun prefix {{prefix:noun-generic-base-symbol}}",
+          "body": "When a borrowed word or a word with no clear grammatical role needs a prefix, use {{prefix:noun-generic-base-symbol}} — the generic noun marker. It says 'this is a noun but I'm not specifying its role in the sentence'.\n\nThis is the default for dictionary entries, list items, titles, and borrowed words that haven't been slotted into a sentence structure yet.",
           "examples": [
             {
-              "shavian": "{{prefix:noun-generic-base-symbol-symbol}}{{dict:fw:𐑽.word}}",
+              "shavian": "{{prefix:noun-generic-base-symbol}}{{dict:fw:𐑽.word}}",
               "gloss": "a borrowable (a generic item)",
               "breakdown": [
                 {
-                  "part": "{{prefix:noun-generic-base-symbol-symbol}}",
+                  "part": "{{prefix:noun-generic-base-symbol}}",
                   "role": "prefix",
                   "meaning": "generic noun"
                 }
@@ -4421,7 +4407,7 @@
         {
           "id": "l30-p4",
           "type": "multipleChoice",
-          "prompt": "When would you use the generic noun prefix {{prefix:noun-generic-base-symbol-symbol}}?",
+          "prompt": "When would you use the generic noun prefix {{prefix:noun-generic-base-symbol}}?",
           "options": [
             "When you want a plural noun",
             "When a word has no specific grammatical role in the sentence",
@@ -4429,7 +4415,7 @@
             "Only for titles and names"
           ],
           "correctIndex": 1,
-          "explanation": "{{prefix:noun-generic-base-symbol-symbol}} marks a noun without a specific grammatical role — useful for labels, titles, list items, and borrowed words not yet placed in a sentence."
+          "explanation": "{{prefix:noun-generic-base-symbol}} marks a noun without a specific grammatical role — useful for labels, titles, list items, and borrowed words not yet placed in a sentence."
         },
         {
           "id": "l30-p5",

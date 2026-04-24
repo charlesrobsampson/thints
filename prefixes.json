@@ -59,7 +59,7 @@
           "rank": 1,
           "forms": {
             "noun-subject-base": {
-              "symbol": "𐑐",
+              "symbol": "𐑒",
               "label": "Subject",
               "example": "the dog runs",
               "negated": false,
@@ -68,7 +68,7 @@
               "rank": 1
             },
             "noun-subject-plural": {
-              "symbol": "𐑐𐑮",
+              "symbol": "𐑒𐑮",
               "label": "Subject (plural)",
               "example": "the dogs run",
               "negated": false,
@@ -77,7 +77,7 @@
               "rank": 2
             },
             "noun-subject-negated": {
-              "symbol": "𐑕𐑐",
+              "symbol": "𐑕𐑒",
               "label": "Subject (negated)",
               "example": "not the dog — something else runs",
               "negated": true,
@@ -86,7 +86,7 @@
               "rank": 3
             },
             "noun-subject-negated-plural": {
-              "symbol": "𐑕𐑐𐑮",
+              "symbol": "𐑕𐑒𐑮",
               "label": "Subject (negated + plural)",
               "example": "not the dogs",
               "negated": true,
@@ -149,7 +149,7 @@
           "rank": 3,
           "forms": {
             "noun-indirect-base": {
-              "symbol": "𐑒",
+              "symbol": "𐑐",
               "label": "Indirect object",
               "example": "I gave the dog a bone",
               "negated": false,
@@ -158,7 +158,7 @@
               "rank": 1
             },
             "noun-indirect-plural": {
-              "symbol": "𐑒𐑮",
+              "symbol": "𐑐𐑮",
               "label": "Indirect object (plural)",
               "example": "I gave the dogs bones",
               "negated": false,
@@ -167,7 +167,7 @@
               "rank": 2
             },
             "noun-indirect-negated": {
-              "symbol": "𐑕𐑒",
+              "symbol": "𐑕𐑐",
               "label": "Indirect object (negated)",
               "example": "not for the dog — for something else",
               "negated": true,
@@ -176,7 +176,7 @@
               "rank": 3
             },
             "noun-indirect-negated-plural": {
-              "symbol": "𐑕𐑒𐑮",
+              "symbol": "𐑕𐑐𐑮",
               "label": "Indirect object (negated + plural)",
               "example": "not for the dogs",
               "negated": true,
@@ -234,7 +234,7 @@
           "rank": 1,
           "forms": {
             "verb-present-base": {
-              "symbol": "𐑥",
+              "symbol": "𐑓𐑮",
               "label": "Present",
               "example": "I eat",
               "tense": "present",
@@ -254,7 +254,7 @@
               "rank": 2
             },
             "verb-past-base": {
-              "symbol": "𐑯",
+              "symbol": "𐑓𐑤",
               "label": "Past",
               "example": "I ate",
               "tense": "past",
@@ -274,7 +274,7 @@
               "rank": 4
             },
             "verb-future-base": {
-              "symbol": "𐑛",
+              "symbol": "𐑐𐑢",
               "label": "Future",
               "example": "I will eat",
               "tense": "future",
@@ -304,7 +304,7 @@
           "rank": 2,
           "forms": {
             "verb-progressive-base": {
-              "symbol": "𐑚",
+              "symbol": "𐑚𐑤",
               "label": "Ongoing (present)",
               "example": "I am eating",
               "tense": "present",
@@ -322,16 +322,6 @@
               "negated": true,
               "valid_count": 107,
               "rank": 2
-            },
-            "verb-progressive-number-context": {
-              "symbol": "𐑚𐑤",
-              "label": "Ongoing + number context",
-              "example": "progressive with numeric reference",
-              "tense": "present",
-              "aspect": "progressive",
-              "negated": false,
-              "valid_count": 66,
-              "rank": 3
             }
           }
         },
@@ -374,39 +364,6 @@
               "valid_count": null,
               "note": "𐑚 covers most present progressive cases. Use 𐑕' only when the immediacy or stress matters.",
               "fallback": "𐑚 — use when precision isn't critical",
-              "rank": 3
-            }
-          }
-        },
-        "verb-clause": {
-          "label": "Clause verb",
-          "description": "Verb inside a subordinate clause, following a clause opener word",
-          "lesson_order": 4,
-          "ticked": false,
-          "rank": 4,
-          "forms": {
-            "verb-clause-base": {
-              "symbol": "𐑓",
-              "label": "Clause verb",
-              "example": "I know that she eats",
-              "negated": false,
-              "valid_count": 567,
-              "rank": 1
-            },
-            "verb-clause-negated": {
-              "symbol": "𐑓𐑮",
-              "label": "Clause verb (negated)",
-              "example": "I know that she does not eat",
-              "negated": true,
-              "valid_count": 54,
-              "rank": 2
-            },
-            "verb-clause-number-context": {
-              "symbol": "𐑓𐑤",
-              "label": "Clause verb + number context",
-              "example": "clause verb with numeric reference",
-              "negated": false,
-              "valid_count": 49,
               "rank": 3
             }
           }
@@ -457,7 +414,7 @@
           "rank": 1,
           "forms": {
             "modal-ability-base": {
-              "symbol": "𐑟",
+              "symbol": "𐑒𐑢",
               "label": "Can / could",
               "example": "I can eat",
               "modal": "ability",
@@ -468,7 +425,7 @@
               "rank": 1
             },
             "modal-obligation-base": {
-              "symbol": "𐑡",
+              "symbol": "𐑑𐑢",
               "label": "Should / must",
               "example": "I should eat",
               "modal": "obligation",
@@ -479,7 +436,7 @@
               "rank": 2
             },
             "modal-conditional-base": {
-              "symbol": "𐑜",
+              "symbol": "𐑜𐑢",
               "label": "Would / conditional",
               "example": "I would eat if…",
               "modal": "conditional",
@@ -496,17 +453,8 @@
               "valid_count": 113,
               "rank": 4
             },
-            "modal-conditional-number-context": {
-              "symbol": "𐑜𐑤",
-              "label": "Conditional + number context",
-              "example": "conditional with numeric reference",
-              "modal": "conditional",
-              "negated": false,
-              "valid_count": 15,
-              "rank": 5
-            },
             "modal-conditional-prohibition": {
-              "symbol": "𐑜𐑢",
+              "symbol": "𐑜𐑤",
               "label": "Conditional prohibition",
               "example": "must not — conditionally",
               "modal": "conditional",
@@ -545,11 +493,10 @@
               "rank": 1
             },
             "modifier-negated": {
-              "symbol": "𐑠",
+              "symbol": "𐑖𐑮",
               "label": "Modifier (negated)",
               "example": "not big / unhappy / careless",
               "negated": true,
-              "note": "𐑠 is its own sound — not 𐑕 + 𐑖. The fricative family handles its own negation.",
               "valid_count": 58,
               "rank": 2
             }
