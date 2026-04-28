@@ -222,7 +222,7 @@
     "suffix": ""
   },
   "i:0008": {
-    "word": "𐑸𐑑",
+    "word": "𐑹𐑑",
     "definition": "The extent, magnitude, or intensity of something; how much.",
     "group": "Quantity & Degree",
     "rank": 16,
@@ -1120,14 +1120,17 @@
   },
   "i:0083": {
     "word": "𐑨𐑯𐑑",
-    "definition": "The absence of any quantity; zero.",
+    "definition": "The digit zero; the numeric value 0. Used in counting, scales, and numeric expressions. The absence of any quantity.",
     "group": "Existence, State & Absence",
     "rank": 74,
     "translations": [
+      "0",
       "zero",
-      "none",
-      "nothing",
       "null",
+      "none",
+      "off",
+      "digit",
+      "nothing",
       "absence",
       "void"
     ],
@@ -1212,7 +1215,7 @@
     "suffix": "𐑣'"
   },
   "i:0090": {
-    "word": "𐑩𐑯𐑗",
+    "word": "𐑵𐑯𐑗",
     "definition": "The degree or intensity of change; how much something changes.",
     "group": "Change & Process",
     "rank": 80,
@@ -2478,7 +2481,7 @@
     "suffix": "𐑥"
   },
   "i:0211": {
-    "word": "𐑪𐑑𐑕",
+    "word": "𐑬𐑑𐑕",
     "definition": "Unacceptable, offensive, or disagreeable; not satisfactory.",
     "group": "Evaluation, Quality & Morality",
     "rank": 162,
@@ -2557,22 +2560,6 @@
     "vowel": "𐑰",
     "suffix": "𐑑𐑕"
   },
-  "i:d0": {
-    "word": "𐑬𐑯𐑑",
-    "definition": "The digit zero; the numeric value 0. Used in counting, scales, and numeric expressions.",
-    "group": "Existence, State & Absence",
-    "rank": 167,
-    "translations": [
-      "0",
-      "zero",
-      "null",
-      "none",
-      "off",
-      "digit"
-    ],
-    "vowel": "𐑬",
-    "suffix": "𐑯𐑑"
-  },
   "i:0218": {
     "word": "𐑲𐑯𐑑𐑕",
     "definition": "A written representation of information; text.",
@@ -2590,7 +2577,7 @@
     "suffix": "𐑯𐑑𐑕"
   },
   "i:0226": {
-    "word": "𐑱𐑯𐑡",
+    "word": "𐑫𐑯𐑡",
     "definition": "A positive, respectful attitude conveying goodwill and admiration.",
     "group": "Social Interaction",
     "rank": 169,
@@ -4537,7 +4524,7 @@
     "suffix": "𐑯"
   },
   "i:d2": {
-    "word": "𐑫𐑯𐑡",
+    "word": "𐑱𐑯𐑡",
     "definition": "The digit two; the numeric value 2.",
     "group": "Social Interaction",
     "rank": 294,
@@ -5168,7 +5155,7 @@
     "suffix": "𐑛"
   },
   "i:0604": {
-    "word": "𐑰𐑠",
+    "word": "𐑶𐑠",
     "definition": "The faculty of perceiving and distinguishing differences; discrimination.",
     "group": "Perception & Senses",
     "rank": 335,
@@ -5467,7 +5454,7 @@
     "suffix": "𐑚"
   },
   "i:d5": {
-    "word": "𐑶𐑠",
+    "word": "𐑰𐑠",
     "definition": "The digit five; the numeric value 5. Also the midpoint of any 0–9 scale.",
     "group": "Perception & Senses",
     "rank": 354,
@@ -5772,7 +5759,7 @@
     "suffix": "𐑓"
   },
   "i:0883": {
-    "word": "𐑲𐑥",
+    "word": "𐑶𐑥",
     "definition": "A religious gathering and the place where it is held; a church service.",
     "group": "Belief, Spirit & Meaning",
     "rank": 374,
@@ -5868,7 +5855,7 @@
     "suffix": "𐑟"
   },
   "i:d3": {
-    "word": "𐑹𐑑",
+    "word": "𐑸𐑑",
     "definition": "The digit three; the numeric value 3.",
     "group": "Quantity & Degree",
     "rank": 380,
@@ -6007,7 +5994,7 @@
     "suffix": "𐑓𐑑"
   },
   "i:d4": {
-    "word": "𐑵𐑯𐑔",
+    "word": "𐑦𐑯𐑔",
     "definition": "The digit four; the numeric value 4.",
     "group": "Time — Measurement & Cycles",
     "rank": 389,
@@ -6533,7 +6520,7 @@
     "suffix": "𐑐𐑑"
   },
   "i:d6": {
-    "word": "𐑬𐑑𐑕",
+    "word": "𐑪𐑑𐑕",
     "definition": "The digit six; the numeric value 6.",
     "group": "Evaluation, Quality & Morality",
     "rank": 424,
@@ -6684,7 +6671,7 @@
     "suffix": "𐑚"
   },
   "i:d7": {
-    "word": "𐑶𐑥",
+    "word": "𐑲𐑥",
     "definition": "The digit seven; the numeric value 7.",
     "group": "Belief, Spirit & Meaning",
     "rank": 434,
@@ -6807,7 +6794,7 @@
     "suffix": "𐑐𐑑"
   },
   "i:d8": {
-    "word": "𐑵𐑯𐑗",
+    "word": "𐑩𐑯𐑗",
     "definition": "The digit eight; the numeric value 8.",
     "group": "Change & Process",
     "rank": 443,
@@ -6888,7 +6875,7 @@
     "suffix": "𐑯𐑔"
   },
   "i:1907": {
-    "word": "𐑦𐑯𐑔",
+    "word": "𐑵𐑯𐑔",
     "definition": "A unit of time approximately one-twelfth of a year; roughly 30 days.",
     "group": "Time — Measurement & Cycles",
     "rank": 449,
