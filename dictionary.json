@@ -46,14 +46,17 @@
   },
   "sv:𐑰": {
     "word": "𐑰",
-    "definition": "I / me — first person pronoun; subject of a clause. Object/reflexive handled by prefix system.",
+    "definition": "I / me — first person pronoun; subject of a clause. Object/reflexive handled by prefix system. When plural, it means we or us.",
     "group": "Single-Vowel Reserved Words",
     "rank": 4,
     "translations": [
       "I",
       "me",
       "myself",
-      "my"
+      "my",
+      "we",
+      "us",
+      "oureselves"
     ],
     "vowel": "𐑰",
     "suffix": ""
@@ -255,10 +258,11 @@
   },
   "sv:𐑵": {
     "word": "𐑵",
-    "definition": "We / us — first person plural inclusive (speaker + addressee + others).",
+    "definition": "Strictly you and me (speaker and person spoken to). Negated it means everyone but you (person spoken to).",
     "group": "Single-Vowel Reserved Words",
     "rank": 18,
     "translations": [
+      "you and me",
       "we",
       "us",
       "our"
@@ -3456,7 +3460,6 @@
     "translations": [
       "creativity",
       "imagination",
-      "creativity",
       "craft",
       "invention",
       "artistry"
