@@ -89,7 +89,7 @@
       "unit": "unit-1",
       "order": 1,
       "title": "How words are built",
-      "subtitle": "Suffixes, vowels, and the {{prefix:verb-past-base-symbol}}{{prefix:noun-object-base-symbol}} family",
+      "subtitle": "Suffixes, vowels, and the {{dict:i:0001.suffix}} family",
       "description": "Every word in thints is built from a suffix (the topic family) and a vowel (which specific idea). Learn to read any word before you know it.",
       "estimatedMinutes": 7,
       "xp": 100,

@@ -370,7 +370,7 @@
     {
       "id": "ch-color",
       "title": "Color",
-      "summary": "The fully numeric color system — hue, lightness, saturation, and grayscale.",
+      "summary": "The fully numeric color system — hue, lightness, saturation, grayscale, and an interactive reference.",
       "sections": [
         {
           "id": "color-system",
@@ -410,6 +410,13 @@
               "breakdown": []
             }
           ]
+        },
+        {
+          "id": "color-scale",
+          "title": "Interactive color scale",
+          "body": "Every color in thints is built from three numbers: **hue** (0–9), **lightness** (0–4), and **saturation** (5–9). The swatches below show the full system with the thints words you would use to say each color. Click any swatch to see the full word.",
+          "examples": [],
+          "widget": "color-scale"
         }
       ]
     },
